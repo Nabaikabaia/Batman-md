@@ -1,60 +1,403 @@
-# 🤖 Knight Bot
-
-This is a WhatsApp bot built using the Baileys library for group management, including features like tagging all members, muting/unmuting, and many more. It's designed to help admins efficiently manage WhatsApp groups.
+# 🤖 BATMAN MD
 
 <div align="center"> 
   <a href="https://git.io/typing-svg"> 
-    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=Knight-Bot;Multi+Device+Whatsapp+Bot;Coded+By+Professor" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=BATMAN+MD" alt="Typing SVG" />
   </a> 
 </div> 
 
 <div align="center"> 
   <a href="https://youtube.com/@mr_unique_hacker"> 
-    <img src="https://github.com/mruniquehacker/Knightbot-MD/blob/main/assets/bot_image.jpg" alt="Knight Bot" height="300"> 
+    <img src="https://github.com/Nabaikabaia/Batman-md/blob/main/assets/bot_image.jpg" alt="BATMAN MD" height="300"> 
   </a> 
 </div>
 
+<p align="center">
+  <a href="https://github.com/Nabaikabaia/Batman-md">
+    <img src="https://img.shields.io/github/followers/Nabaikabaia?style=for-the-badge&label=Followers&color=black" alt="GitHub followers"/>
+  </a>
+  <a href="https://github.com/Nabaikabaia/Batman-md/stargazers">
+    <img src="https://img.shields.io/github/stars/Nabaikabaia/Batman-md?style=for-the-badge&label=Stars&color=gold" alt="GitHub stars"/>
+  </a>
+  <a href="https://github.com/Nabaikabaia/Batman-md/network/members">
+    <img src="https://img.shields.io/github/forks/Nabaikabaia/Batman-md?style=for-the-badge&label=Forks&color=blue" alt="GitHub forks"/>
+  </a>
+  <a href="https://github.com/Nabaikabaia/Batman-md/watchers">
+    <img src="https://img.shields.io/github/watchers/Nabaikabaia/Batman-md?style=for-the-badge&label=Watchers&color=green" alt="GitHub watchers"/>
+  </a>
+  <a href="https://github.com/Nabaikabaia/Batman-md/issues">
+    <img src="https://img.shields.io/github/issues/Nabaikabaia/Batman-md?style=for-the-badge&label=Issues&color=red" alt="GitHub issues"/>
+  </a>
+  <a href="https://github.com/Nabaikabaia/Batman-md/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/Nabaikabaia/Batman-md?style=for-the-badge&label=License&color=brightgreen" alt="GitHub license"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-2.0.0-blue?style=for-the-badge" alt="Version"/>
+  <img src="https://img.shields.io/badge/Node.js-18.x-green?style=for-the-badge&logo=node.js" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/WhatsApp-MultiDevice-25D366?style=for-the-badge&logo=whatsapp" alt="WhatsApp MD"/>
+  <img src="https://img.shields.io/badge/Commands-100%2B-orange?style=for-the-badge" alt="100+ Commands"/>
+</p>
+
+---
+
 <div align="center">
-  <img src="https://img.shields.io/github/followers/mruniquehacker?style=for-the-badge&label=Followers" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/mruniquehacker/Knightbot-MD?style=for-the-badge&label=Stars" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/mruniquehacker/Knightbot-MD?style=for-the-badge&label=Forks" alt="Forks"/>
-  <img src="https://img.shields.io/github/watchers/mruniquehacker/Knightbot-MD?style=for-the-badge&label=Watchers" alt="Watchers"/>
+  <h3>🌟 A Powerful WhatsApp Bot for Group Management & Fun 🌟</h3>
+  <p>Built with Baileys library • Multi-Device Support • 100+ Commands</p>
 </div>
 
 ---
-<div>
+
+## 📑 Table of Contents
+
+- [About](#-about)
+- [Features](#-features)
+- [Commands](#-commands)
+- [Deployment](#-deployment)
+- [Setup](#-setup--installation)
+- [Configuration](#-configuration)
+- [Support](#-support)
+- [Contributing](#-contributing)
+- [License & Legal](#-license--legal)
+
+---
+
+## 📖 About
+
+**BATMAN MD** is a feature-rich WhatsApp bot designed for group management, entertainment, and utility. Built using the [Baileys](https://github.com/WhiskeySockets/Baileys) library, it supports WhatsApp's Multi-Device protocol and provides group admins with powerful tools to manage their communities effectively.
+
+Whether you need to tag all members, play games, download media, or moderate content, BATMAN MD has got you covered with over **100+ commands** across multiple categories.
+
+<div align="center">
   <a href="https://www.thordata.com/products/residential-proxies?ls=YouTube&lk=Knightbot" target="_blank">
     <img src="assets/thor.png" alt="ThorData Proxies" width="100%" />
   </a>
 </div>
 
-<br>
+---
 
-<div align="left">
-  <b>Thordata: Get Reliable Global Proxies at an Unbeatable Value.</b><br><br>
-  One-click data collection with enterprise-grade stability and compliance.<br>
-  Join thousands of developers using ThorData for high-scale operations.<br><br>
-  🎁 <b>Exclusive Offer:</b> Sign up for a free Residential Proxy trial and 2,000 <b>FREE SERP API calls!</b>
-</div>
+## ✨ Features
 
-<br>
+### 👥 **Group Management**
+| Feature | Description | Commands |
+|---------|-------------|----------|
+| **Member Tagging** | Tag all members or specific groups | `.tagall`, `.hidetag`, `.tagnotadmin` |
+| **Admin Tools** | Promote/demote admins, kick members | `.promote`, `.demote`, `.kick` |
+| **Moderation** | Warn, ban, mute/unmute members | `.warn`, `.ban`, `.mute`, `.unmute` |
+| **Protection** | Anti-link, anti-badword filters | `.antilink`, `.antibadword` |
+| **Welcome/Goodbye** | Custom welcome & goodbye messages | `.welcome`, `.goodbye` |
+| **Group Settings** | Reset link, change group info | `.resetlink`, `.setgdesc`, `.setgname` |
 
-<div align="left">
-  <a href="https://www.thordata.com/products/residential-proxies?ls=YouTube&lk=Knightbot" target="_blank">
-    <img src="https://img.shields.io/badge/Try now-28a745?style=for-the-badge" alt="Try now"/>
-  </a>
-</div>
+### 🎮 **Games & Fun**
+| Feature | Description | Commands |
+|---------|-------------|----------|
+| **Classic Games** | Tic-Tac-Toe, Hangman, Trivia | `.tictactoe`, `.hangman`, `.trivia` |
+| **Party Games** | Truth or Dare | `.truth`, `.dare` |
+| **Fun Interactions** | Compliment, insult, flirt | `.compliment`, `.insult`, `.flirt` |
+| **Relationship** | Ship calculator, crush meter | `.ship`, `.crush` |
+| **Card Generators** | Simp, stupid, wasted cards | `.simp`, `.stupid`, `.wasted` |
 
+### 🤖 **AI & Utilities**
+| Feature | Description | Commands |
+|---------|-------------|----------|
+| **AI Chat** | GPT, Gemini, DeepSeek integration | `.gpt`, `.gemini`, `.deepseek` |
+| **AI Images** | Generate images with AI | `.imagine`, `.flux`, `.sora` |
+| **Utilities** | Weather, news, lyrics, TTS | `.weather`, `.news`, `.lyrics`, `.tts` |
+| **Translation** | Translate text to any language | `.trt`, `.translate` |
 
-## 🚀 Steps to Deploy Bot
+### 📥 **Media Downloader**
+| Platform | Description | Commands |
+|----------|-------------|----------|
+| **YouTube** | Download audio/video | `.play`, `.song`, `.video`, `.ytmp4` |
+| **Instagram** | Posts, reels, stories | `.ig`, `.igs`, `.igsc`, `.instagram` |
+| **Facebook** | Videos & reels | `.fb`, `.facebook` |
+| **TikTok** | Videos without watermark | `.tiktok`, `.tt` |
+| **Spotify** | Songs & playlists | `.spotify` |
+
+### 🎨 **Image/Sticker Tools**
+| Feature | Description | Commands |
+|---------|-------------|----------|
+| **Stickers** | Create stickers from images/videos | `.sticker`, `.s`, `.take` |
+| **Background Remover** | Remove image backgrounds | `.removebg`, `.rmbg`, `.nobg` |
+| **Image Enhancer** | Enhance/upscale images | `.remini`, `.enhance`, `.upscale` |
+| **Effects** | Blur, crop, emoji mix | `.blur`, `.crop`, `.emojimix` |
+| **Telegram Stickers** | Download Telegram stickers | `.tgsticker`, `.telesticker` |
+
+### 🔤 **Text Styles**
+| Style | Command | Style | Command |
+|-------|---------|-------|---------|
+| Metallic | `.metallic` | Ice | `.ice` |
+| Snow | `.snow` | Impressive | `.impressive` |
+| Matrix | `.matrix` | Light | `.light` |
+| Neon | `.neon` | Devil | `.devil` |
+| Purple | `.purple` | Thunder | `.thunder` |
+| Leaves | `.leaves` | 1917 | `.1917` |
+| Arena | `.arena` | Hacker | `.hacker` |
+| Sand | `.sand` | Blackpink | `.blackpink` |
+| Glitch | `.glitch` | Fire | `.fire` |
+
+### 👑 **Owner Only**
+| Command | Description |
+|---------|-------------|
+| `.mode <public/private>` | Change bot access mode |
+| `.autostatus <on/off>` | Auto-view status updates |
+| `.autoreact <on/off>` | Auto-react to messages |
+| `.autotyping <on/off>` | Auto-typing indicator |
+| `.autoread <on/off>` | Auto-read messages |
+| `.antidelete <on/off>` | Save deleted messages |
+| `.pmblocker <on/off>` | Block private messages |
+| `.clearsession` | Clear session files |
+| `.cleartmp` | Clear temp files |
+| `.setpp` | Change bot profile picture |
+| `.update` | Update bot from GitHub |
+
+---
+
+## 📋 Full Command List
+
+<details>
+<summary><b>🤖 AI Menu</b></summary>
+
+| Command | Description |
+|---------|-------------|
+| `.gpt <prompt>` | Ask ChatGPT anything |
+| `.gemini <prompt>` | Use Google Gemini AI |
+| `.deepseek <prompt>` | Use DeepSeek AI |
+| `.imagine <prompt>` | Generate AI images |
+| `.flux <prompt>` | Flux AI image generator |
+| `.sora <prompt>` | Generate AI videos |
+
+</details>
+
+<details>
+<summary><b>📥 Download Menu</b></summary>
+
+| Command | Description |
+|---------|-------------|
+| `.play <song>` | Download song from YouTube |
+| `.song <name>` | Download audio from YouTube |
+| `.video <name>` | Download video from YouTube |
+| `.ytmp4 <link>` | YouTube to MP4 |
+| `.instagram <link>` | Download Instagram media |
+| `.ig <link>` | Instagram downloader |
+| `.igs <link>` | Instagram story downloader |
+| `.igsc <link>` | Instagram highlights downloader |
+| `.facebook <link>` | Download Facebook video |
+| `.fb <link>` | Facebook video downloader |
+| `.tiktok <link>` | Download TikTok video |
+| `.tt <link>` | TikTok downloader |
+| `.spotify <link>` | Download from Spotify |
+
+</details>
+
+<details>
+<summary><b>🎯 Fun Menu</b></summary>
+
+| Command | Description |
+|---------|-------------|
+| `.compliment @user` | Compliment a user |
+| `.insult @user` | Insult a user (funny) |
+| `.flirt` | Send a flirty message |
+| `.shayari` | Get a random shayari |
+| `.goodnight` | Send goodnight message |
+| `.roseday` | Rose day special |
+| `.character` | Character AI chat |
+| `.crush` | Crush calculator |
+| `.simp` | Simp card generator |
+| `.stupid` | Stupid card generator |
+| `.wasted` | GTA wasted effect |
+| `.ship @user @user` | Ship two users |
+
+</details>
+
+<details>
+<summary><b>🎮 Games Menu</b></summary>
+
+| Command | Description |
+|---------|-------------|
+| `.tictactoe @user` | Start Tic-Tac-Toe game |
+| `.hangman` | Start Hangman game |
+| `.guess <letter>` | Guess a letter in Hangman |
+| `.trivia` | Start trivia quiz |
+| `.answer <ans>` | Answer trivia question |
+| `.truth` | Get truth question |
+| `.dare` | Get dare challenge |
+
+</details>
+
+<details>
+<summary><b>👥 Group Menu</b></summary>
+
+| Command | Description |
+|---------|-------------|
+| `.ban @user` | Ban a user from bot |
+| `.unban @user` | Unban a user |
+| `.kick @user` | Kick user from group |
+| `.promote @user` | Promote user to admin |
+| `.demote @user` | Demote admin to member |
+| `.mute <minutes>` | Mute group (optional duration) |
+| `.unmute` | Unmute group |
+| `.tagall` | Tag all group members |
+| `.tagnotadmin` | Tag non-admin members |
+| `.hidetag <text>` | Tag all with hidden text |
+| `.tag <text>` | Custom tag message |
+| `.warn @user` | Warn a user |
+| `.warnings @user` | Check user warnings |
+| `.antilink <on/off>` | Enable/disable anti-link |
+| `.antibadword <on/off>` | Enable/disable bad word filter |
+| `.antitag <on/off>` | Enable/disable anti-tag |
+| `.welcome <on/off>` | Enable/disable welcome message |
+| `.goodbye <on/off>` | Enable/disable goodbye message |
+| `.resetlink` | Reset group invite link |
+| `.setgdesc <text>` | Set group description |
+| `.setgname <name>` | Set group name |
+| `.setgpp` | Set group profile picture |
+| `.groupinfo` | Get group information |
+| `.staff` | List group admins |
+| `.admins` | List group admins |
+| `.jid` | Get group JID |
+
+</details>
+
+<details>
+<summary><b>🌐 General Menu</b></summary>
+
+| Command | Description |
+|---------|-------------|
+| `.menu` | Show this help menu |
+| `.ping` | Check bot response time |
+| `.alive` | Check if bot is alive |
+| `.owner` | Show bot owner info |
+| `.tts <text>` | Text to speech |
+| `.joke` | Get a random joke |
+| `.quote` | Get a random quote |
+| `.fact` | Get a random fact |
+| `.weather <city>` | Get weather info |
+| `.news` | Get latest news |
+| `.lyrics <song>` | Get song lyrics |
+| `.8ball <question>` | Magic 8-ball |
+| `.trt <text> <lang>` | Translate text |
+| `.ss <url>` | Take website screenshot |
+| `.url` | Upload media to URL |
+| `.vv` | View once message saver |
+
+</details>
+
+<details>
+<summary><b>🎨 Photo Menu</b></summary>
+
+| Command | Description |
+|---------|-------------|
+| `.sticker` | Create sticker from image |
+| `.s` | Create sticker (shortcut) |
+| `.take <pack> <author>` | Change sticker metadata |
+| `.emojimix <emoji+emoji>` | Mix two emojis |
+| `.blur` | Blur an image |
+| `.simage` | Sticker to image converter |
+| `.removebg` | Remove image background |
+| `.rmbg` | Remove background (shortcut) |
+| `.remini` | Enhance image quality |
+| `.enhance` | Enhance image (shortcut) |
+| `.crop` | Crop sticker/image |
+| `.meme` | Create meme from image |
+| `.tgsticker <link>` | Get Telegram sticker |
+| `.telesticker <link>` | Get Telegram sticker |
+
+</details>
+
+<details>
+<summary><b>🔤 Text Menu</b></summary>
+
+| Command | Description |
+|---------|-------------|
+| `.metallic <text>` | Metallic style text |
+| `.ice <text>` | Ice style text |
+| `.snow <text>` | Snow style text |
+| `.impressive <text>` | Impressive style text |
+| `.matrix <text>` | Matrix style text |
+| `.light <text>` | Light style text |
+| `.neon <text>` | Neon style text |
+| `.devil <text>` | Devil style text |
+| `.purple <text>` | Purple style text |
+| `.thunder <text>` | Thunder style text |
+| `.leaves <text>` | Leaves style text |
+| `.1917 <text>` | 1917 style text |
+| `.arena <text>` | Arena style text |
+| `.hacker <text>` | Hacker style text |
+| `.sand <text>` | Sand style text |
+| `.blackpink <text>` | Blackpink style text |
+| `.glitch <text>` | Glitch style text |
+| `.fire <text>` | Fire style text |
+
+</details>
+
+<details>
+<summary><b>🔒 Owner Menu</b></summary>
+
+| Command | Description |
+|---------|-------------|
+| `.mode <public/private>` | Change bot mode |
+| `.autostatus <on/off>` | Auto-view status |
+| `.autostatus react <on/off>` | Auto-react to status |
+| `.autoread <on/off>` | Auto-read messages |
+| `.autotyping <on/off>` | Auto-typing indicator |
+| `.autoreact <on/off>` | Auto-react to messages |
+| `.antidelete <on/off>` | Save deleted messages |
+| `.pmblocker <on/off>` | Block private messages |
+| `.pmblocker setmsg <text>` | Set PM blocker message |
+| `.clearsession` | Clear session files |
+| `.cleartmp` | Clear temp files |
+| `.setpp` | Change bot profile pic |
+| `.getpp` | Get bot profile pic |
+| `.update` | Update bot from GitHub |
+| `.sudo <command>` | Execute as sudo |
+| `.settings` | View bot settings |
+
+</details>
+
+<details>
+<summary><b>🖼️ Misc & Anime</b></summary>
+
+| Command | Description |
+|---------|-------------|
+| `.heart` | Heart animation |
+| `.horny` | Horny card |
+| `.circle` | Circle image effect |
+| `.lgbt` | LGBT flag overlay |
+| `.lolice` | Lolice card |
+| `.namecard` | Create name card |
+| `.oogway` | Oogway wisdom quote |
+| `.tweet` | Create tweet image |
+| `.ytcomment` | YouTube comment image |
+| `.comrade` | Comrade poster |
+| `.gay` | Gay flag overlay |
+| `.glass` | Glass effect |
+| `.jail` | Jail overlay |
+| `.passed` | Passed out effect |
+| `.triggered` | Triggered effect |
+| `.nom` | Anime eating |
+| `.poke` | Anime poke |
+| `.cry` | Anime cry |
+| `.kiss @user` | Anime kiss |
+| `.pat @user` | Anime pat |
+| `.hug @user` | Anime hug |
+| `.wink` | Anime wink |
+| `.facepalm` | Anime facepalm |
+
+</details>
+
+---
+
+## 🚀 Deployment
 
 ### Step 1: Fork the Repository
 
-Click the button below to fork the Knight Bot repository to your GitHub account:
+Click the button below to fork the BATMAN MD repository to your GitHub account:
 
 <div align="center">
-  <a href="https://github.com/mruniquehacker/Knightbot-MD/fork">
-    <img src="https://img.shields.io/badge/Fork-Repository-blue?style=for-the-badge" alt="Fork the repository"/>
+  <a href="https://github.com/Nabaikabaia/Batman-md/fork">
+    <img src="https://img.shields.io/badge/Fork-Repository-blue?style=for-the-badge&logo=github" alt="Fork the repository"/>
   </a>
 </div>
 
@@ -62,77 +405,46 @@ Click the button below to fork the Knight Bot repository to your GitHub account:
 
 ### Step 2: Get Pair Code
 
-Deploy the bot and easily connect it to your WhatsApp account by pair code. Click the button below to deploy the bot on Replit.
+Get your session credentials using the pair code method:
 
 <div align="center">
   <a href="https://knight-bot-paircode.onrender.com" target="_blank">
-    <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Easy%20Method-ff4d4d?style=for-the-badge" alt="Generate Pair Code"/>
+    <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Easy%20Method-ff4d4d?style=for-the-badge&logo=whatsapp" alt="Generate Pair Code"/>
   </a>
 </div>
 
-
-### After getting creds.json file, upload it to session folder
+**After getting `creds.json` file, upload it to the `session` folder**
 
 ---
 
 ### Step 3: Deploy Now
 
-For further customization and setup guidance, click the button below:
+#### Deploy on VPS/Panel
 
 <div align="center">
   <a href="https://youtu.be/-oz_u1iMgf8">
-    <img src="https://img.shields.io/badge/Deploy Tutorial-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/>
+    <img src="https://img.shields.io/badge/Deploy Tutorial-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Tutorial"/>
   </a>
   <a href="https://bot-hosting.net/?aff=1068419752923508776">
-    <img src="https://img.shields.io/badge/Deploy on Panel-28a745?style=for-the-badge" alt="Deploy on Panel"/>
+    <img src="https://img.shields.io/badge/Deploy on Panel-28a745?style=for-the-badge&logo=server" alt="Deploy on Panel"/>
   </a>
 </div>
 
-### Deploy on VPS
+#### Deploy on VPS
 
 <div align="center">
   <a href="https://client.petrosky.io/aff.php?aff=394" target="_blank">
-    <img src="https://img.shields.io/badge/petrosky vps-0078E7?style=for-the-badge" alt="petrosky vps"/>
+    <img src="https://img.shields.io/badge/Petrosky VPS-0078E7?style=for-the-badge&logo=linux" alt="Petrosky VPS"/>
   </a>
 </div>
 
-### Deploy on Below Panel
+#### Deploy on Katabump Panel
+
 <div align="center">
 <a href="https://dashboard.katabump.com/auth/login#d6b7d6" target="_blank">
   <img src="https://img.shields.io/badge/Katabump-D6B7D6?style=for-the-badge&logo=server&logoColor=black" alt="Katabump"/>
 </a>
 </div>
-
-### Join Us
-
-<div align="center">
-  <a href="https://t.me/+3QhFUZHx-nhhZmY1">
-    <img src="https://img.shields.io/badge/Join%20Telegram-0078E7?style=for-the-badge&logo=telegram&logoColor=white" alt="Join Telegram"/>
-  </a>
-  <a href="https://whatsapp.com/channel/0029Va90zAnIHphOuO8Msp3A">
-    <img src="https://img.shields.io/badge/Join%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Join WhatsApp"/>
-  </a>
-</div>
-
----
-
-## ⚙️ Features
-
-- **Tag all group members** with the `.tagall` command
-- **Admin restricted usage** (Only group admins can use certain commands)
-- **Games** like Tic-Tac-Toe for interactive group engagement
-- **Text-to-Speech** with `.tts`
-- **Sticker creation** with `.sticker`
-- **Anti-link detection** for group safety
-- **Warn and manage group members** with admin control
-
----
-
-## 📖 About
-
-The Knight WhatsApp Bot assists group admins by providing them with tools to efficiently manage large WhatsApp groups. The bot uses the Baileys library to interact with the WhatsApp Web API and supports multi-device features.
-
-It is lightweight and can be easily customized to add more commands as per your requirements. The bot runs in a Node.js environment and provides QR code-based authentication to link your WhatsApp account.
 
 ---
 
@@ -140,105 +452,15 @@ It is lightweight and can be easily customized to add more commands as per your 
 
 ### Prerequisites
 
-- Node.js installed on your system
-- Git installed (for cloning the repository)
+- **Node.js** v18.x or higher
+- **Git** installed on your system
+- **WhatsApp** account (for bot connection)
+- **Terminal/Command Line** access
 
 ### Step-by-Step Setup
 
 1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/mruniquehacker/Knightbot-MD.git
-    cd Knightbot-MD
-    ```
-
-2. **Install the dependencies:**
-
-    ```bash
-    npm install
-    ```
-
-3. **Run the bot:**
-
-    ```bash
-    node index.js
-    ```
-
-4. **Scan the QR code:**
-
-    Once the bot starts, a QR code will appear in the terminal. Scan this QR code using the Linked Devices feature in WhatsApp to connect your WhatsApp account with the bot.
-
----
-
-## ☕ Support Me
-
-<div align="center">
-
-<a href="https://buymeacoffee.com/mruniquehacker" target="_blank">
-  <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Developer-FF813F?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me a Coffee">
-</a>
-
-</div>
-
-If you find this project helpful and want to support the developer, consider buying me a coffee! Your support helps maintain and improve this open-source project.
-
-<div align="center">
-
-<img src="assets/bmc_qr.png" alt="Buy Me a Coffee QR Code" width="200">
-
-</div>
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](https://github.com/mruniquehacker/Knightbot-MD/blob/main/LICENSE) file for details.
-
----
-
-## 🙌 Contributions
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/mruniquehacker/Knightbot-MD/issues).
-
----
-
-## 🌟 Show your support
-
-If you like this project, please give it a [⭐️ star on GitHub](https://github.com/mruniquehacker/Knightbot)!
-
-
-## Credits
-
-- [Professor](https://github.com/mruniquehacker)
-- [Baileys](https://github.com/adiwajshing/Baileys)
-- [TechGod143](https://github.com/TechGod143) for pair code
-- [Dgxeon](https://github.com/Dgxeon) for pair code
-
----
-
-## ⚠️ Important Warning
-
-**Note:** This bot is created for educational purposes only. This is NOT an official WhatsApp bot. Using this bot may lead to your WhatsApp account being banned. Use it at your own risk. The developers will not be responsible for any consequences or account bans that may occur while using this bot.
-
-## 📝 Legal
-
-- This project is not affiliated with, authorized, maintained, sponsored or endorsed by WhatsApp or any of its affiliates or subsidiaries.
-- This is an independent and unofficial software. Use at your own risk.
-- Do not spam people with this bot.
-- Do not use this bot to send bulk messages or for illegal purposes.
-- The developers assume no liability and are not responsible for any misuse or damage caused by this program.
-
-### License
-This project is licensed under the MIT License. However, you must:
-- Use this software in compliance with all applicable laws and regulations
-- Include original license and copyright notices
-- Credit original authors
-- Not use for spam or malicious purposes
-
-## 📜 Copyright Notice
-
-Copyright (c) 2024 Professor. All rights reserved.
-
-This project contains code from various open source projects:
-- Baileys (MIT License)
-- Other libraries as listed in package.json
+   ```bash
+   git clone https://github.com/Nabaikabaia/Batman-md.git
+   cd Batman-md
