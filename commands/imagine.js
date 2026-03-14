@@ -26,29 +26,59 @@ async function imagineCommand(sock, chatId, message) {
             quoted: message
         });
 
+        // Newsletter context for all responses
+        const newsletterContext = {
+            forwardingScore: 9999,
+            isForwarded: true,
+            forwardedNewsletterMessageInfo: {
+                newsletterJid: '120363367299421766@newsletter',
+                newsletterName: 'BATMAN MD',
+                serverMessageId: 127
+            }
+        };
+
         // Enhance the prompt with quality keywords
         const enhancedPrompt = enhancePrompt(imagePrompt);
 
         // Make API request
-        const response = await axios.get(`https://shizoapi.onrender.com/api/ai/imagine?apikey=shizo&query=${encodeURIComponent(enhancedPrompt)}`, {
-            responseType: 'arraybuffer'
-        });
+        const response = await axios.get(`https://apis.davidcyril.name.ng/fluxv2?prompt=${encodeURIComponent(enhancedPrompt)}`);
+        
+        // Handle the new response format with result URL
+        if (response.data && response.data.success && response.data.result) {
+            const imageUrl = response.data.result;
+            
+            // Fetch the image buffer from the URL
+            const imageBuffer = await fetchBuffer(imageUrl);
 
-        // Convert response to buffer
-        const imageBuffer = Buffer.from(response.data);
-
-        // Send the generated image
-        await sock.sendMessage(chatId, {
-            image: imageBuffer,
-            caption: `🎨 Generated image for prompt: "${imagePrompt}"`
-        }, {
-            quoted: message
-        });
+            // Send the generated image with newsletter context
+            await sock.sendMessage(chatId, {
+                image: imageBuffer,
+                caption: `🎨 Generated image for prompt: "${imagePrompt}"`,
+                contextInfo: newsletterContext
+            }, {
+                quoted: message
+            });
+        } else {
+            throw new Error('Invalid response from Flux API');
+        }
 
     } catch (error) {
         console.error('Error in imagine command:', error);
+        
+        // Newsletter context for error messages
+        const errorContext = {
+            forwardingScore: 9999,
+            isForwarded: true,
+            forwardedNewsletterMessageInfo: {
+                newsletterJid: '120363367299421766@newsletter',
+                newsletterName: 'BATMAN MD',
+                serverMessageId: 127
+            }
+        };
+        
         await sock.sendMessage(chatId, {
-            text: '❌ Failed to generate image. Please try again later.'
+            text: '❌ Failed to generate image. Please try again later.',
+            contextInfo: errorContext
         }, {
             quoted: message
         });
@@ -81,4 +111,4 @@ function enhancePrompt(prompt) {
     return `${prompt}, ${selectedEnhancers.join(', ')}`;
 }
 
-module.exports = imagineCommand; 
+module.exports = imagineCommand;

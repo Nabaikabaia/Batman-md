@@ -170,10 +170,10 @@ async function helpCommand(sock, chatId, message) {
                 thumbnailBuffer = fs.readFileSync(thumbPath);
             }
         } catch (e) {
-            console.log('No custom thumbnail, using OG image');
+            console.log('No custom thumbnail, using default');
         }
         
-        // Context info with EXTERNAL AD REPLY style
+        // Context info with EXTERNAL AD REPLY style - NO QUOTING
         const contextInfo = {
             forwardingScore: 9999,
             isForwarded: true,
@@ -421,27 +421,29 @@ ${getSpacing(2)}
 ◈ Bot: 𝘽𝘼𝙏𝙈𝘼𝙉 𝙈𝘿 v${settings.version || '1.0.0'}
 ◈━══━══━══━❁━══━══━══━◈`;
 
-        // Send ONE message with image + caption + BEAUTIFUL WEBSITE PREVIEW at the top
+        // Send the main menu message with image + caption + rich preview
+        // IMPORTANT: Removed { quoted: message } to ensure visibility for everyone
         if (fs.existsSync(imagePath)) {
             const imageBuffer = fs.readFileSync(imagePath);
             await sock.sendMessage(chatId, {
                 image: imageBuffer,
                 caption: menuText,
                 contextInfo: contextInfo
-            }, { quoted: message });
+            }); // No quoted message here
         } else {
+            // Fallback to text-only if image doesn't exist
             await sock.sendMessage(chatId, { 
                 text: menuText,
                 contextInfo: contextInfo
-            }, { quoted: message });
+            }); // No quoted message here
         }
 
-        // Send the song file after a small delay
+        // Send the song file after a delay to prevent message clashes
         if (fs.existsSync(songPath)) {
             const songBuffer = fs.readFileSync(songPath);
             
-            // Small delay to ensure messages don't clash
-            await new Promise(resolve => setTimeout(resolve, 800));
+            // Longer delay (1 second) to ensure messages don't clash
+            await new Promise(resolve => setTimeout(resolve, 1000));
             
             await sock.sendMessage(chatId, {
                 audio: songBuffer,
@@ -456,14 +458,15 @@ ${getSpacing(2)}
                         serverMessageId: 127
                     }
                 }
-            }, { quoted: message });
+            }); // No quoted message here either for consistency
             
             console.log('🎵 Song sent successfully');
         }
 
     } catch (error) {
         console.error('Error in help command:', error);
-        await sock.sendMessage(chatId, { text: 'Error loading menu' }, { quoted: message });
+        // Send error message without quoting to maintain visibility
+        await sock.sendMessage(chatId, { text: 'Error loading menu' });
     }
 }
 

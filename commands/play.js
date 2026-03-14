@@ -42,11 +42,23 @@ async function playCommand(sock, chatId, message) {
         const audioUrl = data.result.downloadUrl;
         const title = data.result.title;
 
-        // Send the audio
+        // Newsletter context
+        const newsletterContext = {
+            forwardingScore: 9999,
+            isForwarded: true,
+            forwardedNewsletterMessageInfo: {
+                newsletterJid: '120363367299421766@newsletter',
+                newsletterName: 'BATMAN MD',
+                serverMessageId: 127
+            }
+        };
+
+        // Send the audio with newsletter context
         await sock.sendMessage(chatId, {
             audio: { url: audioUrl },
             mimetype: "audio/mpeg",
-            fileName: `${title}.mp3`
+            fileName: `${title}.mp3`,
+            contextInfo: newsletterContext
         }, { quoted: message });
 
     } catch (error) {
@@ -57,7 +69,7 @@ async function playCommand(sock, chatId, message) {
     }
 }
 
-module.exports = playCommand; 
+module.exports = playCommand;
 
 /*Powered by KNIGHT-BOT*
-*Credits to Keith MD*`*/
+*Credits to Keith MD*`
