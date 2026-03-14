@@ -1,0 +1,519 @@
+const settings = require('../settings');
+const fs = require('fs');
+const path = require('path');
+
+// Store bot start time
+const botStartTime = Date.now();
+
+// ============================================
+// UNICODE INVISIBLE SPACING FOR READMORE
+// ============================================
+function getSpacing(lines = 1) {
+    // Using Unicode invisible characters for readmore trick
+    // U+200E is Left-to-Right Mark (invisible)
+    // Combining multiple creates invisible spacing that forces readmore
+    return '\u200E'.repeat(500 * lines);
+}
+
+// ============================================
+// MULTIPLE URL ARRAYS FOR RANDOM SELECTION
+// ============================================
+const imageUrls = [
+    'https://eliteprotech-url.zone.id/1773493781642d4s64t.jpg',
+    'https://ik.imagekit.io/tezfiles/BATMAN/batman_bot_2.jpg',
+    'https://ik.imagekit.io/tezfiles/BATMAN/batman_bot_3.jpg',
+    'https://ik.imagekit.io/tezfiles/BATMAN/batman_bot_4.jpg',
+    'https://ik.imagekit.io/tezfiles/BATMAN/batman_bot_5.jpg',
+    'https://ik.imagekit.io/tezfiles/BATMAN/batman_bot_6.jpg',
+    'https://ik.imagekit.io/tezfiles/BATMAN/batman_bot_7.jpg',
+    'https://ik.imagekit.io/tezfiles/BATMAN/batman_bot_8.jpg',
+    'https://ik.imagekit.io/tezfiles/BATMAN/batman_bot_9.jpg',
+    'https://ik.imagekit.io/tezfiles/BATMAN/batman_bot_10.jpg'
+];
+
+const songUrls = [
+    'https://eliteprotech-url.zone.id/17732975697380ue3xn.mp3',
+    'https://ik.imagekit.io/tezfiles/BATMAN/menu_song_2.mp3',
+    'https://ik.imagekit.io/tezfiles/BATMAN/menu_song_3.mp3',
+    'https://ik.imagekit.io/tezfiles/BATMAN/menu_song_4.mp3',
+    'https://ik.imagekit.io/tezfiles/BATMAN/menu_song_5.mp3',
+    'https://ik.imagekit.io/tezfiles/BATMAN/menu_song_6.mp3',
+    'https://ik.imagekit.io/tezfiles/BATMAN/menu_song_7.mp3',
+    'https://ik.imagekit.io/tezfiles/BATMAN/menu_song_8.mp3',
+    'https://ik.imagekit.io/tezfiles/BATMAN/menu_song_9.mp3',
+    'https://ik.imagekit.io/tezfiles/BATMAN/menu_song_10.mp3'
+];
+
+// ============================================
+// FUNCTION TO GET RANDOM URL FROM ARRAY
+// ============================================
+function getRandomUrl(urlArray) {
+    const randomIndex = Math.floor(Math.random() * urlArray.length);
+    return urlArray[randomIndex];
+}
+
+function getUptime() {
+    const uptimeSeconds = Math.floor((Date.now() - botStartTime) / 1000);
+    
+    const days = Math.floor(uptimeSeconds / (3600 * 24));
+    const hours = Math.floor((uptimeSeconds % (3600 * 24)) / 3600);
+    const minutes = Math.floor((uptimeSeconds % 3600) / 60);
+    const seconds = uptimeSeconds % 60;
+    
+    if (days > 0) return `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    if (hours > 0) return `${hours}h ${minutes}m ${seconds}s`;
+    if (minutes > 0) return `${minutes}m ${seconds}s`;
+    return `${seconds}s`;
+}
+
+// ============================================
+// Random header selector
+// ============================================
+function getRandomHeader(senderName, prefix, uptime) {
+    const headers = [
+        // Header Style 1 - Original BATMAN MD
+        `╭━◈〔 🔥 ${settings.botName || 'BATMAN MD'} v${settings.version || '1.0.0'} 〕╼
+┃ ❀ Owner : 𖤍 ${settings.botOwner || 'Nabees Tech'} 𖤍
+┃ ❀ User  : ${senderName}
+┃ ❀ Mode  : 🌍 ${settings.mode || 'public'}
+┃ ❀ Prefix : ${prefix}
+┃ ❀ Commands : 100+ online
+┃ ❀ Runtime : ${uptime}
+╰━◈━━━━━━━━❁━━━━━━━━━◈━╯`,
+
+        // Header Style 2 - Orman XMD Style
+        `╭━𑁍〔🔥 ${settings.botName || 'BATMAN MD'} v${settings.version || '1.0.0'} 〕╼
+┃ ❀ Owner : 𖤍 ${settings.botOwner || 'Nabees Tech'} 𖤍
+┃ ❀ User  : ${senderName}
+┃ ❀ Mode  : 🌍 ${settings.mode || 'public'}
+┃ ❀ Prefix : ${prefix}
+┃ ❀ Commands : 100+ online
+┃ ❀ Runtime : ${uptime}
+╰━𑁍━══━═━❁━═━══━𑁍━╯`,
+
+        // Header Style 3 - Queen Riam Style
+        `*『 👑 ${settings.botName || 'BATMAN MD'} 』*
+*│ 👤 ᴏᴡɴᴇʀ     : ${settings.botOwner || 'Nabees Tech'}*
+*│ 👤 ᴜsᴇʀ      : ${senderName}*
+*│ 🌍 ᴍᴏᴅᴇ      : [ ${settings.mode || 'public'} ]*
+*│ 🛠️ ᴘʀᴇғɪx    : [ ${prefix} ]*
+*│ 🔄 ᴜᴘᴛɪᴍᴇ    : ${uptime}*
+*╰─────────⟢*`,
+
+        // Header Style 4 - Knight Bot Style
+        `╔══════════════════╗
+║   🤖 ${settings.botName || 'BATMAN MD'}   ║
+╠══════════════════╣
+║ Owner: ${settings.botOwner || 'Nabees Tech'}
+║ User: ${senderName}
+║ Mode: ${settings.mode || 'public'}
+║ Prefix: ${prefix}
+║ Uptime: ${uptime}
+╚══════════════════╝`,
+
+        // Header Style 5 - Minimalist Style
+        `┏━━〔 ${settings.botName || 'BATMAN MD'} 〕━━┓
+┃ Owner  : ${settings.botOwner || 'Nabees Tech'}
+┃ User    : ${senderName}
+┃ Mode    : ${settings.mode || 'public'}
+┃ Prefix  : ${prefix}
+┃ Uptime  : ${uptime}
+┗━━━━━━━━━━━━━━━━━━┛`,
+
+        // Header Style 6 - Gothic Style
+        `🕸️━━━━━━◈━━━━━━🕸️
+◈  ${settings.botName || 'BATMAN MD'} v${settings.version || '1.0.0'}  ◈
+◈ Owner : ${settings.botOwner || 'Nabees Tech'}
+◈ User   : ${senderName}
+◈ Mode   : ${settings.mode || 'public'}
+◈ Prefix : ${prefix}
+◈ Uptime : ${uptime}
+🕸️━━━━━━◈━━━━━━🕸️`,
+
+        // Header Style 7 - Neon Style
+        `╔═══❖═══❖═══╗
+    ${settings.botName || 'BATMAN MD'}
+╚═══❖═══❖═══╝
+👑 Owner : ${settings.botOwner || 'Nabees Tech'}
+👤 User   : ${senderName}
+🌍 Mode   : ${settings.mode || 'public'}
+⚡ Prefix : ${prefix}
+⏱️ Uptime : ${uptime}`,
+
+        // Header Style 8 - Japanese Style
+        `🌸━━━━━━❁━━━━━━🌸
+    ✦ ${settings.botName || 'BATMAN MD'} ✦
+🌸━━━━━━❁━━━━━━🌸
+┃ 所有者: ${settings.botOwner || 'Nabees Tech'}
+┃ ユーザー: ${senderName}
+┃ モード: ${settings.mode || 'public'}
+┃ プレフィックス: ${prefix}
+┃ 稼働時間: ${uptime}
+🌸━━━━━━❁━━━━━━🌸`,
+
+        // Header Style 9 - Retro Style
+        `╔══════════════════╗
+║ ★ ${settings.botName || 'BATMAN MD'} ★ ║
+╠══════════════════╣
+║ ▸ Owner: ${settings.botOwner || 'Nabees Tech'}
+║ ▸ User: ${senderName}
+║ ▸ Mode: ${settings.mode || 'public'}
+║ ▸ Prefix: ${prefix}
+║ ▸ Uptime: ${uptime}
+╚══════════════════╝`,
+
+        // Header Style 10 - Simple Box
+        `┌─── ⋆⋅☆⋅⋆ ───┐
+  ${settings.botName || 'BATMAN MD'}
+├─── ⋆⋅☆⋅⋆ ───┤
+  Owner : ${settings.botOwner || 'Nabees Tech'}
+  User   : ${senderName}
+  Mode   : ${settings.mode || 'public'}
+  Prefix : ${prefix}
+  Uptime : ${uptime}
+└─── ⋆⋅☆⋅⋆ ───┘`
+    ];
+
+    // Pick a random header
+    const randomIndex = Math.floor(Math.random() * headers.length);
+    return headers[randomIndex];
+}
+
+async function helpCommand(sock, chatId, message) {
+    try {
+        // Get the current prefix from settings
+        const prefix = settings.prefix || '.';
+        
+        // Get sender name
+        const senderId = message.key.participant || message.key.remoteJid;
+        let senderName = senderId.split('@')[0];
+        
+        // Try to get push name if available
+        try {
+            if (message.pushName) {
+                senderName = message.pushName;
+            }
+        } catch (e) {}
+        
+        // Get uptime
+        const uptime = getUptime();
+        
+        // ============================================
+        // GET RANDOM URLS FOR IMAGE AND SONG
+        // ============================================
+        const randomImageUrl = getRandomUrl(imageUrls);
+        const randomSongUrl = getRandomUrl(songUrls);
+        
+        console.log(`🎲 Selected random image: ${randomImageUrl}`);
+        console.log(`🎲 Selected random song: ${randomSongUrl}`);
+        
+        // Get website thumbnail (still local or can also be URL)
+        let thumbnailBuffer = null;
+        try {
+            const thumbPath = path.join(__dirname, '../assets/website_thumb.jpg');
+            if (fs.existsSync(thumbPath)) {
+                thumbnailBuffer = fs.readFileSync(thumbPath);
+            } else {
+                console.log('No thumbnail found, using default');
+            }
+        } catch (e) {
+            console.log('Error loading thumbnail:', e);
+        }
+        
+        // Context info with EXTERNAL AD REPLY style
+        const contextInfo = {
+            forwardingScore: 9999,
+            isForwarded: true,
+            forwardedNewsletterMessageInfo: {
+                newsletterJid: '120363367299421766@newsletter',
+                newsletterName: 'BATMAN MD',
+                serverMessageId: 127
+            },
+            externalAdReply: {
+                sourceUrl: 'https://nabees.online',
+                mediaUrl: 'https://nabees.online',
+                mediaType: 2,
+                thumbnail: thumbnailBuffer,
+                thumbnailUrl: 'https://nabees.online/og-image.jpg',
+                title: 'Nãbēēs Projects',
+                body: 'Scalable Web Tools & Developer Hub • React • Node.js • Python',
+                renderLargerThumbnail: false,
+                showAdAttribution: true
+            }
+        };
+
+        // Get random header
+        const randomHeader = getRandomHeader(senderName, prefix, uptime);
+
+        // Menu text with your preferred command frames
+        const menuText = `
+${randomHeader}
+${getSpacing(2)}
+
+*『 🤖 𝘼𝙄 𝙈𝙚𝙣𝙪 』*
+*│ ♧ ${prefix}gpt*
+*│ ♧ ${prefix}gemini*
+*│ ♧ ${prefix}deepseek*
+*│ ♧ ${prefix}imagine*
+*│ ♧ ${prefix}flux*
+*│ ♧ ${prefix}sora*
+*╰─────────⟢*
+${getSpacing(2)}
+
+*『 📥 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙈𝙚𝙣𝙪 』*
+*│ ♧ ${prefix}play*
+*│ ♧ ${prefix}song*
+*│ ♧ ${prefix}spotify*
+*│ ♧ ${prefix}instagram*
+*│ ♧ ${prefix}facebook*
+*│ ♧ ${prefix}tiktok*
+*│ ♧ ${prefix}video*
+*│ ♧ ${prefix}gitclone*
+*│ ♧ ${prefix}ytmp4*
+*╰─────────⟢*
+${getSpacing(2)}
+
+*『 🎯 𝙁𝙪𝙣 𝙈𝙚𝙣𝙪 』*
+*│ ♧ ${prefix}compliment*
+*│ ♧ ${prefix}insult*
+*│ ♧ ${prefix}flirt*
+*│ ♧ ${prefix}shayari*
+*│ ♧ ${prefix}goodnight*
+*│ ♧ ${prefix}roseday*
+*│ ♧ ${prefix}character*
+*│ ♧ ${prefix}crush*
+*│ ♧ ${prefix}simp*
+*│ ♧ ${prefix}stupid*
+*│ ♧ ${prefix}wasted*
+*│ ♧ ${prefix}ship*
+*╰─────────⟢*
+${getSpacing(2)}
+
+*『 🎮 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 』*
+*│ ♧ ${prefix}tictactoe*
+*│ ♧ ${prefix}hangman*
+*│ ♧ ${prefix}guess*
+*│ ♧ ${prefix}trivia*
+*│ ♧ ${prefix}answer*
+*│ ♧ ${prefix}truth*
+*│ ♧ ${prefix}dare*
+*╰─────────⟢*
+${getSpacing(2)}
+
+*『 👥 𝙂𝙧𝙤𝙪𝙥 𝙈𝙚𝙣𝙪 』*
+*│ ♧ ${prefix}ban*
+*│ ♧ ${prefix}promote*
+*│ ♧ ${prefix}demote*
+*│ ♧ ${prefix}mute*
+*│ ♧ ${prefix}unmute*
+*│ ♧ ${prefix}delete*
+*│ ♧ ${prefix}kick*
+*│ ♧ ${prefix}warnings*
+*│ ♧ ${prefix}warn*
+*│ ♧ ${prefix}antilink*
+*│ ♧ ${prefix}antibadword*
+*│ ♧ ${prefix}clear*
+*│ ♧ ${prefix}tag*
+*│ ♧ ${prefix}tagall*
+*│ ♧ ${prefix}hidetag*
+*│ ♧ ${prefix}tagnotadmin*
+*│ ♧ ${prefix}chatbot*
+*│ ♧ ${prefix}resetlink*
+*│ ♧ ${prefix}antitag*
+*│ ♧ ${prefix}welcome*
+*│ ♧ ${prefix}goodbye*
+*│ ♧ ${prefix}setgdesc*
+*│ ♧ ${prefix}setgname*
+*│ ♧ ${prefix}setgpp*
+*╰─────────⟢*
+${getSpacing(2)}
+
+*『 🌐 𝙂𝙚𝙣𝙚𝙧𝙖𝙡 𝙈𝙚𝙣𝙪 』*
+*│ ♧ ${prefix}menu*
+*│ ♧ ${prefix}ping*
+*│ ♧ ${prefix}alive*
+*│ ♧ ${prefix}tts*
+*│ ♧ ${prefix}owner*
+*│ ♧ ${prefix}joke*
+*│ ♧ ${prefix}quote*
+*│ ♧ ${prefix}fact*
+*│ ♧ ${prefix}weather*
+*│ ♧ ${prefix}news*
+*│ ♧ ${prefix}attp*
+*│ ♧ ${prefix}lyrics*
+*│ ♧ ${prefix}8ball*
+*│ ♧ ${prefix}groupinfo*
+*│ ♧ ${prefix}admins*
+*│ ♧ ${prefix}vv*
+*│ ♧ ${prefix}trt*
+*│ ♧ ${prefix}ss*
+*│ ♧ ${prefix}jid*
+*│ ♧ ${prefix}url*
+*╰─────────⟢*
+${getSpacing(2)}
+
+*『 🔒 𝙊𝙬𝙣𝙚𝙧 𝙈𝙚𝙣𝙪 』*
+*│ ♧ ${prefix}mode*
+*│ ♧ ${prefix}anticall*
+*│ ♧ ${prefix}autoread*
+*│ ♧ ${prefix}autotyping*
+*│ ♧ ${prefix}autoreact*
+*│ ♧ ${prefix}autostatus*
+*│ ♧ ${prefix}clearsession*
+*│ ♧ ${prefix}antidelete*
+*│ ♧ ${prefix}antiedit*
+*│ ♧ ${prefix}cleartmp*
+*│ ♧ ${prefix}setpp*
+*│ ♧ ${prefix}getpp*
+*│ ♧ ${prefix}settings*
+*│ ♧ ${prefix}update*
+*│ ♧ ${prefix}pmblocker*
+*│ ♧ ${prefix}setmention*
+*│ ♧ ${prefix}mention*
+*╰─────────⟢*
+${getSpacing(2)}
+
+*『 🎨 𝙋𝙝𝙤𝙩𝙤 𝙈𝙚𝙣𝙪 』*
+*│ ♧ ${prefix}blur*
+*│ ♧ ${prefix}simage*
+*│ ♧ ${prefix}sticker*
+*│ ♧ ${prefix}tgsticker*
+*│ ♧ ${prefix}removebg*
+*│ ♧ ${prefix}remini*
+*│ ♧ ${prefix}crop*
+*│ ♧ ${prefix}meme*
+*│ ♧ ${prefix}take*
+*│ ♧ ${prefix}emojimix*
+*│ ♧ ${prefix}igs*
+*│ ♧ ${prefix}igsc*
+*╰─────────⟢*
+${getSpacing(2)}
+
+*『 🖼️ 𝙋𝙞𝙚𝙨 𝙈𝙚𝙣𝙪 』*
+*│ ♧ ${prefix}pies*
+*│ ♧ ${prefix}china*
+*│ ♧ ${prefix}indonesia*
+*│ ♧ ${prefix}japan*
+*│ ♧ ${prefix}korea*
+*│ ♧ ${prefix}hijab*
+*╰─────────⟢*
+${getSpacing(2)}
+
+*『 🔤 𝙏𝙚𝙭𝙩 𝙈𝙚𝙣𝙪 』*
+*│ ♧ ${prefix}metallic*
+*│ ♧ ${prefix}ice*
+*│ ♧ ${prefix}snow*
+*│ ♧ ${prefix}impressive*
+*│ ♧ ${prefix}matrix*
+*│ ♧ ${prefix}light*
+*│ ♧ ${prefix}neon*
+*│ ♧ ${prefix}devil*
+*│ ♧ ${prefix}purple*
+*│ ♧ ${prefix}thunder*
+*│ ♧ ${prefix}leaves*
+*│ ♧ ${prefix}1917*
+*│ ♧ ${prefix}arena*
+*│ ♧ ${prefix}hacker*
+*│ ♧ ${prefix}sand*
+*│ ♧ ${prefix}blackpink*
+*│ ♧ ${prefix}glitch*
+*│ ♧ ${prefix}fire*
+*╰─────────⟢*
+${getSpacing(2)}
+
+*『 🧩 𝙈𝙄𝙎𝘾 𝙈𝙚𝙣𝙪 』*
+*│ ♧ ${prefix}heart*
+*│ ♧ ${prefix}horny*
+*│ ♧ ${prefix}circle*
+*│ ♧ ${prefix}lgbt*
+*│ ♧ ${prefix}lolice*
+*│ ♧ ${prefix}its-so-stupid*
+*│ ♧ ${prefix}namecard*
+*│ ♧ ${prefix}oogway*
+*│ ♧ ${prefix}tweet*
+*│ ♧ ${prefix}ytcomment*
+*│ ♧ ${prefix}comrade*
+*│ ♧ ${prefix}gay*
+*│ ♧ ${prefix}glass*
+*│ ♧ ${prefix}jail*
+*│ ♧ ${prefix}passed*
+*│ ♧ ${prefix}triggered*
+*╰─────────⟢*
+${getSpacing(2)}
+
+*『 🖼️ 𝘼𝙉𝙄𝙈𝙀 𝙈𝙚𝙣𝙪 』*
+*│ ♧ ${prefix}nom*
+*│ ♧ ${prefix}poke*
+*│ ♧ ${prefix}cry*
+*│ ♧ ${prefix}kiss*
+*│ ♧ ${prefix}pat*
+*│ ♧ ${prefix}hug*
+*│ ♧ ${prefix}wink*
+*│ ♧ ${prefix}facepalm*
+*╰─────────⟢*
+${getSpacing(2)}
+
+*『 💻 𝙂𝙞𝙩𝙝𝙪𝙗 𝙈𝙚𝙣𝙪 』*
+*│ ♧ ${prefix}git*
+*│ ♧ ${prefix}github*
+*│ ♧ ${prefix}sc*
+*│ ♧ ${prefix}script*
+*│ ♧ ${prefix}repo*
+*╰─────────⟢*
+${getSpacing(2)}
+
+◈━═━〔 *INFO & CREDITS* 〕━═━◈
+◈ *_Powered By_* : ${settings.botOwner || 'Nabees Tech'} ᵗᵐ
+◈ Developer: 𝓝𝓪𝓫𝓮𝓮𝓼 𝓣𝓮𝓬𝓱
+◈ Bot: 𝘽𝘼𝙏𝙈𝘼𝙉 𝙈𝘿 v${settings.version || '1.0.0'}
+◈━══━══━══━❁━══━══━══━◈`;
+
+        // ============================================
+        // SEND IMAGE FROM RANDOM URL WITH CAPTION
+        // ============================================
+        await sock.sendMessage(chatId, {
+            image: { url: randomImageUrl },
+            caption: menuText,
+            contextInfo: contextInfo
+        }, { quoted: message });
+
+        // ============================================
+        // SEND SONG FROM RANDOM URL AFTER DELAY
+        // ============================================
+        // Small delay to ensure messages don't clash
+        await new Promise(resolve => setTimeout(resolve, 800));
+        
+        await sock.sendMessage(chatId, {
+            audio: { url: randomSongUrl },
+            mimetype: 'audio/mpeg',
+            ptt: false,
+            contextInfo: {
+                forwardingScore: 9999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363367299421766@newsletter',
+                    newsletterName: 'BATMAN MD',
+                    serverMessageId: 127
+                }
+            }
+        }, { quoted: message });
+        
+        console.log('🎵 Random song sent successfully');
+
+    } catch (error) {
+        console.error('Error in help command:', error);
+        
+        // Send a fallback text-only menu if image fails
+        try {
+            await sock.sendMessage(chatId, { 
+                text: menuText,
+                contextInfo: contextInfo
+            }, { quoted: message });
+        } catch (fallbackError) {
+            console.error('Fallback also failed:', fallbackError);
+            await sock.sendMessage(chatId, { text: 'Error loading menu' }, { quoted: message });
+        }
+    }
+}
+
+module.exports = helpCommand;
