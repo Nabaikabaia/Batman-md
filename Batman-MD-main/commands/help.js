@@ -6,50 +6,10 @@ const path = require('path');
 const botStartTime = Date.now();
 
 // ============================================
-// UNICODE INVISIBLE SPACING FOR READMORE
+// ENHANCEMENT: Function to create invisible spacing
 // ============================================
 function getSpacing(lines = 1) {
-    // Using Unicode invisible characters for readmore trick
-    // U+200E is Left-to-Right Mark (invisible)
-    // Combining multiple creates invisible spacing that forces readmore
-    return '\u200E'.repeat(500 * lines);
-}
-
-// ============================================
-// MULTIPLE URL ARRAYS FOR RANDOM SELECTION
-// ============================================
-const imageUrls = [
-    'https://eliteprotech-url.zone.id/1773493781642d4s64t.jpg',
-    'https://ik.imagekit.io/tezfiles/BATMAN/batman_bot_2.jpg',
-    'https://ik.imagekit.io/tezfiles/BATMAN/batman_bot_3.jpg',
-    'https://ik.imagekit.io/tezfiles/BATMAN/batman_bot_4.jpg',
-    'https://ik.imagekit.io/tezfiles/BATMAN/batman_bot_5.jpg',
-    'https://ik.imagekit.io/tezfiles/BATMAN/batman_bot_6.jpg',
-    'https://ik.imagekit.io/tezfiles/BATMAN/batman_bot_7.jpg',
-    'https://ik.imagekit.io/tezfiles/BATMAN/batman_bot_8.jpg',
-    'https://ik.imagekit.io/tezfiles/BATMAN/batman_bot_9.jpg',
-    'https://ik.imagekit.io/tezfiles/BATMAN/batman_bot_10.jpg'
-];
-
-const songUrls = [
-    'https://eliteprotech-url.zone.id/17732975697380ue3xn.mp3',
-    'https://ik.imagekit.io/tezfiles/BATMAN/menu_song_2.mp3',
-    'https://ik.imagekit.io/tezfiles/BATMAN/menu_song_3.mp3',
-    'https://ik.imagekit.io/tezfiles/BATMAN/menu_song_4.mp3',
-    'https://ik.imagekit.io/tezfiles/BATMAN/menu_song_5.mp3',
-    'https://ik.imagekit.io/tezfiles/BATMAN/menu_song_6.mp3',
-    'https://ik.imagekit.io/tezfiles/BATMAN/menu_song_7.mp3',
-    'https://ik.imagekit.io/tezfiles/BATMAN/menu_song_8.mp3',
-    'https://ik.imagekit.io/tezfiles/BATMAN/menu_song_9.mp3',
-    'https://ik.imagekit.io/tezfiles/BATMAN/menu_song_10.mp3'
-];
-
-// ============================================
-// FUNCTION TO GET RANDOM URL FROM ARRAY
-// ============================================
-function getRandomUrl(urlArray) {
-    const randomIndex = Math.floor(Math.random() * urlArray.length);
-    return urlArray[randomIndex];
+    return '\u200E'.repeat(200 * lines);
 }
 
 function getUptime() {
@@ -67,7 +27,7 @@ function getUptime() {
 }
 
 // ============================================
-// Random header selector
+// ENHANCEMENT: Random header selector
 // ============================================
 function getRandomHeader(senderName, prefix, uptime) {
     const headers = [
@@ -198,26 +158,19 @@ async function helpCommand(sock, chatId, message) {
         // Get uptime
         const uptime = getUptime();
         
-        // ============================================
-        // GET RANDOM URLS FOR IMAGE AND SONG
-        // ============================================
-        const randomImageUrl = getRandomUrl(imageUrls);
-        const randomSongUrl = getRandomUrl(songUrls);
+        // Paths for assets
+        const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
+        const songPath = path.join(__dirname, '../assets/menu.mp3');
         
-        console.log(`🎲 Selected random image: ${randomImageUrl}`);
-        console.log(`🎲 Selected random song: ${randomSongUrl}`);
-        
-        // Get website thumbnail (still local or can also be URL)
+        // Get website thumbnail
         let thumbnailBuffer = null;
         try {
             const thumbPath = path.join(__dirname, '../assets/website_thumb.jpg');
             if (fs.existsSync(thumbPath)) {
                 thumbnailBuffer = fs.readFileSync(thumbPath);
-            } else {
-                console.log('No thumbnail found, using default');
             }
         } catch (e) {
-            console.log('Error loading thumbnail:', e);
+            console.log('No custom thumbnail, using OG image');
         }
         
         // Context info with EXTERNAL AD REPLY style
@@ -468,51 +421,49 @@ ${getSpacing(2)}
 ◈ Bot: 𝘽𝘼𝙏𝙈𝘼𝙉 𝙈𝘿 v${settings.version || '1.0.0'}
 ◈━══━══━══━❁━══━══━══━◈`;
 
-        // ============================================
-        // SEND IMAGE FROM RANDOM URL WITH CAPTION
-        // ============================================
-        await sock.sendMessage(chatId, {
-            image: { url: randomImageUrl },
-            caption: menuText,
-            contextInfo: contextInfo
-        }, { quoted: message });
-
-        // ============================================
-        // SEND SONG FROM RANDOM URL AFTER DELAY
-        // ============================================
-        // Small delay to ensure messages don't clash
-        await new Promise(resolve => setTimeout(resolve, 800));
-        
-        await sock.sendMessage(chatId, {
-            audio: { url: randomSongUrl },
-            mimetype: 'audio/mpeg',
-            ptt: false,
-            contextInfo: {
-                forwardingScore: 9999,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363367299421766@newsletter',
-                    newsletterName: 'BATMAN MD',
-                    serverMessageId: 127
-                }
-            }
-        }, { quoted: message });
-        
-        console.log('🎵 Random song sent successfully');
-
-    } catch (error) {
-        console.error('Error in help command:', error);
-        
-        // Send a fallback text-only menu if image fails
-        try {
+        // Send ONE message with image + caption + BEAUTIFUL WEBSITE PREVIEW at the top
+        if (fs.existsSync(imagePath)) {
+            const imageBuffer = fs.readFileSync(imagePath);
+            await sock.sendMessage(chatId, {
+                image: imageBuffer,
+                caption: menuText,
+                contextInfo: contextInfo
+            }, { quoted: message });
+        } else {
             await sock.sendMessage(chatId, { 
                 text: menuText,
                 contextInfo: contextInfo
             }, { quoted: message });
-        } catch (fallbackError) {
-            console.error('Fallback also failed:', fallbackError);
-            await sock.sendMessage(chatId, { text: 'Error loading menu' }, { quoted: message });
         }
+
+        // Send the song file after a small delay
+        if (fs.existsSync(songPath)) {
+            const songBuffer = fs.readFileSync(songPath);
+            
+            // Small delay to ensure messages don't clash
+            await new Promise(resolve => setTimeout(resolve, 800));
+            
+            await sock.sendMessage(chatId, {
+                audio: songBuffer,
+                mimetype: 'audio/mpeg',
+                ptt: false,
+                contextInfo: {
+                    forwardingScore: 9999,
+                    isForwarded: true,
+                    forwardedNewsletterMessageInfo: {
+                        newsletterJid: '120363367299421766@newsletter',
+                        newsletterName: 'BATMAN MD',
+                        serverMessageId: 127
+                    }
+                }
+            }, { quoted: message });
+            
+            console.log('🎵 Song sent successfully');
+        }
+
+    } catch (error) {
+        console.error('Error in help command:', error);
+        await sock.sendMessage(chatId, { text: 'Error loading menu' }, { quoted: message });
     }
 }
 
