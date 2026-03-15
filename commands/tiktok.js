@@ -131,9 +131,9 @@ async function tiktokCommand(sock, chatId, message) {
             // Use only Siputzx API
             const apiUrl = `https://api.siputzx.my.id/api/d/tiktok?url=${encodeURIComponent(url)}`;
 
-            let videoUrl = null;
-            let audioUrl = null;
+            let videoUrls = [];
             let title = null;
+            let author = null;
 
             // Call Siputzx API
             try {
@@ -145,38 +145,69 @@ async function tiktokCommand(sock, chatId, message) {
                     }
                 });
                 
-                if (response.data && response.data.status) {
-                    // Check if the API returned video data
-                    if (response.data.data) {
-                        // Check for urls array first (this is the main response format)
-                        if (response.data.data.urls && Array.isArray(response.data.data.urls) && response.data.data.urls.length > 0) {
-                            // Use the first URL from the urls array (usually HD quality)
-                            videoUrl = response.data.data.urls[0];
-                            title = response.data.data.metadata?.title || "TikTok Video";
-                        } else if (response.data.data.video_url) {
-                            videoUrl = response.data.data.video_url;
-                            title = response.data.data.metadata?.title || "TikTok Video";
-                        } else if (response.data.data.url) {
-                            videoUrl = response.data.data.url;
-                            title = response.data.data.metadata?.title || "TikTok Video";
-                        } else if (response.data.data.download_url) {
-                            videoUrl = response.data.data.download_url;
-                            title = response.data.data.metadata?.title || "TikTok Video";
-                        } else {
-                            throw new Error("No video URL found in Siputzx API response");
-                        }
-                    } else {
-                        throw new Error("No data field in Siputzx API response");
+                console.log("Siputzx API Response:", JSON.stringify(response.data, null, 2));
+                
+                if (response.data && response.data.status && response.data.data) {
+                    // FIX: Handle the actual response structure
+                    const apiData = response.data.data;
+                    
+                    // Extract metadata
+                    title = apiData.title || "TikTok Video";
+                    author = apiData.author || "Unknown";
+                    
+                    // Check media array for video URLs
+                    if (apiData.media && Array.isArray(apiData.media) && apiData.media.length > 0) {
+                        // Look for video entries in media array
+                        apiData.media.forEach(mediaItem => {
+                            if (mediaItem.type === 'video' || mediaItem.type === 'video_hd') {
+                                if (mediaItem.url) {
+                                    videoUrls.push({
+                                        url: mediaItem.url,
+                                        quality: mediaItem.quality || 'SD',
+                                        type: mediaItem.type
+                                    });
+                                }
+                                // Also add backup URL if available
+                                if (mediaItem.backup && !videoUrls.some(v => v.url === mediaItem.backup)) {
+                                    videoUrls.push({
+                                        url: mediaItem.backup,
+                                        quality: mediaItem.quality ? `${mediaItem.quality} (Backup)` : 'Backup',
+                                        type: mediaItem.type
+                                    });
+                                }
+                            }
+                        });
                     }
+                    
+                    // Alternative: Check for direct video_url field
+                    if (videoUrls.length === 0 && apiData.video_url) {
+                        videoUrls.push({
+                            url: apiData.video_url,
+                            quality: 'SD',
+                            type: 'video'
+                        });
+                    }
+                    
+                    // Alternative: Check for url field
+                    if (videoUrls.length === 0 && apiData.url) {
+                        videoUrls.push({
+                            url: apiData.url,
+                            quality: 'SD',
+                            type: 'video'
+                        });
+                    }
+                    
+                    console.log(`Found ${videoUrls.length} video URLs`);
+                    
                 } else {
-                    throw new Error("Invalid Siputzx API response");
+                    throw new Error("Invalid API response structure");
                 }
             } catch (apiError) {
                 console.error(`Siputzx API failed: ${apiError.message}`);
             }
 
             // If Siputzx API didn't work, try the original ttdl method
-            if (!videoUrl) {
+            if (videoUrls.length === 0) {
                 try {
                     let downloadData = await ttdl(url);
                     if (downloadData && downloadData.data && downloadData.data.length > 0) {
@@ -213,105 +244,110 @@ async function tiktokCommand(sock, chatId, message) {
                 }
             }
 
-            // Send the video if we got a URL from the APIs
-            if (videoUrl) {
-                try {
-                    // Download video as buffer
-                    const videoResponse = await axios.get(videoUrl, {
-                        responseType: 'arraybuffer',
-                        timeout: 60000,
-                        maxContentLength: 100 * 1024 * 1024, // 100MB limit
-                        headers: {
-                            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-                            'Accept': 'video/mp4,video/*,*/*;q=0.9',
-                            'Accept-Language': 'en-US,en;q=0.9',
-                            'Accept-Encoding': 'gzip, deflate, br',
-                            'Connection': 'keep-alive',
-                            'Referer': 'https://www.tiktok.com/'
+            // Try to send video from Siputzx API
+            if (videoUrls.length > 0) {
+                let videoSent = false;
+                
+                // Try each video URL in order (HD first, then SD, then backups)
+                for (const videoInfo of videoUrls) {
+                    if (videoSent) break;
+                    
+                    try {
+                        const videoUrl = videoInfo.url;
+                        console.log(`Trying to download ${videoInfo.quality} video...`);
+                        
+                        // Download video as buffer
+                        const videoResponse = await axios.get(videoUrl, {
+                            responseType: 'arraybuffer',
+                            timeout: 60000,
+                            maxContentLength: 100 * 1024 * 1024, // 100MB limit
+                            headers: {
+                                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                                'Accept': 'video/mp4,video/*,*/*;q=0.9',
+                                'Accept-Language': 'en-US,en;q=0.9',
+                                'Accept-Encoding': 'gzip, deflate, br',
+                                'Connection': 'keep-alive',
+                                'Referer': 'https://www.tiktok.com/'
+                            }
+                        });
+                        
+                        const videoBuffer = Buffer.from(videoResponse.data);
+                        
+                        // Validate video buffer
+                        if (videoBuffer.length === 0) {
+                            throw new Error("Video buffer is empty");
                         }
-                    });
-                    
-                    const videoBuffer = Buffer.from(videoResponse.data);
-                    
-                    // Validate video buffer
-                    if (videoBuffer.length === 0) {
-                        throw new Error("Video buffer is empty");
-                    }
-                    
-                    // Check if it's a valid video file (starts with video file signatures)
-                    const isValidVideo = videoBuffer.length > 1000 && (
-                        videoBuffer.toString('hex', 0, 4) === '000001ba' || // MP4
-                        videoBuffer.toString('hex', 0, 4) === '000001b3' || // MP4
-                        videoBuffer.toString('hex', 0, 8) === '0000001866747970' || // MP4
-                        videoBuffer.toString('hex', 0, 4) === '1a45dfa3' // WebM
-                    );
-                    
-                    if (!isValidVideo && videoBuffer.length < 10000) {
-                        const bufferText = videoBuffer.toString('utf8', 0, 200);
-                        if (bufferText.includes('error') || bufferText.includes('blocked') || bufferText.includes('403')) {
-                            throw new Error("Received error page instead of video");
+                        
+                        // Check if it's a valid video file (simplified check)
+                        const isValidVideo = videoBuffer.length > 10000; // At least 10KB
+                        
+                        if (!isValidVideo) {
+                            throw new Error("Invalid video file");
                         }
-                    }
-                    
-                    // ENHANCEMENT: Stylish success caption
-                    const successCaption = `✨ *TikTok Downloaded!*
+                        
+                        // ENHANCEMENT: Stylish success caption
+                        const successCaption = `✨ *TikTok Downloaded!*
 
 📝 *Title:* ${title || 'TikTok Video'}
-📥 *Format:* Video MP4
+👤 *Author:* ${author || 'Unknown'}
+🎬 *Quality:* ${videoInfo.quality || 'SD'}
 
 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 BATMAN MD
 
 > *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
-                    
-                    await sock.sendMessage(chatId, {
-                        video: videoBuffer,
-                        mimetype: "video/mp4",
-                        caption: successCaption,
-                        ...channelInfo
-                    }, { quoted: message });
-
-                    // If we have audio URL, download and send it as well
-                    if (audioUrl) {
-                        try {
-                            const audioResponse = await axios.get(audioUrl, {
-                                responseType: 'arraybuffer',
-                                timeout: 30000,
-                                headers: {
-                                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-                                }
-                            });
-                            
-                            const audioBuffer = Buffer.from(audioResponse.data);
-                            
-                            const audioCaption = `🎵 *TikTok Audio*\n\n📝 *Title:* ${title || 'TikTok Audio'}\n\n𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 BATMAN MD\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
-                            
-                            await sock.sendMessage(chatId, {
-                                audio: audioBuffer,
-                                mimetype: "audio/mp3",
-                                caption: audioCaption,
-                                ...channelInfo
-                            }, { quoted: message });
-                        } catch (audioError) {
-                            console.error(`Failed to download audio: ${audioError.message}`);
-                        }
-                    }
-                    return;
-                } catch (downloadError) {
-                    console.error(`Failed to download video: ${downloadError.message}`);
-                    // Fallback to URL method
-                    try {
-                        const successCaption = `✨ *TikTok Downloaded!*\n\n📝 *Title:* ${title || 'TikTok Video'}\n\n𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 BATMAN MD\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
                         
                         await sock.sendMessage(chatId, {
-                            video: { url: videoUrl },
+                            video: videoBuffer,
                             mimetype: "video/mp4",
                             caption: successCaption,
                             ...channelInfo
                         }, { quoted: message });
-                        return;
-                    } catch (urlError) {
-                        console.error(`URL method also failed: ${urlError.message}`);
+                        
+                        videoSent = true;
+                        console.log(`Successfully sent ${videoInfo.quality} video`);
+                        
+                    } catch (downloadError) {
+                        console.error(`Failed to download ${videoInfo.quality} video: ${downloadError.message}`);
+                        // Continue to next URL
                     }
+                }
+                
+                // If buffer method failed, try URL method as fallback
+                if (!videoSent) {
+                    for (const videoInfo of videoUrls) {
+                        if (videoSent) break;
+                        
+                        try {
+                            const successCaption = `✨ *TikTok Downloaded!*
+
+📝 *Title:* ${title || 'TikTok Video'}
+👤 *Author:* ${author || 'Unknown'}
+🎬 *Quality:* ${videoInfo.quality || 'SD'}
+
+𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 BATMAN MD
+
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
+                            
+                            await sock.sendMessage(chatId, {
+                                video: { url: videoInfo.url },
+                                mimetype: "video/mp4",
+                                caption: successCaption,
+                                ...channelInfo
+                            }, { quoted: message });
+                            
+                            videoSent = true;
+                            console.log(`Successfully sent ${videoInfo.quality} video via URL method`);
+                            
+                        } catch (urlError) {
+                            console.error(`URL method failed for ${videoInfo.quality}: ${urlError.message}`);
+                        }
+                    }
+                }
+                
+                if (videoSent) {
+                    return;
+                } else {
+                    throw new Error("All video download methods failed");
                 }
             }
 
@@ -325,6 +361,7 @@ async function tiktokCommand(sock, chatId, message) {
                 text: failedMsg,
                 ...channelInfo
             }, { quoted: message });
+            
         } catch (error) {
             console.error('Error in TikTok download:', error);
             

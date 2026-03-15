@@ -51,8 +51,8 @@ ${arr.slice(0, 3).join('')}
 ${arr.slice(3, 6).join('')}
 ${arr.slice(6).join('')}
 
-▢ *Room ID:* ${room.id}
-▢ *Rules:*
+♤ *Room ID:* ${room.id}
+♤ *Rules:*
 • Make 3 rows of symbols vertically, horizontally or diagonally to win
 • Type a number (1-9) to place your symbol
 • Type *surrender* to give up
@@ -176,8 +176,8 @@ ${arr.slice(0, 3).join('')}
 ${arr.slice(3, 6).join('')}
 ${arr.slice(6).join('')}
 
-▢ Player ❎: @${room.game.playerX.split('@')[0]}
-▢ Player ⭕: @${room.game.playerO.split('@')[0]}
+♤ Player ❎: @${room.game.playerX.split('@')[0]}
+♤ Player ⭕: @${room.game.playerO.split('@')[0]}
 
 ${!winner && !isTie ? '• Type a number (1-9) to make your move\n• Type *surrender* to give up' : ''}
 `;
