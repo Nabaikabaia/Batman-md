@@ -6,6 +6,38 @@ const path = require('path');
 const botStartTime = Date.now();
 
 // ============================================
+// ENHANCEMENT: Quoted contact template (from ping.js)
+// ============================================
+const quotedContact = {
+  key: {
+    fromMe: false,
+    participant: `0@s.whatsapp.net`,
+    remoteJid: "status@broadcast"
+  },
+  message: {
+    contactMessage: {
+      displayName: "NABEES TECH",
+      vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:BATMAN MD\nORG:BATMAN MD;\nTEL;type=CELL;type=VOICE;waid=+2347072182960:+2347072182960\nEND:VCARD"
+    }
+  }
+};
+
+// ============================================
+// ENHANCEMENT: Newsletter channel info (matching ping.js pattern)
+// ============================================
+const channelInfo = {
+    contextInfo: {
+        forwardingScore: 999,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363367299421766@newsletter',
+            newsletterName: 'BATMAN MD',
+            serverMessageId: 13
+        }
+    }
+};
+
+// ============================================
 // ENHANCEMENT: Function to create invisible spacing
 // ============================================
 function getSpacing(lines = 1) {
@@ -162,39 +194,6 @@ async function helpCommand(sock, chatId, message) {
         const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
         const songPath = path.join(__dirname, '../assets/menu.mp3');
         
-        // Get website thumbnail
-        let thumbnailBuffer = null;
-        try {
-            const thumbPath = path.join(__dirname, '../assets/website_thumb.jpg');
-            if (fs.existsSync(thumbPath)) {
-                thumbnailBuffer = fs.readFileSync(thumbPath);
-            }
-        } catch (e) {
-            console.log('No custom thumbnail, using default');
-        }
-        
-        // Context info with EXTERNAL AD REPLY style - NO QUOTING
-        const contextInfo = {
-            forwardingScore: 9999,
-            isForwarded: true,
-            forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363367299421766@newsletter',
-                newsletterName: 'BATMAN MD',
-                serverMessageId: 127
-            },
-            externalAdReply: {
-                sourceUrl: 'https://nabees.online',
-                mediaUrl: 'https://nabees.online',
-                mediaType: 2,
-                thumbnail: thumbnailBuffer,
-                thumbnailUrl: 'https://nabees.online/og-image.jpg',
-                title: 'Nãbēēs Projects',
-                body: 'Scalable Web Tools & Developer Hub • React • Node.js • Python',
-                renderLargerThumbnail: false,
-                showAdAttribution: true
-            }
-        };
-
         // Get random header
         const randomHeader = getRandomHeader(senderName, prefix, uptime);
 
@@ -421,52 +420,53 @@ ${getSpacing(2)}
 ◈ Bot: 𝘽𝘼𝙏𝙈𝘼𝙉 𝙈𝘿 v${settings.version || '1.0.0'}
 ◈━══━══━══━❁━══━══━══━◈`;
 
-        // Send the main menu message with image + caption + rich preview
-        // IMPORTANT: Removed { quoted: message } to ensure visibility for everyone
+        // Send the main menu message with image + newsletter metadata, quoting the contact template
         if (fs.existsSync(imagePath)) {
             const imageBuffer = fs.readFileSync(imagePath);
+            
             await sock.sendMessage(chatId, {
                 image: imageBuffer,
                 caption: menuText,
-                contextInfo: contextInfo
-            }); // No quoted message here
+                ...channelInfo
+            }, { 
+                quoted: quotedContact // Using the contact template for quoting
+            });
         } else {
             // Fallback to text-only if image doesn't exist
             await sock.sendMessage(chatId, { 
                 text: menuText,
-                contextInfo: contextInfo
-            }); // No quoted message here
+                ...channelInfo
+            }, { 
+                quoted: quotedContact // Using the contact template for quoting
+            });
         }
 
-        // Send the song file after a delay to prevent message clashes
+        // Send the song file after a delay with newsletter metadata, quoting the contact template
         if (fs.existsSync(songPath)) {
             const songBuffer = fs.readFileSync(songPath);
             
-            // Longer delay (1 second) to ensure messages don't clash
             await new Promise(resolve => setTimeout(resolve, 1000));
             
             await sock.sendMessage(chatId, {
                 audio: songBuffer,
                 mimetype: 'audio/mpeg',
                 ptt: false,
-                contextInfo: {
-                    forwardingScore: 9999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363367299421766@newsletter',
-                        newsletterName: 'BATMAN MD',
-                        serverMessageId: 127
-                    }
-                }
-            }); // No quoted message here either for consistency
+                ...channelInfo // Add newsletter metadata to audio too
+            }, { 
+                quoted: quotedContact // Using the contact template for quoting
+            });
             
-            console.log('🎵 Song sent successfully');
+            console.log('🎵 Song sent successfully with newsletter metadata');
         }
 
     } catch (error) {
         console.error('Error in help command:', error);
-        // Send error message without quoting to maintain visibility
-        await sock.sendMessage(chatId, { text: 'Error loading menu' });
+        await sock.sendMessage(chatId, { 
+            text: 'Error loading menu',
+            ...channelInfo
+        }, { 
+            quoted: quotedContact // Using the contact template for quoting
+        });
     }
 }
 
