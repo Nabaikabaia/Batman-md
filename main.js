@@ -144,6 +144,7 @@ const settingsCommand = require('./commands/settings');
 const soraCommand = require('./commands/sora');
 const pairCommand = require('./commands/pair');
 const gitcloneCommand = require('./commands/gitclone');
+const listCommand = require('./commands/list');
 const { restoreExistingSessions, getAvailableSlots, getFreeDiskSpaceMB, getExistingSessionNumbers } = require('./lib/sessionManager');
 
 // Restore all existing user bot sessions on startup
@@ -428,8 +429,12 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 }
                 await unbanCommand(sock, chatId, message);
                 break;
-            case cmd === '.help' || cmd === '.menu' || cmd === '.bot' || cmd === '.list':
+            case cmd === '.help' || cmd === '.menu' || cmd === '.bot':
                 await helpCommand(sock, chatId, message, global.channelLink);
+                commandExecuted = true;
+                break;
+            case cmd === '.list':
+                await listCommand(sock, chatId, message);
                 commandExecuted = true;
                 break;
             case cmd === '.sticker' || cmd === '.s':
