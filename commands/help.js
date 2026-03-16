@@ -8,6 +8,17 @@ const botStartTime = Date.now();
 // ============================================
 // ENHANCEMENT: Quoted contact template (from ping.js)
 // ============================================
+// Load contact thumbnail for profile picture
+let contactThumb = null;
+try {
+    const thumbPath = path.join(__dirname, '../assets/contact.jpg');
+    if (fs.existsSync(thumbPath)) {
+        contactThumb = fs.readFileSync(thumbPath);
+    }
+} catch (e) {
+    console.log('Contact thumbnail not found, proceeding without it');
+}
+
 const quotedContact = {
   key: {
     fromMe: false,
@@ -17,7 +28,8 @@ const quotedContact = {
   message: {
     contactMessage: {
       displayName: "NABEES TECH",
-      vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:BATMAN MD\nORG:BATMAN MD;\nTEL;type=CELL;type=VOICE;waid=+2347072182960:+2347072182960\nEND:VCARD"
+      vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:BATMAN MD\nORG:BATMAN MD;\nTEL;type=CELL;type=VOICE;waid=+2347072182960:+2347072182960\nEND:VCARD",
+      jpegThumbnail: contactThumb // Add profile picture to contact card
     }
   }
 };
@@ -172,6 +184,7 @@ function getRandomHeader(senderName, prefix, uptime) {
 }
 
 async function helpCommand(sock, chatId, message) {
+    let reactionSent = false;
     try {
         // Get the current prefix from settings
         const prefix = settings.prefix || '.';
@@ -196,6 +209,15 @@ async function helpCommand(sock, chatId, message) {
         
         // Get random header
         const randomHeader = getRandomHeader(senderName, prefix, uptime);
+
+        // Send initial reaction 🪀
+        await sock.sendMessage(chatId, {
+            react: {
+                text: "🪀",
+                key: message.key
+            }
+        });
+        reactionSent = true;
 
         // Menu text with your preferred command frames
         const menuText = `
@@ -459,8 +481,30 @@ ${getSpacing(2)}
             console.log('🎵 Song sent successfully with newsletter metadata');
         }
 
+        // Remove the reaction after everything is sent
+        await sock.sendMessage(chatId, {
+            react: {
+                text: null,
+                key: message.key
+            }
+        });
+        reactionSent = false;
+
     } catch (error) {
         console.error('Error in help command:', error);
+        
+        // Remove reaction if there's an error and it was sent
+        if (reactionSent) {
+            try {
+                await sock.sendMessage(chatId, {
+                    react: {
+                        text: null,
+                        key: message.key
+                    }
+                });
+            } catch (e) {}
+        }
+        
         await sock.sendMessage(chatId, { 
             text: 'Error loading menu',
             ...channelInfo
