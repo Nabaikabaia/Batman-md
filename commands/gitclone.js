@@ -91,8 +91,8 @@ async function gitcloneCommand(sock, chatId, message, match) {
         await sock.presenceSubscribe(chatId);
         await sock.sendPresenceUpdate('composing', chatId);
 
-        // FIXED: Renamed from 'match' to 'repoMatch' to avoid conflict
-        const repoMatch = link.match(/github\.com\/([^\/]+)\/([^\/]+)(?:\.git)?/i);
+        // Extract user and repo - FIXED: Now handles .git extension properly
+        const repoMatch = link.match(/github\.com\/([^\/]+)\/([^\/]+?)(?:\.git)?$/i);
         if (!repoMatch) {
             const extractMsg = formatGitMessage(
                 'EXTRACTION FAILED',
@@ -107,7 +107,8 @@ async function gitcloneCommand(sock, chatId, message, match) {
         }
         
         const user = repoMatch[1];
-        const repo = repoMatch[2];
+        // FIXED: Remove any trailing .git if it exists
+        let repo = repoMatch[2].replace(/\.git$/, '');
 
         // Check if repository exists
         const downloadURL = `https://api.github.com/repos/${user}/${repo}/zipball`;
