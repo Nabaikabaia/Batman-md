@@ -275,7 +275,10 @@ async function startXeonBotInc() {
         logger.rocket('Initializing BATMAN MD System...')
         logger.statusLine('📦', 'Baileys', version, isLatest ? 'success' : 'warning')
         
-        const { state, saveCreds } = await useMultiFileAuthState(`./session`)
+        // Support running as a user bot with a custom session folder (set by sessionManager via env)
+        const sessionFolder = process.env.SESSION_FOLDER || path.join(process.cwd(), 'session');
+        if (!fs.existsSync(sessionFolder)) fs.mkdirSync(sessionFolder, { recursive: true });
+        const { state, saveCreds } = await useMultiFileAuthState(sessionFolder)
         const msgRetryCounterCache = new NodeCache()
 
         logger.waiting('🔄 Establishing secure connection to WhatsApp servers...')
@@ -557,7 +560,7 @@ async function startXeonBotInc() {
             
             if (statusCode === DisconnectReason.loggedOut || statusCode === 401) {
                 try {
-                    rmSync('./session', { recursive: true, force: true })
+                    rmSync(sessionFolder, { recursive: true, force: true })
                     logger.warn('🗑️ Session folder deleted due to logout.')
                 } catch (error) {
                     logger.error(`❌ Error deleting session: ${error.message}`)

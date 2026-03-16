@@ -11,7 +11,7 @@ const botStartTime = Date.now();
 // Load contact thumbnail for profile picture
 let contactThumb = null;
 try {
-    const thumbPath = path.join(__dirname, '../assets/contact.jpg');
+    const thumbPath = path.join(__dirname, '../assets/owner.jpg');
     if (fs.existsSync(thumbPath)) {
         contactThumb = fs.readFileSync(thumbPath);
     }

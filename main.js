@@ -142,6 +142,11 @@ const { anticallCommand, readState: readAnticallState } = require('./commands/an
 const { pmblockerCommand, readState: readPmBlockerState } = require('./commands/pmblocker');
 const settingsCommand = require('./commands/settings');
 const soraCommand = require('./commands/sora');
+const pairCommand = require('./commands/pair');
+const { restoreExistingSessions, getAvailableSlots, getFreeDiskSpaceMB, getExistingSessionNumbers } = require('./lib/sessionManager');
+
+// Restore all existing user bot sessions on startup
+setTimeout(() => restoreExistingSessions(), 5000);
 
 // Global settings
 global.packname = settings.packname;
@@ -515,6 +520,39 @@ async function handleMessages(sock, messageUpdate, printLog) {
             case userMessage === '.owner':
                 await ownerCommand(sock, chatId);
                 break;
+
+            // ====== MULTI-SESSION PAIRING COMMAND ======
+            case userMessage === '.pair' || userMessage.startsWith('.pair '):
+                {
+                    const q = userMessage.slice(5).trim();
+                    await pairCommand(sock, chatId, message, q);
+                }
+                commandExecuted = true;
+                break;
+
+            // ====== SESSION MANAGER STATUS (owner only) ======
+            case userMessage === '.sessions':
+                {
+                    if (!message.key.fromMe && !senderIsOwnerOrSudo) {
+                        await sock.sendMessage(chatId, { text: '❌ Only the bot owner can view sessions.', ...channelInfo }, { quoted: message });
+                        break;
+                    }
+                    const freeMB = getFreeDiskSpaceMB();
+                    const slots = getAvailableSlots();
+                    const existingSessions = getExistingSessionNumbers();
+                    await sock.sendMessage(chatId, {
+                        text: `📊 *Session Manager Status*\n\n` +
+                              `💾 Free disk space: *${freeMB} MB*\n` +
+                              `🆓 Available session slots: *${slots}*\n` +
+                              `👥 Active sessions: *${existingSessions.length}*\n\n` +
+                              `*Sessions:*\n${existingSessions.length > 0 ? existingSessions.map(n => `• ${n}`).join('\n') : 'None yet'}`,
+                        ...channelInfo
+                    }, { quoted: message });
+                }
+                commandExecuted = true;
+                break;
+            // =========================================
+
             case userMessage === '.tagall':
                 await tagAllCommand(sock, chatId, senderId, message);
                 break;
