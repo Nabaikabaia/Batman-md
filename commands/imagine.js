@@ -3,12 +3,14 @@ const { fetchBuffer } = require('../lib/myfunc');
 
 async function imagineCommand(sock, chatId, message) {
     try {
-        // Get the prompt from the message
-        const prompt = message.message?.conversation?.trim() || 
-                      message.message?.extendedTextMessage?.text?.trim() || '';
+        // Get the prompt from the message - FIXED: More reliable way to extract
+        const fullText = message.message?.conversation || 
+                        message.message?.extendedTextMessage?.text || '';
         
-        // Remove the command prefix and trim
-        const imagePrompt = prompt.slice(8).trim();
+        // Split into command and prompt
+        const parts = fullText.split(' ');
+        const command = parts[0].toLowerCase();
+        const imagePrompt = parts.slice(1).join(' ').trim();
         
         if (!imagePrompt) {
             await sock.sendMessage(chatId, {
@@ -26,7 +28,7 @@ async function imagineCommand(sock, chatId, message) {
             quoted: message
         });
 
-        // Newsletter context for all responses
+        // Newsletter context
         const newsletterContext = {
             forwardingScore: 9999,
             isForwarded: true,
@@ -37,77 +39,94 @@ async function imagineCommand(sock, chatId, message) {
             }
         };
 
-        // Enhance the prompt with quality keywords
+        // Enhance the prompt
         const enhancedPrompt = enhancePrompt(imagePrompt);
-
-        // Make API request
-        const response = await axios.get(`https://apis.davidcyril.name.ng/fluxv2?prompt=${encodeURIComponent(enhancedPrompt)}`);
         
-        // Handle the new response format with result URL
-        if (response.data && response.data.success && response.data.result) {
-            const imageUrl = response.data.result;
-            
-            // Fetch the image buffer from the URL
-            const imageBuffer = await fetchBuffer(imageUrl);
+        console.log('🎨 Original prompt:', imagePrompt);
+        console.log('🎨 Enhanced prompt:', enhancedPrompt);
 
-            // Send the generated image with newsletter context
-            await sock.sendMessage(chatId, {
-                image: imageBuffer,
-                caption: `🎨 Generated image for prompt: "${imagePrompt}"`,
-                contextInfo: newsletterContext
-            }, {
-                quoted: message
-            });
-        } else {
-            throw new Error('Invalid response from Flux API');
+        // Try David Cyril API first
+        try {
+            const apiUrl = `https://apis.davidcyril.name.ng/fluxv2?prompt=${encodeURIComponent(enhancedPrompt)}`;
+            console.log('🔗 Trying David Cyril:', apiUrl);
+            
+            const response = await axios.get(apiUrl, { timeout: 30000 });
+            console.log('📦 David Cyril response:', JSON.stringify(response.data, null, 2));
+            
+            if (response.data && response.data.success && response.data.result) {
+                const imageUrl = response.data.result;
+                const imageBuffer = await fetchBuffer(imageUrl);
+                
+                await sock.sendMessage(chatId, {
+                    image: imageBuffer,
+                    caption: `🎨 Generated image for prompt: "${imagePrompt}"`,
+                    contextInfo: newsletterContext
+                }, { quoted: message });
+                
+                return; // Success! Exit function
+            }
+        } catch (err) {
+            console.log('❌ David Cyril failed:', err.message);
         }
 
-    } catch (error) {
-        console.error('Error in imagine command:', error);
-        
-        // Newsletter context for error messages
-        const errorContext = {
-            forwardingScore: 9999,
-            isForwarded: true,
-            forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363367299421766@newsletter',
-                newsletterName: 'BATMAN MD',
-                serverMessageId: 127
+        // If David Cyril fails, try Rynekoo
+        try {
+            const apiUrl = `https://rynekoo-api.hf.space/image.gen/flux/dev?prompt=${encodeURIComponent(enhancedPrompt)}&ratio=1%3A1`;
+            console.log('🔗 Trying Rynekoo:', apiUrl);
+            
+            const response = await axios.get(apiUrl, { timeout: 30000 });
+            console.log('📦 Rynekoo response:', JSON.stringify(response.data, null, 2));
+            
+            if (response.data && response.data.success && response.data.result) {
+                const imageUrl = response.data.result;
+                const imageBuffer = await fetchBuffer(imageUrl);
+                
+                await sock.sendMessage(chatId, {
+                    image: imageBuffer,
+                    caption: `🎨 Generated image for prompt: "${imagePrompt}"`,
+                    contextInfo: newsletterContext
+                }, { quoted: message });
+                
+                return; // Success! Exit function
             }
-        };
+        } catch (err) {
+            console.log('❌ Rynekoo failed:', err.message);
+        }
+
+        // If both APIs fail
+        throw new Error('All image generation APIs failed');
+
+    } catch (error) {
+        console.error('❌ Error in imagine command:', error);
         
         await sock.sendMessage(chatId, {
             text: '❌ Failed to generate image. Please try again later.',
-            contextInfo: errorContext
-        }, {
-            quoted: message
-        });
+            contextInfo: {
+                forwardingScore: 9999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363367299421766@newsletter',
+                    newsletterName: 'BATMAN MD',
+                    serverMessageId: 127
+                }
+            }
+        }, { quoted: message });
     }
 }
 
 // Function to enhance the prompt
 function enhancePrompt(prompt) {
-    // Quality enhancing keywords
     const qualityEnhancers = [
-        'high quality',
-        'detailed',
-        'masterpiece',
-        'best quality',
-        'ultra realistic',
-        '4k',
-        'highly detailed',
-        'professional photography',
-        'cinematic lighting',
-        'sharp focus'
+        'high quality', 'detailed', 'masterpiece', 'best quality',
+        'ultra realistic', '4k', 'highly detailed', 'professional photography',
+        'cinematic lighting', 'sharp focus'
     ];
 
-    // Randomly select 3-4 enhancers
-    const numEnhancers = Math.floor(Math.random() * 2) + 3; // Random number between 3-4
+    const numEnhancers = Math.floor(Math.random() * 2) + 3;
     const selectedEnhancers = qualityEnhancers
         .sort(() => Math.random() - 0.5)
         .slice(0, numEnhancers);
 
-    // Combine original prompt with enhancers
     return `${prompt}, ${selectedEnhancers.join(', ')}`;
 }
 
