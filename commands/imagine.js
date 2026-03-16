@@ -3,7 +3,7 @@ const { fetchBuffer } = require('../lib/myfunc');
 
 async function imagineCommand(sock, chatId, message) {
     try {
-        // Get the prompt from the message - FIXED: More reliable way to extract
+        // Get the prompt from the message
         const fullText = message.message?.conversation || 
                         message.message?.extendedTextMessage?.text || '';
         
@@ -23,7 +23,7 @@ async function imagineCommand(sock, chatId, message) {
 
         // Send processing message
         await sock.sendMessage(chatId, {
-            text: '🎨 Generating your image... Please wait.'
+            text: '🎨 Generating your images from multiple AI models... Please wait.'
         }, {
             quoted: message
         });
@@ -45,62 +45,94 @@ async function imagineCommand(sock, chatId, message) {
         console.log('🎨 Original prompt:', imagePrompt);
         console.log('🎨 Enhanced prompt:', enhancedPrompt);
 
-        // Try David Cyril API first
-        try {
-            const apiUrl = `https://apis.davidcyril.name.ng/fluxv2?prompt=${encodeURIComponent(enhancedPrompt)}`;
-            console.log('🔗 Trying David Cyril:', apiUrl);
-            
-            const response = await axios.get(apiUrl, { timeout: 30000 });
-            console.log('📦 David Cyril response:', JSON.stringify(response.data, null, 2));
-            
-            if (response.data && response.data.success && response.data.result) {
-                const imageUrl = response.data.result;
-                const imageBuffer = await fetchBuffer(imageUrl);
-                
-                await sock.sendMessage(chatId, {
-                    image: imageBuffer,
-                    caption: `🎨 Generated image for prompt: "${imagePrompt}"`,
-                    contextInfo: newsletterContext
-                }, { quoted: message });
-                
-                return; // Success! Exit function
+        // Array of all APIs to try independently
+        const apis = [
+            {
+                url: `https://apis.davidcyril.name.ng/fluxv2?prompt=${encodeURIComponent(enhancedPrompt)}`,
+                name: 'David Cyril Flux',
+                responseHandler: (data) => data.success && data.result ? data.result : null
+            },
+            {
+                url: `https://rynekoo-api.hf.space/image.gen/flux/dev?prompt=${encodeURIComponent(enhancedPrompt)}&ratio=1%3A1`,
+                name: 'Rynekoo Flux',
+                responseHandler: (data) => data.success && data.result ? data.result : null
+            },
+            {
+                url: `https://rynekoo-api.hf.space/image.gen/writecream?prompt=${encodeURIComponent(enhancedPrompt)}&ratio=1%3A1`,
+                name: 'Rynekoo WriteCream',
+                responseHandler: (data) => data.success && data.result ? data.result : null
+            },
+            {
+                url: `https://api.silvatech.co.ke/ai/imagine?q=${encodeURIComponent(enhancedPrompt)}&width=1280&height=720`,
+                name: 'SilvaTech',
+                responseHandler: (data) => data.status && data.result?.image_url ? data.result.image_url : null
             }
-        } catch (err) {
-            console.log('❌ David Cyril failed:', err.message);
+        ];
+
+        let successCount = 0;
+        let failedCount = 0;
+
+        // Send initial status message
+        await sock.sendMessage(chatId, {
+            text: `🔄 *Generating images from 4 AI models...*\n\n⏳ This may take a moment.`,
+            contextInfo: newsletterContext
+        }, { quoted: message });
+
+        // Try each API independently
+        for (const api of apis) {
+            try {
+                console.log(`🎨 Trying ${api.name} API...`);
+                
+                const response = await axios.get(api.url, { timeout: 30000 });
+                
+                // Use the custom response handler
+                const imageUrl = api.responseHandler(response.data);
+                
+                if (imageUrl) {
+                    console.log(`✅ ${api.name} API succeeded! URL:`, imageUrl);
+                    
+                    // Fetch the image buffer
+                    const imageBuffer = await fetchBuffer(imageUrl);
+                    
+                    // Send the image immediately
+                    await sock.sendMessage(chatId, {
+                        image: imageBuffer,
+                        caption: `🖼️ *${api.name}*\n\n🎨 *Prompt:* "${imagePrompt}"`,
+                        contextInfo: newsletterContext
+                    }, { quoted: message });
+                    
+                    successCount++;
+                    
+                    // Small delay between images
+                    await new Promise(resolve => setTimeout(resolve, 1000));
+                    
+                } else {
+                    console.log(`❌ ${api.name} returned invalid format`);
+                    failedCount++;
+                }
+            } catch (err) {
+                console.log(`❌ ${api.name} API failed:`, err.message);
+                failedCount++;
+            }
         }
 
-        // If David Cyril fails, try Rynekoo
-        try {
-            const apiUrl = `https://rynekoo-api.hf.space/image.gen/flux/dev?prompt=${encodeURIComponent(enhancedPrompt)}&ratio=1%3A1`;
-            console.log('🔗 Trying Rynekoo:', apiUrl);
-            
-            const response = await axios.get(apiUrl, { timeout: 30000 });
-            console.log('📦 Rynekoo response:', JSON.stringify(response.data, null, 2));
-            
-            if (response.data && response.data.success && response.data.result) {
-                const imageUrl = response.data.result;
-                const imageBuffer = await fetchBuffer(imageUrl);
-                
-                await sock.sendMessage(chatId, {
-                    image: imageBuffer,
-                    caption: `🎨 Generated image for prompt: "${imagePrompt}"`,
-                    contextInfo: newsletterContext
-                }, { quoted: message });
-                
-                return; // Success! Exit function
-            }
-        } catch (err) {
-            console.log('❌ Rynekoo failed:', err.message);
-        }
+        // Send summary message
+        const summaryMessage = `✅ *Generation Complete!*\n\n` +
+            `📊 *Results:*\n` +
+            `• ${successCount} images generated successfully\n` +
+            `• ${failedCount} APIs failed\n\n` +
+            `🎨 *Prompt:* ${imagePrompt}`;
 
-        // If both APIs fail
-        throw new Error('All image generation APIs failed');
+        await sock.sendMessage(chatId, {
+            text: summaryMessage,
+            contextInfo: newsletterContext
+        }, { quoted: message });
 
     } catch (error) {
         console.error('❌ Error in imagine command:', error);
         
         await sock.sendMessage(chatId, {
-            text: '❌ Failed to generate image. Please try again later.',
+            text: '❌ Failed to generate images. Please try again later.',
             contextInfo: {
                 forwardingScore: 9999,
                 isForwarded: true,
