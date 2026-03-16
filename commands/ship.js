@@ -1,1 +1,33 @@
-const _0x5a8e97=_0x11c8;(function(_0x11d11a,_0x5b7fc1){const _0x4ea7a6=_0x11c8,_0x29ac7a=_0x11d11a();while(!![]){try{const _0x4b45a5=parseInt(_0x4ea7a6(0x18e))/0x1+-parseInt(_0x4ea7a6(0x18c))/0x2*(parseInt(_0x4ea7a6(0x193))/0x3)+-parseInt(_0x4ea7a6(0x194))/0x4*(parseInt(_0x4ea7a6(0x19c))/0x5)+-parseInt(_0x4ea7a6(0x196))/0x6*(parseInt(_0x4ea7a6(0x198))/0x7)+parseInt(_0x4ea7a6(0x199))/0x8+parseInt(_0x4ea7a6(0x19b))/0x9*(parseInt(_0x4ea7a6(0x192))/0xa)+-parseInt(_0x4ea7a6(0x18d))/0xb*(-parseInt(_0x4ea7a6(0x19d))/0xc);if(_0x4b45a5===_0x5b7fc1)break;else _0x29ac7a['push'](_0x29ac7a['shift']());}catch(_0x178c6b){_0x29ac7a['push'](_0x29ac7a['shift']());}}}(_0x1c3d,0x8da39));function _0x11c8(_0x178889,_0x47f71c){_0x178889=_0x178889-0x189;const _0x1c3d7c=_0x1c3d();let _0x11c815=_0x1c3d7c[_0x178889];if(_0x11c8['EvJpvC']===undefined){var _0x26ce1a=function(_0x3d8f73){const _0x4b7ffa='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x2972bf='',_0x156961='';for(let _0x5fa3c4=0x0,_0x337af5,_0x4d9471,_0x11920b=0x0;_0x4d9471=_0x3d8f73['charAt'](_0x11920b++);~_0x4d9471&&(_0x337af5=_0x5fa3c4%0x4?_0x337af5*0x40+_0x4d9471:_0x4d9471,_0x5fa3c4++%0x4)?_0x2972bf+=String['fromCharCode'](0xff&_0x337af5>>(-0x2*_0x5fa3c4&0x6)):0x0){_0x4d9471=_0x4b7ffa['indexOf'](_0x4d9471);}for(let _0x1630fd=0x0,_0x49a661=_0x2972bf['length'];_0x1630fd<_0x49a661;_0x1630fd++){_0x156961+='%'+('00'+_0x2972bf['charCodeAt'](_0x1630fd)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x156961);};_0x11c8['pjaKrW']=_0x26ce1a,_0x11c8['rFjRFN']={},_0x11c8['EvJpvC']=!![];}const _0x564df8=_0x1c3d7c[0x0],_0x5645cd=_0x178889+_0x564df8,_0x56fc95=_0x11c8['rFjRFN'][_0x5645cd];return!_0x56fc95?(_0x11c815=_0x11c8['pjaKrW'](_0x11c815),_0x11c8['rFjRFN'][_0x5645cd]=_0x11c815):_0x11c815=_0x56fc95,_0x11c815;}async function shipCommand(_0x1b858b,_0xed93e6,_0x35bdab,_0x4293da){const _0x301314=_0x11c8,_0x3b9ee6={'NExAg':function(_0xd17a81,_0x206706){return _0xd17a81===_0x206706;},'hnUQy':function(_0x46b5b8,_0x318fd0){return _0x46b5b8(_0x318fd0);},'ZCGDC':'Error\x20in\x20ship\x20command:'};try{const _0x212fb1=await _0x1b858b[_0x301314(0x19e)](_0xed93e6),_0x50976d=_0x212fb1[_0x301314(0x19a)]['map'](_0x37b885=>_0x37b885['id']);let _0xe3340a,_0x41e7e0;_0xe3340a=_0x50976d[Math[_0x301314(0x191)](Math['random']()*_0x50976d['length'])];do{_0x41e7e0=_0x50976d[Math['floor'](Math['random']()*_0x50976d['length'])];}while(_0x3b9ee6[_0x301314(0x189)](_0x41e7e0,_0xe3340a));const _0x46e34b=_0x4f2fc4=>'@'+_0x4f2fc4['split']('@')[0x0];await _0x1b858b['sendMessage'](_0xed93e6,{'text':_0x3b9ee6['hnUQy'](_0x46e34b,_0xe3340a)+_0x301314(0x195)+_0x46e34b(_0x41e7e0)+'\x0aCongratulations\x20💖🍻','mentions':[_0xe3340a,_0x41e7e0]});}catch(_0x1f52f0){console[_0x301314(0x18b)](_0x3b9ee6[_0x301314(0x18a)],_0x1f52f0),await _0x1b858b[_0x301314(0x197)](_0xed93e6,{'text':_0x301314(0x18f)});}}function _0x1c3d(){const _0xd0033a=['tKv4qwC','wKnhrem','zxjYB3i','mMLLALDJtW','mJmXt21Lr1bv','nZyWntG1uw1vEwrq','4P2miezHAwXLzcb0BYbZAgLWisbnywTLihn1CMuGDgHPCYbPCYbHigDYB3vWlG','zxHWB3j0CW','zMXVB3i','mZbor01hs3q','mJKXnJu0m2LutfbTwq','mZyXoti0zvzPthvP','iokDPo+4JYa','ntCYndzhzNDSzNK','C2vUze1LC3nHz2u','nZK4qMDuBhLg','mZi4odC4ne9KCxLYvW','CgfYDgLJAxbHBNrZ','mZiZmJy0n2XXwhzHBG','nxLkC1DStG','mJC1mda0BNLMuhvg','z3jVDxbnzxrHzgf0yq'];_0x1c3d=function(){return _0xd0033a;};return _0x1c3d();}module[_0x5a8e97(0x190)]=shipCommand;
+async function shipCommand(sock, chatId, msg, groupMetadata) {
+    try {
+        // Get all participants from the group
+        const participants = await sock.groupMetadata(chatId);
+        const ps = participants.participants.map(v => v.id);
+        
+        // Get two random participants
+        let firstUser, secondUser;
+        
+        // Select first random user
+        firstUser = ps[Math.floor(Math.random() * ps.length)];
+        
+        // Select second random user (different from first)
+        do {
+            secondUser = ps[Math.floor(Math.random() * ps.length)];
+        } while (secondUser === firstUser);
+
+        // Format the mentions
+        const formatMention = id => '@' + id.split('@')[0];
+
+        // Create and send the ship message
+        await sock.sendMessage(chatId, {
+            text: `${formatMention(firstUser)} ❤️ ${formatMention(secondUser)}\nCongratulations 💖🍻`,
+            mentions: [firstUser, secondUser]
+        });
+
+    } catch (error) {
+        console.error('Error in ship command:', error);
+        await sock.sendMessage(chatId, { text: '❌ Failed to ship! Make sure this is a group.' });
+    }
+}
+
+module.exports = shipCommand; 

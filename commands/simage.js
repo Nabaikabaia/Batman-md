@@ -1,1 +1,51 @@
-const _0xaad6ae=_0xbbf5;function _0x5043(){const _0x2fe127=['uNjmr0O','CMvHzezPBgu','C2vUze1LC3nHz2u','BM93','qw4GzxjYB3iGB2nJDxjYzwqGD2HPBguGy29UDMvYDgLUzYb0AguGC3rPy2TLCI4','lNDLyNa','zNmTzxH0CMe','ndy3mZuWnhnoCvjRzq','ndaYmJq5Exjoze9r','mtb6zKjdBw0','mJfyrxbJu3m','zxHWB3j0CW','BwTKAxjtEw5J','mJi4otm1mgjOq29wuq','qLfNDhK','uMvWBhKGDg8GysbZDgLJA2vYihDPDgGGlNnPBwfNzsb0BYbJB252zxj0igL0lG','sgvYzsbPCYb0AguGy29UDMvYDgvKigLTywDLiq','C2HHCNa','mJCWmZK0D1nmEfn6','mJK3nZu0mNv4reTsva','mtG2mtK0mgjWv1PQuW','mtm2otK4DuLwDuTR','mJb5CKDWswq','rMLSzsbKzwXLDgvKoIa','Dg9gAwXL','C3rPy2TLCG','qhDOAxnRzxLZB2nRzxrZl2jHAwXLExm'];_0x5043=function(){return _0x2fe127;};return _0x5043();}(function(_0x2e75d9,_0x4d12ea){const _0xbf9c9a=_0xbbf5,_0xabfeaf=_0x2e75d9();while(!![]){try{const _0xf995b6=-parseInt(_0xbf9c9a(0xc5))/0x1+parseInt(_0xbf9c9a(0xcf))/0x2*(-parseInt(_0xbf9c9a(0xc7))/0x3)+parseInt(_0xbf9c9a(0xd1))/0x4*(parseInt(_0xbf9c9a(0xc6))/0x5)+-parseInt(_0xbf9c9a(0xb7))/0x6+-parseInt(_0xbf9c9a(0xca))/0x7+parseInt(_0xbf9c9a(0xc4))/0x8+parseInt(_0xbf9c9a(0xd0))/0x9*(parseInt(_0xbf9c9a(0xb8))/0xa);if(_0xf995b6===_0x4d12ea)break;else _0xabfeaf['push'](_0xabfeaf['shift']());}catch(_0x4910d0){_0xabfeaf['push'](_0xabfeaf['shift']());}}}(_0x5043,0x74c73));function _0xbbf5(_0x3634f7,_0x45a100){_0x3634f7=_0x3634f7-0xb7;const _0x5043d4=_0x5043();let _0xbbf58d=_0x5043d4[_0x3634f7];if(_0xbbf5['xExiGJ']===undefined){var _0x14f7ae=function(_0x228173){const _0x48ef64='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x40f759='',_0x1492aa='';for(let _0xeb869d=0x0,_0x5016cb,_0x12f9ec,_0x4a3e4d=0x0;_0x12f9ec=_0x228173['charAt'](_0x4a3e4d++);~_0x12f9ec&&(_0x5016cb=_0xeb869d%0x4?_0x5016cb*0x40+_0x12f9ec:_0x12f9ec,_0xeb869d++%0x4)?_0x40f759+=String['fromCharCode'](0xff&_0x5016cb>>(-0x2*_0xeb869d&0x6)):0x0){_0x12f9ec=_0x48ef64['indexOf'](_0x12f9ec);}for(let _0x1cbb44=0x0,_0x381da6=_0x40f759['length'];_0x1cbb44<_0x381da6;_0x1cbb44++){_0x1492aa+='%'+('00'+_0x40f759['charCodeAt'](_0x1cbb44)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x1492aa);};_0xbbf5['IIjwGY']=_0x14f7ae,_0xbbf5['tkGFGd']={},_0xbbf5['xExiGJ']=!![];}const _0x41e84b=_0x5043d4[0x0],_0x110f2d=_0x3634f7+_0x41e84b,_0x1c3d4e=_0xbbf5['tkGFGd'][_0x110f2d];return!_0x1c3d4e?(_0xbbf58d=_0xbbf5['IIjwGY'](_0xbbf58d),_0xbbf5['tkGFGd'][_0x110f2d]=_0xbbf58d):_0xbbf58d=_0x1c3d4e,_0xbbf58d;}const sharp=require(_0xaad6ae(0xce)),fs=require('fs'),fsPromises=require('fs/promises'),fse=require(_0xaad6ae(0xc3)),path=require('path'),{downloadContentFromMessage}=require(_0xaad6ae(0xbc)),tempDir='./temp';if(!fs['existsSync'](tempDir))fs[_0xaad6ae(0xc9)](tempDir);const scheduleFileDeletion=_0xeb0574=>{setTimeout(async()=>{const _0x1ac7fa=_0xbbf5;try{await fse['remove'](_0xeb0574),console['log'](_0x1ac7fa(0xb9)+_0xeb0574);}catch(_0x4daf08){console['error']('Failed\x20to\x20delete\x20file:',_0x4daf08);}},0x2710);},convertStickerToImage=async(_0x39bf31,_0x204fa8,_0x186fb2)=>{const _0x3c62d8=_0xaad6ae,_0x191e7f={'vyNKo':_0x3c62d8(0xbb),'RrLGJ':function(_0x336e50,_0x13b36e){return _0x336e50(_0x13b36e);},'BQgty':function(_0x2df78e,_0x48f06d){return _0x2df78e(_0x48f06d);},'cyzJU':'Error\x20converting\x20sticker\x20to\x20image:'};try{const _0x39ce86=_0x204fa8['stickerMessage'];if(!_0x39ce86){await _0x39bf31['sendMessage'](_0x186fb2,{'text':_0x3c62d8(0xcc)});return;}const _0x4a6cea=path['join'](tempDir,'sticker_'+Date['now']()+_0x3c62d8(0xc2)),_0x21709a=path['join'](tempDir,'converted_image_'+Date[_0x3c62d8(0xc0)]()+'.png'),_0x565282=await downloadContentFromMessage(_0x39ce86,_0x191e7f['vyNKo']);let _0x511ab3=Buffer['from']([]);for await(const _0x52cc3b of _0x565282)_0x511ab3=Buffer['concat']([_0x511ab3,_0x52cc3b]);await fsPromises['writeFile'](_0x4a6cea,_0x511ab3),await sharp(_0x4a6cea)['toFormat']('png')[_0x3c62d8(0xba)](_0x21709a);const _0x40ccde=await fsPromises[_0x3c62d8(0xbe)](_0x21709a);await _0x39bf31['sendMessage'](_0x186fb2,{'image':_0x40ccde,'caption':_0x3c62d8(0xcd)}),_0x191e7f[_0x3c62d8(0xbd)](scheduleFileDeletion,_0x4a6cea),_0x191e7f[_0x3c62d8(0xcb)](scheduleFileDeletion,_0x21709a);}catch(_0x3141fb){console['error'](_0x191e7f['cyzJU'],_0x3141fb),await _0x39bf31[_0x3c62d8(0xbf)](_0x186fb2,{'text':_0x3c62d8(0xc1)});}};module[_0xaad6ae(0xc8)]=convertStickerToImage;
+const sharp = require('sharp');
+const fs = require('fs');
+const fsPromises = require('fs/promises');
+const fse = require('fs-extra');
+const path = require('path');
+const { downloadContentFromMessage } = require('@whiskeysockets/baileys');
+
+const tempDir = './temp';
+if (!fs.existsSync(tempDir)) fs.mkdirSync(tempDir);
+
+const scheduleFileDeletion = (filePath) => {
+    setTimeout(async () => {
+        try {
+            await fse.remove(filePath);
+            console.log(`File deleted: ${filePath}`);
+        } catch (error) {
+            console.error(`Failed to delete file:`, error);
+        }
+    }, 10000); // 5 minutes
+};
+
+const convertStickerToImage = async (sock, quotedMessage, chatId) => {
+    try {
+        const stickerMessage = quotedMessage.stickerMessage;
+        if (!stickerMessage) {
+            await sock.sendMessage(chatId, { text: 'Reply to a sticker with .simage to convert it.' });
+            return;
+        }
+
+        const stickerFilePath = path.join(tempDir, `sticker_${Date.now()}.webp`);
+        const outputImagePath = path.join(tempDir, `converted_image_${Date.now()}.png`);
+
+        const stream = await downloadContentFromMessage(stickerMessage, 'sticker');
+        let buffer = Buffer.from([]);
+        for await (const chunk of stream) buffer = Buffer.concat([buffer, chunk]);
+
+        await fsPromises.writeFile(stickerFilePath, buffer);
+        await sharp(stickerFilePath).toFormat('png').toFile(outputImagePath);
+
+        const imageBuffer = await fsPromises.readFile(outputImagePath);
+        await sock.sendMessage(chatId, { image: imageBuffer, caption: 'Here is the converted image!' });
+
+        scheduleFileDeletion(stickerFilePath);
+        scheduleFileDeletion(outputImagePath);
+    } catch (error) {
+        console.error('Error converting sticker to image:', error);
+        await sock.sendMessage(chatId, { text: 'An error occurred while converting the sticker.' });
+    }
+};
+
+module.exports = convertStickerToImage;

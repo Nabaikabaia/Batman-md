@@ -1,1 +1,73 @@
-const _0x27ccb5=_0x4311;function _0x4311(_0x452802,_0x1b7131){_0x452802=_0x452802-0x126;const _0xb969ac=_0xb969();let _0x4311d6=_0xb969ac[_0x452802];if(_0x4311['fUirQn']===undefined){var _0x14edc0=function(_0x5adb00){const _0x143b3e='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x56941e='',_0x453ec2='';for(let _0x2c0080=0x0,_0x4fbeaa,_0x22a89c,_0xf84ae1=0x0;_0x22a89c=_0x5adb00['charAt'](_0xf84ae1++);~_0x22a89c&&(_0x4fbeaa=_0x2c0080%0x4?_0x4fbeaa*0x40+_0x22a89c:_0x22a89c,_0x2c0080++%0x4)?_0x56941e+=String['fromCharCode'](0xff&_0x4fbeaa>>(-0x2*_0x2c0080&0x6)):0x0){_0x22a89c=_0x143b3e['indexOf'](_0x22a89c);}for(let _0x353f7e=0x0,_0x3369e7=_0x56941e['length'];_0x353f7e<_0x3369e7;_0x353f7e++){_0x453ec2+='%'+('00'+_0x56941e['charCodeAt'](_0x353f7e)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x453ec2);};_0x4311['ZuvhIQ']=_0x14edc0,_0x4311['lMCkJE']={},_0x4311['fUirQn']=!![];}const _0x577320=_0xb969ac[0x0],_0x357501=_0x452802+_0x577320,_0x3b7c09=_0x4311['lMCkJE'][_0x357501];return!_0x3b7c09?(_0x4311d6=_0x4311['ZuvhIQ'](_0x4311d6),_0x4311['lMCkJE'][_0x357501]=_0x4311d6):_0x4311d6=_0x3b7c09,_0x4311d6;}(function(_0x5166f9,_0x4fb4d6){const _0x4aa23c=_0x4311,_0x2732ab=_0x5166f9();while(!![]){try{const _0x35689a=-parseInt(_0x4aa23c(0x147))/0x1+-parseInt(_0x4aa23c(0x129))/0x2+parseInt(_0x4aa23c(0x13d))/0x3*(-parseInt(_0x4aa23c(0x138))/0x4)+parseInt(_0x4aa23c(0x141))/0x5+-parseInt(_0x4aa23c(0x14b))/0x6*(-parseInt(_0x4aa23c(0x126))/0x7)+parseInt(_0x4aa23c(0x13b))/0x8*(parseInt(_0x4aa23c(0x12d))/0x9)+-parseInt(_0x4aa23c(0x136))/0xa*(-parseInt(_0x4aa23c(0x146))/0xb);if(_0x35689a===_0x4fb4d6)break;else _0x2732ab['push'](_0x2732ab['shift']());}catch(_0x2eee44){_0x2732ab['push'](_0x2732ab['shift']());}}}(_0xb969,0x5262c));const fs=require('fs'),isOwnerOrSudo=require(_0x27ccb5(0x139)),PMBLOCKER_PATH=_0x27ccb5(0x12e);function _0xb969(){const _0x3d9c59=['AwH1s3q','ue0GqMXVy2TLCIbPCYbJDxjYzw50BhKGkG','DgHJEue','vxnHz2u6ic5WBwjSB2nRzxiGC2v0BxnNidXTzxnZywDLpG','mtiXsfzuthvL','nJe3odmXzvzNDwjU','DhjPBq','BKfJEha','kGPnzxnZywDLoIa','mJm0DKLyywvc','ru5bqKXfra','B2zM','mte0mdy1ren0wvfq','C2vUze1LC3nHz2u','ueHWv0W','nZi2nJm4tfLls3zy','BvPRCKi','t25SEsbIB3qGB3DUzxiGy2fUihvZzsb0AgLZignVBw1HBMqH','rvPevwW','mtGWvgXvvejU','lI9KyxrHl3bTyMXVy2TLCI5QC29U','C05kzeq','Dg9mB3DLCKnHC2u','A2v5','C01sA0q','lI9KyxrH','Bg1Mswy','D1rWzgm','mZaXntCWu0PKBwjb','CMvHzezPBgvtEw5J','nfrRD3bPrG','lI4VBgLIl2LZt3DUzxi','C3rHDhvZ','oti2odHbA0fryuC','ue0GqMXVy2TLCIbTzxnZywDLihvWzgf0zwqU','ntGXmZDZqNvSvfO','CMvTB3rLsMLK','C2v0BxnN','BwvZC2fNzq','nJK1mtq1ze53AxDO'];_0xb969=function(){return _0x3d9c59;};return _0xb969();}function readState(){const _0x4d629a=_0x27ccb5,_0x300a75={'thcyA':'string'};try{if(!fs['existsSync'](PMBLOCKER_PATH))return{'enabled':![],'message':'⚠️\x20Direct\x20messages\x20are\x20blocked!\x0aYou\x20cannot\x20DM\x20this\x20bot.\x20Please\x20contact\x20the\x20owner\x20in\x20group\x20chats\x20only.'};const _0x3649cb=fs[_0x4d629a(0x137)](PMBLOCKER_PATH,'utf8'),_0x81b10f=JSON['parse'](_0x3649cb||'{}');return{'enabled':!!_0x81b10f['enabled'],'message':typeof _0x81b10f[_0x4d629a(0x140)]===_0x300a75[_0x4d629a(0x144)]&&_0x81b10f[_0x4d629a(0x140)][_0x4d629a(0x148)]()?_0x81b10f[_0x4d629a(0x140)]:'⚠️\x20Direct\x20messages\x20are\x20blocked!\x0aYou\x20cannot\x20DM\x20this\x20bot.\x20Please\x20contact\x20the\x20owner\x20in\x20group\x20chats\x20only.'};}catch{return{'enabled':![],'message':'⚠️\x20Direct\x20messages\x20are\x20blocked!\x0aYou\x20cannot\x20DM\x20this\x20bot.\x20Please\x20contact\x20the\x20owner\x20in\x20group\x20chats\x20only.'};}}function writeState(_0x121527,_0xb37ad3){const _0x4c5371=_0x27ccb5,_0x2912b0={'FNNJu':_0x4c5371(0x133),'CzTYI':function(_0x4e7e3b){return _0x4e7e3b();},'mZkrB':function(_0x3a08b6,_0xdc9a76){return _0x3a08b6===_0xdc9a76;}};try{if(!fs['existsSync'](_0x2912b0['FNNJu']))fs['mkdirSync'](_0x4c5371(0x133),{'recursive':!![]});const _0x27b10e=_0x2912b0['CzTYI'](readState),_0x3d97a9={'enabled':!!_0x121527,'message':_0x2912b0[_0x4c5371(0x12a)](typeof _0xb37ad3,'string')&&_0xb37ad3['trim']()?_0xb37ad3:_0x27b10e['message']};fs['writeFileSync'](PMBLOCKER_PATH,JSON['stringify'](_0x3d97a9,null,0x2));}catch{}}async function pmblockerCommand(_0x50b937,_0x4d5e42,_0x149fd7,_0x12a71d){const _0x25d6af=_0x27ccb5,_0x543cc1={'sMRkD':function(_0x227a4d,_0x39e35c,_0x3a1281,_0x1ebdd7){return _0x227a4d(_0x39e35c,_0x3a1281,_0x1ebdd7);},'ClXNV':function(_0x134991,_0x4f0bf3){return _0x134991||_0x4f0bf3;},'wTpdc':_0x25d6af(0x14d),'ihuKt':_0x25d6af(0x13f),'tdMqf':'*PMBLOCKER\x20(Owner\x20only)*\x0a\x0a.pmblocker\x20on\x20-\x20Enable\x20PM\x20auto-block\x0a.pmblocker\x20off\x20-\x20Disable\x20PM\x20blocker\x0a.pmblocker\x20status\x20-\x20Show\x20current\x20status\x0a.pmblocker\x20setmsg\x20<text>\x20-\x20Set\x20warning\x20message','PHpWL':function(_0x337b2f,_0x5ef56a){return _0x337b2f===_0x5ef56a;},'lmfIf':'OFF','EZDUl':_0x25d6af(0x145),'sNJdD':_0x25d6af(0x14c),'nAcxp':'DISABLED'},_0x37ef1d=_0x149fd7['key']['participant']||_0x149fd7[_0x25d6af(0x131)][_0x25d6af(0x13e)],_0x43bbaa=await _0x543cc1[_0x25d6af(0x132)](isOwnerOrSudo,_0x37ef1d,_0x50b937,_0x4d5e42);if(!_0x149fd7['key']['fromMe']&&!_0x43bbaa){await _0x50b937['sendMessage'](_0x4d5e42,{'text':_0x25d6af(0x12b)},{'quoted':_0x149fd7});return;}const _0x33d1a9=_0x543cc1['ClXNV'](_0x12a71d,'')[_0x25d6af(0x148)](),[_0x58f7ea,..._0x58893b]=_0x33d1a9['split']('\x20'),_0x2ed373=readState();if(!_0x58f7ea||!['on',_0x543cc1[_0x25d6af(0x135)],_0x25d6af(0x13a),_0x543cc1[_0x25d6af(0x142)]]['includes'](_0x58f7ea['toLowerCase']())){await _0x50b937['sendMessage'](_0x4d5e42,{'text':_0x543cc1['tdMqf']},{'quoted':_0x149fd7});return;}if(_0x543cc1[_0x25d6af(0x128)](_0x58f7ea[_0x25d6af(0x130)](),'status')){await _0x50b937[_0x25d6af(0x127)](_0x4d5e42,{'text':_0x25d6af(0x143)+(_0x2ed373['enabled']?'ON':_0x543cc1[_0x25d6af(0x134)])+_0x25d6af(0x14a)+_0x2ed373['message']},{'quoted':_0x149fd7});return;}if(_0x58f7ea['toLowerCase']()===_0x25d6af(0x13f)){const _0x34fc69=_0x58893b['join']('\x20')[_0x25d6af(0x148)]();if(!_0x34fc69){await _0x50b937['sendMessage'](_0x4d5e42,{'text':_0x543cc1[_0x25d6af(0x12c)]},{'quoted':_0x149fd7});return;}writeState(_0x2ed373['enabled'],_0x34fc69),await _0x50b937['sendMessage'](_0x4d5e42,{'text':_0x25d6af(0x13c)},{'quoted':_0x149fd7});return;}const _0x3c24fd=_0x543cc1['PHpWL'](_0x58f7ea[_0x25d6af(0x130)](),'on');writeState(_0x3c24fd),await _0x50b937[_0x25d6af(0x127)](_0x4d5e42,{'text':'PM\x20Blocker\x20is\x20now\x20*'+(_0x3c24fd?_0x543cc1[_0x25d6af(0x12f)]:_0x543cc1[_0x25d6af(0x149)])+'*.'},{'quoted':_0x149fd7});}module['exports']={'pmblockerCommand':pmblockerCommand,'readState':readState};
+const fs = require('fs');
+const isOwnerOrSudo = require('../lib/isOwner');
+
+const PMBLOCKER_PATH = './data/pmblocker.json';
+
+function readState() {
+    try {
+        if (!fs.existsSync(PMBLOCKER_PATH)) return { enabled: false, message: '⚠️ Direct messages are blocked!\nYou cannot DM this bot. Please contact the owner in group chats only.' };
+        const raw = fs.readFileSync(PMBLOCKER_PATH, 'utf8');
+        const data = JSON.parse(raw || '{}');
+        return {
+            enabled: !!data.enabled,
+            message: typeof data.message === 'string' && data.message.trim() ? data.message : '⚠️ Direct messages are blocked!\nYou cannot DM this bot. Please contact the owner in group chats only.'
+        };
+    } catch {
+        return { enabled: false, message: '⚠️ Direct messages are blocked!\nYou cannot DM this bot. Please contact the owner in group chats only.' };
+    }
+}
+
+function writeState(enabled, message) {
+    try {
+        if (!fs.existsSync('./data')) fs.mkdirSync('./data', { recursive: true });
+        const current = readState();
+        const payload = {
+            enabled: !!enabled,
+            message: typeof message === 'string' && message.trim() ? message : current.message
+        };
+        fs.writeFileSync(PMBLOCKER_PATH, JSON.stringify(payload, null, 2));
+    } catch {}
+}
+
+async function pmblockerCommand(sock, chatId, message, args) {
+    const senderId = message.key.participant || message.key.remoteJid;
+    const isOwner = await isOwnerOrSudo(senderId, sock, chatId);
+    
+    if (!message.key.fromMe && !isOwner) {
+        await sock.sendMessage(chatId, { text: 'Only bot owner can use this command!' }, { quoted: message });
+        return;
+    }
+    
+    const argStr = (args || '').trim();
+    const [sub, ...rest] = argStr.split(' ');
+    const state = readState();
+
+    if (!sub || !['on', 'off', 'status', 'setmsg'].includes(sub.toLowerCase())) {
+        await sock.sendMessage(chatId, { text: '*PMBLOCKER (Owner only)*\n\n.pmblocker on - Enable PM auto-block\n.pmblocker off - Disable PM blocker\n.pmblocker status - Show current status\n.pmblocker setmsg <text> - Set warning message' }, { quoted: message });
+        return;
+    }
+
+    if (sub.toLowerCase() === 'status') {
+        await sock.sendMessage(chatId, { text: `PM Blocker is currently *${state.enabled ? 'ON' : 'OFF'}*\nMessage: ${state.message}` }, { quoted: message });
+        return;
+    }
+
+    if (sub.toLowerCase() === 'setmsg') {
+        const newMsg = rest.join(' ').trim();
+        if (!newMsg) {
+            await sock.sendMessage(chatId, { text: 'Usage: .pmblocker setmsg <message>' }, { quoted: message });
+            return;
+        }
+        writeState(state.enabled, newMsg);
+        await sock.sendMessage(chatId, { text: 'PM Blocker message updated.' }, { quoted: message });
+        return;
+    }
+
+    const enable = sub.toLowerCase() === 'on';
+    writeState(enable);
+    await sock.sendMessage(chatId, { text: `PM Blocker is now *${enable ? 'ENABLED' : 'DISABLED'}*.` }, { quoted: message });
+}
+
+module.exports = { pmblockerCommand, readState };
+
+

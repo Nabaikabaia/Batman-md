@@ -1,1 +1,34 @@
-const _0x17046c=_0x5c99;function _0x5c99(_0x25a714,_0x37d62a){_0x25a714=_0x25a714-0x1a4;const _0x16d7ea=_0x16d7();let _0x5c9986=_0x16d7ea[_0x25a714];if(_0x5c99['JWPFvD']===undefined){var _0x2995f8=function(_0x34f22c){const _0x5c1e25='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x1a3fc8='',_0x3012a2='';for(let _0x1ef694=0x0,_0x137297,_0x9edb03,_0x2b1f76=0x0;_0x9edb03=_0x34f22c['charAt'](_0x2b1f76++);~_0x9edb03&&(_0x137297=_0x1ef694%0x4?_0x137297*0x40+_0x9edb03:_0x9edb03,_0x1ef694++%0x4)?_0x1a3fc8+=String['fromCharCode'](0xff&_0x137297>>(-0x2*_0x1ef694&0x6)):0x0){_0x9edb03=_0x5c1e25['indexOf'](_0x9edb03);}for(let _0x4f4919=0x0,_0x1452f2=_0x1a3fc8['length'];_0x4f4919<_0x1452f2;_0x4f4919++){_0x3012a2+='%'+('00'+_0x1a3fc8['charCodeAt'](_0x4f4919)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x3012a2);};_0x5c99['NimLdR']=_0x2995f8,_0x5c99['VLChno']={},_0x5c99['JWPFvD']=!![];}const _0x180600=_0x16d7ea[0x0],_0x3407d0=_0x25a714+_0x180600,_0x33e58b=_0x5c99['VLChno'][_0x3407d0];return!_0x33e58b?(_0x5c9986=_0x5c99['NimLdR'](_0x5c9986),_0x5c99['VLChno'][_0x3407d0]=_0x5c9986):_0x5c9986=_0x33e58b,_0x5c9986;}(function(_0x2ed43c,_0x53d796){const _0x212aa3=_0x5c99,_0x2a1bec=_0x2ed43c();while(!![]){try{const _0x14d0e0=parseInt(_0x212aa3(0x1bb))/0x1+-parseInt(_0x212aa3(0x1a6))/0x2*(-parseInt(_0x212aa3(0x1b3))/0x3)+parseInt(_0x212aa3(0x1a4))/0x4+parseInt(_0x212aa3(0x1aa))/0x5+-parseInt(_0x212aa3(0x1b4))/0x6*(parseInt(_0x212aa3(0x1b6))/0x7)+-parseInt(_0x212aa3(0x1ae))/0x8*(parseInt(_0x212aa3(0x1b2))/0x9)+-parseInt(_0x212aa3(0x1b1))/0xa*(parseInt(_0x212aa3(0x1ab))/0xb);if(_0x14d0e0===_0x53d796)break;else _0x2a1bec['push'](_0x2a1bec['shift']());}catch(_0x34e253){_0x2a1bec['push'](_0x2a1bec['shift']());}}}(_0x16d7,0x6b21d));const fetch=require(_0x17046c(0x1ba));async function memeCommand(_0x1af941,_0x386f12,_0x1961f9){const _0x51cf95=_0x17046c,_0x203dbc={'GxXyF':'https://shizoapi.onrender.com/api/memes/cheems?apikey=shizo','Rbewv':_0x51cf95(0x1ac),'aLnRx':_0x51cf95(0x1b8),'fSaGA':'😄\x20Joke','vFgYW':'Invalid\x20response\x20type\x20from\x20API','VzgiN':_0x51cf95(0x1b9)};try{const _0x54f0c8=await fetch(_0x203dbc[_0x51cf95(0x1b0)]),_0x5c92cc=_0x54f0c8['headers']['get'](_0x203dbc[_0x51cf95(0x1af)]);if(_0x5c92cc&&_0x5c92cc['includes'](_0x51cf95(0x1a9))){const _0x44811c=await _0x54f0c8['buffer'](),_0x5984b0=[{'buttonId':_0x51cf95(0x1bc),'buttonText':{'displayText':_0x51cf95(0x1b5)},'type':0x1},{'buttonId':_0x203dbc[_0x51cf95(0x1a8)],'buttonText':{'displayText':_0x203dbc['fSaGA']},'type':0x1}];await _0x1af941[_0x51cf95(0x1b7)](_0x386f12,{'image':_0x44811c,'caption':_0x51cf95(0x1ad),'buttons':_0x5984b0,'headerType':0x1},{'quoted':_0x1961f9});}else throw new Error(_0x203dbc[_0x51cf95(0x1a5)]);}catch(_0x669d37){console['error'](_0x203dbc['VzgiN'],_0x669d37),await _0x1af941[_0x51cf95(0x1b7)](_0x386f12,{'text':_0x51cf95(0x1a7)},{'quoted':_0x1961f9});}}module['exports']=memeCommand;function _0x16d7(){const _0x44f910=['mZeWmJa1nuzZA2X2wG','mtyZmta2owHqv25HBq','y29UDgvUDc10ExbL','pIbizxjLj3mGEw91CIbJAgvLBxmGBwvTzseG8j+qLq','mtu0ngXIy0T5BW','uMjLD3y','r3HyEuy','mZbwrwLusgm','mZyXodL2ufb3Au0','nJy0mJm2ywLJD095','mtmYntq2AgXsC2P4','8j+oRsbbBM90AgvYie1LBwu','mZvWr3vqt2W','C2vUze1LC3nHz2u','lMPVA2u','rxjYB3iGAw4GBwvTzsbJB21Tyw5KoG','BM9Kzs1MzxrJAa','nty5mtqZuLLKDhrT','lM1LBwu','mtqZnJC2ofDguLfuva','DKzNwvC','mKXlBxn2ua','4P2miezHAwXLzcb0BYbMzxrJAcbTzw1LlIbqBgvHC2uGDhj5igfNywLUigXHDgvYlG','yuXUuNG','Aw1Hz2u'];_0x16d7=function(){return _0x44f910;};return _0x16d7();}
+const fetch = require('node-fetch');
+
+async function memeCommand(sock, chatId, message) {
+    try {
+        const response = await fetch('https://shizoapi.onrender.com/api/memes/cheems?apikey=shizo');
+        
+        // Check if response is an image
+        const contentType = response.headers.get('content-type');
+        if (contentType && contentType.includes('image')) {
+            const imageBuffer = await response.buffer();
+            
+            const buttons = [
+                { buttonId: '.meme', buttonText: { displayText: '🎭 Another Meme' }, type: 1 },
+                { buttonId: '.joke', buttonText: { displayText: '😄 Joke' }, type: 1 }
+            ];
+
+            await sock.sendMessage(chatId, { 
+                image: imageBuffer,
+                caption: "> Here's your cheems meme! 🐕",
+                buttons: buttons,
+                headerType: 1
+            },{ quoted: message});
+        } else {
+            throw new Error('Invalid response type from API');
+        }
+    } catch (error) {
+        console.error('Error in meme command:', error);
+        await sock.sendMessage(chatId, { 
+            text: '❌ Failed to fetch meme. Please try again later.'
+        },{ quoted: message });
+    }
+}
+
+module.exports = memeCommand;

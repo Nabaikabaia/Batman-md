@@ -1,1 +1,30 @@
-var _0x3b3bf2=_0x320d;function _0x320d(_0xfb8abb,_0x1f037e){_0xfb8abb=_0xfb8abb-0x19b;var _0x35a367=_0x35a3();var _0x320dfc=_0x35a367[_0xfb8abb];if(_0x320d['QSNGoA']===undefined){var _0x490865=function(_0x5f0272){var _0x373929='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var _0x6ab792='',_0x8526f9='';for(var _0x1edb37=0x0,_0xa9c693,_0x38ead2,_0x4314c9=0x0;_0x38ead2=_0x5f0272['charAt'](_0x4314c9++);~_0x38ead2&&(_0xa9c693=_0x1edb37%0x4?_0xa9c693*0x40+_0x38ead2:_0x38ead2,_0x1edb37++%0x4)?_0x6ab792+=String['fromCharCode'](0xff&_0xa9c693>>(-0x2*_0x1edb37&0x6)):0x0){_0x38ead2=_0x373929['indexOf'](_0x38ead2);}for(var _0x1fb1b2=0x0,_0x50b5e2=_0x6ab792['length'];_0x1fb1b2<_0x50b5e2;_0x1fb1b2++){_0x8526f9+='%'+('00'+_0x6ab792['charCodeAt'](_0x1fb1b2)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x8526f9);};_0x320d['awnPsX']=_0x490865,_0x320d['kShkvl']={},_0x320d['QSNGoA']=!![];}var _0x34c2f1=_0x35a367[0x0],_0x345ae0=_0xfb8abb+_0x34c2f1,_0x3c2365=_0x320d['kShkvl'][_0x345ae0];return!_0x3c2365?(_0x320dfc=_0x320d['awnPsX'](_0x320dfc),_0x320d['kShkvl'][_0x345ae0]=_0x320dfc):_0x320dfc=_0x3c2365,_0x320dfc;}(function(_0x33525a,_0x45c816){var _0x39839=_0x320d,_0x174dbf=_0x33525a();while(!![]){try{var _0x2b39b6=-parseInt(_0x39839(0x1a5))/0x1*(parseInt(_0x39839(0x1a0))/0x2)+parseInt(_0x39839(0x1ab))/0x3*(-parseInt(_0x39839(0x1a8))/0x4)+-parseInt(_0x39839(0x1ac))/0x5+parseInt(_0x39839(0x19e))/0x6+parseInt(_0x39839(0x19d))/0x7+-parseInt(_0x39839(0x1a6))/0x8*(parseInt(_0x39839(0x1aa))/0x9)+parseInt(_0x39839(0x1a3))/0xa*(parseInt(_0x39839(0x19b))/0xb);if(_0x2b39b6===_0x45c816)break;else _0x174dbf['push'](_0x174dbf['shift']());}catch(_0x2bbd38){_0x174dbf['push'](_0x174dbf['shift']());}}}(_0x35a3,0x27c2c),require('dotenv')[_0x3b3bf2(0x19f)](),global['APIs']={'xteam':'https://api.xteam.xyz','dzx':'https://api.dhamzxploit.my.id','lol':'https://api.lolhuman.xyz','violetics':_0x3b3bf2(0x1a4),'neoxr':_0x3b3bf2(0x1a2),'zenzapis':'https://zenzapis.xyz','akuari':'https://api.akuari.my.id','akuari2':_0x3b3bf2(0x1a9),'nrtm':'https://fg-nrtm.ddns.net','bg':_0x3b3bf2(0x1a7),'fgmods':'https://api-fgmods.ddns.net'},global['APIKeys']={'https://api.xteam.xyz':_0x3b3bf2(0x19c),'https://api.lolhuman.xyz':'85faf717d0545d14074659ad','https://api.neoxr.my.id':'yourkey','https://violetics.pw':_0x3b3bf2(0x1a1),'https://zenzapis.xyz':'yourkey','https://api-fgmods.ddns.net':'fg-dylux'},module['exports']={'WARN_COUNT':0x3,'APIs':global['APIs'],'APIKeys':global['APIKeys']});function _0x35a3(){var _0xdd3856=['y29UzMLN','mtq0mMPruLbNzW','yMv0yq','Ahr0Chm6lY9HCgKUBMvVEhiUBxKUAwq','mtbvD25nCfC','Ahr0Chm6lY92Aw9SzxrPy3mUChC','mZCZvgjRvNbh','ofb2AKDdsW','Ahr0CdOVl2jVy2HPBc5Kzg5ZlM5LDa','mtiWEK52Bej1','Ahr0Chm6lY9HCgLTDs5TEs5Pza','otGZmZK0CNHNCMfe','mte0otLRy09QChK','mti2nJq4mfrNExzzta','nZG1mtK3nLbXrenguW','zdKWytLLotG2zte4nZC4yG','oti3mZC0tLjhs2L0','mZC4mJGYEM1HAxLl'];_0x35a3=function(){return _0xdd3856;};return _0x35a3();}
+require('dotenv').config();
+
+global.APIs = {
+    xteam: 'https://api.xteam.xyz',
+    dzx: 'https://api.dhamzxploit.my.id',
+    lol: 'https://api.lolhuman.xyz',
+    violetics: 'https://violetics.pw',
+    neoxr: 'https://api.neoxr.my.id',
+    zenzapis: 'https://zenzapis.xyz',
+    akuari: 'https://api.akuari.my.id',
+    akuari2: 'https://apimu.my.id',
+    nrtm: 'https://fg-nrtm.ddns.net',
+    bg: 'http://bochil.ddns.net',
+    fgmods: 'https://api-fgmods.ddns.net'
+};
+
+global.APIKeys = {
+    'https://api.xteam.xyz': 'd90a9e986e18778b',
+    'https://api.lolhuman.xyz': '85faf717d0545d14074659ad',
+    'https://api.neoxr.my.id': 'yourkey',
+    'https://violetics.pw': 'beta',
+    'https://zenzapis.xyz': 'yourkey',
+    'https://api-fgmods.ddns.net': 'fg-dylux'
+};
+
+module.exports = {
+    WARN_COUNT: 3,
+    APIs: global.APIs,
+    APIKeys: global.APIKeys
+};

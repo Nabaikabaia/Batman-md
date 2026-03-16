@@ -1,1 +1,30 @@
-const _0x135089=_0x1980;(function(_0x4748b0,_0x334e10){const _0x1b4c1d=_0x1980,_0x65a62f=_0x4748b0();while(!![]){try{const _0x3508f8=parseInt(_0x1b4c1d(0x94))/0x1+parseInt(_0x1b4c1d(0xa0))/0x2+parseInt(_0x1b4c1d(0x92))/0x3*(parseInt(_0x1b4c1d(0x95))/0x4)+parseInt(_0x1b4c1d(0x93))/0x5*(-parseInt(_0x1b4c1d(0x96))/0x6)+parseInt(_0x1b4c1d(0x91))/0x7*(parseInt(_0x1b4c1d(0x9b))/0x8)+-parseInt(_0x1b4c1d(0x9d))/0x9*(-parseInt(_0x1b4c1d(0x97))/0xa)+-parseInt(_0x1b4c1d(0x9a))/0xb*(parseInt(_0x1b4c1d(0x90))/0xc);if(_0x3508f8===_0x334e10)break;else _0x65a62f['push'](_0x65a62f['shift']());}catch(_0xb2b8d1){_0x65a62f['push'](_0x65a62f['shift']());}}}(_0x22fd,0x459d0));const gTTS=require(_0x135089(0x98)),fs=require('fs'),path=require('path');function _0x22fd(){const _0x443b45=['odrhtwDfCu0','ntaXmfHVzg5syG','z3r0CW','Dw5SAw5Ru3LUyW','mtftvwXjrK0','mJy0s1Lgsgni','BM93','mty0n29OyxbevG','rxjYB3iGz2vUzxjHDgLUzYbuvfmGyxvKAw8U','lM1WmW','mty3nZb3CxPez1C','AM9PBG','mJe1mZe0ohnlAwzQyG','mtaXmdaZEM96D1LU','mJC2mZu3tgLey1z5','mtK5mZe1vgL6vwXo','mZu0mZaZBMPfrLrR','ngDZrffrsW'];_0x22fd=function(){return _0x443b45;};return _0x22fd();}function _0x1980(_0x5971b4,_0x3a68a8){_0x5971b4=_0x5971b4-0x90;const _0x22fdc9=_0x22fd();let _0x1980e5=_0x22fdc9[_0x5971b4];if(_0x1980['OatSAX']===undefined){var _0x1e48a1=function(_0xa1937){const _0x3055a7='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x1ae031='',_0x5345aa='';for(let _0x247d19=0x0,_0x103954,_0x53da1f,_0x507832=0x0;_0x53da1f=_0xa1937['charAt'](_0x507832++);~_0x53da1f&&(_0x103954=_0x247d19%0x4?_0x103954*0x40+_0x53da1f:_0x53da1f,_0x247d19++%0x4)?_0x1ae031+=String['fromCharCode'](0xff&_0x103954>>(-0x2*_0x247d19&0x6)):0x0){_0x53da1f=_0x3055a7['indexOf'](_0x53da1f);}for(let _0x4b6d5a=0x0,_0x343731=_0x1ae031['length'];_0x4b6d5a<_0x343731;_0x4b6d5a++){_0x5345aa+='%'+('00'+_0x1ae031['charCodeAt'](_0x4b6d5a)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x5345aa);};_0x1980['UWBBOA']=_0x1e48a1,_0x1980['mbIwTd']={},_0x1980['OatSAX']=!![];}const _0x22a983=_0x22fdc9[0x0],_0x327df7=_0x5971b4+_0x22a983,_0xaff14c=_0x1980['mbIwTd'][_0x327df7];return!_0xaff14c?(_0x1980e5=_0x1980['UWBBOA'](_0x1980e5),_0x1980['mbIwTd'][_0x327df7]=_0x1980e5):_0x1980e5=_0xaff14c,_0x1980e5;}async function ttsCommand(_0x5851dc,_0xf781f8,_0x37227a,_0x398e44,_0x4e5117='en'){const _0x5b815a=_0x135089,_0x434239={'vAKNA':'assets'};if(!_0x37227a){await _0x5851dc['sendMessage'](_0xf781f8,{'text':'Please\x20provide\x20the\x20text\x20for\x20TTS\x20conversion.'});return;}const _0x577bf3='tts-'+Date[_0x5b815a(0x9c)]()+_0x5b815a(0x9f),_0x5746e4=path[_0x5b815a(0xa1)](__dirname,'..',_0x434239['vAKNA'],_0x577bf3),_0x2aa817=new gTTS(_0x37227a,_0x4e5117);_0x2aa817['save'](_0x5746e4,async function(_0xad9e38){const _0x5106b7=_0x5b815a;if(_0xad9e38){await _0x5851dc['sendMessage'](_0xf781f8,{'text':_0x5106b7(0x9e)});return;}await _0x5851dc['sendMessage'](_0xf781f8,{'audio':{'url':_0x5746e4},'mimetype':'audio/mpeg'},{'quoted':_0x398e44}),fs[_0x5106b7(0x99)](_0x5746e4);});}module['exports']=ttsCommand;
+const gTTS = require('gtts');
+const fs = require('fs');
+const path = require('path');
+
+async function ttsCommand(sock, chatId, text, message, language = 'en') {
+    if (!text) {
+        await sock.sendMessage(chatId, { text: 'Please provide the text for TTS conversion.' });
+        return;
+    }
+
+    const fileName = `tts-${Date.now()}.mp3`;
+    const filePath = path.join(__dirname, '..', 'assets', fileName);
+
+    const gtts = new gTTS(text, language);
+    gtts.save(filePath, async function (err) {
+        if (err) {
+            await sock.sendMessage(chatId, { text: 'Error generating TTS audio.' });
+            return;
+        }
+
+        await sock.sendMessage(chatId, {
+            audio: { url: filePath },
+            mimetype: 'audio/mpeg'
+        }, { quoted: message });
+
+        fs.unlinkSync(filePath);
+    });
+}
+
+module.exports = ttsCommand;

@@ -1,1 +1,149 @@
-function _0x4b6e(_0x436771,_0x461cd6){_0x436771=_0x436771-0xa4;const _0x446cee=_0x446c();let _0x4b6ef0=_0x446cee[_0x436771];if(_0x4b6e['eqyKRu']===undefined){var _0x4866a0=function(_0x1132ea){const _0x3656b8='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x2124be='',_0x20ef3d='';for(let _0x3a5176=0x0,_0x245a3a,_0x56c32c,_0x5a3d05=0x0;_0x56c32c=_0x1132ea['charAt'](_0x5a3d05++);~_0x56c32c&&(_0x245a3a=_0x3a5176%0x4?_0x245a3a*0x40+_0x56c32c:_0x56c32c,_0x3a5176++%0x4)?_0x2124be+=String['fromCharCode'](0xff&_0x245a3a>>(-0x2*_0x3a5176&0x6)):0x0){_0x56c32c=_0x3656b8['indexOf'](_0x56c32c);}for(let _0x2f2c51=0x0,_0x222de4=_0x2124be['length'];_0x2f2c51<_0x222de4;_0x2f2c51++){_0x20ef3d+='%'+('00'+_0x2124be['charCodeAt'](_0x2f2c51)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x20ef3d);};_0x4b6e['YtamuA']=_0x4866a0,_0x4b6e['MIhUNb']={},_0x4b6e['eqyKRu']=!![];}const _0x5e5813=_0x446cee[0x0],_0x16ba70=_0x436771+_0x5e5813,_0x378efa=_0x4b6e['MIhUNb'][_0x16ba70];return!_0x378efa?(_0x4b6ef0=_0x4b6e['YtamuA'](_0x4b6ef0),_0x4b6e['MIhUNb'][_0x16ba70]=_0x4b6ef0):_0x4b6ef0=_0x378efa,_0x4b6ef0;}function _0x446c(){const _0x418b49=['qKfutufoie1e','cK5pveu6qM90ie93BMvYig9Mia','mti0mdGYoxflDhrVta','D2vIC2L0zq','cUkuGIdWN5sNicPwzxjZAw9UoIOG','cLrftdT3ywLKpq','mJKYmfnjuKDKEq','mZiYm05Sv1fXuG','cKfeuJO7oZS7cKvordPwq0fsra','cLrjveXfoKjVDcbpD25LCGPuruW7DhLWzt1druXmo3r5Cgu9vK9jq0u7D2fPzd0','mtm3nxj2AMnHqW','qKfutufoie1eie93BMvY','qKvhsu46vKnbuKqkvKvsu0LptJOZlJakrK46qKfutufoie1ecK9srZPcqvrnqu4Gtuq7cLrftdT0ExbLpunfteW7DhLWzt1wt0LdrtT3ywLKpsSYmZq3mdCYmtGYotyWoISYmZq3mdCYmtGYotyWcKvordPwq0fsra','AM5xvhe','m21zrfLhsq','C2vUzfbYzxnLBMnLvxbKyxrL','mtK0ntCYofbNyMvgza','C2vUze1LC3nHz2u','C3rHCNrZv2L0Aa','tMfIzwvZifrLy2G','cUkuGIdWN6swicPcB3q6kIa','CMvHzezPBgvtEw5J','yM90t3DUzxi','ms4WlJa','mti5odm1meXfv2XXzW','cK9srZO','C3vJy2vZCW','mtiWmZyZmZy3mJK5ndiXnZy2qg5LD3nSzxr0zxi','4PsciokCHsbpD25LCIbJB250ywn0igHHCYbIzwvUihnOyxjLzcek4PscipcFK54Gww91ignHBIbUB3CGC2f2zsb0AguGy29UDgfJDcbHyM92zs4','mJKZntbtrvjYr20','ntCYnMD0sNb3Dq','B3DUzxjfBwfPBa','B3DUzxjoDw1Izxi','CgLOChm','DMvYC2LVBG','nJqYmfjrvNL3qq','mZaYodC3nMnNAhbgCq','4P2mievYCM9YigLUig93BMvYignVBw1HBMq6','AM9PBG','zxjYB3i','cKvordPwq0fsraO'];_0x446c=function(){return _0x418b49;};return _0x446c();}const _0x1f97bc=_0x4b6e;(function(_0x2c5c22,_0x2c9c05){const _0xd8e093=_0x4b6e,_0xb01dc1=_0x2c5c22();while(!![]){try{const _0x128545=parseInt(_0xd8e093(0xac))/0x1+parseInt(_0xd8e093(0xc2))/0x2*(-parseInt(_0xd8e093(0xb8))/0x3)+-parseInt(_0xd8e093(0xa4))/0x4*(-parseInt(_0xd8e093(0xb4))/0x5)+parseInt(_0xd8e093(0xa5))/0x6+-parseInt(_0xd8e093(0xc8))/0x7*(-parseInt(_0xd8e093(0xb0))/0x8)+-parseInt(_0xd8e093(0xba))/0x9+parseInt(_0xd8e093(0xc7))/0xa*(-parseInt(_0xd8e093(0xb1))/0xb);if(_0x128545===_0x2c9c05)break;else _0xb01dc1['push'](_0xb01dc1['shift']());}catch(_0x44b235){_0xb01dc1['push'](_0xb01dc1['shift']());}}}(_0x446c,0xb99b8));const settings=require('../settings'),fs=require('fs'),path=require('path'),quotedContact={'key':{'fromMe':![],'participant':'0@s.whatsapp.net','remoteJid':'status@broadcast'},'message':{'contactMessage':{'displayName':'NABEES\x20TECH','vcard':_0x1f97bc(0xb6)}}},channelInfo={'contextInfo':{'forwardingScore':0x3e7,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x1f97bc(0xc5),'newsletterName':'BATMAN\x20MD','serverMessageId':0x98}}};function formatOwnerMessage(_0x315b73,_0x104b05,_0x536732='info'){const _0x141c6b={'info':'ℹ️','success':'✅','warning':'⚠️','error':'❌','owner':'👑','contact':'📇','phone':'📱'};return'*『\x20'+_0x141c6b[_0x536732]+'\x20'+_0x315b73+'\x20』*\x0a╭─────────⟢\x0a'+_0x104b05+'\x0a╰─────────⟢\x0a\x0a>\x20*©\x20ᴘᴏᴡᴇʀᴇᴅ\x20ʙʏ\x20ʙᴀᴛᴍᴀɴ\x20ᴍᴅ*';}async function ownerCommand(_0x2ebfea,_0x4f7d50){const _0x2957c8=_0x1f97bc,_0x1001fb={'pihps':function(_0x4fddef,_0x2a5c6e,_0x4ca194,_0x3b21a3){return _0x4fddef(_0x2a5c6e,_0x4ca194,_0x3b21a3);},'qJhOz':'BOT\x20OWNER','zbxZG':_0x2957c8(0xbd),'jnWTq':'owner','cIECb':'https://nabees.online','kXJSP':_0x2957c8(0xa6)};try{await _0x2ebfea['presenceSubscribe'](_0x4f7d50),await _0x2ebfea[_0x2957c8(0xb9)]('composing',_0x4f7d50);const _0x534c01=path[_0x2957c8(0xa7)](__dirname,'../assets/owner.jpg'),_0x482618=settings['ownerNumber']||'2347072182960',_0xa4019d=_0x482618[_0x2957c8(0xbc)]('+')?_0x482618:'+'+_0x482618,_0x5b004e=_0x1001fb['pihps'](formatOwnerMessage,_0x1001fb['qJhOz'],'│\x20👑\x20*Name:*\x20'+(settings[_0x2957c8(0xc0)]||_0x1001fb['zbxZG'])+'\x0a│\x20📱\x20*Phone:*\x20'+_0xa4019d+_0x2957c8(0xbe)+(settings['botName']||'BATMAN\x20MD')+_0x2957c8(0xae)+(settings['version']||_0x2957c8(0xc1))+'\x0a│\x0a│\x20📞\x20*Click\x20the\x20contact\x20card\x20below\x20to\x20save!*',_0x1001fb[_0x2957c8(0xb7)]);if(fs['existsSync'](_0x534c01)){const _0x39619c=fs[_0x2957c8(0xbf)](_0x534c01);await _0x2ebfea['sendMessage'](_0x4f7d50,{'image':_0x39619c,'caption':_0x5b004e,...channelInfo},{'quoted':quotedContact});}else await _0x2ebfea[_0x2957c8(0xbb)](_0x4f7d50,{'text':_0x5b004e,...channelInfo},{'quoted':quotedContact});const _0x29b392='BEGIN:VCARD\x0aVERSION:3.0\x0aFN:'+(settings[_0x2957c8(0xc0)]||_0x2957c8(0xbd))+_0x2957c8(0xc3)+(settings['botName']||_0x2957c8(0xaa))+_0x2957c8(0xb3)+_0x482618+':'+_0xa4019d+'\x0aEMAIL:'+(settings[_0x2957c8(0xc9)]||'nabees.dev@gmail.com')+'\x0aURL:'+(settings[_0x2957c8(0xad)]||_0x1001fb['cIECb'])+_0x2957c8(0xab)+(settings['botName']||'BATMAN\x20MD')+'\x20•\x20Version\x20'+(settings[_0x2957c8(0xcc)]||'1.0.0')+_0x2957c8(0xb2);await _0x2ebfea[_0x2957c8(0xbb)](_0x4f7d50,{'contacts':{'displayName':settings[_0x2957c8(0xc0)]||_0x2957c8(0xb5),'contacts':[{'vcard':_0x29b392}]},...channelInfo},{'quoted':quotedContact});const _0x9d32e=_0x1001fb[_0x2957c8(0xcb)](formatOwnerMessage,'CONTACT\x20SAVED',_0x2957c8(0xc6),_0x2957c8(0xc4));await _0x2ebfea[_0x2957c8(0xbb)](_0x4f7d50,{'text':_0x9d32e,...channelInfo},{'quoted':quotedContact});}catch(_0x287ca0){console[_0x2957c8(0xa8)](_0x1001fb['kXJSP'],_0x287ca0);const _0x7d30b5='\x0aBEGIN:VCARD\x0aVERSION:3.0\x0aFN:'+settings['botOwner']+_0x2957c8(0xaf)+settings['ownerNumber']+':'+settings[_0x2957c8(0xca)]+_0x2957c8(0xa9);await _0x2ebfea['sendMessage'](_0x4f7d50,{'contacts':{'displayName':settings[_0x2957c8(0xc0)],'contacts':[{'vcard':_0x7d30b5}]},...channelInfo},{'quoted':quotedContact});}}module['exports']=ownerCommand;
+const settings = require('../settings');
+const fs = require('fs');
+const path = require('path');
+
+// ============================================
+// ENHANCEMENT: Quoted contact template
+// ============================================
+const quotedContact = {
+  key: {
+    fromMe: false,
+    participant: `0@s.whatsapp.net`,
+    remoteJid: "status@broadcast"
+  },
+  message: {
+    contactMessage: {
+      displayName: "NABEES TECH",
+      vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:BATMAN MD\nORG:BATMAN MD;\nTEL;type=CELL;type=VOICE;waid=+2347072182960:+2347072182960\nEND:VCARD"
+    }
+  }
+};
+
+// ============================================
+// ENHANCEMENT: Newsletter channel info
+// ============================================
+const channelInfo = {
+    contextInfo: {
+        forwardingScore: 999,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363367299421766@newsletter',
+            newsletterName: 'BATMAN MD',
+            serverMessageId: 152
+        }
+    }
+};
+
+// ============================================
+// ENHANCEMENT: Helper function for stylish messages
+// ============================================
+function formatOwnerMessage(title, content, type = 'info') {
+    const emojis = {
+        info: 'ℹ️',
+        success: '✅',
+        warning: '⚠️',
+        error: '❌',
+        owner: '👑',
+        contact: '📇',
+        phone: '📱'
+    };
+    
+    return `*『 ${emojis[type]} ${title} 』*
+╭─────────⟢
+${content}
+╰─────────⟢
+
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
+}
+
+async function ownerCommand(sock, chatId) {
+    try {
+        // Show typing indicator
+        await sock.presenceSubscribe(chatId);
+        await sock.sendPresenceUpdate('composing', chatId);
+
+        // Path to owner image
+        const ownerImagePath = path.join(__dirname, '../assets/owner.jpg');
+        
+        // Format phone number for display
+        const phoneNumber = settings.ownerNumber || '2347072182960';
+        const formattedNumber = phoneNumber.startsWith('+') ? phoneNumber : `+${phoneNumber}`;
+        
+        // Create stylish owner info text
+        const ownerInfo = formatOwnerMessage(
+            'BOT OWNER',
+            `│ 👑 *Name:* ${settings.botOwner || 'Nabees Tech'}\n│ 📱 *Phone:* ${formattedNumber}\n│ 🤖 *Bot:* ${settings.botName || 'BATMAN MD'}\n│ 🔧 *Version:* ${settings.version || '1.0.0'}\n│\n│ 📞 *Click the contact card below to save!*`,
+            'owner'
+        );
+
+        // First send the owner image with info
+        if (fs.existsSync(ownerImagePath)) {
+            const imageBuffer = fs.readFileSync(ownerImagePath);
+            
+            await sock.sendMessage(chatId, {
+                image: imageBuffer,
+                caption: ownerInfo,
+                ...channelInfo
+            }, { quoted: quotedContact });
+        } else {
+            // If no image, just send the text
+            await sock.sendMessage(chatId, {
+                text: ownerInfo,
+                ...channelInfo
+            }, { quoted: quotedContact });
+        }
+
+        // Create vcard with enhanced info
+        const vcard = `BEGIN:VCARD
+VERSION:3.0
+FN:${settings.botOwner || 'Nabees Tech'}
+ORG:${settings.botName || 'BATMAN MD'}
+TITLE:Bot Owner
+TEL;type=CELL;type=VOICE;waid=${phoneNumber}:${formattedNumber}
+EMAIL:${settings.ownerEmail || 'nabees.dev@gmail.com'}
+URL:${settings.website || 'https://nabees.online'}
+NOTE:Bot Owner of ${settings.botName || 'BATMAN MD'} • Version ${settings.version || '1.0.0'}
+ADR:;;;;
+END:VCARD`;
+
+        // Send contact card with newsletter forwarding
+        await sock.sendMessage(chatId, {
+            contacts: { 
+                displayName: settings.botOwner || 'BATMAN MD Owner', 
+                contacts: [{ vcard }] 
+            },
+            ...channelInfo
+        }, { quoted: quotedContact });
+
+        // Optional: Send a small footer message
+        const footerMsg = formatOwnerMessage(
+            'CONTACT SAVED',
+            `│ ✅ Owner contact has been shared!\n│ 📞 You can now save the contact above.`,
+            'success'
+        );
+        
+        await sock.sendMessage(chatId, {
+            text: footerMsg,
+            ...channelInfo
+        }, { quoted: quotedContact });
+
+    } catch (error) {
+        console.error('❌ Error in owner command:', error);
+        
+        // Fallback to original vcard if something fails
+        const vcard = `
+BEGIN:VCARD
+VERSION:3.0
+FN:${settings.botOwner}
+TEL;waid=${settings.ownerNumber}:${settings.ownerNumber}
+END:VCARD
+`;
+
+        await sock.sendMessage(chatId, {
+            contacts: { displayName: settings.botOwner, contacts: [{ vcard }] },
+            ...channelInfo
+        }, { quoted: quotedContact });
+    }
+}
+
+module.exports = ownerCommand;
