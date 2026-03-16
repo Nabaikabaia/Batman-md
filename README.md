@@ -1,244 +1,563 @@
-# 🤖 Knight Bot
-
-This is a WhatsApp bot built using the Baileys library for group management, including features like tagging all members, muting/unmuting, and many more. It's designed to help admins efficiently manage WhatsApp groups.
-
-<div align="center"> 
-  <a href="https://git.io/typing-svg"> 
-    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=Knight-Bot;Multi+Device+Whatsapp+Bot;Coded+By+Professor" alt="Typing SVG" />
-  </a> 
-</div> 
-
-<div align="center"> 
-  <a href="https://youtube.com/@mr_unique_hacker"> 
-    <img src="https://github.com/mruniquehacker/Knightbot-MD/blob/main/assets/bot_image.jpg" alt="Knight Bot" height="300"> 
-  </a> 
-</div>
-
-<div align="center">
-  <img src="https://img.shields.io/github/followers/mruniquehacker?style=for-the-badge&label=Followers" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/mruniquehacker/Knightbot-MD?style=for-the-badge&label=Stars" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/mruniquehacker/Knightbot-MD?style=for-the-badge&label=Forks" alt="Forks"/>
-  <img src="https://img.shields.io/github/watchers/mruniquehacker/Knightbot-MD?style=for-the-badge&label=Watchers" alt="Watchers"/>
-</div>
-
----
-<div>
-  <a href="https://www.thordata.com/products/residential-proxies?ls=YouTube&lk=Knightbot" target="_blank">
-    <img src="assets/thor.png" alt="ThorData Proxies" width="100%" />
-  </a>
-</div>
-
-<br>
-
-<div align="left">
-  <b>Thordata: Get Reliable Global Proxies at an Unbeatable Value.</b><br><br>
-  One-click data collection with enterprise-grade stability and compliance.<br>
-  Join thousands of developers using ThorData for high-scale operations.<br><br>
-  🎁 <b>Exclusive Offer:</b> Sign up for a free Residential Proxy trial and 2,000 <b>FREE SERP API calls!</b>
-</div>
-
-<br>
-
-<div align="left">
-  <a href="https://www.thordata.com/products/residential-proxies?ls=YouTube&lk=Knightbot" target="_blank">
-    <img src="https://img.shields.io/badge/Try now-28a745?style=for-the-badge" alt="Try now"/>
-  </a>
-</div>
-
-
-## 🚀 Steps to Deploy Bot
-
-### Step 1: Fork the Repository
-
-Click the button below to fork the Knight Bot repository to your GitHub account:
-
-<div align="center">
-  <a href="https://github.com/mruniquehacker/Knightbot-MD/fork">
-    <img src="https://img.shields.io/badge/Fork-Repository-blue?style=for-the-badge" alt="Fork the repository"/>
-  </a>
-</div>
-
----
-
-### Step 2: Get Pair Code
-
-Deploy the bot and easily connect it to your WhatsApp account by pair code. Click the button below to deploy the bot on Replit.
-
-<div align="center">
-  <a href="https://knight-bot-paircode.onrender.com" target="_blank">
-    <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Easy%20Method-ff4d4d?style=for-the-badge" alt="Generate Pair Code"/>
-  </a>
-</div>
-
-
-### After getting creds.json file, upload it to session folder
-
----
-
-### Step 3: Deploy Now
-
-For further customization and setup guidance, click the button below:
-
-<div align="center">
-  <a href="https://youtu.be/-oz_u1iMgf8">
-    <img src="https://img.shields.io/badge/Deploy Tutorial-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/>
-  </a>
-  <a href="https://bot-hosting.net/?aff=1068419752923508776">
-    <img src="https://img.shields.io/badge/Deploy on Panel-28a745?style=for-the-badge" alt="Deploy on Panel"/>
-  </a>
-</div>
-
-### Deploy on VPS
-
-<div align="center">
-  <a href="https://client.petrosky.io/aff.php?aff=394" target="_blank">
-    <img src="https://img.shields.io/badge/petrosky vps-0078E7?style=for-the-badge" alt="petrosky vps"/>
-  </a>
-</div>
-
-### Deploy on Below Panel
-<div align="center">
-<a href="https://dashboard.katabump.com/auth/login#d6b7d6" target="_blank">
-  <img src="https://img.shields.io/badge/Katabump-D6B7D6?style=for-the-badge&logo=server&logoColor=black" alt="Katabump"/>
-</a>
-</div>
-
-### Join Us
-
-<div align="center">
-  <a href="https://t.me/+3QhFUZHx-nhhZmY1">
-    <img src="https://img.shields.io/badge/Join%20Telegram-0078E7?style=for-the-badge&logo=telegram&logoColor=white" alt="Join Telegram"/>
-  </a>
-  <a href="https://whatsapp.com/channel/0029Va90zAnIHphOuO8Msp3A">
-    <img src="https://img.shields.io/badge/Join%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Join WhatsApp"/>
-  </a>
-</div>
-
----
-
-## ⚙️ Features
-
-- **Tag all group members** with the `.tagall` command
-- **Admin restricted usage** (Only group admins can use certain commands)
-- **Games** like Tic-Tac-Toe for interactive group engagement
-- **Text-to-Speech** with `.tts`
-- **Sticker creation** with `.sticker`
-- **Anti-link detection** for group safety
-- **Warn and manage group members** with admin control
-
----
-
-## 📖 About
-
-The Knight WhatsApp Bot assists group admins by providing them with tools to efficiently manage large WhatsApp groups. The bot uses the Baileys library to interact with the WhatsApp Web API and supports multi-device features.
-
-It is lightweight and can be easily customized to add more commands as per your requirements. The bot runs in a Node.js environment and provides QR code-based authentication to link your WhatsApp account.
-
----
-
-## 🛠️ Setup & Installation
-
-### Prerequisites
-
-- Node.js installed on your system
-- Git installed (for cloning the repository)
-
-### Step-by-Step Setup
-
-1. **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/mruniquehacker/Knightbot-MD.git
-    cd Knightbot-MD
-    ```
-
-2. **Install the dependencies:**
-
-    ```bash
-    npm install
-    ```
-
-3. **Run the bot:**
-
-    ```bash
-    node index.js
-    ```
-
-4. **Scan the QR code:**
-
-    Once the bot starts, a QR code will appear in the terminal. Scan this QR code using the Linked Devices feature in WhatsApp to connect your WhatsApp account with the bot.
-
----
-
-## ☕ Support Me
-
 <div align="center">
 
-<a href="https://buymeacoffee.com/mruniquehacker" target="_blank">
-  <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Developer-FF813F?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me a Coffee">
-</a>
+```
+██████╗  █████╗ ████████╗███╗   ███╗ █████╗ ███╗   ██╗    ███╗   ███╗██████╗
+██╔══██╗██╔══██╗╚══██╔══╝████╗ ████║██╔══██╗████╗  ██║    ████╗ ████║██╔══██╗
+██████╔╝███████║   ██║   ██╔████╔██║███████║██╔██╗ ██║    ██╔████╔██║██║  ██║
+██╔══██╗██╔══██║   ██║   ██║╚██╔╝██║██╔══██║██║╚██╗██║    ██║╚██╔╝██║██║  ██║
+██████╔╝██║  ██║   ██║   ██║ ╚═╝ ██║██║  ██║██║ ╚████║    ██║ ╚═╝ ██║██████╔╝
+╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝    ╚═╝     ╚═╝╚═════╝
+```
+
+# BATMAN MD
+
+**A powerful, feature-rich WhatsApp Multi-Device bot powered by Baileys**
+
+![Version](https://img.shields.io/badge/version-1.0.2-blue?style=for-the-badge)
+![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-green?style=for-the-badge&logo=node.js)
+![License](https://img.shields.io/badge/license-MIT-yellow?style=for-the-badge)
+![Platform](https://img.shields.io/badge/platform-WhatsApp-brightgreen?style=for-the-badge&logo=whatsapp)
+![Commands](https://img.shields.io/badge/commands-100%2B-orange?style=for-the-badge)
+
+> Built by **NABEES TECH** — Multi-session hosting, group management, AI, media downloads, and much more.
 
 </div>
 
-If you find this project helpful and want to support the developer, consider buying me a coffee! Your support helps maintain and improve this open-source project.
+---
+
+## Table of Contents
+
+- [Features](#-features)
+- [Commands](#-commands)
+- [Requirements](#-requirements)
+- [Installation](#-installation)
+- [Configuration](#-configuration)
+- [Multi-Session Pairing](#-multi-session-pairing)
+- [Project Structure](#-project-structure)
+- [Adding New Commands](#-adding-new-commands)
+- [Dependencies](#-core-dependencies)
+- [FAQ](#-faq)
+- [Credits](#-credits)
+- [Legal](#-legal)
+- [License](#-license)
+
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---|---|
+| 🤖 **Multi-Device** | Works with WhatsApp's linked devices — no phone needs to stay online |
+| 👥 **Multi-Session Hosting** | Users can link their own WhatsApp via `.pair` and run their own bot instance |
+| 💾 **Dynamic Storage Limit** | Session slots are calculated from available disk space automatically |
+| 🔄 **Auto-Restart** | Crashed user sessions are automatically restarted |
+| 🌐 **Public / Private Mode** | Switch between public (everyone) and private (owner only) mode |
+| 🛡️ **Group Moderation** | Anti-link, anti-bad-word, anti-tag, anti-delete, kick, ban, warn |
+| 🤖 **AI Integration** | GPT, Gemini, Imagine, Flux, Sora image and text generation |
+| 📥 **Media Downloader** | TikTok, Instagram, Facebook, YouTube (MP3/MP4), Spotify, GitHub |
+| 🎨 **Sticker Maker** | Create, take, crop stickers; RemoveBG, Remini enhancement |
+| 🔤 **Text Effects** | 19+ text style effects (fire, matrix, neon, glitch, and more) |
+| 🎮 **Games** | Tic-Tac-Toe, Hangman, Trivia, 8-Ball, Truth or Dare |
+| 🔌 **Configurable Prefix** | Change the command prefix in `settings.js` — no code changes needed |
+| 📋 **Dynamic Help Menu** | Help menu auto-detects all commands from the `commands/` folder |
+| 📰 **Newsletter Support** | Auto-follows and reacts to the bot's WhatsApp newsletter channel |
+
+---
+
+## 📋 Commands
+
+> Default prefix: `.` — configurable in `settings.js`
+
+<details>
+<summary><b>🤖 AI</b></summary>
+
+| Command | Description |
+|---|---|
+| `.gpt <text>` | Chat with GPT AI |
+| `.gemini <text>` | Chat with Google Gemini |
+| `.imagine <prompt>` | Generate an AI image (DALL-E style) |
+| `.flux <prompt>` | Generate an image with Flux model |
+| `.sora <prompt>` | Generate image/video with Sora |
+| `.chatbot on/off` | Enable AI chatbot auto-reply in groups |
+
+</details>
+
+<details>
+<summary><b>📥 Download</b></summary>
+
+| Command | Description |
+|---|---|
+| `.play / .song / .mp3 <title>` | Download YouTube audio |
+| `.video / .ytmp4 <title>` | Download YouTube video |
+| `.spotify <title>` | Download from Spotify |
+| `.tiktok / .tt <url>` | Download TikTok video |
+| `.instagram / .insta <url>` | Download Instagram post or reel |
+| `.facebook / .fb <url>` | Download Facebook video |
+| `.gitclone <github-url>` | Download a GitHub repository as ZIP |
+| `.igs <instagram-url>` | Download Instagram story |
+| `.ss / .screenshot <url>` | Take a screenshot of a webpage |
+| `.vv` | View a once-viewable message |
+| `.url / .tourl` | Convert media to a URL link |
+| `.tinyurl <url>` | Shorten a URL |
+
+</details>
+
+<details>
+<summary><b>🎯 Fun</b></summary>
+
+| Command | Description |
+|---|---|
+| `.compliment` | Send a compliment |
+| `.insult` | Send a playful insult |
+| `.flirt` | Send a flirt message |
+| `.shayari` | Random Urdu/Hindi shayari poetry |
+| `.goodnight` | Send a good night message |
+| `.roseday` | Rose day message |
+| `.ship @user1 @user2` | Ship two members together |
+| `.simp` | Simp card generator |
+| `.wasted` | Wasted overlay on a photo |
+| `.fact` | Random interesting fact |
+| `.joke` | Random joke |
+| `.quote` | Inspirational quote |
+| `.meme` | Random meme image |
+| `.lyrics <song>` | Get song lyrics |
+
+</details>
+
+<details>
+<summary><b>🎮 Games</b></summary>
+
+| Command | Description |
+|---|---|
+| `.tictactoe / .ttt @user` | Play Tic-Tac-Toe with someone |
+| `.hangman` | Start a Hangman game |
+| `.guess <letter>` | Guess a letter in Hangman |
+| `.trivia` | Start a trivia question |
+| `.answer <answer>` | Answer the active trivia question |
+| `.8ball <question>` | Ask the Magic 8-Ball |
+| `.truth` | Get a random truth question |
+| `.dare` | Get a random dare challenge |
+
+</details>
+
+<details>
+<summary><b>👥 Group Management</b></summary>
+
+| Command | Description |
+|---|---|
+| `.ban @user` | Ban a user from using the bot |
+| `.unban @user` | Unban a user |
+| `.promote @user` | Promote a member to group admin |
+| `.demote @user` | Remove a member's admin status |
+| `.kick @user` | Remove a member from the group |
+| `.mute [minutes]` | Mute the group (all members) |
+| `.unmute` | Unmute the group |
+| `.warn @user` | Issue a warning to a user |
+| `.warnings @user` | Check a user's warning count |
+| `.antilink on/off` | Enable/disable anti-link protection |
+| `.antibadword on/off` | Enable/disable bad word filter |
+| `.antitag on/off` | Enable/disable anti-tag protection |
+| `.antidelete on/off` | Show deleted messages to admins |
+| `.tagall <message>` | Tag all group members |
+| `.hidetag <message>` | Tag all members invisibly |
+| `.welcome on/off` | Enable/disable welcome messages |
+| `.goodbye on/off` | Enable/disable goodbye messages |
+| `.resetlink / .revoke` | Reset the group invite link |
+| `.groupinfo` | Show group information |
+| `.admins / .staff` | List all group admins |
+| `.setgname <name>` | Change the group name |
+| `.setgdesc <text>` | Change the group description |
+| `.setgpp` | Change the group profile photo |
+| `.clear` | Clear the group chat |
+| `.topmembers` | Show the most active members |
+| `.delete / .del` | Delete a replied-to message |
+
+</details>
+
+<details>
+<summary><b>🎨 Sticker / Photo</b></summary>
+
+| Command | Description |
+|---|---|
+| `.sticker / .s` | Convert image or video to sticker |
+| `.take / .steal` | Steal a sticker and re-pack it |
+| `.crop` | Crop a sticker to square |
+| `.simage` | Convert a sticker back to image |
+| `.attp <text>` | Create an animated text sticker |
+| `.removebg` | Remove image background |
+| `.remini` | AI-enhance and upscale a photo |
+| `.blur` | Apply blur effect to an image |
+| `.emojimix / .emix` | Mix two emojis together |
+| `.tgsticker` | Download a Telegram sticker pack |
+| `.pies` | Country-themed stylish images |
+| `.anime` | Anime-themed reaction stickers |
+
+</details>
+
+<details>
+<summary><b>🔤 Text Effects</b></summary>
+
+All text effects follow this pattern: `.<effect> <your text>`
+
+`.metallic` `.ice` `.snow` `.impressive` `.matrix` `.light` `.neon` `.devil` `.purple` `.thunder` `.leaves` `.1917` `.arena` `.hacker` `.sand` `.blackpink` `.glitch` `.fire`
+
+**Example:** `.fire Hello Batman`
+
+</details>
+
+<details>
+<summary><b>🌐 General</b></summary>
+
+| Command | Description |
+|---|---|
+| `.menu / .help / .list` | Show the full command menu |
+| `.ping` | Check bot response speed |
+| `.alive` | Show bot status and uptime |
+| `.tts <text>` | Convert text to speech audio |
+| `.owner` | Show bot owner contact |
+| `.weather <city>` | Get weather forecast for a city |
+| `.news` | Latest news headlines |
+| `.translate / .trt <text>` | Translate text to English |
+| `.git / .github / .repo` | View the bot's GitHub repository |
+| `.jid` | Show group or user JID |
+| `.settings` | View current bot settings |
+| `.update` | Check for bot updates |
+
+</details>
+
+<details>
+<summary><b>🔒 Owner Only</b></summary>
+
+| Command | Description |
+|---|---|
+| `.mode public/private` | Switch bot access mode |
+| `.autostatus on/off` | Auto view WhatsApp status updates |
+| `.autoread on/off` | Auto read incoming messages |
+| `.autotyping on/off` | Show typing indicator automatically |
+| `.autoreact / .areact` | Auto-react to messages with an emoji |
+| `.anticall on/off` | Block and reject incoming calls |
+| `.pmblocker on/off` | Block DMs from unknown users |
+| `.clearsession` | Clean up old session files |
+| `.cleartmp` | Clear the temporary files folder |
+| `.setpp` | Change the bot's profile picture |
+| `.sudo` | Manage trusted sudo users |
+| `.pair` | Generate a WhatsApp pairing code for multi-session |
+| `.sessions` | View all active user sessions |
+
+</details>
+
+---
+
+## 📦 Requirements
+
+- **Node.js** v18.0.0 or higher
+- **npm** v8 or higher
+- A **WhatsApp** account (for linking)
+- A server or hosting panel — VPS, Replit, Railway, Heroku, or a Pterodactyl panel
+
+---
+
+## 🚀 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Nabaikabaia/Batman-md.git
+cd Batman-md
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+If you encounter peer dependency errors:
+
+```bash
+npm install --legacy-peer-deps
+```
+
+### 3. Configure the bot
+
+Edit `settings.js` with your details before starting (see [Configuration](#-configuration) below).
+
+### 4. Start the bot
+
+```bash
+npm start
+```
+
+On first run the bot will output a **pairing code** in the terminal. Enter it in WhatsApp:
+
+> WhatsApp → Settings → Linked Devices → Link a Device → **Link with phone number instead**
+
+The bot is now connected and ready to use.
+
+---
+
+## ⚙️ Configuration
+
+All user settings live in a single file: **`settings.js`**
+
+```js
+const settings = {
+  packname:    'BATMAN MD',       // Sticker pack name shown on stickers
+  author:      'NABEES TECH',     // Sticker author name
+  botName:     'BATMAN MD',       // Bot display name used in menus
+  botOwner:    'NABEES TECH',     // Your name shown in help menu
+  ownerNumber: '2349049636843',   // Your WhatsApp number (with country code, no + or spaces)
+  prefix:      '.',               // Command prefix — . ! / # etc.
+  commandMode: 'public',          // 'public' = everyone  |  'private' = owner only
+  version:     '1.0.2',
+};
+```
+
+### Settings reference
+
+| Setting | What it does |
+|---|---|
+| `ownerNumber` | Your number with country code, no `+` or spaces. Example: `2349012345678` |
+| `prefix` | The character typed before every command. Change `.` to `!`, `/`, `#`, etc. — **no other files need editing** |
+| `commandMode` | `public` lets all users run commands; `private` restricts them to owner and sudo users |
+| `packname` / `author` | Shows inside stickers when someone holds them in WhatsApp |
+
+---
+
+## 🔗 Multi-Session Pairing
+
+Batman MD can host multiple users from a single server. Each user links their own WhatsApp number and gets their own fully independent bot instance running in the background.
+
+### How it works
+
+```
+sessions/
+├── owner/                  ← Main bot session (never modified)
+│   └── creds.json
+├── 2348012345678/          ← User 1 (auto-created on .pair)
+│   └── creds.json
+└── 2349034567890/          ← User 2 (auto-created on .pair)
+    └── creds.json
+```
+
+### Linking your WhatsApp (for users)
+
+1. Send `.pair` to the main bot in any chat
+2. The bot replies with a **6-character pairing code**
+3. Open WhatsApp on your phone → **Settings → Linked Devices → Link a Device**
+4. Tap **"Link with phone number instead"** and enter the code
+5. Your personal bot session starts automatically — no further action needed
+
+### Session limits — automatic disk-space detection
+
+The bot calculates how many user sessions the server can safely host based on available disk space. Each session uses approximately **8 MB**.
+
+| Free disk space | Estimated max sessions |
+|---|---|
+| 2 GB | ~200 sessions |
+| 1 GB | ~100 sessions |
+| 200 MB | ~20 sessions |
+
+- A minimum of **200 MB** is always reserved as a safety buffer
+- New pair requests are rejected automatically when storage runs low
+- Existing sessions are never affected by the limit check
+
+### Session safety features
+
+- A number that already has an active session cannot pair again (prevents duplicates)
+- Disconnected sessions auto-restart after a 10-second cooldown
+- All active sessions are reloaded on bot restart — no manual intervention needed
+- The main owner session is fully isolated and cannot be overwritten by user sessions
+
+### Owner session commands
+
+```
+.sessions      — List all active user sessions and storage info
+```
+
+---
+
+## 📂 Project Structure
+
+```
+Batman-MD/
+├── index.js              # Entry point — Baileys connection, auth, event listeners
+├── main.js               # Message router — all switch-case command handling
+├── settings.js           # All user configuration (prefix, owner number, mode)
+├── config.js             # API keys and global constants
+│
+├── commands/             # 100+ individual command files (auto-detected by help menu)
+│   ├── ai.js
+│   ├── gitclone.js       # GitHub repository downloader
+│   ├── help.js           # Dynamic menu — scans commands/ folder at runtime
+│   ├── pair.js           # Multi-session WhatsApp pairing
+│   └── ...
+│
+├── lib/
+│   ├── commandsMeta.js   # Command name → category mapping for the help menu
+│   ├── sessionManager.js # Multi-session process spawning and lifecycle management
+│   ├── antibadword.js
+│   ├── antilink.js
+│   ├── isAdmin.js
+│   ├── isOwner.js
+│   └── ...
+│
+├── data/                 # Persistent JSON storage (bans, warnings, group settings)
+│   ├── banned.json
+│   ├── warnings.json
+│   └── ...
+│
+├── sessions/             # Auto-created — stores all Baileys session credentials
+│   ├── owner/
+│   └── <user-number>/
+│
+├── assets/               # Bot media files (profile image, menu music, sticker frames)
+│   ├── bot_image.jpg
+│   ├── menu.mp3
+│   └── ...
+│
+└── temp/                 # Auto-cleaned temporary download files
+```
+
+---
+
+## 🔧 Adding New Commands
+
+Batman MD is built to make adding commands simple and consistent.
+
+**Step 1 — Create the command file**
+
+```js
+// commands/greet.js
+async function greetCommand(sock, chatId, message) {
+    await sock.sendMessage(chatId, { text: 'Hello from Batman MD!' });
+}
+module.exports = greetCommand;
+```
+
+**Step 2 — Import it in `main.js`**
+
+```js
+const greetCommand = require('./commands/greet');
+```
+
+**Step 3 — Add a case in the switch block inside `main.js`**
+
+```js
+case cmd === '.greet':
+    await greetCommand(sock, chatId, message);
+    break;
+```
+
+**Step 4 — Register it in `lib/commandsMeta.js`**
+
+```js
+{ name: 'greet', category: 'General', file: 'greet' },
+```
+
+> Any `.js` file in `commands/` that is **not** listed in `commandsMeta.js` is automatically detected and shown under the **Other** section of the help menu — so users always see it, even if you forget to categorize it.
+
+---
+
+## 📦 Core Dependencies
+
+| Package | Purpose |
+|---|---|
+| `@whiskeysockets/baileys` | WhatsApp Web multi-device API |
+| `axios` | HTTP requests to external APIs |
+| `chalk` | Colored terminal output |
+| `fluent-ffmpeg` | Audio and video conversion |
+| `jimp` | Image manipulation |
+| `node-cache` | In-memory caching layer |
+| `pino` | Fast structured logger |
+| `sharp` | High-performance image processing |
+| `ytdl-core` / `yt-search` | YouTube audio and video downloading |
+| `libphonenumber-js` | Phone number parsing and validation |
+| `node-fetch` | Fetch API polyfill for Node.js |
+
+Full dependency list is in `package.json`.
+
+---
+
+## ❓ FAQ
+
+**Q: The bot isn't responding to commands.**
+> Check that the bot is running and in `public` mode. Try sending `.ping` — if there is no response, restart the bot. Confirm the prefix in your message matches `settings.js`.
+
+**Q: How do I change the command prefix from `.` to something else?**
+> Open `settings.js` and change `prefix: '.'` to your preferred character (e.g. `'!'`, `'/'`, `'#'`). Restart the bot. No other files need to be changed.
+
+**Q: My session keeps getting deleted after a restart.**
+> Make sure the `sessions/` folder is not excluded by `.gitignore` or your hosting panel's reset-on-deploy setting. The folder must persist between restarts.
+
+**Q: Can the bot be added to groups?**
+> Yes. Add the bot's WhatsApp number to any group. For admin-restricted commands (kick, mute, promote, etc.) you must also make the bot a group admin.
+
+**Q: `.pair` says there is no storage available.**
+> The server has insufficient free disk space for a new session. Free up disk space or upgrade your hosting plan, then try again.
+
+**Q: How do I give someone trusted access without making them the owner?**
+> Use `.sudo add @user` in chat. Sudo users can run owner-level commands. Remove them with `.sudo remove @user`.
+
+**Q: How do I switch the bot to private mode?**
+> Send `.mode private` (owner only). In private mode only the owner and sudo users can use commands. Switch back with `.mode public`.
+
+---
+
+## 🙏 Credits
+
+| Name | Contribution |
+|---|---|
+| **NABEES TECH** | Creator and maintainer of Batman MD |
+| **@whiskeysockets** | Maintained Baileys WhatsApp library fork |
+| **@adiwajshing** | Original Baileys WhatsApp library |
+| **TechGod143** | Pairing code implementation reference |
+| **Dgxeon** | Pairing code implementation reference |
+
+---
+
+## ⚠️ Legal
+
+- This project is **not affiliated with, authorized, maintained, sponsored, or endorsed by WhatsApp** or any of its affiliates or subsidiaries.
+- This is independent, unofficial software. **Use at your own risk.**
+- Do not use this bot to send bulk messages, spam, or for any illegal purposes.
+- Using unofficial WhatsApp clients may result in account restrictions or bans. The developers accept no liability for any consequences.
+- All use must comply with applicable local laws and WhatsApp's Terms of Service.
+
+---
+
+## 📜 License
+
+```
+MIT License
+
+Copyright (c) 2024 NABEES TECH
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+---
 
 <div align="center">
 
-<img src="assets/bmc_qr.png" alt="Buy Me a Coffee QR Code" width="200">
+Made with dedication by **NABEES TECH**
+
+*Batman MD — Dark, powerful, always watching.*
 
 </div>
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](https://github.com/mruniquehacker/Knightbot-MD/blob/main/LICENSE) file for details.
-
----
-
-## 🙌 Contributions
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/mruniquehacker/Knightbot-MD/issues).
-
----
-
-## 🌟 Show your support
-
-If you like this project, please give it a [⭐️ star on GitHub](https://github.com/mruniquehacker/Knightbot)!
-
-
-## Credits
-
-- [Professor](https://github.com/mruniquehacker)
-- [Baileys](https://github.com/adiwajshing/Baileys)
-- [TechGod143](https://github.com/TechGod143) for pair code
-- [Dgxeon](https://github.com/Dgxeon) for pair code
-
----
-
-## ⚠️ Important Warning
-
-**Note:** This bot is created for educational purposes only. This is NOT an official WhatsApp bot. Using this bot may lead to your WhatsApp account being banned. Use it at your own risk. The developers will not be responsible for any consequences or account bans that may occur while using this bot.
-
-## 📝 Legal
-
-- This project is not affiliated with, authorized, maintained, sponsored or endorsed by WhatsApp or any of its affiliates or subsidiaries.
-- This is an independent and unofficial software. Use at your own risk.
-- Do not spam people with this bot.
-- Do not use this bot to send bulk messages or for illegal purposes.
-- The developers assume no liability and are not responsible for any misuse or damage caused by this program.
-
-### License
-This project is licensed under the MIT License. However, you must:
-- Use this software in compliance with all applicable laws and regulations
-- Include original license and copyright notices
-- Credit original authors
-- Not use for spam or malicious purposes
-
-## 📜 Copyright Notice
-
-Copyright (c) 2024 Professor. All rights reserved.
-
-This project contains code from various open source projects:
-- Baileys (MIT License)
-- Other libraries as listed in package.json
