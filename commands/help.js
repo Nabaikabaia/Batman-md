@@ -1,1 +1,256 @@
-const _0x192021=_0x16a0;(function(_0x4b9535,_0x2065f1){const _0x12a00f=_0x16a0,_0x2f8ca8=_0x4b9535();while(!![]){try{const _0x18aae9=parseInt(_0x12a00f(0x83))/0x1+parseInt(_0x12a00f(0x86))/0x2*(parseInt(_0x12a00f(0x7f))/0x3)+parseInt(_0x12a00f(0x73))/0x4+parseInt(_0x12a00f(0x6d))/0x5+-parseInt(_0x12a00f(0x9d))/0x6+parseInt(_0x12a00f(0x7b))/0x7+-parseInt(_0x12a00f(0x9a))/0x8;if(_0x18aae9===_0x2065f1)break;else _0x2f8ca8['push'](_0x2f8ca8['shift']());}catch(_0x237c43){_0x2f8ca8['push'](_0x2f8ca8['shift']());}}}(_0x52e9,0xc9913));const settings=require('../settings'),fs=require('fs'),path=require('path'),{commands:commandsMeta,categoryConfig}=require(_0x192021(0x6c)),botStartTime=Date['now']();let contactThumb=null;try{const thumbPath=path[_0x192021(0x98)](__dirname,_0x192021(0x92));if(fs[_0x192021(0x90)](thumbPath))contactThumb=fs[_0x192021(0x70)](thumbPath);}catch(_0x300b15){}const quotedContact={'key':{'fromMe':![],'participant':_0x192021(0xac),'remoteJid':'status@broadcast'},'message':{'contactMessage':{'displayName':settings['botOwner']||'BATMAN\x20MD','vcard':_0x192021(0xb9)+(settings['botName']||_0x192021(0x8f))+_0x192021(0x75)+(settings['botName']||'BATMAN\x20MD')+';\x0aEND:VCARD','jpegThumbnail':contactThumb}}},channelInfo={'contextInfo':{'forwardingScore':0x3e7,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':'120363367299421766@newsletter','newsletterName':settings[_0x192021(0x7a)]||_0x192021(0x8f),'serverMessageId':0xd}}};function getSpacing(_0x363c5b=0x1){return'‎'['repeat'](0xc8*_0x363c5b);}function getUptime(){const _0x1b2c4a=_0x192021,_0x3568c2={'aJDZO':function(_0x33f6f7,_0x596b5d){return _0x33f6f7%_0x596b5d;},'poOnP':function(_0x3c097e,_0x65ec99){return _0x3c097e>_0x65ec99;}},_0x1295e0=Math[_0x1b2c4a(0x77)]((Date['now']()-botStartTime)/0x3e8),_0xc4c878=Math['floor'](_0x1295e0/0x15180),_0x5ca94b=Math['floor'](_0x3568c2[_0x1b2c4a(0xb0)](_0x1295e0,0x15180)/0xe10),_0x5dcaa6=Math[_0x1b2c4a(0x77)](_0x3568c2[_0x1b2c4a(0xb0)](_0x1295e0,0xe10)/0x3c),_0x257f8f=_0x1295e0%0x3c;if(_0xc4c878>0x0)return _0xc4c878+'d\x20'+_0x5ca94b+'h\x20'+_0x5dcaa6+'m\x20'+_0x257f8f+'s';if(_0x3568c2['poOnP'](_0x5ca94b,0x0))return _0x5ca94b+'h\x20'+_0x5dcaa6+'m\x20'+_0x257f8f+'s';if(_0x5dcaa6>0x0)return _0x5dcaa6+'m\x20'+_0x257f8f+'s';return _0x257f8f+'s';}function getCommandsDir(){return path['join'](__dirname);}function detectAllCommandFiles(){const _0x351ad2=_0x192021,_0x6f2344={'rWJpl':function(_0x58379d){return _0x58379d();}};try{return fs['readdirSync'](_0x6f2344[_0x351ad2(0x9b)](getCommandsDir))[_0x351ad2(0xbc)](_0x2055ba=>_0x2055ba[_0x351ad2(0xb7)](_0x351ad2(0xa2)))['map'](_0x469fd0=>_0x469fd0[_0x351ad2(0xb1)](_0x351ad2(0xa2),''));}catch(_0x1ca39d){return[];}}function buildCommandGroups(_0x12697a){const _0x4474ec=_0x192021,_0x495648={'sJcjm':function(_0x56c526){return _0x56c526();},'tGrCe':function(_0x2340c2,_0x4a909a){return _0x2340c2+_0x4a909a;},'IwzeA':function(_0x9639f5,_0x751a32){return _0x9639f5+_0x751a32;},'tSAjR':function(_0x2907a7){return _0x2907a7();},'LUanz':_0x4474ec(0x89),'RXEMA':_0x4474ec(0x84),'bFxIn':function(_0x514d14,_0x2b34f6){return _0x514d14+_0x2b34f6;}},_0x5a5dbd={},_0x4c1474=new Set();for(const _0x4da736 of commandsMeta){if(_0x4da736[_0x4474ec(0xaf)]!==null){const _0x316fe7=path['join'](_0x495648[_0x4474ec(0x99)](getCommandsDir),_0x495648[_0x4474ec(0x78)](_0x4da736['file'],'.js'));if(!fs[_0x4474ec(0x90)](_0x316fe7))continue;_0x4c1474[_0x4474ec(0xa6)](_0x4da736[_0x4474ec(0xaf)]);}const _0x2c787a=_0x4da736[_0x4474ec(0xbb)]||'Other';if(!_0x5a5dbd[_0x2c787a])_0x5a5dbd[_0x2c787a]=[];_0x5a5dbd[_0x2c787a][_0x4474ec(0x82)](_0x495648['IwzeA'](_0x12697a,_0x4da736[_0x4474ec(0x95)]));}const _0x447e04=_0x495648[_0x4474ec(0x76)](detectAllCommandFiles),_0x23e1bd=new Set([_0x495648[_0x4474ec(0xb2)],'settings']);for(const _0x413cda of _0x447e04){if(_0x23e1bd[_0x4474ec(0xa0)](_0x413cda))continue;if(_0x4c1474[_0x4474ec(0xa0)](_0x413cda))continue;if(!_0x5a5dbd[_0x495648[_0x4474ec(0x7c)]])_0x5a5dbd[_0x495648[_0x4474ec(0x7c)]]=[];_0x5a5dbd[_0x495648['RXEMA']][_0x4474ec(0x82)](_0x495648['bFxIn'](_0x12697a,_0x413cda));}return _0x5a5dbd;}function getRandomHeader(_0x2586dd,_0x1692fc,_0x57c08e,_0x453b01){const _0x365279=_0x192021,_0x3992f4={'Sizte':'Nabees\x20Tech'},_0x57eaf9=settings[_0x365279(0x7a)]||_0x365279(0x8f),_0x14bee7=settings['botOwner']||_0x3992f4[_0x365279(0xa5)],_0x201bdb=settings['commandMode']||'public',_0x256f37=settings[_0x365279(0x74)]||_0x365279(0x81),_0x523f4=['╭━◈〔\x20🔥\x20'+_0x57eaf9+'\x20v'+_0x256f37+'\x20〕╼\x0a┃\x20❀\x20Owner\x20\x20\x20\x20:\x20𖤍\x20'+_0x14bee7+'\x20𖤍\x0a┃\x20❀\x20User\x20\x20\x20\x20\x20:\x20'+_0x2586dd+_0x365279(0x91)+_0x201bdb+'\x0a┃\x20❀\x20Prefix\x20\x20\x20:\x20'+_0x1692fc+_0x365279(0x94)+_0x453b01+'+\x20loaded\x0a┃\x20❀\x20Runtime\x20\x20:\x20'+_0x57c08e+_0x365279(0x9e),'╭━𑁍〔🔥\x20'+_0x57eaf9+'\x20v'+_0x256f37+_0x365279(0x9f)+_0x14bee7+'\x20𖤍\x0a┃\x20❀\x20User\x20\x20\x20\x20\x20:\x20'+_0x2586dd+_0x365279(0x91)+_0x201bdb+_0x365279(0x8d)+_0x1692fc+'\x0a┃\x20❀\x20Commands\x20:\x20'+_0x453b01+_0x365279(0xab)+_0x57c08e+'\x0a╰━𑁍━══━═━❁━═━══━𑁍━╯',_0x365279(0xa1)+_0x57eaf9+_0x365279(0x85)+_0x14bee7+'*\x0a*│\x20👤\x20ᴜsᴇʀ\x20\x20\x20\x20\x20\x20:\x20'+_0x2586dd+_0x365279(0x8a)+_0x201bdb+'\x20]*\x0a*│\x20🛠️\x20ᴘʀᴇғɪx\x20\x20\x20\x20:\x20[\x20'+_0x1692fc+_0x365279(0x7e)+_0x453b01+_0x365279(0x7d)+_0x57c08e+'*\x0a*╰─────────⟢*','┏━━〔\x20'+_0x57eaf9+'\x20〕━━┓\x0a┃\x20Owner\x20\x20\x20\x20:\x20'+_0x14bee7+_0x365279(0x79)+_0x2586dd+_0x365279(0xb4)+_0x201bdb+'\x0a┃\x20Prefix\x20\x20\x20:\x20'+_0x1692fc+_0x365279(0xb6)+_0x453b01+'+\x20loaded\x0a┃\x20Uptime\x20\x20\x20:\x20'+_0x57c08e+_0x365279(0x72)];return _0x523f4[Math[_0x365279(0x77)](Math['random']()*_0x523f4[_0x365279(0x87)])];}async function helpCommand(_0x381767,_0x387cec,_0x330ffa){const _0x259b1d=_0x192021,_0x284f19={'yoVUM':function(_0x3f7112,_0x13e6bc){return _0x3f7112(_0x13e6bc);},'HHUQc':function(_0x288907,_0x34c3fa,_0x4fb4e4,_0x2fc416,_0x29f56b){return _0x288907(_0x34c3fa,_0x4fb4e4,_0x2fc416,_0x29f56b);},'cSADB':_0x259b1d(0x8b),'rXxID':'Group','EhJrU':'Sticker','bOBMO':'Text\x20FX','oLHTX':_0x259b1d(0xb5),'xcnJT':'Owner','iIiWl':function(_0x1544fd,_0x9a408e){return _0x1544fd===_0x9a408e;},'kHtbj':function(_0xe8ccb,_0x555ce7){return _0xe8ccb+_0x555ce7;},'FmTNp':function(_0x14a088,_0x3e46b1){return _0x14a088(_0x3e46b1);},'DhamK':'audio/mpeg'};let _0xfeaf83=![];try{const _0x1bc583=settings['prefix']||'.',_0x17522a=_0x330ffa['key']['participant']||_0x330ffa[_0x259b1d(0xa4)][_0x259b1d(0x97)];let _0x2ae1c5=_0x17522a['split']('@')[0x0];try{if(_0x330ffa['pushName'])_0x2ae1c5=_0x330ffa[_0x259b1d(0x80)];}catch(_0x1abd61){}const _0x40dfff=getUptime(),_0x5e4277=path['join'](__dirname,_0x259b1d(0x8e)),_0x1b1dbf=path['join'](__dirname,'../assets/menu.mp3'),_0x27ae9a=_0x284f19[_0x259b1d(0x6f)](buildCommandGroups,_0x1bc583),_0xf8afab=Object[_0x259b1d(0xb3)](_0x27ae9a)['reduce']((_0x1c52d9,_0x160ae2)=>_0x1c52d9+_0x160ae2['length'],0x0),_0x4a4079=_0x284f19['HHUQc'](getRandomHeader,_0x2ae1c5,_0x1bc583,_0x40dfff,_0xf8afab),_0x228130=[],_0x55371c=['AI','Download',_0x259b1d(0xa8),_0x284f19[_0x259b1d(0x8c)],_0x284f19[_0x259b1d(0x93)],_0x284f19[_0x259b1d(0xad)],_0x284f19[_0x259b1d(0x6e)],_0x259b1d(0xa7),_0x284f19['oLHTX'],_0x284f19[_0x259b1d(0x71)],'Other'],_0x1add23=new Set();for(const _0x5c5047 of[..._0x55371c,...Object['keys'](_0x27ae9a)]){if(_0x1add23['has'](_0x5c5047)||!_0x27ae9a[_0x5c5047]||_0x284f19[_0x259b1d(0xba)](_0x27ae9a[_0x5c5047][_0x259b1d(0x87)],0x0))continue;_0x1add23[_0x259b1d(0xa6)](_0x5c5047);const _0x61fd00=categoryConfig[_0x5c5047]||{'emoji':'📦','title':_0x284f19[_0x259b1d(0xb8)](_0x5c5047,'\x20Menu')},_0x5a7cd4=_0x27ae9a[_0x5c5047]['map'](_0x39ebb1=>'*│\x20♧\x20'+_0x39ebb1+'*')['join']('\x0a');_0x228130['push']('*『\x20'+_0x61fd00['emoji']+'\x20'+_0x61fd00['title']+'\x20』*\x0a'+_0x5a7cd4+'\x0a*╰─────────⟢*');}const _0x167afa='\x0a'+_0x4a4079+'\x0a'+_0x284f19['yoVUM'](getSpacing,0x2)+'\x0a\x0a'+_0x228130[_0x259b1d(0x98)]('\x0a'+_0x284f19[_0x259b1d(0x96)](getSpacing,0x2)+'\x0a\x0a')+'\x0a\x0a'+_0x284f19[_0x259b1d(0x6f)](getSpacing,0x2)+_0x259b1d(0xae)+(settings[_0x259b1d(0xa9)]||'Nabees\x20Tech')+'\x20ᵗᵐ\x0a◈\x20Developer\x20:\x20𝓝𝓪𝓫𝓮𝓮𝓼\x20𝓣𝓮𝓬𝓱\x0a◈\x20Bot\x20\x20\x20\x20\x20\x20\x20:\x20'+(settings['botName']||'BATMAN\x20MD')+'\x20v'+(settings['version']||_0x259b1d(0x81))+'\x0a◈━══━══━══━❁━══━══━══━◈';await _0x381767['sendMessage'](_0x387cec,{'react':{'text':'🪀','key':_0x330ffa[_0x259b1d(0xa4)]}}),_0xfeaf83=!![],fs['existsSync'](_0x5e4277)?await _0x381767['sendMessage'](_0x387cec,{'image':fs['readFileSync'](_0x5e4277),'caption':_0x167afa,...channelInfo},{'quoted':quotedContact}):await _0x381767['sendMessage'](_0x387cec,{'text':_0x167afa,...channelInfo},{'quoted':quotedContact}),fs[_0x259b1d(0x90)](_0x1b1dbf)&&(await new Promise(_0x12b116=>setTimeout(_0x12b116,0x3e8)),await _0x381767['sendMessage'](_0x387cec,{'audio':fs[_0x259b1d(0x70)](_0x1b1dbf),'mimetype':_0x284f19[_0x259b1d(0xaa)],'ptt':![],...channelInfo},{'quoted':quotedContact})),await _0x381767['sendMessage'](_0x387cec,{'react':{'text':null,'key':_0x330ffa['key']}}),_0xfeaf83=![];}catch(_0xe5e43){console[_0x259b1d(0xa3)]('Error\x20in\x20help\x20command:',_0xe5e43);if(_0xfeaf83)try{await _0x381767[_0x259b1d(0x88)](_0x387cec,{'react':{'text':null,'key':_0x330ffa[_0x259b1d(0xa4)]}});}catch(_0x29ebcd){}await _0x381767[_0x259b1d(0x88)](_0x387cec,{'text':'❌\x20Error\x20loading\x20menu',...channelInfo},{'quoted':quotedContact});}}function _0x52e9(){const _0x11b356=['r2fTzxm','y1nbrei','cUkuGYdINyaGuhjLzML4icaGoIa','lI4VyxnZzxrZl2jVDf9PBwfNzs5QCgC','qKfutufoie1e','zxHPC3rZu3LUyW','cUkuGYdINyaGtw9KzsaGicaGoIdWN4Ynia','lI4VyxnZzxrZl293BMvYlMPWzW','CLH4suq','cUkuGYdINyaGq29TBwfUzhmGoIa','BMfTzq','rM1utNa','CMvTB3rLsMLK','AM9PBG','C0PJAM0','mte1nJqWnJriBM5Sy00','CLDkCgW','zxHWB3j0CW','odC5ndGWnKvSr0T4wG','cUkvSokuGEkxIokuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkDGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkxIokuGEkvRW','iooaLEkvVaRILimG4P2aie93BMvYicaGidOG8jAKJsa','AgfZ','kUoaJIdWN5gria','lMPZ','zxjYB3i','A2v5','u2L6Dgu','ywrK','twLZyW','rNvU','yM90t3DUzxi','rgHHBuS','kYbSB2fKzwqk4PsdiokDGcbsDw50Aw1Lica6ia','mebZlNDOyxrZyxbWlM5LDa','rwHkCLu','cUkxIokuGEkvKokuGEoaLcaQsu5gtYaMiensrurjvfmQiooaLEkuGEkvKokuGEkxIaRIL4GGkL9qB3DLCMvKiej5xYOGoIa','zMLSzq','yuPewK8','CMvWBgfJzq','tfvHBNO','DMfSDwvZ','cUkuGYbnB2rLicaGica6ia','r2vUzxjHBa','cUkuGYbdB21Tyw5KCYa6ia','zw5KC1DPDgG','A0H0yMO','qKvhsu46vKnbuKqkvKvsu0LptJOZlJakrK46','AuLPv2W','y2f0zwDVCNK','zMLSDgvY','lI4VBgLIl2nVBw1HBMrZtwv0yq','nty1nty1mgjjwxHura','yK9ctu8','Ew9wvu0','CMvHzezPBgvtEw5J','EgnUsLq','cUkuL+kuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuMW','mtmYmdGWtwjXvKnk','DMvYC2LVBG','cK9srZO','DfnbALi','zMXVB3i','DeDYq2u','cUkuGYbvC2vYicaGica6ia','yM90tMfTzq','odm1ntiWn25vyuDPAW','uLHftue','kYdkN+g0J+g0Gog0HEg0H+g0HsOkkUkuGIdWN5seiog0Nog0Mog0M8MQ4Bsn4BshicaGidOG','if0QcIRILiiG8j+tPIdHTitHTi3HTivZicaGicaGoIa','nJC0nta4yK92A1zW','ChvZAe5HBwu','ms4WlJa','ChvZAa','oti5nta1BuTxwgng','t3rOzxi','iooaJYOkkUkuGIdWN5gKiog0J+g0OCM04BshYOaGicaGidOG','neTmAuL3vq','BgvUz3rO','C2vUze1LC3nHz2u','AgvSCa','kGOQ4PscipcFJi0G4Bsn4Bsp4Bsf4BshicaGicaGoIbBia'];_0x52e9=function(){return _0x11b356;};return _0x52e9();}function _0x16a0(_0x3499e9,_0x102618){_0x3499e9=_0x3499e9-0x6c;const _0x52e9a1=_0x52e9();let _0x16a031=_0x52e9a1[_0x3499e9];if(_0x16a0['tZsRaP']===undefined){var _0x3b9582=function(_0x43d417){const _0x2139db='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x5ad50d='',_0x17fe68='';for(let _0xc4c604=0x0,_0x22dfae,_0x5b959b,_0x5ecd4f=0x0;_0x5b959b=_0x43d417['charAt'](_0x5ecd4f++);~_0x5b959b&&(_0x22dfae=_0xc4c604%0x4?_0x22dfae*0x40+_0x5b959b:_0x5b959b,_0xc4c604++%0x4)?_0x5ad50d+=String['fromCharCode'](0xff&_0x22dfae>>(-0x2*_0xc4c604&0x6)):0x0){_0x5b959b=_0x2139db['indexOf'](_0x5b959b);}for(let _0xa4f0a2=0x0,_0x5a809f=_0x5ad50d['length'];_0xa4f0a2<_0x5a809f;_0xa4f0a2++){_0x17fe68+='%'+('00'+_0x5ad50d['charCodeAt'](_0xa4f0a2)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x17fe68);};_0x16a0['HwOhsj']=_0x3b9582,_0x16a0['iXFthn']={},_0x16a0['tZsRaP']=!![];}const _0x4d123c=_0x52e9a1[0x0],_0x1ad5b9=_0x3499e9+_0x4d123c,_0xceb336=_0x16a0['iXFthn'][_0x1ad5b9];return!_0xceb336?(_0x16a031=_0x16a0['HwOhsj'](_0x16a031),_0x16a0['iXFthn'][_0x1ad5b9]=_0x16a031):_0x16a031=_0xceb336,_0x16a031;}module[_0x192021(0x9c)]=helpCommand;
+const settings = require('../settings');
+const fs = require('fs');
+const path = require('path');
+const { commands: commandsMeta, categoryConfig } = require('../lib/commandsMeta');
+
+const botStartTime = Date.now();
+
+// ============================================
+// ENHANCEMENT: Multiple image URLs for random selection
+// ============================================
+const imageUrls = [
+    'https://n.uguu.se/JnWNqtyW.jpg',
+    'https://n.uguu.se/OnoJhZpX.jpg',
+    'https://d.uguu.se/LnCBJSTl.jpg',
+    'https://h.uguu.se/mbktVRZM.jpg',
+    'https://h.uguu.se/hFVRhPCR.jpg'
+];
+
+// ============================================
+// FUNCTION TO GET RANDOM URL FROM ARRAY
+// ============================================
+function getRandomImageUrl() {
+    const randomIndex = Math.floor(Math.random() * imageUrls.length);
+    return imageUrls[randomIndex];
+}
+
+// ── Assets ──────────────────────────────────────────────────────────────────
+let contactThumb = null;
+try {
+    const thumbPath = path.join(__dirname, '../assets/owner.jpg');
+    if (fs.existsSync(thumbPath)) contactThumb = fs.readFileSync(thumbPath);
+} catch (_) {}
+
+const quotedContact = {
+    key: { fromMe: false, participant: '0@s.whatsapp.net', remoteJid: 'status@broadcast' },
+    message: {
+        contactMessage: {
+            displayName: settings.botOwner || 'BATMAN MD',
+            vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:${settings.botName || 'BATMAN MD'}\nORG:${settings.botName || 'BATMAN MD'};\nEND:VCARD`,
+            jpegThumbnail: contactThumb
+        }
+    }
+};
+
+const channelInfo = {
+    contextInfo: {
+        forwardingScore: 999,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363367299421766@newsletter',
+            newsletterName: settings.botName || 'BATMAN MD',
+            serverMessageId: 13
+        }
+    }
+};
+
+// ── Helpers ──────────────────────────────────────────────────────────────────
+function getSpacing(lines = 1) { return '\u200E'.repeat(200 * lines); }
+
+function getUptime() {
+    const s = Math.floor((Date.now() - botStartTime) / 1000);
+    const d = Math.floor(s / 86400), h = Math.floor((s % 86400) / 3600),
+          m = Math.floor((s % 3600) / 60), sec = s % 60;
+    if (d > 0) return `${d}d ${h}h ${m}m ${sec}s`;
+    if (h > 0) return `${h}h ${m}m ${sec}s`;
+    if (m > 0) return `${m}m ${sec}s`;
+    return `${sec}s`;
+}
+
+// ── Auto-detect command files in commands/ ───────────────────────────────────
+function getCommandsDir() { return path.join(__dirname); }
+
+function detectAllCommandFiles() {
+    try {
+        return fs.readdirSync(getCommandsDir())
+            .filter(f => f.endsWith('.js'))
+            .map(f => f.replace('.js', ''));
+    } catch (_) { return []; }
+}
+
+/**
+ * Build a grouped menu object from commandsMeta + auto-detected extras.
+ * Returns: { CategoryName: ['cmd1', 'cmd2', ...], ... }
+ */
+function buildCommandGroups(prefix) {
+    const groups = {};
+    const metaFiles = new Set();
+
+    // First pass: entries defined in commandsMeta
+    for (const entry of commandsMeta) {
+        // Skip entries whose command file doesn't exist (optional safety check)
+        if (entry.file !== null) {
+            const filePath = path.join(getCommandsDir(), entry.file + '.js');
+            if (!fs.existsSync(filePath)) continue;
+            metaFiles.add(entry.file);
+        }
+        const cat = entry.category || 'Other';
+        if (!groups[cat]) groups[cat] = [];
+        groups[cat].push(prefix + entry.name);
+    }
+
+    // Second pass: auto-detect any command files not covered by metadata
+    const allFiles = detectAllCommandFiles();
+    const hiddenFiles = new Set(['help', 'settings']); // internal-only files
+
+    for (const file of allFiles) {
+        if (hiddenFiles.has(file)) continue;
+        if (metaFiles.has(file)) continue;
+        // Not in meta → add to "Other" using filename as command name
+        if (!groups['Other']) groups['Other'] = [];
+        groups['Other'].push(prefix + file);
+    }
+
+    return groups;
+}
+
+// ── Header styles ────────────────────────────────────────────────────────────
+function getRandomHeader(senderName, prefix, uptime, totalCmds) {
+    const bn = settings.botName || 'BATMAN MD';
+    const bo = settings.botOwner || 'Nabees Tech';
+    const mode = settings.commandMode || 'public';
+    const ver = settings.version || '1.0.0';
+
+    const headers = [
+        `╭━◈〔 🔥 ${bn} v${ver} 〕╼
+┃ ❀ Owner    : 𖤍 ${bo} 𖤍
+┃ ❀ User     : ${senderName}
+┃ ❀ Mode     : 🌍 ${mode}
+┃ ❀ Prefix   : ${prefix}
+┃ ❀ Commands : ${totalCmds}+ loaded
+┃ ❀ Runtime  : ${uptime}
+╰━◈━━━━━━━━❁━━━━━━━━━◈━╯`,
+
+        `╭━𑁍〔🔥 ${bn} v${ver} 〕╼
+┃ ❀ Owner    : 𖤍 ${bo} 𖤍
+┃ ❀ User     : ${senderName}
+┃ ❀ Mode     : 🌍 ${mode}
+┃ ❀ Prefix   : ${prefix}
+┃ ❀ Commands : ${totalCmds}+ loaded
+┃ ❀ Runtime  : ${uptime}
+╰━𑁍━══━═━❁━═━══━𑁍━╯`,
+
+        `*『 👑 ${bn} 』*
+*│ 👤 ᴏᴡɴᴇʀ     : ${bo}*
+*│ 👤 ᴜsᴇʀ      : ${senderName}*
+*│ 🌍 ᴍᴏᴅᴇ      : [ ${mode} ]*
+*│ 🛠️ ᴘʀᴇғɪx    : [ ${prefix} ]*
+*│ 📦 ᴄᴍᴅs      : ${totalCmds}+ ʟᴏᴀᴅᴇᴅ*
+*│ 🔄 ᴜᴘᴛɪᴍᴇ    : ${uptime}*
+*╰─────────⟢*`,
+
+        `┏━━〔 ${bn} 〕━━┓
+┃ Owner    : ${bo}
+┃ User     : ${senderName}
+┃ Mode     : ${mode}
+┃ Prefix   : ${prefix}
+┃ Commands : ${totalCmds}+ loaded
+┃ Uptime   : ${uptime}
+┗━━━━━━━━━━━━━━━━━━┛`,
+    ];
+
+    return headers[Math.floor(Math.random() * headers.length)];
+}
+
+// ── Main help command ─────────────────────────────────────────────────────────
+async function helpCommand(sock, chatId, message) {
+    let reactionSent = false;
+    try {
+        const prefix = settings.prefix || '.';
+        const senderId = message.key.participant || message.key.remoteJid;
+        let senderName = senderId.split('@')[0];
+        try { if (message.pushName) senderName = message.pushName; } catch (_) {}
+
+        const uptime = getUptime();
+        // ============================================
+        // ENHANCEMENT: Use random image URL instead of local file
+        // ============================================
+        const randomImageUrl = getRandomImageUrl();
+        console.log(`🎲 Selected random image: ${randomImageUrl}`);
+        
+        const songPath  = path.join(__dirname, '../assets/menu.mp3');
+
+        // Build command groups dynamically
+        const groups = buildCommandGroups(prefix);
+        const totalCmds = Object.values(groups).reduce((n, arr) => n + arr.length, 0);
+
+        const randomHeader = getRandomHeader(senderName, prefix, uptime, totalCmds);
+
+        // Build menu sections
+        const menuSections = [];
+        // Iterate in a preferred order, then any remaining categories
+        const preferredOrder = ['AI', 'Download', 'Fun', 'Games', 'Group', 'Sticker', 'Text FX', 'Misc', 'General', 'Owner', 'Other'];
+        const seen = new Set();
+
+        for (const cat of [...preferredOrder, ...Object.keys(groups)]) {
+            if (seen.has(cat) || !groups[cat] || groups[cat].length === 0) continue;
+            seen.add(cat);
+
+            const cfg = categoryConfig[cat] || { emoji: '📦', title: cat + ' Menu' };
+            const lines = groups[cat].map(c => `*│ ♧ ${c}*`).join('\n');
+            menuSections.push(
+                `*『 ${cfg.emoji} ${cfg.title} 』*\n${lines}\n*╰─────────⟢*`
+            );
+        }
+
+        const menuText = `
+${randomHeader}
+${getSpacing(2)}
+
+${menuSections.join('\n' + getSpacing(2) + '\n\n')}
+
+${getSpacing(2)}
+◈━═━〔 *INFO & CREDITS* 〕━═━◈
+◈ *_Powered By_* : ${settings.botOwner || 'Nabees Tech'} ᵗᵐ
+◈ Developer : 𝓝𝓪𝓫𝓮𝓮𝓼 𝓣𝓮𝓬𝓱
+◈ Bot       : ${settings.botName || 'BATMAN MD'} v${settings.version || '1.0.0'}
+◈━══━══━══━❁━══━══━══━◈`;
+
+        // Reaction
+        await sock.sendMessage(chatId, { react: { text: '🪀', key: message.key } });
+        reactionSent = true;
+
+        // ============================================
+        // ENHANCEMENT: Send menu with random image from URL
+        // ============================================
+        await sock.sendMessage(chatId, {
+            image: { url: randomImageUrl },
+            caption: menuText,
+            ...channelInfo
+        }, { quoted: quotedContact });
+
+        // Send audio
+        if (fs.existsSync(songPath)) {
+            await new Promise(r => setTimeout(r, 1000));
+            await sock.sendMessage(chatId, {
+                audio: fs.readFileSync(songPath),
+                mimetype: 'audio/mpeg',
+                ptt: false,
+                ...channelInfo
+            }, { quoted: quotedContact });
+        }
+
+        // Remove reaction
+        await sock.sendMessage(chatId, { react: { text: null, key: message.key } });
+        reactionSent = false;
+
+    } catch (error) {
+        console.error('Error in help command:', error);
+        if (reactionSent) {
+            try { await sock.sendMessage(chatId, { react: { text: null, key: message.key } }); } catch (_) {}
+        }
+        await sock.sendMessage(chatId, { text: '❌ Error loading menu', ...channelInfo }, { quoted: quotedContact });
+    }
+}
+
+module.exports = helpCommand;
