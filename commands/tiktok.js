@@ -1,1 +1,528 @@
-function _0x4d98(_0x7d7482,_0x25fa8e){_0x7d7482=_0x7d7482-0xc5;const _0xfeb599=_0xfeb5();let _0x4d98b4=_0xfeb599[_0x7d7482];if(_0x4d98['LyqcuP']===undefined){var _0x3c263e=function(_0xfc0645){const _0x405ca4='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x511035='',_0x247d2b='';for(let _0x10f4b3=0x0,_0x2b49ac,_0x3787bc,_0x27a288=0x0;_0x3787bc=_0xfc0645['charAt'](_0x27a288++);~_0x3787bc&&(_0x2b49ac=_0x10f4b3%0x4?_0x2b49ac*0x40+_0x3787bc:_0x3787bc,_0x10f4b3++%0x4)?_0x511035+=String['fromCharCode'](0xff&_0x2b49ac>>(-0x2*_0x10f4b3&0x6)):0x0){_0x3787bc=_0x405ca4['indexOf'](_0x3787bc);}for(let _0x4aea74=0x0,_0x1f135f=_0x511035['length'];_0x4aea74<_0x1f135f;_0x4aea74++){_0x247d2b+='%'+('00'+_0x511035['charCodeAt'](_0x4aea74)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x247d2b);};_0x4d98['zRkwyh']=_0x3c263e,_0x4d98['fGAPiW']={},_0x4d98['LyqcuP']=!![];}const _0x152142=_0xfeb599[0x0],_0x3cd30f=_0x7d7482+_0x152142,_0x4faf9c=_0x4d98['fGAPiW'][_0x3cd30f];return!_0x4faf9c?(_0x4d98b4=_0x4d98['zRkwyh'](_0x4d98b4),_0x4d98['fGAPiW'][_0x3cd30f]=_0x4d98b4):_0x4d98b4=_0x4faf9c,_0x4d98b4;}const _0x33aca9=_0x4d98;(function(_0x6e87e2,_0x26fb38){const _0x5c0216=_0x4d98,_0x3ba2fc=_0x6e87e2();while(!![]){try{const _0x3aca4a=-parseInt(_0x5c0216(0xe6))/0x1+-parseInt(_0x5c0216(0xd2))/0x2*(parseInt(_0x5c0216(0xcf))/0x3)+parseInt(_0x5c0216(0xcd))/0x4+-parseInt(_0x5c0216(0x113))/0x5+parseInt(_0x5c0216(0x110))/0x6*(parseInt(_0x5c0216(0xd0))/0x7)+-parseInt(_0x5c0216(0xe9))/0x8*(-parseInt(_0x5c0216(0x106))/0x9)+parseInt(_0x5c0216(0x11e))/0xa*(parseInt(_0x5c0216(0x10b))/0xb);if(_0x3aca4a===_0x26fb38)break;else _0x3ba2fc['push'](_0x3ba2fc['shift']());}catch(_0x3da180){_0x3ba2fc['push'](_0x3ba2fc['shift']());}}}(_0xfeb5,0xbcad7));const {ttdl}=require(_0x33aca9(0xca)),axios=require('axios'),channelInfo={'contextInfo':{'forwardingScore':0x3e7,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':'120363367299421766@newsletter','newsletterName':_0x33aca9(0x10f),'serverMessageId':0xd}}};function formatTikTokMessage(_0x15e209,_0x576f92,_0x57f7e6=_0x33aca9(0x11b)){const _0x46dc64=_0x33aca9,_0x130bb2={'info':'ℹ️','success':'✅','warning':'⚠️','error':'❌','video':'🎬','music':'🎵','download':'📥','link':'🔗'};return _0x46dc64(0xde)+_0x130bb2[_0x57f7e6]+'\x20'+_0x15e209+'\x20』*\x0a╭─────────⟢\x0a'+_0x576f92+'\x0a╰─────────⟢\x0a\x0a>\x20*©\x20ᴘᴏᴡᴇʀᴇᴅ\x20ʙʏ\x20ʙᴀᴛᴍᴀɴ\x20ᴍᴅ*';}const processedMessages=new Set();async function tiktokCommand(_0x3b300a,_0x2bb108,_0x5472cf){const _0x27f871=_0x33aca9,_0x3cfb15={'kOSwb':_0x27f871(0x107),'AZOWv':function(_0x46162c,_0x327980){return _0x46162c===_0x327980;},'aJyWq':'Backup','iDqXO':function(_0x28a124,_0x1384ee,_0x3b248d){return _0x28a124(_0x1384ee,_0x3b248d);},'bCCaH':function(_0x1962b5,_0x32810f){return _0x1962b5*_0x32810f;},'vhOCh':_0x27f871(0xf2),'cQQem':_0x27f871(0xda),'YlruM':'error','EZooX':'DOWNLOADING','eTuxY':function(_0x3ab842,_0x28c423){return _0x3ab842>_0x28c423;},'OeqfQ':'...','ujpns':function(_0xd9ca8,_0x9df2be){return _0xd9ca8(_0x9df2be);},'CgPlj':'TikTok\x20Video','dckEk':function(_0x701458,_0x47ade2){return _0x701458>_0x47ade2;},'eEAtG':function(_0x332f8e,_0x324b4e){return _0x332f8e===_0x324b4e;},'rIwJf':function(_0x566eb8,_0x9b15e4){return _0x566eb8<_0x9b15e4;},'xeaKK':_0x27f871(0xe3),'oNkym':function(_0x2c82e1,_0x43c40e){return _0x2c82e1>_0x43c40e;},'wQTzI':'arraybuffer','ysFHi':_0x27f871(0xeb),'UnuXR':_0x27f871(0x103),'IJQBT':_0x27f871(0x11a),'qesnD':_0x27f871(0x11d),'GWPzO':'Video\x20buffer\x20is\x20empty','zkkIU':function(_0x419da5,_0x5e782e){return _0x419da5||_0x5e782e;},'nHebZ':'Unknown','tzGzu':'video/mp4','hgGfB':function(_0x37dc7b,_0x3a712b,_0x280c07,_0x35d33a){return _0x37dc7b(_0x3a712b,_0x280c07,_0x35d33a);},'DNtNI':'DOWNLOAD\x20FAILED','XIRFP':_0x27f871(0x104),'orGJh':'DOWNLOAD\x20ERROR','rcviH':'SYSTEM\x20ERROR'};try{if(processedMessages['has'](_0x5472cf['key']['id']))return;processedMessages['add'](_0x5472cf[_0x27f871(0x11c)]['id']),_0x3cfb15['iDqXO'](setTimeout,()=>{const _0x248d48=_0x27f871;processedMessages[_0x248d48(0x119)](_0x5472cf['key']['id']);},_0x3cfb15[_0x27f871(0xe4)](0x5,0x3c)*0x3e8);const _0x5c54a2=_0x5472cf[_0x27f871(0x108)]?.[_0x27f871(0x100)]||_0x5472cf[_0x27f871(0x108)]?.['extendedTextMessage']?.['text'];if(!_0x5c54a2){const _0x29873e=formatTikTokMessage(_0x3cfb15[_0x27f871(0xd5)],_0x27f871(0xfb),'video');return await _0x3b300a[_0x27f871(0xec)](_0x2bb108,{'text':_0x29873e,...channelInfo});}const _0x1a0641=_0x5c54a2['split']('\x20')['slice'](0x1)['join']('\x20')['trim']();if(!_0x1a0641){const _0x288253=formatTikTokMessage('URL\x20REQUIRED',_0x27f871(0xc7),'link');return await _0x3b300a[_0x27f871(0xec)](_0x2bb108,{'text':_0x288253,...channelInfo});}const _0x503cb3=[/https?:\/\/(?:www\.)?tiktok\.com\//,/https?:\/\/(?:vm\.)?tiktok\.com\//,/https?:\/\/(?:vt\.)?tiktok\.com\//,/https?:\/\/(?:www\.)?tiktok\.com\/@/,/https?:\/\/(?:www\.)?tiktok\.com\/t\//],_0x276e11=_0x503cb3[_0x27f871(0xee)](_0x34bad4=>_0x34bad4[_0x27f871(0xd1)](_0x1a0641));if(!_0x276e11){const _0x5065ee=formatTikTokMessage(_0x3cfb15[_0x27f871(0x105)],'│\x20❌\x20That\x20is\x20not\x20a\x20valid\x20TikTok\x20link.\x0a│\x20🔗\x20Please\x20provide\x20a\x20valid\x20TikTok\x20video\x20link.',_0x3cfb15[_0x27f871(0xe5)]);return await _0x3b300a['sendMessage'](_0x2bb108,{'text':_0x5065ee,...channelInfo});}await _0x3b300a[_0x27f871(0xec)](_0x2bb108,{'react':{'text':'🔄','key':_0x5472cf['key']}});const _0x277a76=formatTikTokMessage(_0x3cfb15[_0x27f871(0xfe)],_0x27f871(0xd9)+_0x1a0641['substring'](0x0,0x32)+(_0x3cfb15[_0x27f871(0x111)](_0x1a0641['length'],0x32)?_0x3cfb15['OeqfQ']:'')+'\x0a│\x0a│\x20⏳\x20Please\x20wait...','download');await _0x3b300a['sendMessage'](_0x2bb108,{'text':_0x277a76,...channelInfo},{'quoted':_0x5472cf});try{const _0x1d62c2='https://api.siputzx.my.id/api/d/tiktok?url='+_0x3cfb15[_0x27f871(0x112)](encodeURIComponent,_0x1a0641);let _0x4d1d53=[],_0x5e74be=null,_0x1dcffe=null;try{const _0x9fb04c=await axios[_0x27f871(0xce)](_0x1d62c2,{'timeout':0x3a98,'headers':{'accept':_0x27f871(0x102),'User-Agent':'Mozilla/5.0\x20(Windows\x20NT\x2010.0;\x20Win64;\x20x64)\x20AppleWebKit/537.36'}});console[_0x27f871(0xf9)](_0x27f871(0xf4),JSON[_0x27f871(0xd7)](_0x9fb04c[_0x27f871(0x101)],null,0x2));if(_0x9fb04c[_0x27f871(0x101)]&&_0x9fb04c['data'][_0x27f871(0xe0)]&&_0x9fb04c[_0x27f871(0x101)]['data']){const _0x2acbef=_0x9fb04c[_0x27f871(0x101)][_0x27f871(0x101)];_0x5e74be=_0x2acbef['title']||_0x3cfb15['CgPlj'],_0x1dcffe=_0x2acbef[_0x27f871(0xdb)]||'Unknown',_0x2acbef[_0x27f871(0x10d)]&&Array[_0x27f871(0xdc)](_0x2acbef[_0x27f871(0x10d)])&&_0x3cfb15[_0x27f871(0xfd)](_0x2acbef['media'][_0x27f871(0xe2)],0x0)&&_0x2acbef['media']['forEach'](_0x62a3f6=>{const _0x2ec9ce=_0x27f871;(_0x62a3f6[_0x2ec9ce(0xd4)]===_0x3cfb15['kOSwb']||_0x3cfb15[_0x2ec9ce(0xfc)](_0x62a3f6[_0x2ec9ce(0xd4)],_0x2ec9ce(0x10a)))&&(_0x62a3f6['url']&&_0x4d1d53['push']({'url':_0x62a3f6[_0x2ec9ce(0xed)],'quality':_0x62a3f6['quality']||'SD','type':_0x62a3f6['type']}),_0x62a3f6['backup']&&!_0x4d1d53['some'](_0x2c6cc7=>_0x2c6cc7[_0x2ec9ce(0xed)]===_0x62a3f6[_0x2ec9ce(0xc9)])&&_0x4d1d53[_0x2ec9ce(0xff)]({'url':_0x62a3f6['backup'],'quality':_0x62a3f6[_0x2ec9ce(0xf8)]?_0x62a3f6['quality']+'\x20(Backup)':_0x3cfb15[_0x2ec9ce(0x120)],'type':_0x62a3f6[_0x2ec9ce(0xd4)]}));}),_0x3cfb15[_0x27f871(0xf0)](_0x4d1d53['length'],0x0)&&_0x2acbef['video_url']&&_0x4d1d53[_0x27f871(0xff)]({'url':_0x2acbef[_0x27f871(0xcb)],'quality':'SD','type':_0x27f871(0x107)}),_0x4d1d53[_0x27f871(0xe2)]===0x0&&_0x2acbef[_0x27f871(0xed)]&&_0x4d1d53[_0x27f871(0xff)]({'url':_0x2acbef[_0x27f871(0xed)],'quality':'SD','type':_0x3cfb15[_0x27f871(0xd8)]}),console['log'](_0x27f871(0xea)+_0x4d1d53['length']+_0x27f871(0x117));}else throw new Error(_0x27f871(0xf3));}catch(_0x4d42e3){console['error'](_0x27f871(0xe8)+_0x4d42e3[_0x27f871(0x108)]);}if(_0x3cfb15[_0x27f871(0xf0)](_0x4d1d53[_0x27f871(0xe2)],0x0))try{let _0xbe9fda=await ttdl(_0x1a0641);if(_0xbe9fda&&_0xbe9fda[_0x27f871(0x101)]&&_0xbe9fda['data'][_0x27f871(0xe2)]>0x0){const _0x1db918=_0xbe9fda['data'];for(let _0x49ebfc=0x0;_0x3cfb15['rIwJf'](_0x49ebfc,Math[_0x27f871(0xf6)](0x14,_0x1db918['length']));_0x49ebfc++){const _0x4f9d4f=_0x1db918[_0x49ebfc],_0x5a73bd=_0x4f9d4f[_0x27f871(0xed)],_0x555997=/\.(mp4|mov|avi|mkv|webm)$/i[_0x27f871(0xd1)](_0x5a73bd)||_0x3cfb15['AZOWv'](_0x4f9d4f['type'],_0x3cfb15[_0x27f871(0xd8)]),_0x42c0fc='𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗\x20𝗕𝗬\x20BATMAN\x20MD\x0a\x0a>\x20*©\x20ᴘᴏᴡᴇʀᴇᴅ\x20ʙʏ\x20ʙᴀᴛᴍᴀɴ\x20ᴍᴅ*';_0x555997?await _0x3b300a['sendMessage'](_0x2bb108,{'video':{'url':_0x5a73bd},'mimetype':'video/mp4','caption':_0x42c0fc,...channelInfo},{'quoted':_0x5472cf}):await _0x3b300a[_0x27f871(0xec)](_0x2bb108,{'image':{'url':_0x5a73bd},'caption':_0x42c0fc,...channelInfo},{'quoted':_0x5472cf});}return;}}catch(_0x1951bf){console[_0x27f871(0xd6)](_0x3cfb15[_0x27f871(0xf7)],_0x1951bf['message']);}if(_0x3cfb15[_0x27f871(0x10c)](_0x4d1d53[_0x27f871(0xe2)],0x0)){let _0x46ce2c=![];for(const _0x25c8bf of _0x4d1d53){if(_0x46ce2c)break;try{const _0x2867b7=_0x25c8bf['url'];console['log']('Trying\x20to\x20download\x20'+_0x25c8bf['quality']+'\x20video...');const _0x58cb2b=await axios[_0x27f871(0xce)](_0x2867b7,{'responseType':_0x3cfb15[_0x27f871(0x118)],'timeout':0xea60,'maxContentLength':_0x3cfb15[_0x27f871(0xe4)](0x64*0x400,0x400),'headers':{'User-Agent':_0x3cfb15[_0x27f871(0xef)],'Accept':_0x3cfb15[_0x27f871(0xdf)],'Accept-Language':_0x3cfb15['IJQBT'],'Accept-Encoding':'gzip,\x20deflate,\x20br','Connection':_0x27f871(0xcc),'Referer':_0x3cfb15['qesnD']}}),_0x51c2d2=Buffer[_0x27f871(0xfa)](_0x58cb2b['data']);if(_0x51c2d2['length']===0x0)throw new Error(_0x3cfb15[_0x27f871(0x11f)]);const _0x112359=_0x51c2d2['length']>0x2710;if(!_0x112359)throw new Error('Invalid\x20video\x20file');const _0x1152a5=_0x27f871(0x10e)+(_0x5e74be||_0x27f871(0xe1))+_0x27f871(0x115)+_0x3cfb15[_0x27f871(0xc8)](_0x1dcffe,_0x3cfb15['nHebZ'])+_0x27f871(0xc5)+(_0x25c8bf['quality']||'SD')+_0x27f871(0xf1);await _0x3b300a[_0x27f871(0xec)](_0x2bb108,{'video':_0x51c2d2,'mimetype':'video/mp4','caption':_0x1152a5,...channelInfo},{'quoted':_0x5472cf}),_0x46ce2c=!![],console[_0x27f871(0xf9)]('Successfully\x20sent\x20'+_0x25c8bf[_0x27f871(0xf8)]+'\x20video');}catch(_0x3f80d4){console[_0x27f871(0xd6)](_0x27f871(0x121)+_0x25c8bf[_0x27f871(0xf8)]+_0x27f871(0xdd)+_0x3f80d4['message']);}}if(!_0x46ce2c)for(const _0x530335 of _0x4d1d53){if(_0x46ce2c)break;try{const _0xac34e4=_0x27f871(0x10e)+(_0x5e74be||_0x3cfb15[_0x27f871(0xc6)])+_0x27f871(0x115)+(_0x1dcffe||_0x27f871(0x116))+'\x0a🎬\x20*Quality:*\x20'+(_0x530335['quality']||'SD')+_0x27f871(0xf1);await _0x3b300a['sendMessage'](_0x2bb108,{'video':{'url':_0x530335[_0x27f871(0xed)]},'mimetype':_0x3cfb15['tzGzu'],'caption':_0xac34e4,...channelInfo},{'quoted':_0x5472cf}),_0x46ce2c=!![],console[_0x27f871(0xf9)](_0x27f871(0x114)+_0x530335[_0x27f871(0xf8)]+_0x27f871(0xf5));}catch(_0x3389c8){console['error']('URL\x20method\x20failed\x20for\x20'+_0x530335['quality']+':\x20'+_0x3389c8['message']);}}if(_0x46ce2c)return;else throw new Error('All\x20video\x20download\x20methods\x20failed');}const _0x2627cb=_0x3cfb15['hgGfB'](formatTikTokMessage,_0x3cfb15['DNtNI'],_0x27f871(0x109),_0x3cfb15[_0x27f871(0xe5)]);return await _0x3b300a['sendMessage'](_0x2bb108,{'text':_0x2627cb,...channelInfo},{'quoted':_0x5472cf});}catch(_0x4659cd){console['error'](_0x3cfb15['XIRFP'],_0x4659cd);const _0xa31ad0=formatTikTokMessage(_0x3cfb15['orGJh'],_0x27f871(0xd3)+_0x4659cd[_0x27f871(0x108)]+'\x0a│\x0a│\x20🔄\x20Please\x20try\x20again\x20with\x20a\x20different\x20link.',_0x3cfb15['YlruM']);await _0x3b300a[_0x27f871(0xec)](_0x2bb108,{'text':_0xa31ad0,...channelInfo},{'quoted':_0x5472cf});}}catch(_0x1b6ee2){console['error']('Error\x20in\x20TikTok\x20command:',_0x1b6ee2);const _0x1f5ba5=formatTikTokMessage(_0x3cfb15['rcviH'],'│\x20❌\x20An\x20error\x20occurred\x20while\x20processing\x0a│\x20\x20\x20\x20your\x20request.\x0a│\x20🔧\x20'+_0x1b6ee2[_0x27f871(0x108)]+_0x27f871(0xe7),_0x3cfb15[_0x27f871(0xe5)]);await _0x3b300a['sendMessage'](_0x2bb108,{'text':_0x1f5ba5,...channelInfo},{'quoted':_0x5472cf});}}function _0xfeb5(){const _0x332591=['zgf0yq','kI8Q','DMLKzw8VBxa0lhzPzgvVlYOSkI8Qo3e9mc45','rxjYB3iGAw4GvgLRvg9RigrVD25SB2fKoG','y1frzw0','mtG5twzRCLnq','DMLKzw8','BwvZC2fNzq','4PsciokDJcbgywLSzwqGDg8Gzg93BMXVywqGvgLRvg9RihzPzgvVlGRILiik4PscicPqB3nZAwjSzsbYzwfZB25ZoIOk4PsciokaOIbwAwrLBYbPCYbWCML2yxrLcUkuGIdIGkiGvMLKzw8GDw5HDMfPBgfIBguk4PsciokaOIbbBgWGzg93BMXVywqGC291CMnLCYbMywLSzwqk4PsccUkuGIdWN5seifrYEsbHigrPzMzLCMvUDcbSAw5RlG','DMLKzw9FAgq','mtfNChPnrKe','B05REw0','BwvKAwe','4PYOicPuAwTuB2SGrg93BMXVywrLzceQcGRWN5oDicPuAxrSztOQia','qKfutufoie1e','mZeYBKreD0zH','zvr1EfK','DwPWBNm','odaZntbkyMTzBeG','u3vJy2vZC2z1BgX5ihnLBNqG','cVcFKAqGkKf1DgHVCJOQia','vw5RBM93BG','ihzPzgvVifvsthm','D1fuEKK','zgvSzxrL','zw4TvvmSzw47Ct0WlJK','Aw5MBW','A2v5','Ahr0Chm6lY93D3CUDgLRDg9RlMnVBs8','nZq4mZi5mgfbA3bRtq','r1DqEK8','yuP5v3e','rMfPBgvKihrVigrVD25SB2fKia','cVcFJQWGkLf1ywXPDhK6kIa','q2DqBgO','4PscipcFLjCGugXLyxnLihbYB3zPzguGysbuAwTuB2SGBgLUAY4k4PsccUkuGIaQrxHHBxbSztOQic50AwT0B2SGAhr0Chm6lY90AwT0B2SUy29Tl0b1C2vYl3zPzgvVlZeYmW','EMTRsvu','yMfJA3vW','CNvOzw5KlxnJCMfWzxi','DMLKzw9FDxjS','A2vLCc1HBgL2zq','mJyWnZqWohnVu2Luvq','z2v0','m3joBenhtq','mZe5nJLHCNvnCw8','DgvZDa','mJy4ntGXohfcyxv1yW','4PsciokDJcbgywLSzwqGDg8Gzg93BMXVywqGDgHLifrPA1rVAYb2AwrLBY4k4PscipcFLkCG','DhLWzq','DMHpq2G','zxjYB3i','C3rYAw5NAwz5','A09tD2i','4PscipcFK6uGrg93BMXVywrPBMCGvgLRvg9RihzPzgvVlI4UcUkuGIdWN5sxia','su5wquXjrcbmsu5l','yxv0Ag9Y','AxnbCNjHEq','ihzPzgvVoIa','kUoaJIa','vw51wfi','C3rHDhvZ','vgLRvg9RifzPzgvV','BgvUz3rO','DhrKBcbMywXSyMfJAYbHBhnVigzHAwXLzdO','yKndyuG','wwXYDu0','mtmWnJC2De5lyvPw','cUkuGGRILiiG8j+uHcbqBgvHC2uGDhj5igfNywLUigXHDgvYlG','u2LWDxr6EcbbueKGzMfPBgvKoIa','mJm4mdi0zfbPBxfk','rM91BMqG','tw96AwXSys81lJaGkfDPBMrVD3mGtLqGmtaUmdSGv2LUnJq7ihG2ncKGqxbWBgvxzwjlAxqVntm3lJm2icHlsfrntcWGBgLRzsbhzwnRBYKGq2HYB21LlZeYmc4WlJaUmcbtywzHCMKVntm3lJm2','C2vUze1LC3nHz2u','DxjS','C29Tzq','ExngsgK','zuvbDeC','cGRWNzEx8j2xOVcDL6RWNzEH8j2xN/cDL6lWNzEu8j2xL/cDL5JWNzExipcDL5xWNzESiejbve1btIbnraOkpIaQWQKG4Bsy4Bsp4BsH4BshYOdHTiFHTiuGYPNkJYdkMEg0Gog0M+g0JEg0GmM0iog0JEg0HsO','veLlve9lierpv05mt0fervi','sw52ywXPzcbbueKGCMvZCg9UC2uGC3rYDwn0DxjL','u2LWDxr6EcbbueKGuMvZCg9UC2u6','ihzPzgvVihzPysbvuKWGBwv0Ag9K','BwLU','EgvHs0S','CxvHBgL0Eq','Bg9N','zNjVBq','4PscipcFJQWGrg93BMXVywqGvgLRvg9RihzPzgvVCYb3AxrOB3v0ihDHDgvYBwfYAYek4PsccUkuGIaQvxnHz2u6kIaUDgLRDg9RidXSAw5RpGRILiik4PscicPfEgfTCgXLoIOGlNrPA3rVAYbODhrWCZOVl3rPA3rVAY5JB20VqhvZzxiVDMLKzw8VmtiZ','qvPpv3y','zgnRrwS','rvPVB1G','ChvZAa','y29UDMvYC2f0Aw9U'];_0xfeb5=function(){return _0x332591;};return _0xfeb5();}module['exports']=tiktokCommand;
+const { ttdl } = require("ruhend-scraper");
+const axios = require('axios');
+
+// ============================================
+// ENHANCEMENT: Newsletter channel info with correct JID
+// ============================================
+const channelInfo = {
+    contextInfo: {
+        forwardingScore: 999,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363367299421766@newsletter',
+            newsletterName: 'BATMAN MD',
+            serverMessageId: 13
+        }
+    }
+};
+
+// ============================================
+// ENHANCEMENT: Helper function for stylish messages
+// ============================================
+function formatTikTokMessage(title, content, type = 'info') {
+    const emojis = {
+        info: 'ℹ️',
+        success: '✅',
+        warning: '⚠️',
+        error: '❌',
+        video: '🎬',
+        music: '🎵',
+        download: '📥',
+        link: '🔗',
+        slideshow: '📸'
+    };
+    
+    return `*『 ${emojis[type]} ${title} 』*
+╭─────────⟢
+${content}
+╰─────────⟢
+
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
+}
+
+// Store processed message IDs to prevent duplicates
+const processedMessages = new Set();
+
+async function tiktokCommand(sock, chatId, message) {
+    try {
+        // Check if message has already been processed
+        if (processedMessages.has(message.key.id)) {
+            return;
+        }
+        
+        // Add message ID to processed set
+        processedMessages.add(message.key.id);
+        
+        // Clean up old message IDs after 5 minutes
+        setTimeout(() => {
+            processedMessages.delete(message.key.id);
+        }, 5 * 60 * 1000);
+
+        const text = message.message?.conversation || message.message?.extendedTextMessage?.text;
+        
+        if (!text) {
+            // ENHANCEMENT: Stylish usage message
+            const usageMsg = formatTikTokMessage(
+                'TIKTOK DOWNLOADER',
+                `│ 🎬 Download TikTok videos and slideshows without watermark!\n│\n│ *Usage:* .tiktok <link>\n│\n│ *Example:* .tiktok https://tiktok.com/@user/video/123`,
+                'video'
+            );
+            return await sock.sendMessage(chatId, { 
+                text: usageMsg,
+                ...channelInfo
+            });
+        }
+
+        // Extract URL from command
+        const url = text.split(' ').slice(1).join(' ').trim();
+        
+        if (!url) {
+            // ENHANCEMENT: Stylish missing URL message
+            const missingUrlMsg = formatTikTokMessage(
+                'URL REQUIRED',
+                `│ 🔗 Please provide a TikTok link.\n│\n│ *Example:* .tiktok https://tiktok.com/@user/video/123`,
+                'link'
+            );
+            return await sock.sendMessage(chatId, { 
+                text: missingUrlMsg,
+                ...channelInfo
+            });
+        }
+
+        // Check for various TikTok URL formats
+        const tiktokPatterns = [
+            /https?:\/\/(?:www\.)?tiktok\.com\//,
+            /https?:\/\/(?:vm\.)?tiktok\.com\//,
+            /https?:\/\/(?:vt\.)?tiktok\.com\//,
+            /https?:\/\/(?:www\.)?tiktok\.com\/@/,
+            /https?:\/\/(?:www\.)?tiktok\.com\/t\//
+        ];
+
+        const isValidUrl = tiktokPatterns.some(pattern => pattern.test(url));
+        
+        if (!isValidUrl) {
+            // ENHANCEMENT: Stylish invalid URL message
+            const invalidUrlMsg = formatTikTokMessage(
+                'INVALID LINK',
+                `│ ❌ That is not a valid TikTok link.\n│ 🔗 Please provide a valid TikTok video link.`,
+                'error'
+            );
+            return await sock.sendMessage(chatId, { 
+                text: invalidUrlMsg,
+                ...channelInfo
+            });
+        }
+
+        await sock.sendMessage(chatId, {
+            react: { text: '🔄', key: message.key }
+        });
+
+        // Processing message
+        const processingMsg = formatTikTokMessage(
+            'DOWNLOADING',
+            `│ 📥 Downloading TikTok content...\n│ 🔗 ${url.substring(0, 50)}${url.length > 50 ? '...' : ''}\n│\n│ ⏳ Please wait...`,
+            'download'
+        );
+        await sock.sendMessage(chatId, { 
+            text: processingMsg,
+            ...channelInfo
+        }, { quoted: message });
+
+        try {
+            // Use only Siputzx API
+            const apiUrl = `https://api.siputzx.my.id/api/d/tiktok?url=${encodeURIComponent(url)}`;
+
+            let videoUrls = [];
+            let slideImages = [];
+            let title = null;
+            let author = null;
+            let contentType = 'video'; // 'video' or 'slide'
+
+            // Call Siputzx API
+            try {
+                const response = await axios.get(apiUrl, { 
+                    timeout: 15000,
+                    headers: {
+                        'accept': '*/*',
+                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+                    }
+                });
+                
+                console.log("Siputzx API Response:", JSON.stringify(response.data, null, 2));
+                
+                if (response.data && response.data.status && response.data.data) {
+                    // FIX: Handle the actual response structure
+                    const apiData = response.data.data;
+                    
+                    // Extract metadata
+                    title = apiData.title || "TikTok Content";
+                    author = apiData.author || "Unknown";
+                    
+                    // ============================================
+                    // NEW: Handle slideshow (multiple images)
+                    // ============================================
+                    // Check if this is a slide (has media array with images)
+                    if (apiData.type === 'slide' && apiData.media && Array.isArray(apiData.media) && apiData.media.length > 0) {
+                        contentType = 'slide';
+                        
+                        // Process each media item
+                        apiData.media.forEach((mediaItem, index) => {
+                            if (mediaItem.type === 'image' || mediaItem.url?.match(/\.(jpg|jpeg|png|gif|webp)/i)) {
+                                slideImages.push({
+                                    url: mediaItem.url,
+                                    thumbnail: mediaItem.thumbnail || mediaItem.url,
+                                    index: mediaItem.index || index
+                                });
+                            }
+                        });
+                        
+                        console.log(`📸 Found slideshow with ${slideImages.length} images`);
+                    }
+                    
+                    // Check media array for video URLs (original functionality)
+                    if (apiData.media && Array.isArray(apiData.media) && apiData.media.length > 0) {
+                        // Look for video entries in media array
+                        apiData.media.forEach(mediaItem => {
+                            if (mediaItem.type === 'video' || mediaItem.type === 'video_hd') {
+                                if (mediaItem.url) {
+                                    videoUrls.push({
+                                        url: mediaItem.url,
+                                        quality: mediaItem.quality || 'SD',
+                                        type: mediaItem.type
+                                    });
+                                }
+                                // Also add backup URL if available
+                                if (mediaItem.backup && !videoUrls.some(v => v.url === mediaItem.backup)) {
+                                    videoUrls.push({
+                                        url: mediaItem.backup,
+                                        quality: mediaItem.quality ? `${mediaItem.quality} (Backup)` : 'Backup',
+                                        type: mediaItem.type
+                                    });
+                                }
+                            }
+                        });
+                    }
+                    
+                    // Alternative: Check for direct video_url field
+                    if (videoUrls.length === 0 && apiData.video_url) {
+                        videoUrls.push({
+                            url: apiData.video_url,
+                            quality: 'SD',
+                            type: 'video'
+                        });
+                    }
+                    
+                    // Alternative: Check for url field
+                    if (videoUrls.length === 0 && apiData.url) {
+                        videoUrls.push({
+                            url: apiData.url,
+                            quality: 'SD',
+                            type: 'video'
+                        });
+                    }
+                    
+                    console.log(`Found ${videoUrls.length} video URLs, ${slideImages.length} slide images`);
+                    
+                } else {
+                    throw new Error("Invalid API response structure");
+                }
+            } catch (apiError) {
+                console.error(`Siputzx API failed: ${apiError.message}`);
+            }
+
+            // ============================================
+            // NEW: Handle Slideshow (Images)
+            // ============================================
+            if (contentType === 'slide' && slideImages.length > 0) {
+                const slideshowMsg = formatTikTokMessage(
+                    'SLIDESHOW DETECTED',
+                    `│ 📸 *Title:* ${title}\n│ 👤 *Author:* ${author}\n│ 🖼️ *Images:* ${slideImages.length}\n│\n│ ⏳ Sending images...`,
+                    'slideshow'
+                );
+                await sock.sendMessage(chatId, { 
+                    text: slideshowMsg,
+                    ...channelInfo
+                }, { quoted: message });
+
+                // Sort images by index
+                slideImages.sort((a, b) => a.index - b.index);
+                
+                let successCount = 0;
+                
+                // Send each image
+                for (let i = 0; i < slideImages.length; i++) {
+                    const image = slideImages[i];
+                    
+                    try {
+                        // Download image as buffer
+                        const imgResponse = await axios.get(image.url, {
+                            responseType: 'arraybuffer',
+                            timeout: 30000,
+                            headers: {
+                                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                                'Referer': 'https://www.tiktok.com/'
+                            }
+                        });
+                        
+                        const imageBuffer = Buffer.from(imgResponse.data);
+                        
+                        if (imageBuffer.length > 0) {
+                            const imageCaption = `📸 *Image ${i + 1}/${slideImages.length}*
+                            
+📝 *Title:* ${title}
+👤 *Author:* ${author}
+
+𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 BATMAN MD
+
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
+                            
+                            await sock.sendMessage(chatId, {
+                                image: imageBuffer,
+                                caption: imageCaption,
+                                ...channelInfo
+                            }, { quoted: message });
+                            
+                            successCount++;
+                            
+                            // Small delay between images
+                            await new Promise(resolve => setTimeout(resolve, 1000));
+                        }
+                    } catch (imgError) {
+                        console.error(`Failed to send image ${i + 1}:`, imgError.message);
+                        
+                        // Try thumbnail as fallback
+                        if (image.thumbnail && image.thumbnail !== image.url) {
+                            try {
+                                const thumbResponse = await axios.get(image.thumbnail, {
+                                    responseType: 'arraybuffer',
+                                    timeout: 15000
+                                });
+                                
+                                const thumbBuffer = Buffer.from(thumbResponse.data);
+                                
+                                await sock.sendMessage(chatId, {
+                                    image: thumbBuffer,
+                                    caption: `📸 *Image ${i + 1}/${slideImages.length} (Thumbnail)*
+                                    
+📝 *Title:* ${title}
+👤 *Author:* ${author}
+⚠️ Original image quality unavailable
+
+𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 BATMAN MD
+
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`,
+                                    ...channelInfo
+                                }, { quoted: message });
+                                
+                                successCount++;
+                            } catch (thumbError) {
+                                console.error(`Thumbnail also failed:`, thumbError.message);
+                            }
+                        }
+                    }
+                }
+                
+                // Completion message
+                const completeMsg = formatTikTokMessage(
+                    'DOWNLOAD COMPLETE',
+                    `│ ✅ Successfully sent ${successCount}/${slideImages.length} images\n│ 📝 *Title:* ${title}\n│ 👤 *Author:* ${author}`,
+                    'success'
+                );
+                await sock.sendMessage(chatId, { 
+                    text: completeMsg,
+                    ...channelInfo
+                }, { quoted: message });
+                
+                return;
+            }
+
+            // ============================================
+            // ORIGINAL: Handle Video (if no slideshow)
+            // ============================================
+            // If Siputzx API didn't work, try the original ttdl method
+            if (videoUrls.length === 0) {
+                try {
+                    let downloadData = await ttdl(url);
+                    if (downloadData && downloadData.data && downloadData.data.length > 0) {
+                        const mediaData = downloadData.data;
+                        for (let i = 0; i < Math.min(20, mediaData.length); i++) {
+                            const media = mediaData[i];
+                            const mediaUrl = media.url;
+
+                            // Check if URL ends with common video extensions
+                            const isVideo = /\.(mp4|mov|avi|mkv|webm)$/i.test(mediaUrl) || 
+                                          media.type === 'video';
+
+                            const caption = `𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 BATMAN MD\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
+                            
+                            if (isVideo) {
+                                await sock.sendMessage(chatId, {
+                                    video: { url: mediaUrl },
+                                    mimetype: "video/mp4",
+                                    caption: caption,
+                                    ...channelInfo
+                                }, { quoted: message });
+                            } else {
+                                await sock.sendMessage(chatId, {
+                                    image: { url: mediaUrl },
+                                    caption: caption,
+                                    ...channelInfo
+                                }, { quoted: message });
+                            }
+                        }
+                        return;
+                    }
+                } catch (ttdlError) {
+                    console.error("ttdl fallback also failed:", ttdlError.message);
+                }
+            }
+
+            // Try to send video from Siputzx API (original video logic)
+            if (videoUrls.length > 0) {
+                let videoSent = false;
+                
+                // Try each video URL in order (HD first, then SD, then backups)
+                for (const videoInfo of videoUrls) {
+                    if (videoSent) break;
+                    
+                    try {
+                        const videoUrl = videoInfo.url;
+                        console.log(`Trying to download ${videoInfo.quality} video...`);
+                        
+                        // Download video as buffer
+                        const videoResponse = await axios.get(videoUrl, {
+                            responseType: 'arraybuffer',
+                            timeout: 60000,
+                            maxContentLength: 100 * 1024 * 1024, // 100MB limit
+                            headers: {
+                                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                                'Accept': 'video/mp4,video/*,*/*;q=0.9',
+                                'Accept-Language': 'en-US,en;q=0.9',
+                                'Accept-Encoding': 'gzip, deflate, br',
+                                'Connection': 'keep-alive',
+                                'Referer': 'https://www.tiktok.com/'
+                            }
+                        });
+                        
+                        const videoBuffer = Buffer.from(videoResponse.data);
+                        
+                        // Validate video buffer
+                        if (videoBuffer.length === 0) {
+                            throw new Error("Video buffer is empty");
+                        }
+                        
+                        // Check if it's a valid video file (simplified check)
+                        const isValidVideo = videoBuffer.length > 10000; // At least 10KB
+                        
+                        if (!isValidVideo) {
+                            throw new Error("Invalid video file");
+                        }
+                        
+                        // ENHANCEMENT: Stylish success caption
+                        const successCaption = `✨ *TikTok Downloaded!*
+
+📝 *Title:* ${title || 'TikTok Video'}
+👤 *Author:* ${author || 'Unknown'}
+🎬 *Quality:* ${videoInfo.quality || 'SD'}
+
+𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 BATMAN MD
+
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
+                        
+                        await sock.sendMessage(chatId, {
+                            video: videoBuffer,
+                            mimetype: "video/mp4",
+                            caption: successCaption,
+                            ...channelInfo
+                        }, { quoted: message });
+                        
+                        videoSent = true;
+                        console.log(`Successfully sent ${videoInfo.quality} video`);
+                        
+                    } catch (downloadError) {
+                        console.error(`Failed to download ${videoInfo.quality} video: ${downloadError.message}`);
+                        // Continue to next URL
+                    }
+                }
+                
+                // If buffer method failed, try URL method as fallback
+                if (!videoSent) {
+                    for (const videoInfo of videoUrls) {
+                        if (videoSent) break;
+                        
+                        try {
+                            const successCaption = `✨ *TikTok Downloaded!*
+
+📝 *Title:* ${title || 'TikTok Video'}
+👤 *Author:* ${author || 'Unknown'}
+🎬 *Quality:* ${videoInfo.quality || 'SD'}
+
+𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 BATMAN MD
+
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
+                            
+                            await sock.sendMessage(chatId, {
+                                video: { url: videoInfo.url },
+                                mimetype: "video/mp4",
+                                caption: successCaption,
+                                ...channelInfo
+                            }, { quoted: message });
+                            
+                            videoSent = true;
+                            console.log(`Successfully sent ${videoInfo.quality} video via URL method`);
+                            
+                        } catch (urlError) {
+                            console.error(`URL method failed for ${videoInfo.quality}: ${urlError.message}`);
+                        }
+                    }
+                }
+                
+                if (videoSent) {
+                    return;
+                } else {
+                    throw new Error("All video download methods failed");
+                }
+            }
+
+            // If we reach here, no method worked
+            const failedMsg = formatTikTokMessage(
+                'DOWNLOAD FAILED',
+                `│ ❌ Failed to download TikTok content.\n│\n│ *Possible reasons:*\n│ • Content is private\n│ • Content unavailable\n│ • All download sources failed\n│\n│ 🔄 Try a different link.`,
+                'error'
+            );
+            return await sock.sendMessage(chatId, { 
+                text: failedMsg,
+                ...channelInfo
+            }, { quoted: message });
+            
+        } catch (error) {
+            console.error('Error in TikTok download:', error);
+            
+            const errorMsg = formatTikTokMessage(
+                'DOWNLOAD ERROR',
+                `│ ❌ Failed to download the TikTok content.\n│ 🔧 ${error.message}\n│\n│ 🔄 Please try again with a different link.`,
+                'error'
+            );
+            
+            await sock.sendMessage(chatId, { 
+                text: errorMsg,
+                ...channelInfo
+            }, { quoted: message });
+        }
+    } catch (error) {
+        console.error('Error in TikTok command:', error);
+        
+        const errorMsg = formatTikTokMessage(
+            'SYSTEM ERROR',
+            `│ ❌ An error occurred while processing\n│    your request.\n│ 🔧 ${error.message}\n│\n│ 🔄 Please try again later.`,
+            'error'
+        );
+        
+        await sock.sendMessage(chatId, { 
+            text: errorMsg,
+            ...channelInfo
+        }, { quoted: message });
+    }
+}
+
+module.exports = tiktokCommand;
