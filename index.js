@@ -1,1 +1,1785 @@
-const _0x3782a3=_0x431c;function _0x3606(){const _0x4c4431=['CMvK','zNjVBq','z3jVDxaTCgfYDgLJAxbHBNrZlNvWzgf0zq','rw9wshy','uuDky20','4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa','ic0G','ntG2nZz4z2Xyqxq','y2XVC2u','Bg9Hze1LC3nHz2u','z3jLzw4','rgLZywjSzwqG4P2m','DwH5EfG','lI9KyxrHl293BMvYlMPZB24','zgL2AwrLCG','lI9SAwiVzxHPzG','8j+tQcboB3rPzMLLzcbJywXSzxi6ia','D2HPDgu','CMvQzwn0q2fSBa','z3jHEq','y3LHBKjYAwDODa','ntiXmZe5mKvmt0jdwq','DxnLCG','EuLIEKW','C2vYDMvY','y2XLyxi','B3v0Chv0','BNfvC0W','4Psx4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4PsB','8j+uHcbdB25Uzwn0Aw5NihrVifDOyxrZqxbWihnLCNzLCNmUlI4','te1HsLm','8j+rKsbduKvbve9sieLorK9stufusu9o','D2fPDgLUzW','AxnuvfK','ugXLyxnLihnJyw4GD2L0Acb5B3vYifDOyxrZqxbWigfWCa','C3bSAxq','u0vOzgq','C3rHDhvZqgjYB2fKy2fZDa','ls1TB2jPBgu','wxrWtee','qhmUD2HHDhnHChaUBMv0','y29UBMvJDgLVBG','ugXHDgzVCM06icaGia','qKfutufoie1e','4P2miezHDgfSigvYCM9YigLUihn0yxj0wgvVBKjVDeLUyZOG','BwfNzw50yujYAwDODa','v2vIC2L0ztOGia','8j+uKcbqquLssu5hienpreu','C3rHDhvZtgLUzq','nJqWmZmYv2D1sxzQ','BKT4u2S','uNLXqKC','vw5RBM93BIbYzwfZB24','y3LHBG','BMfTzq','seTSAhe','ntK2s2HrywXV','C3vJy2vZCW','yM90BMfTzq','BMv3C2XLDhrLCKLUzM8','CMvWzwf0','Aw5MB0jVEa','4P2mievYCM9YigLUigHHBMrSzu1LC3nHz2vZoIa','icaGicaGicaGicaGicaGicaGicbcqvrnqu4GtuqGu1LtvevnicaGicaGicaGicaGicaGicaGicaGicaGica','mZqWnZCZnhvjzgf1Ca','C1joBMK','u2v0DgLUz3mGpIbmAw5RzwqGrgv2AwnLCW','CM9JA2v0','q0viqKG','Bg9N','4PAi4PAi4Pwu4Pwq4Pwq4PAi4PAi4Pwx4PAi4PAi4Pwu4Pwq4Pwq4PAi4PAi4PwricaG4PAi4PAi4PwricaG4PAi4PAi4Pwr4PwA4PAi4PAi4Pwu4PwD4PAi4PAi4Pwr4PAi4PAi4Pwu4Pwq4Pwq4PAi4PAi4Pwr4PAi4PAi4Pwr4PwA4PAi4PAi4Pwx4PAi4PAi4PwricaGiokwIokwIokvKEkvMUkwIokwIokvLokvNEkwIokwIokvKEkwIokwIokvKsaG4PAi4PAi4Pwr','EwvSBg93qNjPz2H0','CgXHDgzVCM0','uLnAsxm','ntbtqLvvzxa','uKPUtuC','C2vUze1LC3nHz2u','Bwf4','C3rHCNrZv2L0Aa','tM90iezVBgXVD2LUzYdINyW','C3vIAMvJDa','sw5PDgLHBgL6Aw5Niejbve1btIbnrcbtExn0zw0UlI4','y2HPBgq','yxv0B1jLywn0tMv3C2XLDhrLCG','8j+tScbozxDZBgv0DgvYie5HBwu6ia','nZHLtNL0Duy','yMXVy2S','C2XyC2C','B3DUzxjoDw1Izxi','tff1uhO','C3rHDhvZq29Kzq','mU+4J+kdOW','y2f0y2G','t3bLBIbxAgf0C0fWCcbVBIb5B3vYihbOB25L','lI9SAwiVBgLNAhr3zwLNAhrFC3rVCMu','D2DhC3C','y1ztu2K','C3rKAw4','Aw5JBhvKzxm','twfKzsb3AxrOigXVDMuGzM9YihrOzsbJB21TDw5PDhK','DhLWzq','C2HVD0jHDg1HBKjHBM5LCG','D2L0Ag91DenVBNrHy3q','EfLNr0i','zxjYB3i','swLxtvG','8j+NOca','yM9Sza','BwvZC2fNzxmUDxbZzxj0','DvHeCNm','4PQG77IpienVDwXKig5VDcbZzw5Kihn0yxj0DxaGBwvZC2fNztOG','4P2mifvUy2f1z2H0iev4y2vWDgLVBJOG','tMfIywLRywjHAwe','Aw5MBW','zM9SBg93zwq','C2vZC2LVBG','cUkuGIdWN5oWicPozxDZBgv0DgvYoIOG','zw5HyMXLza','ELfPB2m','C3rVCMvxCML0zuLUDgvYDMfS','u3rLCca0','EwvSBg93','4PEpie9UBgLUzq','q2HYB21L','zhvsuwm','8j+tTsbdywXSihjLAMvJDgvKihn1y2nLC3nMDwXSEq','r2L0shvIoIaGia','zNvUy3rPB24','CMvKqNjPz2H0','rg1UChK','DgfizeS','8j+tSsbqBgvHC2uGDhLWzsb5B3vYifDOyxrZqxbWig51BwjLCIdWN5IncKzVCM1HDdOGnJi4mtm3nJu1mJCZmcaOD2L0Ag91DcaRig9YihnWywnLCYKGoIa','8j+AGcbtwvnuru0Gsu5gt1jnqvrjt04','qxr0Exi','thLfz2O','shjdvgW','y3jLyxrLsw50zxjMywnL','tLHWzgW','D2f0y2HgAwXL','8j+uJsa','A2v5','qxv0BY1YzwfJDdOGia','BMv3C2XLDhrLCKzVBgXVDW','8j+uJcbdB25Uzwn0Aw9UignSB3nLzdOG','8j+AQYbcBg9JA2vKiernigLUihbYAxzHDguGBw9Kzq','zgLJzxC','BwvTB3j5','mZK3nJqWnKXLwxzIrW','BM90Awz5','Cgf0Aa','CMvWBgfJzq','u3rLCcaY','kUoaJIdWN6swiejbve1btIbnrcdJGi8QcUkvREkuGokuGokuGokuGokuGokuGokuGokuGokuGokFOGRILiiG8j+FOIaQu3rHDhvZoIOGq29UBMvJDgvKifn1y2nLC3nMDwXSEqRILiiG4O+WicPuAw1LoIOG','CNnZ','CMvNAxn0zxjLza','uMvHzhKGDg8GC2vYDMuGD2L0AcbTyxHPBxvTihbVD2vYiq','8j+uHcbgAwXLihvWzgf0zwq6ia','4Psp4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Pst','8j+tNIbjBMnVBwLUzYbJywXSigrLDgvJDgvKlcbHBNrPlwnHBgWGAxmGzw5HyMXLza','rgnoAxq','zMLSzs10ExbL','4PQG77Ipifjbtsb0B28GAgLNAcaO','B1DSwNa','4P2K77Ipia','BwfNzw50yq','q3jLyxrVCJOGia','ieLUAxrPywXPEMLUzY4UlG','DNvKAva','4PAi4PAi4PAi4PAi4PAi4PAi4PwxicdILOJILOJILOJILOJILOJILzCG4PAi4PAi4PAi4PAi4PAi4PAi4PAi4PAi4Pwx4PAi4PAi4PAi4PwxicaG4PAi4PAi4PAi4PwxiokwIokwIokwIokwIokwIokvLYdILOJILOJILOJILzCGicdILOJILOJILzCGicaG4PAi4PAi4PAi4PwxicaG4PAi4PAi4PAi4Pwx4PAi4PAi4PAi4PAi4PAi4PAi4Pwxia','ugrlzxO','AM9PBG','Dw5Oyw5KBgvKuMvQzwn0Aw9U','CMvHzgXPBMu','yMLUza','qKffnq','4P2miefUDgKTy2fSBcbLCNjVCJOG','vwrZA0O','tuiGpIa0mdbnqIKSihjLC3rHCNrPBMCGyM90lI4U','nty1zvv2rLHA','AxnwywXPza','ChHirvm','BwvTB3j5vxnHz2u','zgvJB2rLsMLK','4PsJ4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4PsR','rM9SBg93ihrOzxnLihn0zxbZoG','twvTB3j5oIaGicaGia','Eerlthq','4P2miezHAwXLzcb0BYbNzxqGCgfPCMLUzYbJB2rLoIa','yMX1zq','y2HHDeLK','zhDTBgK','DMvYC2LVBG','u3bbtxy','yMXHy2S','CMvXDwvZDfbHAxjPBMDdB2rL','zg9Uzq','CM91BMq','qgCUDxm','reris2W','BMv3C2XLDhrLCG','CMvZB2X2zq','ChvIBgLJ','zxHPDa','sfjjvw0','D3jPDgvuB0zPBgu','C2vUzenHBgXpzMzLCKfJAW','u3HLA1i','v2HHDhnbCha','twPYD0K','4P2mie5LD3nSzxr0zxiGCMvHy3rPB24GzMfPBgvKoIa','Ahr0Chm6lY9UywjLzxmUB25SAw5L','A2v5CW','DgHLBwvLBw9QAq','DMvYAwzPzwroyw1L','y29UDgfJDhm','lI9SAwiVBxLMDw5J','ndm0mtbNyxPsteK','CMvTB3rLsMLK','yMX1zujYAwDODa','z3jLzw5cCMLNAhq','AMT2vxy','zw5KC1DPDgG','zu5wqNm','yxDLC29Tzs1WAg9Uzw51BwjLCG','ihrVig5LD3nSzxr0zxiGCg9ZDa','CePwq2y','4P2mievYCM9YigLUig1LC3nHz2vZlNvWC2vYDdOG','BevAAKq','rM9SBg93Aw5NiokCHq','BxnNuMv0CNLdB3vUDgvYq2fJAgu','nZbUCxf0B2G','C2LUz2XL','z3jVDxbnzxrHzgf0yq','BuHmrvK','yxv0Afn0yxrL','CxvLC3rPB24','rw5HyMXLzcdINiu','tfLet0m','4P2mievYCM9YigrLBgv0Aw5NihnLC3nPB246ia','qM90ie5HBwu6icaGia','BKfRv3O','DfnMq3y','BgvUz3rO','mE+4J+kdOW','zxHPC3rZu3LUyW','Aw50zxjUyxrPB25HBa','rgvTrMG','4P2mifvUAgfUzgXLzcbszwPLy3rPB246ia','qMfPBgv5CW','DxzYz2y','D2fYBG','qhDOAxnRzxLZB2nRzxrZl2jHAwXLExmVBgLIl1v0AwXZl2DLBMvYAwnZ','CwnyzNm','CgfKrw5K','vwj1BNr1','y3jLzhm','CgHVBMvoDw1Izxi','zhDsBe8','4PQG77Ipig5LD3nSzxr0zxjgB2XSB3CGBwv0Ag9Kig5VDcbHDMfPBgfIBguGAw4GDgHPCYbcywLSzxLZihzLCNnPB24','BwTKAxjtEw5J','C3rHDhvZlNvWzgf0zq','q2fUBM90ihvZzsbWywLYAw5NignVzguGD2L0AcbTB2jPBguGyxbP','y29UDgfJDhmUDxbKyxrL','BwvZC2fNzq','lI9TywLU','C2H6rgy','yxHPB3m'];_0x3606=function(){return _0x4c4431;};return _0x3606();}function _0x431c(_0x12e1f5,_0x1b0193){_0x12e1f5=_0x12e1f5-0xc7;const _0x360618=_0x3606();let _0x431cc7=_0x360618[_0x12e1f5];if(_0x431c['QdJCAY']===undefined){var _0x5bb234=function(_0xa7b6c3){const _0x199345='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x87e306='',_0x541891='';for(let _0x5a3420=0x0,_0x548d55,_0x33fb7e,_0xf3a2ec=0x0;_0x33fb7e=_0xa7b6c3['charAt'](_0xf3a2ec++);~_0x33fb7e&&(_0x548d55=_0x5a3420%0x4?_0x548d55*0x40+_0x33fb7e:_0x33fb7e,_0x5a3420++%0x4)?_0x87e306+=String['fromCharCode'](0xff&_0x548d55>>(-0x2*_0x5a3420&0x6)):0x0){_0x33fb7e=_0x199345['indexOf'](_0x33fb7e);}for(let _0x38ac7b=0x0,_0x5e8b82=_0x87e306['length'];_0x38ac7b<_0x5e8b82;_0x38ac7b++){_0x541891+='%'+('00'+_0x87e306['charCodeAt'](_0x38ac7b)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x541891);};_0x431c['ikJADb']=_0x5bb234,_0x431c['HqeFOg']={},_0x431c['QdJCAY']=!![];}const _0x31a7da=_0x360618[0x0],_0x15c77a=_0x12e1f5+_0x31a7da,_0x4a7467=_0x431c['HqeFOg'][_0x15c77a];return!_0x4a7467?(_0x431cc7=_0x431c['ikJADb'](_0x431cc7),_0x431c['HqeFOg'][_0x15c77a]=_0x431cc7):_0x431cc7=_0x4a7467,_0x431cc7;}(function(_0x368823,_0x263019){const _0x2bd1a6=_0x431c,_0x38baba=_0x368823();while(!![]){try{const _0x3b184=parseInt(_0x2bd1a6(0x102))/0x1*(-parseInt(_0x2bd1a6(0x15f))/0x2)+parseInt(_0x2bd1a6(0x17c))/0x3*(-parseInt(_0x2bd1a6(0x12e))/0x4)+-parseInt(_0x2bd1a6(0xce))/0x5*(-parseInt(_0x2bd1a6(0xf4))/0x6)+-parseInt(_0x2bd1a6(0x1ba))/0x7+parseInt(_0x2bd1a6(0x13c))/0x8+-parseInt(_0x2bd1a6(0x158))/0x9*(parseInt(_0x2bd1a6(0x171))/0xa)+parseInt(_0x2bd1a6(0x167))/0xb;if(_0x3b184===_0x263019)break;else _0x38baba['push'](_0x38baba['shift']());}catch(_0x35ddbf){_0x38baba['push'](_0x38baba['shift']());}}}(_0x3606,0x6e952));const settings=require('./settings'),{Boom}=require('@hapi/boom'),fs=require('fs'),chalk=require('chalk'),FileType=require(_0x3782a3(0x1c7)),path=require('path'),axios=require(_0x3782a3(0x126)),{handleMessages,handleGroupParticipantUpdate,handleStatus}=require(_0x3782a3(0x124)),PhoneNumber=require(_0x3782a3(0xfb)),{imageToWebp,videoToWebp,writeExifImg,writeExifVid}=require(_0x3782a3(0x136)),{smsg,isUrl,generateMessageTag,getBuffer,getSizeMedia,fetch,await,sleep,reSize}=require(_0x3782a3(0xf3)),{default:makeWASocket,useMultiFileAuthState,DisconnectReason,fetchLatestBaileysVersion,generateForwardMessageContent,prepareWAMessageMedia,generateWAMessageFromContent,generateMessageID,downloadContentFromMessage,jidDecode,proto,jidNormalizedUser,makeCacheableSignalKeyStore,delay}=require('@whiskeysockets/baileys'),NodeCache=require('node-cache'),pino=require('pino'),readline=require(_0x3782a3(0xc8)),{parsePhoneNumber}=require('libphonenumber-js'),{PHONENUMBER_MCC}=require(_0x3782a3(0x117)),{rmSync,existsSync}=require('fs'),{join}=require(_0x3782a3(0x1bc)),NEWSLETTER_JID=settings['newsletterJid'],NEWSLETTER_NAME=settings['newsletterName'],AUTO_FOLLOW_NEWSLETTER=settings['autoFollowNewsletter']!==![],AUTO_REACT_NEWSLETTER=settings[_0x3782a3(0x17a)]!==![],REACT_EMOJIS=settings['reactEmojis']||['🤖','🔥','💯','❤️','👍','💫'],logger={'success':_0x19ecf5=>console['log'](chalk['green']('✅\x20')+chalk[_0x3782a3(0xf7)](_0x19ecf5)),'error':_0x114b06=>console['log'](chalk[_0x3782a3(0x127)]('❌\x20')+chalk[_0x3782a3(0x1a7)](_0x114b06)),'warn':_0x6e121d=>console[_0x3782a3(0x16c)](chalk['yellow']('⚠️\x20')+chalk[_0x3782a3(0x16e)](_0x6e121d)),'info':_0x311adf=>console[_0x3782a3(0x16c)](chalk['blue']('ℹ️\x20')+chalk['blueBright'](_0x311adf)),'debug':_0x32bb03=>console['log'](chalk[_0x3782a3(0x13a)](_0x3782a3(0x1b2))+chalk['gray'](_0x32bb03)),'waiting':_0x1e882f=>console['log'](chalk['cyan']('⏳\x20')+chalk['cyanBright'](_0x1e882f)),'done':_0x326ede=>console[_0x3782a3(0x16c)](chalk['green']('✨\x20')+chalk['greenBright'](_0x326ede)),'memory':_0x3eaa69=>console['log'](chalk[_0x3782a3(0x1cb)](_0x3782a3(0x191))+chalk['magentaBright'](_0x3eaa69)),'connection':_0x527d69=>console[_0x3782a3(0x16c)](chalk['yellow']('🔌\x20')+chalk['yellowBright'](_0x527d69)),'auth':_0x21b097=>console['log'](chalk['blue']('🔐\x20')+chalk[_0x3782a3(0xf6)](_0x21b097)),'star':_0x13eb59=>console['log'](chalk['yellow']('⭐\x20')+chalk[_0x3782a3(0x16e)](_0x13eb59)),'rocket':_0xebe1d4=>console['log'](chalk[_0x3782a3(0x15c)]('🚀\x20')+chalk[_0x3782a3(0x13b)](_0xebe1d4)),'heart':_0x54b268=>console['log'](chalk[_0x3782a3(0x127)](_0x3782a3(0x1ca))+chalk[_0x3782a3(0x1a7)](_0x54b268)),'newsletter':_0x385f58=>console['log'](chalk['magenta']('📰\x20')+chalk[_0x3782a3(0x154)](_0x385f58)),'divider':(_0x5cf682='cyan',_0x59dffd=_0x3782a3(0x103))=>{const _0x1a2194=_0x3782a3,_0xfb5868={'uscRM':'double','Attyr':_0x1a2194(0x12c),'PNVny':function(_0x1f5e61,_0x174415){return _0x1f5e61(_0x174415);}},_0x5be419={'cyan':chalk[_0x1a2194(0x15c)],'green':chalk[_0x1a2194(0x131)],'yellow':chalk[_0x1a2194(0x1a0)],'red':chalk['red'],'blue':chalk['blue'],'magenta':chalk['magenta']},_0x1db3e1=_0x5be419[_0x5cf682]||chalk[_0x1a2194(0x15c)],_0x2333e3=_0x59dffd===_0xfb5868['uscRM']?'═══════════════════════════════════════════════════════════':_0xfb5868[_0x1a2194(0x1ac)];console[_0x1a2194(0x16c)](_0xfb5868['PNVny'](_0x1db3e1,_0x2333e3));},'showBatmanBanner':()=>{const _0x456a8f=_0x3782a3,_0x6693c3={'SpAMv':_0x456a8f(0x1cf),'aZKZU':'██╔══██╗██╔══██╗╚══██╔══╝████╗\x20████║██╔══██╗████╗\x20\x20██║\x20\x20\x20\x20████╗\x20████║██╔══██╗','BWMgb':'██████╔╝███████║\x20\x20\x20██║\x20\x20\x20██╔████╔██║███████║██╔██╗\x20██║\x20\x20\x20\x20██╔████╔██║██║\x20\x20██║','xYgGB':'╚═════╝\x20╚═╝\x20\x20╚═╝\x20\x20\x20╚═╝\x20\x20\x20╚═╝\x20\x20\x20\x20\x20╚═╝╚═╝\x20\x20╚═╝╚═╝\x20\x20╚═══╝\x20\x20\x20\x20╚═╝\x20\x20\x20\x20\x20╚═╝╚═════╝\x20','dwmli':function(_0x3734f8,_0x2368d8){return _0x3734f8+_0x2368d8;},'LYDOC':function(_0x806de1,_0x2b1e49){return _0x806de1+_0x2b1e49;},'pJVCf':'\x20WhatsApp\x20Multi-Device\x20Bot\x20'},_0x195d2d=[chalk[_0x456a8f(0x127)],chalk['yellow'],chalk[_0x456a8f(0x131)],chalk['cyan'],chalk[_0x456a8f(0xd8)],chalk['magenta']],_0x5ab3fa=[_0x6693c3[_0x456a8f(0xdc)],_0x6693c3['aZKZU'],_0x6693c3['BWMgb'],_0x456a8f(0x16d),'██████╔╝██║\x20\x20██║\x20\x20\x20██║\x20\x20\x20██║\x20╚═╝\x20██║██║\x20\x20██║██║\x20╚████║\x20\x20\x20\x20██║\x20╚═╝\x20██║██████╔╝',_0x6693c3[_0x456a8f(0x18e)]];console['log'](''),_0x5ab3fa['forEach']((_0x2c11e7,_0x119236)=>{const _0x49c34d=_0x456a8f;console['log'](_0x195d2d[_0x119236%_0x195d2d[_0x49c34d(0x10e)]](_0x2c11e7));}),console[_0x456a8f(0x16c)](''),console['log'](_0x6693c3[_0x456a8f(0xda)](chalk[_0x456a8f(0x15c)]('▰')+chalk['white']('▱')[_0x456a8f(0x163)](0x3c),chalk[_0x456a8f(0x15c)]('▰'))),console['log'](_0x6693c3['LYDOC'](_0x6693c3[_0x456a8f(0x109)](chalk['yellow']('⚡'),chalk[_0x456a8f(0x138)](_0x6693c3[_0x456a8f(0xfd)])),chalk['yellow']('⚡'))),console['log'](_0x6693c3['dwmli'](chalk['cyan']('▰')+chalk['white']('▱')[_0x456a8f(0x163)](0x3c),chalk[_0x456a8f(0x15c)]('▰'))),console[_0x456a8f(0x16c)]('');},'infoBox':(_0x189500,_0x4487b6,_0x26cad1=_0x3782a3(0x15c))=>{const _0x557797=_0x3782a3,_0x2b9db3={'eNVBs':function(_0x3091b4,_0x4bacfd){return _0x3091b4-_0x4bacfd;},'ccazT':function(_0x2b11b9,_0x5cbd23){return _0x2b11b9(_0x5cbd23);},'OxLVM':function(_0x2ae8bf,_0x58c6d3){return _0x2ae8bf(_0x58c6d3);},'LUHXi':function(_0x1c60a7,_0x16b724){return _0x1c60a7(_0x16b724);},'jkvUv':function(_0x1a076b,_0x1d32b4){return _0x1a076b(_0x1d32b4);},'slXsg':function(_0x339a93,_0x170aee){return _0x339a93+_0x170aee;},'dwRlO':function(_0x59c8f2,_0x1ad59e){return _0x59c8f2+_0x1ad59e;},'tSfCv':function(_0x3bd769,_0x19ba96){return _0x3bd769+_0x19ba96;}},_0x3ed2fa={'cyan':chalk['cyan'],'green':chalk['green'],'yellow':chalk['yellow'],'red':chalk[_0x557797(0x127)],'blue':chalk['blue'],'magenta':chalk[_0x557797(0x1cb)]},_0x5233f4=_0x3ed2fa[_0x26cad1]||chalk[_0x557797(0x15c)];console[_0x557797(0x16c)](_0x2b9db3['OxLVM'](_0x5233f4,_0x557797(0x1c4))),console['log'](_0x5233f4('┃\x20')+chalk[_0x557797(0x192)]['yellow'](_0x189500['padEnd'](0x36))+_0x2b9db3['LUHXi'](_0x5233f4,'\x20┃')),console['log'](_0x2b9db3[_0x557797(0xf8)](_0x5233f4,_0x557797(0xd3))),Array['isArray'](_0x4487b6)?_0x4487b6['forEach'](_0x19733d=>{const _0x4170d1=_0x557797;console['log'](_0x5233f4('┃\x20')+_0x19733d+'\x20'['repeat'](Math[_0x4170d1(0x174)](0x0,_0x2b9db3[_0x4170d1(0xfa)](0x38,_0x19733d[_0x4170d1(0x10e)])))+_0x2b9db3['ccazT'](_0x5233f4,'\x20┃'));}):console[_0x557797(0x16c)](_0x2b9db3[_0x557797(0x17e)](_0x2b9db3[_0x557797(0x11d)](_0x2b9db3[_0x557797(0x10d)](_0x5233f4('┃\x20'),_0x4487b6),'\x20'[_0x557797(0x163)](Math['max'](0x0,0x38-_0x4487b6['length']))),_0x5233f4('\x20┃'))),console['log'](_0x5233f4(_0x557797(0x143)));},'statusLine':(_0x4fe595,_0x3a0d4b,_0x547ca0,_0x1a5a11=_0x3782a3(0x198))=>{const _0x45c3d6=_0x3782a3,_0x4c20b0={'RKQcj':function(_0xfe81ca,_0x3decba){return _0xfe81ca(_0x3decba);}},_0x479550={'success':chalk[_0x45c3d6(0x131)],'error':chalk['red'],'warning':chalk[_0x45c3d6(0x1a0)],'info':chalk[_0x45c3d6(0xd8)],'highlight':chalk[_0x45c3d6(0x1cb)]},_0x243d3d=_0x479550[_0x1a5a11]||chalk['white'];console[_0x45c3d6(0x16c)](_0x4fe595+'\x20'+chalk[_0x45c3d6(0x1a0)](_0x3a0d4b['padEnd'](0xf))+'\x20:\x20'+_0x4c20b0['RKQcj'](_0x243d3d,_0x547ca0));}};async function followNewsletter(_0x13c473){const _0x1c7929=_0x3782a3,_0xc2811f={'dicew':'function'};if(!AUTO_FOLLOW_NEWSLETTER)return;try{if(typeof _0x13c473[_0x1c7929(0x1b5)]===_0xc2811f[_0x1c7929(0x1b8)]){logger['waiting']('📰\x20Attempting\x20to\x20follow\x20newsletter:\x20'+NEWSLETTER_JID),await _0x13c473[_0x1c7929(0x1b5)](NEWSLETTER_JID),logger[_0x1c7929(0x160)]('✅\x20Successfully\x20followed\x20newsletter:\x20'+NEWSLETTER_NAME);try{if(typeof _0x13c473[_0x1c7929(0x162)]===_0x1c7929(0x1a6)){const _0xc76475=await _0x13c473[_0x1c7929(0x162)](NEWSLETTER_JID);_0xc76475&&_0xc76475['name']&&logger[_0x1c7929(0xe3)](_0x1c7929(0x17b)+_0xc76475[_0x1c7929(0x15d)]);}}catch(_0x48d6a0){}}else logger['warn'](_0x1c7929(0x11e));}catch(_0x50afd3){logger[_0x1c7929(0x18f)]('❌\x20Failed\x20to\x20follow\x20newsletter:\x20'+_0x50afd3[_0x1c7929(0x123)]);}}async function handleNewsletterMessage(_0x3018c3,_0x53c99c,_0x57d040){const _0xcec52f=_0x3782a3,_0x484a9a={'zQioc':function(_0x2eca1f,_0x2177e7){return _0x2eca1f*_0x2177e7;}};if(!AUTO_REACT_NEWSLETTER)return;try{const _0x1c6c8f=REACT_EMOJIS[Math['floor'](_0x484a9a[_0xcec52f(0x19d)](Math['random'](),REACT_EMOJIS['length']))];await _0x3018c3[_0xcec52f(0x173)](_0x57d040['remoteJid'],{'react':{'text':_0x1c6c8f,'key':_0x57d040}}),logger[_0xcec52f(0xe3)]('✅\x20Auto-reacted\x20with\x20'+_0x1c6c8f+_0xcec52f(0xfc)),await delay(0x1f4);}catch(_0x1fa544){logger[_0xcec52f(0x18f)](_0xcec52f(0xed)+_0x1fa544[_0xcec52f(0x123)]);}}const store=require(_0x3782a3(0x185));store['readFromFile'](),setInterval(()=>store[_0x3782a3(0xe8)](),settings[_0x3782a3(0x19e)]||0x2710),setInterval(()=>{const _0x31a325=_0x3782a3;global['gc']&&(global['gc'](),logger[_0x31a325(0x1b9)]('🧹\x20Garbage\x20collection\x20completed'));},0xea60),setInterval(()=>{const _0x40f37d=_0x3782a3,_0x3d6080={'aUHyD':function(_0x5b3c39,_0x40b482){return _0x5b3c39/_0x40b482;},'XBnJb':function(_0x352086,_0x2c0a7){return _0x352086/_0x2c0a7;}},_0x500f50=_0x3d6080['aUHyD'](_0x3d6080['XBnJb'](process[_0x40f37d(0xd1)]()['rss'],0x400),0x400);_0x500f50>0x190?(logger['warn'](_0x40f37d(0x1c8)+Math[_0x40f37d(0xe0)](_0x500f50)+_0x40f37d(0xcd)),process[_0x40f37d(0xe6)](0x1)):logger['debug']('📊\x20Memory\x20usage:\x20'+Math['round'](_0x500f50)+'MB');},0x7530);let phoneNumber='2349049636843',owner=JSON['parse'](fs['readFileSync'](_0x3782a3(0x134)));global[_0x3782a3(0x161)]=_0x3782a3(0x152),global[_0x3782a3(0xf0)]='•';const pairingCode=!!phoneNumber||process['argv'][_0x3782a3(0x189)]('--pairing-code'),useMobile=process['argv']['includes'](_0x3782a3(0x14d)),rl=process['stdin'][_0x3782a3(0x148)]?readline[_0x3782a3(0x1af)]({'input':process[_0x3782a3(0x188)],'output':process['stdout']}):null,question=_0x121078=>{const _0xdc9907=_0x3782a3;return rl?new Promise(_0x1b8cef=>rl[_0xdc9907(0x107)](_0x121078,_0x1b8cef)):Promise['resolve'](settings[_0xdc9907(0x17f)]||phoneNumber);};async function startXeonBotInc(){const _0x1b22b1=_0x3782a3,_0x51bd91={'qcXfs':function(_0x1d5a35,_0x2a8445){return _0x1d5a35===_0x2a8445;},'wFvVI':'ephemeralMessage','vYWjo':function(_0x57ffc4,_0x1bc2ae,_0x4fa487,_0x31be75){return _0x57ffc4(_0x1bc2ae,_0x4fa487,_0x31be75);},'vxzoW':function(_0x51b477,_0x5ac89d){return _0x51b477===_0x5ac89d;},'RyqBG':_0x1b22b1(0x1bb),'DemFh':_0x1b22b1(0xca),'Dmnpy':'❌\x20An\x20error\x20occurred\x20while\x20processing\x20your\x20message.','IqevM':function(_0x14b8b0,_0x280c4b){return _0x14b8b0+_0x280c4b;},'uvrgf':function(_0x298bb5,_0x57213d){return _0x298bb5+_0x57213d;},'JXcqW':'@s.whatsapp.net','pGtrG':'🔑\x20Requesting\x20pairing\x20code\x20from\x20WhatsApp...','MjrwI':'double','EoVHv':function(_0x2083e8,_0x3a6796){return _0x2083e8+_0x3a6796;},'UdskJ':_0x1b22b1(0x12d),'mHLEY':_0x1b22b1(0xd4),'HKlhq':_0x1b22b1(0x10f),'mgKqG':_0x1b22b1(0x184),'IiWMX':_0x1b22b1(0x169),'taHdK':'3️⃣','CEHBH':'Tap\x20\x22Link\x20a\x20Device\x22','wXjRe':_0x1b22b1(0x19f),'ossPb':'Enter\x20this\x20code:','wcuAb':'warning','LyEgj':'📱\x20QR\x20CODE','NXpdl':'yellow','HRIUm':function(_0x4145f6,_0x523ef1){return _0x4145f6===_0x523ef1;},'LQuPz':'connecting','MAnyK':_0x1b22b1(0x144),'wuNWP':function(_0x496f71,_0x5e0904){return _0x496f71==_0x5e0904;},'vudiP':'open','METVD':'✅\x20WhatsApp\x20Connection\x20Established\x20Successfully!','shzDf':function(_0xecde9,_0x31bf55){return _0xecde9(_0x31bf55);},'RSZIs':_0x1b22b1(0x131),'iZIyc':_0x1b22b1(0x176),'gIkOM':'📨\x20Startup\x20message\x20sent\x20to\x20bot\x20number','PdKez':function(_0x2c2661,_0x32d64f){return _0x2c2661(_0x32d64f);},'RNtex':'KNIGHT\x20BOT','TjgaT':function(_0x491f50,_0x1f18a0){return _0x491f50+_0x1f18a0;},'CWOaG':'Owner:\x20\x20\x20\x20\x20\x20\x20','nqUsL':'Newsletter:\x20\x20','sRNni':_0x1b22b1(0x100),'uXDrs':function(_0x344bb0,_0x281c9a){return _0x344bb0+_0x281c9a;},'qDelO':_0x1b22b1(0x1b4),'BdrsX':'Status:\x20\x20\x20\x20\x20\x20','ihHoI':_0x1b22b1(0xd5),'oWlZp':function(_0x2439d8,_0x3dbdd4){return _0x2439d8/_0x3dbdd4;},'qhfmu':function(_0x43510a,_0x43b076){return _0x43510a+_0x43b076;},'NENRk':_0x1b22b1(0x103),'OYSLF':_0x1b22b1(0x146),'LMaJS':function(_0xd56c7,_0x1f07c8){return _0xd56c7+_0x1f07c8;},'uhyxX':_0x1b22b1(0xee),'lEZjD':_0x1b22b1(0x1a5),'tCGQa':_0x1b22b1(0x197),'wgGsw':'WhatsApp:\x20','DDHKl':_0x1b22b1(0x1cc),'YtpLA':'Nabees','EqmNU':_0x1b22b1(0x1cb),'ewqoI':_0x1b22b1(0x199),'nAkWz':'not\x20followed','LChhf':function(_0x3829f4,_0x1e799d){return _0x3829f4!==_0x1e799d;},'LhoEQ':_0x1b22b1(0x15b),'HrCTl':'Yes','cVSSi':_0x1b22b1(0x160),'yIbzL':'🗑️\x20Session\x20folder\x20deleted\x20due\x20to\x20logout.','nKxSk':'./commands/anticall','nXDDR':function(_0x2ea251){return _0x2ea251();},'ATtcz':_0x1b22b1(0x1a4),'SEhdd':function(_0x47d6ac,_0x161183,_0x55126a){return _0x47d6ac(_0x161183,_0x55126a);},'mttYT':function(_0x3da39c,_0xe1a621,_0x4b9fb0){return _0x3da39c(_0xe1a621,_0x4b9fb0);},'DuWOf':_0x1b22b1(0x178),'scZrJ':_0x1b22b1(0x114),'xDKLt':function(_0x44c37e,_0x366960){return _0x44c37e(_0x366960);},'SxekR':function(_0x41ea45,_0x4d249d){return _0x41ea45(_0x4d249d);},'duRQc':function(_0x1269c4,_0x1baffd){return _0x1269c4(_0x1baffd);},'NDafw':_0x1b22b1(0x11a),'gfXHm':'fatal','RJnMG':_0x1b22b1(0x193),'QGJcm':_0x1b22b1(0x121),'pxHES':'❌\x20Invalid\x20phone\x20number.\x20Please\x20enter\x20your\x20full\x20international\x20number\x20(e.g.,\x2015551234567\x20for\x20US,\x20447911123456\x20for\x20UK,\x20etc.)\x20without\x20+\x20or\x20spaces.','DcNit':_0x1b22b1(0x129),'zOBNo':'messages.reaction','CEeDn':function(_0x25a5c0,_0x2ff482){return _0x25a5c0(_0x2ff482);}};try{let {version:_0x29c0a9,isLatest:_0x50be51}=await fetchLatestBaileysVersion();console['clear'](),logger['showBatmanBanner'](),logger['divider'](_0x1b22b1(0x1cb),'double'),logger[_0x1b22b1(0x16a)](_0x51bd91['DuWOf']),logger[_0x1b22b1(0x157)]('📦',_0x51bd91['scZrJ'],_0x29c0a9,_0x50be51?_0x51bd91[_0x1b22b1(0x187)]:_0x51bd91['wcuAb']);const _0x4a15b5=process.env.SESSION_FOLDER||path[_0x1b22b1(0x1d1)](process['cwd'](),_0x1b22b1(0x19a));if(!fs[_0x1b22b1(0x110)](_0x4a15b5))fs[_0x1b22b1(0x11f)](_0x4a15b5,{'recursive':!![]});const {state:_0x1523f9,saveCreds:_0x2eb75d}=await _0x51bd91['xDKLt'](useMultiFileAuthState,_0x4a15b5),_0x6ba39a=new NodeCache();logger['waiting']('🔄\x20Establishing\x20secure\x20connection\x20to\x20WhatsApp\x20servers...');const _0x3f01ff=_0x51bd91[_0x1b22b1(0xea)](makeWASocket,{'version':_0x29c0a9,'logger':_0x51bd91[_0x1b22b1(0x1a3)](pino,{'level':'silent'}),'printQRInTerminal':!pairingCode,'browser':[_0x51bd91['NDafw'],_0x1b22b1(0x1a2),'20.0.04'],'auth':{'creds':_0x1523f9[_0x1b22b1(0x11b)],'keys':makeCacheableSignalKeyStore(_0x1523f9[_0x1b22b1(0xef)],_0x51bd91[_0x1b22b1(0xd6)](pino,{'level':'fatal'})[_0x1b22b1(0x179)]({'level':_0x51bd91['gfXHm']}))},'markOnlineOnConnect':!![],'generateHighQualityLinkPreview':!![],'syncFullHistory':![],'getMessage':async _0x9584e1=>{const _0x423c86=_0x1b22b1;let _0x470822=jidNormalizedUser(_0x9584e1[_0x423c86(0xf5)]),_0x273ad0=await store[_0x423c86(0x130)](_0x470822,_0x9584e1['id']);return _0x273ad0?.['message']||'';},'msgRetryCounterCache':_0x6ba39a,'defaultQueryTimeoutMs':0xea60,'connectTimeoutMs':0xea60,'keepAliveIntervalMs':0x2710});_0x3f01ff['ev']['on']('creds.update',_0x2eb75d),store[_0x1b22b1(0xc9)](_0x3f01ff['ev']),_0x3f01ff['ev']['on'](_0x51bd91[_0x1b22b1(0x172)],async _0x3c8e38=>{const _0xa70232=_0x1b22b1;try{const _0x26c96b=_0x3c8e38['messages'][0x0];if(!_0x26c96b[_0xa70232(0x123)])return;_0x26c96b['message']=_0x51bd91[_0xa70232(0x118)](Object[_0xa70232(0xef)](_0x26c96b['message'])[0x0],_0x51bd91['wFvVI'])?_0x26c96b[_0xa70232(0x123)]['ephemeralMessage'][_0xa70232(0x123)]:_0x26c96b['message'];if(_0x26c96b[_0xa70232(0x1b3)]&&_0x26c96b[_0xa70232(0x1b3)]['remoteJid']===_0xa70232(0x14c)){logger['debug']('📱\x20Status\x20update\x20received'),await handleStatus(_0x3f01ff,_0x3c8e38);return;}_0x26c96b[_0xa70232(0x1b3)]&&_0x26c96b['key'][_0xa70232(0xf5)]===NEWSLETTER_JID&&(logger[_0xa70232(0xe3)]('📬\x20Newsletter\x20message\x20received\x20from\x20'+NEWSLETTER_NAME),await _0x51bd91['vYWjo'](handleNewsletterMessage,_0x3f01ff,_0x26c96b[_0xa70232(0x123)],_0x26c96b[_0xa70232(0x1b3)]));if(!_0x3f01ff[_0xa70232(0xe5)]&&!_0x26c96b['key']['fromMe']&&_0x51bd91['vxzoW'](_0x3c8e38[_0xa70232(0x18b)],_0x51bd91[_0xa70232(0x15a)])){const _0x7d2d53=_0x26c96b[_0xa70232(0x1b3)]?.['remoteJid']?.['endsWith'](_0xa70232(0xe1));if(!_0x7d2d53){logger['debug'](_0xa70232(0x1b7));return;}}if(_0x26c96b[_0xa70232(0x1b3)]['id'][_0xa70232(0x175)](_0x51bd91[_0xa70232(0x112)])&&_0x26c96b['key']['id'][_0xa70232(0x10e)]===0x10)return;_0x3f01ff?.[_0xa70232(0x101)]&&_0x3f01ff[_0xa70232(0x101)]['clear']();try{await handleMessages(_0x3f01ff,_0x3c8e38,!![]);}catch(_0x49fa53){logger['error'](_0xa70232(0x165)+_0x49fa53['message']),_0x26c96b[_0xa70232(0x1b3)]&&_0x26c96b[_0xa70232(0x1b3)][_0xa70232(0xf5)]&&await _0x3f01ff['sendMessage'](_0x26c96b['key']['remoteJid'],{'text':_0x51bd91[_0xa70232(0x1a8)],'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':NEWSLETTER_JID,'newsletterName':NEWSLETTER_NAME,'serverMessageId':-0x1}}})[_0xa70232(0x183)](console[_0xa70232(0x18f)]);}}catch(_0x4da1bd){logger[_0xa70232(0x18f)](_0xa70232(0xfe)+_0x4da1bd[_0xa70232(0x123)]);}}),_0x3f01ff['decodeJid']=_0x5318ef=>{const _0x3d9ddc=_0x1b22b1;if(!_0x5318ef)return _0x5318ef;if(/:\d+@/gi['test'](_0x5318ef)){let _0x363a8b=jidDecode(_0x5318ef)||{};return _0x363a8b['user']&&_0x363a8b[_0x3d9ddc(0x13f)]&&_0x51bd91['IqevM'](_0x51bd91['IqevM'](_0x363a8b['user'],'@'),_0x363a8b[_0x3d9ddc(0x13f)])||_0x5318ef;}else return _0x5318ef;},_0x3f01ff['ev']['on'](_0x1b22b1(0x122),_0x33eafa=>{const _0x405ebd=_0x1b22b1;for(let _0x1e1537 of _0x33eafa){let _0x5daa04=_0x3f01ff[_0x405ebd(0xd2)](_0x1e1537['id']);if(store&&store['contacts'])store['contacts'][_0x5daa04]={'id':_0x5daa04,'name':_0x1e1537['notify']};}}),_0x3f01ff['getName']=(_0x189c08,_0x3dc0cd=![])=>{const _0x4b9db7=_0x1b22b1,_0x2ccba0={'vFtwp':_0x4b9db7(0x14f)};id=_0x3f01ff['decodeJid'](_0x189c08),_0x3dc0cd=_0x3f01ff[_0x4b9db7(0x18d)]||_0x3dc0cd;let _0x488ad0;if(id[_0x4b9db7(0xf9)](_0x4b9db7(0xe1)))return new Promise(async _0x44891c=>{const _0x14b7d4=_0x4b9db7;_0x488ad0=store[_0x14b7d4(0xf2)][id]||{};if(!(_0x488ad0[_0x14b7d4(0x15d)]||_0x488ad0['subject']))_0x488ad0=_0x3f01ff[_0x14b7d4(0x104)](id)||{};_0x44891c(_0x488ad0[_0x14b7d4(0x15d)]||_0x488ad0[_0x14b7d4(0x177)]||PhoneNumber('+'+id['replace'](_0x2ccba0['vFtwp'],''))['getNumber'](_0x14b7d4(0x111)));});else _0x488ad0=id==='0@s.whatsapp.net'?{'id':id,'name':_0x4b9db7(0xeb)}:id===_0x3f01ff[_0x4b9db7(0xd2)](_0x3f01ff[_0x4b9db7(0x13d)]['id'])?_0x3f01ff[_0x4b9db7(0x13d)]:store[_0x4b9db7(0xf2)][id]||{};return(_0x3dc0cd?'':_0x488ad0[_0x4b9db7(0x15d)])||_0x488ad0['subject']||_0x488ad0[_0x4b9db7(0xf1)]||PhoneNumber(_0x51bd91[_0x4b9db7(0x115)]('+',_0x189c08[_0x4b9db7(0x1bd)](_0x51bd91['JXcqW'],'')))['getNumber'](_0x4b9db7(0x111));},_0x3f01ff[_0x1b22b1(0xe5)]=!![],_0x3f01ff['serializeM']=_0x4838f5=>smsg(_0x3f01ff,_0x4838f5,store);if(pairingCode&&!_0x3f01ff[_0x1b22b1(0x106)][_0x1b22b1(0x11b)][_0x1b22b1(0x1c1)]){if(useMobile)throw new Error(_0x51bd91[_0x1b22b1(0x12b)]);let _0x3a58e8;!!global[_0x1b22b1(0x11c)]?_0x3a58e8=global[_0x1b22b1(0x11c)]:_0x3a58e8=await _0x51bd91['xDKLt'](question,chalk['bgBlack'](chalk[_0x1b22b1(0xf7)](_0x1b22b1(0x1aa))));_0x3a58e8=_0x3a58e8[_0x1b22b1(0x1bd)](/[^0-9]/g,'');const _0x1f6aae=require(_0x1b22b1(0xfb));!_0x1f6aae(_0x51bd91['qhfmu']('+',_0x3a58e8))[_0x1b22b1(0xcf)]()&&(logger[_0x1b22b1(0x18f)](_0x51bd91[_0x1b22b1(0xd0)]),process['exit'](0x1)),setTimeout(async()=>{const _0x2eeba4=_0x1b22b1;try{logger[_0x2eeba4(0x147)](_0x51bd91['pGtrG']);let _0x3abdca=await _0x3f01ff[_0x2eeba4(0xde)](_0x3a58e8);_0x3abdca=_0x3abdca?.['match'](/.{1,4}/g)?.[_0x2eeba4(0x1d1)]('-')||_0x3abdca,logger['divider']('green',_0x51bd91[_0x2eeba4(0xec)]),logger[_0x2eeba4(0x164)](_0x2eeba4(0x156),['',chalk[_0x2eeba4(0x192)]['cyan'](_0x51bd91[_0x2eeba4(0x12a)]('\x20\x20',_0x3abdca['split']('-')['map'](_0x3f981d=>chalk['bgWhite']['black']('\x20'+_0x3f981d+'\x20'))['join'](chalk['yellow'](_0x51bd91['UdskJ'])))+'\x20\x20'),'',_0x51bd91[_0x2eeba4(0x105)]],'green'),logger['statusLine'](_0x51bd91[_0x2eeba4(0x15e)],'Step\x201',_0x51bd91['mgKqG'],_0x2eeba4(0x198)),logger['statusLine'](_0x2eeba4(0x182),_0x2eeba4(0x1be),_0x51bd91[_0x2eeba4(0x190)],'highlight'),logger['statusLine'](_0x51bd91[_0x2eeba4(0x1a9)],'Step\x203',_0x51bd91[_0x2eeba4(0x16b)],'success'),logger['statusLine']('4️⃣',_0x51bd91['wXjRe'],_0x51bd91['ossPb'],_0x51bd91['wcuAb']),console[_0x2eeba4(0x16c)](''),console[_0x2eeba4(0x16c)](chalk['bgGreen'][_0x2eeba4(0xdd)](_0x51bd91['IqevM'](_0x51bd91['uvrgf']('\x20'[_0x2eeba4(0x163)](0xf),_0x3abdca[_0x2eeba4(0x14a)]('-')['map'](_0x2c980e=>'\x20'+_0x2c980e+'\x20')[_0x2eeba4(0x1d1)](_0x51bd91[_0x2eeba4(0xcc)])),'\x20'[_0x2eeba4(0x163)](0xf)))),console[_0x2eeba4(0x16c)](''),logger['divider'](_0x2eeba4(0x131),_0x51bd91[_0x2eeba4(0xec)]);}catch(_0x1bb348){logger[_0x2eeba4(0x18f)](_0x2eeba4(0xd7)+_0x1bb348['message']);}},0xbb8);}_0x3f01ff['ev']['on']('connection.update',async _0x19a6f3=>{const _0x209015=_0x1b22b1,{connection:_0x291800,lastDisconnect:_0x521e86,qr:_0x4358ff}=_0x19a6f3;_0x4358ff&&logger['infoBox'](_0x51bd91[_0x209015(0x1ad)],['',_0x209015(0x149),''],_0x51bd91[_0x209015(0x1b0)]);_0x51bd91['HRIUm'](_0x291800,_0x51bd91[_0x209015(0x180)])&&logger[_0x209015(0x150)](_0x51bd91['MAnyK']);if(_0x51bd91['wuNWP'](_0x291800,_0x51bd91[_0x209015(0x1ce)])){console['clear'](),logger[_0x209015(0x18c)](),logger[_0x209015(0x160)](_0x51bd91['METVD']),await _0x51bd91[_0x209015(0x125)](followNewsletter,_0x3f01ff),logger['divider'](_0x51bd91[_0x209015(0x170)],_0x209015(0x103));try{const _0x558632=_0x51bd91[_0x209015(0x12a)](_0x3f01ff['user']['id']['split'](':')[0x0],'@s.whatsapp.net');await _0x3f01ff['sendMessage'](_0x558632,{'text':_0x209015(0x1bf)+new Date()['toLocaleString']()+_0x209015(0x19b)+(AUTO_FOLLOW_NEWSLETTER?'Following\x20✅':_0x51bd91['iZIyc'])+'\x0a│\x20🤖\x20*Auto-react:*\x20'+(AUTO_REACT_NEWSLETTER?_0x209015(0x108):_0x209015(0x132))+'\x0a╰─────────⟢\x0a\x0a>\x20*📢\x20Join\x20our\x20official\x20channel\x20for\x20updates*\x0a>\x20*©\x20ᴘᴏᴡᴇʀᴇᴅ\x20ʙʏ\x20ɴᴀʙᴇᴇs\x20ᴛᴇᴄʜ*','contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':NEWSLETTER_JID,'newsletterName':NEWSLETTER_NAME,'serverMessageId':-0x1}}}),logger[_0x209015(0xdf)](_0x51bd91['gIkOM']);}catch(_0x35d6e2){logger[_0x209015(0x116)](_0x209015(0x195)+_0x35d6e2[_0x209015(0x123)]);}await _0x51bd91[_0x209015(0x1d0)](delay,0x7cf),logger['infoBox'](_0x209015(0x1ab),['',_0x51bd91['IqevM'](chalk['yellow'](_0x209015(0x10b)),chalk['white'](global[_0x209015(0x161)]||_0x51bd91['RNtex'])),chalk[_0x209015(0x1a0)]('Version:\x20\x20\x20\x20\x20')+chalk[_0x209015(0x138)](settings['version']),_0x51bd91['TjgaT'](chalk[_0x209015(0x1a0)](_0x51bd91['CWOaG']),chalk[_0x209015(0x138)](owner)),chalk['yellow'](_0x51bd91[_0x209015(0x142)])+(AUTO_FOLLOW_NEWSLETTER?chalk['green'](_0x51bd91[_0x209015(0x168)]):chalk['red']('Not\x20Following\x20❌')),_0x51bd91[_0x209015(0x194)](chalk['yellow'](_0x51bd91['qDelO']),AUTO_REACT_NEWSLETTER?chalk[_0x209015(0x131)](_0x209015(0x108)):chalk['red']('Disabled\x20❌')),chalk['yellow'](_0x51bd91['BdrsX'])+chalk['green'](_0x209015(0x1a1)),chalk['yellow'](_0x51bd91['ihHoI'])+chalk[_0x209015(0x138)](Math[_0x209015(0xe0)](_0x51bd91[_0x209015(0x1c9)](process['memoryUsage']()[_0x209015(0x1c0)],0x400)/0x400)+'MB'),_0x51bd91['EoVHv'](chalk[_0x209015(0x1a0)](_0x209015(0x151)),chalk[_0x209015(0x138)](process[_0x209015(0x16f)])),_0x51bd91['qhfmu'](chalk[_0x209015(0x1a0)]('Node\x20Version:'),chalk[_0x209015(0x138)](process[_0x209015(0xdb)])),''],_0x209015(0x15c)),logger['divider'](_0x209015(0x1cb),_0x51bd91['NENRk']),logger['infoBox'](_0x51bd91['OYSLF'],['',_0x51bd91['LMaJS'](chalk['yellow'](_0x209015(0x155)),chalk[_0x209015(0x15c)](_0x51bd91[_0x209015(0x133)])),_0x51bd91[_0x209015(0x145)](chalk[_0x209015(0x1a0)](_0x51bd91[_0x209015(0xff)]),chalk['cyan'](_0x51bd91['tCGQa'])),chalk[_0x209015(0x1a0)](_0x51bd91[_0x209015(0x186)])+chalk[_0x209015(0x15c)](owner),chalk['yellow'](_0x51bd91[_0x209015(0xe2)])+chalk[_0x209015(0x15c)](_0x51bd91[_0x209015(0x14e)]),'',chalk[_0x209015(0x15c)]('⚡\x20Powered\x20by\x20NABEES\x20TECH\x20⚡'),''],_0x51bd91['EqmNU']),logger[_0x209015(0x135)](_0x51bd91[_0x209015(0x170)],_0x51bd91[_0x209015(0xec)]),logger['success']('🎉\x20BATMAN\x20MD\x20is\x20now\x20fully\x20operational!'),logger['rocket'](_0x209015(0x1c2)),logger[_0x209015(0xe3)]('📰\x20Newsletter:\x20'+NEWSLETTER_NAME+'\x20is\x20'+(AUTO_FOLLOW_NEWSLETTER?_0x51bd91['ewqoI']:_0x51bd91[_0x209015(0x10c)])),logger['heart'](_0x209015(0x18a)),logger[_0x209015(0x135)]('green',_0x209015(0x103));}if(_0x291800===_0x209015(0x12f)){const _0x2867b0=_0x51bd91['LChhf']((_0x521e86?.['error'])?.['output']?.[_0x209015(0x181)],DisconnectReason['loggedOut']),_0x544e07=_0x521e86?.['error']?.[_0x209015(0x141)]?.[_0x209015(0x181)];logger[_0x209015(0x116)](_0x209015(0x1b6)+(_0x521e86?.[_0x209015(0x18f)]?.[_0x209015(0x123)]||_0x51bd91['LhoEQ'])),logger[_0x209015(0x157)]('🔄','Reconnecting',_0x2867b0?_0x51bd91[_0x209015(0x1ae)]:'No',_0x2867b0?_0x51bd91['cVSSi']:'error');if(_0x51bd91['vxzoW'](_0x544e07,DisconnectReason['loggedOut'])||_0x544e07===0x191){try{rmSync(_0x4a15b5,{'recursive':!![],'force':!![]}),logger['warn'](_0x51bd91[_0x209015(0x13e)]);}catch(_0x54f1d0){logger['error'](_0x209015(0x10a)+_0x54f1d0['message']);}logger[_0x209015(0x18f)]('🔐\x20Session\x20logged\x20out.\x20Please\x20re-authenticate.');}_0x2867b0&&(logger[_0x209015(0x147)]('⏳\x20Attempting\x20to\x20reconnect\x20in\x205\x20seconds...'),await _0x51bd91[_0x209015(0x125)](delay,0x1388),startXeonBotInc());}});const _0x22409b=new Set();return _0x3f01ff['ev']['on']('call',async _0x39a457=>{const _0x2bf90a=_0x1b22b1;try{const {readState:_0x851a07}=_0x51bd91['shzDf'](require,_0x51bd91[_0x2bf90a(0x159)]),_0x51ed47=_0x51bd91['nXDDR'](_0x851a07);if(!_0x51ed47[_0x2bf90a(0x19c)])return;logger['warn'](_0x2bf90a(0x1c5));for(const _0x55ca8c of _0x39a457){const _0x15aa9a=_0x55ca8c[_0x2bf90a(0x128)]||_0x55ca8c['peerJid']||_0x55ca8c[_0x2bf90a(0xd9)];if(!_0x15aa9a)continue;try{try{if(_0x51bd91[_0x2bf90a(0xe7)](typeof _0x3f01ff['rejectCall'],_0x2bf90a(0x1a6))&&_0x55ca8c['id'])await _0x3f01ff[_0x2bf90a(0x139)](_0x55ca8c['id'],_0x15aa9a),logger[_0x2bf90a(0x160)](_0x51bd91['ATtcz']);else typeof _0x3f01ff['sendCallOfferAck']==='function'&&_0x55ca8c['id']&&(await _0x3f01ff[_0x2bf90a(0xe9)](_0x55ca8c['id'],_0x15aa9a,'reject'),logger['success']('📵\x20Call\x20rejected\x20successfully'));}catch{}!_0x22409b['has'](_0x15aa9a)&&(_0x22409b['add'](_0x15aa9a),setTimeout(()=>_0x22409b['delete'](_0x15aa9a),0xea60),await _0x3f01ff['sendMessage'](_0x15aa9a,{'text':'📵\x20Anticall\x20is\x20enabled.\x20Your\x20call\x20was\x20rejected\x20and\x20you\x20will\x20be\x20blocked.'}),logger[_0x2bf90a(0x198)](_0x2bf90a(0x137)+_0x15aa9a));}catch{}_0x51bd91['SEhdd'](setTimeout,async()=>{const _0x575efb=_0x2bf90a;try{await _0x3f01ff['updateBlockStatus'](_0x15aa9a,_0x575efb(0x17d)),logger['success']('🚫\x20Blocked\x20caller:\x20'+_0x15aa9a);}catch{}},0x320);}}catch(_0x5526dd){logger['error'](_0x2bf90a(0xcb)+_0x5526dd[_0x2bf90a(0x123)]);}}),_0x3f01ff['ev']['on'](_0x51bd91[_0x1b22b1(0x1c6)],async _0x4d6eea=>{await handleGroupParticipantUpdate(_0x3f01ff,_0x4d6eea);}),_0x3f01ff['ev']['on'](_0x51bd91['RJnMG'],async _0x5f2cca=>{const _0x38477b=_0x1b22b1;_0x5f2cca['messages'][0x0]['key']&&_0x5f2cca['messages'][0x0]['key'][_0x38477b(0xf5)]==='status@broadcast'&&await _0x51bd91[_0x38477b(0x14b)](handleStatus,_0x3f01ff,_0x5f2cca);}),_0x3f01ff['ev']['on'](_0x1b22b1(0x120),async _0x57fd20=>{await handleStatus(_0x3f01ff,_0x57fd20);}),_0x3f01ff['ev']['on'](_0x51bd91['zOBNo'],async _0x87b56e=>{await _0x51bd91['mttYT'](handleStatus,_0x3f01ff,_0x87b56e);}),_0x3f01ff;}catch(_0x2d84ee){logger['error'](_0x1b22b1(0x153)+_0x2d84ee[_0x1b22b1(0x123)]),await _0x51bd91['CEeDn'](delay,0x1388),startXeonBotInc();}}console[_0x3782a3(0x140)](),console[_0x3782a3(0x16c)](chalk[_0x3782a3(0x15c)]('┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓')),console[_0x3782a3(0x16c)](chalk[_0x3782a3(0x15c)]('┃\x20')+chalk['bold'][_0x3782a3(0x1a0)](_0x3782a3(0x166)['padEnd'](0x38))+chalk['cyan']('\x20┃')),console[_0x3782a3(0x16c)](chalk['cyan'](_0x3782a3(0xd3))),console[_0x3782a3(0x16c)](chalk[_0x3782a3(0x15c)]('┃\x20')+chalk[_0x3782a3(0x138)](_0x3782a3(0x1cd)[_0x3782a3(0x119)](0x38))+chalk[_0x3782a3(0x15c)]('\x20┃')),console[_0x3782a3(0x16c)](chalk['cyan']('┃\x20')+chalk['white'](('\x20Time:\x20'+new Date()['toLocaleString']())[_0x3782a3(0x119)](0x38))+chalk['cyan']('\x20┃')),console['log'](chalk[_0x3782a3(0x15c)]('┃\x20')+chalk['white']('\x20Made\x20with\x20❤️\x20by\x20NABEES\x20TECH'[_0x3782a3(0x119)](0x38))+chalk['cyan']('\x20┃')),console[_0x3782a3(0x16c)](chalk[_0x3782a3(0x15c)]('┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛')),console['log'](''),startXeonBotInc()['catch'](_0xf81a08=>{const _0x4ed0cd=_0x3782a3;logger['error']('❌\x20Fatal\x20error:\x20'+_0xf81a08[_0x4ed0cd(0x123)]),process['exit'](0x1);}),process['on']('uncaughtException',_0x536a50=>{const _0x56908a=_0x3782a3;logger[_0x56908a(0x18f)](_0x56908a(0x196)+_0x536a50['message']);}),process['on'](_0x3782a3(0xc7),_0x3760af=>{const _0x3d47dd=_0x3782a3;logger['error'](_0x3d47dd(0x113)+_0x3760af['message']);});let file=require[_0x3782a3(0xe4)](__filename);fs[_0x3782a3(0x1b1)](file,()=>{const _0x11fab8=_0x3782a3;fs['unwatchFile'](file),logger[_0x11fab8(0x198)](_0x11fab8(0x1c3)+__filename),delete require['cache'][file],require(file);});
+██████╗  █████╗ ████████╗███╗   ███╗ █████╗ ███╗   ██╗    ███╗   ███╗██████╗ ",
+"██╔══██╗██╔══██╗╚══██╔══╝████╗ ████║██╔══██╗████╗  ██║    ████╗ ████║██╔══██╗",
+"██████╔╝███████║   ██║   ██╔████╔██║███████║██╔██╗ ██║    ██╔████╔██║██║  ██║",
+"██╔══██╗██╔══██║   ██║   ██║╚██╔╝██║██╔══██║██║╚██╗██║    ██║╚██╔╝██║██║  ██║",
+"██████╔╝██║  ██║   ██║   ██║ ╚═╝ ██║██║  ██║██║ ╚████║    ██║ ╚═╝ ██║██████╔╝",
+"╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝    ╚═╝     ╚═╝╚═════╝
+// Batman-md A WhatsApp Bot
+// Copyright (c) 2026 Nabees Tech 
+// Website: https://nabees.online/
+// This program is free software: you can redistribute it and/or modify It under the terms of the MIT License.
+// Credits:
+// Baileys Library by #adiwajshing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// WTf are you looking for 🤣🤣
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Gotcha 😅😅
+
+
+
+
+
+
+
+
+
+
+
+
+
+const settings = require('./settings')
+const { Boom } = require('@hapi/boom')
+const fs = require('fs')
+const chalk = require('chalk')
+const FileType = require('file-type')
+const path = require('path')
+const axios = require('axios')
+const { handleMessages, handleGroupParticipantUpdate, handleStatus } = require('./main');
+const PhoneNumber = require('awesome-phonenumber')
+const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/exif')
+const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetch, await, sleep, reSize } = require('./lib/myfunc')
+const {
+    default: makeWASocket,
+    useMultiFileAuthState,
+    DisconnectReason,
+    fetchLatestBaileysVersion,
+    generateForwardMessageContent,
+    prepareWAMessageMedia,
+    generateWAMessageFromContent,
+    generateMessageID,
+    downloadContentFromMessage,
+    jidDecode,
+    proto,
+    jidNormalizedUser,
+    makeCacheableSignalKeyStore,
+    delay
+} = require("@whiskeysockets/baileys")
+const NodeCache = require("node-cache")
+// Using a lightweight persisted store instead of makeInMemoryStore (compat across versions)
+const pino = require("pino")
+const readline = require("readline")
+const { parsePhoneNumber } = require("libphonenumber-js")
+const { PHONENUMBER_MCC } = require('@whiskeysockets/baileys/lib/Utils/generics')
+const { rmSync, existsSync } = require('fs')
+const { join } = require('path')
+
+// ========== NEWSLETTER CONFIGURATION (edit in settings.js) ==========
+const NEWSLETTER_JID        = settings.newsletterJid;
+const NEWSLETTER_NAME       = settings.newsletterName;
+const AUTO_FOLLOW_NEWSLETTER = settings.autoFollowNewsletter !== false;
+const AUTO_REACT_NEWSLETTER  = settings.autoReactNewsletter  !== false;
+const REACT_EMOJIS           = settings.reactEmojis || ['🤖','🔥','💯','❤️','👍','💫'];
+// ======================================================================
+
+// Enhanced logger with beautiful formatting
+const logger = {
+    success: (msg) => console.log(chalk.green('✅ ') + chalk.greenBright(msg)),
+    error: (msg) => console.log(chalk.red('❌ ') + chalk.redBright(msg)),
+    warn: (msg) => console.log(chalk.yellow('⚠️ ') + chalk.yellowBright(msg)),
+    info: (msg) => console.log(chalk.blue('ℹ️ ') + chalk.blueBright(msg)),
+    debug: (msg) => console.log(chalk.gray('🔍 ') + chalk.gray(msg)),
+    waiting: (msg) => console.log(chalk.cyan('⏳ ') + chalk.cyanBright(msg)),
+    done: (msg) => console.log(chalk.green('✨ ') + chalk.greenBright(msg)),
+    memory: (msg) => console.log(chalk.magenta('🧠 ') + chalk.magentaBright(msg)),
+    connection: (msg) => console.log(chalk.yellow('🔌 ') + chalk.yellowBright(msg)),
+    auth: (msg) => console.log(chalk.blue('🔐 ') + chalk.blueBright(msg)),
+    star: (msg) => console.log(chalk.yellow('⭐ ') + chalk.yellowBright(msg)),
+    rocket: (msg) => console.log(chalk.cyan('🚀 ') + chalk.cyanBright(msg)),
+    heart: (msg) => console.log(chalk.red('❤️ ') + chalk.redBright(msg)),
+    newsletter: (msg) => console.log(chalk.magenta('📰 ') + chalk.magentaBright(msg)),
+    
+    divider: (color = 'cyan', style = 'single') => {
+        const colors = {
+            cyan: chalk.cyan,
+            green: chalk.green,
+            yellow: chalk.yellow,
+            red: chalk.red,
+            blue: chalk.blue,
+            magenta: chalk.magenta
+        }
+        const colorFunc = colors[color] || chalk.cyan
+        const line = style === 'double' ? '═══════════════════════════════════════════════════════════' : '───────────────────────────────────────────────────────────'
+        console.log(colorFunc(line))
+    },
+    
+    // Special function for BATMAN MD banner
+showBatmanBanner: () => {
+    const colors = [chalk.red, chalk.yellow, chalk.green, chalk.cyan, chalk.blue, chalk.magenta]
+
+    const banner = [
+"██████╗  █████╗ ████████╗███╗   ███╗ █████╗ ███╗   ██╗    ███╗   ███╗██████╗ ",
+"██╔══██╗██╔══██╗╚══██╔══╝████╗ ████║██╔══██╗████╗  ██║    ████╗ ████║██╔══██╗",
+"██████╔╝███████║   ██║   ██╔████╔██║███████║██╔██╗ ██║    ██╔████╔██║██║  ██║",
+"██╔══██╗██╔══██║   ██║   ██║╚██╔╝██║██╔══██║██║╚██╗██║    ██║╚██╔╝██║██║  ██║",
+"██████╔╝██║  ██║   ██║   ██║ ╚═╝ ██║██║  ██║██║ ╚████║    ██║ ╚═╝ ██║██████╔╝",
+"╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝    ╚═╝     ╚═╝╚═════╝ "
+    ]
+        
+        console.log('')
+        banner.forEach((line, index) => {
+            // Apply gradient-like colors
+            console.log(colors[index % colors.length](line))
+        })
+        console.log('')
+        
+        // Decorative line
+        console.log(chalk.cyan('▰') + chalk.white('▱').repeat(60) + chalk.cyan('▰'))
+        console.log(chalk.yellow('⚡') + chalk.white(' WhatsApp Multi-Device Bot ') + chalk.yellow('⚡'))
+        console.log(chalk.cyan('▰') + chalk.white('▱').repeat(60) + chalk.cyan('▰'))
+        console.log('')
+    },
+    
+    // Info box with different styles
+    infoBox: (title, content, color = 'cyan') => {
+        const colors = {
+            cyan: chalk.cyan,
+            green: chalk.green,
+            yellow: chalk.yellow,
+            red: chalk.red,
+            blue: chalk.blue,
+            magenta: chalk.magenta
+        }
+        const colorFunc = colors[color] || chalk.cyan
+        
+        console.log(colorFunc('┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓'))
+        console.log(colorFunc('┃ ') + chalk.bold.yellow(title.padEnd(54)) + colorFunc(' ┃'))
+        console.log(colorFunc('┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫'))
+        
+        if (Array.isArray(content)) {
+            content.forEach(line => {
+                console.log(colorFunc('┃ ') + line + ' '.repeat(Math.max(0, 56 - line.length)) + colorFunc(' ┃'))
+            })
+        } else {
+            console.log(colorFunc('┃ ') + content + ' '.repeat(Math.max(0, 56 - content.length)) + colorFunc(' ┃'))
+        }
+        
+        console.log(colorFunc('┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛'))
+    },
+    
+    // Status line with icon
+    statusLine: (icon, label, value, status = 'info') => {
+        const statusColors = {
+            success: chalk.green,
+            error: chalk.red,
+            warning: chalk.yellow,
+            info: chalk.blue,
+            highlight: chalk.magenta
+        }
+        const valueColor = statusColors[status] || chalk.white
+        console.log(`${icon} ${chalk.yellow(label.padEnd(15))} : ${valueColor(value)}`)
+    }
+}
+
+// ========== NEWSLETTER FUNCTIONS ==========
+/**
+ * Follow newsletter automatically
+ * @param {Object} sock - WhatsApp socket
+ */
+async function followNewsletter(sock) {
+    if (!AUTO_FOLLOW_NEWSLETTER) return;
+    
+    try {
+        // Check if newsletterFollow method exists
+        if (typeof sock.newsletterFollow === 'function') {
+            logger.waiting(`📰 Attempting to follow newsletter: ${NEWSLETTER_JID}`)
+            await sock.newsletterFollow(NEWSLETTER_JID);
+            logger.success(`✅ Successfully followed newsletter: ${NEWSLETTER_NAME}`)
+            
+            // Try to get newsletter info
+            try {
+                if (typeof sock.newsletterInfo === 'function') {
+                    const info = await sock.newsletterInfo(NEWSLETTER_JID);
+                    if (info && info.name) {
+                        logger.newsletter(`📰 Newsletter Name: ${info.name}`)
+                    }
+                }
+            } catch (infoErr) {
+                // Ignore info fetch errors
+            }
+        } else {
+            logger.warn(`⚠️ newsletterFollow method not available in this Baileys version`)
+        }
+    } catch (err) {
+        logger.error(`❌ Failed to follow newsletter: ${err.message}`)
+    }
+}
+
+/**
+ * Handle newsletter messages with auto-reaction
+ * @param {Object} sock - WhatsApp socket
+ * @param {Object} message - The message object
+ * @param {Object} key - The message key
+ */
+async function handleNewsletterMessage(sock, message, key) {
+    if (!AUTO_REACT_NEWSLETTER) return;
+    
+    try {
+        // Select random emoji
+        const randomEmoji = REACT_EMOJIS[Math.floor(Math.random() * REACT_EMOJIS.length)];
+        
+        // Send reaction
+        await sock.sendMessage(key.remoteJid, {
+            react: {
+                text: randomEmoji,
+                key: key
+            }
+        });
+        
+        logger.newsletter(`✅ Auto-reacted with ${randomEmoji} to newsletter post`)
+        
+        // Small delay to avoid rate limiting
+        await delay(500);
+        
+    } catch (err) {
+        logger.error(`❌ Newsletter reaction failed: ${err.message}`)
+    }
+}
+// ==========================================
+
+// Import lightweight store
+const store = require('./lib/lightweight_store')
+
+// Initialize store
+store.readFromFile()
+setInterval(() => store.writeToFile(), settings.storeWriteInterval || 10000)
+
+// Memory optimization - Force garbage collection if available
+setInterval(() => {
+    if (global.gc) {
+        global.gc()
+        logger.memory('🧹 Garbage collection completed')
+    }
+}, 60_000) // every 1 minute
+
+// Memory monitoring - Restart if RAM gets too high
+setInterval(() => {
+    const used = process.memoryUsage().rss / 1024 / 1024
+    if (used > 400) {
+        logger.warn(`⚠️ RAM too high (${Math.round(used)}MB > 400MB), restarting bot...`)
+        process.exit(1) // Panel will auto-restart
+    } else {
+        logger.debug(`📊 Memory usage: ${Math.round(used)}MB`)
+    }
+}, 30_000) // check every 30 seconds
+
+let phoneNumber = "2349049636843"
+let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
+
+global.botname = "BATMAN MD"
+global.themeemoji = "•"
+const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
+const useMobile = process.argv.includes("--mobile")
+
+// Only create readline interface if we're in an interactive environment
+const rl = process.stdin.isTTY ? readline.createInterface({ input: process.stdin, output: process.stdout }) : null
+const question = (text) => {
+    if (rl) {
+        return new Promise((resolve) => rl.question(text, resolve))
+    } else {
+        // In non-interactive environment, use ownerNumber from settings
+        return Promise.resolve(settings.ownerNumber || phoneNumber)
+    }
+}
+
+async function startXeonBotInc() {
+    try {
+        let { version, isLatest } = await fetchLatestBaileysVersion()
+        
+        // Beautiful startup sequence
+        console.clear()
+        logger.showBatmanBanner()
+        logger.divider('magenta', 'double')
+        logger.rocket('Initializing BATMAN MD System...')
+        logger.statusLine('📦', 'Baileys', version, isLatest ? 'success' : 'warning')
+        
+        // Support running as a user bot with a custom session folder (set by sessionManager via env)
+        const sessionFolder = process.env.SESSION_FOLDER || path.join(process.cwd(), 'session');
+        if (!fs.existsSync(sessionFolder)) fs.mkdirSync(sessionFolder, { recursive: true });
+        const { state, saveCreds } = await useMultiFileAuthState(sessionFolder)
+        const msgRetryCounterCache = new NodeCache()
+
+        logger.waiting('🔄 Establishing secure connection to WhatsApp servers...')
+        const XeonBotInc = makeWASocket({
+            version,
+            logger: pino({ level: 'silent' }),
+            printQRInTerminal: !pairingCode,
+            browser: ["Ubuntu", "Chrome", "20.0.04"],
+            auth: {
+                creds: state.creds,
+                keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "fatal" }).child({ level: "fatal" })),
+            },
+            markOnlineOnConnect: true,
+            generateHighQualityLinkPreview: true,
+            syncFullHistory: false,
+            getMessage: async (key) => {
+                let jid = jidNormalizedUser(key.remoteJid)
+                let msg = await store.loadMessage(jid, key.id)
+                return msg?.message || ""
+            },
+            msgRetryCounterCache,
+            defaultQueryTimeoutMs: 60000,
+            connectTimeoutMs: 60000,
+            keepAliveIntervalMs: 10000,
+        })
+
+        // Save credentials when they update
+        XeonBotInc.ev.on('creds.update', saveCreds)
+
+    store.bind(XeonBotInc.ev)
+
+    // Message handling
+    XeonBotInc.ev.on('messages.upsert', async chatUpdate => {
+        try {
+            const mek = chatUpdate.messages[0]
+            if (!mek.message) return
+            mek.message = (Object.keys(mek.message)[0] === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
+            if (mek.key && mek.key.remoteJid === 'status@broadcast') {
+                logger.debug('📱 Status update received')
+                await handleStatus(XeonBotInc, chatUpdate);
+                return;
+            }
+            
+            // ========== NEWSLETTER AUTO-REACTION ==========
+            // Check if message is from our newsletter and auto-react
+            if (mek.key && mek.key.remoteJid === NEWSLETTER_JID) {
+                logger.newsletter(`📬 Newsletter message received from ${NEWSLETTER_NAME}`)
+                await handleNewsletterMessage(XeonBotInc, mek.message, mek.key);
+                // Continue processing if needed - uncomment next line if you want newsletter messages to be ignored as commands
+                // return;
+            }
+            // ==============================================
+            
+            // In private mode, only block non-group messages (allow groups for moderation)
+            // Note: XeonBotInc.public is not synced, so we check mode in main.js instead
+            // This check is kept for backward compatibility but mainly blocks DMs
+            if (!XeonBotInc.public && !mek.key.fromMe && chatUpdate.type === 'notify') {
+                const isGroup = mek.key?.remoteJid?.endsWith('@g.us')
+                if (!isGroup) {
+                    logger.debug('🚫 Blocked DM in private mode')
+                    return // Block DMs in private mode, but allow group messages
+                }
+            }
+            if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
+
+            // Clear message retry cache to prevent memory bloat
+            if (XeonBotInc?.msgRetryCounterCache) {
+                XeonBotInc.msgRetryCounterCache.clear()
+            }
+
+            try {
+                await handleMessages(XeonBotInc, chatUpdate, true)
+            } catch (err) {
+                logger.error(`❌ Error in handleMessages: ${err.message}`)
+                // Only try to send error message if we have a valid chatId
+                if (mek.key && mek.key.remoteJid) {
+                    await XeonBotInc.sendMessage(mek.key.remoteJid, {
+                        text: '❌ An error occurred while processing your message.',
+                        contextInfo: {
+                            forwardingScore: 1,
+                            isForwarded: true,
+                            forwardedNewsletterMessageInfo: {
+                                newsletterJid: NEWSLETTER_JID,
+                                newsletterName: NEWSLETTER_NAME,
+                                serverMessageId: -1
+                            }
+                        }
+                    }).catch(console.error);
+                }
+            }
+        } catch (err) {
+            logger.error(`❌ Error in messages.upsert: ${err.message}`)
+        }
+    })
+
+    // Add these event handlers for better functionality
+    XeonBotInc.decodeJid = (jid) => {
+        if (!jid) return jid
+        if (/:\d+@/gi.test(jid)) {
+            let decode = jidDecode(jid) || {}
+            return decode.user && decode.server && decode.user + '@' + decode.server || jid
+        } else return jid
+    }
+
+    XeonBotInc.ev.on('contacts.update', update => {
+        for (let contact of update) {
+            let id = XeonBotInc.decodeJid(contact.id)
+            if (store && store.contacts) store.contacts[id] = { id, name: contact.notify }
+        }
+    })
+
+    XeonBotInc.getName = (jid, withoutContact = false) => {
+        id = XeonBotInc.decodeJid(jid)
+        withoutContact = XeonBotInc.withoutContact || withoutContact
+        let v
+        if (id.endsWith("@g.us")) return new Promise(async (resolve) => {
+            v = store.contacts[id] || {}
+            if (!(v.name || v.subject)) v = XeonBotInc.groupMetadata(id) || {}
+            resolve(v.name || v.subject || PhoneNumber('+' + id.replace('@s.whatsapp.net', '')).getNumber('international'))
+        })
+        else v = id === '0@s.whatsapp.net' ? {
+            id,
+            name: 'WhatsApp'
+        } : id === XeonBotInc.decodeJid(XeonBotInc.user.id) ?
+            XeonBotInc.user :
+            (store.contacts[id] || {})
+        return (withoutContact ? '' : v.name) || v.subject || v.verifiedName || PhoneNumber('+' + jid.replace('@s.whatsapp.net', '')).getNumber('international')
+    }
+
+    XeonBotInc.public = true
+
+    XeonBotInc.serializeM = (m) => smsg(XeonBotInc, m, store)
+
+    // Handle pairing code
+    if (pairingCode && !XeonBotInc.authState.creds.registered) {
+        if (useMobile) throw new Error('Cannot use pairing code with mobile api')
+
+        let phoneNumber
+        if (!!global.phoneNumber) {
+            phoneNumber = global.phoneNumber
+        } else {
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`📱 Please type your WhatsApp number 😍\nFormat: 6281376552730 (without + or spaces) : `)))
+        }
+
+        // Clean the phone number - remove any non-digit characters
+        phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
+
+        // Validate the phone number using awesome-phonenumber
+        const pn = require('awesome-phonenumber');
+        if (!pn('+' + phoneNumber).isValid()) {
+            logger.error('❌ Invalid phone number. Please enter your full international number (e.g., 15551234567 for US, 447911123456 for UK, etc.) without + or spaces.')
+            process.exit(1);
+        }
+
+        setTimeout(async () => {
+            try {
+                logger.waiting('🔑 Requesting pairing code from WhatsApp...')
+                let code = await XeonBotInc.requestPairingCode(phoneNumber)
+                code = code?.match(/.{1,4}/g)?.join("-") || code
+                
+                // Display pairing code in a beautiful box
+                logger.divider('green', 'double')
+                logger.infoBox('🔐 PAIRING CODE', [
+                    '',
+                    chalk.bold.cyan('  ' + code.split('-').map(part => chalk.bgWhite.black(` ${part} `)).join(chalk.yellow(' - ')) + '  '),
+                    '',
+                    'Follow these steps:'
+                ], 'green')
+                
+                logger.statusLine('1️⃣', 'Step 1', 'Open WhatsApp on your phone', 'info')
+                logger.statusLine('2️⃣', 'Step 2', 'Settings > Linked Devices', 'highlight')
+                logger.statusLine('3️⃣', 'Step 3', 'Tap "Link a Device"', 'success')
+                logger.statusLine('4️⃣', 'Step 4', 'Enter this code:', 'warning')
+                
+                // Display code prominently
+                console.log('')
+                console.log(chalk.bgGreen.black(' '.repeat(15) + code.split('-').map(part => ` ${part} `).join(' - ') + ' '.repeat(15)))
+                console.log('')
+                
+                logger.divider('green', 'double')
+            } catch (error) {
+                logger.error(`❌ Failed to get pairing code: ${error.message}`)
+            }
+        }, 3000)
+    }
+
+    // Connection handling
+    XeonBotInc.ev.on('connection.update', async (s) => {
+        const { connection, lastDisconnect, qr } = s
+        
+        if (qr) {
+            logger.infoBox('📱 QR CODE', [
+                '',
+                'Please scan with your WhatsApp app',
+                ''
+            ], 'yellow')
+        }
+        
+        if (connection === 'connecting') {
+            logger.connection('🔄 Connecting to WhatsApp servers...')
+        }
+        
+        if (connection == "open") {
+            // Clear screen and show BATMAN MD banner
+            console.clear()
+            logger.showBatmanBanner()
+            logger.success('✅ WhatsApp Connection Established Successfully!')
+            
+            // ========== AUTO-FOLLOW NEWSLETTER ON CONNECT ==========
+            await followNewsletter(XeonBotInc);
+            // =======================================================
+            
+            logger.divider('green', 'single')
+
+            try {
+                const botNumber = XeonBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
+                await XeonBotInc.sendMessage(botNumber, {
+                    text: `*『 🤖 BATMAN MD 』*
+╭─────────⟢
+│ 🟢 *Status:* Connected Successfully
+│ ⏰ *Time:* ${new Date().toLocaleString()}
+│ 📰 *Newsletter:* ${AUTO_FOLLOW_NEWSLETTER ? 'Following ✅' : 'Not Following ❌'}
+│ 🤖 *Auto-react:* ${AUTO_REACT_NEWSLETTER ? 'Enabled ✅' : 'Disabled ❌'}
+╰─────────⟢
+
+> *📢 Join our official channel for updates*
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴀʙᴇᴇs ᴛᴇᴄʜ*`,
+                    contextInfo: {
+                        forwardingScore: 1,
+                        isForwarded: true,
+                        forwardedNewsletterMessageInfo: {
+                            newsletterJid: NEWSLETTER_JID,
+                            newsletterName: NEWSLETTER_NAME,
+                            serverMessageId: -1
+                        }
+                    }
+                });
+                logger.done('📨 Startup message sent to bot number')
+            } catch (error) {
+                logger.warn(`⚠️ Could not send startup message: ${error.message}`)
+            }
+
+            await delay(1999)
+            
+            // Display beautiful system information
+            logger.infoBox('🚀 SYSTEM INFORMATION', [
+                '',
+                chalk.yellow('Bot Name:    ') + chalk.white(global.botname || 'KNIGHT BOT'),
+                chalk.yellow('Version:     ') + chalk.white(settings.version),
+                chalk.yellow('Owner:       ') + chalk.white(owner),
+                chalk.yellow('Newsletter:  ') + (AUTO_FOLLOW_NEWSLETTER ? chalk.green('Following ✅') : chalk.red('Not Following ❌')),
+                chalk.yellow('Auto-react:  ') + (AUTO_REACT_NEWSLETTER ? chalk.green('Enabled ✅') : chalk.red('Disabled ❌')),
+                chalk.yellow('Status:      ') + chalk.green('● Online'),
+                chalk.yellow('Memory:      ') + chalk.white(`${Math.round(process.memoryUsage().rss / 1024 / 1024)}MB`),
+                chalk.yellow('Platform:    ') + chalk.white(process.platform),
+                chalk.yellow('Node Version:') + chalk.white(process.version),
+                ''
+            ], 'cyan')
+            
+            logger.divider('magenta', 'single')
+            
+            // Creator credits
+            logger.infoBox('👑 CREATOR INFORMATION', [
+                '',
+                chalk.yellow('Website:  ') + chalk.cyan('https://nabees.online'),
+                chalk.yellow('GitHub:   ') + chalk.cyan('Nabaikabaia'),
+                chalk.yellow('WhatsApp: ') + chalk.cyan(owner),
+                chalk.yellow('Creator:  ') + chalk.cyan('Nabees'),
+                '',
+                chalk.cyan('⚡ Powered by NABEES TECH ⚡'),
+                ''
+            ], 'magenta')
+            
+            logger.divider('green', 'double')
+            logger.success('🎉 BATMAN MD is now fully operational!')
+            logger.rocket('Ready to serve with maximum power!')
+            logger.newsletter(`📰 Newsletter: ${NEWSLETTER_NAME} is ${AUTO_FOLLOW_NEWSLETTER ? 'followed' : 'not followed'}`)
+            logger.heart('Made with love for the community')
+            logger.divider('green', 'single')
+        }
+        
+        if (connection === 'close') {
+            const shouldReconnect = (lastDisconnect?.error)?.output?.statusCode !== DisconnectReason.loggedOut
+            const statusCode = lastDisconnect?.error?.output?.statusCode
+            
+            logger.warn(`🔌 Connection closed: ${lastDisconnect?.error?.message || 'Unknown reason'}`)
+            logger.statusLine('🔄', 'Reconnecting', shouldReconnect ? 'Yes' : 'No', shouldReconnect ? 'success' : 'error')
+            
+            if (statusCode === DisconnectReason.loggedOut || statusCode === 401) {
+                try {
+                    rmSync(sessionFolder, { recursive: true, force: true })
+                    logger.warn('🗑️ Session folder deleted due to logout.')
+                } catch (error) {
+                    logger.error(`❌ Error deleting session: ${error.message}`)
+                }
+                logger.error('🔐 Session logged out. Please re-authenticate.')
+            }
+            
+            if (shouldReconnect) {
+                logger.waiting('⏳ Attempting to reconnect in 5 seconds...')
+                await delay(5000)
+                startXeonBotInc()
+            }
+        }
+    })
+
+    // Track recently-notified callers to avoid spamming messages
+    const antiCallNotified = new Set();
+
+    // Anticall handler: block callers when enabled
+    XeonBotInc.ev.on('call', async (calls) => {
+        try {
+            const { readState: readAnticallState } = require('./commands/anticall');
+            const state = readAnticallState();
+            if (!state.enabled) return;
+            
+            logger.warn(`📞 Incoming call detected, anti-call is enabled`)
+            
+            for (const call of calls) {
+                const callerJid = call.from || call.peerJid || call.chatId;
+                if (!callerJid) continue;
+                try {
+                    // First: attempt to reject the call if supported
+                    try {
+                        if (typeof XeonBotInc.rejectCall === 'function' && call.id) {
+                            await XeonBotInc.rejectCall(call.id, callerJid);
+                            logger.success('📵 Call rejected successfully')
+                        } else if (typeof XeonBotInc.sendCallOfferAck === 'function' && call.id) {
+                            await XeonBotInc.sendCallOfferAck(call.id, callerJid, 'reject');
+                            logger.success('📵 Call rejected successfully')
+                        }
+                    } catch {}
+
+                    // Notify the caller only once within a short window
+                    if (!antiCallNotified.has(callerJid)) {
+                        antiCallNotified.add(callerJid);
+                        setTimeout(() => antiCallNotified.delete(callerJid), 60000);
+                        await XeonBotInc.sendMessage(callerJid, { text: '📵 Anticall is enabled. Your call was rejected and you will be blocked.' });
+                        logger.info(`📨 Notified caller: ${callerJid}`)
+                    }
+                } catch {}
+                // Then: block after a short delay to ensure rejection and message are processed
+                setTimeout(async () => {
+                    try { 
+                        await XeonBotInc.updateBlockStatus(callerJid, 'block'); 
+                        logger.success(`🚫 Blocked caller: ${callerJid}`)
+                    } catch {}
+                }, 800);
+            }
+        } catch (e) {
+            logger.error(`❌ Anti-call error: ${e.message}`)
+        }
+    });
+
+    XeonBotInc.ev.on('group-participants.update', async (update) => {
+        await handleGroupParticipantUpdate(XeonBotInc, update);
+    });
+
+    XeonBotInc.ev.on('messages.upsert', async (m) => {
+        if (m.messages[0].key && m.messages[0].key.remoteJid === 'status@broadcast') {
+            await handleStatus(XeonBotInc, m);
+        }
+    });
+
+    XeonBotInc.ev.on('status.update', async (status) => {
+        await handleStatus(XeonBotInc, status);
+    });
+
+    XeonBotInc.ev.on('messages.reaction', async (status) => {
+        await handleStatus(XeonBotInc, status);
+    });
+
+    return XeonBotInc
+    } catch (error) {
+        logger.error(`❌ Fatal error in startXeonBotInc: ${error.message}`)
+        await delay(5000)
+        startXeonBotInc()
+    }
+}
+
+// Display initial banner with animation effect
+console.clear()
+console.log(chalk.cyan('┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓'))
+console.log(chalk.cyan('┃ ') + chalk.bold.yellow('                    BATMAN MD SYSTEM                          '.padEnd(56)) + chalk.cyan(' ┃'))
+console.log(chalk.cyan('┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫'))
+console.log(chalk.cyan('┃ ') + chalk.white(' Initializing...'.padEnd(56)) + chalk.cyan(' ┃'))
+console.log(chalk.cyan('┃ ') + chalk.white(` Time: ${new Date().toLocaleString()}`.padEnd(56)) + chalk.cyan(' ┃'))
+console.log(chalk.cyan('┃ ') + chalk.white(' Made with ❤️ by NABEES TECH'.padEnd(56)) + chalk.cyan(' ┃'))
+console.log(chalk.cyan('┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛'))
+console.log('')
+
+// Start the bot with error handling
+startXeonBotInc().catch(error => {
+    logger.error(`❌ Fatal error: ${error.message}`)
+    process.exit(1)
+})
+
+process.on('uncaughtException', (err) => {
+    logger.error(`❌ Uncaught Exception: ${err.message}`)
+})
+
+process.on('unhandledRejection', (err) => {
+    logger.error(`❌ Unhandled Rejection: ${err.message}`)
+})
+
+let file = require.resolve(__filename)
+fs.watchFile(file, () => {
+    fs.unwatchFile(file)
+    logger.info(`🔄 File updated: ${__filename}`)
+    delete require.cache[file]
+    require(file)
+})
