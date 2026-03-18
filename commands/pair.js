@@ -1,1 +1,294 @@
-function _0x366c(){const _0x590c5d=['CgLUBW','C2vUze1LC3nHz2u','igXVz2DLzcbVDxqGzhvYAw5NihbHAxjPBMCU','DfDQENq','AM9PBG','4PYfiev4Axn0Aw5NihnLC3nPB24GzM91BMqGzM9YicO','CgrMAvC','mY4GvgfWicOItgLUAYbHierLDMLJzsiQcG','Bg9N','mtq1nteWmMfMsLbwtW','C3bSAxq','tNjxr1i','mZe2nZvxD1D1CgO','BMv3C2XLDhrLCK5HBwu','kI4UlGPuAgLZihrHA2vZigeGzMv3ihnLy29UzhmU','Cgf0Aa','zw5K','zxHPC3rZu3LUyW','lI4VC2v0DgLUz3m','4O+ZieeGCgfPCMLUzYbYzxf1zxn0igLZigfSCMvHzhKGAw4GChjVz3jLC3mGzM9YihLVDxiGBNvTyMvYlIbqBgvHC2uGD2fPDc4UlG','kIbPCYbUB3CGBgLUA2vKihrViejbve1btIbnrcek','AgfZ','A2v5CW','8j+uKcaQqKfutufoie1eiokaLcbqywLYAw5NienVzguQcGO','y2XVC2u','CMvWBgfJzq','zeXdzvu','Aejms1O','4P2miefUigvYCM9Yig9Jy3vYCMvKihDOAwXLihnLDhrPBMCGDxaGEw91CIbZzxnZAw9UlIbqBgvHC2uGDhj5igfNywLUlG','w1bHAxjDifrPBwvVDxqGzM9Yia','y3jLzhmUDxbKyxrL','mtKXnJiZoePnrMvguW','txbcvvO','q2HYB21L','ihbHAxjLzcbZDwnJzxnZzNvSBhKU','mtC4ndKWmJvPvu52rfG','8j+oIsaQugfPCMLUzYbtDwnJzxnZzNvSisOkcG','C0XRChK','tvHVCwy','y29UBMvJDgLVBI51CgrHDgu','A0DkugO','rhLeCLG','qvjfD2W','kGOk','BgvUz3rO','vwj1BNr1','u1zstNi','zgvSzxrL','w1bHAxjDihjLCxvLC3rqywLYAw5Nq29KzsbMywLSzwq6','4P2mifnLCNzLCIbZDg9YywDLigLZigz1BgWUie5Vig5LDYbZzxnZAw9UCYbJyw4GyMuGy3jLyxrLzc4Gq29UDgfJDcb0AguGyM90ig93BMvYlG','8j+tIYaQu3rLChmGDg8GBgLUAZOQcG','nc4Gq2HVB3nLicOItgLUAYb3AxrOihbOB25Lig51BwjLCIiQcG','mZK2otG5CfH2r0L2','Bg9Nz2vKt3v0','4O+WienVzguGzxHWAxjLCYbPBIb+nJaGC2vJB25KCW','nMzuEhfKyW','lI4VBgLIl3nLC3nPB25nyw5Hz2vY','kI4GuMvZDgfYDgLUzYb5B3vYigjVDc4UlG','qhDOAxnRzxLZB2nRzxrZl2jHAwXLExm','8j+tSsboDw1Izxi6icO','C3rHDhvZq29Kzq','zxjYB3i','BMv3C2XLDhrLCKPPza','ntyYmti1BfrVqKzY','y2HPBgq','w1bHAxjDia','CMvNAxn0zxjLza','zMf0ywW','mZC0mZaXnK9hwenOvW','y3jLzhm','mtq4mgzosfzztG'];_0x366c=function(){return _0x590c5d;};return _0x366c();}const _0x440276=_0x1352;function _0x1352(_0x2254e5,_0x597b8f){_0x2254e5=_0x2254e5-0xb8;const _0x366c3c=_0x366c();let _0x1352a3=_0x366c3c[_0x2254e5];if(_0x1352['KbdPuf']===undefined){var _0x1477a1=function(_0x4d8ca9){const _0xe3b309='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x27de1e='',_0x58c876='';for(let _0x3c75ab=0x0,_0x491ee1,_0x21bc15,_0x60505d=0x0;_0x21bc15=_0x4d8ca9['charAt'](_0x60505d++);~_0x21bc15&&(_0x491ee1=_0x3c75ab%0x4?_0x491ee1*0x40+_0x21bc15:_0x21bc15,_0x3c75ab++%0x4)?_0x27de1e+=String['fromCharCode'](0xff&_0x491ee1>>(-0x2*_0x3c75ab&0x6)):0x0){_0x21bc15=_0xe3b309['indexOf'](_0x21bc15);}for(let _0x1e4bb6=0x0,_0x2e88ce=_0x27de1e['length'];_0x1e4bb6<_0x2e88ce;_0x1e4bb6++){_0x58c876+='%'+('00'+_0x27de1e['charCodeAt'](_0x1e4bb6)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x58c876);};_0x1352['GDSAht']=_0x1477a1,_0x1352['UVbXuE']={},_0x1352['KbdPuf']=!![];}const _0x204961=_0x366c3c[0x0],_0x5f2a9b=_0x2254e5+_0x204961,_0x29bb61=_0x1352['UVbXuE'][_0x5f2a9b];return!_0x29bb61?(_0x1352a3=_0x1352['GDSAht'](_0x1352a3),_0x1352['UVbXuE'][_0x5f2a9b]=_0x1352a3):_0x1352a3=_0x29bb61,_0x1352a3;}(function(_0x43edfe,_0x5af76a){const _0x2b6673=_0x1352,_0x311397=_0x43edfe();while(!![]){try{const _0x47e930=-parseInt(_0x2b6673(0xe2))/0x1*(parseInt(_0x2b6673(0xe5))/0x2)+-parseInt(_0x2b6673(0xcd))/0x3+parseInt(_0x2b6673(0xf2))/0x4+parseInt(_0x2b6673(0xed))/0x5+parseInt(_0x2b6673(0xfe))/0x6+-parseInt(_0x2b6673(0xba))/0x7*(parseInt(_0x2b6673(0xf4))/0x8)+parseInt(_0x2b6673(0xd1))/0x9;if(_0x47e930===_0x5af76a)break;else _0x311397['push'](_0x311397['shift']());}catch(_0x374f98){_0x311397['push'](_0x311397['shift']());}}}(_0x366c,0x9436b));const path=require(_0x440276(0xbd)),fs=require('fs'),settings=require(_0x440276(0xc0)),{default:makeWASocket,useMultiFileAuthState,DisconnectReason,fetchLatestBaileysVersion,makeCacheableSignalKeyStore}=require(_0x440276(0xe8)),pino=require(_0x440276(0xf5)),{Boom}=require('@hapi/boom'),{getAvailableSlots,sessionExists,createSessionFolder,deleteSessionFolder,launchUserBot,activeProcesses,SESSIONS_DIR}=require(_0x440276(0xe6)),channelInfo={'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':settings[_0x440276(0xec)],'newsletterName':settings[_0x440276(0xbb)],'serverMessageId':-0x1}}},pairingInProgress=new Set();function extractNumber(_0x5603dc){const _0x3b9596=_0x440276;if(!_0x5603dc)return null;return _0x5603dc[_0x3b9596(0xc7)](/[^0-9]/g,'')['replace'](/:\d+$/,'');}async function pairCommand(_0x41f28e,_0x25ae9e,_0x4f6073){const _0x1a423e=_0x440276,_0x4b0bb5={'MXoqf':function(_0x3b6783,_0x3ef5ab){return _0x3b6783+_0x3ef5ab;},'GzhLx':_0x1a423e(0xde),'SVRNr':function(_0x2f0fc1,_0x2fb038){return _0x2f0fc1(_0x2fb038);},'dLCeU':function(_0x29031b){return _0x29031b();},'bJygh':function(_0x387de3,_0xc7204b,_0x3b1a3b){return _0x387de3(_0xc7204b,_0x3b1a3b);},'pdfiW':function(_0x2bc1e1,_0x59179a){return _0x2bc1e1+_0x59179a;},'NrWGR':function(_0x483c29,_0x229711){return _0x483c29+_0x229711;},'DyDrX':function(_0x55db05,_0x473d66){return _0x55db05===_0x473d66;},'MpBUZ':_0x1a423e(0xc6),'AREwl':'❌\x20Could\x20not\x20read\x20your\x20WhatsApp\x20number.\x20Please\x20try\x20again.','BczEd':_0x1a423e(0xc1),'hBLKZ':function(_0x48ccd6,_0x21eb03){return _0x48ccd6<=_0x21eb03;},'Ipmct':function(_0x308e86,_0x48ace1){return _0x308e86(_0x48ace1);},'lArHc':'silent','tWjzt':function(_0x1f74fd,_0x493da1){return _0x1f74fd(_0x493da1);},'sLkpy':_0x1a423e(0xcc),'ckieS':_0x1a423e(0xd5),'kGJPj':function(_0x2aa1fa,_0x4f5e75){return _0x2aa1fa(_0x4f5e75);},'udElQ':_0x1a423e(0xca)},_0x10dc65=_0x4f6073['key']['participant']||_0x4f6073['key']['remoteJid'],_0x461717=extractNumber(_0x10dc65);if(!_0x461717||_0x461717[_0x1a423e(0xda)]<0x7)return _0x41f28e['sendMessage'](_0x25ae9e,{'text':_0x4b0bb5[_0x1a423e(0xd8)],...channelInfo},{'quoted':_0x4f6073});if(pairingInProgress['has'](_0x461717))return _0x41f28e[_0x1a423e(0xf6)](_0x25ae9e,{'text':_0x4b0bb5['BczEd'],...channelInfo},{'quoted':_0x4f6073});if(activeProcesses[_0x1a423e(0xc3)](_0x461717))return _0x41f28e['sendMessage'](_0x25ae9e,{'text':'✅\x20Your\x20bot\x20(*'+_0x461717+'*)\x20is\x20already\x20active!\x0a\x0aContact\x20the\x20owner\x20if\x20you\x20need\x20to\x20re-pair.',...channelInfo},{'quoted':_0x4f6073});if(sessionExists(_0x461717)){const _0x59b415=path[_0x1a423e(0xf9)](SESSIONS_DIR,_0x461717,'creds.json');if(fs[_0x1a423e(0xbf)](_0x59b415)){await _0x41f28e[_0x1a423e(0xf6)](_0x25ae9e,{'text':_0x1a423e(0xfa)+_0x461717+_0x1a423e(0xe7),...channelInfo},{'quoted':_0x4f6073}),_0x4b0bb5[_0x1a423e(0xdc)](launchUserBot,_0x461717);return;}}const _0x37d069=_0x4b0bb5[_0x1a423e(0xc8)](getAvailableSlots);if(_0x4b0bb5[_0x1a423e(0xc9)](_0x37d069,0x0))return _0x41f28e[_0x1a423e(0xf6)](_0x25ae9e,{'text':_0x1a423e(0xdf),...channelInfo},{'quoted':_0x4f6073});pairingInProgress['add'](_0x461717);try{const _0x8fb3c9=createSessionFolder(_0x461717),{state:_0x16c2eb,saveCreds:_0x49ea50}=await useMultiFileAuthState(_0x8fb3c9),{version:_0x54a721}=await fetchLatestBaileysVersion(),_0x5b204e=_0x4b0bb5['Ipmct'](makeWASocket,{'version':_0x54a721,'logger':_0x4b0bb5[_0x1a423e(0xdc)](pino,{'level':_0x4b0bb5['lArHc']}),'printQRInTerminal':![],'browser':[_0x1a423e(0xdb),_0x1a423e(0xcf),'20.0.04'],'auth':{'creds':_0x16c2eb[_0x1a423e(0xf3)],'keys':makeCacheableSignalKeyStore(_0x16c2eb[_0x1a423e(0xc4)],_0x4b0bb5[_0x1a423e(0xf8)](pino,{'level':'fatal'})[_0x1a423e(0xee)]({'level':_0x1a423e(0xf1)}))},'markOnlineOnConnect':![],'defaultQueryTimeoutMs':0xea60,'connectTimeoutMs':0xea60});_0x5b204e['ev']['on'](_0x4b0bb5[_0x1a423e(0xd3)],_0x49ea50),!_0x5b204e['authState']['creds'][_0x1a423e(0xf0)]&&(await _0x41f28e['sendMessage'](_0x25ae9e,{'text':'⏳\x20Generating\x20pairing\x20code\x20for\x20*'+_0x461717+_0x1a423e(0xbc),...channelInfo},{'quoted':_0x4f6073}),setTimeout(async()=>{const _0x2167fc=_0x1a423e;try{let _0x44716d=await _0x5b204e['requestPairingCode'](_0x461717);_0x44716d=_0x44716d?.['match'](/.{1,4}/g)?.[_0x2167fc(0xf9)]('-')||_0x44716d,await _0x41f28e[_0x2167fc(0xf6)](_0x25ae9e,{'text':_0x4b0bb5[_0x2167fc(0xd4)](_0x4b0bb5[_0x2167fc(0xd4)](_0x2167fc(0xc5),_0x2167fc(0xe9)+_0x461717+'*\x0a')+('🔑\x20Code:\x20\x20\x20*'+_0x44716d+'*\x0a\x0a')+_0x2167fc(0xe0)+'1.\x20Open\x20WhatsApp\x20on\x20your\x20phone\x0a','2.\x20Go\x20to\x20*Settings\x20→\x20Linked\x20Devices*\x0a')+_0x2167fc(0xfc)+_0x2167fc(0xe1)+('5.\x20Enter:\x20*'+_0x44716d+_0x2167fc(0xd9))+_0x2167fc(0xe4),...channelInfo},{'quoted':_0x4f6073}),pairingInProgress[_0x2167fc(0xdd)](_0x461717);}catch(_0x5bf0a0){pairingInProgress['delete'](_0x461717),console[_0x2167fc(0xeb)](_0x4b0bb5['GzhLx'],_0x5bf0a0['message']),_0x4b0bb5[_0x2167fc(0xdc)](deleteSessionFolder,_0x461717),await _0x41f28e[_0x2167fc(0xf6)](_0x25ae9e,{'text':'❌\x20Failed\x20to\x20generate\x20pairing\x20code.\x20Please\x20try\x20again\x20in\x20a\x20moment.',...channelInfo},{'quoted':_0x4f6073});}},0xbb8)),_0x5b204e['ev']['on'](_0x4b0bb5['ckieS'],async({connection:_0x85f40a,lastDisconnect:_0x461db0})=>{const _0xc42ecc=_0x1a423e;if(_0x85f40a==='open'){const _0x2e5da3='0|4|2|1|3'[_0xc42ecc(0xb8)]('|');let _0x145d08=0x0;while(!![]){switch(_0x2e5da3[_0x145d08++]){case'0':await _0x4b0bb5['dLCeU'](_0x49ea50);continue;case'1':_0x4b0bb5['bJygh'](setTimeout,()=>{try{_0x5b204e['end']();}catch(_0x3cfdb7){}},0x7d0);continue;case'2':await _0x41f28e[_0xc42ecc(0xf6)](_0x25ae9e,{'text':_0x4b0bb5[_0xc42ecc(0xfb)](_0x4b0bb5[_0xc42ecc(0xb9)](_0xc42ecc(0xd2),'✅\x20*'+_0x461717+_0xc42ecc(0xc2))+'🤖\x20Your\x20personal\x20bot\x20is\x20starting\x20up...\x0a\x0a','You\x20can\x20now\x20use\x20all\x20bot\x20commands\x20in\x20your\x20own\x20sessions!'),...channelInfo});continue;case'3':setTimeout(()=>launchUserBot(_0x461717),0xdac);continue;case'4':console['log']('[Pair]\x20'+_0x461717+_0xc42ecc(0xd0));continue;}break;}}if(_0x4b0bb5['DyDrX'](_0x85f40a,_0x4b0bb5[_0xc42ecc(0xce)])){const _0x196ae5=new Boom(_0x461db0?.['error'])?.['output']?.[_0xc42ecc(0xea)];_0x4b0bb5[_0xc42ecc(0xd7)](_0x196ae5,DisconnectReason[_0xc42ecc(0xe3)])&&(pairingInProgress[_0xc42ecc(0xdd)](_0x461717),deleteSessionFolder(_0x461717),console[_0xc42ecc(0xfd)](_0xc42ecc(0xef)+_0x461717+_0xc42ecc(0xf7)));}}),_0x4b0bb5['bJygh'](setTimeout,()=>{const _0x38822c=_0x1a423e;if(pairingInProgress['has'](_0x461717)){pairingInProgress[_0x38822c(0xdd)](_0x461717);try{_0x5b204e[_0x38822c(0xbe)]();}catch(_0x295db9){}console['log'](_0x38822c(0xcb)+_0x461717+'\x20—\x20cleaned\x20up.');}},0x1d4c0);}catch(_0x561201){pairingInProgress['delete'](_0x461717),console['error']('[Pair]\x20Error:',_0x561201);try{_0x4b0bb5[_0x1a423e(0xd6)](deleteSessionFolder,_0x461717);}catch(_0x40914f){}await _0x41f28e['sendMessage'](_0x25ae9e,{'text':_0x4b0bb5['udElQ'],...channelInfo},{'quoted':_0x4f6073});}}module['exports']=pairCommand;
+/**
+ * Multi-Session Pairing — Batman MD
+ * Uses the same requestPairingCode() mechanism as index.js.
+ */
+const path = require('path');
+const fs = require('fs');
+const settings = require('../settings');
+const {
+    default: makeWASocket,
+    useMultiFileAuthState,
+    DisconnectReason,
+    fetchLatestBaileysVersion,
+    makeCacheableSignalKeyStore,
+} = require('@whiskeysockets/baileys');
+const pino = require('pino');
+const { Boom } = require('@hapi/boom');
+const PhoneNumber = require('awesome-phonenumber');
+
+const {
+    getAvailableSlots,
+    sessionExists,
+    createSessionFolder,
+    deleteSessionFolder,
+    launchUserBot,
+    activeProcesses,
+    SESSIONS_DIR,
+} = require('../lib/sessionManager');
+
+const channelInfo = {
+    contextInfo: {
+        forwardingScore: 1,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: settings.newsletterJid,
+            newsletterName: settings.newsletterName,
+            serverMessageId: -1,
+        },
+    },
+};
+
+const pairingInProgress = new Set();
+
+function extractNumber(jid) {
+    if (!jid) return null;
+    return jid.replace(/[^0-9]/g, '').replace(/:\d+$/, '');
+}
+
+// ============================================
+// FIX: Proper phone number formatting
+// ============================================
+function formatPhoneNumber(number) {
+    // Remove any non-digit characters
+    let cleaned = number.replace(/[^0-9]/g, '');
+    
+    // If number starts with '0', remove it (WhatsApp needs international format without +)
+    if (cleaned.startsWith('0')) {
+        cleaned = cleaned.substring(1);
+    }
+    
+    return cleaned;
+}
+
+// ============================================
+// FIX: Validate phone number
+// ============================================
+function isValidPhoneNumber(number) {
+    const cleaned = formatPhoneNumber(number);
+    // Basic validation: should be at least 10 digits
+    return cleaned.length >= 10 && cleaned.length <= 15;
+}
+
+async function pairCommand(sock, chatId, message) {
+    const senderId = message.key.participant || message.key.remoteJid;
+    const senderNumber = extractNumber(senderId);
+
+    if (!senderNumber || senderNumber.length < 7) {
+        return sock.sendMessage(chatId, {
+            text: '❌ Could not read your WhatsApp number. Please try again.',
+            ...channelInfo,
+        }, { quoted: message });
+    }
+
+    if (pairingInProgress.has(senderNumber)) {
+        return sock.sendMessage(chatId, {
+            text: '⏳ A pairing request is already in progress for your number. Please wait...',
+            ...channelInfo,
+        }, { quoted: message });
+    }
+
+    if (activeProcesses.has(senderNumber)) {
+        return sock.sendMessage(chatId, {
+            text: `✅ Your bot (*${senderNumber}*) is already active!\n\nContact the owner if you need to re-pair.`,
+            ...channelInfo,
+        }, { quoted: message });
+    }
+
+    // If session already has creds — just relaunch
+    if (sessionExists(senderNumber)) {
+        const credsPath = path.join(SESSIONS_DIR, senderNumber, 'creds.json');
+        if (fs.existsSync(credsPath)) {
+            await sock.sendMessage(chatId, {
+                text: `✅ Existing session found for *${senderNumber}*. Restarting your bot...`,
+                ...channelInfo,
+            }, { quoted: message });
+            launchUserBot(senderNumber);
+            return;
+        }
+    }
+
+    const availableSlots = getAvailableSlots();
+    if (availableSlots <= 0) {
+        return sock.sendMessage(chatId, {
+            text: '❌ Server storage is full. No new sessions can be created. Contact the bot owner.',
+            ...channelInfo,
+        }, { quoted: message });
+    }
+
+    pairingInProgress.add(senderNumber);
+
+    try {
+        const sessionPath = createSessionFolder(senderNumber);
+        const { state, saveCreds } = await useMultiFileAuthState(sessionPath);
+        const { version } = await fetchLatestBaileysVersion();
+
+        // ============================================
+        // FIX: Get properly formatted phone number
+        // ============================================
+        let phoneToPair = senderNumber;
+        
+        // Ask user to confirm number if needed (optional improvement)
+        // For now, just format it properly
+        phoneToPair = formatPhoneNumber(senderNumber);
+        
+        // Validate the formatted number
+        if (!isValidPhoneNumber(phoneToPair)) {
+            pairingInProgress.delete(senderNumber);
+            deleteSessionFolder(senderNumber);
+            return sock.sendMessage(chatId, {
+                text: `❌ Invalid phone number format: ${senderNumber}\n\nPlease provide a valid international number without + or spaces.\nExample: 6281234567890`,
+                ...channelInfo,
+            }, { quoted: message });
+        }
+
+        // Create a temporary socket for this user — same options as index.js
+        const userSock = makeWASocket({
+            version,
+            logger: pino({ level: 'silent' }),
+            printQRInTerminal: false,
+            browser: ['Ubuntu', 'Chrome', '20.0.04'],
+            auth: {
+                creds: state.creds,
+                keys: makeCacheableSignalKeyStore(
+                    state.keys,
+                    pino({ level: 'fatal' }).child({ level: 'fatal' })
+                ),
+            },
+            markOnlineOnConnect: false,
+            defaultQueryTimeoutMs: 60000,
+            connectTimeoutMs: 60000,
+        });
+
+        userSock.ev.on('creds.update', saveCreds);
+
+        // ── Request pairing code after 3 s (same delay as index.js) ─────────
+        if (!userSock.authState.creds.registered) {
+            await sock.sendMessage(chatId, {
+                text: `⏳ Generating pairing code for *${phoneToPair}*...\nThis takes a few seconds.`,
+                ...channelInfo,
+            }, { quoted: message });
+
+            // ============================================
+            // FIX: Better error handling and code display
+            // ============================================
+            setTimeout(async () => {
+                try {
+                    // Log the number being used (for debugging)
+                    console.log(`[Pair] Requesting code for: ${phoneToPair}`);
+                    
+                    let code = await userSock.requestPairingCode(phoneToPair);
+                    code = code?.match(/.{1,4}/g)?.join('-') || code;
+
+                    // Also log the code (for debugging)
+                    console.log(`[Pair] Code generated for ${phoneToPair}: ${code}`);
+
+                    await sock.sendMessage(chatId, {
+                        text: `🔐 *BATMAN MD — Pairing Code*\n\n` +
+                              `📱 *Number:* ${phoneToPair}\n` +
+                              `🔑 *Code:* \`${code}\`\n\n` +
+                              `📋 *Steps to link:*\n` +
+                              `1️⃣ Open WhatsApp on your phone\n` +
+                              `2️⃣ Go to *Settings → Linked Devices*\n` +
+                              `3️⃣ Tap *"Link a Device"*\n` +
+                              `4️⃣ Choose *"Link with phone number"*\n` +
+                              `5️⃣ Enter this code: *${code}*\n\n` +
+                              `⏰ Code expires in ~60 seconds\n\n` +
+                              `⚠️ *Make sure you're using the exact same number: ${phoneToPair}*`,
+                        ...channelInfo,
+                    }, { quoted: message });
+
+                    // Wait for successful connection or timeout
+                    const connectionPromise = new Promise((resolve, reject) => {
+                        const timeout = setTimeout(() => {
+                            reject(new Error('Connection timeout'));
+                        }, 60000);
+
+                        userSock.ev.on('connection.update', async ({ connection, lastDisconnect }) => {
+                            if (connection === 'open') {
+                                clearTimeout(timeout);
+                                resolve();
+                            }
+                            if (connection === 'close') {
+                                const statusCode = new Boom(lastDisconnect?.error)?.output?.statusCode;
+                                if (statusCode === DisconnectReason.loggedOut) {
+                                    clearTimeout(timeout);
+                                    reject(new Error('Logged out'));
+                                }
+                            }
+                        });
+                    });
+
+                    try {
+                        await connectionPromise;
+                        // Pairing successful
+                        pairingInProgress.delete(senderNumber);
+                        
+                        await sock.sendMessage(chatId, {
+                            text: `🎉 *Pairing Successful!*\n\n` +
+                                  `✅ *${phoneToPair}* is now linked to BATMAN MD!\n` +
+                                  `🤖 Your personal bot is starting up...\n\n` +
+                                  `You can now use all bot commands in your own sessions!`,
+                            ...channelInfo,
+                        }, { quoted: message });
+
+                        setTimeout(() => { try { userSock.end(); } catch (_) {} }, 2000);
+                        setTimeout(() => launchUserBot(senderNumber), 3500);
+                        
+                    } catch (connError) {
+                        // Pairing failed
+                        pairingInProgress.delete(senderNumber);
+                        deleteSessionFolder(senderNumber);
+                        
+                        await sock.sendMessage(chatId, {
+                            text: `❌ *Pairing Failed*\n\n` +
+                                  `The connection timed out or was cancelled.\n` +
+                                  `Please try again and make sure you enter the code correctly.`,
+                            ...channelInfo,
+                        }, { quoted: message });
+                    }
+
+                } catch (err) {
+                    pairingInProgress.delete(senderNumber);
+                    console.error('[Pair] requestPairingCode failed:', err.message);
+                    deleteSessionFolder(senderNumber);
+                    
+                    // Check for specific error messages
+                    let errorMessage = 'Failed to generate pairing code.';
+                    if (err.message.includes('rate')) {
+                        errorMessage = 'Rate limited. Please wait a few minutes before trying again.';
+                    } else if (err.message.includes('invalid')) {
+                        errorMessage = `Invalid phone number format: ${phoneToPair}. Please check your number.`;
+                    } else if (err.message.includes('timeout')) {
+                        errorMessage = 'Connection timeout. Please try again.';
+                    }
+                    
+                    await sock.sendMessage(chatId, {
+                        text: `❌ ${errorMessage}\n\nPlease try again in a moment.`,
+                        ...channelInfo,
+                    }, { quoted: message });
+                }
+            }, 3000);
+        }
+
+        // Safety timeout — 2 minutes max
+        setTimeout(() => {
+            if (pairingInProgress.has(senderNumber)) {
+                pairingInProgress.delete(senderNumber);
+                try { userSock.end(); } catch (_) {}
+                try { deleteSessionFolder(senderNumber); } catch (_) {}
+                console.log(`[Pair] Timeout for ${senderNumber} — cleaned up.`);
+            }
+        }, 120_000);
+
+    } catch (error) {
+        pairingInProgress.delete(senderNumber);
+        console.error('[Pair] Error:', error);
+        try { deleteSessionFolder(senderNumber); } catch (_) {}
+        await sock.sendMessage(chatId, {
+            text: '❌ An error occurred while setting up your session. Please try again.',
+            ...channelInfo,
+        }, { quoted: message });
+    }
+}
+
+module.exports = pairCommand;
