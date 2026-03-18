@@ -9,11 +9,12 @@ const botStartTime = Date.now();
 // ENHANCEMENT: Multiple image URLs for random selection
 // ============================================
 const imageUrls = [
-    'https://n.uguu.se/JnWNqtyW.jpg',
-    'https://n.uguu.se/OnoJhZpX.jpg',
-    'https://d.uguu.se/LnCBJSTl.jpg',
-    'https://h.uguu.se/mbktVRZM.jpg',
-    'https://h.uguu.se/hFVRhPCR.jpg'
+    'https://eliteprotech-url.zone.id/17738209879847o227e.jpg',
+    'https://eliteprotech-url.zone.id/1773820972620l5kfaj.jpg',
+    'https://eliteprotech-url.zone.id/1773820961364sqlh4z.jpg',
+    'https://eliteprotech-url.zone.id/1773820922047xds28h.jpg'
+    'hhttps://eliteprotech-url.zone.id/17738209473695ztphr.jpg',
+    'https://eliteprotech-url.zone.id/1773820936402tvozdz.jpg'
 ];
 
 // ============================================
