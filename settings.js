@@ -3,7 +3,7 @@ const settings = {
   packname:    'BATMAN MD',
   author:      '‎',                         // Sticker author (invisible char = no watermark)
   botName:     'BATMAN MD',
-  botOwner:    'NABEES TECH',
+  botOwner: 'NABEES TECH',
   ownerNumber: '2349049636843',             // Your number — no + or spaces
 
   // ─── Behaviour ──────────────────────────────────────────────────────────────
