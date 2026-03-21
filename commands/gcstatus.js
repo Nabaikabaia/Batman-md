@@ -1,1 +1,255 @@
-const _0x1bbdd3=_0x5e01;function _0x5e01(_0x3ad61a,_0x4f4948){_0x3ad61a=_0x3ad61a-0xe1;const _0x3dd43b=_0x3dd4();let _0x5e012c=_0x3dd43b[_0x3ad61a];if(_0x5e01['RxlTkg']===undefined){var _0x3fdb90=function(_0x49bf3a){const _0x40f378='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x303386='',_0x5f29c3='';for(let _0x46e1cb=0x0,_0x4da36d,_0x6c6c6a,_0x2a0692=0x0;_0x6c6c6a=_0x49bf3a['charAt'](_0x2a0692++);~_0x6c6c6a&&(_0x4da36d=_0x46e1cb%0x4?_0x4da36d*0x40+_0x6c6c6a:_0x6c6c6a,_0x46e1cb++%0x4)?_0x303386+=String['fromCharCode'](0xff&_0x4da36d>>(-0x2*_0x46e1cb&0x6)):0x0){_0x6c6c6a=_0x40f378['indexOf'](_0x6c6c6a);}for(let _0x3e74d1=0x0,_0x1a5d7a=_0x303386['length'];_0x3e74d1<_0x1a5d7a;_0x3e74d1++){_0x5f29c3+='%'+('00'+_0x303386['charCodeAt'](_0x3e74d1)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x5f29c3);};_0x5e01['EMvtff']=_0x3fdb90,_0x5e01['NsuWif']={},_0x5e01['RxlTkg']=!![];}const _0x222faf=_0x3dd43b[0x0],_0x12a0d7=_0x3ad61a+_0x222faf,_0x621a43=_0x5e01['NsuWif'][_0x12a0d7];return!_0x621a43?(_0x5e012c=_0x5e01['EMvtff'](_0x5e012c),_0x5e01['NsuWif'][_0x12a0d7]=_0x5e012c):_0x5e012c=_0x621a43,_0x5e012c;}(function(_0x69cfc2,_0x27d0b1){const _0x3c695e=_0x5e01,_0x1bddfb=_0x69cfc2();while(!![]){try{const _0x21e847=-parseInt(_0x3c695e(0xeb))/0x1+parseInt(_0x3c695e(0x110))/0x2*(-parseInt(_0x3c695e(0x103))/0x3)+-parseInt(_0x3c695e(0xf3))/0x4+-parseInt(_0x3c695e(0xf0))/0x5+parseInt(_0x3c695e(0xfd))/0x6*(parseInt(_0x3c695e(0x112))/0x7)+parseInt(_0x3c695e(0xf7))/0x8+-parseInt(_0x3c695e(0xed))/0x9*(-parseInt(_0x3c695e(0x117))/0xa);if(_0x21e847===_0x27d0b1)break;else _0x1bddfb['push'](_0x1bddfb['shift']());}catch(_0x437ab8){_0x1bddfb['push'](_0x1bddfb['shift']());}}}(_0x3dd4,0xebe18));const {downloadMediaMessage,prepareWAMessageMedia,generateWAMessageFromContent}=require('@whiskeysockets/baileys'),pino=require('pino'),settings=require(_0x1bbdd3(0xf8)),isAdmin=require('../lib/isAdmin'),channelInfo={'contextInfo':{'forwardingScore':0x3e7,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':settings['newsletterJid'],'newsletterName':settings[_0x1bbdd3(0xfb)],'serverMessageId':0xd}}};function formatStatusMessage(_0x1db394,_0x36b6f7,_0x26bc34='info'){const _0xc9a7b9=_0x1bbdd3,_0x4a0dca={'info':'ℹ️','success':'✅','warning':'⚠️','error':'❌','status':'📱','image':'🖼️','video':'🎬','text':'📝','admin':'👑'};return _0xc9a7b9(0x102)+_0x4a0dca[_0x26bc34]+'\x20'+_0x1db394+'\x20』*\x0a╭─────────⟢\x0a'+_0x36b6f7+'\x0a╰─────────⟢\x0a\x0a>\x20*©\x20ᴘᴏᴡᴇʀᴇᴅ\x20ʙʏ\x20ʙᴀᴛᴍᴀɴ\x20ᴍᴅ*';}async function gcstatus(_0x4868e4,_0x12c81f,_0x2226a5,_0x54bae1){const _0x1fc53c=_0x1bbdd3,_0x1fe828={'MiReN':function(_0x4b6544,_0x1f7ed5,_0x3ade32,_0x493ccf){return _0x4b6544(_0x1f7ed5,_0x3ade32,_0x493ccf);},'xwkWW':'GROUP\x20ONLY','XIiNr':_0x1fc53c(0x113),'EzPTo':'ADMIN\x20ONLY','PcZLl':_0x1fc53c(0x11b),'gkpJA':'image','YdSJh':'video','HZQUi':function(_0x2a6757,_0x314d47,_0x18608d,_0xd04918,_0x58bf41){return _0x2a6757(_0x314d47,_0x18608d,_0xd04918,_0x58bf41);},'psFCQ':function(_0x360f52,_0x37f3b8){return _0x360f52||_0x37f3b8;},'bQtZm':_0x1fc53c(0x11a),'MuCAc':function(_0x544dcb,_0x1b1eea){return _0x544dcb(_0x1b1eea);},'FNyTo':_0x1fc53c(0x101),'dHjFY':'DOWNLOAD\x20FAILED','vtxbS':function(_0x5f177d,_0x28ef97){return _0x5f177d===_0x28ef97;},'BDkMX':_0x1fc53c(0x109),'sQwcp':_0x1fc53c(0xf6),'xsLLz':function(_0x1eb91b,_0x31ecc1){return _0x1eb91b===_0x31ecc1;},'YaIFn':function(_0x225dfe,_0x2fdc13){return _0x225dfe+_0x2fdc13;},'zLMLt':'📝\x20*Text:*\x20','cySFp':'[GC\x20STATUS\x20ERROR]','TKOIE':function(_0x303e1d,_0x37f489,_0x815e67,_0x41c4a2){return _0x303e1d(_0x37f489,_0x815e67,_0x41c4a2);},'AsVXP':'ERROR'},_0x4d2983=_0x12c81f,_0x1a919a=_0x2226a5,_0x4732c3=_0x54bae1||'';if(!_0x4d2983['endsWith']('@g.us')){const _0x444472=_0x1fe828[_0x1fc53c(0xe1)](formatStatusMessage,_0x1fe828[_0x1fc53c(0x100)],_0x1fc53c(0xfc),_0x1fe828[_0x1fc53c(0x107)]);return await _0x4868e4['sendMessage'](_0x4d2983,{'text':_0x444472,...channelInfo},{'quoted':_0x1a919a});}const _0x1f03bd=_0x1a919a[_0x1fc53c(0x10d)]['participant']||_0x1a919a[_0x1fc53c(0x10d)]['remoteJid'],_0x9dad68=await _0x1fe828[_0x1fc53c(0xe1)](isAdmin,_0x4868e4,_0x4d2983,_0x1f03bd),_0x40c180=_0x9dad68[_0x1fc53c(0x10f)],_0x45c58d=_0x9dad68[_0x1fc53c(0xe9)];if(!_0x40c180&&!_0x1a919a['key']['fromMe']){const _0x345d67=formatStatusMessage(_0x1fe828[_0x1fc53c(0x111)],'│\x20👑\x20Only\x20group\x20admins\x20can\x20post\x20status\x20updates.\x0a│\x0a│\x20🔒\x20This\x20feature\x20is\x20restricted\x20to\x20admins.',_0x1fe828[_0x1fc53c(0x107)]);return await _0x4868e4['sendMessage'](_0x4d2983,{'text':_0x345d67,...channelInfo},{'quoted':_0x1a919a});}if(!_0x45c58d){const _0x3d0fd5=formatStatusMessage(_0x1fe828['PcZLl'],_0x1fc53c(0x10e),_0x1fe828[_0x1fc53c(0x107)]);return await _0x4868e4['sendMessage'](_0x4d2983,{'text':_0x3d0fd5,...channelInfo},{'quoted':_0x1a919a});}let _0x3fd090=null,_0x5164a9=null,_0x35e940=null;if(_0x1a919a[_0x1fc53c(0xff)]?.['extendedTextMessage']?.[_0x1fc53c(0x11c)]?.['quotedMessage']){_0x3fd090=_0x1a919a['message']['extendedTextMessage'][_0x1fc53c(0x11c)][_0x1fc53c(0x108)];if(_0x3fd090['imageMessage'])_0x5164a9=_0x1fe828[_0x1fc53c(0x10c)];else{if(_0x3fd090['videoMessage'])_0x5164a9=_0x1fe828['YdSJh'];else _0x3fd090['audioMessage']&&(_0x5164a9=_0x1fc53c(0x109));}}if(!_0x5164a9&&!_0x4732c3[_0x1fc53c(0xee)]()){const _0x589957=_0x1fe828['MiReN'](formatStatusMessage,_0x1fc53c(0x10a),_0x1fc53c(0x104),'status');return await _0x4868e4['sendMessage'](_0x4d2983,{'text':_0x589957,...channelInfo},{'quoted':_0x1a919a});}await _0x4868e4['sendMessage'](_0x4d2983,{'react':{'text':'⏳','key':_0x1a919a['key']}});try{let _0x212b3b={};if(_0x5164a9){try{const _0x25c065=_0x1a919a['message'][_0x1fc53c(0xf5)][_0x1fc53c(0x11c)]['stanzaId'],_0x7dc1c1=_0x1a919a[_0x1fc53c(0xff)]['extendedTextMessage']['contextInfo']['participant'];if(!_0x25c065)throw new Error('Could\x20not\x20get\x20quoted\x20message\x20ID');_0x35e940=await _0x1fe828['HZQUi'](downloadMediaMessage,{'key':{'remoteJid':_0x4d2983,'id':_0x25c065,'participant':_0x1fe828[_0x1fc53c(0xe5)](_0x7dc1c1,_0x1f03bd)},'message':_0x3fd090},_0x1fe828[_0x1fc53c(0xf9)],{},{'logger':_0x1fe828[_0x1fc53c(0xe8)](pino,{'level':'silent'})});if(!_0x35e940||_0x35e940['length']===0x0)throw new Error(_0x1fe828['FNyTo']);}catch(_0x3f2b92){console['error']('Download\x20error:',_0x3f2b92);const _0x104d9f=_0x1fe828['MiReN'](formatStatusMessage,_0x1fe828['dHjFY'],'│\x20❌\x20Failed\x20to\x20download\x20media.\x0a│\x20🔧\x20'+_0x3f2b92['message']+'\x0a│\x0a│\x20🔄\x20Please\x20try\x20again.',_0x1fc53c(0x113));await _0x4868e4[_0x1fc53c(0xfe)](_0x4d2983,{'text':_0x104d9f,...channelInfo},{'quoted':_0x1a919a}),await _0x4868e4[_0x1fc53c(0xfe)](_0x4d2983,{'react':{'text':'❌','key':_0x1a919a['key']}});return;}let _0x12f9d4={};if(_0x1fe828['vtxbS'](_0x5164a9,_0x1fe828['gkpJA']))_0x12f9d4={'image':_0x35e940,'caption':_0x1fe828['psFCQ'](_0x4732c3,'\x20')};else{if(_0x1fe828['vtxbS'](_0x5164a9,_0x1fc53c(0x11d)))_0x12f9d4={'video':_0x35e940,'caption':_0x4732c3||'\x20'};else _0x5164a9===_0x1fe828['BDkMX']&&(_0x12f9d4={'audio':_0x35e940,'mimetype':_0x1fe828['sQwcp'],'ptt':![]});}const _0x1c264e=await prepareWAMessageMedia(_0x12f9d4,{'upload':_0x4868e4['waUploadToServer']});let _0x40eac5={};if(_0x1fe828[_0x1fc53c(0xef)](_0x5164a9,_0x1fc53c(0x115)))_0x40eac5={'imageMessage':_0x1c264e['imageMessage']};else{if(_0x5164a9===_0x1fe828[_0x1fc53c(0x105)])_0x40eac5={'videoMessage':_0x1c264e['videoMessage']};else _0x1fe828[_0x1fc53c(0xef)](_0x5164a9,_0x1fe828['BDkMX'])&&(_0x40eac5={'audioMessage':_0x1c264e['audioMessage']});}_0x212b3b={'groupStatusMessageV2':{'message':_0x40eac5}};}else{if(_0x4732c3[_0x1fc53c(0xee)]()){const _0x2ac47d=Math[_0x1fc53c(0xf2)](Math[_0x1fc53c(0x119)]()*0xffffff)[_0x1fc53c(0xe6)](0x10)[_0x1fc53c(0xf1)](0x6,'0');_0x212b3b={'groupStatusMessageV2':{'message':{'extendedTextMessage':{'text':_0x4732c3,'backgroundArgb':_0x1fe828[_0x1fc53c(0x106)](0xff000000,parseInt(_0x2ac47d,0x10)),'font':0x2,'textArgb':0xffffffff}}}};}}const _0x25faac=generateWAMessageFromContent(_0x4d2983,_0x212b3b,{'userJid':_0x4868e4[_0x1fc53c(0x118)]['id']});await _0x4868e4[_0x1fc53c(0xe2)](_0x4d2983,_0x25faac['message'],{'messageId':_0x25faac['key']['id']}),await _0x4868e4['sendMessage'](_0x4d2983,{'react':{'text':'✅','key':_0x1a919a[_0x1fc53c(0x10d)]}});const _0xb30305=_0x1a919a['pushName']||_0x1f03bd[_0x1fc53c(0xec)]('@')[0x0],_0x262a24=_0x1fe828[_0x1fc53c(0xe1)](formatStatusMessage,_0x1fc53c(0xe3),_0x1fc53c(0x10b)+_0xb30305+_0x1fc53c(0xfa)+(_0x5164a9?'📁\x20*Type:*\x20'+_0x5164a9[_0x1fc53c(0xe4)]():_0x1fe828[_0x1fc53c(0xf4)]+_0x4732c3[_0x1fc53c(0x114)](0x0,0x32)),'success');await _0x4868e4['sendMessage'](_0x4d2983,{'text':_0x262a24,...channelInfo});}catch(_0x26d9a1){console[_0x1fc53c(0x113)](_0x1fe828[_0x1fc53c(0xe7)],_0x26d9a1);const _0x126212=_0x1fe828['TKOIE'](formatStatusMessage,_0x1fe828[_0x1fc53c(0xea)],'│\x20❌\x20Failed\x20to\x20post\x20status.\x0a│\x20🔧\x20'+_0x26d9a1['message']+'\x0a│\x0a│\x20🔄\x20Please\x20try\x20again\x20later.',_0x1fc53c(0x113));await _0x4868e4['sendMessage'](_0x4d2983,{'text':_0x126212,...channelInfo},{'quoted':_0x1a919a}),await _0x4868e4[_0x1fc53c(0xfe)](_0x4d2983,{'react':{'text':'❌','key':_0x1a919a[_0x1fc53c(0x10d)]}});}}function _0x3dd4(){const _0x51d31c=['CMfUzg9T','yNvMzMvY','qK9uie5pvcbbre1jtG','y29UDgv4DeLUzM8','DMLKzw8','twLszu4','CMvSyxLnzxnZywDL','u1rbvfvtifbpu1rfra','Dg9vChbLCKnHC2u','Chngq1e','Dg9tDhjPBMC','y3LtrNa','txvdqwm','AxncB3rbzg1PBG','qxnwwfa','nZC4mdKZD1zTB1nt','C3bSAxq','mtGWmJqZEg5nuxHS','DhjPBq','EhnmthO','ndy4nZG0nvDAtKvesW','CgfKu3rHCNq','zMXVB3i','mJa1nte1mNz4rMfhvW','EKXnthq','zxH0zw5KzwruzxH0twvZC2fNzq','yxvKAw8VBxa0','odG3nta2ng92vhHnyq','lI4VC2v0DgLUz3m','yLf0wM0','kIbWB3n0zwqGysbNCM91CcbZDgf0DxmHcUkuGIa','BMv3C2XLDhrLCK5HBwu','4PsciokDJcbuAgLZignVBw1HBMqGy2fUig9UBhKGyMuGDxnLzcbPBIbNCM91ChmU','mtuWEMHjCe1O','C2vUze1LC3nHz2u','BwvZC2fNzq','EhDRv1C','rMfPBgvKihrVigrVD25SB2fKig1LzgLH','kUoaJIa','nZGWnJnRChbmDwC','4PscipcFK7eGug9ZDcbZDgf0DxmGDxbKyxrLCYbPBIb0AguGz3jVDxaHcUkuGGRILiiGkLvZywDLoIOk4PsciokaOIbszxbSEsb0BYbTzwrPytOGlMDJC3rHDhvZcUkuGIdIGkiGv2L0Acb0zxH0oIaUz2nZDgf0DxmGpg1LC3nHz2u+cUkuGGRILiiGkKv4yw1WBgvZoIOk4PsciokzPYbszxbSEsb0BYbHBIbPBwfNzs92AwrLBWRILiiG4PMNic5Ny3n0yxr1CYbizwXSBYbLDMvYEw9Uzsek4PsciokzPYaUz2nZDgf0DxmGq2HLy2SGDgHPCYbVDxqH','wwrtsMG','wwfjrM4','weLPtNi','CxvVDgvKtwvZC2fNzq','yxvKAw8','r1jpvvaGu1rbvfvt','4PscipcFKzeGkG','z2TWsKe','A2v5','4PscipcFPjyGqM90ig5LzwrZihrVigjLigfKBwLUihrVihbVC3qGC3rHDhvZlGRILiik4PscifbSzwfZzsbTywTLihrOzsbIB3qGyw4GywrTAw4GzMLYC3qU','Axntzw5Kzxjbzg1PBG','mtqYv0HsuNPo','rxPqvg8','mtG3ndeXtunszhjg','zxjYB3i','C3vIC3rYAw5N','Aw1Hz2u','zxHWB3j0CW','mtyZmgTnwNDAva','DxnLCG'];_0x3dd4=function(){return _0x51d31c;};return _0x3dd4();}module[_0x1bbdd3(0x116)]=gcstatus;
+const { 
+    downloadMediaMessage, 
+    prepareWAMessageMedia, 
+    generateWAMessageFromContent 
+} = require('@whiskeysockets/baileys');
+const pino = require('pino');
+const settings = require('../settings');
+const isAdmin = require('../lib/isAdmin');
+
+// ============================================
+// Newsletter channel info
+// ============================================
+const channelInfo = {
+    contextInfo: {
+        forwardingScore: 999,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: settings.newsletterJid,
+            newsletterName: settings.newsletterName,
+            serverMessageId: 13
+        }
+    }
+};
+
+// ============================================
+// Helper function for stylish messages
+// ============================================
+function formatStatusMessage(title, content, type = 'info') {
+    const emojis = {
+        info: 'ℹ️',
+        success: '✅',
+        warning: '⚠️',
+        error: '❌',
+        status: '📱',
+        image: '🖼️',
+        video: '🎬',
+        text: '📝',
+        admin: '👑'
+    };
+    
+    return `*『 ${emojis[type]} ${title} 』*
+╭─────────⟢
+${content}
+╰─────────⟢
+
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
+}
+
+async function gcstatus(sock, chatId, message, args) {
+    const from = chatId;
+    const m = message;
+    
+    // args is already a string from main.js, not an array
+    const text = args || '';
+    
+    // Check if in group
+    if (!from.endsWith('@g.us')) {
+        const errorMsg = formatStatusMessage(
+            'GROUP ONLY',
+            `│ ❌ This command can only be used in groups.`,
+            'error'
+        );
+        return await sock.sendMessage(from, { text: errorMsg, ...channelInfo }, { quoted: m });
+    }
+
+    // Get sender info
+    const senderId = m.key.participant || m.key.remoteJid;
+    
+    // Check if sender is admin
+    const adminStatus = await isAdmin(sock, from, senderId);
+    const isSenderAdmin = adminStatus.isSenderAdmin;
+    const isBotAdmin = adminStatus.isBotAdmin;
+    
+    // Only admins can post group status
+    if (!isSenderAdmin && !m.key.fromMe) {
+        const errorMsg = formatStatusMessage(
+            'ADMIN ONLY',
+            `│ 👑 Only group admins can post status updates.\n│\n│ 🔒 This feature is restricted to admins.`,
+            'error'
+        );
+        return await sock.sendMessage(from, { text: errorMsg, ...channelInfo }, { quoted: m });
+    }
+
+    // Check if bot is admin (needed to post)
+    if (!isBotAdmin) {
+        const errorMsg = formatStatusMessage(
+            'BOT NOT ADMIN',
+            `│ 🤖 Bot needs to be admin to post status.\n│\n│ Please make the bot an admin first.`,
+            'error'
+        );
+        return await sock.sendMessage(from, { text: errorMsg, ...channelInfo }, { quoted: m });
+    }
+
+    // Get quoted message
+    let quotedMessage = null;
+    let mediaType = null;
+    let mediaBuffer = null;
+    
+    // Check if replying to a message
+    if (m.message?.extendedTextMessage?.contextInfo?.quotedMessage) {
+        quotedMessage = m.message.extendedTextMessage.contextInfo.quotedMessage;
+        
+        // Determine media type
+        if (quotedMessage.imageMessage) {
+            mediaType = 'image';
+        } else if (quotedMessage.videoMessage) {
+            mediaType = 'video';
+        } else if (quotedMessage.audioMessage) {
+            mediaType = 'audio';
+        }
+    }
+    
+    // Validate input
+    if (!mediaType && !text.trim()) {
+        const usageMsg = formatStatusMessage(
+            'GROUP STATUS',
+            `│ 📱 Post status updates in the group!\n│\n│ *Usage:*\n│ • Reply to media: .gcstatus\n│ • With text: .gcstatus <message>\n│\n│ *Examples:*\n│ ♧ Reply to an image/video\n│ ♧ .gcstatus Hello everyone!\n│ ♧ .gcstatus Check this out!`,
+            'status'
+        );
+        return await sock.sendMessage(from, { text: usageMsg, ...channelInfo }, { quoted: m });
+    }
+
+    // Send processing reaction
+    await sock.sendMessage(from, { react: { text: '⏳', key: m.key } });
+
+    try {
+        let messagePayload = {};
+
+        // 2. Prepare MEDIA (Image/Video/Audio)
+        if (mediaType) {
+            try {
+                // Get the correct message ID and participant for the quoted message
+                const stanzaId = m.message.extendedTextMessage.contextInfo.stanzaId;
+                const participant = m.message.extendedTextMessage.contextInfo.participant;
+                
+                if (!stanzaId) {
+                    throw new Error('Could not get quoted message ID');
+                }
+                
+                // Download media
+                mediaBuffer = await downloadMediaMessage(
+                    {
+                        key: {
+                            remoteJid: from,
+                            id: stanzaId,
+                            participant: participant || senderId
+                        },
+                        message: quotedMessage
+                    },
+                    'buffer',
+                    {},
+                    { logger: pino({ level: 'silent' }) }
+                );
+                
+                if (!mediaBuffer || mediaBuffer.length === 0) {
+                    throw new Error('Failed to download media');
+                }
+            } catch (downloadError) {
+                console.error('Download error:', downloadError);
+                const errorMsg = formatStatusMessage(
+                    'DOWNLOAD FAILED',
+                    `│ ❌ Failed to download media.\n│ 🔧 ${downloadError.message}\n│\n│ 🔄 Please try again.`,
+                    'error'
+                );
+                await sock.sendMessage(from, { text: errorMsg, ...channelInfo }, { quoted: m });
+                await sock.sendMessage(from, { react: { text: '❌', key: m.key } });
+                return;
+            }
+            
+            // Prepare media options
+            let mediaOptions = {};
+            if (mediaType === 'image') {
+                mediaOptions = { image: mediaBuffer, caption: text || ' ' };
+            } else if (mediaType === 'video') {
+                mediaOptions = { video: mediaBuffer, caption: text || ' ' };
+            } else if (mediaType === 'audio') {
+                mediaOptions = { audio: mediaBuffer, mimetype: 'audio/mp4', ptt: false };
+            }
+            
+            // Upload & prepare
+            const preparedMedia = await prepareWAMessageMedia(
+                mediaOptions,
+                { upload: sock.waUploadToServer }
+            );
+            
+            // Construct final message
+            let finalMediaMsg = {};
+            if (mediaType === 'image') {
+                finalMediaMsg = { imageMessage: preparedMedia.imageMessage };
+            } else if (mediaType === 'video') {
+                finalMediaMsg = { videoMessage: preparedMedia.videoMessage };
+            } else if (mediaType === 'audio') {
+                finalMediaMsg = { audioMessage: preparedMedia.audioMessage };
+            }
+            
+            messagePayload = {
+                groupStatusMessageV2: {
+                    message: finalMediaMsg
+                }
+            };
+        } 
+        // 3. Prepare TEXT
+        else if (text.trim()) {
+            // Random background color for text status
+            const randomHex = Math.floor(Math.random() * 0xFFFFFF).toString(16).padStart(6, '0');
+            messagePayload = {
+                groupStatusMessageV2: {
+                    message: {
+                        extendedTextMessage: {
+                            text: text,
+                            backgroundArgb: 0xFF000000 + parseInt(randomHex, 16),
+                            font: 2,
+                            textArgb: 0xFFFFFFFF // White text
+                        }
+                    }
+                }
+            };
+        }
+
+        // 4. Generate & Send
+        const msg = generateWAMessageFromContent(
+            from,
+            messagePayload,
+            { userJid: sock.user.id }
+        );
+        
+        await sock.relayMessage(from, msg.message, { messageId: msg.key.id });
+        
+        // Send success reaction
+        await sock.sendMessage(from, { react: { text: '✅', key: m.key } });
+        
+        // Optional: Send notification that status was posted
+        const senderName = m.pushName || senderId.split('@')[0];
+        const notification = formatStatusMessage(
+            'STATUS POSTED',
+            `│ 👑 *${senderName}* posted a group status!\n│ ${mediaType ? `📁 *Type:* ${mediaType.toUpperCase()}` : '📝 *Text:* ' + text.substring(0, 50)}`,
+            'success'
+        );
+        await sock.sendMessage(from, { text: notification, ...channelInfo });
+
+    } catch (e) {
+        console.error("[GC STATUS ERROR]", e);
+        
+        const errorMsg = formatStatusMessage(
+            'ERROR',
+            `│ ❌ Failed to post status.\n│ 🔧 ${e.message}\n│\n│ 🔄 Please try again later.`,
+            'error'
+        );
+        
+        await sock.sendMessage(from, { text: errorMsg, ...channelInfo }, { quoted: m });
+        await sock.sendMessage(from, { react: { text: '❌', key: m.key } });
+    }
+}
+
+module.exports = gcstatus;

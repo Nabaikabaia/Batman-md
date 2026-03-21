@@ -1,29 +1,11 @@
 // commands/status.js
-const { 
-    downloadMediaMessage, 
-    prepareWAMessageMedia, 
-    generateWAMessageFromContent 
-} = require('@whiskeysockets/baileys');
-const pino = require('pino');
 const settings = require('../settings');
+const fs = require('fs');
+const path = require('path');
+const axios = require('axios');
 
 // ============================================
-// Newsletter channel info
-// ============================================
-const channelInfo = {
-    contextInfo: {
-        forwardingScore: 999,
-        isForwarded: true,
-        forwardedNewsletterMessageInfo: {
-            newsletterJid: settings.newsletterJid,
-            newsletterName: settings.newsletterName,
-            serverMessageId: 13
-        }
-    }
-};
-
-// ============================================
-// Helper function for stylish messages
+// HELPER FUNCTIONS
 // ============================================
 function formatStatusMessage(title, content, type = 'info') {
     const emojis = {
@@ -34,8 +16,7 @@ function formatStatusMessage(title, content, type = 'info') {
         status: '📱',
         image: '🖼️',
         video: '🎬',
-        text: '📝',
-        owner: '👑'
+        text: '📝'
     };
     
     return `*『 ${emojis[type]} ${title} 』*
@@ -46,155 +27,212 @@ ${content}
 > *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
 }
 
-async function statusCommand(sock, chatId, message, args) {
-    const from = chatId;
-    const m = message;
-    const text = args || '';
-    
-    // ============================================
-    // CHECK OWNER PERMISSION
-    // ============================================
-    const senderId = m.key.participant || m.key.remoteJid;
-    const isOwner = senderId.includes(settings.ownerNumber);
-    
-    if (!isOwner && !m.key.fromMe) {
-        const errorMsg = formatStatusMessage(
-            'UNAUTHORIZED',
-            `│ 👑 Only the bot owner can post status updates!\n│\n│ 🔒 This feature is restricted to the bot owner.`,
-            'error'
-        );
-        return await sock.sendMessage(from, { text: errorMsg, ...channelInfo }, { quoted: m });
+// ============================================
+// FUNCTION TO CONVERT STREAM TO BUFFER
+// ============================================
+async function streamToBuffer(stream) {
+    const chunks = [];
+    for await (const chunk of stream) {
+        chunks.push(chunk);
     }
+    return Buffer.concat(chunks);
+}
 
-    // ============================================
-    // GET QUOTED MEDIA
-    // ============================================
-    let quotedMessage = null;
-    let mediaType = null;
-    let mediaBuffer = null;
-    
-    if (m.message?.extendedTextMessage?.contextInfo?.quotedMessage) {
-        quotedMessage = m.message.extendedTextMessage.contextInfo.quotedMessage;
-        
-        if (quotedMessage.imageMessage) {
-            mediaType = 'image';
-        } else if (quotedMessage.videoMessage) {
-            mediaType = 'video';
-        }
-    }
-    
-    // ============================================
-    // VALIDATE INPUT
-    // ============================================
-    if (!mediaType && !text.trim()) {
-        const usageMsg = formatStatusMessage(
-            'STATUS POSTER',
-            `│ 📱 Post WhatsApp status updates!\n│\n│ *Usage:*\n│ • Text: .status <message>\n│ • Reply to image: .status\n│ • Reply to video: .status\n│\n│ *Examples:*\n│ ♧ .status Hello everyone!\n│ ♧ Reply to an image/video\n│\n│ *Note:* Only bot owner can use this`,
-            'status'
-        );
-        return await sock.sendMessage(from, { text: usageMsg, ...channelInfo }, { quoted: m });
-    }
-
-    // Send processing reaction
-    await sock.sendMessage(from, { react: { text: '⏳', key: m.key } });
-
+// ============================================
+// FUNCTION TO DOWNLOAD MEDIA FROM QUOTED MESSAGE
+// ============================================
+async function downloadQuotedMedia(sock, message) {
     try {
-        // ============================================
-        // POST MEDIA STATUS (Image/Video)
-        // ============================================
-        if (mediaType) {
-            try {
-                const stanzaId = m.message.extendedTextMessage.contextInfo.stanzaId;
-                const participant = m.message.extendedTextMessage.contextInfo.participant;
-                
-                if (!stanzaId) {
-                    throw new Error('Could not get quoted message ID');
+        const quotedMsg = message.message?.extendedTextMessage?.contextInfo?.quotedMessage;
+        if (!quotedMsg) return null;
+        
+        let mediaMessage = null;
+        let mediaType = null;
+        
+        if (quotedMsg.imageMessage) {
+            mediaMessage = quotedMsg.imageMessage;
+            mediaType = 'image';
+        } else if (quotedMsg.videoMessage) {
+            mediaMessage = quotedMsg.videoMessage;
+            mediaType = 'video';
+        } else {
+            return null;
+        }
+        
+        // Get the message ID of the quoted message
+        const stanzaId = message.message.extendedTextMessage.contextInfo.stanzaId;
+        const participant = message.message.extendedTextMessage.contextInfo.participant;
+        
+        // Create the key for the quoted message
+        const quotedKey = {
+            remoteJid: message.key.remoteJid,
+            id: stanzaId,
+            fromMe: false
+        };
+        
+        if (participant) {
+            quotedKey.participant = participant;
+        }
+        
+        // Download the media
+        const stream = await sock.downloadMediaMessage({
+            key: quotedKey,
+            message: mediaMessage
+        });
+        
+        const buffer = await streamToBuffer(stream);
+        return { buffer, type: mediaType, mimetype: mediaMessage.mimetype };
+        
+    } catch (error) {
+        console.error('Download error:', error);
+        return null;
+    }
+}
+
+// ============================================
+// MAIN STATUS POST COMMAND
+// ============================================
+async function statusCommand(sock, chatId, message, args) {
+    try {
+        const senderId = message.key.participant || message.key.remoteJid;
+        const isOwner = senderId.includes(settings.ownerNumber);
+        
+        // Check if user is owner
+        if (!isOwner && !message.key.fromMe) {
+            const errorMsg = formatStatusMessage(
+                'UNAUTHORIZED',
+                `│ ❌ Only the bot owner can post status updates!\n│\n│ 👑 This command is restricted to the bot owner.`,
+                'error'
+            );
+            return await sock.sendMessage(chatId, { text: errorMsg }, { quoted: message });
+        }
+
+        const text = args.trim();
+        
+        // Newsletter context
+        const newsletterContext = {
+            contextInfo: {
+                forwardingScore: 999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: settings.newsletterJid,
+                    newsletterName: settings.botName || 'BATMAN MD',
+                    serverMessageId: 13
                 }
+            }
+        };
+
+        // ============================================
+        // CHECK FOR QUOTED MEDIA (IMAGE/VIDEO)
+        // ============================================
+        const quotedMedia = await downloadQuotedMedia(sock, message);
+        
+        if (quotedMedia) {
+            await sock.sendMessage(chatId, { react: { text: '⏳', key: message.key } });
+            
+            try {
+                // Post to status using the correct method
+                const statusMessage = {
+                    [quotedMedia.type]: quotedMedia.buffer,
+                    caption: text || `📢 *${settings.botName || 'BATMAN MD'} Status Update*\n\n🕒 ${new Date().toLocaleString()}`
+                };
                 
-                // Download media
-                mediaBuffer = await downloadMediaMessage(
-                    {
-                        key: {
-                            remoteJid: from,
-                            id: stanzaId,
-                            participant: participant || senderId
-                        },
-                        message: quotedMessage
-                    },
-                    'buffer',
-                    {},
-                    { logger: pino({ level: 'silent' }) }
+                // Send to status broadcast
+                await sock.sendMessage('status@broadcast', statusMessage);
+                
+                const successMsg = formatStatusMessage(
+                    'STATUS POSTED',
+                    `│ ✅ Status posted successfully!\n│ 📁 *Type:* ${quotedMedia.type.toUpperCase()}\n│ 📝 *Caption:* ${text || 'No caption'}\n│ 🕒 *Time:* ${new Date().toLocaleString()}`,
+                    'success'
                 );
                 
-                if (!mediaBuffer || mediaBuffer.length === 0) {
-                    throw new Error('Failed to download media');
-                }
-            } catch (downloadError) {
-                console.error('Download error:', downloadError);
+                await sock.sendMessage(chatId, { text: successMsg, ...newsletterContext }, { quoted: message });
+                await sock.sendMessage(chatId, { react: { text: '✅', key: message.key } });
+                
+            } catch (error) {
+                console.error('Status post error:', error);
                 const errorMsg = formatStatusMessage(
-                    'DOWNLOAD FAILED',
-                    `│ ❌ Failed to download media.\n│ 🔧 ${downloadError.message}\n│\n│ 🔄 Please try again.`,
+                    'POST FAILED',
+                    `│ ❌ Failed to post status.\n│ 🔧 ${error.message}\n│\n│ 🔄 Please try again.`,
                     'error'
                 );
-                await sock.sendMessage(from, { text: errorMsg, ...channelInfo }, { quoted: m });
-                await sock.sendMessage(from, { react: { text: '❌', key: m.key } });
-                return;
+                await sock.sendMessage(chatId, { text: errorMsg }, { quoted: message });
+                await sock.sendMessage(chatId, { react: { text: '❌', key: message.key } });
             }
             
-            // Prepare caption
-            const caption = text.trim() || `📢 *${settings.botName || 'BATMAN MD'} Status*\n\n🕒 ${new Date().toLocaleString()}`;
-            
-            // Post to WhatsApp status (stories)
-            await sock.sendMessage('status@broadcast', {
-                [mediaType]: mediaBuffer,
-                caption: caption,
-                ...channelInfo
-            });
-            
-            // Send success message
-            const successMsg = formatStatusMessage(
-                'STATUS POSTED',
-                `│ ✅ Status posted successfully!\n│ 📁 *Type:* ${mediaType.toUpperCase()}\n│ 📝 *Caption:* ${text.trim() || 'No caption'}\n│ 🕒 *Time:* ${new Date().toLocaleString()}`,
-                'success'
-            );
-            
-            await sock.sendMessage(from, { text: successMsg, ...channelInfo }, { quoted: m });
-            await sock.sendMessage(from, { react: { text: '✅', key: m.key } });
-        } 
+            return;
+        }
+        
         // ============================================
         // POST TEXT STATUS
         // ============================================
-        else if (text.trim()) {
-            // Create status text with styling
-            const statusText = `📢 *${settings.botName || 'BATMAN MD'} Status*\n\n${text.trim()}\n\n🕒 ${new Date().toLocaleString()}\n\n> *Powered by ${settings.botName || 'BATMAN MD'}*`;
+        if (text) {
+            await sock.sendMessage(chatId, { react: { text: '⏳', key: message.key } });
             
-            // Post to WhatsApp status
-            await sock.sendMessage('status@broadcast', {
-                text: statusText,
-                ...channelInfo
-            });
+            try {
+                // Create status text
+                const statusText = `📢 *${settings.botName || 'BATMAN MD'} Status Update*\n\n${text}\n\n🕒 ${new Date().toLocaleString()}\n\n> *Powered by ${settings.botName || 'BATMAN MD'}*`;
+                
+                // Send to status broadcast
+                await sock.sendMessage('status@broadcast', {
+                    text: statusText,
+                    ...newsletterContext
+                });
+                
+                const successMsg = formatStatusMessage(
+                    'STATUS POSTED',
+                    `│ ✅ Status posted successfully!\n│ 📝 *Text:* ${text.substring(0, 50)}${text.length > 50 ? '...' : ''}\n│ 🕒 *Time:* ${new Date().toLocaleString()}`,
+                    'success'
+                );
+                
+                await sock.sendMessage(chatId, { text: successMsg, ...newsletterContext }, { quoted: message });
+                await sock.sendMessage(chatId, { react: { text: '✅', key: message.key } });
+                
+            } catch (error) {
+                console.error('Status post error:', error);
+                const errorMsg = formatStatusMessage(
+                    'POST FAILED',
+                    `│ ❌ Failed to post status.\n│ 🔧 ${error.message}\n│\n│ 🔄 Please try again.`,
+                    'error'
+                );
+                await sock.sendMessage(chatId, { text: errorMsg }, { quoted: message });
+                await sock.sendMessage(chatId, { react: { text: '❌', key: message.key } });
+            }
             
-            const successMsg = formatStatusMessage(
-                'STATUS POSTED',
-                `│ ✅ Status posted successfully!\n│ 📝 *Text:* ${text.substring(0, 50)}${text.length > 50 ? '...' : ''}\n│ 🕒 *Time:* ${new Date().toLocaleString()}`,
-                'success'
-            );
-            
-            await sock.sendMessage(from, { text: successMsg, ...channelInfo }, { quoted: m });
-            await sock.sendMessage(from, { react: { text: '✅', key: m.key } });
+            return;
         }
+        
+        // ============================================
+        // SHOW USAGE
+        // ============================================
+        const usageMsg = `*『 📱 STATUS POSTER 』*
+╭─────────⟢
+│ 📢 Post WhatsApp status updates!
+│
+│ *Usage:*
+│ ♧ .status <text>
+│ ♧ Reply to image/video with .status
+│
+│ *Examples:*
+│ ♧ .status Hello everyone!
+│ ♧ Reply to an image/video
+│
+│ *Note:* Only bot owner can use this
+╰─────────⟢
 
-    } catch (e) {
-        console.error("[STATUS ERROR]", e);
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
+        
+        await sock.sendMessage(chatId, { text: usageMsg, ...newsletterContext }, { quoted: message });
+        
+    } catch (error) {
+        console.error('Status Command Error:', error);
         
         const errorMsg = formatStatusMessage(
             'ERROR',
-            `│ ❌ Failed to post status.\n│ 🔧 ${e.message}\n│\n│ 🔄 Please try again later.`,
+            `│ ❌ Failed to process request.\n│ 🔧 ${error.message}\n│\n│ 🔄 Please try again later.`,
             'error'
         );
-        
-        await sock.sendMessage(from, { text: errorMsg, ...channelInfo }, { quoted: m });
-        await sock.sendMessage(from, { react: { text: '❌', key: m.key } });
+        await sock.sendMessage(chatId, { text: errorMsg }, { quoted: message });
     }
 }
 

@@ -1,1 +1,314 @@
-const _0x10e73d=_0x3d52;(function(_0x1eb026,_0x3830ef){const _0x5cd886=_0x3d52,_0x131bc5=_0x1eb026();while(!![]){try{const _0x1fd317=-parseInt(_0x5cd886(0x116))/0x1*(parseInt(_0x5cd886(0xcb))/0x2)+parseInt(_0x5cd886(0x11e))/0x3*(parseInt(_0x5cd886(0xdf))/0x4)+parseInt(_0x5cd886(0xff))/0x5*(-parseInt(_0x5cd886(0xde))/0x6)+parseInt(_0x5cd886(0xc8))/0x7+parseInt(_0x5cd886(0x101))/0x8*(parseInt(_0x5cd886(0xeb))/0x9)+parseInt(_0x5cd886(0x11a))/0xa*(-parseInt(_0x5cd886(0xe0))/0xb)+-parseInt(_0x5cd886(0x115))/0xc*(-parseInt(_0x5cd886(0xd1))/0xd);if(_0x1fd317===_0x3830ef)break;else _0x131bc5['push'](_0x131bc5['shift']());}catch(_0x3f663b){_0x131bc5['push'](_0x131bc5['shift']());}}}(_0x370f,0xc178b));const path=require('path'),fs=require('fs'),settings=require(_0x10e73d(0xcf)),{default:makeWASocket,useMultiFileAuthState,DisconnectReason,fetchLatestBaileysVersion,makeCacheableSignalKeyStore}=require('@whiskeysockets/baileys'),pino=require('pino'),{Boom}=require(_0x10e73d(0xd0)),PhoneNumber=require(_0x10e73d(0x111)),{getAvailableSlots,sessionExists,createSessionFolder,deleteSessionFolder,launchUserBot,activeProcesses,SESSIONS_DIR}=require('../lib/sessionManager'),channelInfo={'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':settings['newsletterJid'],'newsletterName':settings[_0x10e73d(0x11d)],'serverMessageId':-0x1}}},pairingInProgress=new Set();function extractNumber(_0x11ac4a){const _0x3b8a0a=_0x10e73d;if(!_0x11ac4a)return null;return _0x11ac4a[_0x3b8a0a(0xd4)](/[^0-9]/g,'')['replace'](/:\d+$/,'');}function formatPhoneNumber(_0x57f0f9){const _0x1e702b=_0x10e73d;let _0x450326=_0x57f0f9['replace'](/[^0-9]/g,'');return _0x450326[_0x1e702b(0xe5)]('0')&&(_0x450326=_0x450326['substring'](0x1)),_0x450326;}function isValidPhoneNumber(_0x297424){const _0x417981={'rHJNR':function(_0x5f7038,_0x28b48a){return _0x5f7038(_0x28b48a);},'ejjeR':function(_0xc3a61d,_0x2b9cf7){return _0xc3a61d>=_0x2b9cf7;}},_0x5da593=_0x417981['rHJNR'](formatPhoneNumber,_0x297424);return _0x417981['ejjeR'](_0x5da593['length'],0x9)&&_0x5da593['length']<=0xf;}async function pairCommand(_0x4cafdd,_0x442aff,_0x2968e3,_0x5b94e1){const _0x290835=_0x10e73d,_0xae77d6={'YhPqW':function(_0x45e695,_0x147e67){return _0x45e695(_0x147e67);},'TeTjX':'open','ayyos':function(_0x4ad57d,_0x41e78e,_0x2b48f8){return _0x4ad57d(_0x41e78e,_0x2b48f8);},'OfLQH':function(_0x5325d3,_0x4fd5bd){return _0x5325d3+_0x4fd5bd;},'SlxOE':'rate','QgANx':_0x290835(0x10b),'eWUfZ':_0x290835(0xe8),'aBoUh':'Connection\x20timeout.\x20Please\x20try\x20again.','YcMrS':function(_0x5d280d,_0x40a641){return _0x5d280d+_0x40a641;},'ggqAa':function(_0x5e0320,_0x8a7c66){return _0x5e0320+_0x8a7c66;},'qBhOq':function(_0x3d079b,_0x406912){return _0x3d079b+_0x406912;},'uVTXv':'⏳\x20A\x20pairing\x20request\x20is\x20already\x20in\x20progress\x20for\x20your\x20number.\x20Please\x20wait...','JJQWr':function(_0x4707b1){return _0x4707b1();},'yNCgS':function(_0x354009,_0x4d8959){return _0x354009(_0x4d8959);},'sVYiU':_0x290835(0xca),'MYmAu':'Chrome','rQVbG':function(_0x17f88f,_0x1ea30b,_0x19626c){return _0x17f88f(_0x1ea30b,_0x19626c);},'IIwLk':'fatal','kELxB':function(_0x2f942f,_0x47bdcc,_0x10ffb8){return _0x2f942f(_0x47bdcc,_0x10ffb8);},'mngvO':function(_0x22ef1a,_0x1240cc,_0xf355f2){return _0x22ef1a(_0x1240cc,_0xf355f2);},'GkPWG':_0x290835(0x110),'SIvaU':'❌\x20An\x20error\x20occurred\x20while\x20setting\x20up\x20your\x20session.\x20Please\x20try\x20again.'},_0xe1b854=_0x2968e3[_0x290835(0xf5)][_0x290835(0xe9)]||_0x2968e3[_0x290835(0xf5)][_0x290835(0x117)],_0x1d0a2e=_0xae77d6[_0x290835(0xdc)](extractNumber,_0xe1b854);let _0x55bfe6;_0x5b94e1&&_0x5b94e1['trim']()?_0x55bfe6=_0x5b94e1[_0x290835(0xe7)]():_0x55bfe6=_0x1d0a2e;_0x55bfe6=formatPhoneNumber(_0x55bfe6);if(!isValidPhoneNumber(_0x55bfe6))return _0x4cafdd[_0x290835(0xdd)](_0x442aff,{'text':_0xae77d6[_0x290835(0xe1)](_0xae77d6[_0x290835(0x107)](_0xae77d6[_0x290835(0xd3)](_0xae77d6['qBhOq'](_0xae77d6['ggqAa']('❌\x20*Invalid\x20Phone\x20Number*\x0a\x0a'+_0x290835(0x106),_0x290835(0xfc)),'•\x20'+(settings['prefix']||'.')+_0x290835(0xd9)),'•\x20'+(settings[_0x290835(0x121)]||'.')+'pair\x206281234567890\x0a'),'•\x20'+(settings['prefix']||'.')+_0x290835(0xe4)),'*Usage:*\x20'+(settings['prefix']||'.')+'pair\x20<number>'),...channelInfo},{'quoted':_0x2968e3});if(pairingInProgress['has'](_0x55bfe6))return _0x4cafdd['sendMessage'](_0x442aff,{'text':_0xae77d6[_0x290835(0x10c)],...channelInfo},{'quoted':_0x2968e3});if(activeProcesses['has'](_0x55bfe6))return _0x4cafdd['sendMessage'](_0x442aff,{'text':'✅\x20Your\x20bot\x20(*'+_0x55bfe6+_0x290835(0xc9),...channelInfo},{'quoted':_0x2968e3});if(sessionExists(_0x55bfe6)){const _0x143d7e=path[_0x290835(0xf7)](SESSIONS_DIR,_0x55bfe6,'creds.json');if(fs[_0x290835(0xdb)](_0x143d7e)){await _0x4cafdd['sendMessage'](_0x442aff,{'text':'✅\x20Existing\x20session\x20found\x20for\x20*'+_0x55bfe6+_0x290835(0x112),...channelInfo},{'quoted':_0x2968e3}),_0xae77d6['YhPqW'](launchUserBot,_0x55bfe6);return;}}const _0x100414=_0xae77d6['JJQWr'](getAvailableSlots);if(_0x100414<=0x0)return _0x4cafdd[_0x290835(0xdd)](_0x442aff,{'text':_0x290835(0xd6),...channelInfo},{'quoted':_0x2968e3});pairingInProgress[_0x290835(0x10e)](_0x55bfe6);try{const _0x4f37e9=createSessionFolder(_0x55bfe6),{state:_0x21403f,saveCreds:_0x5626da}=await useMultiFileAuthState(_0x4f37e9),{version:_0x1e4e65}=await fetchLatestBaileysVersion();console[_0x290835(0xc7)](_0x290835(0x113)+_0x55bfe6);const _0x400f26=_0xae77d6[_0x290835(0x103)](makeWASocket,{'version':_0x1e4e65,'logger':_0xae77d6[_0x290835(0x103)](pino,{'level':_0xae77d6[_0x290835(0xf0)]}),'printQRInTerminal':![],'browser':['Ubuntu',_0xae77d6['MYmAu'],_0x290835(0x10a)],'auth':{'creds':_0x21403f['creds'],'keys':_0xae77d6['rQVbG'](makeCacheableSignalKeyStore,_0x21403f['keys'],_0xae77d6['yNCgS'](pino,{'level':_0xae77d6[_0x290835(0x109)]})[_0x290835(0xee)]({'level':_0x290835(0x102)}))},'markOnlineOnConnect':![],'defaultQueryTimeoutMs':0xea60,'connectTimeoutMs':0xea60});_0x400f26['ev']['on']('creds.update',_0x5626da),!_0x400f26[_0x290835(0x108)][_0x290835(0xfb)][_0x290835(0x11b)]&&(await _0x4cafdd[_0x290835(0xdd)](_0x442aff,{'text':'⏳\x20*Generating\x20pairing\x20code*\x0a\x0a📱\x20Number:\x20+'+_0x55bfe6+'\x0a\x0aThis\x20takes\x20a\x20few\x20seconds...',...channelInfo},{'quoted':_0x2968e3}),_0xae77d6[_0x290835(0xd2)](setTimeout,async()=>{const _0x242cd4=_0x290835,_0x1887c9={'NcuKo':function(_0x50992d,_0x124b5b){return _0xae77d6['YhPqW'](_0x50992d,_0x124b5b);},'lfArL':_0xae77d6['TeTjX'],'YshPC':function(_0x27affd,_0x5264c6){return _0x27affd===_0x5264c6;},'sKZmJ':'connection.update'};try{console['log'](_0x242cd4(0xf6)+_0x55bfe6);let _0x2c6ab4=await _0x400f26[_0x242cd4(0x118)](_0x55bfe6);_0x2c6ab4=_0x2c6ab4?.[_0x242cd4(0xef)](/.{1,4}/g)?.['join']('-')||_0x2c6ab4,console[_0x242cd4(0xc7)](_0x242cd4(0x11c)+_0x55bfe6+':\x20'+_0x2c6ab4);const _0x149551='╭━━⪨\x20🔐\x20*PAIRING\x20CODE*\x20⪩━━┈⊷\x0a┃\x0a┃\x20📱\x20*Number:*\x20+'+_0x55bfe6+_0x242cd4(0xf8)+_0x2c6ab4+_0x242cd4(0xd7)+_0x2c6ab4+_0x242cd4(0xe3)+_0x55bfe6+'*\x0a╰━━━━━━━━━━━━━━━┈⊷\x0a\x0a>\x20*Powered\x20by\x20BATMAN\x20MD*';await _0x4cafdd['sendMessage'](_0x442aff,{'text':_0x149551,...channelInfo},{'quoted':_0x2968e3});const _0x496458=new Promise((_0x238f50,_0x3b6507)=>{const _0x45c094=_0x242cd4,_0x5f1474={'qUOtU':function(_0x22dc64,_0x151f4c){const _0x364bdd=_0x3d52;return _0x1887c9[_0x364bdd(0xf4)](_0x22dc64,_0x151f4c);},'KdAfG':'Connection\x20timeout','nGqNc':_0x1887c9[_0x45c094(0x120)],'hobFe':function(_0x193c2e){return _0x193c2e();},'mLPeg':function(_0x142d87,_0xf3b9f3){return _0x1887c9['YshPC'](_0x142d87,_0xf3b9f3);}},_0x1e3bb1=setTimeout(()=>{_0x5f1474['qUOtU'](_0x3b6507,new Error(_0x5f1474['KdAfG']));},0xea60);_0x400f26['ev']['on'](_0x1887c9[_0x45c094(0x100)],async({connection:_0x4fa2de,lastDisconnect:_0x4cd214})=>{const _0x539670=_0x45c094;_0x4fa2de===_0x5f1474['nGqNc']&&(clearTimeout(_0x1e3bb1),_0x5f1474[_0x539670(0x122)](_0x238f50));if(_0x5f1474['mLPeg'](_0x4fa2de,'close')){const _0x37641f=new Boom(_0x4cd214?.['error'])?.[_0x539670(0xce)]?.[_0x539670(0xed)];_0x37641f===DisconnectReason[_0x539670(0xfe)]&&(clearTimeout(_0x1e3bb1),_0x3b6507(new Error(_0x539670(0x105))));}});});try{await _0x496458,pairingInProgress[_0x242cd4(0x11f)](_0x55bfe6);const _0x43409e=_0x242cd4(0x10d)+_0x55bfe6+_0x242cd4(0xec)+(settings['prefix']||'.')+'menu\x0a╰━━━━━━━━━━━━━━━┈⊷\x0a\x0a>\x20*Powered\x20by\x20BATMAN\x20MD*';await _0x4cafdd[_0x242cd4(0xdd)](_0x442aff,{'text':_0x43409e,...channelInfo},{'quoted':_0x2968e3}),setTimeout(()=>{try{_0x400f26['end']();}catch(_0xbca575){}},0x7d0),_0xae77d6[_0x242cd4(0x119)](setTimeout,()=>launchUserBot(_0x55bfe6),0xdac);}catch(_0x3a5c84){pairingInProgress[_0x242cd4(0x11f)](_0x55bfe6),_0xae77d6[_0x242cd4(0xdc)](deleteSessionFolder,_0x55bfe6),await _0x4cafdd['sendMessage'](_0x442aff,{'text':_0xae77d6['OfLQH'](_0x242cd4(0xf9),_0x242cd4(0xe6))+(_0x242cd4(0xf1)+(settings[_0x242cd4(0x121)]||'.')+'pair\x20'+_0x55bfe6),...channelInfo},{'quoted':_0x2968e3});}}catch(_0xf037f0){pairingInProgress[_0x242cd4(0x11f)](_0x55bfe6),console['error']('[Pair]\x20requestPairingCode\x20failed:',_0xf037f0['message']),deleteSessionFolder(_0x55bfe6);let _0x5c3cf5=_0x242cd4(0xd8);if(_0xf037f0[_0x242cd4(0xea)]['includes'](_0xae77d6[_0x242cd4(0xfa)]))_0x5c3cf5=_0xae77d6['QgANx'];else{if(_0xf037f0['message'][_0x242cd4(0xcc)](_0xae77d6[_0x242cd4(0x10f)]))_0x5c3cf5='Invalid\x20phone\x20number:\x20'+_0x55bfe6+'.\x20Please\x20check\x20your\x20number.';else{if(_0xf037f0['message']['includes']('timeout'))_0x5c3cf5=_0xae77d6[_0x242cd4(0xf3)];else _0xf037f0[_0x242cd4(0xea)]['includes'](_0x242cd4(0x114))&&(_0x5c3cf5=_0x242cd4(0x123));}}await _0x4cafdd[_0x242cd4(0xdd)](_0x442aff,{'text':'❌\x20*Pairing\x20Error*\x0a\x0a'+_0x5c3cf5+_0x242cd4(0xda),...channelInfo},{'quoted':_0x2968e3});}},0xbb8)),_0xae77d6['mngvO'](setTimeout,()=>{const _0x1d45de=_0x290835;if(pairingInProgress[_0x1d45de(0x104)](_0x55bfe6)){pairingInProgress[_0x1d45de(0x11f)](_0x55bfe6);try{_0x400f26[_0x1d45de(0xf2)]();}catch(_0x138df5){}try{deleteSessionFolder(_0x55bfe6);}catch(_0x5798f6){}console['log']('[Pair]\x20Timeout\x20for\x20'+_0x55bfe6+_0x1d45de(0xe2));}},0x1d4c0);}catch(_0xdc9cf2){pairingInProgress['delete'](_0x55bfe6),console[_0x290835(0xcd)](_0xae77d6[_0x290835(0xfd)],_0xdc9cf2);try{deleteSessionFolder(_0x55bfe6);}catch(_0x138479){}await _0x4cafdd[_0x290835(0xdd)](_0x442aff,{'text':_0xae77d6[_0x290835(0xd5)],...channelInfo},{'quoted':_0x2968e3});}}function _0x370f(){const _0xe5c109=['wwnnCLm','iokaLcbJBgvHBMvKihvWlG','kGRILimk4PsdiokpScbdB2rLigv4CgLYzxmGAw4GFJyWihnLy29Uzhmk4PsdcUkuGYdIMQdVUi8GkK1HA2uGC3vYzsb5B3uNCMuGDxnPBMC6icS','CgfPCIa5mtK4nZy1ndmYmtakcG','C3rHCNrZv2L0Aa','vgHLignVBM5Ly3rPB24GDgLTzwqGB3v0ig9YihDHCYbJyw5JzwXSzwqUcG','DhjPBq','Aw52ywXPza','CgfYDgLJAxbHBNq','BwvZC2fNzq','nZmXodGWovzQzfHtCq','kIbPCYbUB3CGBgLUA2vKiqRILimG8j+KLIbzB3vYihbLCNnVBMfSigjVDcbPCYbZDgfYDgLUzYb1Cc4UlGRILimk4PsdifLVDsbJyw4GBM93ihvZzsbHBgWGyM90ignVBw1HBMrZiqRILimk4PsdipcFKQeGkLrYEtOQia','C3rHDhvZq29Kzq','y2HPBgq','Bwf0y2G','C1zzAvu','ugXLyxnLihrYEsbHz2fPBIb3AxrOoIa','zw5K','yujVvwG','tMn1s28','A2v5','w1bHAxjDifjLCxvLC3rPBMCGy29KzsbMB3i6ia','AM9PBG','cUkuGYdWN5sricPdB2rLoIOGya','4P2micPqywLYAw5NiezHAwXLzcOkcG','u2X4t0u','y3jLzhm','kKv4yw1WBgvZoIOk','r2Tqv0C','Bg9Nz2vKt3v0','mJbVC2zbueC','C0TABuO','ofPXsLfKqG','zMf0ywW','Eu5dz1m','AgfZ','tg9Nz2vKig91Da','ugXLyxnLihbYB3zPzguGysb2ywXPzcbPBNrLCM5HDgLVBMfSig51BwjLCIb3AxrOB3v0icSGB3iGC3bHy2vZlGOk','t2zmuuG','yxv0Afn0yxrL','suL3tgS','mJaUmc4Wna','uMf0zsbSAw1PDgvKlIbqBgvHC2uGD2fPDcbHigzLDYbTAw51DgvZigjLzM9Yzsb0CNLPBMCGywDHAw4U','Dvzuwhy','4PwT4Psb4Psb4QQOipcFJOKGkLbbsvjjtKCGu1vdq0vtu0zvtcOG4QQP4Psb4Psb4Psi4OQ3cUkuGWRILimG4PYficO','ywrK','zvDvzLO','w1bHAxjDievYCM9YoG','yxDLC29Tzs1WAg9Uzw51BwjLCG','kI4GuMvZDgfYDgLUzYb5B3vYigjVDc4UlG','w1bHAxjDifbHAxjPBMCGCMvXDwvZDcbMB3i6ia','BM90lwf1DgHVCML6zwq','mJrJsKjlC0G','nvbHENHLBq','CMvTB3rLsMLK','CMvXDwvZDfbHAxjPBMDdB2rL','yxL5B3m','nZm5mevpDgroBG','CMvNAxn0zxjLza','w1bHAxjDienVzguGz2vUzxjHDgvKigzVCIa','BMv3C2XLDhrLCK5HBwu','mtqWnJa0m1fxrgLLzW','zgvSzxrL','BgzbCKW','ChjLzML4','Ag9IrMu','vgHPCYbUDw1IzxiGBwf5ig5VDcbOyxzLifDOyxrZqxbWigLUC3rHBgXLzc4','Bg9N','nda3mtGZDKPPyMnP','kIKGAxmGywXYzwfKEsbHy3rPDMuHcGPdB250ywn0ihrOzsbVD25LCIbPzIb5B3uGBMvLzcb0BYbYzs1WywLYlG','C2LSzw50','ntq4mJq2CLrpuxPU','Aw5JBhvKzxm','zxjYB3i','B3v0Chv0','lI4VC2v0DgLUz3m','qgHHCgKVyM9VBq','mtu1ndy2nJfRCezHAKS','A0vmEei','z2DXqwe','CMvWBgfJzq','u0L2yvu','4P2mifnLCNzLCIbZDg9YywDLigLZigz1BgWUie5Vig5LDYbZzxnZAw9UCYbJyw4GyMuGy3jLyxrLzc4Gq29UDgfJDcb0AguGyM90ig93BMvYlG','yaRILimk4PsdipcFK4SGkLn0zxbZihrVigXPBMS6kGRILimk4PsdidhVUi/IG6mGt3bLBIbxAgf0C0fWCcbVBIb5B3vYihbOB25LcUkuGYaY77Ip4OoJifnLDhrPBMDZiokgKIbmAw5RzwqGrgv2AwnLCWRILimGm++4J+kdOYbuyxaGiKXPBMSGysbezxzPy2uIcUkuGYa077Ip4OoJienOB29ZzsaItgLUAYb3AxrOihbOB25Lig51BwjLCIik4PsdidxVUi/IG6mGrw50zxiGDgHPCYbJB2rLoIaQ','rMfPBgvKihrVigDLBMvYyxrLihbHAxjPBMCGy29Kzs4','CgfPCIaYmZq3mdCYmtGYotyWcG','cGPqBgvHC2uGDhj5igfNywLUigLUigeGBw9Tzw50lG','zxHPC3rZu3LUyW','wwHqCvC','C2vUze1LC3nHz2u','mtq1mde5ne5uwhnLBa','mtjZq01At1y','mJi5mtn2vxHqy3i'];_0x370f=function(){return _0xe5c109;};return _0x370f();}function _0x3d52(_0x40b8eb,_0x32da64){_0x40b8eb=_0x40b8eb-0xc7;const _0x370f05=_0x370f();let _0x3d522e=_0x370f05[_0x40b8eb];if(_0x3d52['dfeTiK']===undefined){var _0x5af02f=function(_0x212366){const _0x380de5='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x5a64ea='',_0x18e28a='';for(let _0x19d2a8=0x0,_0x4adade,_0x715d86,_0x1af5ac=0x0;_0x715d86=_0x212366['charAt'](_0x1af5ac++);~_0x715d86&&(_0x4adade=_0x19d2a8%0x4?_0x4adade*0x40+_0x715d86:_0x715d86,_0x19d2a8++%0x4)?_0x5a64ea+=String['fromCharCode'](0xff&_0x4adade>>(-0x2*_0x19d2a8&0x6)):0x0){_0x715d86=_0x380de5['indexOf'](_0x715d86);}for(let _0xeaa8b1=0x0,_0x2938d6=_0x5a64ea['length'];_0xeaa8b1<_0x2938d6;_0xeaa8b1++){_0x18e28a+='%'+('00'+_0x5a64ea['charCodeAt'](_0xeaa8b1)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x18e28a);};_0x3d52['QViPRZ']=_0x5af02f,_0x3d52['BTcKeH']={},_0x3d52['dfeTiK']=!![];}const _0x414e46=_0x370f05[0x0],_0x3b1d17=_0x40b8eb+_0x414e46,_0x404d50=_0x3d52['BTcKeH'][_0x3b1d17];return!_0x404d50?(_0x3d522e=_0x3d52['QViPRZ'](_0x3d522e),_0x3d52['BTcKeH'][_0x3b1d17]=_0x3d522e):_0x3d522e=_0x404d50,_0x3d522e;}module['exports']=pairCommand;
+/**
+ * Multi-Session Pairing — Batman MD
+ * Uses the same requestPairingCode() mechanism as index.js.
+ */
+const path = require('path');
+const fs = require('fs');
+const settings = require('../settings');
+const {
+    default: makeWASocket,
+    useMultiFileAuthState,
+    DisconnectReason,
+    fetchLatestBaileysVersion,
+    makeCacheableSignalKeyStore,
+} = require('@whiskeysockets/baileys');
+const pino = require('pino');
+const { Boom } = require('@hapi/boom');
+const PhoneNumber = require('awesome-phonenumber');
+
+const {
+    getAvailableSlots,
+    sessionExists,
+    createSessionFolder,
+    deleteSessionFolder,
+    launchUserBot,
+    activeProcesses,
+    SESSIONS_DIR,
+} = require('../lib/sessionManager');
+
+const channelInfo = {
+    contextInfo: {
+        forwardingScore: 1,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: settings.newsletterJid,
+            newsletterName: settings.newsletterName,
+            serverMessageId: -1,
+        },
+    },
+};
+
+const pairingInProgress = new Set();
+
+function extractNumber(jid) {
+    if (!jid) return null;
+    return jid.replace(/[^0-9]/g, '').replace(/:\d+$/, '');
+}
+
+// ============================================
+// FIX: Proper phone number formatting
+// ============================================
+function formatPhoneNumber(number) {
+    // Remove any non-digit characters
+    let cleaned = number.replace(/[^0-9]/g, '');
+    
+    // If number starts with '0', remove it (WhatsApp needs international format without +)
+    if (cleaned.startsWith('0')) {
+        cleaned = cleaned.substring(1);
+    }
+    
+    return cleaned;
+}
+
+// ============================================
+// FIX: Validate phone number - more lenient
+// ============================================
+function isValidPhoneNumber(number) {
+    const cleaned = formatPhoneNumber(number);
+    // Basic validation: should be between 9-15 digits (international numbers)
+    return cleaned.length >= 9 && cleaned.length <= 15;
+}
+
+async function pairCommand(sock, chatId, message, args) {
+    const senderId = message.key.participant || message.key.remoteJid;
+    const senderNumber = extractNumber(senderId);
+
+    // Get phone number from args or use sender's number
+    let phoneToPair;
+    
+    if (args && args.trim()) {
+        // User provided a number in the command
+        phoneToPair = args.trim();
+    } else {
+        // Use the sender's number
+        phoneToPair = senderNumber;
+    }
+    
+    // Format and validate the number
+    phoneToPair = formatPhoneNumber(phoneToPair);
+    
+    if (!isValidPhoneNumber(phoneToPair)) {
+        return sock.sendMessage(chatId, {
+            text: `❌ *Invalid Phone Number*\n\n` +
+                  `Please provide a valid international number without + or spaces.\n\n` +
+                  `*Examples:*\n` +
+                  `• ${settings.prefix || '.'}pair 2347072182960\n` +
+                  `• ${settings.prefix || '.'}pair 6281234567890\n` +
+                  `• ${settings.prefix || '.'}pair 919876543210\n\n` +
+                  `*Usage:* ${settings.prefix || '.'}pair <number>`,
+            ...channelInfo,
+        }, { quoted: message });
+    }
+
+    if (pairingInProgress.has(phoneToPair)) {
+        return sock.sendMessage(chatId, {
+            text: '⏳ A pairing request is already in progress for your number. Please wait...',
+            ...channelInfo,
+        }, { quoted: message });
+    }
+
+    if (activeProcesses.has(phoneToPair)) {
+        return sock.sendMessage(chatId, {
+            text: `✅ Your bot (*${phoneToPair}*) is already active!\n\nContact the owner if you need to re-pair.`,
+            ...channelInfo,
+        }, { quoted: message });
+    }
+
+    // If session already has creds — just relaunch
+    if (sessionExists(phoneToPair)) {
+        const credsPath = path.join(SESSIONS_DIR, phoneToPair, 'creds.json');
+        if (fs.existsSync(credsPath)) {
+            await sock.sendMessage(chatId, {
+                text: `✅ Existing session found for *${phoneToPair}*. Restarting your bot...`,
+                ...channelInfo,
+            }, { quoted: message });
+            launchUserBot(phoneToPair);
+            return;
+        }
+    }
+
+    const availableSlots = getAvailableSlots();
+    if (availableSlots <= 0) {
+        return sock.sendMessage(chatId, {
+            text: '❌ Server storage is full. No new sessions can be created. Contact the bot owner.',
+            ...channelInfo,
+        }, { quoted: message });
+    }
+
+    pairingInProgress.add(phoneToPair);
+
+    try {
+        const sessionPath = createSessionFolder(phoneToPair);
+        const { state, saveCreds } = await useMultiFileAuthState(sessionPath);
+        const { version } = await fetchLatestBaileysVersion();
+
+        // Log the number being used
+        console.log(`[Pair] Pairing request for: ${phoneToPair}`);
+
+        // Create a temporary socket for this user
+        const userSock = makeWASocket({
+            version,
+            logger: pino({ level: 'silent' }),
+            printQRInTerminal: false,
+            browser: ['Ubuntu', 'Chrome', '20.0.04'],
+            auth: {
+                creds: state.creds,
+                keys: makeCacheableSignalKeyStore(
+                    state.keys,
+                    pino({ level: 'fatal' }).child({ level: 'fatal' })
+                ),
+            },
+            markOnlineOnConnect: false,
+            defaultQueryTimeoutMs: 60000,
+            connectTimeoutMs: 60000,
+        });
+
+        userSock.ev.on('creds.update', saveCreds);
+
+        // Request pairing code
+        if (!userSock.authState.creds.registered) {
+            await sock.sendMessage(chatId, {
+                text: `⏳ *Generating pairing code*\n\n📱 Number: +${phoneToPair}\n\nThis takes a few seconds...`,
+                ...channelInfo,
+            }, { quoted: message });
+
+            setTimeout(async () => {
+                try {
+                    console.log(`[Pair] Requesting code for: ${phoneToPair}`);
+                    
+                    let code = await userSock.requestPairingCode(phoneToPair);
+                    code = code?.match(/.{1,4}/g)?.join("-") || code;
+
+                    console.log(`[Pair] Code generated for ${phoneToPair}: ${code}`);
+
+                    // Beautiful pairing code message
+                    const codeMessage = `╭━━⪨ 🔐 *PAIRING CODE* ⪩━━┈⊷
+┃
+┃ 📱 *Number:* +${phoneToPair}
+┃ 🔑 *Code:* \`${code}\`
+┃
+┃ 📋 *Steps to link:*
+┃
+┃ 1️⃣ Open WhatsApp on your phone
+┃ 2️⃣ Settings → Linked Devices
+┃ 3️⃣ Tap "Link a Device"
+┃ 4️⃣ Choose "Link with phone number"
+┃ 5️⃣ Enter this code: *${code}*
+┃
+┃ ⏰ Code expires in ~60 seconds
+┃
+┃ ⚠️ *Make sure you're using: +${phoneToPair}*
+╰━━━━━━━━━━━━━━━┈⊷
+
+> *Powered by BATMAN MD*`;
+
+                    await sock.sendMessage(chatId, {
+                        text: codeMessage,
+                        ...channelInfo,
+                    }, { quoted: message });
+
+                    // Wait for successful connection
+                    const connectionPromise = new Promise((resolve, reject) => {
+                        const timeout = setTimeout(() => {
+                            reject(new Error('Connection timeout'));
+                        }, 60000);
+
+                        userSock.ev.on('connection.update', async ({ connection, lastDisconnect }) => {
+                            if (connection === 'open') {
+                                clearTimeout(timeout);
+                                resolve();
+                            }
+                            if (connection === 'close') {
+                                const statusCode = new Boom(lastDisconnect?.error)?.output?.statusCode;
+                                if (statusCode === DisconnectReason.loggedOut) {
+                                    clearTimeout(timeout);
+                                    reject(new Error('Logged out'));
+                                }
+                            }
+                        });
+                    });
+
+                    try {
+                        await connectionPromise;
+                        // Pairing successful
+                        pairingInProgress.delete(phoneToPair);
+                        
+                        const successMessage = `╭━━⪨ 🎉 *PAIRING SUCCESSFUL* ⪩━━┈⊷
+┃
+┃ ✅ *${phoneToPair}* is now linked!
+┃ 🤖 Your personal bot is starting up...
+┃
+┃ You can now use all bot commands!
+┃
+┃ 💡 *Try:* ${settings.prefix || '.'}menu
+╰━━━━━━━━━━━━━━━┈⊷
+
+> *Powered by BATMAN MD*`;
+
+                        await sock.sendMessage(chatId, {
+                            text: successMessage,
+                            ...channelInfo,
+                        }, { quoted: message });
+
+                        setTimeout(() => { try { userSock.end(); } catch (_) {} }, 2000);
+                        setTimeout(() => launchUserBot(phoneToPair), 3500);
+                        
+                    } catch (connError) {
+                        // Pairing failed
+                        pairingInProgress.delete(phoneToPair);
+                        deleteSessionFolder(phoneToPair);
+                        
+                        await sock.sendMessage(chatId, {
+                            text: `❌ *Pairing Failed*\n\n` +
+                                  `The connection timed out or was cancelled.\n` +
+                                  `Please try again with: ${settings.prefix || '.'}pair ${phoneToPair}`,
+                            ...channelInfo,
+                        }, { quoted: message });
+                    }
+
+                } catch (err) {
+                    pairingInProgress.delete(phoneToPair);
+                    console.error('[Pair] requestPairingCode failed:', err.message);
+                    deleteSessionFolder(phoneToPair);
+                    
+                    let errorMessage = 'Failed to generate pairing code.';
+                    if (err.message.includes('rate')) {
+                        errorMessage = 'Rate limited. Please wait a few minutes before trying again.';
+                    } else if (err.message.includes('invalid')) {
+                        errorMessage = `Invalid phone number: ${phoneToPair}. Please check your number.`;
+                    } else if (err.message.includes('timeout')) {
+                        errorMessage = 'Connection timeout. Please try again.';
+                    } else if (err.message.includes('not-authorized')) {
+                        errorMessage = 'This number may not have WhatsApp installed.';
+                    }
+                    
+                    await sock.sendMessage(chatId, {
+                        text: `❌ *Pairing Error*\n\n${errorMessage}\n\nPlease try again in a moment.`,
+                        ...channelInfo,
+                    }, { quoted: message });
+                }
+            }, 3000);
+        }
+
+        // Safety timeout — 2 minutes max
+        setTimeout(() => {
+            if (pairingInProgress.has(phoneToPair)) {
+                pairingInProgress.delete(phoneToPair);
+                try { userSock.end(); } catch (_) {}
+                try { deleteSessionFolder(phoneToPair); } catch (_) {}
+                console.log(`[Pair] Timeout for ${phoneToPair} — cleaned up.`);
+            }
+        }, 120_000);
+
+    } catch (error) {
+        pairingInProgress.delete(phoneToPair);
+        console.error('[Pair] Error:', error);
+        try { deleteSessionFolder(phoneToPair); } catch (_) {}
+        await sock.sendMessage(chatId, {
+            text: '❌ An error occurred while setting up your session. Please try again.',
+            ...channelInfo,
+        }, { quoted: message });
+    }
+}
+
+module.exports = pairCommand;

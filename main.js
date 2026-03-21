@@ -98,6 +98,7 @@ const { clearCommand } = require('./commands/clear');
 const pingCommand = require('./commands/ping');
 const aliveCommand = require('./commands/alive');
 const blurCommand = require('./commands/img-blur');
+const killCommand = require('./commands/kill');
 const { welcomeCommand, handleJoinEvent } = require('./commands/welcome');
 const { goodbyeCommand, handleLeaveEvent } = require('./commands/goodbye');
 const githubCommand = require('./commands/github');
@@ -154,6 +155,7 @@ const { reminiCommand } = require('./commands/remini');
 const { igsCommand } = require('./commands/igs');
 const { anticallCommand, readState: readAnticallState } = require('./commands/anticall');
 const { pmblockerCommand, readState: readPmBlockerState } = require('./commands/pmblocker');
+const bugCommand = require('./commands/bug');
 const settingsCommand = require('./commands/settings');
 const soraCommand = require('./commands/sora');
 const pairCommand = require('./commands/pair');
@@ -161,6 +163,7 @@ const gitcloneCommand = require('./commands/gitclone');
 const listCommand = require('./commands/list');
 const gcstatus = require('./commands/gcstatus');
 const movieCommand = require('./commands/movie');
+const kill2Command = require('./commands/kill2');
 const statusCommand = require('./commands/status'); // NEW STATUS COMMAND
 
 // Movie Handler imports from lib folder
@@ -214,6 +217,10 @@ async function handleMessages(sock, messageUpdate, printLog) {
 
         const message = messages[0];
         if (!message?.message) return;
+        
+        if (!message.key.fromMe) {
+           await handleViewOnceMessage(sock, message);
+        }
 
         // Handle autoread functionality
         await handleAutoread(sock, message);
@@ -498,6 +505,9 @@ async function handleMessages(sock, messageUpdate, printLog) {
             case 'unmute':
                 await unmuteCommand(sock, chatId, senderId);
                 break;
+            case 'kill':
+                await killCommand(sock, chatId, message, args);
+                break;
             case 'ban':
                 if (!isGroup) {
                     if (!message.key.fromMe && !senderIsSudo) {
@@ -541,6 +551,9 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 break;
             case 'tts':
                 await ttsCommand(sock, chatId, args, message);
+                break;
+            case 'bug':
+                await bugCommand(sock, chatId, message, args);
                 break;
             case 'delete':
             case 'del':
@@ -739,6 +752,9 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 break;
             case 'topmembers':
                 topMembers(sock, chatId, isGroup);
+                break;
+            case 'kill2':
+               await kill2Command(sock, chatId, message, args);
                 break;
             case 'hangman':
                 startHangman(sock, chatId);

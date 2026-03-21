@@ -1,1 +1,255 @@
-const _0x124c80=_0x1f24;(function(_0x5c9dc4,_0x2a4355){const _0x476b4e=_0x1f24,_0x43eca7=_0x5c9dc4();while(!![]){try{const _0x51084d=parseInt(_0x476b4e(0x66))/0x1*(parseInt(_0x476b4e(0x78))/0x2)+-parseInt(_0x476b4e(0x86))/0x3+parseInt(_0x476b4e(0x67))/0x4+-parseInt(_0x476b4e(0x7d))/0x5*(parseInt(_0x476b4e(0x9e))/0x6)+-parseInt(_0x476b4e(0x68))/0x7*(-parseInt(_0x476b4e(0x7e))/0x8)+-parseInt(_0x476b4e(0x87))/0x9+-parseInt(_0x476b4e(0xa1))/0xa*(-parseInt(_0x476b4e(0x92))/0xb);if(_0x51084d===_0x2a4355)break;else _0x43eca7['push'](_0x43eca7['shift']());}catch(_0x4ae509){_0x43eca7['push'](_0x43eca7['shift']());}}}(_0xe891,0x1a9ab));function _0xe891(){const _0x49e23f=['4OcIicqX','uujjqM8','qLvytgm','tvzxBva','BeXYu28','mZa0ndaXA3P5yxfO','mtG5oduYm0PvB0HiCG','Bfz0BKy','BwvZC2fNzq','Ahr0Chm6lY9HCgLZlMrHDMLKy3LYAwWUBMfTzs5UzY9HAs9Nzw1PBMK/Dgv4Dd0','D2vizxi','sw52ywXPzcbYzxnWB25ZzsbMCM9TierLzxbtzwvRiefqsq','Ahr0Chm6lY96zwXSyxbPlMf1Dg9Zl2fPl2nOyxrIB3q/Dgv4Dd0','ygbGjdfGyga','lMrLzxbZzwvR','4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb4Psb','C3bSAxq','mJe4mdu0mwvRyvvMBq','A2v5','z2v0','jdeGkcqYkq','zxH0zw5KzwruzxH0twvZC2fNzq','BM9Kzs1MzxrJAa','yxHPB3m','lMDLBwLUAq','tKvhtfq','C2vUze1LC3nHz2u','Ahr0Chm6lY92yxbPCY5TEs5Pzc9HCgKVz2vTAw5Pp3e9','zgf0yq','odu4A0jeD3b5','Dg9mB3DLCKnHC2u','4P2miezHAwXLzcb0BYbNzxqGCMvZCg9UC2uUifbSzwfZzsb0CNKGywDHAw4GBgf0zxiU','mtbdCe1fyKe','s1LZr2e','ygbGjdjGyga','v2n6wu4','nZfVvfbrDfi','nJu5nJu2z2fXDxve','mtqZodvVt3jgBxy','4P2miefUigvYCM9Yig9Jy3vYCMvKlIbqBgvHC2uGDhj5igfNywLUigXHDgvYlG','kIqXkG','zxHWB3j0CW','qKfutufoie1e','zxjYB3i','y29UDMvYC2f0Aw9U','mtiWmZyZmZy3mJK5ndiXnZy2qg5LD3nSzxr0zxi','Ahr0Chm6lY9HCgLZlMrHDMLKy3LYAwWUBMfTzs5UzY9HAs9KzwvWC2vLAY1Ymt90zxH0pq','CMvWBgfJzq','ANnVBG','AM9PBG','DhjPBq','CMvZDwX0','BxjRugK','AMrNBg4','ndq4neLpBgvssG','CMfJzq','rgvLCfnLzwSGqvbjihrPBwvVDxqGywz0zxiGmZaGC2vJB25KCW','q2D4r2K','CMvTB3rLsMLK','mZC0nwnWD3bRqW','mJrpEvPXte0','C2XPy2u','8j+wVo+4JYaKmq'];_0xe891=function(){return _0x49e23f;};return _0xe891();}const axios=require(_0x124c80(0x98)),fetch=require(_0x124c80(0x97));function _0x1f24(_0x20c0d8,_0x52f17a){_0x20c0d8=_0x20c0d8-0x64;const _0xe89163=_0xe891();let _0x1f249=_0xe89163[_0x20c0d8];if(_0x1f24['BOcEaS']===undefined){var _0x3215c5=function(_0x22189b){const _0x1c5bff='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x5ccb2d='',_0x1eb48f='';for(let _0x5cfb46=0x0,_0x4bc1de,_0x32e727,_0x2c9ab1=0x0;_0x32e727=_0x22189b['charAt'](_0x2c9ab1++);~_0x32e727&&(_0x4bc1de=_0x5cfb46%0x4?_0x4bc1de*0x40+_0x32e727:_0x32e727,_0x5cfb46++%0x4)?_0x5ccb2d+=String['fromCharCode'](0xff&_0x4bc1de>>(-0x2*_0x5cfb46&0x6)):0x0){_0x32e727=_0x1c5bff['indexOf'](_0x32e727);}for(let _0x1e106b=0x0,_0x2b39fb=_0x5ccb2d['length'];_0x1e106b<_0x2b39fb;_0x1e106b++){_0x1eb48f+='%'+('00'+_0x5ccb2d['charCodeAt'](_0x1e106b)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x1eb48f);};_0x1f24['DAYXhq']=_0x3215c5,_0x1f24['ZQoZvw']={},_0x1f24['BOcEaS']=!![];}const _0x45c84f=_0xe89163[0x0],_0x4d3f79=_0x20c0d8+_0x45c84f,_0x5778e4=_0x1f24['ZQoZvw'][_0x4d3f79];return!_0x5778e4?(_0x1f249=_0x1f24['DAYXhq'](_0x1f249),_0x1f24['ZQoZvw'][_0x4d3f79]=_0x1f249):_0x1f249=_0x5778e4,_0x1f249;}async function aiCommand(_0x43047b,_0x39dd84,_0x444a18){const _0x5da1e8=_0x124c80,_0x3f3f63={'NEGLT':'Please\x20provide\x20a\x20question\x20after\x20.gpt\x20or\x20.gemini\x0a\x0aExample:\x20.gpt\x20write\x20a\x20basic\x20html\x20code','jdgln':_0x5da1e8(0x6f),'ciinz':function(_0x19c854,_0x77e5b9){return _0x19c854(_0x77e5b9);},'lVtnF':'•\x20$1','enXOk':'🖼️\x20$1','mrkPi':_0x5da1e8(0x99),'WczYN':function(_0x385088,_0x511923){return _0x385088(_0x511923);},'BUXLc':function(_0x324362,_0x228a72){return _0x324362(_0x228a72);},'RGkIM':function(_0x22a1cd,_0x39a670){return _0x22a1cd(_0x39a670);},'XTIyk':function(_0x4c37f8,_0xeeb34c){return _0x4c37f8(_0xeeb34c);},'xQGWM':'*$1*','lLrSo':'```$1```','CgxGi':_0x5da1e8(0x64),'EqqeG':_0x5da1e8(0x95),'QBIBo':_0x5da1e8(0x8c),'SlNJh':'API\x20Error:','KYsGa':'AI\x20Command\x20Error:','MVWmP':_0x5da1e8(0x69),'weHer':_0x5da1e8(0x6c)};try{const _0x515316=_0x444a18[_0x5da1e8(0x89)]?.[_0x5da1e8(0x6e)]||_0x444a18['message']?.[_0x5da1e8(0x96)]?.['text'];if(!_0x515316)return await _0x43047b['sendMessage'](_0x39dd84,{'text':_0x3f3f63[_0x5da1e8(0x9a)]},{'quoted':_0x444a18});const _0x4c4c12=_0x515316[_0x5da1e8(0x91)]('\x20'),_0x4a9844=_0x4c4c12[0x0][_0x5da1e8(0x9f)](),_0x2498ec=_0x4c4c12[_0x5da1e8(0x7f)](0x1)[_0x5da1e8(0x73)]('\x20')[_0x5da1e8(0x74)]();if(!_0x2498ec)return await _0x43047b[_0x5da1e8(0x9b)](_0x39dd84,{'text':'Please\x20provide\x20a\x20question\x20after\x20.gpt\x20or\x20.gemini'},{'quoted':_0x444a18});try{await _0x43047b['sendMessage'](_0x39dd84,{'react':{'text':'🤖','key':_0x444a18['key']}});const _0x30ed58={'forwardingScore':0x270f,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x3f3f63[_0x5da1e8(0x77)],'newsletterName':'BATMAN\x20MD','serverMessageId':0x7f}};if(_0x4a9844==='.gpt'){const _0x5e8f0b=await axios['get']('https://apis.davidcyril.name.ng/ai/gpt4?text='+_0x3f3f63['ciinz'](encodeURIComponent,_0x2498ec));if(_0x5e8f0b[_0x5da1e8(0x9d)]&&_0x5e8f0b[_0x5da1e8(0x9d)]['message']){let _0x10eabc=_0x5e8f0b['data'][_0x5da1e8(0x89)];_0x10eabc=_0x10eabc[_0x5da1e8(0x71)](/\\n/g,'\x0a')[_0x5da1e8(0x71)](/\\"/g,'\x22')[_0x5da1e8(0x71)](/\\'/g,'\x27')['replace'](/\\t/g,'\x20')[_0x5da1e8(0x71)](/\\+/g,'')[_0x5da1e8(0x71)](/\*\*(.*?)\*\*/g,_0x5da1e8(0x6a))[_0x5da1e8(0x71)](/__(.*?)__/g,_0x5da1e8(0x6a))[_0x5da1e8(0x71)](/`([^`]+)`/g,_0x5da1e8(0x8e))[_0x5da1e8(0x71)](/```(\w+)?\n?([\s\S]*?)```/g,'```$2```')['replace'](/^#{1,6}\s+(.*?)$/gm,'*$1*')['replace'](/^\s*[\-\*]\s+(.*?)$/gm,_0x3f3f63[_0x5da1e8(0x88)])[_0x5da1e8(0x71)](/^\s*\d+\.\s+(.*?)$/gm,_0x5da1e8(0x81))[_0x5da1e8(0x71)](/!\[(.*?)\]\((.*?)\)/g,_0x3f3f63['enXOk'])[_0x5da1e8(0x71)](/\[(.*?)\]\((.*?)\)/g,_0x5da1e8(0x95))['replace'](/~~(.*?)~~/g,'$1')['replace'](/^\s*[-=*_]{3,}\s*$/gm,_0x5da1e8(0x90))[_0x5da1e8(0x71)](/\|/g,'│')['replace'](/\n{3,}/g,'\x0a\x0a')[_0x5da1e8(0x74)](),await _0x43047b['sendMessage'](_0x39dd84,{'text':_0x10eabc,'contextInfo':_0x30ed58},{'quoted':_0x444a18});}else throw new Error('Invalid\x20response\x20from\x20API');await _0x43047b[_0x5da1e8(0x9b)](_0x39dd84,{'react':{'text':'','key':_0x444a18['key']}});}else{if(_0x4a9844===_0x3f3f63[_0x5da1e8(0x76)]){const _0x3ace59=[_0x5da1e8(0x8a)+_0x3f3f63[_0x5da1e8(0x65)](encodeURIComponent,_0x2498ec),_0x5da1e8(0x9c)+_0x3f3f63[_0x5da1e8(0x83)](encodeURIComponent,_0x2498ec),'https://api.siputzx.my.id/api/ai/gemini-pro?content='+encodeURIComponent(_0x2498ec),'https://api.ryzendesu.vip/api/ai/gemini?text='+encodeURIComponent(_0x2498ec),_0x5da1e8(0x8d)+_0x3f3f63['WczYN'](encodeURIComponent,_0x2498ec),'https://api.giftedtech.my.id/api/ai/geminiai?apikey=gifted&q='+_0x3f3f63['BUXLc'](encodeURIComponent,_0x2498ec),'https://api.giftedtech.my.id/api/ai/geminiaipro?apikey=gifted&q='+_0x3f3f63['RGkIM'](encodeURIComponent,_0x2498ec)];for(const _0x51cd15 of _0x3ace59){try{const _0x438a15=await _0x3f3f63['XTIyk'](fetch,_0x51cd15),_0x222363=await _0x438a15[_0x5da1e8(0x72)]();if(_0x222363[_0x5da1e8(0x89)]||_0x222363[_0x5da1e8(0x9d)]||_0x222363['answer']||_0x222363[_0x5da1e8(0x75)]){let _0x531d01=_0x222363['message']||_0x222363['data']||_0x222363['answer']||_0x222363[_0x5da1e8(0x75)];_0x531d01=_0x531d01['replace'](/\\n/g,'\x0a')[_0x5da1e8(0x71)](/\\"/g,'\x22')[_0x5da1e8(0x71)](/\\'/g,'\x27')[_0x5da1e8(0x71)](/\\t/g,'\x20')['replace'](/\\+/g,'')['replace'](/\*\*(.*?)\*\*/g,_0x3f3f63['xQGWM'])['replace'](/__(.*?)__/g,_0x3f3f63['xQGWM'])['replace'](/`([^`]+)`/g,_0x3f3f63['lLrSo'])['replace'](/```(\w+)?\n?([\s\S]*?)```/g,_0x3f3f63[_0x5da1e8(0x7b)])[_0x5da1e8(0x71)](/^#{1,6}\s+(.*?)$/gm,_0x5da1e8(0x6a))['replace'](/^\s*[\-\*]\s+(.*?)$/gm,_0x3f3f63['lVtnF'])[_0x5da1e8(0x71)](/^\s*\d+\.\s+(.*?)$/gm,_0x5da1e8(0x81))[_0x5da1e8(0x71)](/!\[(.*?)\]\((.*?)\)/g,'🖼️\x20$1')['replace'](/\[(.*?)\]\((.*?)\)/g,_0x3f3f63['EqqeG'])[_0x5da1e8(0x71)](/~~(.*?)~~/g,'$1')[_0x5da1e8(0x71)](/^\s*[-=*_]{3,}\s*$/gm,'━━━━━━━━━━━━━━')[_0x5da1e8(0x71)](/\|/g,'│')[_0x5da1e8(0x71)](/\n{3,}/g,'\x0a\x0a')[_0x5da1e8(0x74)](),await _0x43047b['sendMessage'](_0x39dd84,{'text':_0x531d01,'contextInfo':_0x30ed58},{'quoted':_0x444a18}),await _0x43047b[_0x5da1e8(0x9b)](_0x39dd84,{'react':{'text':'','key':_0x444a18['key']}});return;}}catch(_0x582cb8){continue;}}throw new Error('All\x20Gemini\x20APIs\x20failed');}else{if(_0x4a9844===_0x5da1e8(0x8f)){const _0x59d31a=new Promise((_0x7ca96a,_0x4d5cb5)=>{const _0x443fbd=_0x5da1e8;setTimeout(()=>_0x4d5cb5(new Error(_0x443fbd(0x7a))),0x7530);}),_0x1fffad=axios[_0x5da1e8(0x94)](_0x5da1e8(0x70)+encodeURIComponent(_0x2498ec)),_0x5f43c2=await Promise[_0x5da1e8(0x79)]([_0x1fffad,_0x59d31a]);if(_0x5f43c2['data']&&_0x5f43c2['data']['response']){let _0x3bdd26=_0x5f43c2[_0x5da1e8(0x9d)]['response'];_0x3bdd26=_0x3bdd26['replace'](/<\/?think>/g,'')['replace'](/\\n/g,'\x0a')['replace'](/\\"/g,'\x22')['replace'](/\\'/g,'\x27')['replace'](/\\t/g,'\x20')[_0x5da1e8(0x71)](/\\+/g,'')[_0x5da1e8(0x71)](/\*\*(.*?)\*\*/g,_0x3f3f63['xQGWM'])['replace'](/__(.*?)__/g,_0x5da1e8(0x6a))['replace'](/`([^`]+)`/g,_0x3f3f63[_0x5da1e8(0x85)])['replace'](/```(\w+)?\n?([\s\S]*?)```/g,_0x3f3f63['CgxGi'])['replace'](/^#{1,6}\s+(.*?)$/gm,'*$1*')[_0x5da1e8(0x71)](/^\s*[\-\*]\s+(.*?)$/gm,'•\x20$1')['replace'](/^\s*\d+\.\s+(.*?)$/gm,_0x3f3f63['lVtnF'])['replace'](/!\[(.*?)\]\((.*?)\)/g,_0x5da1e8(0x80))['replace'](/\[(.*?)\]\((.*?)\)/g,_0x5da1e8(0x95))[_0x5da1e8(0x71)](/~~(.*?)~~/g,'$1')['replace'](/^\s*[-=*_]{3,}\s*$/gm,_0x5da1e8(0x90))['replace'](/\|/g,'│')['replace'](/\n{3,}/g,'\x0a\x0a')['trim'](),await _0x43047b[_0x5da1e8(0x9b)](_0x39dd84,{'text':_0x3bdd26,'contextInfo':_0x30ed58},{'quoted':_0x444a18});}else throw new Error(_0x3f3f63[_0x5da1e8(0x82)]);await _0x43047b[_0x5da1e8(0x9b)](_0x39dd84,{'react':{'text':'','key':_0x444a18['key']}});}}}}catch(_0x45de65){console['error'](_0x3f3f63['SlNJh'],_0x45de65),await _0x43047b['sendMessage'](_0x39dd84,{'react':{'text':'','key':_0x444a18['key']}}),await _0x43047b['sendMessage'](_0x39dd84,{'text':_0x5da1e8(0xa0),'contextInfo':{'mentionedJid':[_0x444a18[_0x5da1e8(0x93)]['participant']||_0x444a18[_0x5da1e8(0x93)][_0x5da1e8(0x7c)]],'quotedMessage':_0x444a18['message'],'forwardingScore':0x270f,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x3f3f63['jdgln'],'newsletterName':_0x5da1e8(0x6c),'serverMessageId':0x7f}}},{'quoted':_0x444a18});}}catch(_0x29080d){console[_0x5da1e8(0x6d)](_0x3f3f63[_0x5da1e8(0xa2)],_0x29080d),await _0x43047b[_0x5da1e8(0x9b)](_0x39dd84,{'react':{'text':'','key':_0x444a18[_0x5da1e8(0x93)]}}),await _0x43047b[_0x5da1e8(0x9b)](_0x39dd84,{'text':_0x3f3f63[_0x5da1e8(0x84)],'contextInfo':{'mentionedJid':[_0x444a18['key']['participant']||_0x444a18[_0x5da1e8(0x93)][_0x5da1e8(0x7c)]],'quotedMessage':_0x444a18[_0x5da1e8(0x89)],'forwardingScore':0x270f,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x5da1e8(0x6f),'newsletterName':_0x3f3f63[_0x5da1e8(0x8b)],'serverMessageId':0x7f}}},{'quoted':_0x444a18});}}module[_0x124c80(0x6b)]=aiCommand;
+const axios = require('axios');
+const fetch = require('node-fetch');
+
+async function aiCommand(sock, chatId, message) {
+    try {
+        const text = message.message?.conversation || message.message?.extendedTextMessage?.text;
+        
+        if (!text) {
+            return await sock.sendMessage(chatId, { 
+                text: "Please provide a question after .gpt or .gemini\n\nExample: .gpt write a basic html code"
+            }, {
+                quoted: message
+            });
+        }
+
+        // Get the command and query
+        const parts = text.split(' ');
+        const command = parts[0].toLowerCase();
+        const query = parts.slice(1).join(' ').trim();
+
+        if (!query) {
+            return await sock.sendMessage(chatId, { 
+                text: "Please provide a question after .gpt or .gemini"
+            }, {quoted:message});
+        }
+
+        try {
+            // Show processing message
+            await sock.sendMessage(chatId, {
+                react: { text: '🤖', key: message.key }
+            });
+
+            // Newsletter context info for all AI responses
+            const newsletterContext = {
+                forwardingScore: 9999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363367299421766@newsletter',
+                    newsletterName: 'BATMAN MD',
+                    serverMessageId: 127
+                }
+            };
+
+            if (command === '.gpt') {
+                // Call the GPT API
+                const response = await axios.get(`https://apis.davidcyril.name.ng/ai/gpt4?text=${encodeURIComponent(query)}`);
+                
+                if (response.data && response.data.message) {
+                    let answer = response.data.message;
+                    
+                    // Format GPT response for WhatsApp
+                    answer = answer
+                        .replace(/\\n/g, '\n') // Replace \n with actual newlines
+                        .replace(/\\"/g, '"') // Fix escaped quotes
+                        .replace(/\\'/g, "'") // Fix escaped apostrophes
+                        .replace(/\\t/g, ' ') // Replace tabs with spaces
+                        .replace(/\\+/g, '') // Remove any remaining backslashes
+                        .replace(/\*\*(.*?)\*\*/g, '*$1*') // Convert **bold** to *bold* for WhatsApp
+                        .replace(/__(.*?)__/g, '*$1*') // Convert __underline__ to *bold* as well
+                        .replace(/`([^`]+)`/g, '```$1```') // Convert inline code to code blocks
+                        .replace(/```(\w+)?\n?([\s\S]*?)```/g, '```$2```') // Clean up code blocks
+                        .replace(/^#{1,6}\s+(.*?)$/gm, '*$1*') // Convert headers to bold
+                        .replace(/^\s*[\-\*]\s+(.*?)$/gm, '• $1') // Convert bullet points
+                        .replace(/^\s*\d+\.\s+(.*?)$/gm, '• $1') // Convert numbered lists to bullets
+                        .replace(/!\[(.*?)\]\((.*?)\)/g, '🖼️ $1') // Replace image links
+                        .replace(/\[(.*?)\]\((.*?)\)/g, '$1 ($2)') // Format links
+                        .replace(/~~(.*?)~~/g, '$1') // Remove strikethrough
+                        .replace(/^\s*[-=*_]{3,}\s*$/gm, '━━━━━━━━━━━━━━') // Replace horizontal rules
+                        .replace(/\|/g, '│') // Replace pipes with vertical bars for tables
+                        .replace(/\n{3,}/g, '\n\n') // Remove excessive line breaks
+                        .trim();
+                    
+                    await sock.sendMessage(chatId, {
+                        text: answer,
+                        contextInfo: newsletterContext
+                    }, {
+                        quoted: message
+                    });
+                    
+                } else {
+                    throw new Error('Invalid response from API');
+                }
+                
+                // Remove reaction after response
+                await sock.sendMessage(chatId, {
+                    react: { text: '', key: message.key }
+                });
+                
+            } else if (command === '.gemini') {
+                const apis = [
+                    `https://apis.davidcyril.name.ng/ai/gemini?text=${encodeURIComponent(query)}`,
+                    `https://vapis.my.id/api/gemini?q=${encodeURIComponent(query)}`,
+                    `https://api.siputzx.my.id/api/ai/gemini-pro?content=${encodeURIComponent(query)}`,
+                    `https://api.ryzendesu.vip/api/ai/gemini?text=${encodeURIComponent(query)}`,
+                    `https://zellapi.autos/ai/chatbot?text=${encodeURIComponent(query)}`,
+                    `https://api.giftedtech.my.id/api/ai/geminiai?apikey=gifted&q=${encodeURIComponent(query)}`,
+                    `https://api.giftedtech.my.id/api/ai/geminiaipro?apikey=gifted&q=${encodeURIComponent(query)}`
+                ];
+
+                for (const api of apis) {
+                    try {
+                        const response = await fetch(api);
+                        const data = await response.json();
+
+                        if (data.message || data.data || data.answer || data.result) {
+                            let answer = data.message || data.data || data.answer || data.result;
+                            
+                            // Format Gemini response for WhatsApp (same formatting as GPT)
+                            answer = answer
+                                .replace(/\\n/g, '\n')
+                                .replace(/\\"/g, '"')
+                                .replace(/\\'/g, "'")
+                                .replace(/\\t/g, ' ')
+                                .replace(/\\+/g, '')
+                                .replace(/\*\*(.*?)\*\*/g, '*$1*')
+                                .replace(/__(.*?)__/g, '*$1*')
+                                .replace(/`([^`]+)`/g, '```$1```')
+                                .replace(/```(\w+)?\n?([\s\S]*?)```/g, '```$2```')
+                                .replace(/^#{1,6}\s+(.*?)$/gm, '*$1*')
+                                .replace(/^\s*[\-\*]\s+(.*?)$/gm, '• $1')
+                                .replace(/^\s*\d+\.\s+(.*?)$/gm, '• $1')
+                                .replace(/!\[(.*?)\]\((.*?)\)/g, '🖼️ $1')
+                                .replace(/\[(.*?)\]\((.*?)\)/g, '$1 ($2)')
+                                .replace(/~~(.*?)~~/g, '$1')
+                                .replace(/^\s*[-=*_]{3,}\s*$/gm, '━━━━━━━━━━━━━━')
+                                .replace(/\|/g, '│')
+                                .replace(/\n{3,}/g, '\n\n')
+                                .trim();
+                            
+                            await sock.sendMessage(chatId, {
+                                text: answer,
+                                contextInfo: newsletterContext
+                            }, {
+                                quoted: message
+                            });
+                            
+                            // Remove reaction after response
+                            await sock.sendMessage(chatId, {
+                                react: { text: '', key: message.key }
+                            });
+                            
+                            return;
+                        }
+                    } catch (e) {
+                        continue;
+                    }
+                }
+                throw new Error('All Gemini APIs failed');
+                
+            } else if (command === '.deepseek') {
+                // Set timeout for DeepSeek API (30 seconds)
+                const timeoutPromise = new Promise((_, reject) => {
+                    setTimeout(() => reject(new Error('DeepSeek API timeout after 30 seconds')), 30000);
+                });
+                
+                const apiPromise = axios.get(`https://apis.davidcyril.name.ng/ai/deepseek-r1?text=${encodeURIComponent(query)}`);
+                
+                // Race between API and timeout
+                const response = await Promise.race([apiPromise, timeoutPromise]);
+                
+                if (response.data && response.data.response) {
+                    let answer = response.data.response;
+                    
+                    // Format DeepSeek response for WhatsApp
+                    answer = answer
+                        .replace(/<\/?think>/g, '')
+                        .replace(/\\n/g, '\n')
+                        .replace(/\\"/g, '"')
+                        .replace(/\\'/g, "'")
+                        .replace(/\\t/g, ' ')
+                        .replace(/\\+/g, '')
+                        .replace(/\*\*(.*?)\*\*/g, '*$1*')
+                        .replace(/__(.*?)__/g, '*$1*')
+                        .replace(/`([^`]+)`/g, '```$1```')
+                        .replace(/```(\w+)?\n?([\s\S]*?)```/g, '```$2```')
+                        .replace(/^#{1,6}\s+(.*?)$/gm, '*$1*')
+                        .replace(/^\s*[\-\*]\s+(.*?)$/gm, '• $1')
+                        .replace(/^\s*\d+\.\s+(.*?)$/gm, '• $1')
+                        .replace(/!\[(.*?)\]\((.*?)\)/g, '🖼️ $1')
+                        .replace(/\[(.*?)\]\((.*?)\)/g, '$1 ($2)')
+                        .replace(/~~(.*?)~~/g, '$1')
+                        .replace(/^\s*[-=*_]{3,}\s*$/gm, '━━━━━━━━━━━━━━')
+                        .replace(/\|/g, '│')
+                        .replace(/\n{3,}/g, '\n\n')
+                        .trim();
+                    
+                    await sock.sendMessage(chatId, {
+                        text: answer,
+                        contextInfo: newsletterContext
+                    }, {
+                        quoted: message
+                    });
+                    
+                } else {
+                    throw new Error('Invalid response from DeepSeek API');
+                }
+                
+                // Remove reaction after response
+                await sock.sendMessage(chatId, {
+                    react: { text: '', key: message.key }
+                });
+            }
+        } catch (error) {
+            console.error('API Error:', error);
+            
+            // Remove reaction on error too
+            await sock.sendMessage(chatId, {
+                react: { text: '', key: message.key }
+            });
+            
+            await sock.sendMessage(chatId, {
+                text: "❌ Failed to get response. Please try again later.",
+                contextInfo: {
+                    mentionedJid: [message.key.participant || message.key.remoteJid],
+                    quotedMessage: message.message,
+                    forwardingScore: 9999,
+                    isForwarded: true,
+                    forwardedNewsletterMessageInfo: {
+                        newsletterJid: '120363367299421766@newsletter',
+                        newsletterName: 'BATMAN MD',
+                        serverMessageId: 127
+                    }
+                }
+            }, {
+                quoted: message
+            });
+        }
+    } catch (error) {
+        console.error('AI Command Error:', error);
+        
+        // Remove reaction on error too
+        await sock.sendMessage(chatId, {
+            react: { text: '', key: message.key }
+        });
+        
+        await sock.sendMessage(chatId, {
+            text: "❌ An error occurred. Please try again later.",
+            contextInfo: {
+                mentionedJid: [message.key.participant || message.key.remoteJid],
+                quotedMessage: message.message,
+                forwardingScore: 9999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363367299421766@newsletter',
+                    newsletterName: 'BATMAN MD',
+                    serverMessageId: 127
+                }
+            }
+        }, {
+            quoted: message
+        });
+    }
+}
+
+module.exports = aiCommand;

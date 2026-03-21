@@ -1,1 +1,158 @@
-const _0x3fa9b6=_0x1526;(function(_0x4e9f56,_0x585982){const _0x49e16e=_0x1526,_0x27cbab=_0x4e9f56();while(!![]){try{const _0xdcd800=parseInt(_0x49e16e(0x109))/0x1*(-parseInt(_0x49e16e(0xf8))/0x2)+parseInt(_0x49e16e(0xef))/0x3+-parseInt(_0x49e16e(0x105))/0x4*(parseInt(_0x49e16e(0xec))/0x5)+parseInt(_0x49e16e(0x11f))/0x6+parseInt(_0x49e16e(0x10b))/0x7*(parseInt(_0x49e16e(0xf0))/0x8)+-parseInt(_0x49e16e(0x119))/0x9*(parseInt(_0x49e16e(0x114))/0xa)+parseInt(_0x49e16e(0xea))/0xb*(parseInt(_0x49e16e(0xed))/0xc);if(_0xdcd800===_0x585982)break;else _0x27cbab['push'](_0x27cbab['shift']());}catch(_0x446b30){_0x27cbab['push'](_0x27cbab['shift']());}}}(_0x42ba,0x86f39));const axios=require('axios'),settings=require('../settings'),{sendInteractiveMessage}=require('gifted-btns'),{handleMovieSelection,handleQualityDownload,handleSubtitleDownload,handleEpisodeDownload,handleEpisodeSubtitle}=require(_0x3fa9b6(0x111)),BASE_URL='https://mumubmrvkqcgzidqubcc.supabase.co/functions/v1/movies/api';function formatRating(_0x58ac2a,_0x5ed2b){const _0x4c9f48=_0x3fa9b6,_0x59b1f0={'lsvDs':'⭐\x20Not\x20Rated','QZCMP':function(_0x226e8e,_0x17f352){return _0x226e8e(_0x17f352);}};if(!_0x58ac2a||_0x58ac2a==='0')return _0x59b1f0['lsvDs'];const _0x248d21='⭐'[_0x4c9f48(0x11e)](Math[_0x4c9f48(0x116)](Math['floor'](_0x58ac2a),0x5)),_0x150246=_0x59b1f0[_0x4c9f48(0xe3)](parseFloat,_0x58ac2a)['toFixed'](0x1);return _0x248d21+'\x20'+_0x150246+'/10\x20'+(_0x5ed2b?'('+_0x5ed2b[_0x4c9f48(0x10d)]()+'\x20votes)':'');}function _0x1526(_0xffe93,_0x58e3fc){_0xffe93=_0xffe93-0xe1;const _0x42bad8=_0x42ba();let _0x152657=_0x42bad8[_0xffe93];if(_0x1526['PFvnyH']===undefined){var _0x3cd649=function(_0x2d079f){const _0x553b6a='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x10e9d0='',_0x2d9155='';for(let _0x3dbec3=0x0,_0x3dc6b9,_0x4bfcb7,_0x4afe7d=0x0;_0x4bfcb7=_0x2d079f['charAt'](_0x4afe7d++);~_0x4bfcb7&&(_0x3dc6b9=_0x3dbec3%0x4?_0x3dc6b9*0x40+_0x4bfcb7:_0x4bfcb7,_0x3dbec3++%0x4)?_0x10e9d0+=String['fromCharCode'](0xff&_0x3dc6b9>>(-0x2*_0x3dbec3&0x6)):0x0){_0x4bfcb7=_0x553b6a['indexOf'](_0x4bfcb7);}for(let _0x3cad5d=0x0,_0x5b81e4=_0x10e9d0['length'];_0x3cad5d<_0x5b81e4;_0x3cad5d++){_0x2d9155+='%'+('00'+_0x10e9d0['charCodeAt'](_0x3cad5d)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x2d9155);};_0x1526['JUsgLT']=_0x3cd649,_0x1526['XxEBjF']={},_0x1526['PFvnyH']=!![];}const _0x44dd19=_0x42bad8[0x0],_0x36a647=_0xffe93+_0x44dd19,_0x3a01b8=_0x1526['XxEBjF'][_0x36a647];return!_0x3a01b8?(_0x152657=_0x1526['JUsgLT'](_0x152657),_0x1526['XxEBjF'][_0x36a647]=_0x152657):_0x152657=_0x3a01b8,_0x152657;}function truncate(_0x1eecd8,_0x12f657=0x96){const _0x1f1a40=_0x3fa9b6,_0x214cab={'RVQyr':function(_0x1aa808,_0x432008){return _0x1aa808<=_0x432008;}};if(!_0x1eecd8)return'';if(_0x214cab[_0x1f1a40(0xfb)](_0x1eecd8[_0x1f1a40(0x11b)],_0x12f657))return _0x1eecd8;return _0x1eecd8['substring'](0x0,_0x12f657)+'...';}async function movieCommand(_0x1cef03,_0x1777be,_0x5256fa,_0x7618b7){const _0xaf199e=_0x3fa9b6,_0x192054={'Qpfvs':function(_0x33342d,_0x16a2e6){return _0x33342d+_0x16a2e6;},'UAgYn':function(_0x2da7df,_0x6a0632){return _0x2da7df+_0x6a0632;},'jRKBT':function(_0x25833c,_0x43af53){return _0x25833c+_0x43af53;},'fLDbd':function(_0x3f777c,_0x39a0c5){return _0x3f777c+_0x39a0c5;},'CWXUS':_0xaf199e(0xf7),'KOrKQ':function(_0x38cc79,_0x4829f4,_0x45ff62,_0x33d91d,_0x307ba0,_0x4c2a78,_0x32d2de,_0x3c7fff){return _0x38cc79(_0x4829f4,_0x45ff62,_0x33d91d,_0x307ba0,_0x4c2a78,_0x32d2de,_0x3c7fff);},'aanZs':function(_0x1c36eb,_0x38ff80){return _0x1c36eb(_0x38ff80);},'mafDM':function(_0x4fd4df,_0x17512a){return _0x4fd4df===_0x17512a;},'YmGJN':function(_0x515970,_0x53b203){return _0x515970===_0x53b203;},'zjUgf':'N/A','IEwby':function(_0x44fc48,_0x458aee,_0x424bdc){return _0x44fc48(_0x458aee,_0x424bdc);},'idqUl':'📺\x20SERIES','VbtOG':_0xaf199e(0x10a),'FFNAp':function(_0x1cef36,_0x221384){return _0x1cef36!==_0x221384;},'meXYt':_0xaf199e(0x104),'qyizk':_0xaf199e(0x112),'JmnCe':function(_0x35248b,_0x5a94d0,_0x112753,_0x4ac37a,_0x1a1450){return _0x35248b(_0x5a94d0,_0x112753,_0x4ac37a,_0x1a1450);},'vZuDU':'❌\x20Failed\x20to\x20process\x20request.\x20Please\x20try\x20again.'};try{const _0x151ece=_0x7618b7[_0xaf199e(0x118)](),_0x1f3909=settings['prefix']||'.';if(!_0x151ece){const _0x8976ec=_0x192054[_0xaf199e(0xe4)](_0x192054[_0xaf199e(0xe4)](_0x192054['Qpfvs'](_0x192054['Qpfvs'](_0x192054['Qpfvs'](_0x192054[_0xaf199e(0xe4)](_0x192054['UAgYn'](_0x192054['jRKBT'](_0x192054[_0xaf199e(0x106)](_0xaf199e(0xf6)+_0xaf199e(0x10c),_0xaf199e(0x107))+('♧\x20'+_0x1f3909+'movie\x20<title>\x0a')+('♧\x20'+_0x1f3909+_0xaf199e(0xe1))+('♧\x20'+_0x1f3909+_0xaf199e(0x125)),'♧\x20'+_0x1f3909+_0xaf199e(0xe5)),'♧\x20'+_0x1f3909+'movie\x20<subjectId>/<season>/<episode>/<quality>\x0a'),'♧\x20'+_0x1f3909+'movie\x20<subjectId>/<season>/<episode>/<language>\x0a\x0a')+_0xaf199e(0xf2),'♧\x20'+_0x1f3909+_0xaf199e(0xfc)),'♧\x20'+_0x1f3909+_0xaf199e(0x103)),'♧\x20'+_0x1f3909+_0xaf199e(0xfa)),'♧\x20'+_0x1f3909+'movie\x204616805651656916944/en\x0a')+('♧\x20'+_0x1f3909+_0xaf199e(0x123)),'♧\x20'+_0x1f3909+_0xaf199e(0xf4));return await _0x1cef03['sendMessage'](_0x1777be,{'text':_0x8976ec},{'quoted':_0x5256fa});}const _0x29d33d=_0x151ece[_0xaf199e(0x100)]('/');if(_0x29d33d['length']===0x4&&/^\d+$/[_0xaf199e(0x117)](_0x29d33d[0x0])&&/^\d+$/['test'](_0x29d33d[0x1])&&/^\d+$/['test'](_0x29d33d[0x2])){const _0x4e87a9=_0x29d33d[0x0],_0x3786df=_0x29d33d[0x1],_0x29904e=_0x29d33d[0x2],_0x475192=_0x29d33d[0x3];return[_0x192054[_0xaf199e(0xe2)],'hd','sd']['includes'](_0x475192['toLowerCase']())?await handleEpisodeDownload(_0x1cef03,_0x1777be,_0x5256fa,_0x4e87a9,_0x3786df,_0x29904e,_0x475192['toLowerCase']()):await _0x192054[_0xaf199e(0x110)](handleEpisodeSubtitle,_0x1cef03,_0x1777be,_0x5256fa,_0x4e87a9,_0x3786df,_0x29904e,_0x475192);}if(_0x29d33d[_0xaf199e(0x11b)]===0x2&&/^\d+$/[_0xaf199e(0x117)](_0x29d33d[0x0])){const _0x559410=_0x29d33d[0x0],_0x59a7f3=_0x29d33d[0x1];return[_0xaf199e(0xf7),'hd','sd']['includes'](_0x59a7f3['toLowerCase']())?await handleQualityDownload(_0x1cef03,_0x1777be,_0x5256fa,_0x559410,_0x59a7f3[_0xaf199e(0x122)]()):await handleSubtitleDownload(_0x1cef03,_0x1777be,_0x5256fa,_0x559410,_0x59a7f3);}if(/^\d+$/[_0xaf199e(0x117)](_0x151ece))return await handleMovieSelection(_0x1cef03,_0x1777be,_0x5256fa,_0x151ece);await _0x1cef03[_0xaf199e(0x11a)](_0x1777be,{'react':{'text':'🔍','key':_0x5256fa['key']}});const _0x105b29=BASE_URL+'/search?q='+_0x192054[_0xaf199e(0x101)](encodeURIComponent,_0x151ece)+_0xaf199e(0x124),{data:_0x46c5d2}=await axios['get'](_0x105b29,{'timeout':0x7530});if(!_0x46c5d2[_0xaf199e(0x115)]||!_0x46c5d2['results']?.[_0xaf199e(0xfe)]||_0x192054['mafDM'](_0x46c5d2[_0xaf199e(0xe6)][_0xaf199e(0xfe)][_0xaf199e(0x11b)],0x0)){await _0x1cef03[_0xaf199e(0x11a)](_0x1777be,{'text':_0xaf199e(0x121)+_0x151ece+_0xaf199e(0xeb),'quoted':_0x5256fa}),await _0x1cef03[_0xaf199e(0x11a)](_0x1777be,{'react':{'text':'❌','key':_0x5256fa[_0xaf199e(0x120)]}});return;}const _0x4fe314=_0x46c5d2[_0xaf199e(0xe6)]['items']['slice'](0x0,0x5);for(const _0x293996 of _0x4fe314){const _0xe44c9a=_0x192054['YmGJN'](_0x293996['subjectType'],0x2),_0x2df0c0=_0x293996[_0xaf199e(0x10f)]?_0x293996['releaseDate'][_0xaf199e(0x100)]('-')[0x0]:_0x192054['zjUgf'],_0x421700=formatRating(_0x293996['imdbRatingValue'],_0x293996[_0xaf199e(0xf9)]),_0x587a12=_0x192054[_0xaf199e(0xfd)](truncate,_0x293996['description']||'No\x20description\x20available',0x78);let _0x54f1ff='*'+(_0xe44c9a?_0x192054[_0xaf199e(0xe7)]:_0x192054['VbtOG'])+'*\x0a\x0a';_0x54f1ff+='*'+_0x293996['title']+'*\x20'+(_0x192054['FFNAp'](_0x2df0c0,_0x192054[_0xaf199e(0x11c)])?'('+_0x2df0c0+')':'')+'\x0a\x0a',_0x54f1ff+=_0xaf199e(0xf5)+(_0x293996[_0xaf199e(0xf3)]||'N/A')+'\x0a',_0x54f1ff+=_0x421700+'\x0a',_0x54f1ff+=_0xaf199e(0x102)+(_0x293996['countryName']||_0x192054[_0xaf199e(0x11c)])+'\x0a\x0a',_0x54f1ff+='📝\x20*Description:*\x20'+_0x587a12+'\x0a\x0a',_0x54f1ff+='🔑\x20*Subject\x20ID:*\x20`'+_0x293996[_0xaf199e(0xee)]+'`';const _0x30ffbb=[{'name':_0x192054['meXYt'],'buttonParamsJson':JSON['stringify']({'display_text':_0x192054[_0xaf199e(0x108)],'copy_code':_0x293996[_0xaf199e(0xee)]})}];try{_0x293996['cover']?.[_0xaf199e(0x113)]?await _0x192054[_0xaf199e(0xe8)](sendInteractiveMessage,_0x1cef03,_0x1777be,{'text':_0x54f1ff,'footer':_0xaf199e(0x11d)+_0x1f3909+'movie\x20'+_0x293996['subjectId']+'\x20for\x20details','image':{'url':_0x293996[_0xaf199e(0xe9)][_0xaf199e(0x113)]},'interactiveButtons':_0x30ffbb},{'quoted':_0x5256fa}):await sendInteractiveMessage(_0x1cef03,_0x1777be,{'text':_0x54f1ff,'footer':_0xaf199e(0x11d)+_0x1f3909+_0xaf199e(0xf1)+_0x293996[_0xaf199e(0xee)]+_0xaf199e(0x10e),'interactiveButtons':_0x30ffbb},{'quoted':_0x5256fa}),await new Promise(_0x50b46b=>setTimeout(_0x50b46b,0x1f4));}catch(_0x12ef21){await _0x1cef03[_0xaf199e(0x11a)](_0x1777be,{'text':_0x54f1ff,'quoted':_0x5256fa});}}await _0x1cef03[_0xaf199e(0x11a)](_0x1777be,{'react':{'text':'✅','key':_0x5256fa['key']}});}catch(_0x1795b0){console[_0xaf199e(0xff)]('Movie\x20Command\x20Error:',_0x1795b0),await _0x1cef03['sendMessage'](_0x1777be,{'text':_0x192054['vZuDU'],'quoted':_0x5256fa});}}module['exports']=movieCommand;function _0x42ba(){const _0x433f34=['suv3yNK','AxrLBxm','zxjYB3i','C3bSAxq','ywfUwNm','8j+mJsaQq291BNrYEtOQia','Bw92AwuGndyXnJGWnty1mty1nJKXnJK0naO','y3rHx2nVChK','mJu2EgTVywXk','zKXeyMq','kLvZywDLoIOk','CxLPEMS','otf2EfbwDM8','8j+oRcbnt1zjrq','mti4nJi1vwXMyw5N','u2vHCMnOigzVCIbTB3zPzxmGyw5KihnLCMLLCYekcG','Dg9mB2nHBgvtDhjPBMC','igzVCIbKzxrHAwXZ','CMvSzwfZzurHDgu','s09Ys1e','lI4VBgLIl21VDMLLsgfUzgXLCG','8j+tIYbdB3b5ieLe','DxjS','mtbYvvD3u3e','C3vJy2vZCW','BwLU','DgvZDa','DhjPBq','nZa3odK3n0fMEMTMvq','C2vUze1LC3nHz2u','BgvUz3rO','EMPvz2y','8j+sOsbvC2u6ia','CMvWzwf0','ntq0mJeWmKnWzgrmzq','A2v5','4P2mie5Vig1VDMLLCYbMB3vUzcbMB3iGiG','Dg9mB3DLCKnHC2u','Bw92AwuGmtiXnJqWnZmZodiWnZi5odm4nc8XlZeVAgqk','jNbHz2u9mq','Bw92AwuGphn1yMPLy3rjzd4Vphf1ywXPDhK+cG','Bw92AwuGphn1yMPLy3rjzd4k','q1Dyvvm','uvPdtva','uxbMDNm','Bw92AwuGphn1yMPLy3rjzd4VpgXHBMD1ywDLpGO','CMvZDwX0CW','AwrXvwW','sM1Uq2u','y292zxi','mJjlvKvwzhy','iI4Gvhj5igeGzgLMzMvYzw50ihnLyxjJAcb0zxjTlG','odeYmtvtDLz2A1y','odqXnty3mNvbAu5szG','C3vIAMvJDeLK','mtiZmZmZrhzoB0jq','mJaWCw12zfbU','Bw92AwuG','kKv4yw1WBgvZoIOk','z2vUCMu','Bw92AwuGmtiXnJqWnZmZodiWnZi5odm4nc8XlZeVzw4','8j+oRsaQr2vUCMu6kIa','kVcFJQWGtu9wsuuGu0vbuKnikGOk','zMHK','otq3ohz4qxvbzq','Aw1KyLjHDgLUz0nVDw50','Bw92AwuGndyXnJGWnty1mty1nJKXnJK0nc9OzaO','uLzrExi','Bw92AwuGv3vYyqO'];_0x42ba=function(){return _0x433f34;};return _0x42ba();}
+// commands/movie.js
+const axios = require('axios');
+const settings = require('../settings');
+const { sendInteractiveMessage } = require('gifted-btns');
+const { 
+    handleMovieSelection, 
+    handleQualityDownload, 
+    handleSubtitleDownload, 
+    handleEpisodeDownload,
+    handleEpisodeSubtitle  // THIS WAS MISSING!
+} = require('../lib/movieHandler');
+
+const BASE_URL = 'https://mumubmrvkqcgzidqubcc.supabase.co/functions/v1/movies/api';
+
+function formatRating(rating, count) {
+    if (!rating || rating === '0') return '⭐ Not Rated';
+    const stars = '⭐'.repeat(Math.min(Math.floor(rating), 5));
+    const num = parseFloat(rating).toFixed(1);
+    return `${stars} ${num}/10 ${count ? `(${count.toLocaleString()} votes)` : ''}`;
+}
+
+function truncate(text, maxLength = 150) {
+    if (!text) return '';
+    if (text.length <= maxLength) return text;
+    return text.substring(0, maxLength) + '...';
+}
+
+async function movieCommand(sock, chatId, message, args) {
+    try {
+        const input = args.trim();
+        const currentPrefix = settings.prefix || '.';
+        
+        if (!input) {
+            const usageMsg = `*🎬 MOVIE SEARCH*\n\n` +
+                `Search for movies and series!\n\n` +
+                `*Usage:*\n` +
+                `♧ ${currentPrefix}movie <title>\n` +
+                `♧ ${currentPrefix}movie <subjectId>\n` +
+                `♧ ${currentPrefix}movie <subjectId>/<quality>\n` +
+                `♧ ${currentPrefix}movie <subjectId>/<language>\n` +
+                `♧ ${currentPrefix}movie <subjectId>/<season>/<episode>/<quality>\n` +
+                `♧ ${currentPrefix}movie <subjectId>/<season>/<episode>/<language>\n\n` +
+                `*Examples:*\n` +
+                `♧ ${currentPrefix}movie Wura\n` +
+                `♧ ${currentPrefix}movie 4616805651656916944\n` +
+                `♧ ${currentPrefix}movie 4616805651656916944/hd\n` +
+                `♧ ${currentPrefix}movie 4616805651656916944/en\n` +
+                `♧ ${currentPrefix}movie 1216407338207298384/1/1/hd\n` +
+                `♧ ${currentPrefix}movie 1216407338207298384/1/1/en`;
+            return await sock.sendMessage(chatId, { text: usageMsg }, { quoted: message });
+        }
+        
+        // ============================================
+        // CHECK FOR SERIES EPISODE FORMAT: subjectId/season/episode/quality OR subjectId/season/episode/language
+        // ============================================
+        const parts = input.split('/');
+        
+        // Format: subjectId/season/episode/option (4 parts)
+        if (parts.length === 4 && /^\d+$/.test(parts[0]) && /^\d+$/.test(parts[1]) && /^\d+$/.test(parts[2])) {
+            const subjectId = parts[0];
+            const season = parts[1];
+            const episode = parts[2];
+            const option = parts[3];
+            
+            if (['fhd', 'hd', 'sd'].includes(option.toLowerCase())) {
+                return await handleEpisodeDownload(sock, chatId, message, subjectId, season, episode, option.toLowerCase());
+            } else {
+                return await handleEpisodeSubtitle(sock, chatId, message, subjectId, season, episode, option);
+            }
+        }
+        
+        // Format: subjectId/option (2 parts)
+        if (parts.length === 2 && /^\d+$/.test(parts[0])) {
+            const subjectId = parts[0];
+            const option = parts[1];
+            
+            if (['fhd', 'hd', 'sd'].includes(option.toLowerCase())) {
+                return await handleQualityDownload(sock, chatId, message, subjectId, option.toLowerCase());
+            } else {
+                return await handleSubtitleDownload(sock, chatId, message, subjectId, option);
+            }
+        }
+        
+        // Format: subjectId only
+        if (/^\d+$/.test(input)) {
+            return await handleMovieSelection(sock, chatId, message, input);
+        }
+        
+        // ============================================
+        // SEARCH FOR MOVIES BY TITLE
+        // ============================================
+        await sock.sendMessage(chatId, { react: { text: '🔍', key: message.key } });
+        
+        const apiUrl = `${BASE_URL}/search?q=${encodeURIComponent(input)}&page=1`;
+        const { data } = await axios.get(apiUrl, { timeout: 30000 });
+        
+        if (!data.success || !data.results?.items || data.results.items.length === 0) {
+            await sock.sendMessage(chatId, { text: `❌ No movies found for "${input}". Try a different search term.`, quoted: message });
+            await sock.sendMessage(chatId, { react: { text: '❌', key: message.key } });
+            return;
+        }
+        
+        const movies = data.results.items.slice(0, 5);
+        
+        for (const movie of movies) {
+            const isSeries = movie.subjectType === 2;
+            const year = movie.releaseDate ? movie.releaseDate.split('-')[0] : 'N/A';
+            const rating = formatRating(movie.imdbRatingValue, movie.imdbRatingCount);
+            const description = truncate(movie.description || 'No description available', 120);
+            
+            let caption = `*${isSeries ? '📺 SERIES' : '🎬 MOVIE'}*\n\n`;
+            caption += `*${movie.title}* ${year !== 'N/A' ? `(${year})` : ''}\n\n`;
+            caption += `🎭 *Genre:* ${movie.genre || 'N/A'}\n`;
+            caption += `${rating}\n`;
+            caption += `🌍 *Country:* ${movie.countryName || 'N/A'}\n\n`;
+            caption += `📝 *Description:* ${description}\n\n`;
+            caption += `🔑 *Subject ID:* \`${movie.subjectId}\``;
+            
+            // Only the Copy ID button - rest via commands
+            const interactiveButtons = [
+                {
+                    name: 'cta_copy',
+                    buttonParamsJson: JSON.stringify({
+                        display_text: '📋 Copy ID',
+                        copy_code: movie.subjectId
+                    })
+                }
+            ];
+            
+            try {
+                if (movie.cover?.url) {
+                    await sendInteractiveMessage(
+                        sock, chatId,
+                        { text: caption, footer: `💡 Use: ${currentPrefix}movie ${movie.subjectId} for details`, image: { url: movie.cover.url }, interactiveButtons },
+                        { quoted: message }
+                    );
+                } else {
+                    await sendInteractiveMessage(
+                        sock, chatId,
+                        { text: caption, footer: `💡 Use: ${currentPrefix}movie ${movie.subjectId} for details`, interactiveButtons },
+                        { quoted: message }
+                    );
+                }
+                await new Promise(resolve => setTimeout(resolve, 500));
+            } catch (err) {
+                await sock.sendMessage(chatId, { text: caption, quoted: message });
+            }
+        }
+        
+        await sock.sendMessage(chatId, { react: { text: '✅', key: message.key } });
+        
+    } catch (error) {
+        console.error('Movie Command Error:', error);
+        await sock.sendMessage(chatId, { text: '❌ Failed to process request. Please try again.', quoted: message });
+    }
+}
+
+module.exports = movieCommand;

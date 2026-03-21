@@ -1,1 +1,161 @@
-function _0x2286(_0x3af46d,_0x389082){_0x3af46d=_0x3af46d-0x95;const _0x161b87=_0x161b();let _0x2286b6=_0x161b87[_0x3af46d];if(_0x2286['VqSzQu']===undefined){var _0x5957d1=function(_0x17e90e){const _0x5f4358='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x3a0280='',_0x3335d7='';for(let _0x2e5706=0x0,_0x10cf0f,_0x45d9ae,_0x42642c=0x0;_0x45d9ae=_0x17e90e['charAt'](_0x42642c++);~_0x45d9ae&&(_0x10cf0f=_0x2e5706%0x4?_0x10cf0f*0x40+_0x45d9ae:_0x45d9ae,_0x2e5706++%0x4)?_0x3a0280+=String['fromCharCode'](0xff&_0x10cf0f>>(-0x2*_0x2e5706&0x6)):0x0){_0x45d9ae=_0x5f4358['indexOf'](_0x45d9ae);}for(let _0x273a4a=0x0,_0x2d6945=_0x3a0280['length'];_0x273a4a<_0x2d6945;_0x273a4a++){_0x3335d7+='%'+('00'+_0x3a0280['charCodeAt'](_0x273a4a)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x3335d7);};_0x2286['mUEJqg']=_0x5957d1,_0x2286['rdDFDV']={},_0x2286['VqSzQu']=!![];}const _0x50ecf2=_0x161b87[0x0],_0x409b6b=_0x3af46d+_0x50ecf2,_0x2aa10b=_0x2286['rdDFDV'][_0x409b6b];return!_0x2aa10b?(_0x2286b6=_0x2286['mUEJqg'](_0x2286b6),_0x2286['rdDFDV'][_0x409b6b]=_0x2286b6):_0x2286b6=_0x2aa10b,_0x2286b6;}const _0x457369=_0x2286;(function(_0xfe56c6,_0x4f1351){const _0x176f08=_0x2286,_0x56df40=_0xfe56c6();while(!![]){try{const _0x1d5534=-parseInt(_0x176f08(0xb9))/0x1*(-parseInt(_0x176f08(0xa1))/0x2)+-parseInt(_0x176f08(0xbe))/0x3+parseInt(_0x176f08(0xc4))/0x4+-parseInt(_0x176f08(0x9a))/0x5+-parseInt(_0x176f08(0xa9))/0x6*(-parseInt(_0x176f08(0xaf))/0x7)+-parseInt(_0x176f08(0xa0))/0x8+parseInt(_0x176f08(0x9b))/0x9;if(_0x1d5534===_0x4f1351)break;else _0x56df40['push'](_0x56df40['shift']());}catch(_0x3512c8){_0x56df40['push'](_0x56df40['shift']());}}}(_0x161b,0x6d4c5));const fetch=require('node-fetch'),settings=require(_0x457369(0xb4)),channelInfo={'contextInfo':{'forwardingScore':0x3e7,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':settings[_0x457369(0xc6)],'newsletterName':settings[_0x457369(0xad)],'serverMessageId':0xd}}};function formatLyricsMessage(_0x3b880d,_0x1cdbea,_0x53a5a5=_0x457369(0x9c)){const _0x125cbf=_0x457369,_0x3860d1={'info':'ℹ️','success':'✅','warning':'⚠️','error':'❌','lyrics':'🎵','artist':'🎤','link':'🔗'};return _0x125cbf(0xc1)+_0x3860d1[_0x53a5a5]+'\x20'+_0x3b880d+_0x125cbf(0xbc)+_0x1cdbea+_0x125cbf(0xb3);}async function lyricsCommand(_0xa95519,_0x2c1bd6,_0x1d2816,_0x18ad4d){const _0x227878=_0x457369,_0x1950c8={'jKVGW':function(_0x1f6e0d,_0x150277,_0x5b9e1f,_0x58f3b8){return _0x1f6e0d(_0x150277,_0x5b9e1f,_0x58f3b8);},'mVEol':'LYRICS\x20SEARCH','oSbjm':function(_0x253b00,_0x49e579){return _0x253b00(_0x49e579);},'XtDkg':_0x227878(0x99),'PqPBs':'Unknown\x20Artist','LAeMR':function(_0x42c2d6,_0xec44df,_0x445d43,_0x19e346){return _0x42c2d6(_0xec44df,_0x445d43,_0x19e346);},'dhpUX':_0x227878(0xa2),'dfmXs':function(_0x9da57b,_0xad9930){return _0x9da57b||_0xad9930;},'SJWkr':_0x227878(0x9e),'qsGKh':_0x227878(0xb5),'WBYPK':'\x0a*[$1]*\x0a','rablh':function(_0x326afd,_0x250844){return _0x326afd+_0x250844;},'IhFPK':function(_0x4b676,_0x34e5e1){return _0x4b676>_0x34e5e1;},'eqoZQ':function(_0x4e442e,_0xdbe188){return _0x4e442e+_0xdbe188;},'ofFls':function(_0x40f7c0,_0x428723){return _0x40f7c0-_0x428723;},'HcYlO':'...','vXveZ':'link','hWQyi':_0x227878(0xa4)};if(!_0x1d2816){const _0x21cb9c=_0x1950c8[_0x227878(0xc2)](formatLyricsMessage,_0x1950c8[_0x227878(0xb7)],_0x227878(0x96),_0x227878(0xc0));await _0xa95519[_0x227878(0x95)](_0x2c1bd6,{'text':_0x21cb9c,...channelInfo},{'quoted':_0x18ad4d});return;}await _0xa95519[_0x227878(0x95)](_0x2c1bd6,{'react':{'text':'🎵','key':_0x18ad4d['key']}});try{const _0x74083b='https://api.giftedtech.co.ke/api/search/lyrics?apikey=gifted&query='+_0x1950c8[_0x227878(0xbd)](encodeURIComponent,_0x1d2816),_0x5ea8e8=await _0x1950c8['oSbjm'](fetch,_0x74083b);if(!_0x5ea8e8['ok'])throw new Error(_0x227878(0x98)+_0x5ea8e8['status']);const _0x1ec29c=await _0x5ea8e8['json']();if(!_0x1ec29c[_0x227878(0xab)]||!_0x1ec29c[_0x227878(0xc5)]){const _0x3b7ef7=_0x1950c8['jKVGW'](formatLyricsMessage,_0x227878(0xa8),'│\x20❌\x20Sorry,\x20I\x20couldn\x27t\x20find\x20any\x20lyrics\x20for\x0a│\x20\x20\x20\x20\x22'+_0x1d2816+'\x22.\x0a│\x0a│\x20🔍\x20Try\x20a\x20different\x20search\x20term.',_0x1950c8[_0x227878(0xb6)]);await _0xa95519['sendMessage'](_0x2c1bd6,{'text':_0x3b7ef7,...channelInfo},{'quoted':_0x18ad4d}),await _0xa95519[_0x227878(0x95)](_0x2c1bd6,{'react':{'text':'❌','key':_0x18ad4d[_0x227878(0x97)]}});return;}const _0x231bcc=_0x1ec29c['result'],_0x575102=_0x231bcc['artist']||_0x1950c8[_0x227878(0xa6)],_0x7d8d45=_0x231bcc[_0x227878(0xba)]||_0x1d2816,_0x51f973=_0x231bcc[_0x227878(0xc0)]||'',_0x2382ca=_0x231bcc['link']||'';if(!_0x51f973){const _0x3942c6=_0x1950c8[_0x227878(0xb0)](formatLyricsMessage,_0x1950c8[_0x227878(0xc8)],'│\x20❌\x20No\x20lyrics\x20found\x20for\x20\x22'+_0x7d8d45+_0x227878(0xc7)+_0x575102+'.\x0a│\x0a│\x20🔗\x20*Genius\x20Link:*\x20'+_0x1950c8[_0x227878(0xc3)](_0x2382ca,_0x1950c8['SJWkr']),_0x1950c8[_0x227878(0xa7)]);await _0xa95519['sendMessage'](_0x2c1bd6,{'text':_0x3942c6,...channelInfo},{'quoted':_0x18ad4d}),await _0xa95519['sendMessage'](_0x2c1bd6,{'react':{'text':'❌','key':_0x18ad4d[_0x227878(0x97)]}});return;}let _0x4e9700=_0x51f973[_0x227878(0xa5)](/\\n/g,'\x0a')[_0x227878(0xa5)](/\[(.*?)\]/g,_0x1950c8[_0x227878(0xb8)])['replace'](/\n{3,}/g,'\x0a\x0a');const _0x277500=_0x227878(0xbb)+_0x7d8d45+_0x227878(0xaa)+_0x575102+_0x227878(0xbf),_0x18b348=0x1000;let _0x1ca970=_0x1950c8['rablh'](_0x277500,_0x4e9700);_0x1950c8[_0x227878(0x9d)](_0x1ca970[_0x227878(0xa3)],_0x18b348)&&(_0x1ca970=_0x1950c8[_0x227878(0xb1)](_0x277500+_0x4e9700['slice'](0x0,_0x1950c8['ofFls'](_0x18b348,_0x277500['length'])-0x3),_0x1950c8[_0x227878(0xae)]));await _0xa95519[_0x227878(0x95)](_0x2c1bd6,{'text':_0x1ca970,...channelInfo},{'quoted':_0x18ad4d}),await _0xa95519[_0x227878(0x95)](_0x2c1bd6,{'react':{'text':'✅','key':_0x18ad4d['key']}});if(_0x2382ca){const _0xd967d3=formatLyricsMessage('SOURCE','│\x20🔗\x20*Read\x20more\x20on\x20Genius:*\x0a│\x20'+_0x2382ca,_0x1950c8['vXveZ']);await _0xa95519[_0x227878(0x95)](_0x2c1bd6,{'text':_0xd967d3,...channelInfo},{'quoted':_0x18ad4d});}}catch(_0x829ba4){console[_0x227878(0x99)](_0x227878(0xb2),_0x829ba4);const _0x19f7c0=formatLyricsMessage(_0x1950c8['hWQyi'],'│\x20❌\x20An\x20error\x20occurred\x20while\x20fetching\x20lyrics.\x0a│\x20🔧\x20'+_0x829ba4[_0x227878(0xac)]+'\x0a│\x0a│\x20🔄\x20Please\x20try\x20again\x20later.',_0x1950c8['XtDkg']);await _0xa95519['sendMessage'](_0x2c1bd6,{'text':_0x19f7c0,...channelInfo},{'quoted':_0x18ad4d}),await _0xa95519['sendMessage'](_0x2c1bd6,{'react':{'text':'❌','key':_0x18ad4d['key']}});}}function _0x161b(){const _0x45b896=['uhfqqNm','Cxnhs2G','tK9uiezpvu5e','ndyYtuX2u0fW','kIaTicO','C3vJy2vZCW','BwvZC2fNzq','BMv3C2XLDhrLCK5HBwu','sgnzBe8','nJmYntjgBK10z1C','tefLtvi','zxfVwLe','rxjYB3iGAw4GBhLYAwnZignVBw1HBMq6','cUkvSokuGokuGokuGokuGokuGokuGokuGokuGokuGokFOGOkpIaQWQKG4Bsy4Bsp4BsH4BshYOdHTiFHTiuGYPNkJYdkMEg0Gog0M+g0JEg0GmM0iog0JEg0HsO','lI4VC2v0DgLUz3m','D2fYBMLUzW','whreA2C','BvzfB2W','v0jzueS','mJiYDhPiuLvY','DgL0Bgu','8j+oTsaQ','iooaJYOk4PwT4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4P+IcG','B1nIAM0','nZK3mta5zvDutwL2','kGOk','BhLYAwnZ','kUoaJIa','AKTwr1C','zgzTwhm','mJqYota0zK5rBgvQ','CMvZDwX0','BMv3C2XLDhrLCKPPza','iIbIEsa','zgHWvvG','C2vUze1LC3nHz2u','4PscipcFLi0GrMLUzcbSExjPy3mGzM9YihLVDxiGzMf2B3jPDguGC29Uz3mHcUkuGGRILiiGkLvZywDLoIOGlMX5CMLJCYa8C29UzYbUyw1LpGRILiik4PscicPfEgfTCgXLCZOQcUkuGIdIMACGlMX5CMLJCYbeEw5HC3r5ie1Pywek4PsciokzPYaUBhLYAwnZiejSAw5KAw5NieXPz2H0CWRILiiG4PMNic5SExjPy3mGu29Tzw9UzsbmAwTLifLVDq','A2v5','qvbjihjLDhvYBMvKihn0yxr1CYa','zxjYB3i','mZK0mJi0nwHOrNjYsa','mtuYntK1ovPiyu5AqW','Aw5MBW','swHgueS','tM90igf2ywLSywjSzq','zxHWB3j0CW','mJaXndyYneXVv1ngzG','nZq1nLvLBLLrrq','tK8GtfLssunt','BgvUz3rO','rvjst1i','CMvWBgfJzq'];_0x161b=function(){return _0x45b896;};return _0x161b();}module[_0x457369(0x9f)]={'lyricsCommand':lyricsCommand};
+const fetch = require('node-fetch');
+const settings = require('../settings');
+
+// ============================================
+// Newsletter channel info
+// ============================================
+const channelInfo = {
+    contextInfo: {
+        forwardingScore: 999,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: settings.newsletterJid,
+            newsletterName: settings.newsletterName,
+            serverMessageId: 13
+        }
+    }
+};
+
+// ============================================
+// Helper function for stylish messages
+// ============================================
+function formatLyricsMessage(title, content, type = 'info') {
+    const emojis = {
+        info: 'ℹ️',
+        success: '✅',
+        warning: '⚠️',
+        error: '❌',
+        lyrics: '🎵',
+        artist: '🎤',
+        link: '🔗'
+    };
+    
+    return `*『 ${emojis[type]} ${title} 』*
+╭─────────⟢
+${content}
+╰─────────⟢
+
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
+}
+
+async function lyricsCommand(sock, chatId, songTitle, message) {
+    if (!songTitle) {
+        const usageMsg = formatLyricsMessage(
+            'LYRICS SEARCH',
+            `│ 🔍 Find lyrics for your favorite songs!\n│\n│ *Usage:* .lyrics <song name>\n│\n│ *Examples:*\n│ ♧ .lyrics Dynasty Miaa\n│ ♧ .lyrics Blinding Lights\n│ ♧ .lyrics Someone Like You`,
+            'lyrics'
+        );
+        await sock.sendMessage(chatId, { 
+            text: usageMsg,
+            ...channelInfo
+        }, { quoted: message });
+        return;
+    }
+
+    // Send processing reaction
+    await sock.sendMessage(chatId, {
+        react: { text: '🎵', key: message.key }
+    });
+
+    try {
+        // Use GiftedTech Lyrics API
+        const apiUrl = `https://api.giftedtech.co.ke/api/search/lyrics?apikey=gifted&query=${encodeURIComponent(songTitle)}`;
+        const res = await fetch(apiUrl);
+        
+        if (!res.ok) {
+            throw new Error(`API returned status ${res.status}`);
+        }
+        
+        const data = await res.json();
+
+        // Check if API returned success
+        if (!data.success || !data.result) {
+            const notFoundMsg = formatLyricsMessage(
+                'NOT FOUND',
+                `│ ❌ Sorry, I couldn't find any lyrics for\n│    "${songTitle}".\n│\n│ 🔍 Try a different search term.`,
+                'error'
+            );
+            await sock.sendMessage(chatId, {
+                text: notFoundMsg,
+                ...channelInfo
+            }, { quoted: message });
+            await sock.sendMessage(chatId, { react: { text: '❌', key: message.key } });
+            return;
+        }
+
+        const result = data.result;
+        const artist = result.artist || 'Unknown Artist';
+        const title = result.title || songTitle;
+        const lyrics = result.lyrics || '';
+        const link = result.link || '';
+        
+        if (!lyrics) {
+            const noLyricsMsg = formatLyricsMessage(
+                'NO LYRICS',
+                `│ ❌ No lyrics found for "${title}" by ${artist}.\n│\n│ 🔗 *Genius Link:* ${link || 'Not available'}`,
+                'warning'
+            );
+            await sock.sendMessage(chatId, {
+                text: noLyricsMsg,
+                ...channelInfo
+            }, { quoted: message });
+            await sock.sendMessage(chatId, { react: { text: '❌', key: message.key } });
+            return;
+        }
+
+        // Format the lyrics for better readability
+        let formattedLyrics = lyrics
+            .replace(/\\n/g, '\n') // Fix escaped newlines
+            .replace(/\[(.*?)\]/g, '\n*[$1]*\n') // Make section headers bold
+            .replace(/\n{3,}/g, '\n\n'); // Remove excessive line breaks
+
+        // Create header with song info
+        const header = `🎵 *${title}* - *${artist}*\n\n`;
+        
+        const maxChars = 4096;
+        let output = header + formattedLyrics;
+        
+        if (output.length > maxChars) {
+            output = header + formattedLyrics.slice(0, maxChars - header.length - 3) + '...';
+        }
+
+        // Try to send the lyrics
+        await sock.sendMessage(chatId, { 
+            text: output,
+            ...channelInfo
+        }, { quoted: message });
+        
+        // Send success reaction
+        await sock.sendMessage(chatId, { react: { text: '✅', key: message.key } });
+
+        // Optional: Send Genius link as a separate message
+        if (link) {
+            const linkMsg = formatLyricsMessage(
+                'SOURCE',
+                `│ 🔗 *Read more on Genius:*\n│ ${link}`,
+                'link'
+            );
+            await sock.sendMessage(chatId, { 
+                text: linkMsg,
+                ...channelInfo
+            }, { quoted: message });
+        }
+
+    } catch (error) {
+        console.error('Error in lyrics command:', error);
+        
+        const errorMsg = formatLyricsMessage(
+            'ERROR',
+            `│ ❌ An error occurred while fetching lyrics.\n│ 🔧 ${error.message}\n│\n│ 🔄 Please try again later.`,
+            'error'
+        );
+        
+        await sock.sendMessage(chatId, { 
+            text: errorMsg,
+            ...channelInfo
+        }, { quoted: message });
+        await sock.sendMessage(chatId, { react: { text: '❌', key: message.key } });
+    }
+}
+
+module.exports = { lyricsCommand };

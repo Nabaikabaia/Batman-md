@@ -1,1 +1,255 @@
-const _0x2dbc85=_0x2729;(function(_0x9bb7bf,_0x500145){const _0x15c781=_0x2729,_0x2b89a4=_0x9bb7bf();while(!![]){try{const _0x757e0=parseInt(_0x15c781(0x14e))/0x1+parseInt(_0x15c781(0x14c))/0x2+parseInt(_0x15c781(0x121))/0x3+parseInt(_0x15c781(0x114))/0x4*(-parseInt(_0x15c781(0x156))/0x5)+-parseInt(_0x15c781(0x115))/0x6+parseInt(_0x15c781(0x122))/0x7+-parseInt(_0x15c781(0x13e))/0x8;if(_0x757e0===_0x500145)break;else _0x2b89a4['push'](_0x2b89a4['shift']());}catch(_0x1a71b4){_0x2b89a4['push'](_0x2b89a4['shift']());}}}(_0x14e0,0xf27a9));function _0x14e0(){const _0x583118=['ChvIBgLJ','8j+oSIbbBgL2zsbJB21Tyw5Kic0Gu2vSzwn0zwqGCMfUzg9TigLTywDLoIa','u01bvNa','mtqWmZG3otj3yLrqBeq','cUkuGYdWN5gKicPpv05fuJOQia','Dg90ywXTzw0','DMvYC2LVBG','oWPuruW7D2fPzd0','lI4UcUkuGYdIMPNVUi8GkKnpuKvtoIOG','v3b5ExK','CMvHzezPBgvtEw5J','BM93','qKfutufoie1e','Dg9mB2nHBgveyxrLu3rYAw5N','Dg9gAxHLza','y3b1q29Yzxm','swT5y3e','mJKYmdC3ofb5EeXeDW','Cgf0Aa','mJaYotK5rxvxEKvu','yM90tMfTzq','r0ik4PsdipcFLQxVUi8GkKnqvtOQia','wwTtqxu','y3b1CW','qNDerLe','mebZlNDOyxrZyxbWlM5LDa','C3rHDhvZqgjYB2fKy2fZDa','mJi5mdCWtLzOwhzW','s0jiB3y','wuDcuhG','4PwT4Psb4Psb4QQOipcFPjyGkG','CMfUzg9T','CMvWBgfJzq','y3b1tw9KzwW','s0TJrNi','cUkuGYdWN5oficPeqvrfoIOG','qKvhsu46vKnbuKqkvKvsu0LptJOZlJakrK46','rxjYB3iGAw4GywXPDMuGy29TBwfUzdO','mteYshvlu0Tc','mtG3ndu1mgrvwK5mAW','D1nRA2W','vKjcAMm','B3DUzxjoDw1Izxi','C3fLzeS','Ahr0Chm6lY9LBgL0zxbYB3rLy2GTDxjSlNPVBMuUAwqVmtC3mZGYmdKZnJqWmNr2B3PKEI5QCgC','zMXVB3i','BNvTzxjPyW','yxjYyxLIDwzMzxi','lI4VyxnZzxrZl293BMvYlMPWzW','zgf0yq','BMv3C2XLDhrLCKPPza','ntq5nJaXohPqz0nQzG','ntKZnta1nvD3twLqDq','EvP4Beq','EgDmDwq','Bg9N','Ahr0Chm6lY9LBgL0zxbYB3rLy2GTDxjSlNPVBMuUAwqVmtC3mZGYmdKYmJa0n3HKCZi4Ac5QCgC','cUkuGWRILBdILihILihILihILihILihILihILihILihILihILihILihILihILihILihILihILiJIIRCkcUkvREkuGEkuGEkQQcdWN5k7icPtwvnuru0Gsu5gtYOG4QQP4Psb4Psb4Psi4OQ3cUkuGWRILimG8j+sVIaQuKfnifvtquDfoIOG','tKD0uxy','ms4WlJa','zNjVBq','Dg90ywXnzw1VCNK','Ahr0Chm6lY9LBgL0zxbYB3rLy2GTDxjSlNPVBMuUAwqVmtC3mZGYmdK2mtm2nhnXBgG0EI5QCgC','zxHWB3j0CW','Bw9KzwW','C2vUze1LC3nHz2u','CLfAD2C','cUkuGYdWN5seicPvufrjtuu6kIa','y1b3uxy','A2v5','BwvUDsbMB3iGy29TBwfUzhmQcUkvSokuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuGEkuIokkTWOkpIaQug93zxjLzcbIEsa','mI1KAwDPDa','BgvUz3rO','Ahr0Chm6lY9LBgL0zxbYB3rLy2GTDxjSlNPVBMuUAwqVmtC3mZGYmdK3mJyYmgW1A2zHAI5QCgC','qhmUD2HHDhnHChaUBMv0','yM90t3DUzxi','Dg9mB2nHBgvuAw1Lu3rYAw5N'];_0x14e0=function(){return _0x583118;};return _0x14e0();}const settings=require('../settings'),fs=require('fs'),path=require(_0x2dbc85(0x14d)),os=require('os'),axios=require('axios'),botStartTime=Date['now'](),imageUrls=['https://eliteprotech-url.zone.id/17738209879847o227e.jpg',_0x2dbc85(0x137),_0x2dbc85(0x12c),_0x2dbc85(0x126),_0x2dbc85(0x11a)];function getRandomImageUrl(){const _0x201a90=_0x2dbc85,_0x13f2a1=Math[_0x201a90(0x11b)](Math[_0x201a90(0x15a)]()*imageUrls[_0x201a90(0x136)]);return imageUrls[_0x13f2a1];}async function fetchProfilePicture(_0x1a988b,_0x47c542){const _0x5a9d32=_0x2dbc85;try{const _0x461bdb=await _0x1a988b['profilePictureUrl'](_0x47c542,'image'),_0x2e2927=await axios['get'](_0x461bdb,{'responseType':_0x5a9d32(0x11d)});return Buffer[_0x5a9d32(0x12a)](_0x2e2927[_0x5a9d32(0x11f)]);}catch(_0x10f736){return console['log']('Failed\x20to\x20fetch\x20profile\x20picture,\x20using\x20fallback'),null;}}async function getQuotedContact(_0x489a5a){const _0x26ee7c=_0x2dbc85,_0x62f9c9={'qTvHU':function(_0x27b279,_0x564897){return _0x27b279+_0x564897;},'rQZwg':_0x26ee7c(0x138),'QRaoU':_0x26ee7c(0x11e),'xgLud':_0x26ee7c(0x147),'cPwQv':'https://nabees.online'},_0x2832d1=_0x62f9c9['qTvHU'](settings['ownerNumber'],_0x62f9c9[_0x26ee7c(0x130)]),_0x165674=await fetchProfilePicture(_0x489a5a,_0x2832d1);let _0xf43df4=null;try{const _0x14af17=path['join'](__dirname,_0x62f9c9['QRaoU']);fs['existsSync'](_0x14af17)&&(_0xf43df4=fs[_0x26ee7c(0x145)](_0x14af17));}catch(_0x2da461){}return{'key':{'fromMe':![],'participant':_0x26ee7c(0x154),'remoteJid':_0x26ee7c(0x155)},'message':{'contactMessage':{'displayName':settings[_0x26ee7c(0x139)]||_0x62f9c9['xgLud'],'vcard':_0x26ee7c(0x15f)+(settings[_0x26ee7c(0x139)]||_0x62f9c9[_0x26ee7c(0x124)])+'\x0aORG:'+(settings[_0x26ee7c(0x14f)]||'BATMAN\x20MD')+_0x26ee7c(0x142)+settings['ownerNumber']+':'+settings[_0x26ee7c(0x118)]+'\x0aURL:'+(settings['website']||_0x62f9c9[_0x26ee7c(0x132)])+'\x0aEND:VCARD','jpegThumbnail':_0x165674||_0xf43df4}}};}function getUptime(){const _0x20b44a=_0x2dbc85,_0x4a96d1={'KKcFr':function(_0x512b23,_0x552790){return _0x512b23/_0x552790;},'KBHov':function(_0x2350ac,_0x1b4b00){return _0x2350ac*_0x1b4b00;},'wSkkl':function(_0x32659c,_0x18cc1f){return _0x32659c/_0x18cc1f;},'sqedK':function(_0x2e0d18,_0x546aa8){return _0x2e0d18%_0x546aa8;},'AogSR':function(_0x44304c,_0x683bbf){return _0x44304c>_0x683bbf;}},_0x20382f=Math[_0x20b44a(0x11b)]((Date[_0x20b44a(0x146)]()-botStartTime)/0x3e8),_0x337cce=Math['floor'](_0x4a96d1[_0x20b44a(0x15d)](_0x20382f,0xe10*0x18)),_0x51471c=Math[_0x20b44a(0x11b)](_0x4a96d1['KKcFr'](_0x20382f%_0x4a96d1[_0x20b44a(0x157)](0xe10,0x18),0xe10)),_0x459ed0=Math['floor'](_0x4a96d1[_0x20b44a(0x116)](_0x20382f%0xe10,0x3c)),_0x376e9b=_0x4a96d1[_0x20b44a(0x119)](_0x20382f,0x3c);if(_0x4a96d1['AogSR'](_0x337cce,0x0))return _0x337cce+'d\x20'+_0x51471c+'h\x20'+_0x459ed0+'m\x20'+_0x376e9b+'s';else{if(_0x51471c>0x0)return _0x51471c+'h\x20'+_0x459ed0+'m\x20'+_0x376e9b+'s';else return _0x459ed0>0x0?_0x459ed0+'m\x20'+_0x376e9b+'s':_0x376e9b+'s';}}function getSystemInfo(){const _0x23a581=_0x2dbc85,_0x3cff55={'SMAVp':function(_0x47035d,_0x3948cd){return _0x47035d**_0x3948cd;},'Ikycq':function(_0xffcbc8,_0x20d8dc){return _0xffcbc8/_0x20d8dc;}},_0x5377bc=(os[_0x23a581(0x140)]()/_0x3cff55[_0x23a581(0x13d)](0x400,0x3))[_0x23a581(0x149)](0x2),_0x2aa500=_0x3cff55[_0x23a581(0x14b)](os['freemem'](),_0x3cff55['SMAVp'](0x400,0x3))[_0x23a581(0x149)](0x2),_0x3f4509=(_0x5377bc-_0x2aa500)['toFixed'](0x2),_0x23459f=os[_0x23a581(0x152)]()[0x0][_0x23a581(0x12e)],_0x37418c=os[_0x23a581(0x152)]()[_0x23a581(0x136)];return{'totalMemory':_0x5377bc,'freeMemory':_0x2aa500,'usedMemory':_0x3f4509,'cpuModel':_0x23459f,'cpuCores':_0x37418c};}function _0x2729(_0x464d3e,_0x1f08c3){_0x464d3e=_0x464d3e-0x113;const _0x14e02e=_0x14e0();let _0x272927=_0x14e02e[_0x464d3e];if(_0x2729['QsAYvX']===undefined){var _0x12a45b=function(_0x5754cc){const _0x43ecfa='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x449f12='',_0x50b6e7='';for(let _0x40b3d9=0x0,_0x2c252c,_0x6b42f4,_0x1f5c50=0x0;_0x6b42f4=_0x5754cc['charAt'](_0x1f5c50++);~_0x6b42f4&&(_0x2c252c=_0x40b3d9%0x4?_0x2c252c*0x40+_0x6b42f4:_0x6b42f4,_0x40b3d9++%0x4)?_0x449f12+=String['fromCharCode'](0xff&_0x2c252c>>(-0x2*_0x40b3d9&0x6)):0x0){_0x6b42f4=_0x43ecfa['indexOf'](_0x6b42f4);}for(let _0x540fe2=0x0,_0x41ae92=_0x449f12['length'];_0x540fe2<_0x41ae92;_0x540fe2++){_0x50b6e7+='%'+('00'+_0x449f12['charCodeAt'](_0x540fe2)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x50b6e7);};_0x2729['YnFviF']=_0x12a45b,_0x2729['WYgeBD']={},_0x2729['QsAYvX']=!![];}const _0x5dad5e=_0x14e02e[0x0],_0x3cae0c=_0x464d3e+_0x5dad5e,_0x375c90=_0x2729['WYgeBD'][_0x3cae0c];return!_0x375c90?(_0x272927=_0x2729['YnFviF'](_0x272927),_0x2729['WYgeBD'][_0x3cae0c]=_0x272927):_0x272927=_0x375c90,_0x272927;}async function aliveCommand(_0x5d6cf4,_0x584540,_0x359ede){const _0x55fc9d=_0x2dbc85,_0x54d21f={'yZxlD':'en-US','NGtQv':'2-digit','BwDFQ':'BATMAN\x20MD','YGBPx':_0x55fc9d(0x13b),'YkSAu':_0x55fc9d(0x129),'VBBjc':'https://nabees.online','Wpyyy':'../assets/alive_song.mp3'};let _0x4a72f9=![];try{await _0x5d6cf4['sendMessage'](_0x584540,{'react':{'text':'⚡','key':_0x359ede[_0x55fc9d(0x133)]}}),_0x4a72f9=!![];const _0x49835a=getSystemInfo(),_0x261106=getUptime(),_0xf828c=new Date()[_0x55fc9d(0x13a)](_0x54d21f[_0x55fc9d(0x123)],{'hour12':![],'hour':_0x54d21f[_0x55fc9d(0x128)],'minute':_0x54d21f['NGtQv'],'second':_0x54d21f[_0x55fc9d(0x128)]}),_0x317ffe=new Date()[_0x55fc9d(0x148)](_0x54d21f[_0x55fc9d(0x123)],{'month':_0x55fc9d(0x135),'day':_0x54d21f[_0x55fc9d(0x128)],'year':_0x55fc9d(0x11c)})[_0x55fc9d(0x15b)](/\//g,'/'),_0x51c172=getRandomImageUrl();console[_0x55fc9d(0x125)](_0x55fc9d(0x13c)+_0x51c172);const _0x30182e=_0x55fc9d(0x159)+(settings['botName']||_0x54d21f['BwDFQ'])+'*\x20⪩━━┈⊷\x0a┃\x0a┃\x20🟢\x20*STATUS:*\x20████████\x20100%\x20Online\x0a┃\x0a┃\x20⏰\x20*TIME:*\x20'+_0xf828c+_0x55fc9d(0x15e)+_0x317ffe+_0x55fc9d(0x131)+_0x261106+'\x0a┃\x0a┃\x20🌍\x20*MODE:*\x20'+(settings['mode']||_0x54d21f[_0x55fc9d(0x158)])+'\x0a┃\x20🛠️\x20*PREFIX:*\x20'+(settings['prefix']||'.')+'\x0a┃\x20🚀\x20*VERSION:*\x20'+(settings['version']||_0x54d21f[_0x55fc9d(0x151)])+_0x55fc9d(0x13f)+(settings['botOwner']||'Nabees\x20Tech')+_0x55fc9d(0x127)+_0x49835a['usedMemory']+'GB\x20/\x20'+_0x49835a[_0x55fc9d(0x12b)]+'GB\x0a┃\x20🔋\x20*FREE\x20RAM:*\x20'+_0x49835a['freeMemory']+_0x55fc9d(0x150)+_0x49835a[_0x55fc9d(0x15c)]['substring'](0x0,0x23)+_0x55fc9d(0x143)+_0x49835a[_0x55fc9d(0x14a)]+'\x0a┃\x0a╰━━━━━━━━━━━━━━━┈⊷\x0a\x0a╭━━⪨\x20✨\x20*FEATURES*\x20⪩━━┈⊷\x0a┃\x0a┃\x20♧\x20Group\x20Management\x0a┃\x20♧\x20Antilink\x20Protection\x0a┃\x20♧\x20Antibadword\x20Filter\x0a┃\x20♧\x20Fun\x20Commands\x0a┃\x20♧\x20AI\x20Integration\x0a┃\x20♧\x20Downloader\x20Tools\x0a┃\x20♧\x20Sticker\x20Maker\x0a┃\x20♧\x20And\x20100+\x20more!\x0a┃\x0a╰━━━━━━━━━━━━━━━┈⊷\x0a\x0a╭━━⪨\x20📞\x20*CONTACT*\x20⪩━━┈⊷\x0a┃\x0a┃\x20👨‍💻\x20*Developer:*\x20'+(settings[_0x55fc9d(0x139)]||'NABEES\x20TECH')+'\x0a┃\x20📱\x20*WhatsApp:*\x20wa.me/'+settings[_0x55fc9d(0x118)]+'\x0a┃\x20🌐\x20*Website:*\x20'+(settings['website']||_0x54d21f[_0x55fc9d(0x117)])+'\x0a┃\x0a╰━━━━━━━━━━━━━━━┈⊷\x0a\x0a>\x20*⚡\x20Ready\x20to\x20serve!\x20Type\x20'+(settings['prefix']||'.')+'menu\x20for\x20commands*\x0a>\x20*©\x20Powered\x20by\x20'+(settings[_0x55fc9d(0x14f)]||_0x54d21f[_0x55fc9d(0x153)])+'\x20v'+(settings[_0x55fc9d(0x141)]||_0x55fc9d(0x129))+'*',_0x537079={'forwardingScore':0x3e7,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':settings[_0x55fc9d(0x120)],'newsletterName':settings[_0x55fc9d(0x14f)]||'BATMAN\x20MD','serverMessageId':0xd}},_0x5af32c=await getQuotedContact(_0x5d6cf4);await _0x5d6cf4['sendMessage'](_0x584540,{'image':{'url':_0x51c172},'caption':_0x30182e,'contextInfo':_0x537079},{'quoted':_0x5af32c});const _0x5b6cd4=path['join'](__dirname,_0x54d21f[_0x55fc9d(0x144)]);if(fs['existsSync'](_0x5b6cd4)){await new Promise(_0x4c41bd=>setTimeout(_0x4c41bd,0x3e8));const _0x5ea0b1=fs['readFileSync'](_0x5b6cd4);await _0x5d6cf4['sendMessage'](_0x584540,{'audio':_0x5ea0b1,'mimetype':'audio/mpeg','ptt':![],'contextInfo':_0x537079},{'quoted':_0x5af32c}),console['log']('🎵\x20Alive\x20song\x20sent');}await _0x5d6cf4[_0x55fc9d(0x12f)](_0x584540,{'react':{'text':null,'key':_0x359ede[_0x55fc9d(0x133)]}}),_0x4a72f9=![],console['log']('✅\x20Alive\x20command\x20executed\x20-\x20Uptime:\x20'+_0x261106);}catch(_0x49d5dd){console['error'](_0x55fc9d(0x113),_0x49d5dd);if(_0x4a72f9)try{await _0x5d6cf4[_0x55fc9d(0x12f)](_0x584540,{'react':{'text':null,'key':_0x359ede['key']}});}catch(_0x58ef46){}const _0x29531d='╭━━⪨\x20🤖\x20*'+(settings['botName']||_0x55fc9d(0x147))+'*\x20⪩━━┈⊷\x0a┃\x0a┃\x20🟢\x20*STATUS:*\x20Online\x20&\x20Ready!\x0a┃\x20🚀\x20*VERSION:*\x20'+(settings[_0x55fc9d(0x141)]||'1.0.0')+'\x0a┃\x0a┃\x20💡\x20*Type\x20'+(settings['prefix']||'.')+_0x55fc9d(0x134)+(settings['botName']||'BATMAN\x20MD')+'*';await _0x5d6cf4['sendMessage'](_0x584540,{'text':_0x29531d,'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':settings[_0x55fc9d(0x120)],'newsletterName':settings[_0x55fc9d(0x14f)]||_0x55fc9d(0x147),'serverMessageId':-0x1}}},{'quoted':_0x359ede});}}module[_0x2dbc85(0x12d)]=aliveCommand;
+const settings = require("../settings");
+const fs = require('fs');
+const path = require('path');
+const os = require('os');
+const axios = require('axios');
+
+// Store bot start time
+const botStartTime = Date.now();
+
+// ============================================
+// MULTIPLE IMAGE URLS FOR RANDOM SELECTION
+// ============================================
+const imageUrls = [
+    'https://eliteprotech-url.zone.id/17738209879847o227e.jpg',
+    'https://eliteprotech-url.zone.id/1773820972620l5kfaj.jpg',
+    'https://eliteprotech-url.zone.id/1773820961364sqlh4z.jpg',
+    'https://eliteprotech-url.zone.id/1773820922047xds28h.jpg',
+    'https://eliteprotech-url.zone.id/1773820936402tvozdz.jpg'
+];
+
+// ============================================
+// FUNCTION TO GET RANDOM URL FROM ARRAY
+// ============================================
+function getRandomImageUrl() {
+    const randomIndex = Math.floor(Math.random() * imageUrls.length);
+    return imageUrls[randomIndex];
+}
+
+// ============================================
+// FETCH PROFILE PICTURE FROM WHATSAPP
+// ============================================
+async function fetchProfilePicture(sock, jid) {
+    try {
+        const ppUrl = await sock.profilePictureUrl(jid, 'image');
+        const response = await axios.get(ppUrl, { responseType: 'arraybuffer' });
+        return Buffer.from(response.data);
+    } catch (error) {
+        console.log('Failed to fetch profile picture, using fallback');
+        return null;
+    }
+}
+
+// ============================================
+// GET QUOTED CONTACT WITH PROFILE PREVIEW
+// ============================================
+async function getQuotedContact(sock) {
+    const ownerJid = settings.ownerNumber + '@s.whatsapp.net';
+    const profilePic = await fetchProfilePicture(sock, ownerJid);
+    
+    // Load local fallback image if needed
+    let contactThumb = null;
+    try {
+        const thumbPath = path.join(__dirname, '../assets/owner.jpg');
+        if (fs.existsSync(thumbPath)) {
+            contactThumb = fs.readFileSync(thumbPath);
+        }
+    } catch (_) {}
+    
+    return {
+        key: { fromMe: false, participant: '0@s.whatsapp.net', remoteJid: 'status@broadcast' },
+        message: {
+            contactMessage: {
+                displayName: settings.botOwner || 'BATMAN MD',
+                vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:${settings.botOwner || 'BATMAN MD'}\nORG:${settings.botName || 'BATMAN MD'};\nTEL;waid=${settings.ownerNumber}:${settings.ownerNumber}\nURL:${settings.website || 'https://nabees.online'}\nEND:VCARD`,
+                jpegThumbnail: profilePic || contactThumb
+            }
+        }
+    };
+}
+
+function getUptime() {
+    const uptimeSeconds = Math.floor((Date.now() - botStartTime) / 1000);
+    
+    const days = Math.floor(uptimeSeconds / (3600 * 24));
+    const hours = Math.floor((uptimeSeconds % (3600 * 24)) / 3600);
+    const minutes = Math.floor((uptimeSeconds % 3600) / 60);
+    const seconds = uptimeSeconds % 60;
+    
+    if (days > 0) {
+        return `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    } else if (hours > 0) {
+        return `${hours}h ${minutes}m ${seconds}s`;
+    } else if (minutes > 0) {
+        return `${minutes}m ${seconds}s`;
+    } else {
+        return `${seconds}s`;
+    }
+}
+
+function getSystemInfo() {
+    const totalMemory = (os.totalmem() / (1024 ** 3)).toFixed(2);
+    const freeMemory = (os.freemem() / (1024 ** 3)).toFixed(2);
+    const usedMemory = (totalMemory - freeMemory).toFixed(2);
+    const cpuModel = os.cpus()[0].model;
+    const cpuCores = os.cpus().length;
+    
+    return {
+        totalMemory,
+        freeMemory,
+        usedMemory,
+        cpuModel,
+        cpuCores
+    };
+}
+
+async function aliveCommand(sock, chatId, message) {
+    let reactionSent = false;
+    try {
+        // Send reaction
+        await sock.sendMessage(chatId, { react: { text: '⚡', key: message.key } });
+        reactionSent = true;
+
+        const sysInfo = getSystemInfo();
+        const uptime = getUptime();
+        const currentTime = new Date().toLocaleTimeString('en-US', { 
+            hour12: false, 
+            hour: '2-digit', 
+            minute: '2-digit', 
+            second: '2-digit' 
+        });
+        const currentDate = new Date().toLocaleDateString('en-US', { 
+            month: '2-digit', 
+            day: '2-digit', 
+            year: 'numeric' 
+        }).replace(/\//g, '/');
+
+        // Get random image URL
+        const randomImageUrl = getRandomImageUrl();
+        console.log(`🎲 Alive command - Selected random image: ${randomImageUrl}`);
+
+        // Beautiful alive message with frames
+        const aliveMessage = `╭━━⪨ 🤖 *${settings.botName || 'BATMAN MD'}* ⪩━━┈⊷
+┃
+┃ 🟢 *STATUS:* ████████ 100% Online
+┃
+┃ ⏰ *TIME:* ${currentTime}
+┃ 📅 *DATE:* ${currentDate}
+┃ 🔄 *UPTIME:* ${uptime}
+┃
+┃ 🌍 *MODE:* ${settings.mode || 'public'}
+┃ 🛠️ *PREFIX:* ${settings.prefix || '.'}
+┃ 🚀 *VERSION:* ${settings.version || '1.0.0'}
+┃ 👤 *OWNER:* ${settings.botOwner || 'Nabees Tech'}
+┃
+╰━━━━━━━━━━━━━━━┈⊷
+
+╭━━⪨ 💻 *SYSTEM INFO* ⪩━━┈⊷
+┃
+┃ 💾 *RAM USAGE:* ${sysInfo.usedMemory}GB / ${sysInfo.totalMemory}GB
+┃ 🔋 *FREE RAM:* ${sysInfo.freeMemory}GB
+┃ 🖥️ *CPU:* ${sysInfo.cpuModel.substring(0, 35)}...
+┃ ⚙️ *CORES:* ${sysInfo.cpuCores}
+┃
+╰━━━━━━━━━━━━━━━┈⊷
+
+╭━━⪨ ✨ *FEATURES* ⪩━━┈⊷
+┃
+┃ ♧ Group Management
+┃ ♧ Antilink Protection
+┃ ♧ Antibadword Filter
+┃ ♧ Fun Commands
+┃ ♧ AI Integration
+┃ ♧ Downloader Tools
+┃ ♧ Sticker Maker
+┃ ♧ And 100+ more!
+┃
+╰━━━━━━━━━━━━━━━┈⊷
+
+╭━━⪨ 📞 *CONTACT* ⪩━━┈⊷
+┃
+┃ 👨‍💻 *Developer:* ${settings.botOwner || 'NABEES TECH'}
+┃ 📱 *WhatsApp:* wa.me/${settings.ownerNumber}
+┃ 🌐 *Website:* ${settings.website || 'https://nabees.online'}
+┃
+╰━━━━━━━━━━━━━━━┈⊷
+
+> *⚡ Ready to serve! Type ${settings.prefix || '.'}menu for commands*
+> *© Powered by ${settings.botName || 'BATMAN MD'} v${settings.version || '1.0.0'}*`;
+
+        // Newsletter context info
+        const contextInfo = {
+            forwardingScore: 999,
+            isForwarded: true,
+            forwardedNewsletterMessageInfo: {
+                newsletterJid: settings.newsletterJid,
+                newsletterName: settings.botName || 'BATMAN MD',
+                serverMessageId: 13
+            }
+        };
+
+        // Get quoted contact with profile picture
+        const quotedContact = await getQuotedContact(sock);
+
+        // Send with random image from URL
+        await sock.sendMessage(chatId, {
+            image: { url: randomImageUrl },
+            caption: aliveMessage,
+            contextInfo: contextInfo
+        }, { quoted: quotedContact });
+
+        // Optional: Send audio if exists
+        const songPath = path.join(__dirname, '../assets/alive_song.mp3');
+        if (fs.existsSync(songPath)) {
+            await new Promise(resolve => setTimeout(resolve, 1000));
+            const songBuffer = fs.readFileSync(songPath);
+            await sock.sendMessage(chatId, {
+                audio: songBuffer,
+                mimetype: 'audio/mpeg',
+                ptt: false,
+                contextInfo: contextInfo
+            }, { quoted: quotedContact });
+            console.log('🎵 Alive song sent');
+        }
+
+        // Remove reaction
+        await sock.sendMessage(chatId, { react: { text: null, key: message.key } });
+        reactionSent = false;
+
+        console.log(`✅ Alive command executed - Uptime: ${uptime}`);
+
+    } catch (error) {
+        console.error('Error in alive command:', error);
+        
+        // Remove reaction if it was sent
+        if (reactionSent) {
+            try { await sock.sendMessage(chatId, { react: { text: null, key: message.key } }); } catch (_) {}
+        }
+        
+        // Fallback message with frames
+        const fallbackMessage = `╭━━⪨ 🤖 *${settings.botName || 'BATMAN MD'}* ⪩━━┈⊷
+┃
+┃ 🟢 *STATUS:* Online & Ready!
+┃ 🚀 *VERSION:* ${settings.version || '1.0.0'}
+┃
+┃ 💡 *Type ${settings.prefix || '.'}menu for commands*
+╰━━━━━━━━━━━━━━━┈⊷
+
+> *Powered by ${settings.botName || 'BATMAN MD'}*`;
+        
+        await sock.sendMessage(chatId, { 
+            text: fallbackMessage,
+            contextInfo: {
+                forwardingScore: 1,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: settings.newsletterJid,
+                    newsletterName: settings.botName || 'BATMAN MD',
+                    serverMessageId: -1
+                }
+            }
+        }, { quoted: message });
+    }
+}
+
+module.exports = aliveCommand;
