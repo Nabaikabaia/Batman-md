@@ -1,1 +1,239 @@
-const _0x455bda=_0x12b5;(function(_0x3463d5,_0xb61c0b){const _0x3bf896=_0x12b5,_0x51f75d=_0x3463d5();while(!![]){try{const _0x2fcb6c=-parseInt(_0x3bf896(0x183))/0x1+parseInt(_0x3bf896(0x15d))/0x2+parseInt(_0x3bf896(0x167))/0x3+-parseInt(_0x3bf896(0x175))/0x4+-parseInt(_0x3bf896(0x171))/0x5*(-parseInt(_0x3bf896(0x17b))/0x6)+parseInt(_0x3bf896(0x173))/0x7+-parseInt(_0x3bf896(0x170))/0x8;if(_0x2fcb6c===_0xb61c0b)break;else _0x51f75d['push'](_0x51f75d['shift']());}catch(_0x45fca0){_0x51f75d['push'](_0x51f75d['shift']());}}}(_0x4565,0xe5d8c));const settings=require('../settings'),fs=require('fs'),path=require('path'),axios=require(_0x455bda(0x162)),imageUrls=[_0x455bda(0x165),_0x455bda(0x18d),'https://eliteprotech-url.zone.id/1773820961364sqlh4z.jpg',_0x455bda(0x17e),'https://eliteprotech-url.zone.id/1773820936402tvozdz.jpg'];function getRandomImageUrl(){const _0x2c5705=_0x455bda,_0x49a561=Math[_0x2c5705(0x182)](Math['random']()*imageUrls[_0x2c5705(0x177)]);return imageUrls[_0x49a561];}function formatStatusMessage(_0x3c86ce,_0x5d2d30,_0x34ed99=_0x455bda(0x18c)){const _0x33f52f=_0x455bda,_0x237a6f={'info':'ℹ️','success':'✅','warning':'⚠️','error':'❌','status':'📱','image':'🖼️','video':'🎬','text':'📝'};return _0x33f52f(0x166)+_0x237a6f[_0x34ed99]+'\x20'+_0x3c86ce+_0x33f52f(0x174)+_0x5d2d30+'\x0a╰─────────⟢\x0a\x0a>\x20*©\x20ᴘᴏᴡᴇʀᴇᴅ\x20ʙʏ\x20ʙᴀᴛᴍᴀɴ\x20ᴍᴅ*';}function _0x12b5(_0x3e4397,_0x409c23){_0x3e4397=_0x3e4397-0x15d;const _0x456585=_0x4565();let _0x12b5ca=_0x456585[_0x3e4397];if(_0x12b5['UrprWO']===undefined){var _0x1434cb=function(_0x27bd57){const _0x1e045f='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x45df9e='',_0x481002='';for(let _0x1eb4c6=0x0,_0x67083c,_0x332c05,_0x5c13c1=0x0;_0x332c05=_0x27bd57['charAt'](_0x5c13c1++);~_0x332c05&&(_0x67083c=_0x1eb4c6%0x4?_0x67083c*0x40+_0x332c05:_0x332c05,_0x1eb4c6++%0x4)?_0x45df9e+=String['fromCharCode'](0xff&_0x67083c>>(-0x2*_0x1eb4c6&0x6)):0x0){_0x332c05=_0x1e045f['indexOf'](_0x332c05);}for(let _0x1f7a2c=0x0,_0x39d1b8=_0x45df9e['length'];_0x1f7a2c<_0x39d1b8;_0x1f7a2c++){_0x481002+='%'+('00'+_0x45df9e['charCodeAt'](_0x1f7a2c)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x481002);};_0x12b5['MwAqjF']=_0x1434cb,_0x12b5['kBXtlN']={},_0x12b5['UrprWO']=!![];}const _0x3fb238=_0x456585[0x0],_0x2fbe06=_0x3e4397+_0x3fb238,_0x129c36=_0x12b5['kBXtlN'][_0x2fbe06];return!_0x129c36?(_0x12b5ca=_0x12b5['MwAqjF'](_0x12b5ca),_0x12b5['kBXtlN'][_0x2fbe06]=_0x12b5ca):_0x12b5ca=_0x129c36,_0x12b5ca;}function _0x4565(){const _0x48523f=['vu5bvvrit1jjwKve','DMLKzw9nzxnZywDL','CMvTB3rLsMLK','8j+tOIaQqKfutufoie1eifn0yxr1CYbvCgrHDguQcGRWN5wsia','CgfYDgLJAxbHBNq','mte5odqYzMvABw1s','cUkuGIdWN5wsicPuAw1LoIOG','BwLTzxr5Cgu','A2v5','BMv3C2XLDhrLCKPPza','yxHPB3m','zNjVBq','qKfutufoie1e','Ahr0Chm6lY9LBgL0zxbYB3rLy2GTDxjSlNPVBMuUAwqVmtC3mZGYmdK4nZK4ndDVmJi3zs5QCgC','kUoaJIa','mZq5ntq0mxHusuPlzq','B3DUzxjoDw1Izxi','qMLAt2y','q0jmrhu','cUkuGGRILiiG8j+uHcbqBgvHC2uGDhj5igfNywLUlG','cGO+icPqB3DLCMvKigj5ia','zNjVBu1L','Aw1Hz2vnzxnZywDL','C3vJy2vZCW','otKWnde2veXZzMzn','mteWntm4nxjkveP4Cq','CLHTvMK','nZe3nZq2nhHkrvrfrW','iooaJYOk4PwT4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4P+IcG','mZq2nJC3mKLLrxPAqG','uvDgCem','BgvUz3rO','Dg9mB2nHBgvtDhjPBMC','y29Uy2f0','zxjYB3i','nLPnvNHcrW','u1rbvfvtifbpu1rfra','yM90tMfTzq','Ahr0Chm6lY9LBgL0zxbYB3rLy2GTDxjSlNPVBMuUAwqVmtC3mZGYmdKYmJa0n3HKCZi4Ac5QCgC','zxH0zw5KzwruzxH0twvZC2fNzq','zg93BMXVywrnzwrPyu1LC3nHz2u','vhLZz2e','zMXVB3i','ntm5ntuWEunNtfzx','DMLKzw8','y29UDgv4DeLUzM8','rLvrv0K','BwvZC2fNzq','u3rHDhvZihbVC3qGzxjYB3i6','kUoaJIdWN5oXifnuqvrvuYbqt1nurviG44cpkGRILA3ILidILidILidILidILidILidILidILidILidIN6ik4PscipcFK6iGug9ZDcbxAgf0C0fWCcbZDgf0DxmGDxbKyxrLCYek4PsccUkuGIaQvxnHz2u6kGRILiiG4PMNic5ZDgf0DxmGphrLEhq+cUkuGIdIMACGuMvWBhKGDg8GAw1Hz2uVDMLKzw8GD2L0AcaUC3rHDhvZcUkuGGRILiiGkKv4yw1WBgvZoIOk4PsciokzPYaUC3rHDhvZieHLBgXVigv2zxj5B25LiqRILiiG4PMNifjLCgX5ihrVigfUigLTywDLl3zPzgvVcUkuGGRILiiGkK5VDgu6kIbpBMX5igjVDcbVD25LCIbJyw4GDxnLihrOAxmk4PwW4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4P+IcGO+icRcQsdHTjJHTi/HTkhHTiFkGog0H+g0HsdkMCQpimQz4Bsa4BsB4Bsn4BsaYBqG4Bsn4BsfkG','Aw1Hz2u','Aw1Hz2uVANbLzW','Aw5MBW','Ahr0Chm6lY9LBgL0zxbYB3rLy2GTDxjSlNPVBMuUAwqVmtC3mZGYmdK3mJyYmgW1A2zHAI5QCgC','C2vUze1LC3nHz2u'];_0x4565=function(){return _0x48523f;};return _0x4565();}async function statusCommand(_0xc486cd,_0x318581,_0xee142f,_0x8b9c5e){const _0xdde3ca=_0x455bda,_0x33be29={'QWFpC':function(_0x2a0e80,_0x8178e3,_0x157524,_0x33cfe6){return _0x2a0e80(_0x8178e3,_0x157524,_0x33cfe6);},'peChb':_0xdde3ca(0x18f),'jqnvd':_0xdde3ca(0x18a),'TGjwl':_0xdde3ca(0x18b),'zHhWK':function(_0x26c410,_0x512647){return _0x26c410(_0x512647);},'Tysga':'video/mp4','FUQWI':'success','BCfUb':'POST\x20FAILED','GVufw':_0xdde3ca(0x164),'xmoqt':'status@broadcast','WhpwJ':function(_0x11617f,_0x40b1ea,_0x77ca22,_0x4c76e4){return _0x11617f(_0x40b1ea,_0x77ca22,_0x4c76e4);},'BiZOf':function(_0x2cc72c,_0x1d417a){return _0x2cc72c>_0x1d417a;},'rXmVi':'...','CBLDu':'Status\x20post\x20error:','GqTyN':'error'};try{const _0x8e3d6c=_0xee142f[_0xdde3ca(0x160)]['participant']||_0xee142f['key']['remoteJid'],_0x2c95f8=_0x8e3d6c['includes'](settings[_0xdde3ca(0x168)]);if(!_0x2c95f8&&!_0xee142f[_0xdde3ca(0x160)][_0xdde3ca(0x16d)]){const _0x5a77ab=_0x33be29[_0xdde3ca(0x176)](formatStatusMessage,_0x33be29['peChb'],'│\x20❌\x20Only\x20the\x20bot\x20owner\x20can\x20post\x20status\x20updates!\x0a│\x0a│\x20👑\x20This\x20command\x20is\x20restricted\x20to\x20the\x20bot\x20owner.',_0xdde3ca(0x17a));return await _0xc486cd['sendMessage'](_0x318581,{'text':_0x5a77ab},{'quoted':_0xee142f});}const _0x155283=_0x8b9c5e['trim'](),_0xc55edc=_0xee142f['message']?.['extendedTextMessage']?.['contextInfo']?.['quotedMessage'],_0x285b2a=_0xc55edc?.[_0xdde3ca(0x16e)],_0x6f511d=_0xc55edc?.[_0xdde3ca(0x190)],_0x3f403a=_0xc55edc?.['conversation']||_0xc55edc?.[_0xdde3ca(0x17f)]?.['text']||'';let _0x259d29=_0x155283||_0x3f403a||'';const _0x471f59={'contextInfo':{'forwardingScore':0x3e7,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':settings[_0xdde3ca(0x161)],'newsletterName':settings[_0xdde3ca(0x17d)]||'BATMAN\x20MD','serverMessageId':0xd}}};if(_0x285b2a||_0x6f511d){await _0xc486cd[_0xdde3ca(0x18e)](_0x318581,{'react':{'text':'⏳','key':_0xee142f[_0xdde3ca(0x160)]}});try{let _0x38a066,_0x2185a0,_0x4c53bd;if(_0x285b2a){const _0x427ed7=await _0xc486cd[_0xdde3ca(0x180)]({'key':{'remoteJid':_0xee142f['key']['remoteJid'],'id':_0xee142f['message'][_0xdde3ca(0x17f)]['contextInfo']['stanzaId'],'participant':_0xee142f['message'][_0xdde3ca(0x17f)][_0xdde3ca(0x185)]['participant']},'message':_0x285b2a});_0x38a066=Buffer['from'](await streamToBuffer(_0x427ed7)),_0x2185a0=_0x33be29['jqnvd'],_0x4c53bd=_0x285b2a['mimetype']||_0x33be29['TGjwl'];}else{if(_0x6f511d){const _0x1424b4=await _0xc486cd[_0xdde3ca(0x180)]({'key':{'remoteJid':_0xee142f['key'][_0xdde3ca(0x191)],'id':_0xee142f[_0xdde3ca(0x187)][_0xdde3ca(0x17f)]['contextInfo']['stanzaId'],'participant':_0xee142f[_0xdde3ca(0x187)][_0xdde3ca(0x17f)][_0xdde3ca(0x185)][_0xdde3ca(0x193)]},'message':_0x6f511d});_0x38a066=Buffer[_0xdde3ca(0x163)](await _0x33be29['zHhWK'](streamToBuffer,_0x1424b4)),_0x2185a0=_0xdde3ca(0x184),_0x4c53bd=_0x6f511d[_0xdde3ca(0x15f)]||_0x33be29[_0xdde3ca(0x181)];}}const _0x5c219e={[_0x2185a0]:_0x38a066,'caption':_0x259d29||_0xdde3ca(0x192)+new Date()['toLocaleString']()};await _0xc486cd['sendMessage']('status@broadcast',_0x5c219e);const _0xb71f8e=_0x33be29[_0xdde3ca(0x176)](formatStatusMessage,_0xdde3ca(0x17c),'│\x20✅\x20Status\x20posted\x20successfully!\x0a│\x20📁\x20*Type:*\x20'+_0x2185a0['toUpperCase']()+'\x0a│\x20📝\x20*Caption:*\x20'+(_0x259d29||'No\x20caption')+_0xdde3ca(0x15e)+new Date()[_0xdde3ca(0x178)](),_0x33be29[_0xdde3ca(0x186)]);await _0xc486cd[_0xdde3ca(0x18e)](_0x318581,{'text':_0xb71f8e,..._0x471f59},{'quoted':_0xee142f}),await _0xc486cd['sendMessage'](_0x318581,{'react':{'text':'✅','key':_0xee142f[_0xdde3ca(0x160)]}});}catch(_0x41e47c){console[_0xdde3ca(0x17a)](_0xdde3ca(0x188),_0x41e47c);const _0x2c4020=formatStatusMessage(_0x33be29['BCfUb'],'│\x20❌\x20Failed\x20to\x20post\x20status.\x0a│\x20🔧\x20'+_0x41e47c[_0xdde3ca(0x187)]+'\x0a│\x0a│\x20🔄\x20Please\x20try\x20again.',_0xdde3ca(0x17a));await _0xc486cd[_0xdde3ca(0x18e)](_0x318581,{'text':_0x2c4020},{'quoted':_0xee142f}),await _0xc486cd[_0xdde3ca(0x18e)](_0x318581,{'react':{'text':'❌','key':_0xee142f['key']}});}return;}if(_0x259d29){await _0xc486cd['sendMessage'](_0x318581,{'react':{'text':'⏳','key':_0xee142f[_0xdde3ca(0x160)]}});try{const _0x321bdf='*📢\x20BATMAN\x20MD\x20STATUS\x20UPDATE*\x0a\x0a'+_0x259d29+'\x0a\x0a🕒\x20'+new Date()['toLocaleString']()+_0xdde3ca(0x16c)+(settings['botName']||_0x33be29['GVufw'])+'*';await _0xc486cd['sendMessage'](_0x33be29['xmoqt'],{'text':_0x321bdf,..._0x471f59});const _0x5de6bc=_0x33be29['WhpwJ'](formatStatusMessage,'STATUS\x20POSTED','│\x20✅\x20Status\x20posted\x20successfully!\x0a│\x20📝\x20*Text:*\x20'+_0x259d29['substring'](0x0,0x32)+(_0x33be29[_0xdde3ca(0x169)](_0x259d29['length'],0x32)?_0x33be29[_0xdde3ca(0x172)]:'')+'\x0a│\x20🕒\x20*Time:*\x20'+new Date()['toLocaleString'](),_0xdde3ca(0x16f));await _0xc486cd['sendMessage'](_0x318581,{'text':_0x5de6bc,..._0x471f59},{'quoted':_0xee142f}),await _0xc486cd['sendMessage'](_0x318581,{'react':{'text':'✅','key':_0xee142f[_0xdde3ca(0x160)]}});}catch(_0x6a3767){console['error'](_0x33be29[_0xdde3ca(0x16a)],_0x6a3767);const _0x5f0115=formatStatusMessage(_0x33be29['BCfUb'],'│\x20❌\x20Failed\x20to\x20post\x20status.\x0a│\x20🔧\x20'+_0x6a3767['message']+_0xdde3ca(0x16b),_0x33be29['GqTyN']);await _0xc486cd['sendMessage'](_0x318581,{'text':_0x5f0115},{'quoted':_0xee142f}),await _0xc486cd[_0xdde3ca(0x18e)](_0x318581,{'react':{'text':'❌','key':_0xee142f[_0xdde3ca(0x160)]}});}return;}const _0x48b12e=_0xdde3ca(0x189);await _0xc486cd[_0xdde3ca(0x18e)](_0x318581,{'text':_0x48b12e,..._0x471f59},{'quoted':_0xee142f});}catch(_0xc6df85){console[_0xdde3ca(0x17a)]('Status\x20Command\x20Error:',_0xc6df85);const _0xb640d9=formatStatusMessage('ERROR','│\x20❌\x20Failed\x20to\x20process\x20request.\x0a│\x20🔧\x20'+_0xc6df85['message']+'\x0a│\x0a│\x20🔄\x20Please\x20try\x20again\x20later.','error');await _0xc486cd['sendMessage'](_0x318581,{'text':_0xb640d9},{'quoted':_0xee142f});}}async function streamToBuffer(_0x2cff6a){const _0x118f5d=_0x455bda,_0x43dc2a=[];for await(const _0x8ab101 of _0x2cff6a){_0x43dc2a['push'](_0x8ab101);}return Buffer[_0x118f5d(0x179)](_0x43dc2a);}module['exports']=statusCommand;
+// commands/status.js
+const settings = require('../settings');
+const fs = require('fs');
+const path = require('path');
+const axios = require('axios');
+
+// ============================================
+// HELPER FUNCTIONS
+// ============================================
+function formatStatusMessage(title, content, type = 'info') {
+    const emojis = {
+        info: 'ℹ️',
+        success: '✅',
+        warning: '⚠️',
+        error: '❌',
+        status: '📱',
+        image: '🖼️',
+        video: '🎬',
+        text: '📝'
+    };
+    
+    return `*『 ${emojis[type]} ${title} 』*
+╭─────────⟢
+${content}
+╰─────────⟢
+
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
+}
+
+// ============================================
+// FUNCTION TO CONVERT STREAM TO BUFFER
+// ============================================
+async function streamToBuffer(stream) {
+    const chunks = [];
+    for await (const chunk of stream) {
+        chunks.push(chunk);
+    }
+    return Buffer.concat(chunks);
+}
+
+// ============================================
+// FUNCTION TO DOWNLOAD MEDIA FROM QUOTED MESSAGE
+// ============================================
+async function downloadQuotedMedia(sock, message) {
+    try {
+        const quotedMsg = message.message?.extendedTextMessage?.contextInfo?.quotedMessage;
+        if (!quotedMsg) return null;
+        
+        let mediaMessage = null;
+        let mediaType = null;
+        
+        if (quotedMsg.imageMessage) {
+            mediaMessage = quotedMsg.imageMessage;
+            mediaType = 'image';
+        } else if (quotedMsg.videoMessage) {
+            mediaMessage = quotedMsg.videoMessage;
+            mediaType = 'video';
+        } else {
+            return null;
+        }
+        
+        // Get the message ID of the quoted message
+        const stanzaId = message.message.extendedTextMessage.contextInfo.stanzaId;
+        const participant = message.message.extendedTextMessage.contextInfo.participant;
+        
+        // Create the key for the quoted message
+        const quotedKey = {
+            remoteJid: message.key.remoteJid,
+            id: stanzaId,
+            fromMe: false
+        };
+        
+        if (participant) {
+            quotedKey.participant = participant;
+        }
+        
+        // Download the media
+        const stream = await sock.downloadMediaMessage({
+            key: quotedKey,
+            message: mediaMessage
+        });
+        
+        const buffer = await streamToBuffer(stream);
+        return { buffer, type: mediaType, mimetype: mediaMessage.mimetype };
+        
+    } catch (error) {
+        console.error('Download error:', error);
+        return null;
+    }
+}
+
+// ============================================
+// MAIN STATUS POST COMMAND
+// ============================================
+async function statusCommand(sock, chatId, message, args) {
+    try {
+        const senderId = message.key.participant || message.key.remoteJid;
+        const isOwner = senderId.includes(settings.ownerNumber);
+        
+        // Check if user is owner
+        if (!isOwner && !message.key.fromMe) {
+            const errorMsg = formatStatusMessage(
+                'UNAUTHORIZED',
+                `│ ❌ Only the bot owner can post status updates!\n│\n│ 👑 This command is restricted to the bot owner.`,
+                'error'
+            );
+            return await sock.sendMessage(chatId, { text: errorMsg }, { quoted: message });
+        }
+
+        const text = args.trim();
+        
+        // Newsletter context
+        const newsletterContext = {
+            contextInfo: {
+                forwardingScore: 999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: settings.newsletterJid,
+                    newsletterName: settings.botName || 'BATMAN MD',
+                    serverMessageId: 13
+                }
+            }
+        };
+
+        // ============================================
+        // CHECK FOR QUOTED MEDIA (IMAGE/VIDEO)
+        // ============================================
+        const quotedMedia = await downloadQuotedMedia(sock, message);
+        
+        if (quotedMedia) {
+            await sock.sendMessage(chatId, { react: { text: '⏳', key: message.key } });
+            
+            try {
+                // Post to status using the correct method
+                const statusMessage = {
+                    [quotedMedia.type]: quotedMedia.buffer,
+                    caption: text || `📢 *${settings.botName || 'BATMAN MD'} Status Update*\n\n🕒 ${new Date().toLocaleString()}`
+                };
+                
+                // Send to status broadcast
+                await sock.sendMessage('status@broadcast', statusMessage);
+                
+                const successMsg = formatStatusMessage(
+                    'STATUS POSTED',
+                    `│ ✅ Status posted successfully!\n│ 📁 *Type:* ${quotedMedia.type.toUpperCase()}\n│ 📝 *Caption:* ${text || 'No caption'}\n│ 🕒 *Time:* ${new Date().toLocaleString()}`,
+                    'success'
+                );
+                
+                await sock.sendMessage(chatId, { text: successMsg, ...newsletterContext }, { quoted: message });
+                await sock.sendMessage(chatId, { react: { text: '✅', key: message.key } });
+                
+            } catch (error) {
+                console.error('Status post error:', error);
+                const errorMsg = formatStatusMessage(
+                    'POST FAILED',
+                    `│ ❌ Failed to post status.\n│ 🔧 ${error.message}\n│\n│ 🔄 Please try again.`,
+                    'error'
+                );
+                await sock.sendMessage(chatId, { text: errorMsg }, { quoted: message });
+                await sock.sendMessage(chatId, { react: { text: '❌', key: message.key } });
+            }
+            
+            return;
+        }
+        
+        // ============================================
+        // POST TEXT STATUS
+        // ============================================
+        if (text) {
+            await sock.sendMessage(chatId, { react: { text: '⏳', key: message.key } });
+            
+            try {
+                // Create status text
+                const statusText = `📢 *${settings.botName || 'BATMAN MD'} Status Update*\n\n${text}\n\n🕒 ${new Date().toLocaleString()}\n\n> *Powered by ${settings.botName || 'BATMAN MD'}*`;
+                
+                // Send to status broadcast
+                await sock.sendMessage('status@broadcast', {
+                    text: statusText,
+                    ...newsletterContext
+                });
+                
+                const successMsg = formatStatusMessage(
+                    'STATUS POSTED',
+                    `│ ✅ Status posted successfully!\n│ 📝 *Text:* ${text.substring(0, 50)}${text.length > 50 ? '...' : ''}\n│ 🕒 *Time:* ${new Date().toLocaleString()}`,
+                    'success'
+                );
+                
+                await sock.sendMessage(chatId, { text: successMsg, ...newsletterContext }, { quoted: message });
+                await sock.sendMessage(chatId, { react: { text: '✅', key: message.key } });
+                
+            } catch (error) {
+                console.error('Status post error:', error);
+                const errorMsg = formatStatusMessage(
+                    'POST FAILED',
+                    `│ ❌ Failed to post status.\n│ 🔧 ${error.message}\n│\n│ 🔄 Please try again.`,
+                    'error'
+                );
+                await sock.sendMessage(chatId, { text: errorMsg }, { quoted: message });
+                await sock.sendMessage(chatId, { react: { text: '❌', key: message.key } });
+            }
+            
+            return;
+        }
+        
+        // ============================================
+        // SHOW USAGE
+        // ============================================
+        const usageMsg = `*『 📱 STATUS POSTER 』*
+╭─────────⟢
+│ 📢 Post WhatsApp status updates!
+│
+│ *Usage:*
+│ ♧ .status <text>
+│ ♧ Reply to image/video with .status
+│
+│ *Examples:*
+│ ♧ .status Hello everyone!
+│ ♧ Reply to an image/video
+│
+│ *Note:* Only bot owner can use this
+╰─────────⟢
+
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
+        
+        await sock.sendMessage(chatId, { text: usageMsg, ...newsletterContext }, { quoted: message });
+        
+    } catch (error) {
+        console.error('Status Command Error:', error);
+        
+        const errorMsg = formatStatusMessage(
+            'ERROR',
+            `│ ❌ Failed to process request.\n│ 🔧 ${error.message}\n│\n│ 🔄 Please try again later.`,
+            'error'
+        );
+        await sock.sendMessage(chatId, { text: errorMsg }, { quoted: message });
+    }
+}
+
+module.exports = statusCommand;
