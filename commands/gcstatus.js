@@ -47,89 +47,132 @@ ${content}
 }
 
 async function gcstatus(sock, chatId, message, args) {
-    const from = chatId;
     const m = message;
+    let targetGroup = chatId;
+    let text = args || '';
     
-    // args is already a string from main.js, not an array
-    const text = args || '';
-    
-    // Check if in group
-    if (!from.endsWith('@g.us')) {
-        const errorMsg = formatStatusMessage(
-            'GROUP ONLY',
-            `│ ❌ This command can only be used in groups.`,
-            'error'
-        );
-        return await sock.sendMessage(from, { text: errorMsg, ...channelInfo }, { quoted: m });
+    // ============================================
+    // FEATURE 1: Post from DM to a specific group
+    // ============================================
+    // Check if we're in DM and user provided a group JID
+    if (!chatId.endsWith('@g.us')) {
+        // Check if first argument is a group JID
+        const parts = text.split(' ');
+        const possibleJid = parts[0];
+        
+        // Check if it looks like a group JID (ends with @g.us)
+        if (possibleJid && possibleJid.endsWith('@g.us')) {
+            targetGroup = possibleJid;
+            // Remove the JID from text
+            text = parts.slice(1).join(' ').trim();
+        } else {
+            // Not a DM command, show error
+            const errorMsg = formatStatusMessage(
+                'GROUP REQUIRED',
+                `│ 📱 Post group status from anywhere!\n│\n│ *Usage:*\n│ ♧ .gcstatus <group-jid> <message>\n│ ♧ .gcstatus <group-jid> (reply to media)\n│\n│ *Examples:*\n│ ♧ .gcstatus 123456789@g.us Hello group!\n│ ♧ Reply to image/video with:\n│   .gcstatus 123456789@g.us\n│\n│ *Note:* You must be an admin in that group`,
+                'status'
+            );
+            return await sock.sendMessage(chatId, { text: errorMsg, ...channelInfo }, { quoted: m });
+        }
     }
 
     // Get sender info
     const senderId = m.key.participant || m.key.remoteJid;
+    const isOwner = senderId.includes(settings.ownerNumber) || m.key.fromMe;
     
-    // Check if sender is admin
-    const adminStatus = await isAdmin(sock, from, senderId);
-    const isSenderAdmin = adminStatus.isSenderAdmin;
-    const isBotAdmin = adminStatus.isBotAdmin;
+    // ============================================
+    // CHECK ADMIN PERMISSIONS IN TARGET GROUP
+    // ============================================
+    let isSenderAdmin = false;
+    let isBotAdmin = false;
     
-    // Only admins can post group status
-    if (!isSenderAdmin && !m.key.fromMe) {
+    try {
+        const groupMetadata = await sock.groupMetadata(targetGroup);
+        isSenderAdmin = groupMetadata.participants.some(p => 
+            p.id === senderId && (p.admin === 'admin' || p.admin === 'superadmin')
+        );
+        isBotAdmin = groupMetadata.participants.some(p => 
+            p.id === sock.user.id && (p.admin === 'admin' || p.admin === 'superadmin')
+        );
+    } catch (err) {
+        console.error('Error fetching group metadata:', err);
         const errorMsg = formatStatusMessage(
-            'ADMIN ONLY',
-            `│ 👑 Only group admins can post status updates.\n│\n│ 🔒 This feature is restricted to admins.`,
+            'GROUP ERROR',
+            `│ ❌ Could not access group.\n│ 🔧 Make sure the bot is in the group and the JID is correct.\n│\n│ 💡 *Tip:* Use .jid in the group to get its JID`,
             'error'
         );
-        return await sock.sendMessage(from, { text: errorMsg, ...channelInfo }, { quoted: m });
+        return await sock.sendMessage(chatId, { text: errorMsg, ...channelInfo }, { quoted: m });
+    }
+    
+    // Only admins or owner can post
+    if (!isSenderAdmin && !isOwner) {
+        const errorMsg = formatStatusMessage(
+            'ADMIN ONLY',
+            `│ 👑 Only group admins or the bot owner can post status updates.\n│\n│ 🔒 This feature is restricted.`,
+            'error'
+        );
+        return await sock.sendMessage(chatId, { text: errorMsg, ...channelInfo }, { quoted: m });
     }
 
-    // Check if bot is admin (needed to post)
+    // Check if bot is admin
     if (!isBotAdmin) {
         const errorMsg = formatStatusMessage(
             'BOT NOT ADMIN',
-            `│ 🤖 Bot needs to be admin to post status.\n│\n│ Please make the bot an admin first.`,
+            `│ 🤖 Bot needs to be admin to post status in that group.\n│\n│ Please make the bot an admin first.`,
             'error'
         );
-        return await sock.sendMessage(from, { text: errorMsg, ...channelInfo }, { quoted: m });
+        return await sock.sendMessage(chatId, { text: errorMsg, ...channelInfo }, { quoted: m });
     }
 
-    // Get quoted message
+    // ============================================
+    // GET QUOTED MEDIA (with caption support)
+    // ============================================
     let quotedMessage = null;
     let mediaType = null;
     let mediaBuffer = null;
+    let quotedCaption = '';
     
     // Check if replying to a message
     if (m.message?.extendedTextMessage?.contextInfo?.quotedMessage) {
         quotedMessage = m.message.extendedTextMessage.contextInfo.quotedMessage;
         
-        // Determine media type
+        // Determine media type and extract caption
         if (quotedMessage.imageMessage) {
             mediaType = 'image';
+            quotedCaption = quotedMessage.imageMessage.caption || '';
         } else if (quotedMessage.videoMessage) {
             mediaType = 'video';
+            quotedCaption = quotedMessage.videoMessage.caption || '';
         } else if (quotedMessage.audioMessage) {
             mediaType = 'audio';
+            quotedCaption = '';
         }
     }
     
+    // Combine caption from quoted message with text from command
+    let finalCaption = text || quotedCaption || '';
+    
     // Validate input
-    if (!mediaType && !text.trim()) {
+    if (!mediaType && !finalCaption.trim()) {
         const usageMsg = formatStatusMessage(
             'GROUP STATUS',
-            `│ 📱 Post status updates in the group!\n│\n│ *Usage:*\n│ • Reply to media: .gcstatus\n│ • With text: .gcstatus <message>\n│\n│ *Examples:*\n│ ♧ Reply to an image/video\n│ ♧ .gcstatus Hello everyone!\n│ ♧ .gcstatus Check this out!`,
+            `│ 📱 Post status updates in groups!\n│\n│ *Usage from groups:*\n│ ♧ .gcstatus <message>\n│ ♧ Reply to media with .gcstatus\n│\n│ *Usage from DM:*\n│ ♧ .gcstatus <group-jid> <message>\n│ ♧ Reply to media with:\n│   .gcstatus <group-jid>\n│\n│ *Example:*\n│ ♧ .gcstatus 123456789@g.us Hello everyone!`,
             'status'
         );
-        return await sock.sendMessage(from, { text: usageMsg, ...channelInfo }, { quoted: m });
+        return await sock.sendMessage(chatId, { text: usageMsg, ...channelInfo }, { quoted: m });
     }
 
-    // Send processing reaction
-    await sock.sendMessage(from, { react: { text: '⏳', key: m.key } });
+    // Send processing reaction in the original chat
+    await sock.sendMessage(chatId, { react: { text: '⏳', key: m.key } });
 
     try {
         let messagePayload = {};
 
-        // 2. Prepare MEDIA (Image/Video/Audio)
+        // ============================================
+        // PREPARE MEDIA (Image/Video) with CAPTION
+        // ============================================
         if (mediaType) {
             try {
-                // Get the correct message ID and participant for the quoted message
                 const stanzaId = m.message.extendedTextMessage.contextInfo.stanzaId;
                 const participant = m.message.extendedTextMessage.contextInfo.participant;
                 
@@ -141,7 +184,7 @@ async function gcstatus(sock, chatId, message, args) {
                 mediaBuffer = await downloadMediaMessage(
                     {
                         key: {
-                            remoteJid: from,
+                            remoteJid: chatId,
                             id: stanzaId,
                             participant: participant || senderId
                         },
@@ -162,17 +205,17 @@ async function gcstatus(sock, chatId, message, args) {
                     `│ ❌ Failed to download media.\n│ 🔧 ${downloadError.message}\n│\n│ 🔄 Please try again.`,
                     'error'
                 );
-                await sock.sendMessage(from, { text: errorMsg, ...channelInfo }, { quoted: m });
-                await sock.sendMessage(from, { react: { text: '❌', key: m.key } });
+                await sock.sendMessage(chatId, { text: errorMsg, ...channelInfo }, { quoted: m });
+                await sock.sendMessage(chatId, { react: { text: '❌', key: m.key } });
                 return;
             }
             
-            // Prepare media options
+            // Prepare media options with caption
             let mediaOptions = {};
             if (mediaType === 'image') {
-                mediaOptions = { image: mediaBuffer, caption: text || ' ' };
+                mediaOptions = { image: mediaBuffer, caption: finalCaption || ' ' };
             } else if (mediaType === 'video') {
-                mediaOptions = { video: mediaBuffer, caption: text || ' ' };
+                mediaOptions = { video: mediaBuffer, caption: finalCaption || ' ' };
             } else if (mediaType === 'audio') {
                 mediaOptions = { audio: mediaBuffer, mimetype: 'audio/mp4', ptt: false };
             }
@@ -199,15 +242,17 @@ async function gcstatus(sock, chatId, message, args) {
                 }
             };
         } 
-        // 3. Prepare TEXT
-        else if (text.trim()) {
+        // ============================================
+        // PREPARE TEXT STATUS
+        // ============================================
+        else if (finalCaption.trim()) {
             // Random background color for text status
             const randomHex = Math.floor(Math.random() * 0xFFFFFF).toString(16).padStart(6, '0');
             messagePayload = {
                 groupStatusMessageV2: {
                     message: {
                         extendedTextMessage: {
-                            text: text,
+                            text: finalCaption,
                             backgroundArgb: 0xFF000000 + parseInt(randomHex, 16),
                             font: 2,
                             textArgb: 0xFFFFFFFF // White text
@@ -217,26 +262,29 @@ async function gcstatus(sock, chatId, message, args) {
             };
         }
 
-        // 4. Generate & Send
+        // ============================================
+        // SEND TO TARGET GROUP
+        // ============================================
         const msg = generateWAMessageFromContent(
-            from,
+            targetGroup,
             messagePayload,
             { userJid: sock.user.id }
         );
         
-        await sock.relayMessage(from, msg.message, { messageId: msg.key.id });
+        await sock.relayMessage(targetGroup, msg.message, { messageId: msg.key.id });
         
         // Send success reaction
-        await sock.sendMessage(from, { react: { text: '✅', key: m.key } });
+        await sock.sendMessage(chatId, { react: { text: '✅', key: m.key } });
         
-        // Optional: Send notification that status was posted
+        // Send confirmation message
+        const groupName = await getGroupName(sock, targetGroup);
         const senderName = m.pushName || senderId.split('@')[0];
         const notification = formatStatusMessage(
             'STATUS POSTED',
-            `│ 👑 *${senderName}* posted a group status!\n│ ${mediaType ? `📁 *Type:* ${mediaType.toUpperCase()}` : '📝 *Text:* ' + text.substring(0, 50)}`,
+            `│ ✅ Status posted successfully!\n│ 👥 *Group:* ${groupName}\n│ 👑 *By:* ${senderName}\n│ ${mediaType ? `📁 *Type:* ${mediaType.toUpperCase()}` : '📝 *Text:* ' + finalCaption.substring(0, 50)}\n│ 🕒 *Time:* ${new Date().toLocaleString()}`,
             'success'
         );
-        await sock.sendMessage(from, { text: notification, ...channelInfo });
+        await sock.sendMessage(chatId, { text: notification, ...channelInfo });
 
     } catch (e) {
         console.error("[GC STATUS ERROR]", e);
@@ -247,8 +295,20 @@ async function gcstatus(sock, chatId, message, args) {
             'error'
         );
         
-        await sock.sendMessage(from, { text: errorMsg, ...channelInfo }, { quoted: m });
-        await sock.sendMessage(from, { react: { text: '❌', key: m.key } });
+        await sock.sendMessage(chatId, { text: errorMsg, ...channelInfo }, { quoted: m });
+        await sock.sendMessage(chatId, { react: { text: '❌', key: m.key } });
+    }
+}
+
+// ============================================
+// Helper: Get group name
+// ============================================
+async function getGroupName(sock, groupJid) {
+    try {
+        const metadata = await sock.groupMetadata(groupJid);
+        return metadata.subject || groupJid.split('@')[0];
+    } catch (error) {
+        return groupJid.split('@')[0];
     }
 }
 

@@ -71,6 +71,7 @@ const { incrementMessageCount, topMembers } = require('./commands/topmembers');
 const ownerCommand = require('./commands/owner');
 const deleteCommand = require('./commands/delete');
 const { handleAntilinkCommand, handleLinkDetection } = require('./commands/antilink');
+const fakenumberCommand = require('./commands/fakenumber');
 const { handleAntitagCommand, handleTagDetection } = require('./commands/antitag');
 const { Antilink } = require('./lib/antilink');
 const { handleMentionDetection, mentionToggleCommand, setMentionCommand } = require('./commands/mention');
@@ -80,6 +81,7 @@ const tagNotAdminCommand = require('./commands/tagnotadmin');
 const hideTagCommand = require('./commands/hidetag');
 const jokeCommand = require('./commands/joke');
 const quoteCommand = require('./commands/quote');
+const tempmailCommand = require('./commands/tempmail');
 const factCommand = require('./commands/fact');
 const weatherCommand = require('./commands/weather');
 const newsCommand = require('./commands/news');
@@ -217,10 +219,6 @@ async function handleMessages(sock, messageUpdate, printLog) {
 
         const message = messages[0];
         if (!message?.message) return;
-        
-        if (!message.key.fromMe) {
-           await handleViewOnceMessage(sock, message);
-        }
 
         // Handle autoread functionality
         await handleAutoread(sock, message);
@@ -500,6 +498,12 @@ async function handleMessages(sock, messageUpdate, printLog) {
             // Add to switch statement
             case 'nsfw':
                 await nsfwCommand(sock, chatId, message, args);
+                commandExecuted = true;
+                break;
+            case 'tempmail':
+            case 'temp':
+            case 'tmpmail':
+                await tempmailCommand(sock, chatId, message, args.split(' '));
                 commandExecuted = true;
                 break;
             case 'unmute':
@@ -932,6 +936,12 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 break;
             case 'character':
                 await characterCommand(sock, chatId, message);
+                break;
+            case 'fakenumber':
+            case 'fake':
+            case 'tempnumber':
+                await fakenumberCommand(sock, chatId, message, args.split(' '));
+                commandExecuted = true;
                 break;
             case 'waste':
                 await wastedCommand(sock, chatId, message);
