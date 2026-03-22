@@ -1,1 +1,326 @@
-function _0x2022(_0x244e8e,_0x5ac28a){_0x244e8e=_0x244e8e-0x11d;const _0xdc8551=_0xdc85();let _0x20220a=_0xdc8551[_0x244e8e];if(_0x2022['nnFERG']===undefined){var _0x29194e=function(_0x3afd3a){const _0x2f786a='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x284eaa='',_0x2f3d78='';for(let _0x21555f=0x0,_0xb62130,_0x265467,_0x384825=0x0;_0x265467=_0x3afd3a['charAt'](_0x384825++);~_0x265467&&(_0xb62130=_0x21555f%0x4?_0xb62130*0x40+_0x265467:_0x265467,_0x21555f++%0x4)?_0x284eaa+=String['fromCharCode'](0xff&_0xb62130>>(-0x2*_0x21555f&0x6)):0x0){_0x265467=_0x2f786a['indexOf'](_0x265467);}for(let _0x4624e4=0x0,_0x1e72e9=_0x284eaa['length'];_0x4624e4<_0x1e72e9;_0x4624e4++){_0x2f3d78+='%'+('00'+_0x284eaa['charCodeAt'](_0x4624e4)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x2f3d78);};_0x2022['hECfLH']=_0x29194e,_0x2022['NkkWym']={},_0x2022['nnFERG']=!![];}const _0x48aebe=_0xdc8551[0x0],_0x4b6bac=_0x244e8e+_0x48aebe,_0x38f25f=_0x2022['NkkWym'][_0x4b6bac];return!_0x38f25f?(_0x20220a=_0x2022['hECfLH'](_0x20220a),_0x2022['NkkWym'][_0x4b6bac]=_0x20220a):_0x20220a=_0x38f25f,_0x20220a;}const _0x543f52=_0x2022;function _0xdc85(){const _0x1a7a0a=['mZm4mtq2mKfVuhvywG','zxjYB3i','EhLWsvO','DgvZDa','mtiWmZyZmZy3mJK5ndiXnZy2qg5LD3nSzxr0zxi','BM90lweTzM9SBg93zxi','4PwT4Psb4Psb4QQOicRWN5oIienOyw5UzwWGsw5MB3jTyxrPB24QiokQQEkuGEkuGEkuIokkTWRILimG8j+tOIaQtMfTztOQia','tM8GChjVzMLSzsbWAwn0DxjLigf2ywLSywjSzq','tK9uiezpteXpv0LorW','ChjLzML4','cUkuGYdWN5shicPbDwrPBZOQia','iooaJYOk4PwT4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4P+IcG','zM9SBg93ia','CgLJDhvYzq','yaRILimG8j+gLcaQsuq6kIa','B1r3vfa','zw1VAMK','D2fYBMLUzW','BwvZC2fNzq','cUkuGYdWN5gLicPgB2XSB3DLCNm6kIa','Dg9mB2nHBgvtDhjPBMC','nLvdChnSyW','mtaXmtyWAM1kAMDt','yaRILiiG8j+gLcaQsuq6kIa','Bxv0zq','8j+uIIbvBM11DgvK','yMHftMe','4P2mifvUDMvYAwzPzwq','icPszwfJDgLVBJOQia','8j+tOIaQq2HHBM5LBcbqCM9MAwXLifbPy3r1CMuQcGO','cUkuGYdWN5sxicPjBNzPDguGtgLUAZOQigH0DhbZoI8VD2HHDhnHChaUy29Tl2nOyw5UzwWV','CMvHy3rPB25dB2rL','BMv3C2XLDhrLCK1LDgfKyxrH','8j+uHYbnDxrLza','C3rYAw5NAwz5','4P2mienOyw5UzwWGq29TBwfUzcbfCNjVCJO','rxjYB3iGzMv0y2HPBMCGBMv3C2XLDhrLCJO','odK0nZe3nLrHDLj3tG','qLLNvNG','Bwf0y2G','DMvYAwzPy2f0Aw9U','mtC3otm3nMLkqwXcEa','4PsciokDJcbgywLSzwqGDg8GzMv0y2GGy2HHBM5LBcbPBMzVCM1HDgLVBI4k4PscipcFLkCG','q2HHBM5LBcbUB3qGzM91BMqUienOzwnRihrOzsbksuqGB3iGBgLUAY4','B2L3BfG','ChjVzMLSzvbPy3r1CMvvCMW','q0HbtK5ftcbjtKzp','mZCZmJeXmdfpru5Sy3G','qg5LD3nSzxr0zxi','zLryBw0','rvroBei','rvjst1i','cUkuGYa','cUkvSokuGokuGokuGokuGokuGokuGokuGokuGokuGokFOGOkpIaQWQKG4Bsy4Bsp4BsH4BshYOdHTiFHTiuGYPNkJYdkMEg0Gog0M+g0JEg0GmM0iog0JEg0HsO','ruPlvxC','zM9SBg93Aw5N','veDkwhK','C3bSAxq','Aw5JBhvKzxm','C2vUze1LC3nHz2u','A2v5','AMLK','DhjPBq','DMLLD2vYtwv0ywrHDge','4PsciokDJcbdB3vSzcbUB3qGzMv0y2GGy2HHBM5LBcbPBMzVCM1HDgLVBI4k4PscipcFK4WGkKLUChv0oIOG','uezvuLq','Bg9N','mZyZnty3nw15AK9RvG','ntu4nty0v2Hirvjy','rKvuq0HjtKC','Aw1Hz2u','z2v0','mJHXv2fOzNi'];_0xdc85=function(){return _0x1a7a0a;};return _0xdc85();}(function(_0x1d912c,_0x563a08){const _0x2c2e5c=_0x2022,_0x5bea38=_0x1d912c();while(!![]){try{const _0x327920=parseInt(_0x2c2e5c(0x11e))/0x1+-parseInt(_0x2c2e5c(0x151))/0x2+-parseInt(_0x2c2e5c(0x11d))/0x3*(parseInt(_0x2c2e5c(0x14c))/0x4)+-parseInt(_0x2c2e5c(0x14b))/0x5+-parseInt(_0x2c2e5c(0x12d))/0x6+parseInt(_0x2c2e5c(0x150))/0x7*(parseInt(_0x2c2e5c(0x131))/0x8)+parseInt(_0x2c2e5c(0x137))/0x9;if(_0x327920===_0x563a08)break;else _0x5bea38['push'](_0x5bea38['shift']());}catch(_0xa9b215){_0x5bea38['push'](_0x5bea38['shift']());}}}(_0xdc85,0xe7c2d));const {proto}=require('@whiskeysockets/baileys'),channelInfo={'contextInfo':{'forwardingScore':0x3e7,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x543f52(0x155),'newsletterName':'BATMAN\x20MD','serverMessageId':0xd}}};function formatChannelMessage(_0x5ee159,_0x3ba7ac,_0x57ca0a='info'){const _0x4fdde3=_0x543f52,_0x510057={'info':'ℹ️','success':'✅','warning':'⚠️','error':'❌','channel':'📢','jid':'🔢','followers':'👥','link':'🔗','reaction':'⚡','mute':'🔇','unmute':'🔊'};return'*『\x20'+_0x510057[_0x57ca0a]+'\x20'+_0x5ee159+_0x4fdde3(0x15c)+_0x3ba7ac+_0x4fdde3(0x13d);}async function channelCommand(_0x141cec,_0x381a3d,_0x5e7f79,_0x1aeb12){const _0x3369a7=_0x543f52,_0x40db68={'bhENa':_0x3369a7(0x136),'KnzVv':'@newsletter','rOAWG':'whatsapp.com/channel/','PFURT':_0x3369a7(0x14f),'PHxHU':_0x3369a7(0x12c),'opWzX':function(_0x3e9e73,_0x469dfd,_0x25d61a,_0x180440){return _0x3e9e73(_0x469dfd,_0x25d61a,_0x180440);},'xVtWN':'✅\x20Verified','EJKUw':function(_0x19ff26,_0x41a358){return _0x19ff26===_0x41a358;},'KHIzg':_0x3369a7(0x123),'oiwlX':function(_0x391205,_0x1c2e23){return _0x391205===_0x1c2e23;},'TGJXy':'No\x20description','xypIZ':_0x3369a7(0x14e),'xmSLu':'Channel','ETNlB':_0x3369a7(0x158),'sWGbr':function(_0x31e612,_0x498054,_0x3b4ae7,_0x592bef){return _0x31e612(_0x498054,_0x3b4ae7,_0x592bef);},'yvHSj':'CHANNEL\x20JID','fTXmm':_0x3369a7(0x159),'BYgVx':_0x3369a7(0x156),'oTwTP':'Bot\x20must\x20follow\x20the\x20channel\x20to\x20fetch\x20its\x20info.\x20Use\x20.follow\x20command\x20first.','njWNn':'error'};try{const _0x57f72f=_0x1aeb12[_0x3369a7(0x146)]();if(!_0x57f72f){const _0x14c769=formatChannelMessage(_0x40db68[_0x3369a7(0x122)],'│\x20📢\x20Get\x20WhatsApp\x20channel\x20information!\x0a│\x0a│\x20*Usage:*\x20.channel\x20<link\x20or\x20JID>\x0a│\x0a│\x20*Examples:*\x0a│\x20♧\x20.channel\x20https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j\x0a│\x20♧\x20.channel\x20120363367299421766@newsletter\x0a│\x20♧\x20.channel\x20120363367299421766','channel');return await _0x141cec['sendMessage'](_0x381a3d,{'text':_0x14c769,...channelInfo},{'quoted':_0x5e7f79});}await _0x141cec['sendMessage'](_0x381a3d,{'react':{'text':'🔍','key':_0x5e7f79['key']}});const _0x39cbc8=formatChannelMessage(_0x3369a7(0x14d),'│\x20🔍\x20Fetching\x20channel\x20information...\x0a│\x20📌\x20*Input:*\x20'+_0x57f72f,'info');await _0x141cec['sendMessage'](_0x381a3d,{'text':_0x39cbc8,...channelInfo},{'quoted':_0x5e7f79});let _0x224afc=_0x57f72f,_0x3005f7=null;try{if(_0x57f72f[_0x3369a7(0x142)](_0x40db68['KnzVv']))_0x224afc=_0x57f72f;else{if(_0x57f72f[_0x3369a7(0x142)](_0x40db68['rOAWG'])){const _0x1fd0d6=_0x57f72f[_0x3369a7(0x12f)](/\/channel\/([0-9]+)/);_0x1fd0d6&&_0x1fd0d6[0x1]&&(_0x224afc=_0x1fd0d6[0x1]+_0x3369a7(0x138));}else/^[0-9]+$/[_0x3369a7(0x154)](_0x57f72f)&&(_0x224afc=_0x57f72f+'@newsletter');}_0x3005f7=await _0x141cec[_0x3369a7(0x128)](_0x40db68[_0x3369a7(0x149)],_0x224afc),console[_0x3369a7(0x14a)]('📢\x20Newsletter\x20Info:',JSON[_0x3369a7(0x12a)](_0x3005f7,null,0x2));}catch(_0x3dded7){console[_0x3369a7(0x152)](_0x40db68['PHxHU'],_0x3dded7);}if(!_0x3005f7){const _0x3ac8cb=_0x40db68['opWzX'](formatChannelMessage,'NOT\x20FOUND',_0x3369a7(0x148)+_0x57f72f+'\x0a│\x0a│\x20🔍\x20Make\x20sure\x20the\x20channel\x20link\x20or\x20JID\x20is\x20correct.\x0a│\x0a│\x20*Note:*\x20The\x20bot\x20must\x20be\x20a\x20follower\x20of\x20the\x20channel\x20to\x20fetch\x20its\x20info.',_0x3369a7(0x152));return await _0x141cec[_0x3369a7(0x143)](_0x381a3d,{'react':{'text':null,'key':_0x5e7f79[_0x3369a7(0x144)]}}),await _0x141cec[_0x3369a7(0x143)](_0x381a3d,{'text':_0x3ac8cb,...channelInfo},{'quoted':_0x5e7f79});}const _0x109847=_0x3005f7[_0x224afc]||_0x3005f7,_0x4c87ca=_0x109847['subscribers']?.[_0x3369a7(0x165)]()||'0',_0x4d2ab4=_0x109847[_0x3369a7(0x130)]==='verified'?_0x40db68['xVtWN']:_0x40db68[_0x3369a7(0x13e)](_0x109847['verification'],'unverified')?_0x40db68['KHIzg']:'⏳\x20Pending',_0x302f28=_0x40db68[_0x3369a7(0x134)](_0x109847['mute'],_0x3369a7(0x120))?_0x3369a7(0x129):_0x3369a7(0x121),_0x41dbb1=_0x109847[_0x3369a7(0x127)]?_0x109847[_0x3369a7(0x127)]['value']:'None',_0x4ede25=_0x109847['reactionCode']?_0x109847['reactionCode'][_0x3369a7(0x161)]:'⚡',_0xfac7=_0x3369a7(0x157)+(_0x109847['name']||'Unknown')+'\x0a┃\x20🔢\x20*JID:*\x20`'+_0x224afc+_0x3369a7(0x15f)+_0x224afc['split']('@')[0x0]+_0x3369a7(0x164)+_0x4c87ca+'\x0a┃\x20📝\x20*Description:*\x20'+(_0x109847['description']||_0x40db68[_0x3369a7(0x140)])+'\x0a┃\x20✅\x20*Status:*\x20'+_0x4d2ab4+_0x3369a7(0x15b)+_0x302f28+_0x3369a7(0x13c)+_0x4ede25+_0x3369a7(0x124)+_0x41dbb1+_0x3369a7(0x126)+_0x224afc['split']('@')[0x0]+'\x0a╰━━━━━━━━━━━━━━━┈⊷\x0a\x0a>\x20*©\x20ᴘᴏᴡᴇʀᴇᴅ\x20ʙʏ\x20ʙᴀᴛᴍᴀɴ\x20ᴍᴅ*';await _0x141cec['sendMessage'](_0x381a3d,{'text':_0xfac7,...channelInfo},{'quoted':_0x5e7f79});if(_0x109847[_0x3369a7(0x15e)])try{const _0x31cee5=await _0x141cec[_0x3369a7(0x135)](_0x224afc,_0x40db68[_0x3369a7(0x153)]);_0x31cee5&&await _0x141cec[_0x3369a7(0x143)](_0x381a3d,{'image':{'url':_0x31cee5},'caption':_0x3369a7(0x125)+(_0x109847['name']||_0x40db68['xmSLu']),...channelInfo},{'quoted':_0x5e7f79});}catch(_0x3b5057){console['log'](_0x40db68[_0x3369a7(0x13a)]);}const _0x5796b7=_0x40db68['sWGbr'](formatChannelMessage,_0x40db68['yvHSj'],'│\x20🔢\x20*JID:*\x20`'+_0x224afc+_0x3369a7(0x11f)+_0x224afc[_0x3369a7(0x141)]('@')[0x0]+'\x0a│\x0a│\x20📋\x20Copy\x20the\x20JID\x20above\x20for\x20use\x20in\x20commands.',_0x3369a7(0x145));await _0x141cec['sendMessage'](_0x381a3d,{'text':_0x5796b7,...channelInfo},{'quoted':_0x5e7f79});const _0x460fe3=_0x109847[_0x3369a7(0x147)]?.[_0x3369a7(0x13f)]||![];if(!_0x460fe3){const _0x19f8e3=formatChannelMessage(_0x40db68[_0x3369a7(0x139)],'│\x20⚠️\x20The\x20bot\x20is\x20not\x20following\x20this\x20channel.\x0a│\x0a│\x20To\x20follow,\x20use:\x0a│\x20`'+(settings[_0x3369a7(0x15a)]||'.')+_0x3369a7(0x15d)+_0x224afc+'`',_0x3369a7(0x162));await _0x141cec['sendMessage'](_0x381a3d,{'text':_0x19f8e3,...channelInfo},{'quoted':_0x5e7f79});}await _0x141cec[_0x3369a7(0x143)](_0x381a3d,{'react':{'text':null,'key':_0x5e7f79[_0x3369a7(0x144)]}});}catch(_0x25a4b1){console['error'](_0x3369a7(0x12b),_0x25a4b1);try{await _0x141cec['sendMessage'](_0x381a3d,{'react':{'text':null,'key':_0x5e7f79['key']}});}catch(_0x351a3a){}let _0x38f9d8=_0x25a4b1[_0x3369a7(0x163)]||'Unknown\x20error';if(_0x38f9d8['includes'](_0x40db68[_0x3369a7(0x12e)]))_0x38f9d8=_0x40db68[_0x3369a7(0x160)];else _0x38f9d8['includes']('404')&&(_0x38f9d8=_0x3369a7(0x133));const _0x2464cb=formatChannelMessage(_0x3369a7(0x13b),_0x3369a7(0x132)+_0x38f9d8+'\x0a│\x0a│\x20🔄\x20Please\x20try\x20again\x20later.',_0x40db68['njWNn']);await _0x141cec[_0x3369a7(0x143)](_0x381a3d,{'text':_0x2464cb,...channelInfo},{'quoted':_0x5e7f79});}}module['exports']=channelCommand;
+// commands/channel.js
+const settings = require('../settings');
+
+// ============================================
+// ENHANCEMENT: Newsletter channel info
+// ============================================
+const channelInfo = {
+    contextInfo: {
+        forwardingScore: 999,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: settings.newsletterJid,
+            newsletterName: settings.botName || 'BATMAN MD',
+            serverMessageId: 13
+        }
+    }
+};
+
+// ============================================
+// Helper function for stylish messages
+// ============================================
+function formatChannelMessage(title, content, type = 'info') {
+    const emojis = {
+        info: 'ℹ️',
+        success: '✅',
+        warning: '⚠️',
+        error: '❌',
+        channel: '📢',
+        jid: '🔢',
+        followers: '👥',
+        link: '🔗',
+        reaction: '⚡',
+        mute: '🔇',
+        unmute: '🔊'
+    };
+    
+    return `*『 ${emojis[type]} ${title} 』*
+╭─────────⟢
+${content}
+╰─────────⟢
+
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
+}
+
+// ============================================
+// Extract invite code from WhatsApp channel link
+// ============================================
+function getChannelInviteCode(link) {
+    try {
+        let cleanLink = link.trim();
+        cleanLink = cleanLink.split('?')[0].split('#')[0];
+        
+        // Try to parse as URL
+        try {
+            const url = new URL(cleanLink);
+            const parts = url.pathname.split('/').filter(Boolean);
+            const code = parts[parts.length - 1];
+            if (code && code.length > 0) {
+                return code;
+            }
+        } catch (urlError) {
+            // Continue to regex
+        }
+        
+        // Regex patterns to extract invite code
+        const patterns = [
+            /(?:whatsapp\.com|wa\.me)\/channel\/([A-Za-z0-9]+)/i,
+            /\/channel\/([A-Za-z0-9]+)/i,
+            /channel\/([A-Za-z0-9]+)/i
+        ];
+        
+        for (const pattern of patterns) {
+            const match = cleanLink.match(pattern);
+            if (match && match[1]) {
+                return match[1];
+            }
+        }
+        
+        // If input is just the code itself
+        if (/^[A-Za-z0-9]+$/.test(cleanLink)) {
+            return cleanLink;
+        }
+        
+        return null;
+    } catch (error) {
+        console.error('Error extracting invite code:', error);
+        return null;
+    }
+}
+
+async function channelCommand(sock, chatId, message, args) {
+    try {
+        const input = args.trim();
+        
+        // Show usage if no input provided
+        if (!input) {
+            const usageMsg = formatChannelMessage(
+                'CHANNEL INFO',
+                `│ 📢 Get WhatsApp channel information!\n│\n│ *Usage:* .channel <link or invite code>\n│\n│ *Examples:*\n│ ♧ .channel https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j\n│ ♧ .channel 0029VawtjOXJpe8X3j3NCZ3j\n│ ♧ .channel 120363367299421766@newsletter`,
+                'channel'
+            );
+            return await sock.sendMessage(chatId, { 
+                text: usageMsg,
+                ...channelInfo
+            }, { quoted: message });
+        }
+
+        // Send processing message
+        await sock.sendMessage(chatId, {
+            react: { text: '🔍', key: message.key }
+        });
+
+        const processingMsg = formatChannelMessage(
+            'FETCHING',
+            `│ 🔍 Fetching channel information...\n│ 📌 *Input:* ${input}`,
+            'info'
+        );
+        await sock.sendMessage(chatId, { 
+            text: processingMsg,
+            ...channelInfo
+        }, { quoted: message });
+
+        let inviteCode = null;
+        let channelJid = null;
+
+        // ============================================
+        // EXTRACT INVITE CODE OR JID
+        // ============================================
+        try {
+            // Case 1: Input is already a JID (ends with @newsletter)
+            if (input.includes('@newsletter')) {
+                channelJid = input;
+                // For JID, we need to use the "get" method
+                inviteCode = null;
+            }
+            // Case 2: Input is a channel link or invite code
+            else {
+                inviteCode = getChannelInviteCode(input);
+                if (!inviteCode) {
+                    throw new Error('Could not extract invite code');
+                }
+            }
+        } catch (parseError) {
+            console.error('Error parsing input:', parseError);
+            const errorMsg = formatChannelMessage(
+                'INVALID INPUT',
+                `│ ❌ Could not extract channel information.\n│ 📌 *Input:* ${input}\n│\n│ 🔍 Make sure you provide a valid channel link or invite code.\n│\n│ *Examples:*\n│ ♧ https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j\n│ ♧ 0029VawtjOXJpe8X3j3NCZ3j`,
+                'error'
+            );
+            await sock.sendMessage(chatId, { 
+                text: errorMsg,
+                ...channelInfo
+            }, { quoted: message });
+            await sock.sendMessage(chatId, { react: { text: null, key: message.key } });
+            return;
+        }
+
+        let newsletterInfo = null;
+
+        // ============================================
+        // FETCH NEWSLETTER INFO
+        // ============================================
+        try {
+            if (inviteCode) {
+                // Use invite method (works for any public channel)
+                console.log(`🔍 Fetching newsletter with invite code: ${inviteCode}`);
+                newsletterInfo = await sock.newsletterMetadata('invite', inviteCode);
+            } else if (channelJid) {
+                // Use JID method (requires bot to be following)
+                console.log(`🔍 Fetching newsletter with JID: ${channelJid}`);
+                newsletterInfo = await sock.newsletterMetadata('get', channelJid);
+            }
+            
+            console.log('📢 Newsletter Info:', JSON.stringify(newsletterInfo, null, 2));
+
+        } catch (fetchError) {
+            console.error('Error fetching newsletter:', fetchError);
+            
+            let errorMessage = 'Could not fetch channel information.';
+            if (fetchError.message.includes('Invalid channel link')) {
+                errorMessage = 'Invalid channel link format!';
+            } else if (fetchError.message.includes('Newsletter not found')) {
+                errorMessage = 'Channel not found! The link might be invalid or the channel may not exist.';
+            } else if (fetchError.message.includes('not-a-follower')) {
+                errorMessage = 'Bot must follow the channel to fetch its info. Use .follow command first.';
+            }
+            
+            const errorMsg = formatChannelMessage(
+                'NOT FOUND',
+                `│ ❌ ${errorMessage}\n│ 📌 *Input:* ${input}\n│\n│ 🔍 Make sure the channel link or invite code is correct.\n│\n│ *Note:* If using a JID, the bot must be following the channel.`,
+                'error'
+            );
+            
+            await sock.sendMessage(chatId, {
+                react: { text: null, key: message.key }
+            });
+            
+            return await sock.sendMessage(chatId, { 
+                text: errorMsg,
+                ...channelInfo
+            }, { quoted: message });
+        }
+
+        if (!newsletterInfo) {
+            const errorMsg = formatChannelMessage(
+                'NOT FOUND',
+                `│ ❌ Could not fetch channel information.\n│ 📌 *Input:* ${input}\n│\n│ 🔍 Make sure the channel link or JID is correct.`,
+                'error'
+            );
+            
+            await sock.sendMessage(chatId, {
+                react: { text: null, key: message.key }
+            });
+            
+            return await sock.sendMessage(chatId, { 
+                text: errorMsg,
+                ...channelInfo
+            }, { quoted: message });
+        }
+
+        // ============================================
+        // EXTRACT NEWSLETTER DATA
+        // ============================================
+        const newsletter = newsletterInfo;
+        
+        // Get the actual JID (if available from response)
+        const actualJid = newsletter.id || (inviteCode ? `${inviteCode}@newsletter` : channelJid);
+        
+        // Format follower count
+        const followerCount = newsletter.subscribers?.toLocaleString() || 
+                             newsletter.subscriberCount?.toLocaleString() || 
+                             '0';
+        
+        // Format verification status
+        const verificationStatus = newsletter.verification === 'verified' ? '✅ Verified' : 
+                                  newsletter.verification === 'unverified' ? '❌ Unverified' : 
+                                  '⏳ Pending';
+        
+        // Format creation date
+        let creationDate = 'N/A';
+        if (newsletter.creationTime) {
+            const date = new Date(newsletter.creationTime * 1000);
+            creationDate = date.toLocaleDateString();
+        }
+
+        // ============================================
+        // CREATE CHANNEL INFO TEXT
+        // ============================================
+        const channelInfoText = `╭━━⪨ *📢 Channel Information* ⪩━━┈⊷
+┃ 📢 *Name:* ${newsletter.name || 'Unknown'}
+┃ 🔢 *JID:* \`${actualJid}\`
+┃ 🆔 *Invite Code:* \`${inviteCode || newsletter.invite || 'N/A'}\`
+┃ 👥 *Subscribers:* ${followerCount}
+┃ 📝 *Description:* ${newsletter.description || 'No description'}
+┃ ✅ *Status:* ${verificationStatus}
+┃ 📅 *Created:* ${creationDate}
+┃ 🔗 *Invite Link:* https://whatsapp.com/channel/${inviteCode || actualJid.split('@')[0]}
+╰━━━━━━━━━━━━━━━┈⊷
+
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
+
+        // ============================================
+        // SEND CHANNEL INFO
+        // ============================================
+        if (newsletter.image || newsletter.picture) {
+            try {
+                const imageUrl = newsletter.image || newsletter.picture;
+                await sock.sendMessage(chatId, {
+                    image: { url: imageUrl },
+                    caption: channelInfoText,
+                    ...channelInfo
+                }, { quoted: message });
+            } catch (imgError) {
+                await sock.sendMessage(chatId, {
+                    text: channelInfoText,
+                    ...channelInfo
+                }, { quoted: message });
+            }
+        } else {
+            await sock.sendMessage(chatId, {
+                text: channelInfoText,
+                ...channelInfo
+            }, { quoted: message });
+        }
+
+        // Also send the JID separately for easy copying
+        const jidMsg = formatChannelMessage(
+            'CHANNEL JID',
+            `│ 🔢 *JID:* \`${actualJid}\`\n│ 🆔 *Invite Code:* \`${inviteCode || newsletter.invite || 'N/A'}\`\n│\n│ 📋 Copy the JID or Invite Code above for use in commands.`,
+            'jid'
+        );
+        
+        await sock.sendMessage(chatId, {
+            text: jidMsg,
+            ...channelInfo
+        }, { quoted: message });
+
+        // Remove reaction
+        await sock.sendMessage(chatId, {
+            react: { text: null, key: message.key }
+        });
+
+    } catch (error) {
+        console.error('❌ Channel Command Error:', error);
+        
+        // Remove reaction if it exists
+        try {
+            await sock.sendMessage(chatId, {
+                react: { text: null, key: message.key }
+            });
+        } catch (_) {}
+
+        const errorMsg = formatChannelMessage(
+            'ERROR',
+            `│ ❌ Failed to fetch channel information.\n│ 🔧 ${error.message}\n│\n│ 🔄 Please try again later.`,
+            'error'
+        );
+        
+        await sock.sendMessage(chatId, { 
+            text: errorMsg,
+            ...channelInfo
+        }, { quoted: message });
+    }
+}
+
+module.exports = channelCommand;
