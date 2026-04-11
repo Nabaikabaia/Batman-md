@@ -1,38 +1,7 @@
-const settings = {
-  // ─── Bot Identity ───────────────────────────────────────────────────────────
-  packname:    'BATMAN MD',
-  author:      '‎',                         // Sticker author (invisible char = no watermark)
-  botName:     'BATMAN MD',
-  botOwner: 'NABEES TECH',
-  ownerNumber: '2349049636843',             // Your number — no + or spaces
-
-  // ─── Behaviour ──────────────────────────────────────────────────────────────
-  prefix:      '.',                         // Command prefix: . ! / # etc.
-  commandMode: 'public',                    // 'public' | 'private'
-  version:     '1.0.2',
-
-  // ─── Newsletter / Channel ───────────────────────────────────────────────────
-  newsletterJid:        '120363367299421766@newsletter',
-  newsletterName:       'BATMAN MD',
-  channelLink:          'https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j',
-  autoFollowNewsletter: true,
-  autoReactNewsletter:  true,
-  reactEmojis: ['🤖','🔥','💯','❤️','👍','💫','✨','👏','😎','🚀','⚡','💥','🌟','💪'],
-
-  // ─── Social / Links ─────────────────────────────────────────────────────────
-  website:    'https://nabees.online',
-  githubRepo: 'https://github.com/Nabaikabaia/Batman-md',
-
-  // ─── API Keys ───────────────────────────────────────────────────────────────
-  giphyApiKey: 'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq',
-
-  // ─── Performance ────────────────────────────────────────────────────────────
-  maxStoreMessages:    20,
-  storeWriteInterval:  10000,
-
-  // ─── Misc ───────────────────────────────────────────────────────────────────
-  description:   'A powerful multi-device WhatsApp bot by NABEES TECH.',
-  updateZipUrl:  'https://github.com/Nabaikabaia/Batman-md/archive/refs/heads/main.zip',
-};
-
-module.exports = settings;
+// ============================================
+//  Obfuscated by Nabees Tech
+//  Domain: ce770edd-5670-4883-a3c2-379d974e82d3.lovableproject.com
+//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
+//  Protected - Do not redistribute
+// ============================================
+const _0x432b52=_0x3e6f;(function(_0x478abd,_0x1e8d8e){const _0x541218=_0x3e6f,_0x34bb71=_0x478abd();while(!![]){try{const _0x2c2117=parseInt(_0x541218(0x189))/0x1*(-parseInt(_0x541218(0x1a1))/0x2)+-parseInt(_0x541218(0x17e))/0x3+-parseInt(_0x541218(0x172))/0x4*(parseInt(_0x541218(0x190))/0x5)+-parseInt(_0x541218(0x183))/0x6*(parseInt(_0x541218(0x174))/0x7)+-parseInt(_0x541218(0x195))/0x8*(-parseInt(_0x541218(0x196))/0x9)+parseInt(_0x541218(0x191))/0xa*(parseInt(_0x541218(0x18b))/0xb)+parseInt(_0x541218(0x18e))/0xc;if(_0x2c2117===_0x1e8d8e)break;else _0x34bb71['push'](_0x34bb71['shift']());}catch(_0x3eb494){_0x34bb71['push'](_0x34bb71['shift']());}}}(_0x4feb,0x39562));const _0x299598={};function _0x3e6f(_0x11e965,_0x4db607){_0x11e965=_0x11e965-0x16d;const _0x4feb5f=_0x4feb();let _0x3e6f2e=_0x4feb5f[_0x11e965];if(_0x3e6f['WSHAII']===undefined){var _0x1f890c=function(_0x572d6b){const _0x337870='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x299598='',_0xe4c1e2='';for(let _0x56c909=0x0,_0x13a54a,_0x2aaced,_0x1567fe=0x0;_0x2aaced=_0x572d6b['charAt'](_0x1567fe++);~_0x2aaced&&(_0x13a54a=_0x56c909%0x4?_0x13a54a*0x40+_0x2aaced:_0x2aaced,_0x56c909++%0x4)?_0x299598+=String['fromCharCode'](0xff&_0x13a54a>>(-0x2*_0x56c909&0x6)):0x0){_0x2aaced=_0x337870['indexOf'](_0x2aaced);}for(let _0x38a766=0x0,_0x5af26e=_0x299598['length'];_0x38a766<_0x5af26e;_0x38a766++){_0xe4c1e2+='%'+('00'+_0x299598['charCodeAt'](_0x38a766)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0xe4c1e2);};_0x3e6f['lZlJPv']=_0x1f890c,_0x3e6f['LlhUsb']={},_0x3e6f['WSHAII']=!![];}const _0x2762ef=_0x4feb5f[0x0],_0x3c2ae0=_0x11e965+_0x2762ef,_0x35529e=_0x3e6f['LlhUsb'][_0x3c2ae0];return!_0x35529e?(_0x3e6f2e=_0x3e6f['lZlJPv'](_0x3e6f2e),_0x3e6f['LlhUsb'][_0x3c2ae0]=_0x3e6f2e):_0x3e6f2e=_0x35529e,_0x3e6f2e;}function _0x4feb(){const _0x2f879f=['B3DUzxjoDw1Izq','Ahr0Chm6lY93Aa','mtmZoduXndHiuvHPEe8','yxv0Ag9Y','nxzYDNHMBG','mZKWwgXpBvH6','y29TBwfUze1Vza','zgvZy3jPChrPBW','DxbKyxrLwMLWvq','nZa2nty4EfLos3DY','ouP5qKHbDq','sw50zxj2ywW','ms4WlJi','odqZ','tMv3C2XLDhrLCG','qKfutufoie1e','BMv3C2XLDhrLCG','DMvYC2LVBG','Bwf4u3rVCMvnzq','ChjLzML4','ywjHAwTHyMfPyq','mtrAwwDOsuS','mKXnyuDyEJmWmW','zxDZBgv0DgvY','BwfPBI56Axa','C3nHz2vZ','zxHWB3j0CW','mtC3nda3nNbPwfLJAG','l2nOyw5UzwWVma','mtiWodi3CK9bsuLl','ig11BhrPlwrLDG','tMfTzq','D2vIC2L0zq','CgfJA25HBwu','sMLK','Ahr0Chm6lY9NAq','tKfcruvtifrfqW','sNbLofGZAJnoqW','z2LWAhLbCgLlzq','odi4nZC3zhPvy2nA','yxrZyxbWlMnVBq','ChaGyM90igj5ia','l0jHDg1HBI1Tza','mtiWmZyZmZy3mG','otbgsKrqshG','DgH1yI5JB20VtG','z2L0AhvIuMvWBW','yM90t3DUzxi','yxv0B0zVBgXVDW','yxv0B1jLywn0tG','ntK0odboywzUzwK','yM90tMfTzq','mtiWmtK3AfjPuNfi'];_0x4feb=function(){return _0x2f879f;};return _0x4feb();}_0x299598[_0x432b52(0x178)]=_0x432b52(0x19b),_0x299598[_0x432b52(0x18f)]='‎',_0x299598[_0x432b52(0x18a)]=_0x432b52(0x19b),_0x299598[_0x432b52(0x186)]='NABEES\x20TEC'+'H',_0x299598[_0x432b52(0x18c)+'r']='2349049636'+_0x432b52(0x199),_0x299598[_0x432b52(0x19f)]='.',_0x299598[_0x432b52(0x192)+'e']='public',_0x299598[_0x432b52(0x19d)]=_0x432b52(0x198),_0x299598[_0x432b52(0x19c)+_0x432b52(0x179)]=_0x432b52(0x182)+'99421766@n'+_0x432b52(0x16e),_0x299598['newsletter'+_0x432b52(0x176)]=_0x432b52(0x19b),_0x299598['channelLin'+'k']=_0x432b52(0x18d)+_0x432b52(0x17f)+_0x432b52(0x173)+'029VawtjOX'+_0x432b52(0x17c)+'Z3j',_0x299598[_0x432b52(0x187)+_0x432b52(0x19a)]=!![],_0x299598[_0x432b52(0x188)+_0x432b52(0x16e)]=!![],_0x299598['reactEmoji'+'s']=['🤖','🔥','💯','❤️','👍','💫','✨','👏','😎','🚀','⚡','💥','🌟','💪'],_0x299598[_0x432b52(0x177)]='https://na'+'bees.onlin'+'e',_0x299598[_0x432b52(0x185)]=_0x432b52(0x17a)+_0x432b52(0x184)+_0x432b52(0x1a0)+'/Batman-md',_0x299598[_0x432b52(0x17d)+'y']='qnl7ssQChT'+'dPjsKta2Ax'+_0x432b52(0x16d)+'tq',_0x299598[_0x432b52(0x19e)+_0x432b52(0x170)]=0x14,_0x299598['storeWrite'+_0x432b52(0x197)]=0x2710,_0x299598[_0x432b52(0x193)+'n']='A\x20powerful'+_0x432b52(0x175)+'ice\x20WhatsA'+_0x432b52(0x180)+_0x432b52(0x17b)+'H.',_0x299598[_0x432b52(0x194)+'rl']=_0x432b52(0x17a)+_0x432b52(0x184)+_0x432b52(0x1a0)+_0x432b52(0x181)+'/archive/r'+'efs/heads/'+_0x432b52(0x16f);const settings=_0x299598;module[_0x432b52(0x171)]=settings;

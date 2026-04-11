@@ -1,69 +1,7 @@
-const settings = require('../settings');
-const { addSudo, removeSudo, getSudoList } = require('../lib/index');
-const isOwnerOrSudo = require('../lib/isOwner');
-
-function extractMentionedJid(message) {
-    const mentioned = message.message?.extendedTextMessage?.contextInfo?.mentionedJid || [];
-    if (mentioned.length > 0) return mentioned[0];
-    const text = message.message?.conversation || message.message?.extendedTextMessage?.text || '';
-    const match = text.match(/\b(\d{7,15})\b/);
-    if (match) return match[1] + '@s.whatsapp.net';
-    return null;
-}
-
-async function sudoCommand(sock, chatId, message) {
-    const senderJid = message.key.participant || message.key.remoteJid;
-    const isOwner = message.key.fromMe || await isOwnerOrSudo(senderJid, sock, chatId);
-
-    const rawText = message.message?.conversation || message.message?.extendedTextMessage?.text || '';
-    const args = rawText.trim().split(' ').slice(1);
-    const sub = (args[0] || '').toLowerCase();
-
-    if (!sub || !['add', 'del', 'remove', 'list'].includes(sub)) {
-        await sock.sendMessage(chatId, { text: 'Usage:\n.sudo add <@user|number>\n.sudo del <@user|number>\n.sudo list' },{quoted :message});
-        return;
-    }
-
-    if (sub === 'list') {
-        const list = await getSudoList();
-        if (list.length === 0) {
-            await sock.sendMessage(chatId, { text: 'No sudo users set.' },{quoted :message});
-            return;
-        }
-        const text = list.map((j, i) => `${i + 1}. ${j}`).join('\n');
-        await sock.sendMessage(chatId, { text: `Sudo users:\n${text}` },{quoted :message});
-        return;
-    }
-
-    if (!isOwner) {
-        await sock.sendMessage(chatId, { text: '❌ Only owner can add/remove sudo users. Use .sudo list to view.' },{quoted :message});
-        return;
-    }
-
-    const targetJid = extractMentionedJid(message);
-    if (!targetJid) {
-        await sock.sendMessage(chatId, { text: 'Please mention a user or provide a number.' },{quoted :message});
-        return;
-    }
-
-    if (sub === 'add') {
-        const ok = await addSudo(targetJid);
-        await sock.sendMessage(chatId, { text: ok ? `✅ Added sudo: ${targetJid}` : '❌ Failed to add sudo' },{quoted :message});
-        return;
-    }
-
-    if (sub === 'del' || sub === 'remove') {
-        const ownerJid = settings.ownerNumber + '@s.whatsapp.net';
-        if (targetJid === ownerJid) {
-            await sock.sendMessage(chatId, { text: 'Owner cannot be removed.' },{quoted :message});
-            return;
-        }
-        const ok = await removeSudo(targetJid);
-        await sock.sendMessage(chatId, { text: ok ? `✅ Removed sudo: ${targetJid}` : '❌ Failed to remove sudo' },{quoted :message});
-        return;
-    }
-}
-
-module.exports = sudoCommand;
-
-
+// ============================================
+//  Obfuscated by Nabees Tech
+//  Domain: ce770edd-5670-4883-a3c2-379d974e82d3.lovableproject.com
+//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
+//  Protected - Do not redistribute
+// ============================================
+const _0xe09b05=_0x3714;(function(_0x41e350,_0x115148){const _0x5976f2=_0x3714,_0x3ff1b=_0x41e350();while(!![]){try{const _0x455b04=parseInt(_0x5976f2(0x19b))/0x1+-parseInt(_0x5976f2(0x1a8))/0x2+-parseInt(_0x5976f2(0x1b6))/0x3*(-parseInt(_0x5976f2(0x190))/0x4)+-parseInt(_0x5976f2(0x1b0))/0x5+-parseInt(_0x5976f2(0x195))/0x6+-parseInt(_0x5976f2(0x198))/0x7+parseInt(_0x5976f2(0x1a1))/0x8;if(_0x455b04===_0x115148)break;else _0x3ff1b['push'](_0x3ff1b['shift']());}catch(_0x105590){_0x3ff1b['push'](_0x3ff1b['shift']());}}}(_0x5b0c,0x5189d));function _0x5b0c(){const _0x523685=['BwvZC2fNzq','CIbVCIbWCM92Aq','zgvS','4P2mie9UBhKGB3DU','lI4VC2v0DgLUzW','nJCZmtaXnK12twnyAa','zg8GywrKidXaDq','4P2miezHAwXLzcb0','CMvTB3rLsMLK','Dw1Izxi+cI5ZDq','y29UDgv4DeLUzG','CxvVDgvK','nZe3mdq4weXeAMzT','C3vKBZOG','qhmUD2HHDhnHCa','Dgv4Da','zg86ia','ywrK','zguGysbUDw1Izq','ugXLyxnLig1LBG','mJeXndKWBgv2CMDS','B2rqz0m','t3DUzxiGy2fUBG','BgLZDcb0BYb2Aq','4PYfiefKzgvKihn1','CgXAvwq','mtyYndHNBhHVzuy','zxCU','zxH0zw5Kzwruzq','C3bSAxq','AM9PBG','D25LCG','DgLVBIbHihvZzq','pGOUC3vKBYbKzq','C2vUze1LC3nHzW','DhjPBq','BgLZDa','CMvTB3zL','C2vYFg51BwjLCG','rMTRveq','A2v5','Bwf0y2G','vxnHz2u6cI5ZDq','EhrnzxnZywDL','lI4VBgLIl2LUza','BKfMs3u','EvzcsK4','zxjZihnLDc4','u3vKBYb1C2vYCW','CezMsxi','tM8GC3vKBYb1CW','ngLgz252ra','BgvUz3rO','zg8GBgLZDa','DMvKlG','l3jLBw92zsbZDq','mJGXnJCWnNPwt3zxsq','Aw5JBhvKzxm','BwvUDgLVBMvKsG','mtqYmJi2tNLevLPj','y29UDMvYC2f0Aq','zxiGy2fUigfKza','mZC3nZC5C3LjEK5O'];_0x5b0c=function(){return _0x523685;};return _0x5b0c();}const settings=require(_0xe09b05(0x1a0)+'s'),{addSudo,removeSudo,getSudoList}=require(_0xe09b05(0x1c8)+'ex'),isOwnerOrSudo=require('../lib/isO'+_0xe09b05(0x1bb));function _0x3714(_0xa6177d,_0x5a818b){_0xa6177d=_0xa6177d-0x18c;const _0x5b0c0e=_0x5b0c();let _0x3714b8=_0x5b0c0e[_0xa6177d];if(_0x3714['aZCcZz']===undefined){var _0x405f7b=function(_0x4bae02){const _0x331bc1='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0xb3df2f='',_0x706916='';for(let _0x3f7fbf=0x0,_0x5320e2,_0x3891be,_0x17c893=0x0;_0x3891be=_0x4bae02['charAt'](_0x17c893++);~_0x3891be&&(_0x5320e2=_0x3f7fbf%0x4?_0x5320e2*0x40+_0x3891be:_0x3891be,_0x3f7fbf++%0x4)?_0xb3df2f+=String['fromCharCode'](0xff&_0x5320e2>>(-0x2*_0x3f7fbf&0x6)):0x0){_0x3891be=_0x331bc1['indexOf'](_0x3891be);}for(let _0x25fab1=0x0,_0x5e9d58=_0xb3df2f['length'];_0x25fab1<_0x5e9d58;_0x25fab1++){_0x706916+='%'+('00'+_0xb3df2f['charCodeAt'](_0x25fab1)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x706916);};_0x3714['TgYBJj']=_0x405f7b,_0x3714['pbUtoG']={},_0x3714['aZCcZz']=!![];}const _0x973480=_0x5b0c0e[0x0],_0x32d4d8=_0xa6177d+_0x973480,_0x3ab46d=_0x3714['pbUtoG'][_0x32d4d8];return!_0x3ab46d?(_0x3714b8=_0x3714['TgYBJj'](_0x3714b8),_0x3714['pbUtoG'][_0x32d4d8]=_0x3714b8):_0x3714b8=_0x3ab46d,_0x3714b8;}function extractMentionedJid(_0x1827c3){const _0x3e6e1a=_0xe09b05,_0x43fcb5={};_0x43fcb5[_0x3e6e1a(0x1b1)]=function(_0x49186a,_0x4247c1){return _0x49186a>_0x4247c1;};const _0x39196c=_0x43fcb5,_0xbbdd5b=_0x1827c3['message']?.[_0x3e6e1a(0x1b8)+_0x3e6e1a(0x1c7)]?.[_0x3e6e1a(0x1a6)+'o']?.[_0x3e6e1a(0x197)+'id']||[];if(_0x39196c['odPgC'](_0xbbdd5b[_0x3e6e1a(0x191)],0x0))return _0xbbdd5b[0x0];const _0x20703b=_0x1827c3[_0x3e6e1a(0x19c)]?.['conversati'+'on']||_0x1827c3['message']?.[_0x3e6e1a(0x1b8)+_0x3e6e1a(0x1c7)]?.['text']||'',_0x1eddf4=_0x20703b[_0x3e6e1a(0x1c5)](/\b(\d{7,15})\b/);if(_0x1eddf4)return _0x1eddf4[0x1]+(_0x3e6e1a(0x1aa)+'p.net');return null;}async function sudoCommand(_0x2e02fc,_0x671641,_0x455e4d){const _0x4793ae=_0xe09b05,_0x19126d={'yRCYp':function(_0x1298a8,_0xd2d167,_0x377e87,_0x23ae72){return _0x1298a8(_0xd2d167,_0x377e87,_0x23ae72);},'nAfKu':_0x4793ae(0x19e),'FkkTD':_0x4793ae(0x1c0),'pFfIr':function(_0x164bf0,_0x3f74d5){return _0x164bf0(_0x3f74d5);},'BOLQQ':_0x4793ae(0x1af)+_0x4793ae(0x1bc)+_0x4793ae(0x19d)+_0x4793ae(0x1ae)+'r.','yVBJN':function(_0x2679d2,_0xb107d9){return _0x2679d2===_0xb107d9;},'plZUd':_0x4793ae(0x1a3)+'o\x20add\x20sudo','cvZfP':_0x4793ae(0x1c1)},_0x4181d8=_0x455e4d[_0x4793ae(0x1c4)]['participan'+'t']||_0x455e4d[_0x4793ae(0x1c4)][_0x4793ae(0x1a4)],_0x18f868=_0x455e4d[_0x4793ae(0x1c4)]['fromMe']||await _0x19126d['yRCYp'](isOwnerOrSudo,_0x4181d8,_0x2e02fc,_0x671641),_0x1bf338=_0x455e4d['message']?.[_0x4793ae(0x199)+'on']||_0x455e4d[_0x4793ae(0x19c)]?.[_0x4793ae(0x1b8)+_0x4793ae(0x1c7)]?.[_0x4793ae(0x1ab)]||'',_0x1ff70b=_0x1bf338[_0x4793ae(0x1bf)]()[_0x4793ae(0x1b9)]('\x20')['slice'](0x1),_0x51b220=(_0x1ff70b[0x0]||'')['toLowerCas'+'e']();if(!_0x51b220||![_0x4793ae(0x1ad),_0x19126d[_0x4793ae(0x1c9)],'remove',_0x19126d['FkkTD']][_0x4793ae(0x196)](_0x51b220)){const _0x1f3eaf={};_0x1f3eaf[_0x4793ae(0x1ab)]=_0x4793ae(0x1c6)+_0x4793ae(0x1a2)+_0x4793ae(0x1c2)+_0x4793ae(0x1bd)+'l\x20<@user|n'+_0x4793ae(0x1a5)+_0x4793ae(0x192);const _0x10070e={};_0x10070e[_0x4793ae(0x1a7)]=_0x455e4d,await _0x2e02fc[_0x4793ae(0x1be)+'e'](_0x671641,_0x1f3eaf,_0x10070e);return;}if(_0x51b220===_0x19126d[_0x4793ae(0x1c3)]){const _0x17a358=await getSudoList();if(_0x17a358['length']===0x0){const _0x52db0c={};_0x52db0c[_0x4793ae(0x1ab)]=_0x4793ae(0x18f)+_0x4793ae(0x18c);const _0xc081c5={};_0xc081c5['quoted']=_0x455e4d,await _0x2e02fc[_0x4793ae(0x1be)+'e'](_0x671641,_0x52db0c,_0xc081c5);return;}const _0xa4fe95=_0x17a358['map']((_0x5b5d25,_0x5ce1e4)=>_0x5ce1e4+0x1+'.\x20'+_0x5b5d25)[_0x4793ae(0x1ba)]('\x0a'),_0x55b789={};_0x55b789['text']=_0x4793ae(0x18d)+':\x0a'+_0xa4fe95;const _0x32c216={};_0x32c216[_0x4793ae(0x1a7)]=_0x455e4d,await _0x2e02fc[_0x4793ae(0x1be)+'e'](_0x671641,_0x55b789,_0x32c216);return;}if(!_0x18f868){const _0x2e20fb={};_0x2e20fb[_0x4793ae(0x1ab)]=_0x4793ae(0x19f)+_0x4793ae(0x19a)+_0x4793ae(0x194)+'do\x20users.\x20'+'Use\x20.sudo\x20'+_0x4793ae(0x1b3)+_0x4793ae(0x1b7);const _0x12be76={};_0x12be76['quoted']=_0x455e4d,await _0x2e02fc[_0x4793ae(0x1be)+'e'](_0x671641,_0x2e20fb,_0x12be76);return;}const _0x1bd9bf=_0x19126d[_0x4793ae(0x18e)](extractMentionedJid,_0x455e4d);if(!_0x1bd9bf){const _0x197177={};_0x197177[_0x4793ae(0x1ab)]=_0x19126d['BOLQQ'];const _0x5346cd={};_0x5346cd[_0x4793ae(0x1a7)]=_0x455e4d,await _0x2e02fc[_0x4793ae(0x1be)+'e'](_0x671641,_0x197177,_0x5346cd);return;}if(_0x19126d[_0x4793ae(0x1ca)](_0x51b220,'add')){const _0x586054=await addSudo(_0x1bd9bf),_0x454f40={};_0x454f40[_0x4793ae(0x1ab)]=_0x586054?_0x4793ae(0x1b4)+_0x4793ae(0x1ac)+_0x1bd9bf:_0x19126d[_0x4793ae(0x1b5)];const _0x1806c5={};_0x1806c5[_0x4793ae(0x1a7)]=_0x455e4d,await _0x2e02fc[_0x4793ae(0x1be)+'e'](_0x671641,_0x454f40,_0x1806c5);return;}if(_0x51b220===_0x19126d[_0x4793ae(0x1c9)]||_0x51b220===_0x19126d['cvZfP']){const _0x394ed0=settings['ownerNumbe'+'r']+(_0x4793ae(0x1aa)+'p.net');if(_0x1bd9bf===_0x394ed0){const _0x1509e1={};_0x1509e1['text']=_0x4793ae(0x1b2)+'ot\x20be\x20remo'+_0x4793ae(0x193);const _0x2688a0={};_0x2688a0[_0x4793ae(0x1a7)]=_0x455e4d,await _0x2e02fc[_0x4793ae(0x1be)+'e'](_0x671641,_0x1509e1,_0x2688a0);return;}const _0x39ad9f=await removeSudo(_0x1bd9bf),_0x37c55b={};_0x37c55b['text']=_0x39ad9f?'✅\x20Removed\x20'+_0x4793ae(0x1a9)+_0x1bd9bf:'❌\x20Failed\x20t'+'o\x20remove\x20s'+'udo';const _0x370e44={};_0x370e44[_0x4793ae(0x1a7)]=_0x455e4d,await _0x2e02fc[_0x4793ae(0x1be)+'e'](_0x671641,_0x37c55b,_0x370e44);return;}}module['exports']=sudoCommand;

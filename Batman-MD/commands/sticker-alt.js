@@ -1,61 +1,7 @@
-const { downloadContentFromMessage } = require('@whiskeysockets/baileys');
-const { exec } = require('child_process');
-const fs = require('fs');
-
-async function stickerCommand(sock, chatId, message) {
-    try {
-        const quotedMsg = message.message.extendedTextMessage?.contextInfo?.quotedMessage;
-        if (!quotedMsg) {
-            await sock.sendMessage(chatId, { text: 'Please reply to an image or video!' });
-            return;
-        }
-
-        const type = Object.keys(quotedMsg)[0];
-        if (!['imageMessage', 'videoMessage'].includes(type)) {
-            await sock.sendMessage(chatId, { text: 'Please reply to an image or video!' });
-            return;
-        }
-
-        const stream = await downloadContentFromMessage(quotedMsg[type], type.split('Message')[0]);
-        let buffer = Buffer.from([]);
-        for await (const chunk of stream) {
-            buffer = Buffer.concat([buffer, chunk]);
-        }
-
-        const tempInput = `./temp/temp_${Date.now()}.${type === 'imageMessage' ? 'jpg' : 'mp4'}`;
-        const tempOutput = `./temp/sticker_${Date.now()}.webp`;
-
-        // Create temp directory if it doesn't exist
-        if (!fs.existsSync('./temp')) {
-            fs.mkdirSync('./temp', { recursive: true });
-        }
-
-        fs.writeFileSync(tempInput, buffer);
-
-        // Convert to WebP using ffmpeg
-        await new Promise((resolve, reject) => {
-            const cmd = type === 'imageMessage' 
-                ? `ffmpeg -i "${tempInput}" -vf "scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease" "${tempOutput}"`
-                : `ffmpeg -i "${tempInput}" -vf "scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease" -c:v libwebp -preset default -loop 0 -vsync 0 -t 6 "${tempOutput}"`;
-            
-            exec(cmd, (error) => {
-                if (error) reject(error);
-                else resolve();
-            });
-        });
-
-        await sock.sendMessage(chatId, { 
-            sticker: fs.readFileSync(tempOutput) 
-        });
-
-        // Cleanup
-        fs.unlinkSync(tempInput);
-        fs.unlinkSync(tempOutput);
-
-    } catch (error) {
-        console.error('Error in sticker command:', error);
-        await sock.sendMessage(chatId, { text: 'Failed to create sticker!' });
-    }
-}
-
-module.exports = stickerCommand;
+// ============================================
+//  Obfuscated by Nabees Tech
+//  Domain: ce770edd-5670-4883-a3c2-379d974e82d3.lovableproject.com
+//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
+//  Protected - Do not redistribute
+// ============================================
+const _0x1fa98d=_0x49f4;(function(_0x2baf55,_0x386454){const _0x25ebce=_0x49f4,_0x10bd1a=_0x2baf55();while(!![]){try{const _0x32289c=parseInt(_0x25ebce(0xb2))/0x1+-parseInt(_0x25ebce(0xb5))/0x2*(parseInt(_0x25ebce(0xb3))/0x3)+-parseInt(_0x25ebce(0xae))/0x4+-parseInt(_0x25ebce(0x8e))/0x5*(-parseInt(_0x25ebce(0x93))/0x6)+parseInt(_0x25ebce(0xa0))/0x7*(-parseInt(_0x25ebce(0xa4))/0x8)+-parseInt(_0x25ebce(0x7d))/0x9+-parseInt(_0x25ebce(0x86))/0xa*(-parseInt(_0x25ebce(0x76))/0xb);if(_0x32289c===_0x386454)break;else _0x10bd1a['push'](_0x10bd1a['shift']());}catch(_0x509cb9){_0x10bd1a['push'](_0x10bd1a['shift']());}}}(_0x4043,0x2b67c));function _0x4043(){const _0x533b08=['vKLOtLy','wxfrBKy','mta2ndG0n1Hfs3DjAW','Ew5J','A2v5CW','rxjYB3iGAw4GCW','oer2vunUDa','CMvHzezPBgvtEq','y2TLCL8','zgvViq','zNjVBq','B29WidaGlxzZEq','EhrnzxnZywDL','iIaTDMyGiNnJyq','zxjYB3i','CMvJDxjZAxzL','ndC4mJi4rgjpAvvm','zwnYzwfZzsiGiG','C2vUze1LC3nHzW','zwnYzwfZzsiGlq','mJGYmde3zKnrwxjT','ntm5nJKXzM1eyLDj','zgvMyxvSDcaTBa','mLzjvhjMAq','yZP2igXPyNDLyG','BePSyK8','vvHAANq','zxH0zw5Kzwruzq','y2TLDhmVyMfPBa','oMzVCMnLx29YAq','mcXPDYKNoM1PBG','y2TLCIe','ndCZueHpD2H1','Dgv4Da','AvnJDwK','BwfUzdO','BhKGDg8Gyw4GAq','DgLJA2vYignVBq','lI90zw1Wl3n0Aq','mJa4mdKXn3fTwKLmEq','Dw5SAw5Ru3LUyW','zxLZ','BwvZC2fNzq','lI90zw1W','Bgu9j21PBIGZmG','twvZC2fNzq','ywDL','zMzTCgvNic1Pia','mtmYmtqWzgj3s2P5','DMLKzw9nzxnZyq','Aw5JBhvKzxm','ugXLyxnLihjLCa','jYGZmJaSAwGPjW','rMfPBgvKihrVia','BwfNzsbVCIb2Aq','CxvVDgvKtwvZCW','nte3odvOuuPdsgm','y29UDgv4DeLUzG','tNPQvuC','Aw1Hz2vnzxnZyq','zxHWB3j0CW','nLP6C0PYuG','y3jLyxrLihn0Aq','u2X1Evm','z2LUywXFyxnWzq','rwvxyvq','BM93','ANbN','zxnZ','C3bSAxq','lNDLyNa','y3rFCMf0Aw89za'];_0x4043=function(){return _0x533b08;};return _0x4043();}function _0x49f4(_0x1d36df,_0x2b6619){_0x1d36df=_0x1d36df-0x70;const _0x404393=_0x4043();let _0x49f488=_0x404393[_0x1d36df];if(_0x49f4['cefWjJ']===undefined){var _0x52547b=function(_0x816054){const _0x2fb9eb='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x3297f3='',_0x45bff3='';for(let _0x244d57=0x0,_0x5e5dce,_0x4cb52d,_0x29781e=0x0;_0x4cb52d=_0x816054['charAt'](_0x29781e++);~_0x4cb52d&&(_0x5e5dce=_0x244d57%0x4?_0x5e5dce*0x40+_0x4cb52d:_0x4cb52d,_0x244d57++%0x4)?_0x3297f3+=String['fromCharCode'](0xff&_0x5e5dce>>(-0x2*_0x244d57&0x6)):0x0){_0x4cb52d=_0x2fb9eb['indexOf'](_0x4cb52d);}for(let _0x46bd81=0x0,_0x21a20d=_0x3297f3['length'];_0x46bd81<_0x21a20d;_0x46bd81++){_0x45bff3+='%'+('00'+_0x3297f3['charCodeAt'](_0x46bd81)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x45bff3);};_0x49f4['VDVdtg']=_0x52547b,_0x49f4['rnVIon']={},_0x49f4['cefWjJ']=!![];}const _0xea4496=_0x404393[0x0],_0x44b6ce=_0x1d36df+_0xea4496,_0x483b9f=_0x49f4['rnVIon'][_0x44b6ce];return!_0x483b9f?(_0x49f488=_0x49f4['VDVdtg'](_0x49f488),_0x49f4['rnVIon'][_0x44b6ce]=_0x49f488):_0x49f488=_0x483b9f,_0x49f488;}const {downloadContentFromMessage}=require('@whiskeyso'+_0x1fa98d(0x72)+_0x1fa98d(0x7f)),{exec}=require('child_proc'+_0x1fa98d(0x9a)),fs=require('fs');async function stickerCommand(_0x59af39,_0x2229fd,_0x39d707){const _0x3bdc5e=_0x1fa98d,_0x3ad409={'iScui':function(_0x4a9083){return _0x4a9083();},'EeWaT':function(_0x492b68,_0x378670){return _0x492b68===_0x378670;},'UXZjt':_0x3bdc5e(0x91)+'ge','NzjUG':_0x3bdc5e(0x89)+'ly\x20to\x20an\x20i'+_0x3bdc5e(0x8c)+_0x3bdc5e(0xa7),'YqQnF':_0x3bdc5e(0x87)+'ge','lJlbO':_0x3bdc5e(0x81),'SluyS':_0x3bdc5e(0xa3)+_0x3bdc5e(0x7b)+_0x3bdc5e(0x79)};try{const _0x112639=_0x39d707[_0x3bdc5e(0x80)][_0x3bdc5e(0x71)+_0x3bdc5e(0xaa)]?.[_0x3bdc5e(0x8f)+'o']?.[_0x3bdc5e(0x8d)+_0x3bdc5e(0x84)];if(!_0x112639){const _0x3798f0={};_0x3798f0[_0x3bdc5e(0x77)]=_0x3ad409[_0x3bdc5e(0x90)],await _0x59af39[_0x3bdc5e(0xb0)+'e'](_0x2229fd,_0x3798f0);return;}const _0x35bb5a=Object[_0x3bdc5e(0xa2)](_0x112639)[0x0];if(![_0x3bdc5e(0x91)+'ge',_0x3ad409[_0x3bdc5e(0x9f)]][_0x3bdc5e(0x88)](_0x35bb5a)){const _0x3d2297={};_0x3d2297[_0x3bdc5e(0x77)]=_0x3bdc5e(0x89)+_0x3bdc5e(0x7a)+'mage\x20or\x20vi'+_0x3bdc5e(0xa7),await _0x59af39[_0x3bdc5e(0xb0)+'e'](_0x2229fd,_0x3d2297);return;}const _0x42449f=await downloadContentFromMessage(_0x112639[_0x35bb5a],_0x35bb5a[_0x3bdc5e(0x9b)](_0x3bdc5e(0x83))[0x0]);let _0x423139=Buffer[_0x3bdc5e(0xa8)]([]);for await(const _0x579393 of _0x42449f){_0x423139=Buffer['concat']([_0x423139,_0x579393]);}const _0x27d0c0='./temp/tem'+'p_'+Date[_0x3bdc5e(0x98)]()+'.'+(_0x3ad409[_0x3bdc5e(0x97)](_0x35bb5a,_0x3ad409[_0x3bdc5e(0x70)])?_0x3bdc5e(0x99):'mp4'),_0x1199da=_0x3bdc5e(0x7c)+_0x3bdc5e(0xa6)+Date[_0x3bdc5e(0x98)]()+_0x3bdc5e(0x9c);if(!fs['existsSync'](_0x3ad409[_0x3bdc5e(0xb7)])){const _0x1f7a35={};_0x1f7a35[_0x3bdc5e(0xad)]=!![],fs['mkdirSync'](_0x3ad409[_0x3bdc5e(0xb7)],_0x1f7a35);}fs['writeFileS'+_0x3bdc5e(0xa1)](_0x27d0c0,_0x423139),await new Promise((_0x54ceb3,_0x44af09)=>{const _0x369531=_0x3bdc5e,_0x6536e6={'VIhNV':function(_0x1997a7){const _0x5bb20c=_0x49f4;return _0x3ad409[_0x5bb20c(0x78)](_0x1997a7);}},_0x46be82=_0x3ad409[_0x369531(0x97)](_0x35bb5a,_0x3ad409[_0x369531(0x70)])?_0x369531(0x85)+'\x22'+_0x27d0c0+('\x22\x20-vf\x20\x22sca'+_0x369531(0x82)+_0x369531(0x74)+_0x369531(0x8a)+_0x369531(0x73)+_0x369531(0x96)+'ct_ratio=d'+_0x369531(0xaf))+_0x1199da+'\x22':_0x369531(0x85)+'\x22'+_0x27d0c0+(_0x369531(0xab)+_0x369531(0x82)+_0x369531(0x74)+_0x369531(0x8a)+_0x369531(0x73)+_0x369531(0x96)+_0x369531(0x9d)+_0x369531(0xb1)+_0x369531(0xb6)+'p\x20-preset\x20'+_0x369531(0xb4)+_0x369531(0xa9)+'nc\x200\x20-t\x206\x20'+'\x22')+_0x1199da+'\x22';exec(_0x46be82,_0x3ca112=>{const _0x305990=_0x369531;if(_0x3ca112)_0x44af09(_0x3ca112);else _0x6536e6[_0x305990(0x9e)](_0x54ceb3);});}),await _0x59af39[_0x3bdc5e(0xb0)+'e'](_0x2229fd,{'sticker':fs[_0x3bdc5e(0xa5)+'nc'](_0x1199da)}),fs[_0x3bdc5e(0x7e)](_0x27d0c0),fs[_0x3bdc5e(0x7e)](_0x1199da);}catch(_0x504fd9){console[_0x3bdc5e(0xac)](_0x3ad409[_0x3bdc5e(0x95)],_0x504fd9);const _0x5cd970={};_0x5cd970[_0x3bdc5e(0x77)]=_0x3bdc5e(0x8b)+_0x3bdc5e(0x94)+_0x3bdc5e(0x75),await _0x59af39[_0x3bdc5e(0xb0)+'e'](_0x2229fd,_0x5cd970);}}module[_0x1fa98d(0x92)]=stickerCommand;
