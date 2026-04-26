@@ -1,9 +1,15 @@
+// ============================================
+//  Obfuscated by Nabees Tech
+//  Domain: git.nabees.online
+//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
+//  Protected - Do not redistribute
+// ============================================
 const settings = {
   // ─── Bot Identity ───────────────────────────────────────────────────────────
   packname:    'BATMAN MD',
   author:      '‎',                         // Sticker author (invisible char = no watermark)
   botName:     'BATMAN MD',
-  botOwner: 'NABEES TECH',
+  botOwner:    'NABEES TECH',
   ownerNumber: '2349049636843',             // Your number — no + or spaces
 
   // ─── Behaviour ──────────────────────────────────────────────────────────────
