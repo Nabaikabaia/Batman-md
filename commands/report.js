@@ -1,4 +1,6 @@
 // commands/report.js
+const settings = require('../settings');
+
 const newsletterContext = {
     contextInfo: {
         forwardingScore: 999,
@@ -18,10 +20,7 @@ function extractPhoneNumber(jid) {
     if (!jid) return null;
     let num = jid.split('@')[0];
     num = num.replace(/[^0-9]/g, '');
-    // LIDs are longer than 12 digits
-    if (num.length > 12) {
-        return null;
-    }
+    if (num.length > 12) return null;
     return num;
 }
 
@@ -30,10 +29,8 @@ async function reportCommand(sock, chatId, message, args) {
         const type = args[0]?.toLowerCase();
         const content = args.slice(1).join(' ').trim();
         const senderId = message.key.participant || message.key.remoteJid;
-        
-        // Extract actual phone number (not LID)
-        let senderNumber = extractPhoneNumber(senderId);
-        const senderName = message.pushName || senderNumber || 'Unknown';
+        const senderName = message.pushName || 'Unknown';
+        const senderNumber = extractPhoneNumber(senderId) || 'Unknown';
         
         // Show menu if no type provided
         if (!type || (type !== 'bug' && type !== 'feature')) {
@@ -52,20 +49,17 @@ async function reportCommand(sock, chatId, message, args) {
             return;
         }
 
-        // React based on type
         const emoji = type === 'bug' ? "🐛" : "💡";
         await sock.sendMessage(chatId, { react: { text: emoji, key: message.key } });
 
         const timestamp = new Date().toLocaleString();
         
-        // Format sender number display
-        const displayNumber = senderNumber || 'Unknown (LID detected)';
-        
+        // Report message that goes to devs (includes sender info)
         const reportMsg = type === 'bug' 
             ? `┌❏ *BUG REPORT* ❏
 │
 ├❏ 👤 *From:* ${senderName}
-├❏ 📱 *Number:* ${displayNumber}
+├❏ 📱 *Number:* ${senderNumber}
 ├❏ 🕐 *Time:* ${timestamp}
 ├❏ 🐛 *Bug:* ${content}
 │
@@ -73,13 +67,13 @@ async function reportCommand(sock, chatId, message, args) {
             : `┌❏ *FEATURE REQUEST* ❏
 │
 ├❏ 👤 *From:* ${senderName}
-├❏ 📱 *Number:* ${displayNumber}
+├❏ 📱 *Number:* ${senderNumber}
 ├❏ 🕐 *Time:* ${timestamp}
 ├❏ 💡 *Feature:* ${content}
 │
 └❏ ❏`;
 
-        // Send to all dev numbers
+        // Send report to all dev numbers
         for (const devNumber of DEV_NUMBERS) {
             const devJid = devNumber + '@s.whatsapp.net';
             try {
@@ -89,21 +83,45 @@ async function reportCommand(sock, chatId, message, args) {
             }
         }
         
-        // Send confirmation to user
-        const confirmMsg = type === 'bug'
-            ? "✅ *Bug Reported!*\n\nThank you for helping improve BATMAN MD. The developers will review your report.\n\n> *© BATMAN MD*"
-            : "✅ *Feature Request Submitted!*\n\nThank you for your suggestion. The developers will consider adding this feature.\n\n> *© BATMAN MD*";
+        // Delete the user's command message from their own chat (so they don't see it)
+        try {
+            await sock.sendMessage(chatId, {
+                delete: {
+                    remoteJid: chatId,
+                    fromMe: false,
+                    id: message.key.id,
+                    participant: message.key.participant
+                }
+            });
+        } catch (deleteErr) {
+            console.log('Could not delete user message:', deleteErr.message);
+        }
         
-        await sock.sendMessage(chatId, { 
-            text: confirmMsg,
-            ...newsletterContext
-        }, { quoted: message });
+        // Delete the bot's reaction after a short delay (cleanup)
+        setTimeout(async () => {
+            try {
+                await sock.sendMessage(chatId, { react: { text: emoji, key: message.key, remove: true } });
+            } catch (err) {}
+        }, 1000);
         
-        await sock.sendMessage(chatId, { react: { text: "✅", key: message.key } });
+        // Also delete any bot response message after a few seconds
+        const confirmMsg = `✅ *Report sent!*\n_This message will disappear._`;
+        const sentMsg = await sock.sendMessage(chatId, { text: confirmMsg }, { quoted: message });
+        
+        setTimeout(async () => {
+            try {
+                await sock.sendMessage(chatId, {
+                    delete: {
+                        remoteJid: chatId,
+                        fromMe: true,
+                        id: sentMsg.key.id
+                    }
+                });
+            } catch (err) {}
+        }, 3000);
 
     } catch (error) {
         console.error('Report error:', error);
-        await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
     }
 }
 
