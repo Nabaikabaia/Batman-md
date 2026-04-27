@@ -83,42 +83,28 @@ async function reportCommand(sock, chatId, message, args) {
             }
         }
         
-        // Delete the user's command message from their own chat (so they don't see it)
+        // DELETE THE USER'S REPORT MESSAGE FROM THEIR OWN CHAT (not the command)
+        // The command is the ".report bug something" message itself
         try {
             await sock.sendMessage(chatId, {
                 delete: {
                     remoteJid: chatId,
                     fromMe: false,
                     id: message.key.id,
-                    participant: message.key.participant
+                    participant: message.key.participant || senderId
                 }
             });
         } catch (deleteErr) {
             console.log('Could not delete user message:', deleteErr.message);
         }
         
-        // Delete the bot's reaction after a short delay (cleanup)
+        // No confirmation message sent to user - complete silence
+        // Just remove the reaction after a delay
         setTimeout(async () => {
             try {
                 await sock.sendMessage(chatId, { react: { text: emoji, key: message.key, remove: true } });
             } catch (err) {}
         }, 1000);
-        
-        // Also delete any bot response message after a few seconds
-        const confirmMsg = `✅ *Report sent!*\n_This message will disappear._`;
-        const sentMsg = await sock.sendMessage(chatId, { text: confirmMsg }, { quoted: message });
-        
-        setTimeout(async () => {
-            try {
-                await sock.sendMessage(chatId, {
-                    delete: {
-                        remoteJid: chatId,
-                        fromMe: true,
-                        id: sentMsg.key.id
-                    }
-                });
-            } catch (err) {}
-        }, 3000);
 
     } catch (error) {
         console.error('Report error:', error);
