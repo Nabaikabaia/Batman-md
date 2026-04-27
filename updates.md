@@ -5,7 +5,7 @@
 - New: `.gif` - search & convert GIFs
 - New: Auto-update system with changelog
 - Fixed: Remini 500 error, Removebg, VCF broadcast
-- Changed: Header style, newsletter context, reactions only
+- Changed: Header style, newsletter context, reactions feedbacks
 
 ## v1.0.2 - 2026-04-20
 - New: Multi-newsletter (3 channels)
