@@ -1,0 +1,63 @@
+{
+  "name": "BATMAN MD",
+  "description": "A powerful WhatsApp multi-device bot by NABEES TECH",
+  "repository": "https://github.com/Nabaikabaia/Batman-md",
+  "logo": "https://aqrmhkzrrmpljrtknrpi.supabase.co/storage/v1/object/public/uploads/4YDNVP.jpg",
+  "keywords": ["whatsapp-bot", "baileys", "nodejs", "bot", "whatsapp"],
+  "env": {
+    "SESSION_ID": {
+      "description": "Your bot's session ID (leave empty for QR code, or use existing session)",
+      "required": false,
+      "value": ""
+    },
+    "OWNER_NUMBER": {
+      "description": "Your WhatsApp number without + or spaces (e.g., 2349049636843)",
+      "required": true,
+      "value": "2349049636843"
+    },
+    "PREFIX": {
+      "description": "Command prefix (default: .)",
+      "required": false,
+      "value": "."
+    },
+    "BOT_NAME": {
+      "description": "Your bot's display name",
+      "required": false,
+      "value": "BATMAN MD"
+    },
+    "NEWSLETTER_JID": {
+      "description": "Newsletter JID to follow",
+      "required": false,
+      "value": "120363367299421766@newsletter"
+    },
+    "NEWSLETTER_NAME": {
+      "description": "Newsletter display name",
+      "required": false,
+      "value": "BATMAN MD"
+    },
+    "GIPHY_API_KEY": {
+      "description": "GIPHY API key (optional)",
+      "required": false,
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ],
+  "stack": "heroku-24",
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "addons": [],
+  "scripts": {
+    "postdeploy": "npm install"
+  }
+}
