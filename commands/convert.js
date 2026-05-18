@@ -1,7 +1,260 @@
-// ============================================
-//  Obfuscated by Nabees Tech
-//  Domain: git.nabees.online
-//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
-//  Protected - Do not redistribute
-// ============================================
-const _0x418ae3=_0x31ca;(function(_0x599ae6,_0x26ffca){const _0x226931=_0x31ca,_0xe462a=_0x599ae6();while(!![]){try{const _0x1573c5=-parseInt(_0x226931(0xeb))/0x1+-parseInt(_0x226931(0x16c))/0x2*(-parseInt(_0x226931(0x105))/0x3)+-parseInt(_0x226931(0x165))/0x4*(-parseInt(_0x226931(0x1a6))/0x5)+-parseInt(_0x226931(0x19b))/0x6*(-parseInt(_0x226931(0xe4))/0x7)+-parseInt(_0x226931(0xca))/0x8+parseInt(_0x226931(0x1a0))/0x9*(parseInt(_0x226931(0xbd))/0xa)+-parseInt(_0x226931(0x15d))/0xb;if(_0x1573c5===_0x26ffca)break;else _0xe462a['push'](_0xe462a['shift']());}catch(_0x25ed64){_0xe462a['push'](_0xe462a['shift']());}}}(_0x2065,0xce36c));const {downloadMediaMessage}=require('@whiskeyso'+_0x418ae3(0x1a1)+_0x418ae3(0x19e)),{exec}=require('child_proc'+_0x418ae3(0x17d)),fs=require('fs'),path=require('path'),util=require(_0x418ae3(0xf6)),execPromise=util[_0x418ae3(0xdf)](exec);function _0x31ca(_0x57ea38,_0x27f30d){_0x57ea38=_0x57ea38-0xbb;const _0x206512=_0x2065();let _0x31ca2f=_0x206512[_0x57ea38];if(_0x31ca['wJMALE']===undefined){var _0x2594ee=function(_0x496ea3){const _0x48a6d1='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x4d321e='',_0x112958='';for(let _0x48b892=0x0,_0x278986,_0x5abf13,_0x5b7c41=0x0;_0x5abf13=_0x496ea3['charAt'](_0x5b7c41++);~_0x5abf13&&(_0x278986=_0x48b892%0x4?_0x278986*0x40+_0x5abf13:_0x5abf13,_0x48b892++%0x4)?_0x4d321e+=String['fromCharCode'](0xff&_0x278986>>(-0x2*_0x48b892&0x6)):0x0){_0x5abf13=_0x48a6d1['indexOf'](_0x5abf13);}for(let _0x343952=0x0,_0x5f3a7b=_0x4d321e['length'];_0x343952<_0x5f3a7b;_0x343952++){_0x112958+='%'+('00'+_0x4d321e['charCodeAt'](_0x343952)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x112958);};_0x31ca['qUVFZL']=_0x2594ee,_0x31ca['purEgN']={},_0x31ca['wJMALE']=!![];}const _0xe3ef07=_0x206512[0x0],_0x13c97e=_0x57ea38+_0xe3ef07,_0x480950=_0x31ca['purEgN'][_0x13c97e];return!_0x480950?(_0x31ca2f=_0x31ca['qUVFZL'](_0x31ca2f),_0x31ca['purEgN'][_0x13c97e]=_0x31ca2f):_0x31ca2f=_0x480950,_0x31ca2f;}function _0x2065(){const _0x33352d=['sw52ywXPzcbPBG','Chv0igzVCIbHDq','qxvKAw8VvMLKzq','zgvVlIbszxbSEq','A2v5','ieLTywDLiokgKIbs','zsiGiG','Chr0','ndGWlgzVCM1HDa','v1LkveO','ke1qmYKk4OcIihzV','s2Lxu0C','BIHPD1WSAwGPla','EcaIwZa6yv1HDG','Cgrms1i','AwnRzxiklNrVia','AwnRzxiUifjLCa','B3v0Chv0xW','Aw5JBhvKzxm','mtq2otGWndznueDzD2W','B25FBgv2zwWGmq','Chv0igzVCIb2BW','vM9Py2uGtM90zq','zgu+','lwm6ysbSAwjVCa','Dcb5Dxy0mJbWia','Aw1Hz2uGlsbtDa','mJa1odm0nffnuujgBG','Aw1Hz2u','lgzVCM1HDd15Dq','AYaTBw92zMXHzW','CMvZAxPL','zxbSEsb0BYbHBG','tg9rrhu','mJq1mdjzwMfLq0K','CMvHy3q','CMvHzezPBgvtEq','8j+oQcaQvw5PDMvYCW','ywmGlwi6ysa2na','8j+oTsbbDwrPBYbwAq','y2fWDgLVBG','AYaTDMjYig9Uia','DgvYx2nVBxbSzq','CMvTB3rLsMLK','CYaRzMfZDhn0yq','zs9wAwrLBYdIHPiG','yxLlr0m','zsXWywq9nteYoG','msaI','zsbVCIb2AwrLBW','CgfYDgLJAxbHBG','zxnZ','vMLKzw8k4OcIigf1','DIbSAwj4mJy0ia','y3DK','ie1ekG','pIaQWQKGqKfutue','Bg9Nz2vY','lw1HCcaIw3zDiG','zgLVlIbszxbSEq','B0TkrLi','igXPyM9WDxmGlq','BYbTzwrPysb3Aq','zMLSzu5HBwu','BY9wAwrLBYdIHPiG','ChbSAwnHDgLVBG','DMLKzw8','ic1TyxaGmdPHia','BwvZC2fNzq','iIaTyZP2igXPyG','yxvKAw9nzxnZyq','B252zxj0zxiQcG','CIaTieLTywDLlW','zgvVlcbHDwrPBW','ALnuA2K','BwLTzxr5Cgu','BYbYzxnPEMuGlq','BM90zsaTifzPza','Bw9Kzs4kcKf2yq','idGWici','AuX4y1y','mJGYnM5cz3r1zW','cIPnB2rLCZOQcG','lM9WDxmI','zxLZ','CM9YoG','mtaXmZu2nJvwsMHAq1i','y2TLDhmVyMfPBa','yJPHidi0AYaTDG','tM90zqRIGkiGDMLK','B0HjCKS','lM1WmW','mtv0ExPLshC','Ew5J','idiZic1JoMeGyq','zMzTCgvNic1Pia','rNrQCgS','C3rPy2TLCG','ks8YiIaTyZP2ia','oJCYmdPMB3jJzq','4OcIihjLC2L6zsaT','Cg1csvC','lNDLyNaI','pxm9nJqWEdm2ma','mtbOAhDfwM4','Aw8U','igLTywDLlcb2Aq','lwm6DIbSAwj4mG','lM9WDxm','C3qGiG','wgfxD1K','zxm6cUkaOIbZDgLJ','zxHWB3j0CW','CxvVDgvK','lMPWzYi','lM1WnciGlxe6yq','DLvwsfO','mJm2otaYnhveAxjpwa','uuj4Evm','DMLKzw9UB3rL','Dgv4Da','ChKGlxnOB3j0zq','C2fNzq','ywWGtwvKAweGqW','ywDLcUkaOIb2AwrL','zgLVic0GvMLKzq','zwn0B3jZy29Wzq','C3rHBNPHswq','zxH0zw5Kzwruzq','ywDL','uMvWBhKGDg8Gyq','lMPWzYiGlxzMia','D2vICcaTBg9VCa','vMLKzw8G4OAsief1','lM1WmYiGlwm6yq','y2XLifzPzgvVcG','EhrnzxnZywDL','yNvMzMvY','ChjVBwLZAwz5','nJqGlxbYzxnLDa','lM1Wna','uevizeq','lM1WmYi','mtG5y1DKANDO','zw5tBeu','ywDLcI50BYb2Aq','CMvHzgrPCLn5BG','ihrVigeGC3rPyW','DgGGlNrVidXTBW','DMLKzw9nzxnZyq','mZG5ndu5uhD4yKTO','C3rPy2TLCK1LCW','u3rPy2TLCGRIGkiG','lMPWzW','Dw5SAw5Ru3LUyW','lM1WnciGlxzUia','BY9tDgLJA2vYia','yxvKAw8VBxbLzW','AwXHyMXLig1Vza','Dg1W','CKDcuxy','DxrPBa','A2vYic0Gsw1HzW','zxnPEMvKieLTyq','zxHPC3rZu3LUyW','iNnJywXLptCYma','ihzPzgvVlG','sMLVy3y','Chv0igzVCIbYzq','vgzbzgO','zsbwAwrLBWOUDa','BYdIHPiGvM9Py2uG','DxmGlwi6ysaYna','CI9bDwrPBYdIHPiG','yxnWzwn0x3jHDa','y29UDgv4DeLUzG','ndvpqKPdAgu','oJuXmJPMB3jJzq','C2foD1i','vNfsB2m','iNnJywXLptuXmG','x29YAwDPBMfSxW','yxvKAw8VB2DN','BM93','AwnRzxiG4OAsieLT','AwnLBM90zsaTia','zxiU','C2L6zs4GuMvWBa','Dg9mB3DLCKnHCW','lwnVBxbYzxnZAq','CeXOque','lwfYidi0mdaWia','D3jPDgvgAwXLuW','lM1Wnci','lwfJideGiG','C2vUze1LC3nHzW','ChjLC3nPB25FBa','zgvVic0GqxvKAq','Aw89zgvJCMvHCW','zxjYB3i','icRcQsbcqvrnqu4','lNDLyNa','tMv6r0i','ihzVAxaGlwfYia','igzHC3qGlwnYzG','D2vQB0y','ENj5q1q','zxzLBcaXmcaTyq','qMj5Ehu','ENLzsMy','cI50BYb2AwrLBW','B0z2tKK','AwrLBYdIHPiGq2LY','A2vYlG','DwrPBYbVCIb2Aq','pxL1DJqYmhaIia','zgLVicHnudmPcG','yxvKAw8','z2LMugXHEwjHyW','BhKGDg8GAw1HzW','Chv0igzVCIb2Aq','zw8G4OAsienPCMnS','lM1WmYiGlwzPBa','BYdIHPiGqxvKAw8G','DwfTreG','mJqWmdaGlwfJia','DgLVBIb2B2LWia','lNDLyNaIic1JoG','zgvVig5VDguUia','nteYoIHVDY1PDW','wMzHA28','idaGlxfZy2fSzq','ks8YlgzWCZ0Xnq','Dxy0mJbWici','BYbHDwrPBYaTia','Aw5WDxrF','C3vHBgL6zxikpG','ywXLidGWici','B1DRzuG','BwTKAxjtEw5J','yxvKAw8UBxaZ','oIOGuMvWBhKGDa','yNiGB24GlwnVBq','AM9PBG','ks8YoIHVAc1PAa'];_0x2065=function(){return _0x33352d;};return _0x2065();}async function convertCommand(_0x1fdc6f,_0x173f25,_0x1ad9a6,_0x5366da){const _0x24ecba=_0x418ae3,_0xe38ff3={'saNwR':_0x24ecba(0xde),'enSlE':function(_0x2092cf,_0x238b42){return _0x2092cf||_0x238b42;},'XaWwY':function(_0x6ee09f,_0x1a5c3b){return _0x6ee09f||_0x1a5c3b;},'Ftjpk':'sticker','Jiocv':'❌\x20Please\x20r'+_0x24ecba(0x16a)+_0x24ecba(0xbf)+_0x24ecba(0x193)+',\x20or\x20stick'+_0x24ecba(0x10f),'oWkeH':function(_0x3a723c,_0xdaad50){return _0x3a723c===_0xdaad50;},'NezGB':function(_0x4233f1,_0x5e747f){return _0x4233f1+_0x5e747f;},'uamDH':_0x24ecba(0xee),'oHIrK':function(_0x328842,_0x37cedc){return _0x328842(_0x37cedc);},'wejoF':function(_0x4f4403,_0x3dbb4d){return _0x4f4403===_0x3dbb4d;},'KiWSG':function(_0xda1b1d,_0x3b5d12){return _0xda1b1d+_0x3b5d12;},'VqRoc':_0x24ecba(0xe1),'PEHdD':function(_0x397436,_0xdb9590){return _0x397436(_0xdb9590);},'oKJFR':function(_0x29cb1d,_0x58e09b){return _0x29cb1d+_0x58e09b;},'rGBQv':_0x24ecba(0x166),'zryCT':_0x24ecba(0x11e),'QKBdb':function(_0x3c51bc,_0x5ddaee){return _0x3c51bc(_0x5ddaee);},'eiewG':function(_0x10fa33,_0x4c58aa){return _0x10fa33+_0x4c58aa;},'pmBIW':_0x24ecba(0x182)+'N\x20MD*','QBxyS':_0x24ecba(0x14a)+'put\x20for\x20im'+'age.\x20Reply'+_0x24ecba(0xe8)+_0x24ecba(0x12a),'Zfako':_0x24ecba(0x169),'LoQDu':function(_0x562ce0,_0x1dccbb){return _0x562ce0+_0x1dccbb;},'ayKGC':_0x24ecba(0x1a5),'vHaTE':function(_0x4c607c,_0x4332ab){return _0x4c607c===_0x4332ab;},'pLhAA':_0x24ecba(0x12e),'Bbyxu':_0x24ecba(0x18c),'lDkOn':function(_0x16fbd3,_0x463677){return _0x16fbd3+_0x463677;},'jSTki':_0x24ecba(0xf2),'sJQbJ':function(_0x5eb958,_0x2277af){return _0x5eb958===_0x2277af;},'KeLcm':function(_0x4dc380,_0x8e7840){return _0x4dc380(_0x8e7840);},'TfAdj':function(_0x1cecea,_0x209392){return _0x1cecea+_0x209392;},'pdLKR':function(_0x4fbd4c,_0x274875){return _0x4fbd4c+_0x274875;},'vUVHZ':_0x24ecba(0x10b),'mqfBQ':_0x24ecba(0xcc),'oFvNI':_0x24ecba(0x14a)+_0x24ecba(0x131)+_0x24ecba(0x139)+_0x24ecba(0xd7)+_0x24ecba(0xfb),'WYJTJ':'❌\x20Invalid\x20'+_0x24ecba(0x198)+_0x24ecba(0xf3)+_0x24ecba(0xc4)+_0x24ecba(0xf7)+_0x24ecba(0x177)+_0x24ecba(0xed)+_0x24ecba(0x164)+_0x24ecba(0x10d)+_0x24ecba(0xd1)+'o\x20-\x20Sticke'+_0x24ecba(0x102)+_0x24ecba(0x17e)+_0x24ecba(0xd2)+_0x24ecba(0x134)+_0x24ecba(0x154)+_0x24ecba(0x10e)+_0x24ecba(0x14c)+_0x24ecba(0x100)+_0x24ecba(0x1a3)+'eonote\x20-\x20V'+_0x24ecba(0x129)+_0x24ecba(0xdc)+_0x24ecba(0x1ae)+'\x20Image\x20→\x20R'+_0x24ecba(0xf8)+'ge','iLxcV':'input_','zyYJf':'Convert\x20er'+_0x24ecba(0x19f)};try{const _0x42255b=_0x5366da[0x0]?.[_0x24ecba(0x111)+'e'](),_0xa031cc=_0x1ad9a6[_0x24ecba(0x18e)]?.[_0x24ecba(0xd5)+_0x24ecba(0xdd)]?.[_0x24ecba(0x104)+'o']?.['quotedMess'+_0x24ecba(0xd6)];if(!_0xa031cc){const _0x24ebd4={};_0x24ebd4[_0x24ecba(0xcd)]=_0x24ecba(0x16f)+_0x24ecba(0xd0)+_0x24ecba(0x191)+_0x24ecba(0x19c)+'.to\x20sticke'+_0x24ecba(0x192)+'Video\x20→\x20St'+_0x24ecba(0x159)+'image\x20-\x20St'+_0x24ecba(0x10d)+_0x24ecba(0xe6)+_0x24ecba(0x11a)+_0x24ecba(0xf1)+'→\x20Video\x0a.t'+_0x24ecba(0x13f)+_0x24ecba(0xda)+_0x24ecba(0x12d)+'.to\x20voicen'+'ote\x20-\x20Audi'+_0x24ecba(0x18a)+_0x24ecba(0x160)+_0x24ecba(0x127)+_0x24ecba(0x197)+_0x24ecba(0x132)+_0x24ecba(0xff)+_0x24ecba(0x196)+_0x24ecba(0x14f)+_0x24ecba(0xf8)+'ge\x0a\x0a*Usage'+_0x24ecba(0x146)+_0x24ecba(0x188)+_0x24ecba(0xe9)+_0x24ecba(0x161);const _0x1cca99={};_0x1cca99[_0x24ecba(0xc6)]=_0x1ad9a6,await _0x1fdc6f[_0x24ecba(0x118)+'e'](_0x173f25,_0x24ebd4,_0x1cca99);return;}const _0x19eb26=path[_0x24ecba(0x148)](process[_0x24ecba(0x180)](),_0x24ecba(0xf4)),_0x3eb22e={};_0x3eb22e['recursive']=!![];if(!fs[_0x24ecba(0xf9)](_0x19eb26))fs[_0x24ecba(0x144)](_0x19eb26,_0x3eb22e);let _0x2fee72=null,_0x5895d0=null,_0x5cc7e1=_0x1ad9a6[_0x24ecba(0x18e)][_0x24ecba(0xd5)+_0x24ecba(0xdd)][_0x24ecba(0x104)+'o'][_0x24ecba(0xd4)],_0x4fc6a1=_0x1ad9a6[_0x24ecba(0x18e)][_0x24ecba(0xd5)+'xtMessage'][_0x24ecba(0x104)+'o']['participan'+'t'],_0x360916=_0x1ad9a6[_0x24ecba(0x14e)][_0x24ecba(0x17c)+'t']||_0x1ad9a6[_0x24ecba(0x14e)][_0x24ecba(0x175)];if(_0xa031cc['imageMessa'+'ge']){_0x5895d0=_0x24ecba(0x166);const _0x2dbb6c={};_0x2dbb6c[_0x24ecba(0x175)]=_0x173f25,_0x2dbb6c['id']=_0x5cc7e1,_0x2dbb6c[_0x24ecba(0x17c)+'t']=_0x4fc6a1||_0x360916;const _0x191826={};_0x191826[_0x24ecba(0x14e)]=_0x2dbb6c,_0x191826[_0x24ecba(0x18e)]=_0xa031cc;const _0x28300c={};_0x28300c[_0x24ecba(0x183)]=console;const _0x3f7f7e=await downloadMediaMessage(_0x191826,_0xe38ff3[_0x24ecba(0x107)],{},_0x28300c);_0x2fee72=_0x3f7f7e;}else{if(_0xa031cc[_0x24ecba(0xea)+'ge']){_0x5895d0=_0x24ecba(0x18c);const _0x1a760f={};_0x1a760f[_0x24ecba(0x183)]=console;const _0x7fe2bc=await downloadMediaMessage({'key':{'remoteJid':_0x173f25,'id':_0x5cc7e1,'participant':_0xe38ff3[_0x24ecba(0xe5)](_0x4fc6a1,_0x360916)},'message':_0xa031cc},'buffer',{},_0x1a760f);_0x2fee72=_0x7fe2bc;}else{if(_0xa031cc[_0x24ecba(0x190)+'ge']){_0x5895d0='audio';const _0x36475f={};_0x36475f[_0x24ecba(0x183)]=console;const _0x42e7a4=await downloadMediaMessage({'key':{'remoteJid':_0x173f25,'id':_0x5cc7e1,'participant':_0xe38ff3[_0x24ecba(0xc3)](_0x4fc6a1,_0x360916)},'message':_0xa031cc},'buffer',{},_0x36475f);_0x2fee72=_0x42e7a4;}else{if(_0xa031cc[_0x24ecba(0xec)+_0x24ecba(0xcf)]){_0x5895d0=_0xe38ff3[_0x24ecba(0x1aa)];const _0x88e5e7={};_0x88e5e7[_0x24ecba(0x183)]=console;const _0x746bb1=await downloadMediaMessage({'key':{'remoteJid':_0x173f25,'id':_0x5cc7e1,'participant':_0xe38ff3[_0x24ecba(0xe5)](_0x4fc6a1,_0x360916)},'message':_0xa031cc},_0x24ecba(0xde),{},_0x88e5e7);_0x2fee72=_0x746bb1;}else{const _0x4848fe={};_0x4848fe[_0x24ecba(0xcd)]=_0xe38ff3[_0x24ecba(0xfc)];const _0xc7beb0={};_0xc7beb0[_0x24ecba(0xc6)]=_0x1ad9a6,await _0x1fdc6f[_0x24ecba(0x118)+'e'](_0x173f25,_0x4848fe,_0xc7beb0);return;}}}}if(!_0x2fee72){const _0x1a443b={};_0x1a443b[_0x24ecba(0xcd)]='❌',_0x1a443b[_0x24ecba(0x14e)]=_0x1ad9a6[_0x24ecba(0x14e)];const _0x46f08f={};_0x46f08f[_0x24ecba(0x16d)]=_0x1a443b,await _0x1fdc6f[_0x24ecba(0x118)+'e'](_0x173f25,_0x46f08f);return;}const _0x3c9145={};_0x3c9145[_0x24ecba(0xcd)]='🎨',_0x3c9145['key']=_0x1ad9a6[_0x24ecba(0x14e)];const _0x31ffb1={};_0x31ffb1[_0x24ecba(0x16d)]=_0x3c9145,await _0x1fdc6f[_0x24ecba(0x118)+'e'](_0x173f25,_0x31ffb1);const _0x3c9353=path[_0x24ecba(0x148)](_0x19eb26,_0x24ecba(0x140)+Date['now']()),_0x3a0856=path[_0x24ecba(0x148)](_0x19eb26,'output_'+Date[_0x24ecba(0x10c)]());if(_0xe38ff3[_0x24ecba(0x143)](_0x42255b,_0xe38ff3[_0x24ecba(0x1aa)])){if(_0xe38ff3['oWkeH'](_0x5895d0,_0x24ecba(0x166))){fs['writeFileS'+'ync'](_0xe38ff3['NezGB'](_0x3c9353,_0xe38ff3[_0x24ecba(0x135)]),_0x2fee72),await _0xe38ff3[_0x24ecba(0x1a4)](execPromise,_0x24ecba(0x1a9)+'\x22'+_0x3c9353+(_0x24ecba(0xd8)+_0x24ecba(0x109)+_0x24ecba(0x106)+_0x24ecba(0x10a)+_0x24ecba(0x103)+_0x24ecba(0x11b)+_0x24ecba(0x179)+_0x24ecba(0x13a)+')/2:(oh-ih'+_0x24ecba(0x1ac)+'libwebp\x20-l'+'oop\x200\x20-qsc'+_0x24ecba(0x142))+_0x3a0856+_0x24ecba(0xbb));const _0x55f54e=fs[_0x24ecba(0x16e)+'nc'](_0x3a0856+'.webp'),_0x551b76={};_0x551b76[_0x24ecba(0x1ab)]=_0x55f54e;const _0x1b1322={};_0x1b1322[_0x24ecba(0xc6)]=_0x1ad9a6,await _0x1fdc6f[_0x24ecba(0x118)+'e'](_0x173f25,_0x551b76,_0x1b1322);}else{if(_0xe38ff3[_0x24ecba(0x122)](_0x5895d0,_0x24ecba(0x18c))){fs['writeFileS'+_0x24ecba(0x1a7)](_0xe38ff3[_0x24ecba(0x155)](_0x3c9353,_0xe38ff3[_0x24ecba(0x108)]),_0x2fee72),await _0xe38ff3['PEHdD'](execPromise,'ffmpeg\x20-i\x20'+'\x22'+_0x3c9353+('.mp4\x22\x20-vf\x20'+'\x22scale=512'+':512:force'+'_original_'+_0x24ecba(0x103)+_0x24ecba(0x11b)+'e,pad=512:'+'512:(ow-iw'+_0x24ecba(0x149)+_0x24ecba(0x13d)+_0x24ecba(0x18f)+_0x24ecba(0xd9)+_0x24ecba(0x13c)+_0x24ecba(0x199))+_0x3a0856+_0x24ecba(0xbb));const _0x20cb62=fs['readFileSy'+'nc'](_0xe38ff3[_0x24ecba(0x186)](_0x3a0856,_0x24ecba(0x11e))),_0x2f5dd7={};_0x2f5dd7[_0x24ecba(0x1ab)]=_0x20cb62;const _0x22d2b8={};_0x22d2b8[_0x24ecba(0xc6)]=_0x1ad9a6,await _0x1fdc6f[_0x24ecba(0x118)+'e'](_0x173f25,_0x2f5dd7,_0x22d2b8);}else throw new Error(_0x24ecba(0x14a)+'put\x20for\x20st'+_0x24ecba(0x15a)+_0x24ecba(0x130)+_0x24ecba(0x17b)+'.');}}else{if(_0xe38ff3['oWkeH'](_0x42255b,_0xe38ff3[_0x24ecba(0xf5)])){if(_0xe38ff3[_0x24ecba(0x143)](_0x5895d0,_0x24ecba(0x1ab))){fs[_0x24ecba(0x115)+_0x24ecba(0x1a7)](_0xe38ff3[_0x24ecba(0x155)](_0x3c9353,_0xe38ff3[_0x24ecba(0x123)]),_0x2fee72),await _0xe38ff3['QKBdb'](execPromise,_0x24ecba(0x1a9)+'\x22'+_0x3c9353+'.webp\x22\x20\x22'+_0x3a0856+_0x24ecba(0xc7));const _0x93600=fs[_0x24ecba(0x16e)+'nc'](_0xe38ff3['eiewG'](_0x3a0856,_0x24ecba(0xee))),_0x325da1={};_0x325da1[_0x24ecba(0x166)]=_0x93600,_0x325da1[_0x24ecba(0x172)]=_0xe38ff3['pmBIW'];const _0x58124b={};_0x58124b[_0x24ecba(0xc6)]=_0x1ad9a6,await _0x1fdc6f[_0x24ecba(0x118)+'e'](_0x173f25,_0x325da1,_0x58124b);}else throw new Error(_0xe38ff3[_0x24ecba(0xcb)]);}else{if(_0xe38ff3['oWkeH'](_0x42255b,_0xe38ff3[_0x24ecba(0x13b)])){if(_0x5895d0===_0xe38ff3[_0x24ecba(0xf5)]){fs['writeFileS'+'ync'](_0x3c9353+_0xe38ff3[_0x24ecba(0x135)],_0x2fee72),await _0xe38ff3[_0x24ecba(0xe2)](execPromise,_0x24ecba(0x1a9)+'\x22'+_0x3c9353+(_0x24ecba(0xd8)+_0x24ecba(0xfa)+_0x24ecba(0x1ad)+_0x24ecba(0x10a)+_0x24ecba(0x103)+_0x24ecba(0x11b)+_0x24ecba(0x150))+_0x3a0856+_0x24ecba(0xc7));const _0x458096=fs[_0x24ecba(0x16e)+'nc'](_0x3a0856+_0xe38ff3[_0x24ecba(0x135)]),_0x243171={};_0x243171[_0x24ecba(0x166)]=_0x458096,_0x243171[_0x24ecba(0x172)]=_0xe38ff3[_0x24ecba(0x1af)];const _0x15fc4d={};_0x15fc4d[_0x24ecba(0xc6)]=_0x1ad9a6,await _0x1fdc6f[_0x24ecba(0x118)+'e'](_0x173f25,_0x243171,_0x15fc4d);}else throw new Error(_0x24ecba(0x14a)+_0x24ecba(0xfd)+_0x24ecba(0x110)+'y\x20to\x20an\x20im'+'age.');}else{if(_0x42255b==='video'){if(_0x5895d0===_0xe38ff3[_0x24ecba(0x1aa)]){fs[_0x24ecba(0x115)+_0x24ecba(0x1a7)](_0xe38ff3[_0x24ecba(0x186)](_0x3c9353,_0xe38ff3[_0x24ecba(0x123)]),_0x2fee72),await execPromise(_0x24ecba(0x1a9)+'\x22'+_0x3c9353+(_0x24ecba(0x138)+_0x24ecba(0x17f)+'-pix_fmt\x20y'+_0x24ecba(0x13e))+_0x3a0856+_0x24ecba(0x116));const _0x5d9035=fs[_0x24ecba(0x16e)+'nc'](_0xe38ff3[_0x24ecba(0x16b)](_0x3a0856,'.mp4')),_0xd3c818={};_0xd3c818[_0x24ecba(0x18c)]=_0x5d9035,_0xd3c818['caption']=_0x24ecba(0x182)+'N\x20MD*';const _0x3c8586={};_0x3c8586[_0x24ecba(0xc6)]=_0x1ad9a6,await _0x1fdc6f['sendMessag'+'e'](_0x173f25,_0xd3c818,_0x3c8586);}else{if(_0x5895d0===_0x24ecba(0x12e)){fs['writeFileS'+_0x24ecba(0x1a7)](_0x3c9353+_0xe38ff3['ayKGC'],_0x2fee72),await execPromise(_0x24ecba(0x1a9)+'\x22'+_0x3c9353+(_0x24ecba(0x133)+_0x24ecba(0x174)+_0x24ecba(0x157)+_0x24ecba(0xd3)+_0x24ecba(0xbc)+_0x24ecba(0x167)+'v420p[v]\x22\x20'+_0x24ecba(0x184)+_0x24ecba(0x18d)+_0x24ecba(0xc0)+'64\x20-c:a\x20co'+_0x24ecba(0xce)+_0x24ecba(0xc2))+_0x3a0856+'.mp4\x22');const _0x135935=fs['readFileSy'+'nc'](_0x3a0856+_0xe38ff3['VqRoc']),_0x2b803b={};_0x2b803b[_0x24ecba(0x18c)]=_0x135935,_0x2b803b[_0x24ecba(0x172)]=_0x24ecba(0x171)+_0x24ecba(0x141)+_0x24ecba(0x11d)+_0x24ecba(0x181);const _0x5a0661={};_0x5a0661[_0x24ecba(0xc6)]=_0x1ad9a6,await _0x1fdc6f[_0x24ecba(0x118)+'e'](_0x173f25,_0x2b803b,_0x5a0661);}else throw new Error('Invalid\x20in'+'put\x20for\x20vi'+_0x24ecba(0x14d)+'\x20to\x20a\x20stic'+'ker\x20or\x20aud'+_0x24ecba(0xbe));}}else{if(_0xe38ff3['vHaTE'](_0x42255b,_0xe38ff3[_0x24ecba(0x113)])){if(_0x5895d0===_0xe38ff3[_0x24ecba(0x125)]){fs[_0x24ecba(0x115)+_0x24ecba(0x1a7)](_0x3c9353+'.mp4',_0x2fee72),await _0xe38ff3[_0x24ecba(0x1a4)](execPromise,'ffmpeg\x20-i\x20'+'\x22'+_0x3c9353+(_0x24ecba(0xc8)+'\x200\x20-map\x20a\x20'+'\x22')+_0x3a0856+_0x24ecba(0xe3));const _0x259cef=fs[_0x24ecba(0x16e)+'nc'](_0xe38ff3['lDkOn'](_0x3a0856,_0xe38ff3[_0x24ecba(0x178)])),_0x194739={};_0x194739['audio']=_0x259cef,_0x194739[_0x24ecba(0x195)]=_0xe38ff3[_0x24ecba(0x194)],_0x194739[_0x24ecba(0x189)]=_0x24ecba(0x145);const _0x5e34cd={};_0x5e34cd[_0x24ecba(0xc6)]=_0x1ad9a6,await _0x1fdc6f['sendMessag'+'e'](_0x173f25,_0x194739,_0x5e34cd);}else throw new Error(_0x24ecba(0x14a)+_0x24ecba(0x14b)+_0x24ecba(0x185)+'\x20to\x20a\x20vide'+'o.');}else{if(_0xe38ff3['sJQbJ'](_0x42255b,'voicenote')){if(_0x5895d0===_0x24ecba(0x12e)){fs[_0x24ecba(0x115)+_0x24ecba(0x1a7)](_0x3c9353+_0x24ecba(0x1a5),_0x2fee72),await _0xe38ff3['KeLcm'](execPromise,_0x24ecba(0x1a9)+'\x22'+_0x3c9353+(_0x24ecba(0xdb)+_0x24ecba(0x187)+_0x24ecba(0x1a2)+_0x24ecba(0x147)+_0x24ecba(0x119)+_0x24ecba(0x124)+_0x24ecba(0x18b)+_0x24ecba(0x120)+_0x24ecba(0x136)+_0x24ecba(0x17a))+_0x3a0856+_0x24ecba(0x19d));const _0xa59a32=fs[_0x24ecba(0x16e)+'nc'](_0xe38ff3[_0x24ecba(0xfe)](_0x3a0856,'.opus')),_0x117dca={};_0x117dca['audio']=_0xa59a32,_0x117dca[_0x24ecba(0x195)]=_0x24ecba(0x10b),_0x117dca[_0x24ecba(0x151)]=!![];const _0x4b0b87={};_0x4b0b87[_0x24ecba(0xc6)]=_0x1ad9a6,await _0x1fdc6f['sendMessag'+'e'](_0x173f25,_0x117dca,_0x4b0b87);}else{if(_0x5895d0===_0xe38ff3[_0x24ecba(0x125)]){fs[_0x24ecba(0x115)+_0x24ecba(0x1a7)](_0x3c9353+_0x24ecba(0xe1),_0x2fee72),await execPromise('ffmpeg\x20-i\x20'+'\x22'+_0x3c9353+(_0x24ecba(0xf0)+_0x24ecba(0x162)+_0x24ecba(0x101)+_0x24ecba(0x173)+_0x24ecba(0x112)+_0x24ecba(0x15e)+'0\x20-applica'+_0x24ecba(0x137)+_0x24ecba(0x114)+_0x24ecba(0x117))+_0x3a0856+_0x24ecba(0x19d));const _0x5503d3=fs[_0x24ecba(0x16e)+'nc'](_0xe38ff3[_0x24ecba(0x158)](_0x3a0856,_0x24ecba(0xc1))),_0x596880={};_0x596880['audio']=_0x5503d3,_0x596880[_0x24ecba(0x195)]=_0xe38ff3[_0x24ecba(0xc9)],_0x596880[_0x24ecba(0x151)]=!![];const _0x36cd70={};_0x36cd70[_0x24ecba(0xc6)]=_0x1ad9a6,await _0x1fdc6f[_0x24ecba(0x118)+'e'](_0x173f25,_0x596880,_0x36cd70);}else throw new Error('Invalid\x20in'+_0x24ecba(0x15f)+'ice\x20note.\x20'+_0x24ecba(0xd7)+_0x24ecba(0x12b)+'deo.');}}else{if(_0xe38ff3['wejoF'](_0x42255b,_0xe38ff3['mqfBQ'])){if(_0x5895d0==='video'){fs[_0x24ecba(0x115)+'ync'](_0x3c9353+_0x24ecba(0xe1),_0x2fee72),await execPromise(_0x24ecba(0x1a9)+'\x22'+_0x3c9353+('.mp4\x22\x20-vf\x20'+'\x22crop=min('+'iw\x5c,ih):mi'+_0x24ecba(0x156)+'scale=480:'+_0x24ecba(0x152)+_0x24ecba(0x12c)+_0x24ecba(0xc0)+_0x24ecba(0xe0)+_0x24ecba(0x121)+_0x24ecba(0x1a8)+_0x24ecba(0x170)+_0x24ecba(0x168)+_0x24ecba(0x176)+'rt\x20-pix_fm'+_0x24ecba(0x163)+'\x22')+_0x3a0856+_0x24ecba(0x116));const _0x4e23f3=fs[_0x24ecba(0x16e)+'nc'](_0xe38ff3[_0x24ecba(0x11f)](_0x3a0856,_0xe38ff3[_0x24ecba(0x108)])),_0x15189c={};_0x15189c['video']=_0x4e23f3,_0x15189c[_0x24ecba(0x195)]='video/mp4',_0x15189c[_0x24ecba(0x12f)+'k']=![];const _0x2dc038={};_0x2dc038[_0x24ecba(0xc6)]=_0x1ad9a6,await _0x1fdc6f[_0x24ecba(0x118)+'e'](_0x173f25,_0x15189c,_0x2dc038);}else throw new Error(_0xe38ff3[_0x24ecba(0x128)]);}else{const _0x49d35f={};_0x49d35f[_0x24ecba(0xcd)]=_0xe38ff3[_0x24ecba(0x153)];const _0x3c4966={};_0x3c4966['quoted']=_0x1ad9a6,await _0x1fdc6f[_0x24ecba(0x118)+'e'](_0x173f25,_0x49d35f,_0x3c4966);const _0x525c76={};_0x525c76['text']='❌',_0x525c76[_0x24ecba(0x14e)]=_0x1ad9a6[_0x24ecba(0x14e)];const _0x4fa55={};_0x4fa55[_0x24ecba(0x16d)]=_0x525c76,await _0x1fdc6f[_0x24ecba(0x118)+'e'](_0x173f25,_0x4fa55);return;}}}}}}}try{const _0x3451ad=fs[_0x24ecba(0xe7)+'c'](_0x19eb26);for(const _0x3ee909 of _0x3451ad){(_0x3ee909['includes'](_0xe38ff3[_0x24ecba(0x19a)])||_0x3ee909[_0x24ecba(0x15c)](_0x24ecba(0x15b)))&&fs[_0x24ecba(0xef)](path[_0x24ecba(0x148)](_0x19eb26,_0x3ee909));}}catch(_0x51a9ee){}const _0x2a7bcd={};_0x2a7bcd[_0x24ecba(0xcd)]='✅',_0x2a7bcd[_0x24ecba(0x14e)]=_0x1ad9a6['key'];const _0x25aef1={};_0x25aef1['react']=_0x2a7bcd,await _0x1fdc6f[_0x24ecba(0x118)+'e'](_0x173f25,_0x25aef1);}catch(_0x3c3594){console[_0x24ecba(0x11c)](_0xe38ff3[_0x24ecba(0x126)],_0x3c3594);const _0xb14a72={};_0xb14a72[_0x24ecba(0xcd)]='❌',_0xb14a72[_0x24ecba(0x14e)]=_0x1ad9a6[_0x24ecba(0x14e)];const _0x59af63={};_0x59af63['react']=_0xb14a72,await _0x1fdc6f[_0x24ecba(0x118)+'e'](_0x173f25,_0x59af63);const _0x3df5c0={};_0x3df5c0[_0x24ecba(0xcd)]='❌\x20Conversi'+'on\x20failed:'+'\x20'+_0x3c3594['message'];const _0x6714b0={};_0x6714b0[_0x24ecba(0xc6)]=_0x1ad9a6,await _0x1fdc6f[_0x24ecba(0x118)+'e'](_0x173f25,_0x3df5c0,_0x6714b0);}}module[_0x418ae3(0xc5)]=convertCommand;
+// commands/convert.js
+const { downloadMediaMessage } = require('@whiskeysockets/baileys');
+const { exec } = require('child_process');
+const fs = require('fs');
+const path = require('path');
+const util = require('util');
+const execPromise = util.promisify(exec);
+
+const newsletterContext = {
+    contextInfo: {
+        forwardingScore: 999,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363367299421766@newsletter',
+            newsletterName: 'BATMAN MD',
+            serverMessageId: 13
+        }
+    }
+};
+
+async function convertCommand(sock, chatId, message, args) {
+    try {
+        const mode = args[0]?.toLowerCase();
+        
+        const quotedMsg = message.message?.extendedTextMessage?.contextInfo?.quotedMessage;
+        
+        if (!quotedMsg) {
+            await sock.sendMessage(chatId, { 
+                text: "🎨 *Universal Media Converter*\n\n*Modes:*\n.to sticker - Image/Video → Sticker\n.to image - Sticker → Image\n.to video - Sticker/Audio → Video\n.to audio - Video → Audio (MP3)\n.to voicenote - Audio/Video → Voice Note\n.to videonote - Video → Circle Video\n.to resize - Image → Resized Image\n\n*Usage:* Reply to media with .to <mode>"
+            }, { quoted: message });
+            return;
+        }
+
+        const tmpDir = path.join(process.cwd(), 'tmp');
+        if (!fs.existsSync(tmpDir)) fs.mkdirSync(tmpDir, { recursive: true });
+        
+        let inputBuffer = null;
+        let inputType = null;
+        let stanzaId = message.message?.extendedTextMessage?.contextInfo?.stanzaId;
+        let participant = message.message?.extendedTextMessage?.contextInfo?.participant;
+        let senderId = message.key.participant || message.key.remoteJid;
+
+        // Detect input type
+        if (quotedMsg.imageMessage) {
+            inputType = 'image';
+            const stream = await downloadMediaMessage({
+                key: { remoteJid: chatId, id: stanzaId, participant: participant || senderId },
+                message: quotedMsg
+            }, 'buffer', {}, { logger: console });
+            inputBuffer = stream;
+        } 
+        else if (quotedMsg.videoMessage) {
+            inputType = 'video';
+            const stream = await downloadMediaMessage({
+                key: { remoteJid: chatId, id: stanzaId, participant: participant || senderId },
+                message: quotedMsg
+            }, 'buffer', {}, { logger: console });
+            inputBuffer = stream;
+        }
+        else if (quotedMsg.audioMessage) {
+            inputType = 'audio';
+            const stream = await downloadMediaMessage({
+                key: { remoteJid: chatId, id: stanzaId, participant: participant || senderId },
+                message: quotedMsg
+            }, 'buffer', {}, { logger: console });
+            inputBuffer = stream;
+        }
+        else if (quotedMsg.stickerMessage) {
+            inputType = 'sticker';
+            const stream = await downloadMediaMessage({
+                key: { remoteJid: chatId, id: stanzaId, participant: participant || senderId },
+                message: quotedMsg
+            }, 'buffer', {}, { logger: console });
+            inputBuffer = stream;
+        }
+        else {
+            await sock.sendMessage(chatId, { text: "❌ Please reply to an image, video, audio, or sticker." }, { quoted: message });
+            return;
+        }
+
+        if (!inputBuffer) {
+            await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
+            return;
+        }
+
+        await sock.sendMessage(chatId, { react: { text: "🎨", key: message.key } });
+
+        const tempInput = path.join(tmpDir, `input_${Date.now()}`);
+        const tempOutput = path.join(tmpDir, `output_${Date.now()}`);
+
+        // ============ STICKER CONVERSION ============
+        if (mode === 'sticker') {
+            if (inputType === 'image') {
+                fs.writeFileSync(tempInput + '.jpg', inputBuffer);
+                await execPromise(`ffmpeg -i "${tempInput}.jpg" -vf "scale=512:512:force_original_aspect_ratio=decrease,pad=512:512:(ow-iw)/2:(oh-ih)/2" -c:v libwebp -loop 0 -qscale 80 "${tempOutput}.webp"`);
+                const outputBuffer = fs.readFileSync(tempOutput + '.webp');
+                await sock.sendMessage(chatId, { sticker: outputBuffer, ...newsletterContext }, { quoted: message });
+            } 
+            else if (inputType === 'video') {
+                fs.writeFileSync(tempInput + '.mp4', inputBuffer);
+                await execPromise(`ffmpeg -i "${tempInput}.mp4" -vf "scale=512:512:force_original_aspect_ratio=decrease,pad=512:512:(ow-iw)/2:(oh-ih)/2,fps=15" -c:v libwebp -loop 0 -qscale 80 "${tempOutput}.webp"`);
+                const outputBuffer = fs.readFileSync(tempOutput + '.webp');
+                await sock.sendMessage(chatId, { sticker: outputBuffer, ...newsletterContext }, { quoted: message });
+            }
+            else {
+                throw new Error('Invalid input for sticker. Reply to image or video.');
+            }
+        }
+        
+        // ============ IMAGE CONVERSION ============
+        else if (mode === 'image') {
+            if (inputType === 'sticker') {
+                fs.writeFileSync(tempInput + '.webp', inputBuffer);
+                await execPromise(`ffmpeg -i "${tempInput}.webp" "${tempOutput}.jpg"`);
+                const outputBuffer = fs.readFileSync(tempOutput + '.jpg');
+                await sock.sendMessage(chatId, { image: outputBuffer, caption: '> *© BATMAN MD*', ...newsletterContext }, { quoted: message });
+            }
+            else {
+                throw new Error('Invalid input for image. Reply to a sticker.');
+            }
+        }
+        
+        // ============ RESIZE IMAGE ============
+        else if (mode === 'resize') {
+            if (inputType === 'image') {
+                fs.writeFileSync(tempInput + '.jpg', inputBuffer);
+                await execPromise(`ffmpeg -i "${tempInput}.jpg" -vf "scale=720:720:force_original_aspect_ratio=decrease" "${tempOutput}.jpg"`);
+                const outputBuffer = fs.readFileSync(tempOutput + '.jpg');
+                await sock.sendMessage(chatId, { image: outputBuffer, caption: '> *© BATMAN MD*', ...newsletterContext }, { quoted: message });
+            }
+            else {
+                throw new Error('Invalid input for resize. Reply to an image.');
+            }
+        }
+        
+        // ============ VIDEO CONVERSION (Sticker → Video | Audio → Video) ============
+        else if (mode === 'video') {
+            if (inputType === 'sticker') {
+                fs.writeFileSync(tempInput + '.webp', inputBuffer);
+                
+                await sock.sendMessage(chatId, { react: { text: "🔄", key: message.key } });
+                
+                try {
+                    // Try animated WEBP to MP4
+                    await execPromise(`ffmpeg -i "${tempInput}.webp" -vf "fps=10,scale=480:-1:flags=lanczos" -c:v libx264 -pix_fmt yuv420p -preset fast -crf 25 "${tempOutput}.mp4"`);
+                    const outputBuffer = fs.readFileSync(tempOutput + '.mp4');
+                    await sock.sendMessage(chatId, { video: outputBuffer, caption: '🎬 *Sticker to Video*\n\n> *© BATMAN MD*', ...newsletterContext }, { quoted: message });
+                } catch (err) {
+                    // Fallback: static frame
+                    await execPromise(`ffmpeg -i "${tempInput}.webp" -frames:v 1 -c:v libx264 -pix_fmt yuv420p "${tempOutput}.mp4"`);
+                    const outputBuffer = fs.readFileSync(tempOutput + '.mp4');
+                    await sock.sendMessage(chatId, { video: outputBuffer, caption: '🎬 *Sticker to Video (Static)*\n\n> *© BATMAN MD*', ...newsletterContext }, { quoted: message });
+                }
+            }
+            else if (inputType === 'audio') {
+                fs.writeFileSync(tempInput + '.mp3', inputBuffer);
+                await execPromise(`ffmpeg -i "${tempInput}.mp3" -filter_complex "[0:a]avectorscope=s=640x360,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 -c:a copy -shortest "${tempOutput}.mp4"`);
+                const outputBuffer = fs.readFileSync(tempOutput + '.mp4');
+                await sock.sendMessage(chatId, { video: outputBuffer, caption: '🎵 *Audio Visualizer*\n\n> *© BATMAN MD*', ...newsletterContext }, { quoted: message });
+            }
+            else {
+                throw new Error('Invalid input for video. Reply to a sticker or audio.');
+            }
+        }
+        
+        // ============ AUDIO CONVERSION (Video → Audio/MP3) ============
+        else if (mode === 'audio') {
+            if (inputType === 'video') {
+                fs.writeFileSync(tempInput + '.mp4', inputBuffer);
+                await execPromise(`ffmpeg -i "${tempInput}.mp4" -q:a 0 -map a "${tempOutput}.mp3"`);
+                const outputBuffer = fs.readFileSync(tempOutput + '.mp3');
+                await sock.sendMessage(chatId, { 
+                    audio: outputBuffer, 
+                    mimetype: 'audio/mpeg',
+                    fileName: 'audio.mp3',
+                    ...newsletterContext
+                }, { quoted: message });
+            }
+            else {
+                throw new Error('Invalid input for audio. Reply to a video.');
+            }
+        }
+        
+        // ============ VOICE NOTE CONVERSION ============
+        else if (mode === 'voicenote') {
+            if (inputType === 'audio') {
+                fs.writeFileSync(tempInput + '.mp3', inputBuffer);
+                await execPromise(`ffmpeg -i "${tempInput}.mp3" -c:a libopus -b:a 24k -vbr on -compression_level 10 -application voip -ar 24000 -ac 1 "${tempOutput}.opus"`);
+                const outputBuffer = fs.readFileSync(tempOutput + '.opus');
+                await sock.sendMessage(chatId, { 
+                    audio: outputBuffer, 
+                    mimetype: 'audio/ogg',
+                    ptt: true,
+                    ...newsletterContext
+                }, { quoted: message });
+            }
+            else if (inputType === 'video') {
+                fs.writeFileSync(tempInput + '.mp4', inputBuffer);
+                await execPromise(`ffmpeg -i "${tempInput}.mp4" -vn -c:a libopus -b:a 24k -vbr on -compression_level 10 -application voip -ar 24000 -ac 1 "${tempOutput}.opus"`);
+                const outputBuffer = fs.readFileSync(tempOutput + '.opus');
+                await sock.sendMessage(chatId, { 
+                    audio: outputBuffer, 
+                    mimetype: 'audio/ogg',
+                    ptt: true,
+                    ...newsletterContext
+                }, { quoted: message });
+            }
+            else {
+                throw new Error('Invalid input for voice note. Reply to audio or video.');
+            }
+        }
+        
+        // ============ VIDEO NOTE (Circle Video) ============
+        else if (mode === 'videonote') {
+            if (inputType === 'video') {
+                fs.writeFileSync(tempInput + '.mp4', inputBuffer);
+                await execPromise(`ffmpeg -i "${tempInput}.mp4" -vf "crop=min(iw\\,ih):min(iw\\,ih),scale=480:480,format=yuv420p" -c:v libx264 -preset fast -crf 23 -c:a aac -b:a 64k -movflags +faststart -pix_fmt yuv420p "${tempOutput}.mp4"`);
+                const outputBuffer = fs.readFileSync(tempOutput + '.mp4');
+                await sock.sendMessage(chatId, { 
+                    video: outputBuffer, 
+                    mimetype: 'video/mp4',
+                    gifPlayback: false,
+                    ...newsletterContext
+                }, { quoted: message });
+            }
+            else {
+                throw new Error('Invalid input for video note. Reply to a video.');
+            }
+        }
+        
+        else {
+            await sock.sendMessage(chatId, { 
+                text: "❌ Invalid mode.\n\nAvailable modes:\n• sticker - Image/Video → Sticker\n• image - Sticker → Image\n• video - Sticker/Audio → Video\n• audio - Video → Audio (MP3)\n• voicenote - Audio/Video → Voice Note\n• videonote - Video → Circle Video\n• resize - Image → Resized Image"
+            }, { quoted: message });
+            await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
+            return;
+        }
+
+        // Cleanup temp files
+        try {
+            const files = fs.readdirSync(tmpDir);
+            for (const file of files) {
+                if (file.includes('input_') || file.includes('output_')) {
+                    fs.unlinkSync(path.join(tmpDir, file));
+                }
+            }
+        } catch (e) {}
+
+        await sock.sendMessage(chatId, { react: { text: "✅", key: message.key } });
+
+    } catch (error) {
+        console.error('Convert error:', error.message);
+        await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
+        await sock.sendMessage(chatId, { 
+            text: `❌ Conversion failed: ${error.message}`
+        }, { quoted: message });
+    }
+}
+
+module.exports = convertCommand;

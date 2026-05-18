@@ -1,7 +1,253 @@
-// ============================================
-//  Obfuscated by Nabees Tech
-//  Domain: git.nabees.online
-//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
-//  Protected - Do not redistribute
-// ============================================
-const _0x5caee7=_0x43ba;(function(_0x3e7340,_0xce364c){const _0x437073=_0x43ba,_0x16174a=_0x3e7340();while(!![]){try{const _0x532648=parseInt(_0x437073(0xf2))/0x1+-parseInt(_0x437073(0x107))/0x2+parseInt(_0x437073(0x128))/0x3+-parseInt(_0x437073(0x13c))/0x4+parseInt(_0x437073(0x127))/0x5*(-parseInt(_0x437073(0x106))/0x6)+-parseInt(_0x437073(0x11b))/0x7*(-parseInt(_0x437073(0x111))/0x8)+-parseInt(_0x437073(0x134))/0x9*(parseInt(_0x437073(0x13f))/0xa);if(_0x532648===_0xce364c)break;else _0x16174a['push'](_0x16174a['shift']());}catch(_0x5c21dd){_0x16174a['push'](_0x16174a['shift']());}}}(_0x5ce3,0x4a3b5));function _0x43ba(_0x2c5941,_0x2c4cf2){_0x2c5941=_0x2c5941-0xee;const _0x5ce3c4=_0x5ce3();let _0x43ba48=_0x5ce3c4[_0x2c5941];if(_0x43ba['DdYsWp']===undefined){var _0x15033c=function(_0x5c805c){const _0x5dfb93='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0xdf3120='',_0x47a7d4='';for(let _0x1d1e6b=0x0,_0x1227a2,_0x16dcbe,_0x4c8cb0=0x0;_0x16dcbe=_0x5c805c['charAt'](_0x4c8cb0++);~_0x16dcbe&&(_0x1227a2=_0x1d1e6b%0x4?_0x1227a2*0x40+_0x16dcbe:_0x16dcbe,_0x1d1e6b++%0x4)?_0xdf3120+=String['fromCharCode'](0xff&_0x1227a2>>(-0x2*_0x1d1e6b&0x6)):0x0){_0x16dcbe=_0x5dfb93['indexOf'](_0x16dcbe);}for(let _0x342684=0x0,_0x4f90f5=_0xdf3120['length'];_0x342684<_0x4f90f5;_0x342684++){_0x47a7d4+='%'+('00'+_0xdf3120['charCodeAt'](_0x342684)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x47a7d4);};_0x43ba['cAyPUS']=_0x15033c,_0x43ba['JSvsiG']={},_0x43ba['DdYsWp']=!![];}const _0x2ffdaa=_0x5ce3c4[0x0],_0x41397d=_0x2c5941+_0x2ffdaa,_0x12a8b2=_0x43ba['JSvsiG'][_0x41397d];return!_0x12a8b2?(_0x43ba48=_0x43ba['cAyPUS'](_0x43ba48),_0x43ba['JSvsiG'][_0x41397d]=_0x43ba48):_0x43ba48=_0x12a8b2,_0x43ba48;}const axios=require(_0x5caee7(0xf7));async function httpCommand(_0x1e3388,_0x336875,_0x49ff09,_0xc3ecef){const _0x261e81=_0x5caee7,_0x180bbb={'SQRiy':function(_0x1194ea,_0x44cc66){return _0x1194ea<_0x44cc66;},'GPIOL':'🌐\x20*HTTP\x20Re'+_0x261e81(0x119)+_0x261e81(0x10a)+'quest:*\x0a.h'+_0x261e81(0xf5)+'rl>\x0a\x0a*POST'+'\x20Request:*'+'\x0a.http\x20pos'+_0x261e81(0x117)+_0x261e81(0x12b)+_0x261e81(0xff)+'ttp\x20get\x20ht'+_0x261e81(0x141)+_0x261e81(0x13e)+'/users/nab'+_0x261e81(0x120)+_0x261e81(0x11f)+_0x261e81(0x133)+_0x261e81(0xfd)+_0x261e81(0x136)+_0x261e81(0x132)+'\x20MD\x22}','vaNyA':_0x261e81(0x125),'JfiZS':_0x261e81(0x11e)+'URL.\x20Must\x20'+_0x261e81(0x109)+'\x20http://\x20o'+_0x261e81(0x115),'IssDv':function(_0x4cc890,_0x51f709){return _0x4cc890===_0x51f709;},'UPMAw':'BATMAN-MD/'+'1.0','ssjhf':'post','Phqgt':_0x261e81(0xf4)+_0x261e81(0x138),'cxLFt':_0x261e81(0x118)+'ted\x20method'+_0x261e81(0xf8)+'\x27\x20or\x20\x27post'+'\x27','WlEyf':function(_0x4da6a9,_0x179f01){return _0x4da6a9(_0x179f01);},'bylVj':function(_0x5d687b,_0x469191){return _0x5d687b+_0x469191;},'hufZf':_0x261e81(0x124)+':'};try{if(_0x180bbb['SQRiy'](_0xc3ecef['length'],0x2)){const _0x10e31a={};_0x10e31a['text']=_0x180bbb[_0x261e81(0x122)];const _0x367f15={};_0x367f15[_0x261e81(0x12e)]=_0x49ff09,await _0x1e3388[_0x261e81(0x123)+'e'](_0x336875,_0x10e31a,_0x367f15);return;}const _0xd0442f=_0xc3ecef[0x0]['toLowerCas'+'e'](),_0x1b7d78=_0xc3ecef[0x1];if(!_0x1b7d78||!_0x1b7d78[_0x261e81(0x12a)](_0x180bbb[_0x261e81(0x113)])){const _0x2fcca0={};_0x2fcca0[_0x261e81(0x114)]=_0x180bbb[_0x261e81(0xfc)];const _0x136190={};_0x136190[_0x261e81(0x12e)]=_0x49ff09,await _0x1e3388['sendMessag'+'e'](_0x336875,_0x2fcca0,_0x136190);return;}const _0x2044fe={};_0x2044fe[_0x261e81(0x114)]='🌐',_0x2044fe[_0x261e81(0x13a)]=_0x49ff09[_0x261e81(0x13a)];const _0x5a49db={};_0x5a49db[_0x261e81(0x105)]=_0x2044fe,await _0x1e3388['sendMessag'+'e'](_0x336875,_0x5a49db);let _0x549b6c,_0x55233f;if(_0x180bbb[_0x261e81(0x131)](_0xd0442f,_0x261e81(0xf0))){const _0x5686b8={};_0x5686b8[_0x261e81(0x13b)]=_0x180bbb[_0x261e81(0x10c)];const _0x1d3fe0={};_0x1d3fe0['timeout']=0x7530,_0x1d3fe0[_0x261e81(0x108)]=_0x5686b8,_0x549b6c=await axios[_0x261e81(0xf0)](_0x1b7d78,_0x1d3fe0),_0x55233f=_0x549b6c[_0x261e81(0x126)];}else{if(_0x180bbb[_0x261e81(0x131)](_0xd0442f,_0x180bbb[_0x261e81(0x12f)])){let _0x56c52d={};if(_0xc3ecef[_0x261e81(0x10d)]>0x2)try{_0x56c52d=JSON[_0x261e81(0xee)](_0xc3ecef[_0x261e81(0x101)](0x2)[_0x261e81(0xf3)]('\x20'));}catch(_0x522f05){_0x56c52d={'data':_0xc3ecef[_0x261e81(0x101)](0x2)[_0x261e81(0xf3)]('\x20')};}const _0x45fb98={};_0x45fb98['User-Agent']='BATMAN-MD/'+'1.0',_0x45fb98[_0x261e81(0x12d)+'pe']=_0x180bbb[_0x261e81(0x135)];const _0x4fa552={};_0x4fa552[_0x261e81(0x116)]=0x7530,_0x4fa552[_0x261e81(0x108)]=_0x45fb98,_0x549b6c=await axios[_0x261e81(0x130)](_0x1b7d78,_0x56c52d,_0x4fa552),_0x55233f=_0x549b6c[_0x261e81(0x126)];}else{const _0x191917={};_0x191917['text']=_0x180bbb[_0x261e81(0x112)];const _0x3b01e3={};_0x3b01e3[_0x261e81(0x12e)]=_0x49ff09,await _0x1e3388[_0x261e81(0x123)+'e'](_0x336875,_0x191917,_0x3b01e3);return;}}let _0x5fa13f=_0x261e81(0x103)+_0xd0442f[_0x261e81(0x102)+'e']()+(_0x261e81(0x10e)+_0x261e81(0x121))+_0x1b7d78+('\x0a📊\x20Status:'+'\x20')+_0x549b6c[_0x261e81(0x139)]+(_0x261e81(0x11c)+'nse:*\x0a'),_0x537e9c=typeof _0x55233f===_0x261e81(0x12c)?JSON[_0x261e81(0xf9)](_0x55233f,null,0x2):_0x180bbb[_0x261e81(0x104)](String,_0x55233f);_0x537e9c[_0x261e81(0x10d)]>0xed8&&(_0x537e9c=_0x180bbb[_0x261e81(0x11d)](_0x537e9c['slice'](0x0,0xed8),_0x261e81(0x137)+'ncated)'));_0x5fa13f+=_0x261e81(0xf1)+_0x537e9c+_0x261e81(0xfe);const _0x2641aa={};_0x2641aa[_0x261e81(0x114)]=_0x5fa13f;const _0x1c0629={};_0x1c0629[_0x261e81(0x12e)]=_0x49ff09,await _0x1e3388[_0x261e81(0x123)+'e'](_0x336875,_0x2641aa,_0x1c0629);const _0x4cc03a={};_0x4cc03a[_0x261e81(0x114)]='✅',_0x4cc03a[_0x261e81(0x13a)]=_0x49ff09[_0x261e81(0x13a)];const _0x243bd1={};_0x243bd1[_0x261e81(0x105)]=_0x4cc03a,await _0x1e3388['sendMessag'+'e'](_0x336875,_0x243bd1);}catch(_0x592814){console[_0x261e81(0x100)](_0x180bbb[_0x261e81(0x10f)],_0x592814);const _0x20705c={};_0x20705c[_0x261e81(0x114)]='❌',_0x20705c[_0x261e81(0x13a)]=_0x49ff09[_0x261e81(0x13a)];const _0x26ff4a={};_0x26ff4a[_0x261e81(0x105)]=_0x20705c,await _0x1e3388['sendMessag'+'e'](_0x336875,_0x26ff4a);let _0x191bfa=_0x261e81(0xfa)+_0x261e81(0xef);if(_0x592814[_0x261e81(0x110)])_0x191bfa+=_0x261e81(0x10b)+_0x592814['response']['status']+'\x0a📝\x20'+_0x592814['response']['statusText'];else _0x592814[_0x261e81(0x11a)]?_0x191bfa+=_0x261e81(0x13d)+_0x261e81(0x129)+_0x261e81(0xfb)+_0x261e81(0x140)+'connection':_0x191bfa+='🔧\x20'+_0x592814['message'];const _0xde7260={};_0xde7260[_0x261e81(0x114)]=_0x191bfa;const _0x4e069b={};_0x4e069b[_0x261e81(0x12e)]=_0x49ff09,await _0x1e3388[_0x261e81(0x123)+'e'](_0x336875,_0xde7260,_0x4e069b);}}module[_0x5caee7(0xf6)]=httpCommand;function _0x5ce3(){const _0xb1a4b1=['CxvLC3qGvg9VBa','CMvXDwvZDa','mJHZrLDeCuG','cGRWN5oMicPszxnWBW','yNLSvMO','4P2mieLUDMfSAwqG','Ahr0CcbWB3n0ia','ywLRywjHAweklG','8j+tOsbvuKW6ia','r1bjt0W','C2vUze1LC3nHzW','sfruucbLCNjVCG','Ahr0Ca','zgf0yq','ndK2otCWre5Iv3Dz','mtm1odC4n3n3EwL3va','BNnLigzYB20GCW','C3rHCNrZv2L0Aa','yxrHpGOkkKv4yq','B2jQzwn0','q29UDgvUDc1uEq','CxvVDgvK','C3nQAgy','Cg9ZDa','sxnZrhy','zsi6iKjbve1btG','Ahr0Chm6lY9ODa','mte3Avzkz3fA','ugHXz3q','Cg9ZDcb7iM5HBq','cGOUlI4GkhrYDq','BI9QC29U','C3rHDhvZ','A2v5','vxnLCI1bz2vUDa','nty1ntzzv0TzuK8','8j+mKcboBYbYzxnWBW','z2L0AhvIlMnVBq','nZu5otb4y1neENq','AYbvuKWGyw5Kia','DhbZoI8VyxbPlG','CgfYC2u','iezHAwXLzcOk','z2v0','ygbGANnVBGO','ndi3odiYBwTqCKrv','AM9PBG','yxbWBgLJyxrPBW','DhrWigDLDca8Dq','zxHWB3j0CW','yxHPB3m','lIbvC2uGj2DLDa','C3rYAw5NAwz5','4P2micPszxf1zxn0','zxj2zxikq2HLyW','sMzPwLm','DhbIAw4UB3jNlW','cMbGya','BxbSzxm6kGOUAa','zxjYB3i','C2XPy2u','Dg9vChbLCKnHCW','8j+mKcaQ','v2XfEwy','CMvHy3q','mZbWzNfsCMy','mteYoteZmK5ItKPVuW','AgvHzgvYCW','C3rHCNqGD2L0Aa','kGOkkKDfvcbszq','8j+tIIbtDgf0Dxm6ia','vvbnqxC','BgvUz3rO','ifjLCxvLC3qQcG','AhvMwMy','CMvZCg9UC2u','mte5ntuYog1QEKXjuG','y3HmrNq','DMfoEue','Dgv4Da','CIbODhrWCZOVlW','DgLTzw91Da','Dca8DxjSpIa8za','4P2mifvUC3vWCg9Y'];_0x5ce3=function(){return _0xb1a4b1;};return _0x5ce3();}
+// commands/http.js
+const axios = require('axios');
+const fs = require('fs');
+const path = require('path');
+
+const newsletterContext = {
+    contextInfo: {
+        forwardingScore: 999,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363367299421766@newsletter',
+            newsletterName: 'BATMAN MD',
+            serverMessageId: 13
+        }
+    }
+};
+
+const MAX_TEXT_LENGTH = 3500;
+
+async function httpCommand(sock, chatId, message, args) {
+    try {
+        if (args.length < 2) {
+            await sock.sendMessage(chatId, { 
+                text: "🌐 *HTTP Request Tool*\n\n*Methods:* GET, POST, PUT, DELETE, PATCH\n\n*Usage:*\n.http <method> <url>\n\n*With Headers:*\n.http <method> <url> -H \"Header: value\"\n\n*Examples:*\n.http get https://api.github.com/users/nabaikabaia\n.http get \"https://api.example.com/data?param=value\"\n.http post https://httpbin.org/post {\"name\":\"BATMAN MD\"}"
+            }, { quoted: message });
+            return;
+        }
+
+        let method = args[0].toLowerCase();
+        
+        // Find the URL - it could be the second argument or might contain spaces if wrapped in quotes
+        let url = null;
+        let urlStartIndex = 1;
+        
+        // Check if URL is wrapped in quotes (starts with " or ')
+        if (args[1] && (args[1].startsWith('"') || args[1].startsWith("'"))) {
+            // Find the closing quote by joining subsequent args
+            let urlParts = [];
+            let foundClosing = false;
+            for (let i = 1; i < args.length; i++) {
+                urlParts.push(args[i]);
+                if (args[i].endsWith('"') || args[i].endsWith("'")) {
+                    urlStartIndex = i + 1;
+                    foundClosing = true;
+                    break;
+                }
+            }
+            if (foundClosing) {
+                url = urlParts.join(' ').replace(/^["']|["']$/g, '');
+            }
+        }
+        
+        // If not wrapped in quotes, the URL is just the second argument
+        if (!url) {
+            url = args[1];
+            urlStartIndex = 2;
+        }
+        
+        if (!url || !url.startsWith('http')) {
+            await sock.sendMessage(chatId, { text: "❌ Invalid URL. Must start with http:// or https://" }, { quoted: message });
+            return;
+        }
+        
+        let bodyData = null;
+        let customHeaders = {};
+        let currentArg = urlStartIndex;
+        
+        // Parse remaining arguments for headers and body
+        while (currentArg < args.length) {
+            const arg = args[currentArg];
+            
+            if (arg === '-H' && currentArg + 1 < args.length) {
+                const headerStr = args[currentArg + 1];
+                const colonIndex = headerStr.indexOf(':');
+                if (colonIndex > 0) {
+                    const key = headerStr.substring(0, colonIndex).trim();
+                    const value = headerStr.substring(colonIndex + 1).trim();
+                    customHeaders[key] = value;
+                }
+                currentArg += 2;
+            }
+            else if (arg === '-B' && currentArg + 1 < args.length) {
+                const token = args[currentArg + 1];
+                customHeaders['Authorization'] = `Bearer ${token}`;
+                currentArg += 2;
+            }
+            else if (arg === '-K' && currentArg + 1 < args.length) {
+                const apiKey = args[currentArg + 1];
+                customHeaders['X-API-Key'] = apiKey;
+                currentArg += 2;
+            }
+            else if (arg === '-A' && currentArg + 1 < args.length) {
+                const authStr = args[currentArg + 1];
+                const encoded = Buffer.from(authStr).toString('base64');
+                customHeaders['Authorization'] = `Basic ${encoded}`;
+                currentArg += 2;
+            }
+            else if (!arg.startsWith('-')) {
+                try {
+                    bodyData = JSON.parse(arg);
+                    currentArg++;
+                } catch (e) {
+                    currentArg++;
+                }
+            } else {
+                currentArg++;
+            }
+        }
+        
+        const validMethods = ['get', 'post', 'put', 'delete', 'patch'];
+        if (!validMethods.includes(method)) {
+            await sock.sendMessage(chatId, { text: "❌ Unsupported method. Use: get, post, put, delete, patch" }, { quoted: message });
+            return;
+        }
+
+        await sock.sendMessage(chatId, { react: { text: "🌐", key: message.key } });
+
+        const defaultHeaders = {
+            'User-Agent': 'BATMAN-MD/1.0',
+            'Accept': 'application/json, text/plain, */*'
+        };
+        
+        const headers = { ...defaultHeaders, ...customHeaders };
+        
+        if (['post', 'put', 'patch'].includes(method) && bodyData && !headers['Content-Type']) {
+            headers['Content-Type'] = 'application/json';
+        }
+        
+        const config = {
+            method: method,
+            url: url,
+            headers: headers,
+            timeout: 60000,
+            validateStatus: status => status >= 200 && status < 500
+        };
+        
+        if (bodyData && ['post', 'put', 'patch'].includes(method)) {
+            config.data = bodyData;
+        }
+        
+        const startTime = Date.now();
+        const response = await axios(config);
+        const responseTime = Date.now() - startTime;
+        
+        let responseStr = typeof response.data === 'object' 
+            ? JSON.stringify(response.data, null, 2) 
+            : String(response.data);
+        
+        // Build header info
+        let headerInfo = `🌐 *${method.toUpperCase()} Request*\n📡 URL: ${url}\n📊 Status: ${response.status}\n⏱️ Time: ${responseTime}ms\n`;
+        
+        if (Object.keys(customHeaders).length > 0) {
+            headerInfo += `🔐 *Headers:*\n`;
+            for (const [key, value] of Object.entries(customHeaders)) {
+                const maskedValue = key.toLowerCase().includes('authorization') || key.toLowerCase().includes('api-key')
+                    ? value.slice(0, 10) + '...' 
+                    : value;
+                headerInfo += `   ${key}: ${maskedValue}\n`;
+            }
+        }
+        
+        // Check if response is too long
+        if (responseStr.length > MAX_TEXT_LENGTH) {
+            const tmpDir = path.join(process.cwd(), 'tmp');
+            if (!fs.existsSync(tmpDir)) fs.mkdirSync(tmpDir, { recursive: true });
+            
+            const fileName = `response_${Date.now()}.json`;
+            const filePath = path.join(tmpDir, fileName);
+            
+            const fileContent = `${headerInfo}\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📦 *RESPONSE BODY:*\n\n${responseStr}`;
+            fs.writeFileSync(filePath, fileContent);
+            
+            await sock.sendMessage(chatId, { 
+                text: `${headerInfo}\n\n📁 *Response too large, sending as file:*`,
+                ...newsletterContext
+            }, { quoted: message });
+            
+            await sock.sendMessage(chatId, {
+                document: fs.readFileSync(filePath),
+                mimetype: 'application/json',
+                fileName: `response_${method}_${Date.now()}.json`,
+                caption: `📦 *Response saved*\n📊 Size: ${(responseStr.length / 1024).toFixed(1)}KB`,
+                ...newsletterContext
+            }, { quoted: message });
+            
+            fs.unlinkSync(filePath);
+        } else {
+            let output = `${headerInfo}\n\n📦 *Response:*\n\`\`\`json\n${responseStr}\n\`\`\``;
+            
+            if (output.length > 4000) {
+                const tmpDir = path.join(process.cwd(), 'tmp');
+                if (!fs.existsSync(tmpDir)) fs.mkdirSync(tmpDir, { recursive: true });
+                
+                const fileName = `response_${Date.now()}.json`;
+                const filePath = path.join(tmpDir, fileName);
+                fs.writeFileSync(filePath, `${headerInfo}\n\n${responseStr}`);
+                
+                await sock.sendMessage(chatId, {
+                    document: fs.readFileSync(filePath),
+                    mimetype: 'application/json',
+                    fileName: `response_${method}_${Date.now()}.json`,
+                    caption: `📦 *API Response*\n📊 Status: ${response.status}\n⏱️ Time: ${responseTime}ms`,
+                    ...newsletterContext
+                }, { quoted: message });
+                
+                fs.unlinkSync(filePath);
+            } else {
+                await sock.sendMessage(chatId, { text: output, ...newsletterContext }, { quoted: message });
+            }
+        }
+        
+        await sock.sendMessage(chatId, { react: { text: "✅", key: message.key } });
+
+    } catch (error) {
+        console.error('HTTP error:', error);
+        await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
+        
+        let errorMsg = `❌ *Request Failed*\n`;
+        if (error.response) {
+            errorMsg += `📊 Status: ${error.response.status}\n📝 ${error.response.statusText || error.message}`;
+            if (error.response.data) {
+                const errData = typeof error.response.data === 'object' 
+                    ? JSON.stringify(error.response.data, null, 2).slice(0, 1000)
+                    : String(error.response.data).slice(0, 1000);
+                errorMsg += `\n📦 *Error Response:*\n${errData}`;
+            }
+        } else if (error.request) {
+            errorMsg += `🌐 No response from server\nCheck URL and connection`;
+        } else {
+            errorMsg += `🔧 ${error.message}`;
+        }
+        
+        if (errorMsg.length > 4000) {
+            const tmpDir = path.join(process.cwd(), 'tmp');
+            if (!fs.existsSync(tmpDir)) fs.mkdirSync(tmpDir, { recursive: true });
+            const fileName = `error_${Date.now()}.txt`;
+            const filePath = path.join(tmpDir, fileName);
+            fs.writeFileSync(filePath, errorMsg);
+            await sock.sendMessage(chatId, {
+                document: fs.readFileSync(filePath),
+                mimetype: 'text/plain',
+                fileName: `error_${Date.now()}.txt`,
+                caption: `❌ *Error Details*`,
+                ...newsletterContext
+            }, { quoted: message });
+            fs.unlinkSync(filePath);
+        } else {
+            await sock.sendMessage(chatId, { text: errorMsg, ...newsletterContext }, { quoted: message });
+        }
+    }
+}
+
+module.exports = httpCommand;

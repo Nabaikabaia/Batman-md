@@ -1,7 +1,217 @@
-// ============================================
-//  Obfuscated by Nabees Tech
-//  Domain: git.nabees.online
-//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
-//  Protected - Do not redistribute
-// ============================================
-const _0x2cb8c3=_0x409b;function _0x44e5(){const _0x4ebf4f=['cJ4GkSkPiejbve0','qKvhsu46vKnbuG','zxHPC3rZu3LUyW','cVcFK54Gq29UDgfJDa','CgvKicHUBYbWAa','mJeXnZrprKT3veG','odu0mwrutwvODG','CgfYDgLJAxbHBG','ignVBNrHy3rZlG','D3jPDgvgAwXLuW','mY4WcKzooG','cLrftdT0ExbLpq','qu4GtuqQ','yxrH','raPwrvjtsu9ooG','yxzLihbOB25Lia','C2vUze1LC3nHzW','lNzJzG','y3DK','CMvWBgfJzq','nZjpAufjwvK','CgLUzYbmsuq6ia','4P2mie5VihzHBgLK','mty3mJe5nvLUsMX1Ba','Cg9YDcbNCM91Ca','ieXjrhmGC2TPCa','ieXjrhmGkhn5CW','zwDPvvK','mZmYnJiZu2X3uxvK','BMX5igjLihvZzq','ywrTAw4','4P2mifrOAxmGy29T','mtzkuePuzhu','mMfjDKLLtG','A2v5','z3jVDxbFy29UDa','CMvHy3q','Dgv4Da','zxKGzg9Uj3qGAa','BwvZC2fNzq','yMvJyxvZzsb0Aa','4PQG77Ipia','w1zdrL0Gu2TPCa','senPthm','BgvUz3rO','BYbLEhbVCNqGyW','Dg1W','Cg9YDcOkcVcFKAuGrW','zxjYB3i','mti1ntq0rLzRt2ff','Cgf0Aa','mta4ota5t0vZBgjU','BNvTyMvYCY4','yMvYCYbMB3vUza','CxvVDgvK','CMvJDxjZAxzL','Bg9N','CMvHzezPBgvtEq','AMfHEgW','CYKk','B25Lig51BwjLCG','odvJt21OrMq','mtm1mZHUwLDxugG','ndrvuMnLB3m','C3vWzxjHzg1PBG','ywn0C18','mteYotaWn1vMt2XuvG','AM9PBG','DgvTigLKzw50Aq','ihbOB25Lig51Bq','Dw5SAw5Ru3LUyW','zsbZA2LWCgvKia','CM91Cc4kcUkeUE+4JYa','z3jVDxbnzxrHza','r3jVDxa','mZiWuKnWDNDv','BwTKAxjtEw5J','C3bSAxq','BwfUzcbJyw4GBW','C3vIAMvJDa'];_0x44e5=function(){return _0x4ebf4f;};return _0x44e5();}(function(_0x4a373f,_0xce270f){const _0x2b8ad2=_0x409b,_0x4c7931=_0x4a373f();while(!![]){try{const _0x4c1421=parseInt(_0x2b8ad2(0x140))/0x1*(parseInt(_0x2b8ad2(0x145))/0x2)+parseInt(_0x2b8ad2(0x155))/0x3*(-parseInt(_0x2b8ad2(0x163))/0x4)+-parseInt(_0x2b8ad2(0x161))/0x5*(-parseInt(_0x2b8ad2(0x129))/0x6)+parseInt(_0x2b8ad2(0x13b))/0x7*(-parseInt(_0x2b8ad2(0x144))/0x8)+-parseInt(_0x2b8ad2(0x157))/0x9*(parseInt(_0x2b8ad2(0x11f))/0xa)+-parseInt(_0x2b8ad2(0x166))/0xb*(-parseInt(_0x2b8ad2(0x138))/0xc)+-parseInt(_0x2b8ad2(0x12a))/0xd*(-parseInt(_0x2b8ad2(0x162))/0xe);if(_0x4c1421===_0xce270f)break;else _0x4c7931['push'](_0x4c7931['shift']());}catch(_0x42af1e){_0x4c7931['push'](_0x4c7931['shift']());}}}(_0x44e5,0x4dbdb));const fs=require('fs'),path=require(_0x2cb8c3(0x156));function extractPhoneNumber(_0x211cd5){const _0xdc6d55=_0x2cb8c3,_0x4a9781={};_0x4a9781[_0xdc6d55(0x15e)]=function(_0x292da3,_0x3093e8){return _0x292da3>_0x3093e8;};const _0x533d4b=_0x4a9781;let _0x3a62c1=_0x211cd5[_0xdc6d55(0x121)]('@')[0x0];_0x3a62c1=_0x3a62c1['replace'](/[^0-9]/g,'');if(_0x533d4b[_0xdc6d55(0x15e)](_0x3a62c1[_0xdc6d55(0x150)],0xc))return null;return _0x3a62c1;}function _0x409b(_0x3ae857,_0x48e851){_0x3ae857=_0x3ae857-0x11e;const _0x44e534=_0x44e5();let _0x409b15=_0x44e534[_0x3ae857];if(_0x409b['UcyAgG']===undefined){var _0x455d1c=function(_0x277633){const _0x4d6007='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x371231='',_0xcd9c95='';for(let _0x16c15b=0x0,_0x4d1600,_0x3ca415,_0x5ef3bb=0x0;_0x3ca415=_0x277633['charAt'](_0x5ef3bb++);~_0x3ca415&&(_0x4d1600=_0x16c15b%0x4?_0x4d1600*0x40+_0x3ca415:_0x3ca415,_0x16c15b++%0x4)?_0x371231+=String['fromCharCode'](0xff&_0x4d1600>>(-0x2*_0x16c15b&0x6)):0x0){_0x3ca415=_0x4d6007['indexOf'](_0x3ca415);}for(let _0x9bdc79=0x0,_0x22766c=_0x371231['length'];_0x9bdc79<_0x22766c;_0x9bdc79++){_0xcd9c95+='%'+('00'+_0x371231['charCodeAt'](_0x9bdc79)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0xcd9c95);};_0x409b['mZjiTk']=_0x455d1c,_0x409b['KqXVhM']={},_0x409b['UcyAgG']=!![];}const _0x4b752b=_0x44e534[0x0],_0x55eea3=_0x3ae857+_0x4b752b,_0x30b4b9=_0x409b['KqXVhM'][_0x55eea3];return!_0x30b4b9?(_0x409b15=_0x409b['mZjiTk'](_0x409b15),_0x409b['KqXVhM'][_0x55eea3]=_0x409b15):_0x409b15=_0x30b4b9,_0x409b15;}async function vcfCommand(_0x5dce3e,_0x3d44d6,_0x12e8f3){const _0x90574b=_0x2cb8c3,_0x31142c={};_0x31142c[_0x90574b(0x14f)]='❌\x20Only\x20adm'+'ins\x20can\x20ex'+_0x90574b(0x13c)+_0x90574b(0x12c),_0x31142c[_0x90574b(0x13f)]=function(_0x740f0,_0x673df6){return _0x740f0===_0x673df6;};const _0x38837c=_0x31142c;try{if(!_0x3d44d6['endsWith']('@g.us')){const _0x15aa92={};_0x15aa92['text']=_0x90574b(0x143)+_0x90574b(0x122)+_0x90574b(0x141)+'d\x20in\x20group'+'s.';const _0x21b9a4={};_0x21b9a4[_0x90574b(0x15a)]=_0x12e8f3,await _0x5dce3e[_0x90574b(0x134)+'e'](_0x3d44d6,_0x15aa92,_0x21b9a4);return;}const _0x4435e4=_0x12e8f3[_0x90574b(0x146)][_0x90574b(0x12b)+'t']||_0x12e8f3['key']['remoteJid'],_0x435960=await _0x5dce3e[_0x90574b(0x16d)+_0x90574b(0x131)](_0x3d44d6),_0x3b9c17=_0x435960[_0x90574b(0x12b)+'ts']['some'](_0x28b79c=>(_0x28b79c['id']===_0x4435e4||_0x28b79c['id'][_0x90574b(0x121)]('@')[0x0]===_0x4435e4[_0x90574b(0x121)]('@')[0x0])&&(_0x28b79c[_0x90574b(0x142)]==='admin'||_0x28b79c[_0x90574b(0x142)]===_0x90574b(0x164)));if(!_0x3b9c17&&!_0x12e8f3[_0x90574b(0x146)]['fromMe']){const _0x2eaca8={};_0x2eaca8['text']=_0x38837c[_0x90574b(0x14f)];const _0x2ff687={};_0x2ff687['quoted']=_0x12e8f3,await _0x5dce3e[_0x90574b(0x134)+'e'](_0x3d44d6,_0x2eaca8,_0x2ff687);return;}const _0x44312f={};_0x44312f[_0x90574b(0x149)]='📇',_0x44312f[_0x90574b(0x146)]=_0x12e8f3[_0x90574b(0x146)];const _0x13e2ab={};_0x13e2ab['react']=_0x44312f,await _0x5dce3e[_0x90574b(0x134)+'e'](_0x3d44d6,_0x13e2ab);const _0x411197=_0x435960[_0x90574b(0x12b)+'ts'],_0x3ebe81=_0x435960[_0x90574b(0x123)]||_0x90574b(0x11e);let _0x329376='',_0x5520a4=0x0,_0x1c6ca7=0x0;for(const _0x210383 of _0x411197){const _0x510d37=_0x210383['id'];let _0x17d15e=extractPhoneNumber(_0x510d37);if(!_0x17d15e){_0x1c6ca7++,console[_0x90574b(0x15c)](_0x90574b(0x14e)+_0x90574b(0x139)+_0x510d37);continue;}let _0x230706=_0x17d15e;try{const _0x59ef97=await _0x5dce3e['getName'](_0x510d37);_0x59ef97&&_0x59ef97!==_0x17d15e&&(_0x230706=_0x59ef97);}catch(_0x23b5fc){}_0x329376+=_0x90574b(0x125)+_0x90574b(0x132)+_0x90574b(0x12e)+_0x230706+(_0x90574b(0x12f)+'CELL;type='+'VOICE;waid'+'=')+_0x17d15e+':+'+_0x17d15e+('\x0aEND:VCARD'+'\x0a\x0a'),_0x5520a4++;}if(_0x38837c[_0x90574b(0x13f)](_0x5520a4,0x0)){const _0x121096={};_0x121096[_0x90574b(0x149)]='❌',_0x121096['key']=_0x12e8f3[_0x90574b(0x146)];const _0x4164bf={};_0x4164bf['react']=_0x121096,await _0x5dce3e['sendMessag'+'e'](_0x3d44d6,_0x4164bf);const _0x461f71={};_0x461f71['text']=_0x90574b(0x13a)+_0x90574b(0x169)+_0x90574b(0x159)+'\x20in\x20this\x20g'+_0x90574b(0x16c)+_0x1c6ca7+(_0x90574b(0x13e)+_0x90574b(0x168)+'fiers)\x20wer'+_0x90574b(0x16b)+_0x90574b(0x14c)+_0x90574b(0x14a)+_0x90574b(0x133)+_0x90574b(0x158));const _0x44798a={};_0x44798a[_0x90574b(0x15a)]=_0x12e8f3,await _0x5dce3e[_0x90574b(0x134)+'e'](_0x3d44d6,_0x461f71,_0x44798a);return;}const _0xb32f4e=path[_0x90574b(0x167)](process[_0x90574b(0x136)](),_0x90574b(0x152)),_0x2db9e0={};_0x2db9e0[_0x90574b(0x15b)]=!![];if(!fs[_0x90574b(0x126)](_0xb32f4e))fs[_0x90574b(0x120)](_0xb32f4e,_0x2db9e0);const _0x31d7ab=_0x90574b(0x147)+_0x90574b(0x165)+_0x3ebe81[_0x90574b(0x137)](/[^a-zA-Z0-9]/g,'_')+'_'+Date['now']()+_0x90574b(0x135),_0x6a61a8=path[_0x90574b(0x167)](_0xb32f4e,_0x31d7ab);fs[_0x90574b(0x12d)+'ync'](_0x6a61a8,_0x329376);const _0x2130c9={};_0x2130c9['quoted']=_0x12e8f3,await _0x5dce3e['sendMessag'+'e'](_0x3d44d6,{'document':fs[_0x90574b(0x15d)+'nc'](_0x6a61a8),'mimetype':'text/vcard','fileName':_0x31d7ab,'caption':'📇\x20*Group\x20C'+'ontacts\x20Ex'+_0x90574b(0x153)+'roup:\x20'+_0x3ebe81+(_0x90574b(0x127)+'s:\x20')+_0x5520a4+'\x0a'+(_0x1c6ca7>0x0?_0x90574b(0x14d)+_0x1c6ca7+(_0x90574b(0x13d)+_0x90574b(0x128)+_0x90574b(0x160)+_0x90574b(0x15f)):'')+(_0x90574b(0x124)+_0x90574b(0x130))},_0x2130c9),fs[_0x90574b(0x16a)](_0x6a61a8);const _0x2e4df2={};_0x2e4df2[_0x90574b(0x149)]='✅',_0x2e4df2[_0x90574b(0x146)]=_0x12e8f3[_0x90574b(0x146)];const _0x58c95b={};_0x58c95b[_0x90574b(0x148)]=_0x2e4df2,await _0x5dce3e[_0x90574b(0x134)+'e'](_0x3d44d6,_0x58c95b);}catch(_0x3c4af4){console[_0x90574b(0x154)]('VCF\x20error:',_0x3c4af4);const _0x2d6a83={};_0x2d6a83['text']='❌',_0x2d6a83[_0x90574b(0x146)]=_0x12e8f3[_0x90574b(0x146)];const _0xbd5aa0={};_0xbd5aa0['react']=_0x2d6a83,await _0x5dce3e[_0x90574b(0x134)+'e'](_0x3d44d6,_0xbd5aa0);const _0x20e5bb={};_0x20e5bb[_0x90574b(0x149)]='❌\x20Failed\x20t'+_0x90574b(0x151)+'ontacts:\x20'+_0x3c4af4[_0x90574b(0x14b)];const _0x181b5c={};_0x181b5c[_0x90574b(0x15a)]=_0x12e8f3,await _0x5dce3e[_0x90574b(0x134)+'e'](_0x3d44d6,_0x20e5bb,_0x181b5c);}}module['exports']=vcfCommand;
+// commands/vcf.js
+const fs = require('fs');
+const path = require('path');
+const isAdmin = require('../lib/isAdmin');
+
+const channelInfo = {
+    contextInfo: {
+        forwardingScore: 999,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363367299421766@newsletter',
+            newsletterName: 'BATMAN MD',
+            serverMessageId: 13
+        }
+    }
+};
+
+function formatVcfMessage(title, content, type = 'info') {
+    const emojis = {
+        info: 'ℹ️',
+        success: '✅',
+        warning: '⚠️',
+        error: '❌',
+        export: '📇',
+        admin: '👑',
+        bot: '🤖',
+        group: '👥'
+    };
+    
+    return `*『 ${emojis[type]} ${title} 』*
+╭─────────⟢
+${content}
+╰─────────⟢
+
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
+}
+
+// Helper to get real phone number from LID using messageCount.json
+function getPhoneNumberFromLid(lid) {
+    try {
+        const dataPath = path.join(process.cwd(), 'data/messageCount.json');
+        if (!fs.existsSync(dataPath)) return null;
+        
+        const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+        
+        // Search through all groups and users for this LID
+        for (const [groupId, groupData] of Object.entries(data)) {
+            if (groupId.endsWith('@g.us') && typeof groupData === 'object') {
+                for (const [userId, count] of Object.entries(groupData)) {
+                    if (userId === lid) {
+                        // Try to extract phone number from userId (if it's not a LID)
+                        let num = userId.split('@')[0].replace(/[^0-9]/g, '');
+                        if (num.length > 12) continue; // Still a LID?
+                        if (num.length >= 9 && num.length <= 12) return num;
+                    }
+                }
+            }
+        }
+        
+        // Also check for direct mapping (if the user has messaged the bot in private)
+        for (const [chatId, chatData] of Object.entries(data)) {
+            if (chatId.endsWith('@s.whatsapp.net') && typeof chatData === 'object') {
+                for (const [userId, count] of Object.entries(chatData)) {
+                    if (userId === lid) {
+                        let num = userId.split('@')[0].replace(/[^0-9]/g, '');
+                        if (num.length >= 9 && num.length <= 12) return num;
+                    }
+                }
+            }
+        }
+        
+        return null;
+    } catch (e) {
+        console.error('getPhoneNumberFromLid error:', e);
+        return null;
+    }
+}
+
+async function vcfCommand(sock, chatId, message) {
+    try {
+        if (!chatId.endsWith('@g.us')) {
+            const errorMsg = formatVcfMessage(
+                'GROUP ONLY',
+                `│ ❌ This command can only be used in groups.`,
+                'error'
+            );
+            await sock.sendMessage(chatId, { text: errorMsg, ...channelInfo }, { quoted: message });
+            return;
+        }
+
+        const senderId = message.key.participant || message.key.remoteJid;
+        const { isSenderAdmin, isBotAdmin } = await isAdmin(sock, chatId, senderId);
+
+        if (!isBotAdmin) {
+            const botAdminMsg = formatVcfMessage(
+                'BOT NOT ADMIN',
+                `│ 🤖 Please make the bot an admin\n│ 📇 to export group contacts.`,
+                'bot'
+            );
+            await sock.sendMessage(chatId, { text: botAdminMsg, ...channelInfo }, { quoted: message });
+            return;
+        }
+
+        if (!isSenderAdmin && !message.key.fromMe) {
+            const adminOnlyMsg = formatVcfMessage(
+                'ADMIN ONLY',
+                `│ 👑 Only group administrators\n│ 📇 can export group contacts.`,
+                'admin'
+            );
+            await sock.sendMessage(chatId, { text: adminOnlyMsg, ...channelInfo }, { quoted: message });
+            return;
+        }
+
+        await sock.sendMessage(chatId, { react: { text: "📇", key: message.key } });
+
+        const groupMetadata = await sock.groupMetadata(chatId);
+        const participants = groupMetadata.participants;
+        const groupName = groupMetadata.subject || "Group";
+
+        if (!participants || participants.length === 0) {
+            const noParticipantsMsg = formatVcfMessage(
+                'NO PARTICIPANTS',
+                `│ ❌ No participants found.`,
+                'error'
+            );
+            await sock.sendMessage(chatId, { text: noParticipantsMsg, ...channelInfo }, { quoted: message });
+            return;
+        }
+
+        let vcardContent = '';
+        let validContacts = 0;
+        let lidCount = 0;
+
+        for (const participant of participants) {
+            const jid = participant.id;
+            // First try to get real phone number from LID mapping
+            let phoneNumber = getPhoneNumberFromLid(jid);
+            
+            if (!phoneNumber) {
+                // Fallback: try to extract from JID if it looks like a phone number
+                let extracted = jid.split('@')[0].replace(/[^0-9]/g, '');
+                if (extracted.length >= 9 && extracted.length <= 12) {
+                    phoneNumber = extracted;
+                } else {
+                    lidCount++;
+                    continue;
+                }
+            }
+            
+            // Get contact name
+            let contactName = phoneNumber;
+            try {
+                const name = await sock.getName(jid);
+                if (name && name !== phoneNumber && !name.includes('@')) {
+                    contactName = name;
+                }
+            } catch (e) {}
+            
+            vcardContent += `BEGIN:VCARD
+VERSION:3.0
+FN:${contactName}
+TEL;type=CELL;type=VOICE;waid=${phoneNumber}:+${phoneNumber}
+END:VCARD
+
+`;
+            validContacts++;
+        }
+
+        if (validContacts === 0) {
+            const noValidMsg = formatVcfMessage(
+                'NO VALID CONTACTS',
+                `│ ❌ No valid phone numbers found.\n│ ℹ️ ${lidCount} LIDs skipped.`,
+                'error'
+            );
+            await sock.sendMessage(chatId, { text: noValidMsg, ...channelInfo }, { quoted: message });
+            await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
+            return;
+        }
+
+        const tmpDir = path.join(process.cwd(), 'tmp');
+        if (!fs.existsSync(tmpDir)) fs.mkdirSync(tmpDir, { recursive: true });
+        
+        const fileName = `group_contacts_${groupName.replace(/[^a-zA-Z0-9]/g, '_')}_${Date.now()}.vcf`;
+        const filePath = path.join(tmpDir, fileName);
+        
+        fs.writeFileSync(filePath, vcardContent);
+
+        const successMsg = formatVcfMessage(
+            'CONTACTS EXPORTED',
+            `│ 👥 *Group:* ${groupName}\n│ 📞 *Contacts:* ${validContacts}\n${lidCount > 0 ? `│ ⚠️ *Skipped:* ${lidCount} LIDs\n` : ''}│ 📎 *File:* ${fileName}`,
+            'success'
+        );
+        
+        await sock.sendMessage(chatId, {
+            document: fs.readFileSync(filePath),
+            mimetype: 'text/vcard',
+            fileName: fileName,
+            caption: successMsg,
+            ...channelInfo
+        }, { quoted: message });
+
+        fs.unlinkSync(filePath);
+        await sock.sendMessage(chatId, { react: { text: "✅", key: message.key } });
+
+    } catch (error) {
+        console.error('VCF error:', error);
+        await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
+        const errorMsg = formatVcfMessage(
+            'EXPORT FAILED',
+            `│ ❌ Failed to export contacts.\n│ 🔧 ${error.message}`,
+            'error'
+        );
+        await sock.sendMessage(chatId, { text: errorMsg, ...channelInfo }, { quoted: message });
+    }
+}
+
+module.exports = vcfCommand;

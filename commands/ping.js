@@ -1,7 +1,94 @@
-// ============================================
-//  Obfuscated by Nabees Tech
-//  Domain: git.nabees.online
-//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
-//  Protected - Do not redistribute
-// ============================================
-const _0x421231=_0x48ee;(function(_0x4bf359,_0x5242a3){const _0x22c2a7=_0x48ee,_0x3613fb=_0x4bf359();while(!![]){try{const _0xa880aa=-parseInt(_0x22c2a7(0x83))/0x1+parseInt(_0x22c2a7(0x81))/0x2*(parseInt(_0x22c2a7(0xa5))/0x3)+-parseInt(_0x22c2a7(0x89))/0x4+-parseInt(_0x22c2a7(0x92))/0x5*(-parseInt(_0x22c2a7(0xb2))/0x6)+parseInt(_0x22c2a7(0x8f))/0x7+-parseInt(_0x22c2a7(0x86))/0x8*(-parseInt(_0x22c2a7(0x98))/0x9)+-parseInt(_0x22c2a7(0xb1))/0xa*(parseInt(_0x22c2a7(0xad))/0xb);if(_0xa880aa===_0x5242a3)break;else _0x3613fb['push'](_0x3613fb['shift']());}catch(_0x597ccb){_0x3613fb['push'](_0x3613fb['shift']());}}}(_0x383e,0x817c6));const settings=require(_0x421231(0xa2)+_0x421231(0x90)),_0x4c3d78={};_0x4c3d78['newsletter'+_0x421231(0x95)]=_0x421231(0x9f)+_0x421231(0x8d)+_0x421231(0x9d),_0x4c3d78[_0x421231(0xab)+_0x421231(0xa6)]=_0x421231(0x93),_0x4c3d78[_0x421231(0xa4)+_0x421231(0xa3)]=0xd;const _0x580a3d={};_0x580a3d['forwarding'+_0x421231(0xac)]=0x3e7,_0x580a3d[_0x421231(0x87)+'d']=!![],_0x580a3d[_0x421231(0x96)+_0x421231(0xa1)+_0x421231(0x97)]=_0x4c3d78;function _0x48ee(_0x57ffdf,_0x3b5c3f){_0x57ffdf=_0x57ffdf-0x81;const _0x383e63=_0x383e();let _0x48eefe=_0x383e63[_0x57ffdf];if(_0x48ee['AeipyI']===undefined){var _0x3bb537=function(_0x37b97e){const _0x263286='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x414947='',_0x51909f='';for(let _0x269cf6=0x0,_0x49e73c,_0x12821b,_0x4bd9da=0x0;_0x12821b=_0x37b97e['charAt'](_0x4bd9da++);~_0x12821b&&(_0x49e73c=_0x269cf6%0x4?_0x49e73c*0x40+_0x12821b:_0x12821b,_0x269cf6++%0x4)?_0x414947+=String['fromCharCode'](0xff&_0x49e73c>>(-0x2*_0x269cf6&0x6)):0x0){_0x12821b=_0x263286['indexOf'](_0x12821b);}for(let _0x4c20d6=0x0,_0x54c4b2=_0x414947['length'];_0x4c20d6<_0x54c4b2;_0x4c20d6++){_0x51909f+='%'+('00'+_0x414947['charCodeAt'](_0x4c20d6)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x51909f);};_0x48ee['unOMSH']=_0x3bb537,_0x48ee['bYhrLh']={},_0x48ee['AeipyI']=!![];}const _0x35ad1c=_0x383e63[0x0],_0x5b895b=_0x57ffdf+_0x35ad1c,_0x94a4e=_0x48ee['bYhrLh'][_0x5b895b];return!_0x94a4e?(_0x48eefe=_0x48ee['unOMSH'](_0x48eefe),_0x48ee['bYhrLh'][_0x5b895b]=_0x48eefe):_0x48eefe=_0x94a4e,_0x48eefe;}const _0x208748={};_0x208748[_0x421231(0xb5)+'o']=_0x580a3d;const newsletterContext=_0x208748;function _0x383e(){const _0x273480=['nJe5oti3qNbVr1LW','BK5cwMm','CMvHy3q','ntG0DxbyufbS','AxngB3j3yxjKzq','kGOkpIaQWQKGqKe','nJC5nJu2A3L5z1PO','BM93','DMvYC2LVBG','A2v5','otK0mJe3nJzaBG','rKXWu1u','mZqZndqWm09tDvrOBW','CY5QCW','BxmQcUkpScbvChrP','mJe2nZq0mfDSuvH4BG','qKfutufoie1e','CNnZ','sMLK','zM9YD2fYzgvKtG','zxnZywDLsw5MBW','mJq3nZDize9rqwe','8j+pKYaQue9orYeQcG','ms4W','zxjYB3i','ve1btIbnrcO','zxDZBgv0DgvY','Dgv4Da','mtiWmZyZmZy3mG','BgvhtgG','zxDZBgv0DgvYtq','lI4VC2v0DgLUzW','ywDLswq','C2vYDMvYtwvZCW','m3zlrunsDq','tMfTzq','zxHWB3j0CW','Bwu6icO','C2vUze1LC3nHzW','Cun0BwO','BMv3C2XLDhrLCG','u2nVCMu','mJj6v1HIy24','CxvVDgvK','Dxb0Aw1L','zMXVB3i','mJq3ntqWmhvgsKTAuq','mtjPAe1WuhC','Aw9UoIaQ','txf0Dg0','y29UDgv4DeLUzG','tuiQcVcFLiqGvMvYCW','nteZndqYrLjXALbI','cUkpSE+4JYbqAw5NoIaQ'];_0x383e=function(){return _0x273480;};return _0x383e();}async function pingCommand(_0x442051,_0x3f8482,_0x1a0912){const _0x25b7bb=_0x421231,_0x2af83a={};_0x2af83a[_0x25b7bb(0x84)]=function(_0x351ea8,_0x37d9b2){return _0x351ea8%_0x37d9b2;},_0x2af83a[_0x25b7bb(0xa0)]=function(_0x21ea87,_0x43c683){return _0x21ea87%_0x43c683;},_0x2af83a['qCtmj']=function(_0x16540b,_0xeaa7d0){return _0x16540b>_0xeaa7d0;},_0x2af83a[_0x25b7bb(0x8e)]=function(_0x11be00,_0x7ab691){return _0x11be00/_0x7ab691;},_0x2af83a[_0x25b7bb(0xb4)]=_0x25b7bb(0x9a);const _0x903649=_0x2af83a;try{const _0xcd51c5={};_0xcd51c5[_0x25b7bb(0x9e)]='🏓',_0xcd51c5[_0x25b7bb(0x8c)]=_0x1a0912[_0x25b7bb(0x8c)];const _0x3b9e5d={};_0x3b9e5d['react']=_0xcd51c5,await _0x442051[_0x25b7bb(0xa9)+'e'](_0x3f8482,_0x3b9e5d);const _0x3fba28=Date[_0x25b7bb(0x8a)](),_0x3c29fb={};_0x3c29fb['text']='🏓';const _0x534375={};_0x534375[_0x25b7bb(0xae)]=_0x1a0912,await _0x442051['sendMessag'+'e'](_0x3f8482,_0x3c29fb,_0x534375);const _0x9454c4=Date[_0x25b7bb(0x8a)](),_0x2cfdfd=_0x9454c4-_0x3fba28,_0x4eb6cb=process[_0x25b7bb(0xaf)](),_0x1f38b5=Math['floor'](_0x4eb6cb/0x15180),_0x27807c=Math[_0x25b7bb(0xb0)](_0x903649[_0x25b7bb(0x84)](_0x4eb6cb,0x15180)/0xe10),_0xee7551=Math[_0x25b7bb(0xb0)](_0x903649['leGLh'](_0x4eb6cb,0xe10)/0x3c),_0x3b5b67=Math[_0x25b7bb(0xb0)](_0x4eb6cb%0x3c);let _0x71c5b3='';if(_0x903649['qCtmj'](_0x1f38b5,0x0))_0x71c5b3+=_0x1f38b5+'d\x20';if(_0x903649[_0x25b7bb(0xaa)](_0x27807c,0x0))_0x71c5b3+=_0x27807c+'h\x20';if(_0x903649[_0x25b7bb(0xaa)](_0xee7551,0x0))_0x71c5b3+=_0xee7551+'m\x20';_0x71c5b3+=_0x3b5b67+'s';const _0x12987e=Math['round'](_0x903649[_0x25b7bb(0x8e)](process['memoryUsag'+'e']()[_0x25b7bb(0x94)]/0x400,0x400)),_0x20b6eb=_0x25b7bb(0x99)+_0x25b7bb(0x82)+_0x2cfdfd+(_0x25b7bb(0x91)+_0x25b7bb(0xa8))+_0x71c5b3+'*\x0a🧠\x20RAM:\x20*'+_0x12987e+(_0x25b7bb(0xb6)+_0x25b7bb(0xb3))+(settings[_0x25b7bb(0x8b)]||_0x903649['Mqttm'])+(_0x25b7bb(0x88)+_0x25b7bb(0x9c)),_0x5c5af7={'text':_0x20b6eb,...newsletterContext},_0xc909ca={};_0xc909ca['quoted']=_0x1a0912,await _0x442051['sendMessag'+'e'](_0x3f8482,_0x5c5af7,_0xc909ca);const _0x2cd747={};_0x2cd747[_0x25b7bb(0x9e)]='✅',_0x2cd747[_0x25b7bb(0x8c)]=_0x1a0912['key'];const _0x2c9b94={};_0x2c9b94[_0x25b7bb(0x85)]=_0x2cd747,await _0x442051['sendMessag'+'e'](_0x3f8482,_0x2c9b94);}catch(_0x15732f){console[_0x25b7bb(0x9b)]('Ping\x20error'+':',_0x15732f);const _0x362818={};_0x362818[_0x25b7bb(0x9e)]='❌',_0x362818[_0x25b7bb(0x8c)]=_0x1a0912[_0x25b7bb(0x8c)];const _0x13c9b6={};_0x13c9b6[_0x25b7bb(0x85)]=_0x362818,await _0x442051[_0x25b7bb(0xa9)+'e'](_0x3f8482,_0x13c9b6);}}module[_0x421231(0xa7)]=pingCommand;
+const settings = require('../settings.js');
+
+// Static contact (same as help.js)
+const fakeMeta = {
+    key: {
+        participant: '0@s.whatsapp.net',
+        remoteJid: 'status@broadcast',
+        fromMe: false,
+        id: 'BATMAN_META_' + Date.now()
+    },
+    message: {
+        contactMessage: {
+            displayName: 'BATMAN MD',
+            vcard: `BEGIN:VCARD\nVERSION:3.0\nN:BATMAN MD;;;;\nFN:BATMAN MD\nTEL;waid=2349049636843:+234 904 963 6843\nEND:VCARD`,
+            sendEphemeral: true
+        }
+    },
+    messageTimestamp: Math.floor(Date.now() / 1000),
+    pushName: 'BATMAN MD'
+};
+
+const THUMB_IMAGE = 'https://aqrmhkzrrmpljrtknrpi.supabase.co/storage/v1/object/public/uploads/4YDNVP.jpg';
+
+function formatUptime(seconds) {
+    const days = Math.floor(seconds / 86400);
+    const hours = Math.floor((seconds % 86400) / 3600);
+    const minutes = Math.floor((seconds % 3600) / 60);
+    const secs = Math.floor(seconds % 60);
+    const parts = [];
+    if (days > 0) parts.push(`${days}d`);
+    if (hours > 0) parts.push(`${hours}h`);
+    if (minutes > 0) parts.push(`${minutes}m`);
+    if (secs > 0 || parts.length === 0) parts.push(`${secs}s`);
+    return parts.join(' ');
+}
+
+async function pingCommand(sock, chatId, message) {
+    try {
+        await sock.sendMessage(chatId, { react: { text: "🏓", key: message.key } });
+
+        const start = Date.now();
+        await sock.sendMessage(chatId, { text: "🏓" }, { quoted: message });
+        const end = Date.now();
+        const ping = end - start;
+
+        const uptimeStr = formatUptime(process.uptime());
+        const memory = Math.round(process.memoryUsage().rss / 1024 / 1024);
+
+        const response = `🏓 *PONG!*
+
+⏱️ Ping: *${ping}ms*
+⏰ Uptime: *${uptimeStr}*
+🧠 RAM: *${memory}MB*
+🔄 Version: *${settings.version || '1.0'}*
+
+> *© BATMAN MD*`;
+
+        await sock.sendMessage(chatId, {
+            document: Buffer.from(' ', 'utf-8'),
+            mimetype: 'application/msword',
+            fileName: `ping.doc`,
+            fileLength: 99999999999999999999999999,
+            caption: response,
+            contextInfo: {
+                forwardingScore: 999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363367299421766@newsletter',
+                    newsletterName: 'BATMAN MD',
+                    serverMessageId: 13
+                },
+                externalAdReply: {
+                    title: 'BATMAN MD',
+                    body: 'System Status • Online',
+                    thumbnailUrl: THUMB_IMAGE,
+                    mediaType: 1,
+                    renderLargerThumbnail: true,
+                    sourceUrl: 'https://nabees.online',
+                    thumbnailHeight: 300,
+                    thumbnailWidth: 300
+                }
+            }
+        }, { quoted: fakeMeta });
+
+        await sock.sendMessage(chatId, { react: { text: "✅", key: message.key } });
+
+    } catch (error) {
+        console.error('Ping error:', error);
+        await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
+        await sock.sendMessage(chatId, { text: "❌ Failed to get ping status." }, { quoted: message });
+    }
+}
+
+module.exports = pingCommand;

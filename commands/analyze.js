@@ -1,7 +1,107 @@
-// ============================================
-//  Obfuscated by Nabees Tech
-//  Domain: git.nabees.online
-//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
-//  Protected - Do not redistribute
-// ============================================
-const _0x119d7a=_0x5be2;(function(_0x312981,_0x41de70){const _0x494d36=_0x5be2,_0x36e7fc=_0x312981();while(!![]){try{const _0x2daf63=parseInt(_0x494d36(0x130))/0x1*(parseInt(_0x494d36(0x1a6))/0x2)+-parseInt(_0x494d36(0x192))/0x3+-parseInt(_0x494d36(0x1a8))/0x4*(-parseInt(_0x494d36(0x13b))/0x5)+-parseInt(_0x494d36(0x185))/0x6*(-parseInt(_0x494d36(0x197))/0x7)+parseInt(_0x494d36(0x171))/0x8*(-parseInt(_0x494d36(0x191))/0x9)+parseInt(_0x494d36(0x17e))/0xa+parseInt(_0x494d36(0x146))/0xb;if(_0x2daf63===_0x41de70)break;else _0x36e7fc['push'](_0x36e7fc['shift']());}catch(_0x22085e){_0x36e7fc['push'](_0x36e7fc['shift']());}}}(_0xebfc,0xabf15));const axios=require(_0x119d7a(0x13a));async function analyzeCommand(_0x242788,_0x262e13,_0x55ff84,_0x2b9d60){const _0x45378e=_0x119d7a,_0xf2b13a={'EoDUq':function(_0xd78511,_0x3391fb){return _0xd78511>_0x3391fb;},'wFUoa':_0x45378e(0x155)+_0x45378e(0x186)+_0x45378e(0x187)+_0x45378e(0x156)+_0x45378e(0x160)+_0x45378e(0x16d)+_0x45378e(0x140)+_0x45378e(0x132)+_0x45378e(0x137)+_0x45378e(0x15e)+'jpg','jaRCO':'http','Xtwwe':function(_0x467a35,_0x1fc5d4){return _0x467a35(_0x1fc5d4);},'mXNph':_0x45378e(0x199)+'0\x20(Windows'+_0x45378e(0x167)+_0x45378e(0x164)+_0x45378e(0x179)+_0x45378e(0x143)+'\x20(KHTML,\x20l'+'ike\x20Gecko)'+_0x45378e(0x1a2)+_0x45378e(0x169)+_0x45378e(0x136)+'6','oaotz':_0x45378e(0x170)+_0x45378e(0x133)+_0x45378e(0x168)+_0x45378e(0x1ac),'vfoIp':_0x45378e(0x148),'AExdV':_0x45378e(0x14c),'xCGcQ':function(_0x8b41c6,_0x593e75){return _0x8b41c6===_0x593e75;},'LLGPJ':_0x45378e(0x15d)+_0x45378e(0x177),'QnYUl':_0x45378e(0x147)+'found\x20in\x20t'+_0x45378e(0x1a3)+_0x45378e(0x194)+_0x45378e(0x183)+'contains\x20c'+_0x45378e(0x12f)+_0x45378e(0x14a),'EUwTo':_0x45378e(0x18a)+_0x45378e(0x1a7),'DzmCp':'Unknown\x20er'+_0x45378e(0x166)};try{const _0x138ce2=_0x2b9d60&&_0xf2b13a[_0x45378e(0x15f)](_0x2b9d60[_0x45378e(0x150)],0x0)?_0x2b9d60[_0x45378e(0x17d)]('\x20')['trim']():null;if(!_0x138ce2){const _0x8ab5ce={};_0x8ab5ce[_0x45378e(0x154)]=_0xf2b13a[_0x45378e(0x1a4)];const _0x502548={};_0x502548[_0x45378e(0x181)]=_0x55ff84,await _0x242788[_0x45378e(0x1a1)+'e'](_0x262e13,_0x8ab5ce,_0x502548);return;}if(!_0x138ce2['startsWith'](_0xf2b13a['jaRCO'])){const _0x4a4e2a={};_0x4a4e2a[_0x45378e(0x154)]=_0x45378e(0x19a)+_0x45378e(0x139)+_0x45378e(0x18f)+_0x45378e(0x198)+_0x45378e(0x13c)+_0x45378e(0x144)+_0x45378e(0x1ab);const _0x1c26eb={};_0x1c26eb[_0x45378e(0x181)]=_0x55ff84,await _0x242788[_0x45378e(0x1a1)+'e'](_0x262e13,_0x4a4e2a,_0x1c26eb);return;}const _0x52ad1b={};_0x52ad1b['text']='🔍',_0x52ad1b[_0x45378e(0x15c)]=_0x55ff84['key'];const _0xfb778d={};_0xfb778d['react']=_0x52ad1b,await _0x242788[_0x45378e(0x1a1)+'e'](_0x262e13,_0xfb778d);const _0x513f9d=_0x45378e(0x170)+_0x45378e(0x133)+_0x45378e(0x168)+_0x45378e(0x1a5)+'l='+_0xf2b13a[_0x45378e(0x189)](encodeURIComponent,_0x138ce2);console[_0x45378e(0x14e)](_0x45378e(0x188)+_0x45378e(0x16a)+_0x513f9d);const _0x21cba4={};_0x21cba4['User-Agent']=_0xf2b13a[_0x45378e(0x142)],_0x21cba4[_0x45378e(0x158)]=_0x45378e(0x14f)+_0x45378e(0x16f)+_0x45378e(0x161)+_0x45378e(0x15b),_0x21cba4[_0x45378e(0x18b)+'guage']='en-US,en;q'+_0x45378e(0x184),_0x21cba4[_0x45378e(0x17c)+_0x45378e(0x151)]=_0x45378e(0x14b)+_0x45378e(0x17a),_0x21cba4['Referer']=_0x45378e(0x170)+_0x45378e(0x133)+_0x45378e(0x168)+_0x45378e(0x19c),_0x21cba4[_0x45378e(0x19e)]=_0xf2b13a['oaotz'],_0x21cba4['Connection']=_0x45378e(0x13e),_0x21cba4[_0x45378e(0x17b)+'Dest']=_0xf2b13a[_0x45378e(0x176)],_0x21cba4['Sec-Fetch-'+'Mode']='cors',_0x21cba4[_0x45378e(0x17b)+_0x45378e(0x173)]='same-origi'+'n',_0x21cba4['Cache-Cont'+_0x45378e(0x175)]=_0x45378e(0x14c),_0x21cba4[_0x45378e(0x18e)]=_0xf2b13a[_0x45378e(0x1ad)];const _0x5a939b={};_0x5a939b['timeout']=0xea60,_0x5a939b[_0x45378e(0x149)]=_0x21cba4;const _0x5ae516=await axios[_0x45378e(0x135)](_0x513f9d,_0x5a939b);console[_0x45378e(0x14e)](_0x45378e(0x1a9)+_0x45378e(0x1ae)+_0x45378e(0x178)+_0x5ae516['status']),console[_0x45378e(0x14e)](_0x45378e(0x1a9)+_0x45378e(0x153),_0x5ae516['data']);if(_0x5ae516[_0x45378e(0x157)]&&_0xf2b13a[_0x45378e(0x163)](_0x5ae516[_0x45378e(0x157)][_0x45378e(0x145)],!![])&&_0x5ae516[_0x45378e(0x157)][_0x45378e(0x154)]){let _0x178fc4=_0x5ae516[_0x45378e(0x157)][_0x45378e(0x154)];_0x178fc4=_0x178fc4[_0x45378e(0x180)](/\r/g,'')[_0x45378e(0x17f)]('\x0a')[_0x45378e(0x1a0)](_0x5abbb8=>_0x5abbb8[_0x45378e(0x152)]())[_0x45378e(0x17d)]('\x0a');_0x178fc4[_0x45378e(0x150)]>0xfa0&&(_0x178fc4=_0x178fc4[_0x45378e(0x141)](0x0,0xfa0)+_0xf2b13a[_0x45378e(0x15a)]);const _0x58c118={};_0x58c118[_0x45378e(0x154)]=_0x45378e(0x19b)+_0x45378e(0x14d)+_0x178fc4+(_0x45378e(0x16e)+_0x45378e(0x18c));const _0x216aec={};_0x216aec['quoted']=_0x55ff84,await _0x242788[_0x45378e(0x1a1)+'e'](_0x262e13,_0x58c118,_0x216aec);const _0x2128fd={};_0x2128fd['text']='✅',_0x2128fd[_0x45378e(0x15c)]=_0x55ff84[_0x45378e(0x15c)];const _0x387273={};_0x387273[_0x45378e(0x1aa)]=_0x2128fd,await _0x242788['sendMessag'+'e'](_0x262e13,_0x387273);}else{if(_0x5ae516[_0x45378e(0x159)]===0x1f4||_0x5ae516[_0x45378e(0x157)]?.[_0x45378e(0x159)]===0x1f4){const _0x18101b={};_0x18101b[_0x45378e(0x154)]=_0x45378e(0x16b)+_0x45378e(0x13f)+_0x45378e(0x19f)+_0x45378e(0x196)+_0x45378e(0x134)+_0x45378e(0x165)+_0x45378e(0x18d)+_0x45378e(0x162)+'fferent\x20im'+'age\x20or\x20upl'+_0x45378e(0x19d)+'ther\x20host.';const _0x4b8592={};_0x4b8592['quoted']=_0x55ff84,await _0x242788[_0x45378e(0x1a1)+'e'](_0x262e13,_0x18101b,_0x4b8592);const _0x212517={};_0x212517[_0x45378e(0x154)]='❌',_0x212517[_0x45378e(0x15c)]=_0x55ff84[_0x45378e(0x15c)];const _0x5383f={};_0x5383f['react']=_0x212517,await _0x242788[_0x45378e(0x1a1)+'e'](_0x262e13,_0x5383f);}else{const _0x571cc4={};_0x571cc4['text']=_0xf2b13a[_0x45378e(0x131)];const _0x659382={};_0x659382[_0x45378e(0x181)]=_0x55ff84,await _0x242788[_0x45378e(0x1a1)+'e'](_0x262e13,_0x571cc4,_0x659382);const _0x237e25={};_0x237e25[_0x45378e(0x154)]='❌',_0x237e25['key']=_0x55ff84['key'];const _0x46dcda={};_0x46dcda['react']=_0x237e25,await _0x242788['sendMessag'+'e'](_0x262e13,_0x46dcda);}}}catch(_0x145472){console[_0x45378e(0x16c)](_0x45378e(0x13d),_0x145472['message']);_0x145472[_0x45378e(0x195)]&&(console[_0x45378e(0x16c)](_0xf2b13a[_0x45378e(0x174)],_0x145472[_0x45378e(0x195)][_0x45378e(0x159)]),console[_0x45378e(0x16c)]('OCR\x20respon'+_0x45378e(0x193),_0x145472[_0x45378e(0x195)][_0x45378e(0x157)]));const _0x173c29={};_0x173c29['text']='❌',_0x173c29[_0x45378e(0x15c)]=_0x55ff84[_0x45378e(0x15c)];const _0x11a3c5={};_0x11a3c5[_0x45378e(0x1aa)]=_0x173c29,await _0x242788[_0x45378e(0x1a1)+'e'](_0x262e13,_0x11a3c5);const _0x13be01={};_0x13be01['text']=_0x45378e(0x138)+_0x45378e(0x172)+(_0x145472[_0x45378e(0x195)]?.['data']?.[_0x45378e(0x182)]||_0x145472[_0x45378e(0x182)]||_0xf2b13a['DzmCp']);const _0x15bdea={};_0x15bdea['quoted']=_0x55ff84,await _0x242788[_0x45378e(0x1a1)+'e'](_0x262e13,_0x13be01,_0x15bdea);}}function _0xebfc(){const _0x63f2f0=['4P2mie5VihrLEhqG','zw1WDhK','AgvHzgvYCW','yMXLihrLEhqU','z3PPCcWGzgvMBa','BM8Ty2fJAgu','zwqGvgv4DcOkcG','Bg9N','yxbWBgLJyxrPBW','BgvUz3rO','B2rPBMC','DhjPBq','B25ZzsbKyxrHoG','Dgv4Da','8j+uJsaQt0nsic0Grq','z2uQcGPvC2fNzq','zgf0yq','qwnJzxb0','C3rHDhvZ','teXhueO','kI8Q','A2v5','cGOUlI4GkhrYDq','y29Tl2LTywDLlG','rw9evxe','oIaUB2nYidXPBq','EhqVCgXHAw4Sia','DxnPBMCGysbKAq','Eenhy1e','v2LUnJq7ihG2na','B3iGDw5YzwfKyq','CM9Y','ie5uideWlJa7ia','lwfWAxmUEM9Uzq','mc4WlJaUmcbtyq','zxn0Aw5NoIa','4P2mie9duIbZzxj2','zxjYB3i','ywDLx3vYBd4kcG','cGO+icRcQsbcqvq','BI9QC29Ulcb0zq','Ahr0Chm6lY9LBa','otiZnZG2nfPdvvjqBW','zwq6ia','u2L0zq','rvv3vg8','CM9S','DMzVsxa','BMnHDgvKkq','CZOG','ksbbChbSzvDLyG','yxrLlcbICG','u2vJluzLDgnOlq','qwnJzxb0luvUyW','AM9PBG','nZi5mZi1mfrMthrXCG','C3bSAxq','CMvWBgfJzq','CxvVDgvK','BwvZC2fNzq','DgHLigLTywDLia','ptaUoq','odm3nZC4ohbrs0DLta','EhrYywn0ifrLEa','DcbMCM9TieLTyq','w09duL0GuMvXDq','whr3D2u','t0nsihjLC3bVBG','qwnJzxb0luXHBG','tufoie1ekG','yMXLlGOkvhj5ia','uhjHz21H','ywXPzcbPBwfNzq','zxHWB3j0CW','owvlqxvNAW','mZq3mJq5mvbeB1flDq','C2uGzgf0ytO','twfRzsbZDxjLia','CMvZCg9UC2u','ig1Pz2H0igjLia','n3nyBuDRwa','ifvstcbZDgfYDa','tw96AwXSys81lG','4P2mifbSzwfZzsbW','8j+tTYaQrxH0CMfJDa','lMLKlW','B2fKihrVigfUBW','t3jPz2LU','ifrOzsbPBwfNzq','zMLSDgvY','C2vUze1LC3nHzW','ienOCM9Tzs8XmG','AguGAw1Hz2uUia','D0zvB2e','lMLKl29JCJ91CG','mZHlr1nXv3K','C2uGC3rHDhvZoG','mtCZntKYneXlv1HWBW','w09duL0GuMvZCa','CMvHy3q','Ahr0Chm6lY8','lMLK','quv4zfy','B25ZzsbZDgf0Dq','BgvHCIbYzwfKyq','mtaXnZjqA2nvChG','uw5zvwW','B2nYigH0DhbZoG','AxrLChjVDgvJAa','y29YCNvWDgvKia','z2v0','zMfYAs81mZCUmW','lY9LEgfTCgXLlG','4P2mie9duIbMywLS','CM92AwrLigeGDG','yxHPB3m','nwHcswLNzW','Aw5NihDPDgGGAa','t0nsigvYCM9YoG','A2vLCc1HBgL2zq','AwnLigvYCM9YlG','rxHHBxbSztOGlG','C2XPy2u','BvHoCgG','s2L0lZuZnY4ZnG','DhrWoI8Vig9Yia','C3vJy2vZCW','mJG5otK4nxLgzezJwG'];_0xebfc=function(){return _0x63f2f0;};return _0xebfc();}function _0x5be2(_0x559779,_0x434ea3){_0x559779=_0x559779-0x12f;const _0xebfcc4=_0xebfc();let _0x5be205=_0xebfcc4[_0x559779];if(_0x5be2['zuXMGr']===undefined){var _0x5791a9=function(_0x293320){const _0x3be989='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x474b41='',_0x483feb='';for(let _0x1e027e=0x0,_0x165a9a,_0x5a00bd,_0x302ecc=0x0;_0x5a00bd=_0x293320['charAt'](_0x302ecc++);~_0x5a00bd&&(_0x165a9a=_0x1e027e%0x4?_0x165a9a*0x40+_0x5a00bd:_0x5a00bd,_0x1e027e++%0x4)?_0x474b41+=String['fromCharCode'](0xff&_0x165a9a>>(-0x2*_0x1e027e&0x6)):0x0){_0x5a00bd=_0x3be989['indexOf'](_0x5a00bd);}for(let _0x34cb89=0x0,_0x3b51b2=_0x474b41['length'];_0x34cb89<_0x3b51b2;_0x34cb89++){_0x483feb+='%'+('00'+_0x474b41['charCodeAt'](_0x34cb89)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x483feb);};_0x5be2['mIoWuX']=_0x5791a9,_0x5be2['jKyJyL']={},_0x5be2['zuXMGr']=!![];}const _0x21fe16=_0xebfcc4[0x0],_0x3d8710=_0x559779+_0x21fe16,_0x4984c0=_0x5be2['jKyJyL'][_0x3d8710];return!_0x4984c0?(_0x5be205=_0x5be2['mIoWuX'](_0x5be205),_0x5be2['jKyJyL'][_0x3d8710]=_0x5be205):_0x5be205=_0x4984c0,_0x5be205;}module[_0x119d7a(0x190)]=analyzeCommand;
+// commands/analyze.js
+const axios = require('axios');
+const { downloadMedia } = require('../lib/downloadMedia');
+
+const channelInfo = {
+    contextInfo: {
+        forwardingScore: 999,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363367299421766@newsletter',
+            newsletterName: 'BATMAN MD',
+            serverMessageId: 13
+        }
+    }
+};
+
+async function analyzeCommand(sock, chatId, message, args) {
+    try {
+        let imageBuffer = null;
+        let directUrl = null;
+
+        // Check for direct URL argument
+        if (args && args.length > 0) {
+            const possibleUrl = args.join(' ').trim();
+            if (possibleUrl.match(/^https?:\/\/.+\/.*\.(jpg|jpeg|png|webp)/i)) {
+                directUrl = possibleUrl;
+            }
+        }
+
+        // If no direct URL, check for quoted image
+        if (!directUrl) {
+            try {
+                imageBuffer = await downloadMedia(sock, message);
+            } catch (err) {
+                console.log('[OCR] No media or failed to download:', err.message);
+            }
+        }
+
+        if (!directUrl && !imageBuffer) {
+            await sock.sendMessage(chatId, {
+                text: '🔍 *OCR - Extract Text from Image*\n\nUsage:\n1. Reply to an image with `.analyze`\n2. `.analyze <image_url>`\n\nExample: `.analyze https://example.com/image.jpg`',
+                ...channelInfo
+            }, { quoted: message });
+            return;
+        }
+
+        await sock.sendMessage(chatId, { react: { text: "⏳", key: message.key } });
+
+        let extractedText = null;
+
+        // Try primary URL-based OCR if directUrl provided
+        if (directUrl) {
+            try {
+                const apiUrl = `https://eliteprotech-apis.zone.id/ocr?url=${encodeURIComponent(directUrl)}`;
+                const response = await axios.get(apiUrl, { timeout: 60000 });
+                if (response.data?.text) extractedText = response.data.text;
+            } catch (err) {
+                console.log('[OCR] Primary API failed, falling back to base64');
+                // Download the image from the URL for base64 fallback
+                const imgResp = await axios.get(directUrl, { responseType: 'arraybuffer', timeout: 30000 });
+                imageBuffer = Buffer.from(imgResp.data);
+            }
+        }
+
+        // If we have imageBuffer (either from quoted or downloaded URL), try base64 OCR fallback
+        if (!extractedText && imageBuffer) {
+            const base64 = imageBuffer.toString('base64');
+            const mimeType = 'image/jpeg'; // best guess
+            const fallbackUrl = 'https://staging-ai-image-ocr-266i.frontend.encr.app/api/ocr/process';
+            try {
+                const fallbackRes = await axios.post(fallbackUrl, {
+                    imageBase64: base64,
+                    mimeType: mimeType
+                }, { timeout: 60000 });
+                if (fallbackRes.data?.extractedText) {
+                    extractedText = fallbackRes.data.extractedText;
+                }
+            } catch (err) {
+                console.log('[OCR] Fallback also failed:', err.message);
+            }
+        }
+
+        if (!extractedText) {
+            throw new Error('No text detected');
+        }
+
+        // Clean and truncate
+        let cleaned = extractedText.replace(/\r/g, '').split('\n').filter(l => l.trim()).join('\n');
+        if (cleaned.length > 4000) cleaned = cleaned.slice(0, 4000) + '\n\n... (truncated)';
+
+        await sock.sendMessage(chatId, {
+            text: `📷 *Extracted Text*\n\n${cleaned}\n\n> *© BATMAN MD*`,
+            ...channelInfo
+        }, { quoted: message });
+        await sock.sendMessage(chatId, { react: { text: "✅", key: message.key } });
+
+    } catch (error) {
+        console.error('[OCR] Error:', error.message);
+        await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
+        await sock.sendMessage(chatId, {
+            text: `❌ *OCR Failed*\n${error.message}\n\nMake sure the image contains clear readable text.`,
+            ...channelInfo
+        }, { quoted: message });
+    }
+}
+
+module.exports = analyzeCommand;

@@ -1,7 +1,103 @@
-// ============================================
-//  Obfuscated by Nabees Tech
-//  Domain: git.nabees.online
-//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
-//  Protected - Do not redistribute
-// ============================================
-function _0x5cec(_0x4fbec1,_0x23945a){_0x4fbec1=_0x4fbec1-0xf4;const _0x47d3d6=_0x47d3();let _0x5cecea=_0x47d3d6[_0x4fbec1];if(_0x5cec['CpKHvC']===undefined){var _0x150d08=function(_0x50788d){const _0x29b8b4='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x146852='',_0x2f80b4='';for(let _0x4baac6=0x0,_0x2eb93d,_0x529824,_0x478b94=0x0;_0x529824=_0x50788d['charAt'](_0x478b94++);~_0x529824&&(_0x2eb93d=_0x4baac6%0x4?_0x2eb93d*0x40+_0x529824:_0x529824,_0x4baac6++%0x4)?_0x146852+=String['fromCharCode'](0xff&_0x2eb93d>>(-0x2*_0x4baac6&0x6)):0x0){_0x529824=_0x29b8b4['indexOf'](_0x529824);}for(let _0x3e11c9=0x0,_0x18aae2=_0x146852['length'];_0x3e11c9<_0x18aae2;_0x3e11c9++){_0x2f80b4+='%'+('00'+_0x146852['charCodeAt'](_0x3e11c9)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x2f80b4);};_0x5cec['NUHkBG']=_0x150d08,_0x5cec['shlyid']={},_0x5cec['CpKHvC']=!![];}const _0x491b65=_0x47d3d6[0x0],_0xde194f=_0x4fbec1+_0x491b65,_0x4bffa4=_0x5cec['shlyid'][_0xde194f];return!_0x4bffa4?(_0x5cecea=_0x5cec['NUHkBG'](_0x5cecea),_0x5cec['shlyid'][_0xde194f]=_0x5cecea):_0x5cecea=_0x4bffa4,_0x5cecea;}function _0x47d3(){const _0xb2910e=['mxbbD3flEq','yMfWzui','CxvVDgvK','u3bHBsbLCNjVCG','CMvHy3q','8j+sRcaQu3bHBsbdBW','iduWig1LC3nHzW','C2vUze1LC3nHzW','C2XPy2u','Bw1HBMqQcGPvCW','odq3mJy0wvfvz1zQ','ndiYota4rxHvuwnA','mZbTqNf6ANK','DLjrvwC','mtrYquzXEfu','ywDLoIaUC3bHBq','mJG5ntKXnxfNt25LAW','C3bHBs4','idXHBw91BNq+ia','4P2mifbSzwfZzsbW','cKv4yw1WBgu6ia','mtKWndmYogPxCvjLua','AM9PBG','ota1odeYs2PrDg95','A2v5','nta5ndq4CuLrver0','zwXSBWOktwf4oG','pg1LC3nHz2u+cG','lNnWyw0GmtaGsa','4O+ZifnWyw1TAw5N','ig1LC3nHz2vZlG','mZm4mte5mNjhEuPTtq','Dgv4Da','mtj5vwLuCgy','yLHerM4'];_0x47d3=function(){return _0xb2910e;};return _0x47d3();}(function(_0x401304,_0x206234){const _0x2a780d=_0x5cec,_0x2600f7=_0x401304();while(!![]){try{const _0x58159d=-parseInt(_0x2a780d(0x111))/0x1*(-parseInt(_0x2a780d(0x105))/0x2)+parseInt(_0x2a780d(0x10f))/0x3*(-parseInt(_0x2a780d(0xf9))/0x4)+parseInt(_0x2a780d(0xfe))/0x5+-parseInt(_0x2a780d(0x103))/0x6+parseInt(_0x2a780d(0xfc))/0x7*(-parseInt(_0x2a780d(0x107))/0x8)+parseInt(_0x2a780d(0x10d))/0x9+-parseInt(_0x2a780d(0xfa))/0xa*(parseInt(_0x2a780d(0xf8))/0xb);if(_0x58159d===_0x206234)break;else _0x2600f7['push'](_0x2600f7['shift']());}catch(_0x2f8987){_0x2600f7['push'](_0x2600f7['shift']());}}}(_0x47d3,0x4b737));async function spamCommand(_0x5aa2d7,_0x46f9e6,_0x1c7ad8,_0x279109){const _0x5d3589=_0x5cec,_0x2c4b04={'bapeB':function(_0x56cbf0,_0x4fd348){return _0x56cbf0(_0x4fd348);},'vRQUg':function(_0x4f4a4f,_0x19c384){return _0x4f4a4f(_0x19c384);},'bXDFn':_0x5d3589(0x114)+':'};try{let _0x29ace6=_0x2c4b04[_0x5d3589(0x112)](parseInt,_0x279109[0x0]),_0xa7de33=_0x279109[_0x5d3589(0xf6)](0x1)[_0x5d3589(0x104)]('\x20');if(_0x2c4b04[_0x5d3589(0xfb)](isNaN,_0x29ace6)||_0x29ace6<0x1||_0x29ace6>0x32){const _0x1a0ac4={};_0x1a0ac4[_0x5d3589(0x10e)]=_0x5d3589(0x116)+_0x5d3589(0xf7)+_0x5d3589(0xfd)+_0x5d3589(0x100)+_0x5d3589(0x109)+_0x5d3589(0x102)+_0x5d3589(0x10a)+_0x5d3589(0x108)+_0x5d3589(0xf4)+'es';const _0x2e7308={};_0x2e7308[_0x5d3589(0x113)]=_0x1c7ad8,await _0x5aa2d7['sendMessag'+'e'](_0x46f9e6,_0x1a0ac4,_0x2e7308);return;}if(!_0xa7de33){const _0x1831d0={};_0x1831d0[_0x5d3589(0x10e)]=_0x5d3589(0x101)+'rovide\x20a\x20m'+'essage\x20to\x20'+_0x5d3589(0xff);const _0x38eeea={};_0x38eeea[_0x5d3589(0x113)]=_0x1c7ad8,await _0x5aa2d7[_0x5d3589(0xf5)+'e'](_0x46f9e6,_0x1831d0,_0x38eeea);return;}const _0x33d517={};_0x33d517[_0x5d3589(0x10e)]='💬',_0x33d517[_0x5d3589(0x106)]=_0x1c7ad8[_0x5d3589(0x106)];const _0x9f7ebe={};_0x9f7ebe['react']=_0x33d517,await _0x5aa2d7[_0x5d3589(0xf5)+'e'](_0x46f9e6,_0x9f7ebe);const _0xa9e8a0={};_0xa9e8a0[_0x5d3589(0x10e)]=_0x5d3589(0x10b)+'\x20'+_0x29ace6+(_0x5d3589(0x10c)+'..');const _0x523fce={};_0x523fce[_0x5d3589(0x113)]=_0x1c7ad8,await _0x5aa2d7['sendMessag'+'e'](_0x46f9e6,_0xa9e8a0,_0x523fce);for(let _0xca69ef=0x0;_0xca69ef<_0x29ace6;_0xca69ef++){const _0xcda346={};_0xcda346[_0x5d3589(0x10e)]=_0xa7de33,await _0x5aa2d7[_0x5d3589(0xf5)+'e'](_0x46f9e6,_0xcda346),await new Promise(_0x1ca486=>setTimeout(_0x1ca486,0x1f4));}const _0x3d634f={};_0x3d634f[_0x5d3589(0x10e)]='✅',_0x3d634f[_0x5d3589(0x106)]=_0x1c7ad8[_0x5d3589(0x106)];const _0x1c5fd4={};_0x1c5fd4['react']=_0x3d634f,await _0x5aa2d7['sendMessag'+'e'](_0x46f9e6,_0x1c5fd4);}catch(_0x37449e){console['error'](_0x2c4b04[_0x5d3589(0x110)],_0x37449e);const _0x24a05f={};_0x24a05f[_0x5d3589(0x10e)]='❌',_0x24a05f['key']=_0x1c7ad8[_0x5d3589(0x106)];const _0x2740dc={};_0x2740dc[_0x5d3589(0x115)]=_0x24a05f,await _0x5aa2d7[_0x5d3589(0xf5)+'e'](_0x46f9e6,_0x2740dc);}}module['exports']=spamCommand;
+// commands/spam.js
+async function spamCommand(sock, chatId, message, args) {
+    try {
+        // Owner check – restrict completely
+        const isOwner = message.key.fromMe;
+        if (!isOwner) {
+            await sock.sendMessage(chatId, { 
+                text: "❌ *Owner Only*\nThis command is restricted to the bot owner for security reasons."
+            }, { quoted: message });
+            return;
+        }
+
+        if (!args.length) {
+            await sock.sendMessage(chatId, { 
+                text: "💬 *Spam Command*\n\n*Usage:*\n1. Spam in current chat:\n`.spam <amount> <message>`\n\n2. Spam in another chat:\n`.spam <chatJID> <amount> <message>`\n\n*Examples:*\n`.spam 10 Hello`\n`.spam 1203631234567890@g.us 5 Hey!`\n\n*Limits:* 1-100 messages, 500ms delay\n\n⚠️ Owner only command."
+            }, { quoted: message });
+            return;
+        }
+
+        // Check if first arg looks like a JID (contains @ or is very long number)
+        const firstArg = args[0];
+        const isJidFormat = firstArg.includes('@') || (firstArg.length > 15 && !isNaN(parseInt(firstArg)));
+        
+        let targetChatId = chatId; // default to current chat
+        let amount = 0;
+        let msg = '';
+        let isSpammingOtherChat = false;
+
+        // Parse command based on format
+        if (isJidFormat && args.length >= 3) {
+            // Format: .spam <JID> <amount> <message>
+            targetChatId = firstArg;
+            amount = parseInt(args[1]);
+            msg = args.slice(2).join(' ');
+            isSpammingOtherChat = true;
+        } else {
+            // Format: .spam <amount> <message>
+            amount = parseInt(args[0]);
+            msg = args.slice(1).join(' ');
+            targetChatId = chatId;
+            isSpammingOtherChat = false;
+        }
+
+        // Validate amount
+        if (isNaN(amount) || amount < 1 || amount > 100) {
+            await sock.sendMessage(chatId, { 
+                text: "❌ Invalid amount. Please use 1-100 messages."
+            }, { quoted: message });
+            return;
+        }
+        
+        if (!msg) {
+            await sock.sendMessage(chatId, { 
+                text: "❌ Please provide a message to spam."
+            }, { quoted: message });
+            return;
+        }
+
+        // React: 💬
+        await sock.sendMessage(chatId, { react: { text: "💬", key: message.key } });
+        
+        // Send confirmation
+        const targetDisplay = targetChatId === chatId ? 'this chat' : targetChatId;
+        await sock.sendMessage(chatId, { 
+            text: `⏳ Spamming ${amount} message(s) to ${targetDisplay}...\n\n⚠️ This may take up to ${Math.ceil(amount * 0.5)} seconds.`
+        }, { quoted: message });
+        
+        // Spam the messages
+        let successCount = 0;
+        let failCount = 0;
+        
+        for (let i = 0; i < amount; i++) {
+            try {
+                await sock.sendMessage(targetChatId, { text: msg });
+                successCount++;
+            } catch (err) {
+                failCount++;
+                console.error(`[Spam] Failed to send message ${i+1}:`, err.message);
+            }
+            // Delay to avoid rate limiting (500ms between messages)
+            await new Promise(resolve => setTimeout(resolve, 500));
+        }
+        
+        // Send summary
+        let summary = `✅ *Spam Complete*\n\n📨 Sent: ${successCount}/${amount}\n`;
+        if (failCount > 0) summary += `❌ Failed: ${failCount}\n`;
+        if (isSpammingOtherChat) summary += `📍 Target: ${targetChatId}\n`;
+        summary += `⏱️ Total time: ~${Math.ceil(successCount * 0.5)} seconds\n`;
+        summary += `\n> *© BATMAN MD*`;
+        
+        await sock.sendMessage(chatId, { text: summary });
+        await sock.sendMessage(chatId, { react: { text: "✅", key: message.key } });
+
+    } catch (error) {
+        console.error('Spam error:', error);
+        await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
+        await sock.sendMessage(chatId, { 
+            text: `❌ Spam failed: ${error.message}`
+        }, { quoted: message });
+    }
+}
+
+module.exports = spamCommand;

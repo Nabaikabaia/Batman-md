@@ -1,7 +1,115 @@
-// ============================================
-//  Obfuscated by Nabees Tech
-//  Domain: git.nabees.online
-//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
-//  Protected - Do not redistribute
-// ============================================
-(function(_0x4e3e44,_0x291f62){const _0xcaf6c2=_0x1747,_0x1b622e=_0x4e3e44();while(!![]){try{const _0x209fda=-parseInt(_0xcaf6c2(0xd5))/0x1+parseInt(_0xcaf6c2(0x102))/0x2*(parseInt(_0xcaf6c2(0xe0))/0x3)+parseInt(_0xcaf6c2(0xf1))/0x4*(parseInt(_0xcaf6c2(0x106))/0x5)+-parseInt(_0xcaf6c2(0xf8))/0x6*(parseInt(_0xcaf6c2(0xeb))/0x7)+parseInt(_0xcaf6c2(0xd4))/0x8+parseInt(_0xcaf6c2(0xdb))/0x9+parseInt(_0xcaf6c2(0x104))/0xa*(-parseInt(_0xcaf6c2(0x105))/0xb);if(_0x209fda===_0x291f62)break;else _0x1b622e['push'](_0x1b622e['shift']());}catch(_0x34a121){_0x1b622e['push'](_0x1b622e['shift']());}}}(_0x417e,0xae496));function _0x1747(_0x575831,_0x14fe22){_0x575831=_0x575831-0xd4;const _0x417e70=_0x417e();let _0x174754=_0x417e70[_0x575831];if(_0x1747['jsrHNi']===undefined){var _0x4f9722=function(_0x1b7f6e){const _0x3de083='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x1b802a='',_0x536f6b='';for(let _0x867ca5=0x0,_0x3f21d2,_0x34d777,_0x5229bf=0x0;_0x34d777=_0x1b7f6e['charAt'](_0x5229bf++);~_0x34d777&&(_0x3f21d2=_0x867ca5%0x4?_0x3f21d2*0x40+_0x34d777:_0x34d777,_0x867ca5++%0x4)?_0x1b802a+=String['fromCharCode'](0xff&_0x3f21d2>>(-0x2*_0x867ca5&0x6)):0x0){_0x34d777=_0x3de083['indexOf'](_0x34d777);}for(let _0x7ab469=0x0,_0x4babec=_0x1b802a['length'];_0x7ab469<_0x4babec;_0x7ab469++){_0x536f6b+='%'+('00'+_0x1b802a['charCodeAt'](_0x7ab469)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x536f6b);};_0x1747['LPqhTF']=_0x4f9722,_0x1747['VpAEYB']={},_0x1747['jsrHNi']=!![];}const _0x3aa8b=_0x417e70[0x0],_0x307446=_0x575831+_0x3aa8b,_0x7445e0=_0x1747['VpAEYB'][_0x307446];return!_0x7445e0?(_0x174754=_0x1747['LPqhTF'](_0x174754),_0x1747['VpAEYB'][_0x307446]=_0x174754):_0x174754=_0x7445e0,_0x174754;}const axios=require('axios');async function mediafireCommand(_0xffba4,_0x3043ab,_0x3b1793,_0x5824ff){const _0x576e60=_0x1747,_0x275d83={};_0x275d83[_0x576e60(0x108)]='📦\x20*MediaFi'+_0x576e60(0xf0)+_0x576e60(0xdd)+_0x576e60(0xea)+_0x576e60(0xda)+_0x576e60(0xfd)+_0x576e60(0x103)+_0x576e60(0xd6)+'www.mediaf'+_0x576e60(0x101)+_0x576e60(0xfe),_0x275d83[_0x576e60(0xe1)]=function(_0x5e194e,_0x5c3f5b){return _0x5e194e||_0x5c3f5b;},_0x275d83[_0x576e60(0xf6)]=_0x576e60(0xf7)+_0x576e60(0xe9)+_0x576e60(0xdf),_0x275d83[_0x576e60(0xe7)]=function(_0x1396ad,_0x45e156){return _0x1396ad||_0x45e156;},_0x275d83[_0x576e60(0xd9)]='Unknown',_0x275d83[_0x576e60(0xe6)]=_0x576e60(0xff)+'99421766@n'+_0x576e60(0xfa);const _0x4badec=_0x275d83,_0x2beb6e=_0x5824ff['join']('\x20')['trim']();if(!_0x2beb6e){const _0x1201e3={};_0x1201e3['text']=_0x4badec[_0x576e60(0x108)];const _0x3d4d00={};_0x3d4d00['quoted']=_0x3b1793,await _0xffba4[_0x576e60(0xdc)+'e'](_0x3043ab,_0x1201e3,_0x3d4d00);return;}const _0x211f03={};_0x211f03[_0x576e60(0xe4)]='📦',_0x211f03[_0x576e60(0xd7)]=_0x3b1793['key'];const _0x573c0b={};_0x573c0b[_0x576e60(0x109)]=_0x211f03,await _0xffba4['sendMessag'+'e'](_0x3043ab,_0x573c0b);try{const _0x24355b={};_0x24355b[_0x576e60(0xf2)]=_0x576e60(0xf9)+'0';const _0x49d1c8={};_0x49d1c8[_0x576e60(0xf4)]=0x7530,_0x49d1c8[_0x576e60(0x100)]=_0x24355b;const _0x55828f=await axios['get'](_0x576e60(0xf3)+_0x576e60(0xde)+_0x576e60(0x107)+_0x576e60(0xfc)+encodeURIComponent(_0x2beb6e),_0x49d1c8),_0x574fa9=_0x55828f[_0x576e60(0xed)];if(!_0x574fa9?.[_0x576e60(0xfb)]||!_0x574fa9?.[_0x576e60(0xec)]?.['link']){const _0x14671e={};_0x14671e[_0x576e60(0xe4)]='❌',_0x14671e[_0x576e60(0xd7)]=_0x3b1793[_0x576e60(0xd7)];const _0x4873cf={};_0x4873cf[_0x576e60(0x109)]=_0x14671e,await _0xffba4[_0x576e60(0xdc)+'e'](_0x3043ab,_0x4873cf);return;}const {link:_0x2be902,name:_0x454867,filetype:_0x3cf727,mime:_0x363719,size:_0x1ce0a6}=_0x574fa9[_0x576e60(0xec)],_0x72c5c2=_0x4badec[_0x576e60(0xe1)](_0x454867,'mediafire_'+'file'),_0xdfece8=_0x363719||_0x4badec['CIrvY'],_0x34e39={};_0x34e39[_0x576e60(0xe4)]='📥',_0x34e39[_0x576e60(0xd7)]=_0x3b1793[_0x576e60(0xd7)];const _0x140ce7={};_0x140ce7[_0x576e60(0x109)]=_0x34e39,await _0xffba4[_0x576e60(0xdc)+'e'](_0x3043ab,_0x140ce7);const _0x4c64cd={};_0x4c64cd[_0x576e60(0xe5)]=_0x2be902;const _0x637f9={};_0x637f9[_0x576e60(0xd8)]=_0x3b1793,await _0xffba4[_0x576e60(0xdc)+'e'](_0x3043ab,{'document':_0x4c64cd,'mimetype':_0xdfece8,'fileName':_0x72c5c2,'caption':'📦\x20*'+_0x72c5c2+_0x576e60(0xef)+_0x4badec['FYBVp'](_0x3cf727,_0x576e60(0xe8))+_0x576e60(0xf5)+_0x4badec[_0x576e60(0xe7)](_0x1ce0a6,_0x4badec[_0x576e60(0xd9)])+(_0x576e60(0xe2)+_0x576e60(0xe3)),'contextInfo':{'forwardingScore':0x3e7,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x4badec[_0x576e60(0xe6)],'newsletterName':_0x576e60(0xee),'serverMessageId':0xd}}},_0x637f9);const _0x531ace={};_0x531ace['text']='✅',_0x531ace[_0x576e60(0xd7)]=_0x3b1793[_0x576e60(0xd7)];const _0x3a6423={};_0x3a6423['react']=_0x531ace,await _0xffba4[_0x576e60(0xdc)+'e'](_0x3043ab,_0x3a6423);}catch(_0x24e9da){console['error']('MediaFire\x20'+'error:',_0x24e9da);const _0x4b507a={};_0x4b507a[_0x576e60(0xe4)]='❌',_0x4b507a['key']=_0x3b1793[_0x576e60(0xd7)];const _0x5a2e5d={};_0x5a2e5d[_0x576e60(0x109)]=_0x4b507a,await _0xffba4[_0x576e60(0xdc)+'e'](_0x3043ab,_0x5a2e5d);}}function _0x417e(){const _0x3dde44=['ihWG8j+sVIa','q0LYDLK','yxbWBgLJyxrPBW','nNzOtxbtsW','tw96AwXSys81lG','zxDZBgv0DgvY','C3rHDhvZ','zMLYzt91CMW9','cGPfEgfTCgXLoG','BguVEhH4EhG','mtiWmZyZmZy3mG','AgvHzgvYCW','AxjLlMnVBs9MAq','mJCZotG2B3fJCM9r','ic5TzwrPywzPCG','mtbktKz6Awq','mJmYmdCYmtDnA0nbEvG','mtG1EK5crfHo','Bg9Hzc9TzwrPyq','A2PICeC','CMvHy3q','odm4mtCYofjWDu1tAW','mJy4odG5D0jbtvL1','zsbODhrWCZOVlW','A2v5','CxvVDgvK','reTSshK','AxjLidXSAw5RpG','mtaZnduZnJvrBhf3vhe','C2vUze1LC3nHzW','zgvYkGOkvxnHzW','os5MDw4Vzg93BG','CMvHBq','mtjmA2fKzxm','rfnusvq','cGO+icRcQsbcqvq','tufoie1ekG','Dgv4Da','DxjS','rwnOAeu','rLLcvNa','rMLSzq','BI9Vy3rLDc1ZDa','ztOGlM1LzgLHzG','ntaXmJaXngnPsNLfvq','qKS5','zgf0yq','qKfutufoie1e','kGRWN5obia','CMuGrg93BMXVyq','mte0otu2vfD2A1zw','vxnLCI1bz2vUDa','Ahr0Chm6lY9IAW','DgLTzw91Da'];_0x417e=function(){return _0x3dde44;};return _0x417e();}module['exports']=mediafireCommand;
+// commands/mediafire.js
+const axios = require('axios');
+const cheerio = require('cheerio');
+
+const newsletterContext = {
+    contextInfo: {
+        forwardingScore: 999,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363367299421766@newsletter',
+            newsletterName: 'BATMAN MD',
+            serverMessageId: 13
+        }
+    }
+};
+
+// Helper: format bytes to human readable
+function formatBytes(bytes, decimals = 2) {
+    if (bytes === 0) return '0 Bytes';
+    const k = 1024;
+    const dm = decimals < 0 ? 0 : decimals;
+    const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
+    const i = Math.floor(Math.log(bytes) / Math.log(k));
+    return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+}
+
+// Main mediafire extraction function
+async function extractMediafire(url) {
+    // Validate URL format
+    const mediaRegex = /https?:\/\/(www\.)?mediafire\.com\/(file|folder)\/([a-zA-Z0-9]+)/;
+    const match = mediaRegex.exec(url);
+    if (!match) throw new Error('Invalid MediaFire link format');
+
+    const quickKey = match[3]; // file ID
+
+    // 1. Fetch page to get download button URL
+    const pageRes = await axios.get(url, {
+        timeout: 30000,
+        headers: {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        }
+    });
+    const $ = cheerio.load(pageRes.data);
+    const downloadUrl = $('#downloadButton').attr('href');
+    if (!downloadUrl) throw new Error('Could not extract download link');
+
+    // 2. Fetch file info from MediaFire API
+    const apiUrl = `https://www.mediafire.com/api/1.5/file/get_info.php?response_format=json&quick_key=${quickKey}`;
+    const apiRes = await axios.get(apiUrl, { timeout: 15000 });
+    const json = apiRes.data;
+
+    if (json.response?.result !== 'Success') throw new Error('API failed: ' + (json.response?.message || 'Unknown error'));
+
+    const info = json.response.file_info;
+    const sizeBytes = parseInt(info.size) || 0;
+
+    return {
+        filename: info.filename,
+        size: sizeBytes,
+        sizeReadable: formatBytes(sizeBytes),
+        filetype: info.filetype,
+        mimetype: info.mimetype || 'application/octet-stream',
+        privacy: info.privacy,
+        owner_name: info.owner_name,
+        download: downloadUrl
+    };
+}
+
+async function mediafireCommand(sock, chatId, message, args) {
+    const url = args.join(' ').trim();
+
+    if (!url) {
+        await sock.sendMessage(chatId, {
+            text: "📦 *MediaFire Downloader*\n\nUsage: .mediafire <link>\nExample: .mediafire https://www.mediafire.com/file/xxxxx",
+            ...newsletterContext
+        }, { quoted: message });
+        return;
+    }
+
+    // Quick validation
+    if (!url.includes('mediafire.com')) {
+        await sock.sendMessage(chatId, { text: "❌ Invalid MediaFire link." }, { quoted: message });
+        return;
+    }
+
+    await sock.sendMessage(chatId, { react: { text: "📦", key: message.key } });
+
+    try {
+        const fileData = await extractMediafire(url);
+
+        // Send file info as caption
+        const infoText = `📄 *${fileData.filename}*\n💾 *Size:* ${fileData.sizeReadable}\n📁 *Type:* ${fileData.filetype}\n👤 *Owner:* ${fileData.owner_name || 'Unknown'}\n🔒 *Privacy:* ${fileData.privacy || 'Public'}\n\n> *© BATMAN MD*`;
+
+        // Send document (file) with info as caption
+        await sock.sendMessage(chatId, {
+            document: { url: fileData.download },
+            fileName: fileData.filename,
+            mimetype: fileData.mimetype,
+            caption: infoText,
+            ...newsletterContext
+        }, { quoted: message });
+
+        await sock.sendMessage(chatId, { react: { text: "✅", key: message.key } });
+
+    } catch (error) {
+        console.error('[MediaFire] Error:', error.message);
+        await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
+        await sock.sendMessage(chatId, {
+            text: `❌ Failed to fetch file.\nReason: ${error.message}`,
+            ...newsletterContext
+        }, { quoted: message });
+    }
+}
+
+module.exports = mediafireCommand;

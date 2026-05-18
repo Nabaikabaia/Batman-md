@@ -1,7 +1,184 @@
-// ============================================
-//  Obfuscated by Nabees Tech
-//  Domain: git.nabees.online
-//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
-//  Protected - Do not redistribute
-// ============================================
-const _0x36c70d=_0x1f8e;(function(_0x4a25b1,_0x18054d){const _0x593555=_0x1f8e,_0x1f56f5=_0x4a25b1();while(!![]){try{const _0x4023f0=-parseInt(_0x593555(0x1df))/0x1+-parseInt(_0x593555(0x1e0))/0x2*(-parseInt(_0x593555(0x1d6))/0x3)+parseInt(_0x593555(0x1c8))/0x4+-parseInt(_0x593555(0x1eb))/0x5+-parseInt(_0x593555(0x1b5))/0x6*(parseInt(_0x593555(0x1b8))/0x7)+parseInt(_0x593555(0x1db))/0x8*(parseInt(_0x593555(0x1b6))/0x9)+parseInt(_0x593555(0x1c3))/0xa;if(_0x4023f0===_0x18054d)break;else _0x1f56f5['push'](_0x1f56f5['shift']());}catch(_0x239307){_0x1f56f5['push'](_0x1f56f5['shift']());}}}(_0xeac9,0xd2783));const {exec}=require(_0x36c70d(0x1b1)+_0x36c70d(0x1dc)),util=require('util'),execPromise=util[_0x36c70d(0x1d8)](exec),settings=require(_0x36c70d(0x1e1)+'s');function _0x1f8e(_0xb6028a,_0x25066e){_0xb6028a=_0xb6028a-0x1b0;const _0xeac92d=_0xeac9();let _0x1f8e55=_0xeac92d[_0xb6028a];if(_0x1f8e['NLovlR']===undefined){var _0x39474d=function(_0x589c25){const _0x151252='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x574c2b='',_0x38d9a2='';for(let _0x1951c7=0x0,_0x142e3e,_0x1e9ab4,_0x26e8c2=0x0;_0x1e9ab4=_0x589c25['charAt'](_0x26e8c2++);~_0x1e9ab4&&(_0x142e3e=_0x1951c7%0x4?_0x142e3e*0x40+_0x1e9ab4:_0x1e9ab4,_0x1951c7++%0x4)?_0x574c2b+=String['fromCharCode'](0xff&_0x142e3e>>(-0x2*_0x1951c7&0x6)):0x0){_0x1e9ab4=_0x151252['indexOf'](_0x1e9ab4);}for(let _0x4d9069=0x0,_0x5b357e=_0x574c2b['length'];_0x4d9069<_0x5b357e;_0x4d9069++){_0x38d9a2+='%'+('00'+_0x574c2b['charCodeAt'](_0x4d9069)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x38d9a2);};_0x1f8e['AbJIKD']=_0x39474d,_0x1f8e['khtfqF']={},_0x1f8e['NLovlR']=!![];}const _0x12dffd=_0xeac92d[0x0],_0x56290d=_0xb6028a+_0x12dffd,_0x387ecd=_0x1f8e['khtfqF'][_0x56290d];return!_0x387ecd?(_0x1f8e55=_0x1f8e['AbJIKD'](_0x1f8e55),_0x1f8e['khtfqF'][_0x56290d]=_0x1f8e55):_0x1f8e55=_0x387ecd,_0x1f8e55;}function _0xeac9(){const _0x1fcb2a=['C2vUze1LC3nHzW','Dg9mB3DLCKnHCW','nJq3otyXnw5crgHIBG','w1rLCM1PBMfSxq','4P2mie93BMvYig9U','vePxveC','BhKGy29TBwfUza','BhbPB0W','zNjVBu1LigzSyq','zxjYB3i','CMvWBgfJzq','C3vKBW','Aw5JBhvKzxm','y2HPBgrFChjVyW','4P2micPfCNjVCIOk','DhjPBq','zxHWB3j0CW','mZe4C1HpuNHx','mJe1mxfpBLziAW','odqZ','nZG0ndLPvfftwxu','Bg9N','cGOUlI4GkhrYDq','mJm0ota0otyZnG','Cc5Uzxq','CMvTB3rLsMLK','ChvZAe5HBwu','CMvHy3q','BMnHDgvKkq','cI5LEgvJigXZia','8j+sUYaQvgvYBwLUyq','nJyYmtqWtvbxAu1c','CgfYDgLJAxbHBG','Bwf0y2G','4PUuiejSB2nRzwqU','cMbGya','mty1mdyZnMrdwfjuqW','CxvVDgvK','ifb1C2Hoyw1LoG','ie93BMvYigrLDa','ueH5r08','C2H1DgrVD24','zNjVBu1L','BxLqyLa','y2HTB2qGnZC3','zgqGAwy9','ygbGcG','DxnLCG','yMvYoIa','A2v5','mJiXnhjMqMneuq','vgvYBwLUywWGzq','ChjVBwLZAwz5','cKv4yw1WBgvZoG','kGPGygak','ntm4mZj4sun2D0S','zxnZ','CM0GlxjM','qhmUD2HHDhnHCa','mJiYotqXDfrpuxve','mJqWnNfUr05Osq','lI4VC2v0DgLUzW','zxHLyYbKzIaTAa','C3bSAxq','pgnVBw1HBMq+cG','4PYtierVBMu','C2XPy2u','Dgv4Da','sMfzyxC'];_0xeac9=function(){return _0x1fcb2a;};return _0xeac9();}async function terminalCommand(_0x27379e,_0x561fdd,_0x451759,_0x4b3fff){const _0x3cc17b=_0x36c70d,_0x15ceeb={};_0x15ceeb[_0x3cc17b(0x1cf)]=_0x3cc17b(0x1bb)+_0x3cc17b(0x1b7),_0x15ceeb['TJWTG']='reboot',_0x15ceeb['PTjtC']='mkfs',_0x15ceeb[_0x3cc17b(0x1e8)]=_0x3cc17b(0x1d0),_0x15ceeb['PHyGO']='kill\x20-9',_0x15ceeb['lpioL']=function(_0x44318a,_0x5116df){return _0x44318a*_0x5116df;};const _0x5e5310=_0x15ceeb;try{const _0x5d2f4c=_0x451759['key'][_0x3cc17b(0x1c4)+'t']||_0x451759['key'][_0x3cc17b(0x1bd)],_0x9b46a9=settings['ownerNumbe'+'r']||_0x5e5310[_0x3cc17b(0x1cf)];let _0x58e683='';(_0x5d2f4c['includes']('@lid')||_0x5d2f4c[_0x3cc17b(0x1b0)](_0x3cc17b(0x1de)+_0x3cc17b(0x1bc)))&&(_0x451759[_0x3cc17b(0x1be)]&&console[_0x3cc17b(0x1b9)]('[Terminal]'+_0x3cc17b(0x1ca)+'\x20'+_0x451759[_0x3cc17b(0x1be)]+(',\x20SenderID'+':\x20')+_0x5d2f4c));_0x451759[_0x3cc17b(0x1d5)]['fromMe']&&(_0x58e683=_0x9b46a9,console['log'](_0x3cc17b(0x1ec)+_0x3cc17b(0x1cb)+'ected\x20via\x20'+_0x3cc17b(0x1f1)+'g'));if(!_0x58e683){const _0x5285e6=_0x5d2f4c[_0x3cc17b(0x1c5)](/\d{10,15}/g);_0x5285e6&&_0x5285e6['length']>0x0&&(_0x58e683=_0x5285e6[0x0]);}const _0xaeb87c=_0x27379e[_0x3cc17b(0x1d3)]['id'][_0x3cc17b(0x1e3)](':')[0x0][_0x3cc17b(0x1f3)](/[^0-9]/g,'');_0x58e683===_0xaeb87c&&(_0x58e683=_0x9b46a9);console['log']('[Terminal]'+'\x20SenderNum'+_0x3cc17b(0x1d4)+_0x58e683+(',\x20OwnerNum'+_0x3cc17b(0x1d4))+_0x9b46a9);if(_0x58e683!==_0x9b46a9&&!_0x451759[_0x3cc17b(0x1d5)][_0x3cc17b(0x1ce)]){const _0x177bd0={};_0x177bd0[_0x3cc17b(0x1e7)]=_0x3cc17b(0x1ed)+_0x3cc17b(0x1ef)+'.';const _0x42de96={};_0x42de96[_0x3cc17b(0x1c9)]=_0x451759,await _0x27379e[_0x3cc17b(0x1e9)+'e'](_0x561fdd,_0x177bd0,_0x42de96);return;}const _0x428f72=_0x4b3fff['join']('\x20');if(!_0x428f72){const _0x26ae68={};_0x26ae68[_0x3cc17b(0x1e7)]=_0x3cc17b(0x1c2)+'l*\x0a\x0a.exec\x20'+_0x3cc17b(0x1e4)+_0x3cc17b(0x1d9)+_0x3cc17b(0x1c1)+'-la\x0a.exec\x20'+'pm2\x20list\x0a.'+_0x3cc17b(0x1e2);const _0x5be1ed={};_0x5be1ed[_0x3cc17b(0x1c9)]=_0x451759,await _0x27379e['sendMessag'+'e'](_0x561fdd,_0x26ae68,_0x5be1ed);return;}const _0x5361a2={};_0x5361a2[_0x3cc17b(0x1e7)]='💻',_0x5361a2[_0x3cc17b(0x1d5)]=_0x451759[_0x3cc17b(0x1d5)];const _0x27ed34={};_0x27ed34[_0x3cc17b(0x1bf)]=_0x5361a2,await _0x27379e[_0x3cc17b(0x1e9)+'e'](_0x561fdd,_0x27ed34);const _0x4bd7be=[_0x3cc17b(0x1dd),_0x3cc17b(0x1f4),_0x5e5310[_0x3cc17b(0x1ee)],_0x3cc17b(0x1cd),_0x5e5310['PTjtC'],_0x3cc17b(0x1d1),_0x5e5310[_0x3cc17b(0x1e8)],_0x5e5310[_0x3cc17b(0x1cc)]];for(const _0x22e392 of _0x4bd7be){if(_0x428f72[_0x3cc17b(0x1ea)+'e']()[_0x3cc17b(0x1b0)](_0x22e392)){const _0xe9fc98={};_0xe9fc98[_0x3cc17b(0x1e7)]=_0x3cc17b(0x1c6);const _0x61fecf={};_0x61fecf[_0x3cc17b(0x1c9)]=_0x451759,await _0x27379e['sendMessag'+'e'](_0x561fdd,_0xe9fc98,_0x61fecf);const _0x5f0fff={};_0x5f0fff['text']='⛔',_0x5f0fff[_0x3cc17b(0x1d5)]=_0x451759[_0x3cc17b(0x1d5)];const _0x577502={};_0x577502['react']=_0x5f0fff,await _0x27379e[_0x3cc17b(0x1e9)+'e'](_0x561fdd,_0x577502);return;}}try{const {stdout:_0x532ec6,stderr:_0x7a54d3}=await execPromise(_0x428f72,{'timeout':0x7530,'maxBuffer':_0x5e5310[_0x3cc17b(0x1f0)](_0x5e5310[_0x3cc17b(0x1f0)](0xa,0x400),0x400)});let _0xf464f7=_0x532ec6||_0x7a54d3;if(!_0xf464f7||_0xf464f7[_0x3cc17b(0x1b3)]()==='')_0xf464f7=_0x3cc17b(0x1e5);if(_0xf464f7['length']>0xfa0)_0xf464f7=_0xf464f7[_0x3cc17b(0x1e6)](0x0,0xfa0)+(_0x3cc17b(0x1ba)+_0x3cc17b(0x1c0));const _0x42f415={};_0x42f415[_0x3cc17b(0x1e7)]='💻\x20*'+_0x428f72+_0x3cc17b(0x1da)+_0xf464f7+_0x3cc17b(0x1c7);const _0x1ef602={};_0x1ef602['quoted']=_0x451759,await _0x27379e[_0x3cc17b(0x1e9)+'e'](_0x561fdd,_0x42f415,_0x1ef602);const _0x2bc279={};_0x2bc279['text']='✅',_0x2bc279[_0x3cc17b(0x1d5)]=_0x451759[_0x3cc17b(0x1d5)];const _0x528e4b={};_0x528e4b[_0x3cc17b(0x1bf)]=_0x2bc279,await _0x27379e['sendMessag'+'e'](_0x561fdd,_0x528e4b);}catch(_0xe02aa7){const _0x3eb57e={};_0x3eb57e[_0x3cc17b(0x1e7)]=_0x3cc17b(0x1b2)+_0x3cc17b(0x1d2)+_0xe02aa7['message']+'\x0a```';const _0x277585={};_0x277585[_0x3cc17b(0x1c9)]=_0x451759,await _0x27379e[_0x3cc17b(0x1e9)+'e'](_0x561fdd,_0x3eb57e,_0x277585);const _0x225624={};_0x225624[_0x3cc17b(0x1e7)]='❌',_0x225624['key']=_0x451759[_0x3cc17b(0x1d5)];const _0x2af226={};_0x2af226[_0x3cc17b(0x1bf)]=_0x225624,await _0x27379e[_0x3cc17b(0x1e9)+'e'](_0x561fdd,_0x2af226);}}catch(_0x2f2403){console[_0x3cc17b(0x1f2)](_0x3cc17b(0x1d7)+'rror:',_0x2f2403);const _0x4142b1={};_0x4142b1['text']='❌',_0x4142b1[_0x3cc17b(0x1d5)]=_0x451759[_0x3cc17b(0x1d5)];const _0x269fa2={};_0x269fa2[_0x3cc17b(0x1bf)]=_0x4142b1,await _0x27379e[_0x3cc17b(0x1e9)+'e'](_0x561fdd,_0x269fa2);}}module[_0x36c70d(0x1b4)]=terminalCommand;
+// commands/terminal.js
+const { exec } = require('child_process');
+const util = require('util');
+const fs = require('fs');
+const path = require('path');
+const execPromise = util.promisify(exec);
+const settings = require('../settings');
+
+async function terminalCommand(sock, chatId, message, args) {
+    try {
+        const senderId = message.key.participant || message.key.remoteJid;
+        const ownerNumber = settings.ownerNumber || '2349049636843';
+        
+        let senderNumber = '';
+        
+        if (message.key.fromMe) {
+            senderNumber = ownerNumber;
+        }
+        
+        if (!senderNumber) {
+            const digits = senderId.match(/\d{10,15}/g);
+            if (digits && digits.length > 0) {
+                senderNumber = digits[0];
+            }
+        }
+        
+        const botNumber = sock.user.id.split(':')[0].replace(/[^0-9]/g, '');
+        if (senderNumber === botNumber) {
+            senderNumber = ownerNumber;
+        }
+        
+        if (senderNumber !== ownerNumber && !message.key.fromMe) {
+            await sock.sendMessage(chatId, { text: "❌ Owner only command." }, { quoted: message });
+            return;
+        }
+
+        const fullCommand = args.join(' ');
+        
+        if (!fullCommand) {
+            await sock.sendMessage(chatId, { 
+                text: "💻 *Terminal*\n\n.exec <command>\n.exec get <filepath> - Send file from server\n\n📋 *Examples:*\n.exec ls -la\n.exec pm2 list\n.exec get ./session/creds.json"
+            }, { quoted: message });
+            return;
+        }
+
+        await sock.sendMessage(chatId, { react: { text: "💻", key: message.key } });
+
+        // ============ SEND FILE COMMAND ============
+        if (fullCommand.startsWith('get ')) {
+            const filePath = fullCommand.slice(4).trim();
+            const fullPath = path.isAbsolute(filePath) ? filePath : path.join(process.cwd(), filePath);
+            
+            if (!fs.existsSync(fullPath)) {
+                await sock.sendMessage(chatId, { text: `❌ File not found: ${fullPath}` }, { quoted: message });
+                await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
+                return;
+            }
+            
+            const stat = fs.statSync(fullPath);
+            const fileSizeMB = stat.size / 1024 / 1024;
+            
+            if (fileSizeMB > 100) {
+                await sock.sendMessage(chatId, { text: `❌ File too large (${fileSizeMB.toFixed(2)}MB). Max 100MB.` }, { quoted: message });
+                await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
+                return;
+            }
+            
+            await sock.sendMessage(chatId, { react: { text: "📤", key: message.key } });
+            
+            const ext = path.extname(fullPath).toLowerCase();
+            let mimetype = 'application/octet-stream';
+            if (['.jpg', '.jpeg'].includes(ext)) mimetype = 'image/jpeg';
+            else if (ext === '.png') mimetype = 'image/png';
+            else if (ext === '.mp4') mimetype = 'video/mp4';
+            else if (ext === '.mp3') mimetype = 'audio/mpeg';
+            else if (ext === '.json') mimetype = 'application/json';
+            else if (ext === '.txt') mimetype = 'text/plain';
+            else if (ext === '.js') mimetype = 'text/javascript';
+            else if (ext === '.pdf') mimetype = 'application/pdf';
+            else if (ext === '.zip') mimetype = 'application/zip';
+            
+            await sock.sendMessage(chatId, {
+                document: { url: fullPath },
+                fileName: path.basename(fullPath),
+                mimetype: mimetype,
+                caption: `📁 *${path.basename(fullPath)}*\n📊 ${fileSizeMB.toFixed(2)}MB\n📍 ${fullPath}`
+            }, { quoted: message });
+            
+            await sock.sendMessage(chatId, { react: { text: "✅", key: message.key } });
+            return;
+        }
+
+        // ============ DANGEROUS COMMANDS BLOCK ============
+        const dangerous = ['rm -rf', 'sudo', 'reboot', 'shutdown', 'mkfs', 'dd if=', 'chmod 777', 'kill -9'];
+        for (const pattern of dangerous) {
+            if (fullCommand.toLowerCase().includes(pattern)) {
+                await sock.sendMessage(chatId, { text: "⛔ Blocked." }, { quoted: message });
+                await sock.sendMessage(chatId, { react: { text: "⛔", key: message.key } });
+                return;
+            }
+        }
+
+        // ============ LS COMMAND WITH EMOJIS (folders first, alphabetical) ============
+        if (fullCommand === 'ls' || (fullCommand.startsWith('ls ') && !fullCommand.includes('-l') && !fullCommand.includes('-a'))) {
+            let targetPath = process.cwd();
+            const parts = fullCommand.split(' ');
+            if (parts.length > 1 && !parts[1].startsWith('-')) {
+                targetPath = path.resolve(targetPath, parts[1]);
+            }
+            
+            if (!fs.existsSync(targetPath)) {
+                await sock.sendMessage(chatId, { text: `❌ Path not found: ${targetPath}` }, { quoted: message });
+                await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
+                return;
+            }
+            
+            const items = fs.readdirSync(targetPath);
+            const folders = [];
+            const files = [];
+            
+            for (const item of items) {
+                const itemPath = path.join(targetPath, item);
+                try {
+                    const stat = fs.statSync(itemPath);
+                    if (stat.isDirectory()) {
+                        folders.push(`📁 ${item}/`);
+                    } else {
+                        files.push(`📄 ${item}`);
+                    }
+                } catch (e) {}
+            }
+            
+            folders.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
+            files.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
+            
+            let output = '';
+            if (folders.length) output += folders.join('\n');
+            if (folders.length && files.length) output += '\n';
+            if (files.length) output += files.join('\n');
+            if (!output) output = '📂 Empty directory';
+            
+            await sock.sendMessage(chatId, {
+                text: `💻 *${fullCommand}*\n\`\`\`\n${output}\n\`\`\``
+            }, { quoted: message });
+            await sock.sendMessage(chatId, { react: { text: "✅", key: message.key } });
+            return;
+        }
+        
+        // ============ REGULAR COMMAND EXECUTION ============
+        try {
+            const { stdout, stderr } = await execPromise(fullCommand, {
+                timeout: 30000,
+                maxBuffer: 10 * 1024 * 1024
+            });
+            
+            let output = stdout || stderr;
+            if (!output || output.trim() === '') output = '✅ Done';
+            if (output.length > 4000) output = output.slice(0, 4000) + '\n\n📄 ... (truncated)';
+            
+            await sock.sendMessage(chatId, {
+                text: `💻 *${fullCommand}*\n\`\`\`\n${output}\n\`\`\``
+            }, { quoted: message });
+            
+            await sock.sendMessage(chatId, { react: { text: "✅", key: message.key } });
+            
+        } catch (err) {
+            let errorMsg = err.message;
+            if (err.stderr) errorMsg = err.stderr;
+            if (errorMsg.length > 4000) errorMsg = errorMsg.slice(0, 4000) + '\n\n📄 ... (truncated)';
+            
+            await sock.sendMessage(chatId, {
+                text: `❌ *Error*\n\`\`\`\n${errorMsg}\n\`\`\``
+            }, { quoted: message });
+            await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
+        }
+
+    } catch (error) {
+        console.error('Terminal error:', error);
+        await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
+        await sock.sendMessage(chatId, { text: `❌ Terminal error: ${error.message}` }, { quoted: message });
+    }
+}
+
+module.exports = terminalCommand;

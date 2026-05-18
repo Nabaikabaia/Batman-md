@@ -1,7 +1,111 @@
-// ============================================
-//  Obfuscated by Nabees Tech
-//  Domain: git.nabees.online
-//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
-//  Protected - Do not redistribute
-// ============================================
-const _0x4ce46d=_0x62b0;(function(_0x23633f,_0x171379){const _0x297bef=_0x62b0,_0x33e6cd=_0x23633f();while(!![]){try{const _0x51fcad=-parseInt(_0x297bef(0xd6))/0x1*(-parseInt(_0x297bef(0xbf))/0x2)+-parseInt(_0x297bef(0xdf))/0x3+-parseInt(_0x297bef(0xaa))/0x4*(-parseInt(_0x297bef(0xd1))/0x5)+parseInt(_0x297bef(0xab))/0x6+-parseInt(_0x297bef(0xbc))/0x7+-parseInt(_0x297bef(0xdb))/0x8+parseInt(_0x297bef(0xbb))/0x9;if(_0x51fcad===_0x171379)break;else _0x33e6cd['push'](_0x33e6cd['shift']());}catch(_0x52ee2f){_0x33e6cd['push'](_0x33e6cd['shift']());}}}(_0x7fb6,0x8d453));const settings=require(_0x4ce46d(0xd5)+'s'),os=require('os'),axios=require(_0x4ce46d(0xc2)),botStartTime=Date[_0x4ce46d(0xd7)](),imageUrls=[_0x4ce46d(0xcd)+_0x4ce46d(0xb1)+_0x4ce46d(0xad)+_0x4ce46d(0xb2)+_0x4ce46d(0xb4)+'1/object/p'+'ublic/uplo'+_0x4ce46d(0xd0)+'.jpg'];function getRandomImageUrl(){const _0x2ebd9b=_0x4ce46d;return imageUrls[Math['floor'](Math['random']()*imageUrls[_0x2ebd9b(0xbd)])];}function _0x62b0(_0x47911f,_0x55f606){_0x47911f=_0x47911f-0xa9;const _0x7fb6f8=_0x7fb6();let _0x62b046=_0x7fb6f8[_0x47911f];if(_0x62b0['ePBgpG']===undefined){var _0x18e71d=function(_0x5f3c36){const _0x4a4aa2='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x586a5f='',_0x2a1f8b='';for(let _0x36c772=0x0,_0x4ed2f1,_0x3c496c,_0x439905=0x0;_0x3c496c=_0x5f3c36['charAt'](_0x439905++);~_0x3c496c&&(_0x4ed2f1=_0x36c772%0x4?_0x4ed2f1*0x40+_0x3c496c:_0x3c496c,_0x36c772++%0x4)?_0x586a5f+=String['fromCharCode'](0xff&_0x4ed2f1>>(-0x2*_0x36c772&0x6)):0x0){_0x3c496c=_0x4a4aa2['indexOf'](_0x3c496c);}for(let _0x47c375=0x0,_0x420a13=_0x586a5f['length'];_0x47c375<_0x420a13;_0x47c375++){_0x2a1f8b+='%'+('00'+_0x586a5f['charCodeAt'](_0x47c375)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x2a1f8b);};_0x62b0['tihvBd']=_0x18e71d,_0x62b0['YDVqJu']={},_0x62b0['ePBgpG']=!![];}const _0x322960=_0x7fb6f8[0x0],_0x55e8d7=_0x47911f+_0x322960,_0x248419=_0x62b0['YDVqJu'][_0x55e8d7];return!_0x248419?(_0x62b046=_0x62b0['tihvBd'](_0x62b046),_0x62b0['YDVqJu'][_0x55e8d7]=_0x62b046):_0x62b046=_0x248419,_0x62b046;}function getUptime(){const _0x509891=_0x4ce46d,_0x3e9f72={};_0x3e9f72[_0x509891(0xd9)]=function(_0x4d17fb,_0x2a17a4){return _0x4d17fb/_0x2a17a4;},_0x3e9f72[_0x509891(0xba)]=function(_0x2d0b9a,_0xf1faff){return _0x2d0b9a-_0xf1faff;},_0x3e9f72[_0x509891(0xcb)]=function(_0xfff1c7,_0x470758){return _0xfff1c7%_0x470758;},_0x3e9f72[_0x509891(0xc1)]=function(_0xf045b1,_0x599502){return _0xf045b1/_0x599502;},_0x3e9f72[_0x509891(0xd3)]=function(_0x1cec8e,_0x4ddf0c){return _0x1cec8e>_0x4ddf0c;};const _0x4b61fd=_0x3e9f72,_0x392890=Math['floor'](_0x4b61fd[_0x509891(0xd9)](_0x4b61fd['TSden'](Date[_0x509891(0xd7)](),botStartTime),0x3e8)),_0x1d8826=Math[_0x509891(0xb6)](_0x392890/0x15180),_0x499094=Math[_0x509891(0xb6)](_0x4b61fd[_0x509891(0xcb)](_0x392890,0x15180)/0xe10),_0x2ca711=Math[_0x509891(0xb6)](_0x4b61fd['vXjit'](_0x392890%0xe10,0x3c)),_0x294462=_0x392890%0x3c;if(_0x1d8826>0x0)return _0x1d8826+'d\x20'+_0x499094+'h';if(_0x4b61fd[_0x509891(0xd3)](_0x499094,0x0))return _0x499094+'h\x20'+_0x2ca711+'m';if(_0x2ca711>0x0)return _0x2ca711+'m\x20'+_0x294462+'s';return _0x294462+'s';}async function aliveCommand(_0x125202,_0x5c78fb,_0x4a4de0){const _0x1baf07=_0x4ce46d,_0x4ff128={};_0x4ff128[_0x1baf07(0xbe)]=function(_0x2efdbd,_0x118dcc){return _0x2efdbd/_0x118dcc;},_0x4ff128[_0x1baf07(0xc0)]='Alive\x20erro'+'r:',_0x4ff128[_0x1baf07(0xaf)]='⚡\x20*BATMAN\x20'+_0x1baf07(0xb0)+'ne!*';const _0x53386c=_0x4ff128;try{const _0xc46c4c={};_0xc46c4c[_0x1baf07(0xdd)]='⚡',_0xc46c4c[_0x1baf07(0xc3)]=_0x4a4de0['key'];const _0x151cff={};_0x151cff[_0x1baf07(0xcf)]=_0xc46c4c,await _0x125202[_0x1baf07(0xb5)+'e'](_0x5c78fb,_0x151cff);const _0x5f3158=getUptime(),_0xc6ec24=_0x53386c['UPtTm'](os[_0x1baf07(0xc6)](),0x400**0x3)[_0x1baf07(0xde)](0x1),_0x464c1e=(os[_0x1baf07(0xdc)]()/0x400**0x3)[_0x1baf07(0xde)](0x1),_0x8f93ff='⚡\x20*BATMAN\x20'+_0x1baf07(0xca)+_0x1baf07(0xb3)+':\x20'+_0x5f3158+_0x1baf07(0xb8)+_0x464c1e+'/'+_0xc6ec24+(_0x1baf07(0xce)+_0x1baf07(0xc4)),_0x4d3e72={};_0x4d3e72[_0x1baf07(0xda)+_0x1baf07(0xd4)]=settings['newsletter'+_0x1baf07(0xd4)],_0x4d3e72[_0x1baf07(0xda)+'Name']=_0x1baf07(0xa9),_0x4d3e72[_0x1baf07(0xc7)+_0x1baf07(0xcc)]=0xd;const _0x4c286d={};_0x4c286d[_0x1baf07(0xc8)+_0x1baf07(0xb7)]=0x3e7,_0x4c286d[_0x1baf07(0xd8)+'d']=!![],_0x4c286d[_0x1baf07(0xc5)+_0x1baf07(0xae)+_0x1baf07(0xb9)]=_0x4d3e72;const _0x553284={};_0x553284['quoted']=_0x4a4de0,await _0x125202[_0x1baf07(0xb5)+'e'](_0x5c78fb,{'image':{'url':getRandomImageUrl()},'caption':_0x8f93ff,'contextInfo':_0x4c286d},_0x553284);const _0x3c0c2e={};_0x3c0c2e[_0x1baf07(0xdd)]='✅',_0x3c0c2e['key']=_0x4a4de0['key'];const _0xfae38b={};_0xfae38b[_0x1baf07(0xcf)]=_0x3c0c2e,await _0x125202['sendMessag'+'e'](_0x5c78fb,_0xfae38b);}catch(_0x27e7bb){console[_0x1baf07(0xc9)](_0x53386c[_0x1baf07(0xc0)],_0x27e7bb);const _0x146885={};_0x146885[_0x1baf07(0xdd)]='❌',_0x146885[_0x1baf07(0xc3)]=_0x4a4de0[_0x1baf07(0xc3)];const _0x1dbd16={};_0x1dbd16[_0x1baf07(0xcf)]=_0x146885,await _0x125202[_0x1baf07(0xb5)+'e'](_0x5c78fb,_0x1dbd16);const _0x1f6165={};_0x1f6165['text']=_0x53386c['BDtAb'];const _0x2b8f1a={};_0x2b8f1a[_0x1baf07(0xac)]=_0x4a4de0,await _0x125202['sendMessag'+'e'](_0x5c78fb,_0x1f6165,_0x2b8f1a);}}function _0x7fb6(){const _0x5020f0=['BM93','AxngB3j3yxjKzq','tfD0D1a','BMv3C2XLDhrLCG','nJKZmJGYnhzYy1rzuW','zNjLzw1LBq','Dgv4Da','Dg9gAxHLza','mJG4nJG2muf5AxnNtW','qKfutufoie1e','mJbKD3vtrhK','ndG4mZrms0nWDhO','CxvVDgvK','ANj0A25YCgKUCW','zxDZBgv0DgvYtq','qKr0qwi','tuqGAxmGB25SAq','CM1OA3PYCM1WBa','DxbHyMfZzs5JBW','cGRWN5wqifvWDgLTzq','l3n0B3jHz2uVDG','C2vUze1LC3nHzW','zMXVB3i','u2nVCMu','cVcFKR4GuKfnoIa','zxnZywDLsw5MBW','vfnKzw4','otyZmJK3mhbxt0HbyG','mtmZnti5mNvxAxfNDW','BgvUz3rO','vvb0vg0','mtm4mK9JBKr0vG','uK94tvK','DLHQAxq','yxHPB3m','A2v5','qvrnqu4GtuqQ','zM9YD2fYzgvKtG','Dg90ywXTzw0','C2vYDMvYtwvZCW','zM9YD2fYzgLUzW','zxjYB3i','tuqGt05msu5fkG','tvP0r3e','ywDLswq','Ahr0Chm6lY9HCq','r0ikcJ4GkSkPiei','CMvHy3q','ywrZlZrzre5wua','nJeXmtu1zvnQrvbu','zxHWB3j0CW','z0TXChe','sMLK','lI4VC2v0DgLUzW','mtmXnvfXA0LjDq'];_0x7fb6=function(){return _0x5020f0;};return _0x7fb6();}module[_0x4ce46d(0xd2)]=aliveCommand;
+const settings = require("../settings");
+const os = require('os');
+
+const botStartTime = Date.now();
+
+// Static Batman contact
+const fakeMeta = {
+    key: {
+        participant: '0@s.whatsapp.net',
+        remoteJid: 'status@broadcast',
+        fromMe: false,
+        id: 'BATMAN_META_' + Date.now()
+    },
+    message: {
+        contactMessage: {
+            displayName: 'BATMAN MD',
+            vcard: `BEGIN:VCARD\nVERSION:3.0\nN:BATMAN MD;;;;\nFN:BATMAN MD\nTEL;waid=2349049636843:+234 904 963 6843\nEND:VCARD`,
+            sendEphemeral: true
+        }
+    },
+    messageTimestamp: Math.floor(Date.now() / 1000),
+    pushName: 'BATMAN MD'
+};
+
+const THUMB_IMAGE = 'https://aqrmhkzrrmpljrtknrpi.supabase.co/storage/v1/object/public/uploads/4YDNVP.jpg';
+
+function getUptime() {
+    const seconds = Math.floor((Date.now() - botStartTime) / 1000);
+    const days = Math.floor(seconds / 86400);
+    const hours = Math.floor((seconds % 86400) / 3600);
+    const mins = Math.floor((seconds % 3600) / 60);
+    const secs = seconds % 60;
+    if (days > 0) return `${days}d ${hours}h ${mins}m`;
+    if (hours > 0) return `${hours}h ${mins}m ${secs}s`;
+    if (mins > 0) return `${mins}m ${secs}s`;
+    return `${secs}s`;
+}
+
+function getBatmanQuote() {
+    const quotes = [
+        "I am vengeance. I am the night. I am BATMAN MD.",
+        "Gotham needs me. And so do you, citizen.",
+        "The darkness is my ally. Justice is my weapon.",
+        "Even in the shadows, I am watching over this chat.",
+        "Fear is a tool. I use it well.",
+        "I don't wear a mask to hide who I am. I wear it to protect those who need me.",
+        "Justice isn't a choice. It's a responsibility.",
+        "The night is darkest just before dawn. But I never sleep.",
+        "I'm not a hero. I'm a silent guardian."
+    ];
+    return quotes[Math.floor(Math.random() * quotes.length)];
+}
+
+async function aliveCommand(sock, chatId, message) {
+    try {
+        await sock.sendMessage(chatId, { react: { text: "🦇", key: message.key } });
+
+        const uptime = getUptime();
+        const totalMem = (os.totalmem() / 1024 ** 3).toFixed(1);
+        const freeMem = (os.freemem() / 1024 ** 3).toFixed(1);
+        const usedMem = (totalMem - freeMem).toFixed(1);
+        const batmanQuote = getBatmanQuote();
+
+        const response = `🦇 *THE DARK KNIGHT AWAKENS* 🦇
+
+${batmanQuote}
+
+⚡ *Status:* ONLINE
+⏱️ *Uptime:* ${uptime}
+💾 *System RAM:* ${usedMem}GB / ${totalMem}GB
+🔄 *Version:* ${settings.version || '1.0'}
+
+> *© BATMAN MD*`;
+
+        await sock.sendMessage(chatId, {
+            document: Buffer.from(' ', 'utf-8'),
+            mimetype: 'application/msword',
+            fileName: `batman_md.doc`,
+            fileLength: 999999999,
+            caption: response,
+            contextInfo: {
+                forwardingScore: 999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363367299421766@newsletter',
+                    newsletterName: 'BATMAN MD',
+                    serverMessageId: 13
+                },
+                externalAdReply: {
+                    title: 'BATMAN MD',
+                    body: 'The Dark Knight stands vigil',
+                    thumbnailUrl: THUMB_IMAGE,
+                    mediaType: 1,
+                    renderLargerThumbnail: true,
+                    sourceUrl: 'https://nabees.online',
+                    thumbnailHeight: 400,
+                    thumbnailWidth: 400
+                }
+            }
+        }, { quoted: fakeMeta });
+
+        await sock.sendMessage(chatId, { react: { text: "✅", key: message.key } });
+
+    } catch (error) {
+        console.error('Alive error:', error);
+        await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
+        await sock.sendMessage(chatId, { text: "🦇 *BATMAN MD stands vigil. Always.*" }, { quoted: message });
+    }
+}
+
+module.exports = aliveCommand;

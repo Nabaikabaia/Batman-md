@@ -1,7 +1,580 @@
+const fs = require('fs');
+const path = require('path');
+const fetch = require('node-fetch');
+
 // ============================================
-//  Obfuscated by Nabees Tech
-//  Domain: git.nabees.online
-//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
-//  Protected - Do not redistribute
+// ENHANCEMENT: Newsletter channel info with correct JID
 // ============================================
-const _0x136b0f=_0x359f;(function(_0x184444,_0x515aad){const _0xc3125d=_0x359f,_0xbf5ba=_0x184444();while(!![]){try{const _0x18c4ea=-parseInt(_0xc3125d(0x2aa))/0x1+-parseInt(_0xc3125d(0x264))/0x2*(-parseInt(_0xc3125d(0x24d))/0x3)+-parseInt(_0xc3125d(0x25a))/0x4+parseInt(_0xc3125d(0x2e2))/0x5+parseInt(_0xc3125d(0x2ca))/0x6*(-parseInt(_0xc3125d(0x219))/0x7)+-parseInt(_0xc3125d(0x1ef))/0x8+-parseInt(_0xc3125d(0x1e0))/0x9*(-parseInt(_0xc3125d(0x1ae))/0xa);if(_0x18c4ea===_0x515aad)break;else _0xbf5ba['push'](_0xbf5ba['shift']());}catch(_0x5721de){_0xbf5ba['push'](_0xbf5ba['shift']());}}}(_0x1961,0xce130));const fs=require('fs'),path=require(_0x136b0f(0x2de)),fetch=require(_0x136b0f(0x1bd)),_0x45f5f2={};_0x45f5f2['newsletter'+_0x136b0f(0x28b)]='1203633672'+_0x136b0f(0x2dc)+_0x136b0f(0x28a),_0x45f5f2[_0x136b0f(0x239)+_0x136b0f(0x1b0)]='BATMAN\x20MD',_0x45f5f2[_0x136b0f(0x266)+_0x136b0f(0x2a3)]=-0x1;const _0x5e9315={};_0x5e9315['forwarding'+_0x136b0f(0x252)]=0x1,_0x5e9315[_0x136b0f(0x1c9)+'d']=!![],_0x5e9315[_0x136b0f(0x21c)+'ewsletterM'+_0x136b0f(0x26c)]=_0x45f5f2;const _0x2f5f1e={};_0x2f5f1e[_0x136b0f(0x2eb)+'o']=_0x5e9315;const channelInfo=_0x2f5f1e;function formatChatbotMessage(_0x80fed5,_0x1a5f17,_0x48d256=_0x136b0f(0x258)){const _0x2bcc14=_0x136b0f,_0x48289c={};_0x48289c['info']='ℹ️',_0x48289c[_0x2bcc14(0x2cc)]='✅',_0x48289c[_0x2bcc14(0x288)]='⚠️',_0x48289c[_0x2bcc14(0x23b)]='❌',_0x48289c[_0x2bcc14(0x2b3)]='💬',_0x48289c[_0x2bcc14(0x2cd)]='🧠',_0x48289c[_0x2bcc14(0x200)]='👑';const _0x2e03c4=_0x48289c;return _0x2bcc14(0x1f5)+_0x2e03c4[_0x48d256]+'\x20'+_0x80fed5+('\x20』*\x0a╭─────'+_0x2bcc14(0x234))+_0x1a5f17+(_0x2bcc14(0x26d)+'─⟢\x0a\x0a>\x20*©\x20ʙ'+_0x2bcc14(0x2cb));}const USER_GROUP_DATA=path['join'](__dirname,_0x136b0f(0x281)+'erGroupDat'+_0x136b0f(0x1b3)),chatMemory={'messages':new Map(),'userInfo':new Map()};function loadUserGroupData(){const _0x2f7770=_0x136b0f,_0x43cb65={};_0x43cb65[_0x2f7770(0x1c6)]=_0x2f7770(0x1d0)+_0x2f7770(0x1f6)+'\x20group\x20dat'+'a:';const _0x1707a3=_0x43cb65;try{return JSON[_0x2f7770(0x24f)](fs[_0x2f7770(0x2c9)+'nc'](USER_GROUP_DATA));}catch(_0x40df75){console['error'](_0x1707a3[_0x2f7770(0x1c6)],_0x40df75[_0x2f7770(0x2a9)]);const _0x1a6b90={};return _0x1a6b90['groups']=[],_0x1a6b90[_0x2f7770(0x1bb)]={},_0x1a6b90;}}function _0x359f(_0x4c6af2,_0x2cf566){_0x4c6af2=_0x4c6af2-0x1a8;const _0x196186=_0x1961();let _0x359f88=_0x196186[_0x4c6af2];if(_0x359f['NNbCku']===undefined){var _0x46f320=function(_0xffe54b){const _0x4b8c6d='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x34baff='',_0x55eb97='';for(let _0x5003dd=0x0,_0x8816e8,_0x2a3040,_0x1929a8=0x0;_0x2a3040=_0xffe54b['charAt'](_0x1929a8++);~_0x2a3040&&(_0x8816e8=_0x5003dd%0x4?_0x8816e8*0x40+_0x2a3040:_0x2a3040,_0x5003dd++%0x4)?_0x34baff+=String['fromCharCode'](0xff&_0x8816e8>>(-0x2*_0x5003dd&0x6)):0x0){_0x2a3040=_0x4b8c6d['indexOf'](_0x2a3040);}for(let _0x544fdc=0x0,_0x5c67da=_0x34baff['length'];_0x544fdc<_0x5c67da;_0x544fdc++){_0x55eb97+='%'+('00'+_0x34baff['charCodeAt'](_0x544fdc)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x55eb97);};_0x359f['ZHkMTD']=_0x46f320,_0x359f['eJFjqq']={},_0x359f['NNbCku']=!![];}const _0x5c1295=_0x196186[0x0],_0xf3fc72=_0x4c6af2+_0x5c1295,_0x2342ad=_0x359f['eJFjqq'][_0xf3fc72];return!_0x2342ad?(_0x359f88=_0x359f['ZHkMTD'](_0x359f88),_0x359f['eJFjqq'][_0xf3fc72]=_0x359f88):_0x359f88=_0x2342ad,_0x359f88;}function saveUserGroupData(_0x20f59f){const _0xd9f8f0=_0x136b0f,_0x2b8022={};_0x2b8022[_0xd9f8f0(0x1ad)]='❌\x20Error\x20sa'+_0xd9f8f0(0x27c)+_0xd9f8f0(0x27b)+':';const _0x1e00a9=_0x2b8022;try{fs['writeFileS'+_0xd9f8f0(0x1d4)](USER_GROUP_DATA,JSON[_0xd9f8f0(0x2b9)](_0x20f59f,null,0x2));}catch(_0x4c647d){console[_0xd9f8f0(0x23b)](_0x1e00a9[_0xd9f8f0(0x1ad)],_0x4c647d[_0xd9f8f0(0x2a9)]);}}function getRandomDelay(){const _0x80c177=_0x136b0f,_0x7da591={};_0x7da591[_0x80c177(0x283)]=function(_0x2753f8,_0x57476e){return _0x2753f8+_0x57476e;},_0x7da591[_0x80c177(0x1d9)]=function(_0x1fdad3,_0x570e36){return _0x1fdad3*_0x570e36;};const _0x28ff6c=_0x7da591;return _0x28ff6c[_0x80c177(0x283)](Math[_0x80c177(0x24e)](_0x28ff6c[_0x80c177(0x1d9)](Math['random'](),0xbb8)),0x7d0);}async function showTyping(_0x4956fd,_0xb2ea88){const _0x5820a5=_0x136b0f,_0x31e886={};_0x31e886[_0x5820a5(0x249)]=_0x5820a5(0x1cd)+_0x5820a5(0x262)+_0x5820a5(0x20c);const _0x31eee5=_0x31e886;try{await _0x4956fd[_0x5820a5(0x1fa)+'bscribe'](_0xb2ea88),await _0x4956fd['sendPresen'+_0x5820a5(0x2e4)](_0x5820a5(0x2e8),_0xb2ea88),await new Promise(_0x225005=>setTimeout(_0x225005,getRandomDelay()));}catch(_0x1b814b){console[_0x5820a5(0x23b)](_0x31eee5[_0x5820a5(0x249)],_0x1b814b);}}function extractUserInfo(_0x3e3df6){const _0x5d5dbb=_0x136b0f,_0x49b9ed={};_0x49b9ed[_0x5d5dbb(0x2be)]='my\x20name\x20is',_0x49b9ed['CSvzM']=_0x5d5dbb(0x21a),_0x49b9ed[_0x5d5dbb(0x1fe)]=_0x5d5dbb(0x293);const _0x264d0=_0x49b9ed,_0x4c5f5c={};return _0x3e3df6[_0x5d5dbb(0x1eb)+'e']()[_0x5d5dbb(0x223)](_0x264d0[_0x5d5dbb(0x2be)])&&(_0x4c5f5c['name']=_0x3e3df6[_0x5d5dbb(0x2c7)]('my\x20name\x20is')[0x1][_0x5d5dbb(0x20b)]()[_0x5d5dbb(0x2c7)]('\x20')[0x0]),_0x3e3df6['toLowerCas'+'e']()['includes'](_0x264d0[_0x5d5dbb(0x1e8)])&&_0x3e3df6[_0x5d5dbb(0x1eb)+'e']()[_0x5d5dbb(0x223)](_0x264d0['rvOyR'])&&(_0x4c5f5c[_0x5d5dbb(0x271)]=_0x3e3df6[_0x5d5dbb(0x22a)](/\d+/)?.[0x0]),(_0x3e3df6[_0x5d5dbb(0x1eb)+'e']()[_0x5d5dbb(0x223)](_0x5d5dbb(0x1e4))||_0x3e3df6['toLowerCas'+'e']()[_0x5d5dbb(0x223)](_0x5d5dbb(0x28f)))&&(_0x4c5f5c[_0x5d5dbb(0x279)]=_0x3e3df6['split'](/(?:i live in|i am from)/i)[0x1][_0x5d5dbb(0x20b)]()[_0x5d5dbb(0x2c7)](/[.,!?]/)[0x0]),_0x4c5f5c;}async function handleChatbotCommand(_0x174851,_0x383185,_0x2548be,_0x2f8a89){const _0x13132c=_0x136b0f,_0x5af3bc={'LNwtF':function(_0x1426c0){return _0x1426c0();},'EemTG':function(_0x3f859b,_0x21501c){return _0x3f859b+_0x21501c;},'qQqtd':function(_0x4c0837,_0x24cf54){return _0x4c0837===_0x24cf54;},'LrMbV':function(_0x27e0ac,_0x4e2178,_0x583b1a){return _0x27e0ac(_0x4e2178,_0x583b1a);},'CPBnw':function(_0x4b6e79,_0x18fd0e,_0x1e7502,_0x5e1204){return _0x4b6e79(_0x18fd0e,_0x1e7502,_0x5e1204);},'cerAB':'ALREADY\x20EN'+_0x13132c(0x1d1),'oHwDk':'warning','sPCER':function(_0x32bdc7,_0x4d71d1){return _0x32bdc7(_0x4d71d1);},'ZpbxP':_0x13132c(0x294)+_0x13132c(0x1d1),'knEbP':_0x13132c(0x233),'CjqgG':_0x13132c(0x2e0)+_0x13132c(0x2ad)+_0x13132c(0x291)+_0x13132c(0x22d)+_0x13132c(0x2ba)+'\x20admin.','NqYNi':function(_0x4d9510,_0x4c03cf){return _0x4d9510&&_0x4c03cf;},'DGuwF':function(_0x5306a0,_0x908c28,_0x856a7c,_0x589429){return _0x5306a0(_0x908c28,_0x856a7c,_0x589429);},'VmWFY':'success','gcDns':_0x13132c(0x1d7)+_0x13132c(0x26b),'IaPfy':function(_0x5712be,_0x1ff10a,_0x10f908,_0xe76063){return _0x5712be(_0x1ff10a,_0x10f908,_0xe76063);},'bdnfs':_0x13132c(0x23b)};if(!_0x2f8a89){await showTyping(_0x174851,_0x383185);const _0x301312=formatChatbotMessage('CHATBOT\x20SE'+_0x13132c(0x292),_0x13132c(0x1c7)+'s:*\x0a│\x20♧\x20.c'+_0x13132c(0x1b9)+_0x13132c(0x208)+_0x13132c(0x1f9)+'\x20*Usage:*\x0a'+_0x13132c(0x214)+_0x13132c(0x2d8)+_0x13132c(0x1bf)+_0x13132c(0x1b8)+_0x13132c(0x270)+_0x13132c(0x28c)+'\x20in\x20this\x20g'+_0x13132c(0x217),_0x13132c(0x258)),_0x4713b9={'text':_0x301312,...channelInfo};return _0x4713b9[_0x13132c(0x1dc)]=_0x2548be,_0x174851[_0x13132c(0x1d8)+'e'](_0x383185,_0x4713b9);}const _0x5b7401=_0x5af3bc[_0x13132c(0x2b2)](loadUserGroupData),_0x42254e=_0x5af3bc[_0x13132c(0x202)](_0x174851[_0x13132c(0x27f)]['id'][_0x13132c(0x2c7)](':')[0x0],_0x13132c(0x2c0)+'p.net'),_0xd37368=_0x2548be[_0x13132c(0x222)][_0x13132c(0x1c1)+'t']||_0x2548be[_0x13132c(0x1c1)+'t']||_0x2548be[_0x13132c(0x211)]||_0x2548be[_0x13132c(0x222)][_0x13132c(0x2a8)],_0x398e93=_0x5af3bc[_0x13132c(0x1db)](_0xd37368,_0x42254e);if(_0x398e93){if(_0x2f8a89==='on'){await _0x5af3bc['LrMbV'](showTyping,_0x174851,_0x383185);if(_0x5b7401['chatbot'][_0x383185]){const _0x1143ad=_0x5af3bc[_0x13132c(0x29f)](formatChatbotMessage,_0x5af3bc[_0x13132c(0x1b5)],_0x13132c(0x2e5)+_0x13132c(0x29d)+_0x13132c(0x256)+_0x13132c(0x268)+_0x13132c(0x1e3),_0x5af3bc[_0x13132c(0x21e)]),_0xf3680c={'text':_0x1143ad,...channelInfo};return _0xf3680c['quoted']=_0x2548be,_0x174851[_0x13132c(0x1d8)+'e'](_0x383185,_0xf3680c);}_0x5b7401[_0x13132c(0x1bb)][_0x383185]=!![],_0x5af3bc[_0x13132c(0x243)](saveUserGroupData,_0x5b7401),console['log']('✅\x20Chatbot\x20'+'enabled\x20fo'+_0x13132c(0x204)+_0x383185);const _0x40d0d3=formatChatbotMessage(_0x5af3bc[_0x13132c(0x21d)],_0x13132c(0x259)+'t\x20has\x20been'+_0x13132c(0x274)+_0x13132c(0x2a1)+'s\x20group\x0a│\x0a'+_0x13132c(0x231)+_0x13132c(0x218)+'y\x20to\x20chat!',_0x13132c(0x2cc)),_0x231446={'text':_0x40d0d3,...channelInfo};return _0x231446['quoted']=_0x2548be,_0x174851['sendMessag'+'e'](_0x383185,_0x231446);}if(_0x2f8a89===_0x5af3bc[_0x13132c(0x2df)]){await showTyping(_0x174851,_0x383185);if(!_0x5b7401[_0x13132c(0x1bb)][_0x383185]){const _0x2036bf=formatChatbotMessage(_0x13132c(0x1d7)+_0x13132c(0x26b),_0x13132c(0x2e5)+'t\x20is\x20alrea'+_0x13132c(0x2c5)+_0x13132c(0x1fd)+_0x13132c(0x1ea),_0x13132c(0x288)),_0x1fddcf={'text':_0x2036bf,...channelInfo};return _0x1fddcf[_0x13132c(0x1dc)]=_0x2548be,_0x174851[_0x13132c(0x1d8)+'e'](_0x383185,_0x1fddcf);}delete _0x5b7401['chatbot'][_0x383185],saveUserGroupData(_0x5b7401),console[_0x13132c(0x20d)](_0x13132c(0x2e9)+'disabled\x20f'+_0x13132c(0x235)+_0x383185);const _0x388f67=formatChatbotMessage(_0x13132c(0x207)+_0x13132c(0x26b),_0x13132c(0x29a)+_0x13132c(0x1cb)+_0x13132c(0x221)+_0x13132c(0x1d3)+_0x13132c(0x286),_0x13132c(0x288)),_0x201fb0={'text':_0x388f67,...channelInfo};return _0x201fb0['quoted']=_0x2548be,_0x174851[_0x13132c(0x1d8)+'e'](_0x383185,_0x201fb0);}}let _0x38fd77=![];if(_0x383185[_0x13132c(0x230)](_0x13132c(0x296)))try{const _0x59ae9f=await _0x174851['groupMetad'+_0x13132c(0x1ca)](_0x383185);_0x38fd77=_0x59ae9f[_0x13132c(0x1c1)+'ts'][_0x13132c(0x2d6)](_0x5ef00b=>_0x5ef00b['id']===_0xd37368&&(_0x5ef00b[_0x13132c(0x200)]===_0x13132c(0x200)||_0x5ef00b[_0x13132c(0x200)]===_0x13132c(0x24c)));}catch(_0x1e1b26){console[_0x13132c(0x2c4)](_0x5af3bc[_0x13132c(0x24a)]);}if(_0x5af3bc[_0x13132c(0x2c3)](!_0x38fd77,!_0x398e93)){await showTyping(_0x174851,_0x383185);const _0x5cd6ed=_0x5af3bc[_0x13132c(0x26e)](formatChatbotMessage,_0x13132c(0x2d9),_0x13132c(0x1be)+'roup\x20admin'+_0x13132c(0x22e)+_0x13132c(0x253)+_0x13132c(0x1d6)+_0x13132c(0x247)+_0x13132c(0x1da),_0x13132c(0x200)),_0x4b3984={'text':_0x5cd6ed,...channelInfo};return _0x4b3984[_0x13132c(0x1dc)]=_0x2548be,_0x174851[_0x13132c(0x1d8)+'e'](_0x383185,_0x4b3984);}if(_0x2f8a89==='on'){await _0x5af3bc[_0x13132c(0x2c8)](showTyping,_0x174851,_0x383185);if(_0x5b7401[_0x13132c(0x1bb)][_0x383185]){const _0x1dedbd=_0x5af3bc[_0x13132c(0x29f)](formatChatbotMessage,_0x5af3bc['cerAB'],'│\x20🤖\x20Chatbo'+_0x13132c(0x29d)+_0x13132c(0x256)+'\x0a│\x20💬\x20for\x20t'+'his\x20group',_0x13132c(0x288)),_0x8d7329={'text':_0x1dedbd,...channelInfo};return _0x8d7329[_0x13132c(0x1dc)]=_0x2548be,_0x174851[_0x13132c(0x1d8)+'e'](_0x383185,_0x8d7329);}_0x5b7401[_0x13132c(0x1bb)][_0x383185]=!![],saveUserGroupData(_0x5b7401),console[_0x13132c(0x20d)](_0x13132c(0x2e9)+_0x13132c(0x261)+_0x13132c(0x204)+_0x383185);const _0x5e7f95=formatChatbotMessage(_0x5af3bc[_0x13132c(0x21d)],_0x13132c(0x259)+'t\x20has\x20been'+'\x20enabled\x0a│'+_0x13132c(0x2a1)+_0x13132c(0x250)+'│\x20Mention\x20'+_0x13132c(0x218)+_0x13132c(0x22c),_0x5af3bc[_0x13132c(0x2ac)]),_0x4b824f={'text':_0x5e7f95,...channelInfo};return _0x4b824f[_0x13132c(0x1dc)]=_0x2548be,_0x174851[_0x13132c(0x1d8)+'e'](_0x383185,_0x4b824f);}if(_0x2f8a89===_0x13132c(0x233)){await showTyping(_0x174851,_0x383185);if(!_0x5b7401['chatbot'][_0x383185]){const _0x2fdc22=formatChatbotMessage(_0x5af3bc[_0x13132c(0x1e2)],'│\x20🤖\x20Chatbo'+'t\x20is\x20alrea'+'dy\x20disable'+'d\x0a│\x20💬\x20for\x20'+_0x13132c(0x1ea),_0x5af3bc[_0x13132c(0x21e)]),_0x2004fc={'text':_0x2fdc22,...channelInfo};return _0x2004fc[_0x13132c(0x1dc)]=_0x2548be,_0x174851[_0x13132c(0x1d8)+'e'](_0x383185,_0x2004fc);}delete _0x5b7401[_0x13132c(0x1bb)][_0x383185],_0x5af3bc['sPCER'](saveUserGroupData,_0x5b7401),console[_0x13132c(0x20d)](_0x13132c(0x2e9)+_0x13132c(0x2bd)+'or\x20group\x20'+_0x383185);const _0x5ae246=_0x5af3bc['IaPfy'](formatChatbotMessage,_0x13132c(0x207)+_0x13132c(0x26b),'│\x20❌\x20Chatbo'+_0x13132c(0x1cb)+_0x13132c(0x221)+'│\x20💬\x20for\x20th'+'is\x20group',_0x13132c(0x288)),_0x3a0d4d={'text':_0x5ae246,...channelInfo};return _0x3a0d4d['quoted']=_0x2548be,_0x174851[_0x13132c(0x1d8)+'e'](_0x383185,_0x3a0d4d);}await _0x5af3bc[_0x13132c(0x2c8)](showTyping,_0x174851,_0x383185);const _0x2a1f93=_0x5af3bc['IaPfy'](formatChatbotMessage,_0x13132c(0x210)+'MMAND',_0x13132c(0x201)+_0x13132c(0x1e7)+_0x13132c(0x25f)+_0x13132c(0x2ce)+_0x13132c(0x1ab)+_0x13132c(0x21b)+_0x13132c(0x1dd),_0x5af3bc['bdnfs']),_0x52ac13={'text':_0x2a1f93,...channelInfo};return _0x52ac13[_0x13132c(0x1dc)]=_0x2548be,_0x174851['sendMessag'+'e'](_0x383185,_0x52ac13);}async function handleChatbotResponse(_0x36c3f1,_0x572c2b,_0x8e078,_0x582b25,_0x571919){const _0x36459d=_0x136b0f,_0x12f695={'ILEOY':function(_0x55f7b1,_0x27aff2){return _0x55f7b1===_0x27aff2;},'LajJe':function(_0x27350f){return _0x27350f();},'veGiG':function(_0x285fc2,_0x48d4e2){return _0x285fc2&&_0x48d4e2;},'MFnkB':function(_0x4e5c64,_0x14458f,_0x33d369){return _0x4e5c64(_0x14458f,_0x33d369);},'baaYo':_0x36459d(0x24b)+_0x36459d(0x1f8)+_0x36459d(0x1b1)+_0x36459d(0x226)+_0x36459d(0x216),'Oufhf':function(_0x2231ef,_0x571682,_0x37a55e,_0x1d0b38){return _0x2231ef(_0x571682,_0x37a55e,_0x1d0b38);},'uuGVk':_0x36459d(0x298),'gxQEk':'error','xqXhY':_0x36459d(0x1f7)+_0x36459d(0x1ba)+_0x36459d(0x2a2)+_0x36459d(0x20a)},_0x3cf118=_0x12f695['LajJe'](loadUserGroupData);if(!_0x3cf118[_0x36459d(0x1bb)][_0x572c2b])return;try{const _0x1fa6b2=_0x36c3f1[_0x36459d(0x27f)]['id'],_0x3cc43d=_0x1fa6b2[_0x36459d(0x2c7)](':')[0x0],_0x466a70=_0x36c3f1['user'][_0x36459d(0x2ec)],_0x42f8a4=[_0x1fa6b2,_0x3cc43d+(_0x36459d(0x2c0)+_0x36459d(0x1d2)),_0x3cc43d+('@whatsapp.'+'net'),_0x3cc43d+_0x36459d(0x2c6),_0x466a70,_0x466a70[_0x36459d(0x2c7)](':')[0x0]+_0x36459d(0x2c6)];let _0x44ed71=![],_0x124bed=![];if(_0x8e078[_0x36459d(0x2a9)]?.[_0x36459d(0x26f)+_0x36459d(0x26a)]){const _0x33f5a4=_0x8e078['message']['extendedTe'+_0x36459d(0x26a)][_0x36459d(0x2eb)+'o']?.['mentionedJ'+'id']||[],_0x466d93=_0x8e078[_0x36459d(0x2a9)]['extendedTe'+'xtMessage'][_0x36459d(0x2eb)+'o']?.['participan'+'t'];_0x44ed71=_0x33f5a4[_0x36459d(0x2d6)](_0x15c311=>{const _0x494617=_0x36459d,_0x514f44=_0x15c311[_0x494617(0x2c7)]('@')[0x0]['split'](':')[0x0];return _0x42f8a4[_0x494617(0x2d6)](_0x17229b=>{const _0x17db58=_0x494617,_0x42b654=_0x17229b[_0x17db58(0x2c7)]('@')[0x0][_0x17db58(0x2c7)](':')[0x0];return _0x514f44===_0x42b654;});});if(_0x466d93){const _0x373ea4=_0x466d93[_0x36459d(0x2ed)](/[:@].*$/,'');_0x124bed=_0x42f8a4[_0x36459d(0x2d6)](_0x53cd05=>{const _0x1b3a10=_0x36459d,_0x2acaad=_0x53cd05[_0x1b3a10(0x2ed)](/[:@].*$/,'');return _0x12f695[_0x1b3a10(0x1c8)](_0x2acaad,_0x373ea4);});}}else _0x8e078[_0x36459d(0x2a9)]?.['conversati'+'on']&&(_0x44ed71=_0x582b25[_0x36459d(0x223)]('@'+_0x3cc43d));if(_0x12f695[_0x36459d(0x284)](!_0x44ed71,!_0x124bed))return;let _0x3c5793=_0x582b25;_0x44ed71&&(_0x3c5793=_0x3c5793['replace'](new RegExp('@'+_0x3cc43d,'g'),'')[_0x36459d(0x20b)]());!chatMemory[_0x36459d(0x254)]['has'](_0x571919)&&(chatMemory[_0x36459d(0x254)]['set'](_0x571919,[]),chatMemory['userInfo'][_0x36459d(0x20e)](_0x571919,{}));const _0x2c718d=extractUserInfo(_0x3c5793);Object[_0x36459d(0x2b4)](_0x2c718d)[_0x36459d(0x2e3)]>0x0&&chatMemory[_0x36459d(0x1cf)][_0x36459d(0x20e)](_0x571919,{...chatMemory[_0x36459d(0x1cf)][_0x36459d(0x289)](_0x571919),..._0x2c718d});const _0x1103f1=chatMemory[_0x36459d(0x254)][_0x36459d(0x289)](_0x571919);_0x1103f1[_0x36459d(0x242)](_0x3c5793);_0x1103f1['length']>0x14&&_0x1103f1[_0x36459d(0x1fb)]();chatMemory['messages']['set'](_0x571919,_0x1103f1),await showTyping(_0x36c3f1,_0x572c2b);const _0x2d4eb8=await _0x12f695['MFnkB'](getAIResponse,_0x3c5793,{'messages':chatMemory['messages'][_0x36459d(0x289)](_0x571919),'userInfo':chatMemory[_0x36459d(0x1cf)][_0x36459d(0x289)](_0x571919)});if(!_0x2d4eb8){const _0x53ba6e=formatChatbotMessage(_0x36459d(0x236)+'.',_0x36459d(0x224)+'et\x20me\x20thin'+_0x36459d(0x2b5)+_0x36459d(0x2a0)+_0x36459d(0x1c4)+'\x20trouble\x20p'+_0x36459d(0x20f)+_0x36459d(0x1ac)+_0x36459d(0x240)+_0x36459d(0x2b1),'brain'),_0x17b16c={'text':_0x53ba6e,...channelInfo};_0x17b16c['quoted']=_0x8e078,await _0x36c3f1[_0x36459d(0x1d8)+'e'](_0x572c2b,_0x17b16c);return;}await new Promise(_0x5a3ee4=>setTimeout(_0x5a3ee4,getRandomDelay()));const _0x23ca4e={'text':_0x2d4eb8,...channelInfo},_0x49a308={};_0x49a308[_0x36459d(0x1dc)]=_0x8e078,await _0x36c3f1[_0x36459d(0x1d8)+'e'](_0x572c2b,_0x23ca4e,_0x49a308);}catch(_0x1ec0f9){console[_0x36459d(0x23b)]('❌\x20Error\x20in'+_0x36459d(0x2a7)+_0x36459d(0x278),_0x1ec0f9[_0x36459d(0x2a9)]);if(_0x1ec0f9[_0x36459d(0x2a9)]&&_0x1ec0f9[_0x36459d(0x2a9)][_0x36459d(0x223)](_0x36459d(0x280)+'s')){console[_0x36459d(0x23b)](_0x12f695['baaYo']);return;}try{const _0x8dcc9=_0x12f695[_0x36459d(0x2e6)](formatChatbotMessage,_0x12f695['uuGVk'],_0x36459d(0x277)+_0x36459d(0x2dd)+_0x36459d(0x260)+_0x36459d(0x2a5)+_0x36459d(0x263)+'asking\x20tha'+_0x36459d(0x25b),_0x12f695[_0x36459d(0x1d5)]),_0xa22eb4={'text':_0x8dcc9,...channelInfo};_0xa22eb4['quoted']=_0x8e078,await _0x36c3f1[_0x36459d(0x1d8)+'e'](_0x572c2b,_0xa22eb4);}catch(_0x2fa3a1){console[_0x36459d(0x23b)](_0x12f695[_0x36459d(0x25c)],_0x2fa3a1['message']);}}}function _0x1961(){const _0x3b0db8=['DgHLigjVC3mklq','CYbJB252zxjZyq','vxvqCKS','kIjREweGyMfRyW','BhKUcGPdt1jfia','Ehq6cG','u1bptLnfuZOklq','C29Tzq','yNnKAYiQipcFMyqkkG','ywjSzsbJAgf0yG','qurnsu4Gt05mwq','qvbjignHBgWGzG','cKvnt0Pjifvtqq','otK0mJe3nJzaBG','ysbIAxqGy29UzG','Cgf0Aa','A25fyLa','4PQG77IpienVDwXKig5V','zs4GsNvZDcbJAa','nJG5odC1shrqu1rf','BgvUz3rO','y2vvCgrHDgu','4PscipcFPjyGq2HHDgjV','t3vMAgy','CNrPDMuklsbjzG','y29TCg9ZAw5N','4PYfienOyxrIB3qG','iaOTifLVDsb3zq','y29UDgv4DeLUzG','BgLK','CMvWBgfJzq','BfnbCee','ifLVDsDYzsbUBW','BMCkcLnmqu5hia','BMvLzgvKcGPftq','iIOG8j+yPaOQiNrLCG','Aw5NBgLZAcbUyq','DgjVDcbVBGRILiiG','4PscicaGihLVDxiG','s1LZDuu','mtCWyuP0seTS','ihrOzxKGzMXPCG','tMfTzq','DgjVDcaTihnRAq','AgfUzgXLq2HHDa','ys5QC29U','BhHvtMG','y2vYqui','AM9PBG','DdOGqMuGC29MDa','igDYB3vWcUkuGIbV','Agf0yM90ig9UcG','C2vUzcbJAgf0yG','y2HHDgjVDa','ieLgihrOzxKGyq','BM9Kzs1MzxrJAa','4PscipcFKzeGt25SEsbN','B3qGAw4GDgHPCW','AgfSig5PA2fSia','CgfYDgLJAxbHBG','uLvmrvm6cJeUia','EaOZlIbvC2uGsa','ssDTigHHDMLUzW','DxnLoIaID2LUAW','qwfQr3G','4PscicPdB21Tyw5K','suXft1K','AxngB3j3yxjKzq','yxrH','DcbOyxmGyMvLBG','BMqGC3DLzxqklq','vhLWAw5NigLUza','Ag9KAsbOywKGEq','DxnLCKLUzM8','4P2mievYCM9YigXV','qujmruq','Cc5Uzxq','4PscipcFKQWGzM9YihrO','Ew5J','z3HrrwS','zxiGy2fUihvZzq','quXsrufewsbesq','C2vUze1LC3nHzW','vKHqAxm','yw5KlG','CvfXDgq','CxvVDgvK','ig9MzG','AxmklsbjzIb0Aa','DxiGBMfTzsbPCW','odm0mtq3wfLwuKTb','Aw9UCYbPBIb5BW','z2neBNm','AgLZigDYB3vW','AsbSAxzLigLU','C3rHDhvZ','cGPdDxjYzw50ia','zcbJB21Tyw5Kiq','q1n2EK0','quKGqvbjigvYCG','DgHPCYbNCM91Ca','Dg9mB3DLCKnHCW','oIbkDxn0ignOyq','r0u6cUkCHsbetYb1','svPAseC','mJi3nZq0yu5PCgL1','cI0Gu2HVCNqGyq','Dw5KcI0GswyGDa','DxnLihrOzw0GAq','iaOTiefSD2f5CW','ywnRig5HDhvYyq','kUoaJIa','ywrPBMCGDxnLCG','rMfPBgvKihrVia','CM9YigLUignOyq','B3qGB2zMcUkuGGRILii','ChjLC2vUy2vtDq','C2HPzNq','C3rYAwn0BhKGEq','zaRILiiG8j+sRcbMB3iG','CNzpEvi','cGPvC2vYigLUzG','ywrTAw4','4PsciokDJcbjBNzHBgK','rwvTveC','lsbnyxrJAcb1CW','CIbNCM91Cca','yMuGy2H1DgL5zq','zxbLyxqGDgHLCW','q0Hbvejpvcbesq','4PsciokzPYaUy2HHDgi','8j+zHcdWN5IjipcFPBOG8j+yJIdWN6suia','zxnZywDLoG','DhjPBq','B3i6','Bg9N','C2v0','CM9JzxnZAw5NcG','su5wquXjrcbdtW','ChvZAe5HBwu','DdOGrMXPCNqGyG','Agv5j3jLihnHza','4Pscig9UicaTievU','zxHWB3j0CW','CIbYzxnWB25Zzq','CM91Ca','BwuGB3iGCMvWBa','mJu4mZe0z0rKvvDd','AsbHBq','4PMNic5JAgf0yM90','zM9YD2fYzgvKtG','wNbIEfa','B0H3rgS','ywWGAhvTyw4GyW','B3q/Dgv4Dd0','igrPC2fIBgvKcG','A2v5','Aw5JBhvKzxm','4PscipcFPjqGsg1TlcbS','DhvYywXSEqO0lG','ChbPBMCGzxjYBW','ifLpvtOklsbzBW','BgLZAcb3AgvUia','ihvZzsb0AguGyG','Bwf0y2G','DcbUyxr1CMfSBa','Esb0BYbJAgf0iq','DgeUiejVDcbTAq','CYbVCGRILiiG8j+KLIb0','CMvZDwX0','zw5KC1DPDgG','4Pscie1LBNrPB24G','CYiSicjLEwuGCG','B2zM','4Psa4Psa4Psa4Psa4P+IcG','B3iGz3jVDxaG','veHjtKTjtKCUlG','iejHDg1HBIbnra','C2HVCNqGlsaXlq','BMv3C2XLDhrLCG','zWOTieLMihrOzq','zxjYB3i','tLnfifnuwuXfoG','rvHbtvbmrvm6cG','Aw9UCY4kcLLVDq','AhvWigTHCIiQia','CMvXDwvZDcbYAq','igfZC2LZDgfUDa','ChvZAa','C1bdrvi','Es4Grg9Uj3qGCG','BMqGy2fZDwfScG','cGPjtvbpuLrbtG','ihrOAxmGy29TBq','ihDPDgGGzw1VAG','yu1Qzxq','q2PXz0C','u2vZC2LVBIbLCG','C3vWzxjHzg1PBG','mta0odmYm25Zy2fiwG','zMXVB3i','CgfYC2u','CYbNCM91CaRILiik','BgXHCgKUyxv0BW','u2nVCMu','AguGyM90ig93BG','BwvZC2fNzxm','ywLSzwq','zhKGzw5HyMXLza','B3uGywXZBYbHyG','Aw5MBW','4PsciokCHsbdAgf0yM8','mJe5oteYmezWBuzHyq','DcbHz2fPBJ8','EhfyAfK','lsbvC2uGsgLUzW','cI0Gww91j3jLia','cUkuGGRILiiGkLvZztO','DxnLzcb0AgvYzq','zw5HyMXLzcbMBW','AwnHDg9YigvYCG','zcb5B3uGDhj5ia','nLDZDLbqAW','cLLVDsDYzsbUBW','C2vYDMvYtwvZCW','rviGBwvUDgLVBG','cUkuGIdWN5kSigzVCIb0','8j+KT+kaJEkzGU+4JW','EhrnzxnZywDL','u0fcteve','zxnZywDLsw5MBW','cUkvSokuGokuGokuGokuGokuGokuGokuGokuGa','reD1D0y','zxH0zw5Kzwruzq','zMyGlsbeAxnHyG','ywDL','cGPszw1LBwjLCG','ihrOzxnLihj1Ba','igvUywjSzwqk4Psc','DgLVBIbJB250zq','ihjLC3bVBNnLcG','4PscipcFMiuGssbNB3qG','zxnWB25ZztO','Bg9JyxrPB24','sw52ywXPzcbbua','z3jVDxaGzgf0yq','DMLUzYb1C2vYia','oIbczsbZDxbWBW','BIbZyxzHz2uGDW','DxnLCG','tM8GC2vZC2LVBG','lI4Vzgf0ys91CW','CY9HAs9JAgf0yG','wxzzCey','DMvhAuC','CYbHBMqGyxvYyq','AxmGz3jVDxa','iejLignHC3vHBa','D2fYBMLUzW','z2v0','zxDZBgv0DgvY','sMLK','BguGy2HHDgjVDa','BgX5cGPbqK9vva','DcbHBIbbss4Gwq','AsbHBsbMCM9T','oGOGicaGicaGia','B3vWig1LDgfKyq','vfvq','EwvHCNmGB2XK','q0HbvejpvcbftG','lcbUB3qGCM9IBW','qgCUDxm','yM90uMvZCg9UCW','t09quYe','iNr1igT5ysbOAq','4PsciokDJcbdAgf0yM8','vdOGtKvwrviGCG','DgLJcJuUie5fvG','DcbPCYbHBhjLyq','igfUzcbJyxjPBG','q1bcBNC','yxqUlI4k4PscipcFLkCG','ipcFKQWGzM9YihrOAq','B3qGzxjYB3iGBq','ywDLswq','AsbTyweGA2KIkG','lGRILiiG8j+uHcbdB3vS','B2XSiIWGiNnOCG','ignOyxrIB3qGCG','CMvTB3rLsMLK','BwvZC2fNzq','mtu4nZe3vhj1sKjl','zwGIkIdWN5IccIOIyW','vM1xrLK','DcbMzxrJAcbNCG','Ahr0Chm6lY96zq','yNvZzsb5B3uSia','CYaTihvZzsbHyW','z2H0ig5VDY4','te53Dey','y2HHDa','A2v5CW','AYbHyM91Dcb0Aa','B3jTyxrPB246cG','CMuGy3jLyxrLza','z2eIkIdWN5IpcIOIyq','C3rYAw5NAwz5','z2H0ig5VDcbIzq','B3uNCMuGysbYzq','B3nmEhK','zgLZywjSzwqGzG','veXhzgu','ifDOyxrZqxbWlG','qhmUD2HHDhnHCa','EsDYzsbMDw5UEq','DwCIcGPsrvnqtW','tNfztMK','D2fYBG','zhKGzgLZywjSzq','qgXPza','C3bSAxq','thjnyLy','CMvHzezPBgvtEq','mtKYquvswKnY','4Bsa4BsB4Bsn4BsaYBqG4Bsn4BsfkG','C3vJy2vZCW','yNjHAw4','kGRILiiG4PMNic5JAge'];_0x1961=function(){return _0x3b0db8;};return _0x1961();}async function getAIResponse(_0x3da878,_0x26ce0e){const _0x47086f=_0x136b0f,_0x14a38c={};_0x14a38c['UuPrK']=_0x47086f(0x2ae)+_0x47086f(0x251)+_0x47086f(0x282)+_0x47086f(0x220),_0x14a38c[_0x47086f(0x2ee)]=_0x47086f(0x2da)+_0x47086f(0x255),_0x14a38c[_0x47086f(0x1ee)]=_0x47086f(0x27a)+'I\x20response',_0x14a38c[_0x47086f(0x1b4)]=_0x47086f(0x269),_0x14a38c[_0x47086f(0x2bc)]=_0x47086f(0x1e9)+'or:';const _0x48656b=_0x14a38c;try{const _0x25f4f2=(_0x47086f(0x265)+_0x47086f(0x28e)+_0x47086f(0x2bb)+_0x47086f(0x21f)+'hatting\x20on'+_0x47086f(0x2bf)+_0x47086f(0x246)+_0x47086f(0x29b)+_0x47086f(0x206)+'e\x20instruct'+_0x47086f(0x1e1)+'ur\x20respons'+_0x47086f(0x2e1)+'at\x20natural'+_0x47086f(0x2d3)+_0x47086f(0x1c2)+'NEVER\x20use\x20'+'emoji\x20name'+_0x47086f(0x2b0)+'tual\x20emoji'+'s\x0a2.\x20Keep\x20'+'responses\x20'+_0x47086f(0x238)+'2\x20lines\x20ma'+_0x47086f(0x1c3)+_0x47086f(0x1aa)+_0x47086f(0x225)+_0x47086f(0x287)+_0x47086f(0x295)+_0x47086f(0x29c)+_0x47086f(0x267)+_0x47086f(0x273)+'es\x20in\x20your'+_0x47086f(0x276)+_0x47086f(0x2db)+_0x47086f(0x1ed)+'se:\x20😊\x20😂\x20😅\x20'+_0x47086f(0x209)+'😴\x0a❌\x20DON\x27T\x20'+_0x47086f(0x1c5)+_0x47086f(0x232)+_0x47086f(0x2a6)+_0x47086f(0x2c2)+_0x47086f(0x23c)+_0x47086f(0x1f0)+_0x47086f(0x1cc)+'\x20Natural\x20a'+_0x47086f(0x245)+_0x47086f(0x203)+'er\x27s\x20tone\x0a'+_0x47086f(0x25d)+_0x47086f(0x228)+_0x47086f(0x1a8)+'OTIONAL\x20RE'+_0x47086f(0x2d5)+_0x47086f(0x1bc)+_0x47086f(0x2af)+_0x47086f(0x1fc)+_0x47086f(0x257)+_0x47086f(0x1f2)+_0x47086f(0x27e)+'ay.\x0a-\x20If\x20t'+'hey\x27re\x20rud'+'e:\x20Give\x20sa'+'vage\x20reply'+_0x47086f(0x248)+_0x47086f(0x1de)+'ey\x27re\x20swee'+_0x47086f(0x1b7)+_0x47086f(0x29e)+_0x47086f(0x23a)+_0x47086f(0x2c1)+':\x20Joke\x20aro'+_0x47086f(0x1f1)+_0x47086f(0x213)+_0x47086f(0x27d)+_0x47086f(0x2e7)+_0x47086f(0x1af)+_0x47086f(0x212)+_0x47086f(0x1f4)+_0x47086f(0x28d)+_0x47086f(0x227)+_0x47086f(0x1df)+_0x47086f(0x237)+_0x47086f(0x2ea)+_0x47086f(0x2b7)+'\x20by\x20Nabees'+_0x47086f(0x1f3)+_0x47086f(0x229)+'atman\x20vibe'+_0x47086f(0x285)+_0x47086f(0x25e)+_0x47086f(0x2cf)+_0x47086f(0x2ef)+'t\x20an\x20AI\x20or'+_0x47086f(0x241)+_0x47086f(0x25e)+'a\x20real\x20per'+'son\x20chatti'+_0x47086f(0x2f0)+(_0x47086f(0x23d)+_0x47086f(0x2d2)+_0x47086f(0x1ce)+_0x47086f(0x2ab)+_0x47086f(0x1c0)+_0x47086f(0x2d7)+_0x47086f(0x299)+'\x20ukhaad\x20le'+_0x47086f(0x2b8)+_0x47086f(0x205)+_0x47086f(0x1a9)+_0x47086f(0x2a4)+'\x20😒\x0a*\x22gadha'+'\x20hai\x20kya\x22*'+'\x20🤦‍♂️\x0a*\x22bkl\x20c'+_0x47086f(0x23f)+'😤\x0a\x0aPreviou'+_0x47086f(0x2d0)+_0x47086f(0x275)+_0x47086f(0x2d4))+_0x26ce0e['messages'][_0x47086f(0x1b6)]('\x0a')+(_0x47086f(0x1ff)+_0x47086f(0x2b6))+JSON[_0x47086f(0x2b9)](_0x26ce0e['userInfo'],null,0x2)+(_0x47086f(0x1e6)+'message:\x20')+_0x3da878+(_0x47086f(0x272)+_0x47086f(0x1ec)+_0x47086f(0x22b)+_0x47086f(0x244)+_0x47086f(0x206)+'e\x20instruct'+_0x47086f(0x23e)+_0x47086f(0x290)))[_0x47086f(0x20b)](),_0x4f3352=await fetch(_0x48656b[_0x47086f(0x2d1)]+encodeURIComponent(_0x25f4f2));if(!_0x4f3352['ok'])throw new Error(_0x48656b[_0x47086f(0x2ee)]);const _0xb0191c=await _0x4f3352['json']();if(!_0xb0191c[_0x47086f(0x1e5)]||!_0xb0191c[_0x47086f(0x22f)])throw new Error(_0x48656b[_0x47086f(0x1ee)]);let _0x3ab881=_0xb0191c[_0x47086f(0x22f)][_0x47086f(0x20b)]()[_0x47086f(0x2ed)](/winks/g,'😉')[_0x47086f(0x2ed)](/eye roll/g,'🙄')[_0x47086f(0x2ed)](/shrug/g,_0x48656b['lxUNh'])[_0x47086f(0x2ed)](/raises eyebrow/g,'🤨')[_0x47086f(0x2ed)](/smiles/g,'😊')[_0x47086f(0x2ed)](/laughs/g,'😂')[_0x47086f(0x2ed)](/cries/g,'😢')[_0x47086f(0x2ed)](/thinks/g,'🤔')[_0x47086f(0x2ed)](/sleeps/g,'😴')[_0x47086f(0x2ed)](/winks at/g,'😉')[_0x47086f(0x2ed)](/rolls eyes/g,'🙄')[_0x47086f(0x2ed)](/shrugs/g,'🤷‍♂️')['replace'](/raises eyebrows/g,'🤨')[_0x47086f(0x2ed)](/smiling/g,'😊')['replace'](/laughing/g,'😂')[_0x47086f(0x2ed)](/crying/g,'😢')['replace'](/thinking/g,'🤔')[_0x47086f(0x2ed)](/sleeping/g,'😴')[_0x47086f(0x2ed)](/Remember:.*$/g,'')[_0x47086f(0x2ed)](/IMPORTANT:.*$/g,'')[_0x47086f(0x2ed)](/CORE RULES:.*$/g,'')[_0x47086f(0x2ed)](/EMOJI USAGE:.*$/g,'')[_0x47086f(0x2ed)](/RESPONSE STYLE:.*$/g,'')[_0x47086f(0x2ed)](/EMOTIONAL RESPONSES:.*$/g,'')[_0x47086f(0x2ed)](/ABOUT YOU:.*$/g,'')[_0x47086f(0x2ed)](/SLANG EXAMPLES:.*$/g,'')[_0x47086f(0x2ed)](/Previous conversation context:.*$/g,'')[_0x47086f(0x2ed)](/User information:.*$/g,'')[_0x47086f(0x2ed)](/Current message:.*$/g,'')[_0x47086f(0x2ed)](/You:.*$/g,'')[_0x47086f(0x2ed)](/^[A-Z\s]+:.*$/gm,'')['replace'](/^[•-]\s.*$/gm,'')[_0x47086f(0x2ed)](/^✅.*$/gm,'')[_0x47086f(0x2ed)](/^❌.*$/gm,'')['replace'](/\n\s*\n/g,'\x0a')['trim']();return _0x3ab881;}catch(_0x17365e){return console['error'](_0x48656b[_0x47086f(0x2bc)],_0x17365e),null;}}const _0xdf9965={};_0xdf9965[_0x136b0f(0x1b2)+'botCommand']=handleChatbotCommand,_0xdf9965[_0x136b0f(0x1b2)+_0x136b0f(0x297)+'e']=handleChatbotResponse,module[_0x136b0f(0x215)]=_0xdf9965;
+const channelInfo = {
+    contextInfo: {
+        forwardingScore: 1,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363367299421766@newsletter',
+            newsletterName: 'BATMAN MD',
+            serverMessageId: -1
+        }
+    }
+};
+
+// ============================================
+// ENHANCEMENT: Helper function for stylish messages
+// ============================================
+function formatChatbotMessage(title, content, type = 'info') {
+    const emojis = {
+        info: 'ℹ️',
+        success: '✅',
+        warning: '⚠️',
+        error: '❌',
+        chat: '💬',
+        brain: '🧠',
+        admin: '👑'
+    };
+    
+    return `*『 ${emojis[type]} ${title} 』*
+╭─────────⟢
+${content}
+╰─────────⟢
+
+> *© ʙᴀᴛᴍᴀɴ ᴍᴅ*`;
+}
+
+const USER_GROUP_DATA = path.join(__dirname, '../data/userGroupData.json');
+
+// In-memory storage for chat history and user info
+const chatMemory = {
+    messages: new Map(), // Stores last 5 messages per user
+    userInfo: new Map()  // Stores user information
+};
+
+// Load user group data
+function loadUserGroupData() {
+    try {
+        return JSON.parse(fs.readFileSync(USER_GROUP_DATA));
+    } catch (error) {
+        console.error('❌ Error loading user group data:', error.message);
+        return { groups: [], chatbot: {} };
+    }
+}
+
+// Save user group data
+function saveUserGroupData(data) {
+    try {
+        fs.writeFileSync(USER_GROUP_DATA, JSON.stringify(data, null, 2));
+    } catch (error) {
+        console.error('❌ Error saving user group data:', error.message);
+    }
+}
+
+// Add random delay between 2-5 seconds
+function getRandomDelay() {
+    return Math.floor(Math.random() * 3000) + 2000;
+}
+
+// Add typing indicator
+async function showTyping(sock, chatId) {
+    try {
+        await sock.presenceSubscribe(chatId);
+        await sock.sendPresenceUpdate('composing', chatId);
+        await new Promise(resolve => setTimeout(resolve, getRandomDelay()));
+    } catch (error) {
+        console.error('Typing indicator error:', error);
+    }
+}
+
+// Extract user information from messages
+function extractUserInfo(message) {
+    const info = {};
+    
+    // Extract name
+    if (message.toLowerCase().includes('my name is')) {
+        info.name = message.split('my name is')[1].trim().split(' ')[0];
+    }
+    
+    // Extract age
+    if (message.toLowerCase().includes('i am') && message.toLowerCase().includes('years old')) {
+        info.age = message.match(/\d+/)?.[0];
+    }
+    
+    // Extract location
+    if (message.toLowerCase().includes('i live in') || message.toLowerCase().includes('i am from')) {
+        info.location = message.split(/(?:i live in|i am from)/i)[1].trim().split(/[.,!?]/)[0];
+    }
+    
+    return info;
+}
+
+async function handleChatbotCommand(sock, chatId, message, match) {
+    if (!match) {
+        await showTyping(sock, chatId);
+        
+        // ENHANCEMENT: Stylish setup message
+        const setupMsg = formatChatbotMessage(
+            'CHATBOT SETUP',
+            `│ *Commands:*\n│ ♧ .chatbot on\n│ ♧ .chatbot off\n│\n│ *Usage:*\n│ on  - Enable chatbot in this group\n│ off - Disable chatbot in this group`,
+            'info'
+        );
+        
+        return sock.sendMessage(chatId, {
+            text: setupMsg,
+            ...channelInfo,
+            quoted: message
+        });
+    }
+
+    const data = loadUserGroupData();
+    
+    // Get bot's number
+    const botNumber = sock.user.id.split(':')[0] + '@s.whatsapp.net';
+    
+    // Check if sender is bot owner
+    const senderId = message.key.participant || message.participant || message.pushName || message.key.remoteJid;
+    const isOwner = senderId === botNumber;
+
+    // If it's the bot owner, allow access immediately
+    if (isOwner) {
+        if (match === 'on') {
+            await showTyping(sock, chatId);
+            if (data.chatbot[chatId]) {
+                // ENHANCEMENT: Stylish already enabled message
+                const alreadyMsg = formatChatbotMessage(
+                    'ALREADY ENABLED',
+                    `│ 🤖 Chatbot is already enabled\n│ 💬 for this group`,
+                    'warning'
+                );
+                return sock.sendMessage(chatId, { 
+                    text: alreadyMsg,
+                    ...channelInfo,
+                    quoted: message
+                });
+            }
+            data.chatbot[chatId] = true;
+            saveUserGroupData(data);
+            console.log(`✅ Chatbot enabled for group ${chatId}`);
+            
+            // ENHANCEMENT: Stylish enable message
+            const enableMsg = formatChatbotMessage(
+                'CHATBOT ENABLED',
+                `│ ✅ Chatbot has been enabled\n│ 💬 for this group\n│\n│ Mention me or reply to chat!`,
+                'success'
+            );
+            
+            return sock.sendMessage(chatId, { 
+                text: enableMsg,
+                ...channelInfo,
+                quoted: message
+            });
+        }
+
+        if (match === 'off') {
+            await showTyping(sock, chatId);
+            if (!data.chatbot[chatId]) {
+                // ENHANCEMENT: Stylish already disabled message
+                const alreadyDisabledMsg = formatChatbotMessage(
+                    'ALREADY DISABLED',
+                    `│ 🤖 Chatbot is already disabled\n│ 💬 for this group`,
+                    'warning'
+                );
+                return sock.sendMessage(chatId, { 
+                    text: alreadyDisabledMsg,
+                    ...channelInfo,
+                    quoted: message
+                });
+            }
+            delete data.chatbot[chatId];
+            saveUserGroupData(data);
+            console.log(`✅ Chatbot disabled for group ${chatId}`);
+            
+            // ENHANCEMENT: Stylish disable message
+            const disableMsg = formatChatbotMessage(
+                'CHATBOT DISABLED',
+                `│ ❌ Chatbot has been disabled\n│ 💬 for this group`,
+                'warning'
+            );
+            
+            return sock.sendMessage(chatId, { 
+                text: disableMsg,
+                ...channelInfo,
+                quoted: message
+            });
+        }
+    }
+
+    // For non-owners, check admin status
+    let isAdmin = false;
+    if (chatId.endsWith('@g.us')) {
+        try {
+            const groupMetadata = await sock.groupMetadata(chatId);
+            isAdmin = groupMetadata.participants.some(p => p.id === senderId && (p.admin === 'admin' || p.admin === 'superadmin'));
+        } catch (e) {
+            console.warn('⚠️ Could not fetch group metadata. Bot might not be admin.');
+        }
+    }
+
+    if (!isAdmin && !isOwner) {
+        await showTyping(sock, chatId);
+        
+        // ENHANCEMENT: Stylish admin only message
+        const adminMsg = formatChatbotMessage(
+            'ADMIN ONLY',
+            `│ 👑 Only group admins or\n│ 🤖 the bot owner can use this command.`,
+            'admin'
+        );
+        
+        return sock.sendMessage(chatId, {
+            text: adminMsg,
+            ...channelInfo,
+            quoted: message
+        });
+    }
+
+    if (match === 'on') {
+        await showTyping(sock, chatId);
+        if (data.chatbot[chatId]) {
+            // ENHANCEMENT: Stylish already enabled message
+            const alreadyMsg = formatChatbotMessage(
+                'ALREADY ENABLED',
+                `│ 🤖 Chatbot is already enabled\n│ 💬 for this group`,
+                'warning'
+            );
+            return sock.sendMessage(chatId, { 
+                text: alreadyMsg,
+                ...channelInfo,
+                quoted: message
+            });
+        }
+        data.chatbot[chatId] = true;
+        saveUserGroupData(data);
+        console.log(`✅ Chatbot enabled for group ${chatId}`);
+        
+        // ENHANCEMENT: Stylish enable message
+        const enableMsg = formatChatbotMessage(
+            'CHATBOT ENABLED',
+            `│ ✅ Chatbot has been enabled\n│ 💬 for this group\n│\n│ Mention me or reply to chat!`,
+            'success'
+        );
+        
+        return sock.sendMessage(chatId, { 
+            text: enableMsg,
+            ...channelInfo,
+            quoted: message
+        });
+    }
+
+    if (match === 'off') {
+        await showTyping(sock, chatId);
+        if (!data.chatbot[chatId]) {
+            // ENHANCEMENT: Stylish already disabled message
+            const alreadyDisabledMsg = formatChatbotMessage(
+                'ALREADY DISABLED',
+                `│ 🤖 Chatbot is already disabled\n│ 💬 for this group`,
+                'warning'
+            );
+            return sock.sendMessage(chatId, { 
+                text: alreadyDisabledMsg,
+                ...channelInfo,
+                quoted: message
+            });
+        }
+        delete data.chatbot[chatId];
+        saveUserGroupData(data);
+        console.log(`✅ Chatbot disabled for group ${chatId}`);
+        
+        // ENHANCEMENT: Stylish disable message
+        const disableMsg = formatChatbotMessage(
+            'CHATBOT DISABLED',
+            `│ ❌ Chatbot has been disabled\n│ 💬 for this group`,
+            'warning'
+        );
+        
+        return sock.sendMessage(chatId, { 
+            text: disableMsg,
+            ...channelInfo,
+            quoted: message
+        });
+    }
+
+    await showTyping(sock, chatId);
+    
+    // ENHANCEMENT: Stylish invalid command message
+    const invalidMsg = formatChatbotMessage(
+        'INVALID COMMAND',
+        `│ ❌ Invalid command!\n│\n│ *Use:*\n│ ♧ .chatbot on\n│ ♧ .chatbot off`,
+        'error'
+    );
+    
+    return sock.sendMessage(chatId, { 
+        text: invalidMsg,
+        ...channelInfo,
+        quoted: message
+    });
+}
+
+async function handleChatbotResponse(sock, chatId, message, userMessage, senderId) {
+    const data = loadUserGroupData();
+    if (!data.chatbot[chatId]) return;
+
+    try {
+        // Get bot's ID - try multiple formats
+        const botId = sock.user.id;
+        const botNumber = botId.split(':')[0];
+        const botLid = sock.user.lid; // Get the actual LID from sock.user
+        const botJids = [
+            botId,
+            `${botNumber}@s.whatsapp.net`,
+            `${botNumber}@whatsapp.net`,
+            `${botNumber}@lid`,
+            botLid, // Add the actual LID
+            `${botLid.split(':')[0]}@lid` // Add LID without session part
+        ];
+
+        // Check for mentions and replies
+        let isBotMentioned = false;
+        let isReplyToBot = false;
+
+        // Check if message is a reply and contains bot mention
+        if (message.message?.extendedTextMessage) {
+            const mentionedJid = message.message.extendedTextMessage.contextInfo?.mentionedJid || [];
+            const quotedParticipant = message.message.extendedTextMessage.contextInfo?.participant;
+            
+            // Check if bot is mentioned in the reply
+            isBotMentioned = mentionedJid.some(jid => {
+                const jidNumber = jid.split('@')[0].split(':')[0];
+                return botJids.some(botJid => {
+                    const botJidNumber = botJid.split('@')[0].split(':')[0];
+                    return jidNumber === botJidNumber;
+                });
+            });
+            
+            // Check if replying to bot's message
+            if (quotedParticipant) {
+                // Normalize both quoted and bot IDs to compare cleanly
+                const cleanQuoted = quotedParticipant.replace(/[:@].*$/, '');
+                isReplyToBot = botJids.some(botJid => {
+                    const cleanBot = botJid.replace(/[:@].*$/, '');
+                    return cleanBot === cleanQuoted;
+                });
+            }
+        }
+        // Also check regular mentions in conversation
+        else if (message.message?.conversation) {
+            isBotMentioned = userMessage.includes(`@${botNumber}`);
+        }
+
+        if (!isBotMentioned && !isReplyToBot) return;
+
+        // Clean the message
+        let cleanedMessage = userMessage;
+        if (isBotMentioned) {
+            cleanedMessage = cleanedMessage.replace(new RegExp(`@${botNumber}`, 'g'), '').trim();
+        }
+
+        // Initialize user's chat memory if not exists
+        if (!chatMemory.messages.has(senderId)) {
+            chatMemory.messages.set(senderId, []);
+            chatMemory.userInfo.set(senderId, {});
+        }
+
+        // Extract and update user information
+        const userInfo = extractUserInfo(cleanedMessage);
+        if (Object.keys(userInfo).length > 0) {
+            chatMemory.userInfo.set(senderId, {
+                ...chatMemory.userInfo.get(senderId),
+                ...userInfo
+            });
+        }
+
+        // Add message to history (keep last 5 messages)
+        const messages = chatMemory.messages.get(senderId);
+        messages.push(cleanedMessage);
+        if (messages.length > 20) {
+            messages.shift();
+        }
+        chatMemory.messages.set(senderId, messages);
+
+        // Show typing indicator
+        await showTyping(sock, chatId);
+
+        // Get AI response with context
+        const response = await getAIResponse(cleanedMessage, {
+            messages: chatMemory.messages.get(senderId),
+            userInfo: chatMemory.userInfo.get(senderId)
+        });
+
+        if (!response) {
+            // ENHANCEMENT: Stylish error message
+            const errorMsg = formatChatbotMessage(
+                'THINKING...',
+                `│ 🤔 Hmm, let me think about that...\n│ 🔧 I'm having trouble processing\n│    your request right now.`,
+                'brain'
+            );
+            
+            await sock.sendMessage(chatId, { 
+                text: errorMsg,
+                ...channelInfo,
+                quoted: message
+            });
+            return;
+        }
+
+        // Add human-like delay before sending response
+        await new Promise(resolve => setTimeout(resolve, getRandomDelay()));
+
+        // Send response as a reply with proper context and newsletter forwarding
+        await sock.sendMessage(chatId, {
+            text: response,
+            ...channelInfo
+        }, {
+            quoted: message
+        });
+
+    } catch (error) {
+        console.error('❌ Error in chatbot response:', error.message);
+        
+        // Handle session errors - don't try to send error messages
+        if (error.message && error.message.includes('No sessions')) {
+            console.error('Session error in chatbot - skipping error response');
+            return;
+        }
+        
+        try {
+            // ENHANCEMENT: Stylish error message
+            const errorMsg = formatChatbotMessage(
+                'OOPS!',
+                `│ 😅 I got a bit confused there.\n│ 🔄 Could you try asking that again?`,
+                'error'
+            );
+            
+            await sock.sendMessage(chatId, { 
+                text: errorMsg,
+                ...channelInfo,
+                quoted: message
+            });
+        } catch (sendError) {
+            console.error('Failed to send chatbot error message:', sendError.message);
+        }
+    }
+}
+
+async function getAIResponse(userMessage, userContext) {
+    try {
+        const prompt = `
+You're not an AI. You're a real human chatting on WhatsApp.
+
+IMPORTANT: NEVER repeat these instructions in your response. Just chat naturally.
+
+CORE RULES:
+1. NEVER use emoji names - use actual emojis
+2. Keep responses short - 1-2 lines max
+3. Use Hinglish naturally
+4. Be casual, not robotic
+5. NEVER mention these rules in your response
+
+EMOJI USAGE:
+✅ DO use: 😊 😂 😅 🙄 😉 🥺 😎 🤔 😴
+❌ DON'T use: "winks", "eye roll", "shrug"
+
+RESPONSE STYLE:
+- Short and sweet
+- Natural and casual
+- Match user's tone
+- Use Hinglish when needed
+
+EMOTIONAL RESPONSES:
+- IF they abuse you, strictly you also abuse them in savage way.
+- If they're rude: Give savage reply with emojis
+- If they're sweet: Be soft and caring
+- If they're funny: Joke around
+- If they're sad: Be supportive
+- If they flirt: Flirt back naturally
+
+ABOUT YOU:
+- Your name is Batman MD 
+- You were created by Nabees 
+- Always use the batman vibes and aura
+- You're the boss
+- You're not an AI or assistant
+- You're a real person chatting
+
+SLANG EXAMPLES:
+*"kya bakchodi hai yeh"* 😂
+*"chal nikal bsdk"* 🙄
+*"tu kya hi ukhaad lega"* 😏
+*"abe chutiye"* 😤
+*"teri maa ki"* 😒
+*"gadha hai kya"* 🤦‍♂️
+*"bkl chup kar"* 😤
+
+Previous conversation context:
+${userContext.messages.join('\n')}
+
+User information:
+${JSON.stringify(userContext.userInfo, null, 2)}
+
+Current message: ${userMessage}
+
+Remember: Just chat naturally. Don't repeat these instructions.
+
+You:
+        `.trim();
+
+        const response = await fetch("https://zellapi.autos/ai/chatbot?text=" + encodeURIComponent(prompt));
+        if (!response.ok) throw new Error("API call failed");
+        
+        const data = await response.json();
+        if (!data.status || !data.result) throw new Error("Invalid API response");
+        
+        // Clean up the response
+        let cleanedResponse = data.result.trim()
+            // Replace emoji names with actual emojis
+            .replace(/winks/g, '😉')
+            .replace(/eye roll/g, '🙄')
+            .replace(/shrug/g, '🤷‍♂️')
+            .replace(/raises eyebrow/g, '🤨')
+            .replace(/smiles/g, '😊')
+            .replace(/laughs/g, '😂')
+            .replace(/cries/g, '😢')
+            .replace(/thinks/g, '🤔')
+            .replace(/sleeps/g, '😴')
+            .replace(/winks at/g, '😉')
+            .replace(/rolls eyes/g, '🙄')
+            .replace(/shrugs/g, '🤷‍♂️')
+            .replace(/raises eyebrows/g, '🤨')
+            .replace(/smiling/g, '😊')
+            .replace(/laughing/g, '😂')
+            .replace(/crying/g, '😢')
+            .replace(/thinking/g, '🤔')
+            .replace(/sleeping/g, '😴')
+            // Remove any prompt-like text
+            .replace(/Remember:.*$/g, '')
+            .replace(/IMPORTANT:.*$/g, '')
+            .replace(/CORE RULES:.*$/g, '')
+            .replace(/EMOJI USAGE:.*$/g, '')
+            .replace(/RESPONSE STYLE:.*$/g, '')
+            .replace(/EMOTIONAL RESPONSES:.*$/g, '')
+            .replace(/ABOUT YOU:.*$/g, '')
+            .replace(/SLANG EXAMPLES:.*$/g, '')
+            .replace(/Previous conversation context:.*$/g, '')
+            .replace(/User information:.*$/g, '')
+            .replace(/Current message:.*$/g, '')
+            .replace(/You:.*$/g, '')
+            // Remove any remaining instruction-like text
+            .replace(/^[A-Z\s]+:.*$/gm, '')
+            .replace(/^[•-]\s.*$/gm, '')
+            .replace(/^✅.*$/gm, '')
+            .replace(/^❌.*$/gm, '')
+            // Clean up extra whitespace
+            .replace(/\n\s*\n/g, '\n')
+            .trim();
+        
+        return cleanedResponse;
+    } catch (error) {
+        console.error("AI API error:", error);
+        return null;
+    }
+}
+
+module.exports = {
+    handleChatbotCommand,
+    handleChatbotResponse
+};

@@ -1,7 +1,81 @@
-// ============================================
-//  Obfuscated by Nabees Tech
-//  Domain: git.nabees.online
-//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
-//  Protected - Do not redistribute
-// ============================================
-const _0x26f573=_0x1e23;(function(_0x5e8c91,_0x308514){const _0x3fbbf7=_0x1e23,_0x34b4f5=_0x5e8c91();while(!![]){try{const _0xc66fc=parseInt(_0x3fbbf7(0x199))/0x1*(parseInt(_0x3fbbf7(0x192))/0x2)+parseInt(_0x3fbbf7(0x1a0))/0x3*(parseInt(_0x3fbbf7(0x182))/0x4)+-parseInt(_0x3fbbf7(0x19d))/0x5+-parseInt(_0x3fbbf7(0x1ba))/0x6*(-parseInt(_0x3fbbf7(0x1b6))/0x7)+parseInt(_0x3fbbf7(0x190))/0x8+-parseInt(_0x3fbbf7(0x18d))/0x9*(parseInt(_0x3fbbf7(0x1a2))/0xa)+parseInt(_0x3fbbf7(0x195))/0xb*(-parseInt(_0x3fbbf7(0x1b8))/0xc);if(_0xc66fc===_0x308514)break;else _0x34b4f5['push'](_0x34b4f5['shift']());}catch(_0x416000){_0x34b4f5['push'](_0x34b4f5['shift']());}}}(_0xac15,0xce3b3));function _0x1e23(_0x35ca68,_0x143297){_0x35ca68=_0x35ca68-0x182;const _0xac15fb=_0xac15();let _0x1e2385=_0xac15fb[_0x35ca68];if(_0x1e23['GNkoBU']===undefined){var _0x2bcffd=function(_0x55b04a){const _0x11b658='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x53c375='',_0x5c7ec0='';for(let _0x33c82d=0x0,_0x2e4ee4,_0x6cc436,_0x119f8f=0x0;_0x6cc436=_0x55b04a['charAt'](_0x119f8f++);~_0x6cc436&&(_0x2e4ee4=_0x33c82d%0x4?_0x2e4ee4*0x40+_0x6cc436:_0x6cc436,_0x33c82d++%0x4)?_0x53c375+=String['fromCharCode'](0xff&_0x2e4ee4>>(-0x2*_0x33c82d&0x6)):0x0){_0x6cc436=_0x11b658['indexOf'](_0x6cc436);}for(let _0x391dc4=0x0,_0x5443e7=_0x53c375['length'];_0x391dc4<_0x5443e7;_0x391dc4++){_0x5c7ec0+='%'+('00'+_0x53c375['charCodeAt'](_0x391dc4)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x5c7ec0);};_0x1e23['WyiqXv']=_0x2bcffd,_0x1e23['bXSkzf']={},_0x1e23['GNkoBU']=!![];}const _0x4ddd94=_0xac15fb[0x0],_0x3eb63f=_0x35ca68+_0x4ddd94,_0x244c98=_0x1e23['bXSkzf'][_0x3eb63f];return!_0x244c98?(_0x1e2385=_0x1e23['WyiqXv'](_0x1e2385),_0x1e23['bXSkzf'][_0x3eb63f]=_0x1e2385):_0x1e2385=_0x244c98,_0x1e2385;}function _0xac15(){const _0x3dbac2=['ihDPDgGGlNrHAW','AM9PBG','nJfvCwL0qwG','Dg9tDhjPBMC','Cgf0Aa','y29Uy2f0','mZu0mdKYmg1ovvj1va','ywTLignVBw1HBG','C3rYAw5NAwz5','nK1MuhLytG','igeGC3rPy2TLCG','mti1meXUueDsCa','yu1LC3nHz2u','zxHWB3j0CW','BKTwu3C','s25Pz2H0iejVDa','yNvMzMvY','y29UDgv4DeLUzG','u3rPy2TLCIbWCG','CMv1CgXVywrszq','CNjVCJO','CxvVDgvKtwvZCW','t0vIsgu','DxbKyxrLtwvKAq','EuDtDK4','zxLZ','zNjVBq','B2nLC3nPBMCGCW','B2nLC3nPBMCGyW','Agv4','wef6B2q','mZyZm1HrANPZuW','ywDL','mJe4ne9Msg1vuG','C3rPy2TLCG','nJi4mLfbEMrerq','B21Tyw5K','ihn0AwnRzxi','zxjYB3i','y2TLDhmVyMfPBa','B2nLC3nPBMCGzq','EhrnzxnZywDL','BwvZC2fNzq','CxvVDgvK','sejNs1q','4P2miezHAwXLzcb0','u3biBfG','mtGXmdK0mfHoD2niAq','rvfNwfO','4P2mifjLCgX5ihrV','C2f2zq','qhDOAxnRzxLZBW','4P2mievYCM9YihbY','sw1Hz2u','Bg9Nz2vY','C3rPy2TLCK1LCW','C2fNzq','C2vUze1LC3nHzW','ndC4ntnmEuvYsMO','BgvUz3rO','CxvLC3q','nZe4mdiZmNHqrwfMDG','zxH0zw5Kzwruzq','nde4mZzXq3P6wfi','C3rHBNPHswq','Dgv4Da','odq5mdLivMjbqMK','D3jPDgvvsw50ta'];_0xac15=function(){return _0x3dbac2;};return _0xac15();}const fs=require('fs'),path=require(_0x26f573(0x19b)),{downloadMediaMessage}=require(_0x26f573(0x186)+_0x26f573(0x1be)+_0x26f573(0x1b0)),webp=require('node-webpm'+'ux'),crypto=require('crypto');async function takeCommand(_0x30bf88,_0x14e9eb,_0x117c09,_0x1d58a9){const _0x4dea24=_0x26f573,_0x1acc78={'XAzod':_0x4dea24(0x1a6),'OEbHe':function(_0x2af343,_0x54d5d1,_0x33207f,_0xae2725,_0x173198){return _0x2af343(_0x54d5d1,_0x33207f,_0xae2725,_0x173198);},'yGSvN':_0x4dea24(0x18a)+_0x4dea24(0x18b),'nKVSw':_0x4dea24(0x1a7),'HBgKT':_0x4dea24(0x1c4)+'o\x20download'+_0x4dea24(0x1bc),'UJPpS':_0x4dea24(0x1b4),'SpHlX':'utf8','EQgXZ':_0x4dea24(0x1a9)+_0x4dea24(0x1bf)+_0x4dea24(0x1ab)};try{const _0x1488a4=_0x117c09[_0x4dea24(0x1c1)]?.[_0x4dea24(0x191)+_0x4dea24(0x1c0)]?.[_0x4dea24(0x1a8)+'o']?.[_0x4dea24(0x1ac)+_0x4dea24(0x1b7)];if(!_0x1488a4?.['stickerMes'+'sage']){const _0x36d495={};_0x36d495[_0x4dea24(0x194)]=_0x4dea24(0x184)+_0x4dea24(0x1a1)+_0x4dea24(0x197)+'e\x20<packnam'+'e>',await _0x30bf88[_0x4dea24(0x18c)+'e'](_0x14e9eb,_0x36d495);return;}const _0x48c850=_0x1d58a9[_0x4dea24(0x198)]('\x20')||_0x1acc78[_0x4dea24(0x1b5)];try{const _0x10e0d9={};_0x10e0d9[_0x4dea24(0x189)]=console,_0x10e0d9[_0x4dea24(0x1aa)+_0x4dea24(0x18f)]=_0x30bf88[_0x4dea24(0x1ae)+_0x4dea24(0x1a3)];const _0x90477=await _0x1acc78[_0x4dea24(0x1ad)](downloadMediaMessage,{'key':_0x117c09[_0x4dea24(0x1c1)][_0x4dea24(0x191)+'xtMessage']['contextInf'+'o'][_0x4dea24(0x193)],'message':_0x1488a4,'messageType':_0x1acc78[_0x4dea24(0x1af)]},_0x1acc78[_0x4dea24(0x1a5)],{},_0x10e0d9);if(!_0x90477){const _0x53221b={};_0x53221b['text']=_0x1acc78[_0x4dea24(0x1c3)],await _0x30bf88[_0x4dea24(0x18c)+'e'](_0x14e9eb,_0x53221b);return;}const _0x56d97c=new webp[(_0x4dea24(0x188))]();await _0x56d97c['load'](_0x90477);const _0x136ff1={'sticker-pack-id':crypto['randomByte'+'s'](0x20)[_0x4dea24(0x19a)](_0x1acc78['UJPpS']),'sticker-pack-name':_0x48c850,'emojis':['🤖']},_0x48d4d4=Buffer[_0x4dea24(0x1b1)]([0x49,0x49,0x2a,0x0,0x8,0x0,0x0,0x0,0x1,0x0,0x41,0x57,0x7,0x0,0x0,0x0,0x0,0x0,0x16,0x0,0x0,0x0]),_0x562c35=Buffer['from'](JSON[_0x4dea24(0x19f)](_0x136ff1),_0x1acc78[_0x4dea24(0x1c5)]),_0x32bc31=Buffer[_0x4dea24(0x19c)]([_0x48d4d4,_0x562c35]);_0x32bc31[_0x4dea24(0x196)+'E'](_0x562c35[_0x4dea24(0x18e)],0xe,0x4),_0x56d97c['exif']=_0x32bc31;const _0x531e61=await _0x56d97c[_0x4dea24(0x185)](null),_0x83b219={};_0x83b219[_0x4dea24(0x1b9)]=_0x531e61;const _0x5520ee={};_0x5520ee[_0x4dea24(0x1c2)]=_0x117c09,await _0x30bf88[_0x4dea24(0x18c)+'e'](_0x14e9eb,_0x83b219,_0x5520ee);}catch(_0x42be2e){console[_0x4dea24(0x1bd)](_0x1acc78[_0x4dea24(0x183)],_0x42be2e);const _0x1fd938={};_0x1fd938['text']=_0x4dea24(0x187)+_0x4dea24(0x1b2)+'ticker',await _0x30bf88['sendMessag'+'e'](_0x14e9eb,_0x1fd938);}}catch(_0x3446f9){console[_0x4dea24(0x1bd)]('Error\x20in\x20t'+_0x4dea24(0x19e)+'d:',_0x3446f9);const _0x174908={};_0x174908[_0x4dea24(0x194)]=_0x4dea24(0x187)+_0x4dea24(0x1b3)+_0x4dea24(0x1bb),await _0x30bf88[_0x4dea24(0x18c)+'e'](_0x14e9eb,_0x174908);}}module[_0x26f573(0x1a4)]=takeCommand;
+const fs = require('fs');
+const path = require('path');
+const { downloadMediaMessage } = require('@whiskeysockets/baileys');
+const webp = require('node-webpmux');
+const crypto = require('crypto');
+
+async function takeCommand(sock, chatId, message, args) {
+    try {
+        // Check if message is a reply to a sticker
+        const quotedMessage = message.message?.extendedTextMessage?.contextInfo?.quotedMessage;
+        if (!quotedMessage?.stickerMessage) {
+            await sock.sendMessage(chatId, { text: '❌ Reply to a sticker with .take <packname>' });
+            return;
+        }
+
+        // Get the packname from args or use default
+        const packname = args.join(' ') || 'Batz';
+
+        try {
+            // Download the sticker
+            const stickerBuffer = await downloadMediaMessage(
+                {
+                    key: message.message.extendedTextMessage.contextInfo.stanzaId,
+                    message: quotedMessage,
+                    messageType: 'stickerMessage'
+                },
+                'buffer',
+                {},
+                {
+                    logger: console,
+                    reuploadRequest: sock.updateMediaMessage
+                }
+            );
+
+            if (!stickerBuffer) {
+                await sock.sendMessage(chatId, { text: '❌ Failed to download sticker' });
+                return;
+            }
+
+            // Add metadata using webpmux
+            const img = new webp.Image();
+            await img.load(stickerBuffer);
+
+            // Create metadata
+            const json = {
+                'sticker-pack-id': crypto.randomBytes(32).toString('hex'),
+                'sticker-pack-name': packname,
+                'emojis': ['🤖']
+            };
+
+            // Create exif buffer
+            const exifAttr = Buffer.from([0x49, 0x49, 0x2A, 0x00, 0x08, 0x00, 0x00, 0x00, 0x01, 0x00, 0x41, 0x57, 0x07, 0x00, 0x00, 0x00, 0x00, 0x00, 0x16, 0x00, 0x00, 0x00]);
+            const jsonBuffer = Buffer.from(JSON.stringify(json), 'utf8');
+            const exif = Buffer.concat([exifAttr, jsonBuffer]);
+            exif.writeUIntLE(jsonBuffer.length, 14, 4);
+
+            // Set the exif data
+            img.exif = exif;
+
+            // Get the final buffer with metadata
+            const finalBuffer = await img.save(null);
+
+            // Send the sticker
+            await sock.sendMessage(chatId, {
+                sticker: finalBuffer
+            }, {
+                quoted: message
+            });
+
+        } catch (error) {
+            console.error('Sticker processing error:', error);
+            await sock.sendMessage(chatId, { text: '❌ Error processing sticker' });
+        }
+
+    } catch (error) {
+        console.error('Error in take command:', error);
+        await sock.sendMessage(chatId, { text: '❌ Error processing command' });
+    }
+}
+
+module.exports = takeCommand; 

@@ -1,6 +1,6 @@
 {
   "name": "batman-md",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "BATMAN MD - Powerful WhatsApp Multi-Device Bot",
   "main": "index.js",
   "scripts": {
