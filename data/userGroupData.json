@@ -6,6 +6,16 @@
       "enabled": true,
       "message": "Welcome {user} to {group}! 🎉",
       "channelId": "120363367299421766@newsletter"
+    },
+    "120363406060030303@g.us": {
+      "enabled": true,
+      "message": "🎉 Welcome to {group}! 🎉\n\nHello {user} 👋\n\n📖 Description:\n{description}\n\n✨ Follow the rules, respect everyone, and enjoy your stay.\n\n🚀 Welcome aboard!",
+      "channelId": "120363367299421766@newsletter"
+    },
+    "120363407011406267@g.us": {
+      "enabled": true,
+      "message": "🎉 Welcome to {group}! 🎉\n\nHello {user} 👋\n\n📖 Description:\n{description}\n\n✨ Follow the rules, respect everyone, and enjoy your stay.\n\n🚀 Welcome aboard!",
+      "channelId": "120363367299421766@newsletter"
     }
   },
   "goodbye": {
@@ -13,11 +23,26 @@
       "enabled": true,
       "message": "Goodbye {user} 👋",
       "channelId": "120363367299421766@newsletter"
+    },
+    "120363407011406267@g.us": {
+      "enabled": true,
+      "message": "👋 Goodbye, {user}!\nYou've left {group}.\nThank you for being part of our community. We appreciate the time, conversations, and moments shared with us.\n🌟 We wish you success, happiness, and all the best in your future endeavors.\n🚪 The door is always open if you decide to return someday.\n💙 Farewell from everyone in {group}.",
+      "channelId": "120363367299421766@newsletter"
+    },
+    "120363406060030303@g.us": {
+      "enabled": true,
+      "message": "🚪 Departure Notice\nWell, {user} has left {group}.\n😐 You won't be missed. 📦 Your membership has been successfully cancelled. 🕊️ The group will somehow find a way to carry on.\nWe wish you nothing but buffering, low battery warnings, and weak Wi-Fi signals.\n👋 Goodbye and good luck out there.",
+      "channelId": "120363367299421766@newsletter"
     }
   },
-  "chatbot": {},
+  "chatbot": {
+    "120363406060030303@g.us": true
+  },
   "warnings": {},
   "sudo": [
-    "2347072182960@s.whatsapp.net"
+    "2347072182960@s.whatsapp.net",
+    "2347072182960",
+    "119868695265423",
+    "236038987497606"
   ]
 }

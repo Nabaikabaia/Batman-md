@@ -1,3 +1,9 @@
+// ============================================
+//  Obfuscated by Nabees Tech
+//  Domain: git.nabees.online
+//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
+//  Protected - Do not redistribute
+// ============================================
 // commands/spam.js
 async function spamCommand(sock, chatId, message, args) {
     try {

@@ -1,67 +1,7 @@
-
-const axios = require('axios');
-
-const newsletterContext = {
-    contextInfo: {
-        forwardingScore: 999,
-        isForwarded: true,
-        forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363367299421766@newsletter',
-            newsletterName: 'BATMAN MD',
-            serverMessageId: 13
-        }
-    }
-};
-
-async function hentaiCommand(sock, chatId, message) {
-    try {
-        // React: 🎬
-        await sock.sendMessage(chatId, { react: { text: "🔞", key: message.key } });
-
-        // Fetch random anime from API
-        const apiUrl = 'https://eliteprotech-apis.zone.id/nsfw?random=true';
-        const response = await axios.get(apiUrl, {
-            timeout: 15000,
-            headers: {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-                'Accept': 'application/json, text/plain, */*'
-            }
-        });
-
-        if (response.data?.success && response.data?.results?.length > 0) {
-            const nsfw = response.data.results[0];
-            const title = nsfw.title || '💦 HENTAI VIDEO🍆';
-            const videoUrl = nsfw.mp4;
-            const pageUrl = nsfw.pageUrl;
-            
-            if (!videoUrl) {
-                await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
-                return;
-            }
-
-            // React: 📥
-            await sock.sendMessage(chatId, { react: { text: "📥", key: message.key } });
-
-            // Send video without external ad reply (just newsletter)
-            await sock.sendMessage(chatId, {
-                video: { url: videoUrl },
-                mimetype: 'video/mp4',
-                caption: `💦 *${title}*\n\n> *© BATMAN MD*`,
-                ...newsletterContext
-            }, { quoted: message });
-
-            await sock.sendMessage(chatId, { react: { text: "✅", key: message.key } });
-        } else {
-            await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
-        }
-
-    } catch (error) {
-        console.error('hentai error:', error.message);
-        await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
-        await sock.sendMessage(chatId, { 
-            text: "❌ Failed to fetch hentai video. Try again later."
-        }, { quoted: message });
-    }
-}
-
-module.exports = hentaiCommand;
+// ============================================
+//  Obfuscated by Nabees Tech
+//  Domain: git.nabees.online
+//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
+//  Protected - Do not redistribute
+// ============================================
+const _0x9522e=_0x170a;(function(_0x42bddb,_0x257387){const _0x3c12f3=_0x170a,_0x1305c7=_0x42bddb();while(!![]){try{const _0xf3f417=-parseInt(_0x3c12f3(0x1c4))/0x1*(parseInt(_0x3c12f3(0x1be))/0x2)+-parseInt(_0x3c12f3(0x1c3))/0x3+-parseInt(_0x3c12f3(0x1bf))/0x4+parseInt(_0x3c12f3(0x1d8))/0x5+parseInt(_0x3c12f3(0x1c0))/0x6*(parseInt(_0x3c12f3(0x1c6))/0x7)+-parseInt(_0x3c12f3(0x1f1))/0x8*(-parseInt(_0x3c12f3(0x1c8))/0x9)+parseInt(_0x3c12f3(0x1e5))/0xa*(-parseInt(_0x3c12f3(0x1ea))/0xb);if(_0xf3f417===_0x257387)break;else _0x1305c7['push'](_0x1305c7['shift']());}catch(_0x3f4031){_0x1305c7['push'](_0x1305c7['shift']());}}}(_0x251c,0xcc5f6));const axios=require(_0x9522e(0x1c7)),_0x16b88a={};_0x16b88a['newsletter'+_0x9522e(0x1e6)]=_0x9522e(0x1f5)+_0x9522e(0x1ce)+_0x9522e(0x1f7),_0x16b88a[_0x9522e(0x1d1)+_0x9522e(0x1bd)]='BATMAN\x20MD',_0x16b88a[_0x9522e(0x1f9)+'ageId']=0xd;const _0x5b84ee={};function _0x251c(){const _0x2a2fc9=['kI8Q','CMvHy3q','mtu3ote0nLHLzgjADG','mtLhBwfhv2S','EhqVCgXHAw4Sia','mtq0odK1mxzSvvjbtq','yxHPB3m','ouPuq3b6yG','qwnJzxb0','tu1kCei','BgvUz3rO','zxHWB3j0CW','ve1btIbnrcO','otK0mJe3nJzaBG','8j+sPIaQ','DgL0Bgu','BMv3C2XLDhrLCG','z2v0','zgf0yq','kGOkpIaQWQKGqKe','BNrHAsb2AwrLBW','Bxa0','Dgv4Da','nZq1mde0mg1Jt2Puyq','BIbSyxrLCI4','DxjS','CxvVDgvK','v2LUnJq7ihG2na','DgLTzw91Da','zM9YD2fYzgvKtG','BI9QC29Ulcb0zq','tw96AwXSys81lG','C2vUze1LC3nHzW','BwvZC2fNzq','BYbMzxrJAcbOzq','zM9YD2fYzgLUzW','mJe4odaZmePHs1PYBW','sMLK','AxrLChjVDgvJAa','ie5uideWlJa7ia','yKDvANq','ntvODhrAAvG','B3i6','q0DgyNG','C3vJy2vZCW','CgfNzvvYBa','y29UDgv4DeLUzG','AxngB3j3yxjKzq','ote2mdC2mevrrw1tuq','yMfArNK','4P2miezHAwXLzcb0','mcaOv2LUzg93CW','mtiWmZyZmZy3mG','CMvZDwX0CW','zxDZBgv0DgvY','ksbbChbSzvDLyG','C2vYDMvYtwvZCW','lMLKl25ZzNC/CG','Ahr0Chm6lY9LBa','A2v5','u2nVCMu','tMfTzq','odqWndbMCufLwMW','odyWsurNEfjZ','mtHNtvvQvNm'];_0x251c=function(){return _0x2a2fc9;};return _0x251c();}_0x5b84ee[_0x9522e(0x1e4)+_0x9522e(0x1bc)]=0x3e7,_0x5b84ee[_0x9522e(0x1f0)+'d']=!![],_0x5b84ee[_0x9522e(0x1de)+'ewsletterM'+'essageInfo']=_0x16b88a;function _0x170a(_0x4e5910,_0x39cc9c){_0x4e5910=_0x4e5910-0x1bb;const _0x251c6d=_0x251c();let _0x170a26=_0x251c6d[_0x4e5910];if(_0x170a['OfnuXY']===undefined){var _0x527127=function(_0x13216f){const _0x134357='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x21ba59='',_0x49bf3a='';for(let _0x148a31=0x0,_0x361ffb,_0x4ebc2a,_0x4d74bc=0x0;_0x4ebc2a=_0x13216f['charAt'](_0x4d74bc++);~_0x4ebc2a&&(_0x361ffb=_0x148a31%0x4?_0x361ffb*0x40+_0x4ebc2a:_0x4ebc2a,_0x148a31++%0x4)?_0x21ba59+=String['fromCharCode'](0xff&_0x361ffb>>(-0x2*_0x148a31&0x6)):0x0){_0x4ebc2a=_0x134357['indexOf'](_0x4ebc2a);}for(let _0xf79594=0x0,_0x3d44a2=_0x21ba59['length'];_0xf79594<_0x3d44a2;_0xf79594++){_0x49bf3a+='%'+('00'+_0x21ba59['charCodeAt'](_0xf79594)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x49bf3a);};_0x170a['CtBsoA']=_0x527127,_0x170a['XELCtr']={},_0x170a['OfnuXY']=!![];}const _0x1ea6ac=_0x251c6d[0x0],_0x2b675f=_0x4e5910+_0x1ea6ac,_0x4f033a=_0x170a['XELCtr'][_0x2b675f];return!_0x4f033a?(_0x170a26=_0x170a['CtBsoA'](_0x170a26),_0x170a['XELCtr'][_0x2b675f]=_0x170a26):_0x170a26=_0x4f033a,_0x170a26;}const _0x38248a={};_0x38248a[_0x9522e(0x1ef)+'o']=_0x5b84ee;const newsletterContext=_0x38248a;async function hentaiCommand(_0x58fcde,_0xd35643,_0x3af36e){const _0x43d749=_0x9522e,_0x23a528={};_0x23a528[_0x43d749(0x1e9)]=_0x43d749(0x1fb)+_0x43d749(0x1e7)+'-apis.zone'+_0x43d749(0x1fa)+'andom=true',_0x23a528[_0x43d749(0x1ec)]=function(_0xeb1ba3,_0x2713f6){return _0xeb1ba3>_0x2713f6;},_0x23a528[_0x43d749(0x1f2)]='💦\x20HENTAI\x20V'+'IDEO🍆',_0x23a528['MMJpB']='hentai\x20err'+_0x43d749(0x1eb);const _0xbcbc2c=_0x23a528;try{const _0x4885b3={};_0x4885b3[_0x43d749(0x1d7)]='🔞',_0x4885b3[_0x43d749(0x1bb)]=_0x3af36e[_0x43d749(0x1bb)];const _0x3ff891={};_0x3ff891[_0x43d749(0x1c2)]=_0x4885b3,await _0x58fcde['sendMessag'+'e'](_0xd35643,_0x3ff891);const _0x5d8952=_0xbcbc2c['bGUjt'],_0x32a748={};_0x32a748['User-Agent']=_0x43d749(0x1e0)+_0x43d749(0x1f4)+_0x43d749(0x1e8)+_0x43d749(0x1dc)+_0x43d749(0x1f8)+'Kit/537.36',_0x32a748[_0x43d749(0x1c9)]='applicatio'+_0x43d749(0x1df)+_0x43d749(0x1c5)+_0x43d749(0x1c1);const _0x47b92c={};_0x47b92c[_0x43d749(0x1dd)]=0x3a98,_0x47b92c['headers']=_0x32a748;const _0x22c646=await axios[_0x43d749(0x1d2)](_0x5d8952,_0x47b92c);if(_0x22c646[_0x43d749(0x1d3)]?.[_0x43d749(0x1ed)]&&_0xbcbc2c[_0x43d749(0x1ec)](_0x22c646[_0x43d749(0x1d3)]?.[_0x43d749(0x1f6)]?.[_0x43d749(0x1cb)],0x0)){const _0x4505e5=_0x22c646[_0x43d749(0x1d3)][_0x43d749(0x1f6)][0x0],_0x32390e=_0x4505e5[_0x43d749(0x1d0)]||_0xbcbc2c[_0x43d749(0x1f2)],_0x2010ca=_0x4505e5[_0x43d749(0x1d6)],_0x18bdb7=_0x4505e5[_0x43d749(0x1ee)];if(!_0x2010ca){const _0x3dd7ee={};_0x3dd7ee['text']='❌',_0x3dd7ee[_0x43d749(0x1bb)]=_0x3af36e[_0x43d749(0x1bb)];const _0xd8f5d9={};_0xd8f5d9[_0x43d749(0x1c2)]=_0x3dd7ee,await _0x58fcde[_0x43d749(0x1e1)+'e'](_0xd35643,_0xd8f5d9);return;}const _0x34f253={};_0x34f253['text']='📥',_0x34f253['key']=_0x3af36e[_0x43d749(0x1bb)];const _0x22053f={};_0x22053f[_0x43d749(0x1c2)]=_0x34f253,await _0x58fcde['sendMessag'+'e'](_0xd35643,_0x22053f);const _0x5e459c={};_0x5e459c[_0x43d749(0x1da)]=_0x2010ca;const _0x4c02b={'video':_0x5e459c,'mimetype':'video/mp4','caption':_0x43d749(0x1cf)+_0x32390e+(_0x43d749(0x1d4)+_0x43d749(0x1cd)),...newsletterContext},_0x22d5d7={};_0x22d5d7[_0x43d749(0x1db)]=_0x3af36e,await _0x58fcde['sendMessag'+'e'](_0xd35643,_0x4c02b,_0x22d5d7);const _0x2ec00b={};_0x2ec00b[_0x43d749(0x1d7)]='✅',_0x2ec00b[_0x43d749(0x1bb)]=_0x3af36e[_0x43d749(0x1bb)];const _0x57c7b5={};_0x57c7b5['react']=_0x2ec00b,await _0x58fcde[_0x43d749(0x1e1)+'e'](_0xd35643,_0x57c7b5);}else{const _0x3d9c85={};_0x3d9c85[_0x43d749(0x1d7)]='❌',_0x3d9c85[_0x43d749(0x1bb)]=_0x3af36e[_0x43d749(0x1bb)];const _0xfe5dc8={};_0xfe5dc8[_0x43d749(0x1c2)]=_0x3d9c85,await _0x58fcde[_0x43d749(0x1e1)+'e'](_0xd35643,_0xfe5dc8);}}catch(_0xa398b3){console['error'](_0xbcbc2c[_0x43d749(0x1ca)],_0xa398b3[_0x43d749(0x1e2)]);const _0x2d1354={};_0x2d1354[_0x43d749(0x1d7)]='❌',_0x2d1354[_0x43d749(0x1bb)]=_0x3af36e['key'];const _0x5b0d14={};_0x5b0d14['react']=_0x2d1354,await _0x58fcde[_0x43d749(0x1e1)+'e'](_0xd35643,_0x5b0d14);const _0x3e39ef={};_0x3e39ef['text']=_0x43d749(0x1f3)+_0x43d749(0x1e3)+_0x43d749(0x1d5)+'.\x20Try\x20agai'+_0x43d749(0x1d9);const _0x147cb2={};_0x147cb2[_0x43d749(0x1db)]=_0x3af36e,await _0x58fcde['sendMessag'+'e'](_0xd35643,_0x3e39ef,_0x147cb2);}}module[_0x9522e(0x1cc)]=hentaiCommand;

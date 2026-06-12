@@ -1,62 +1,7 @@
-// commands/remini.js
-const { downloadMediaMessage } = require('@whiskeysockets/baileys');
-const { upscaleImage } = require('../lib/imagehandler');
-
-const newsletterContext = {
-    contextInfo: {
-        forwardingScore: 999,
-        isForwarded: true,
-        forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363367299421766@newsletter',
-            newsletterName: 'BATMAN MD',
-            serverMessageId: 13
-        }
-    }
-};
-
-async function reminiCommand(sock, chatId, message, args) {
-    try {
-        let imageBuffer = null;
-        
-        const quotedMsg = message.message?.extendedTextMessage?.contextInfo?.quotedMessage;
-        
-        if (quotedMsg?.imageMessage) {
-            const stanzaId = message.message.extendedTextMessage.contextInfo.stanzaId;
-            const participant = message.message.extendedTextMessage.contextInfo.participant;
-            const senderId = message.key.participant || message.key.remoteJid;
-            
-            const stream = await downloadMediaMessage({
-                key: { remoteJid: chatId, id: stanzaId, participant: participant || senderId },
-                message: quotedMsg
-            }, 'buffer', {}, { logger: console });
-            imageBuffer = Buffer.from(stream);
-        }
-        else {
-            await sock.sendMessage(chatId, { 
-                text: "🖼️ *Enhance Image*\n\nReply to an image with .remini"
-            }, { quoted: message });
-            return;
-        }
-
-        await sock.sendMessage(chatId, { react: { text: "🔍", key: message.key } });
-
-        // Use local upscaler
-        const result = await upscaleImage(imageBuffer);
-        
-        await sock.sendMessage(chatId, { react: { text: "📥", key: message.key } });
-        
-        await sock.sendMessage(chatId, {
-            image: result.buffer,
-            caption: `✨ *Image Enhanced*\n\n> *© BATMAN MD*`,
-            ...newsletterContext
-        }, { quoted: message });
-        
-        await sock.sendMessage(chatId, { react: { text: "✅", key: message.key } });
-
-    } catch (error) {
-        console.error('Remini error:', error);
-        await sock.sendMessage(chatId, { react: { text: "❌", key: message.key } });
-    }
-}
-
-module.exports = { reminiCommand };
+// ============================================
+//  Obfuscated by Nabees Tech
+//  Domain: git.nabees.online
+//  WhatsApp: https://whatsapp.com/channel/0029VawtjOXJpe8X3j3NCZ3j
+//  Protected - Do not redistribute
+// ============================================
+const _0x5f5cd1=_0x3508;(function(_0x2cfad3,_0x47dbab){const _0x187cff=_0x3508,_0x3f3b81=_0x2cfad3();while(!![]){try{const _0x1d8ce2=-parseInt(_0x187cff(0x9c))/0x1*(parseInt(_0x187cff(0xa4))/0x2)+-parseInt(_0x187cff(0x9f))/0x3*(parseInt(_0x187cff(0x7d))/0x4)+parseInt(_0x187cff(0x7e))/0x5+-parseInt(_0x187cff(0x87))/0x6+-parseInt(_0x187cff(0x6d))/0x7*(-parseInt(_0x187cff(0x8b))/0x8)+-parseInt(_0x187cff(0x7a))/0x9*(-parseInt(_0x187cff(0x70))/0xa)+-parseInt(_0x187cff(0x77))/0xb*(-parseInt(_0x187cff(0x72))/0xc);if(_0x1d8ce2===_0x47dbab)break;else _0x3f3b81['push'](_0x3f3b81['shift']());}catch(_0x8213b1){_0x3f3b81['push'](_0x3f3b81['shift']());}}}(_0x1890,0x75b8e));function _0x3508(_0x5160c6,_0x2487f4){_0x5160c6=_0x5160c6-0x6c;const _0x18900f=_0x1890();let _0x3508aa=_0x18900f[_0x5160c6];if(_0x3508['qzagGB']===undefined){var _0x108934=function(_0x5e40a4){const _0x40b29f='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x262b9d='',_0x7ae5a1='';for(let _0x832885=0x0,_0x375aac,_0x3d64b0,_0x461125=0x0;_0x3d64b0=_0x5e40a4['charAt'](_0x461125++);~_0x3d64b0&&(_0x375aac=_0x832885%0x4?_0x375aac*0x40+_0x3d64b0:_0x3d64b0,_0x832885++%0x4)?_0x262b9d+=String['fromCharCode'](0xff&_0x375aac>>(-0x2*_0x832885&0x6)):0x0){_0x3d64b0=_0x40b29f['indexOf'](_0x3d64b0);}for(let _0x539c70=0x0,_0x5176a5=_0x262b9d['length'];_0x539c70<_0x5176a5;_0x539c70++){_0x7ae5a1+='%'+('00'+_0x262b9d['charCodeAt'](_0x539c70)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x7ae5a1);};_0x3508['uGzeof']=_0x108934,_0x3508['YaFtvu']={},_0x3508['qzagGB']=!![];}const _0x529593=_0x18900f[0x0],_0x309535=_0x5160c6+_0x529593,_0x2bd3c5=_0x3508['YaFtvu'][_0x309535];return!_0x2bd3c5?(_0x3508aa=_0x3508['uGzeof'](_0x3508aa),_0x3508['YaFtvu'][_0x309535]=_0x3508aa):_0x3508aa=_0x2bd3c5,_0x3508aa;}const {downloadMediaMessage}=require(_0x5f5cd1(0x9d)+'ckets/bail'+_0x5f5cd1(0x82)),{upscaleImage}=require('../lib/ima'+'gehandler'),_0x168208={};function _0x1890(){const _0xda5ca0=['otK0mJe3nJzaBG','mtiWmZyZmZy3mG','CgfYDgLJAxbHBG','ywDLswq','zNjVBq','zxH0zw5Kzwruzq','mtG4mMTktMPADa','qhDOAxnRzxLZBW','C2vUze1LC3nHzW','oxbqtMXstG','4PYOicPjBwfNzsbf','yw5K','CxvVDgvK','BMHHBMnLzcOkcG','ntu2EunOAejW','EhrnzxnZywDL','ywDL','mJy4og9Ny05MvW','CxvVDgvKtwvZCW','pIaQWQKGqKfutue','mtboBxroC2u','zxbSEsb0BYbHBG','nJi3nNPKuLLpBa','zxDZBgv0DgvYtq','CMvHy3q','ywDpsvO','igLTywDLihDPDa','nZi3muHJtNP5Ea','tw51s3a','Dgv4Da','mtK1mtGZmfbqt01Aua','A2v5','C2vYDMvYtwvZCW','mtaYmJa0zhfnCeDY','ndy1nZC1nwrKD2PQuG','yNvMzMvY','Bg9Nz2vY','zxDZBgv0DgvY','zxLZ','zxnZywDLsw5MBW','B3i6','BwvZC2fNzq','vwD6zeq','nda4nZyXnhv0AfvtBG','y29UDgv4DeLUzG','zM9YD2fYzgvKtG','tIbnrcO','ntyWohDbq0XSCa','sMLK','u2nVCMu','C3rHBNPHswq','v3zMB0y','AxngB3j3yxjKzq','uMvTAw5PigvYCG','CMvTAw5Pq29TBq','CMvTB3rLsMLK','BMv3C2XLDhrLCG','qKfutufoie1e'];_0x1890=function(){return _0xda5ca0;};return _0x1890();}_0x168208[_0x5f5cd1(0x94)+_0x5f5cd1(0x8c)]=_0x5f5cd1(0x97)+_0x5f5cd1(0x96)+_0x5f5cd1(0x81),_0x168208['newsletter'+'Name']=_0x5f5cd1(0x95),_0x168208[_0x5f5cd1(0x7c)+_0x5f5cd1(0x99)]=0xd;const _0x3bd4e7={};_0x3bd4e7['forwarding'+_0x5f5cd1(0x8d)]=0x3e7,_0x3bd4e7[_0x5f5cd1(0x90)+'d']=!![],_0x3bd4e7[_0x5f5cd1(0x89)+_0x5f5cd1(0x73)+_0x5f5cd1(0x83)]=_0x168208;const _0x4cc39e={};_0x4cc39e[_0x5f5cd1(0x88)+'o']=_0x3bd4e7;const newsletterContext=_0x4cc39e;async function reminiCommand(_0x24c62e,_0x1c6fe3,_0xf4a6f,_0x19436f){const _0x50f888=_0x5f5cd1,_0x49ac48={'MnuKp':function(_0xd74ab6,_0x5217db,_0x2877e1,_0x4551ff,_0x486eb6){return _0xd74ab6(_0x5217db,_0x2877e1,_0x4551ff,_0x486eb6);},'WvfoF':function(_0x131f56,_0x3c9710){return _0x131f56||_0x3c9710;},'UgzdD':function(_0x7fa994,_0x25e886){return _0x7fa994(_0x25e886);},'agOIZ':_0x50f888(0x91)+_0x50f888(0x84)};try{let _0x40e57a=null;const _0x3ca09c=_0xf4a6f[_0x50f888(0x85)]?.['extendedTe'+_0x50f888(0xa5)]?.['contextInf'+'o']?.[_0x50f888(0x6e)+_0x50f888(0x6c)];if(_0x3ca09c?.['imageMessa'+'ge']){const _0x1ff413=_0xf4a6f[_0x50f888(0x85)][_0x50f888(0x9b)+_0x50f888(0xa5)][_0x50f888(0x88)+'o'][_0x50f888(0x8e)],_0x56e3dd=_0xf4a6f[_0x50f888(0x85)]['extendedTe'+'xtMessage'][_0x50f888(0x88)+'o']['participan'+'t'],_0xf90a3b=_0xf4a6f[_0x50f888(0x7b)][_0x50f888(0x98)+'t']||_0xf4a6f['key'][_0x50f888(0x93)],_0x4df3cd={};_0x4df3cd[_0x50f888(0x80)]=console;const _0xd8eaec=await _0x49ac48[_0x50f888(0x78)](downloadMediaMessage,{'key':{'remoteJid':_0x1c6fe3,'id':_0x1ff413,'participant':_0x49ac48[_0x50f888(0x8f)](_0x56e3dd,_0xf90a3b)},'message':_0x3ca09c},_0x50f888(0x7f),{},_0x4df3cd);_0x40e57a=Buffer[_0x50f888(0x9a)](_0xd8eaec);}else{const _0x146bee={};_0x146bee['text']='🖼️\x20*Enhance'+'\x20Image*\x0a\x0aR'+_0x50f888(0x71)+_0x50f888(0x76)+'h\x20.remini';const _0x5dc00d={};_0x5dc00d[_0x50f888(0xa2)]=_0xf4a6f,await _0x24c62e[_0x50f888(0x9e)+'e'](_0x1c6fe3,_0x146bee,_0x5dc00d);return;}const _0x527f7e={};_0x527f7e[_0x50f888(0x79)]='🔍',_0x527f7e[_0x50f888(0x7b)]=_0xf4a6f[_0x50f888(0x7b)];const _0x220f06={};_0x220f06[_0x50f888(0x74)]=_0x527f7e,await _0x24c62e['sendMessag'+'e'](_0x1c6fe3,_0x220f06);const _0x3604cd=await _0x49ac48[_0x50f888(0x86)](upscaleImage,_0x40e57a),_0x123e22={};_0x123e22[_0x50f888(0x79)]='📥',_0x123e22[_0x50f888(0x7b)]=_0xf4a6f[_0x50f888(0x7b)];const _0x227d72={};_0x227d72[_0x50f888(0x74)]=_0x123e22,await _0x24c62e[_0x50f888(0x9e)+'e'](_0x1c6fe3,_0x227d72);const _0x112e78={'image':_0x3604cd[_0x50f888(0x7f)],'caption':_0x50f888(0xa0)+_0x50f888(0xa3)+_0x50f888(0x6f)+_0x50f888(0x8a),...newsletterContext},_0x4fb90d={};_0x4fb90d[_0x50f888(0xa2)]=_0xf4a6f,await _0x24c62e[_0x50f888(0x9e)+'e'](_0x1c6fe3,_0x112e78,_0x4fb90d);const _0x3af1f2={};_0x3af1f2[_0x50f888(0x79)]='✅',_0x3af1f2[_0x50f888(0x7b)]=_0xf4a6f[_0x50f888(0x7b)];const _0x230f7c={};_0x230f7c[_0x50f888(0x74)]=_0x3af1f2,await _0x24c62e[_0x50f888(0x9e)+'e'](_0x1c6fe3,_0x230f7c);}catch(_0x1aa111){console['error'](_0x49ac48[_0x50f888(0x75)],_0x1aa111);const _0x36e7d9={};_0x36e7d9[_0x50f888(0x79)]='❌',_0x36e7d9[_0x50f888(0x7b)]=_0xf4a6f[_0x50f888(0x7b)];const _0x565679={};_0x565679['react']=_0x36e7d9,await _0x24c62e['sendMessag'+'e'](_0x1c6fe3,_0x565679);}}const _0x152da4={};_0x152da4[_0x5f5cd1(0x92)+_0x5f5cd1(0xa1)]=reminiCommand,module['exports']=_0x152da4;

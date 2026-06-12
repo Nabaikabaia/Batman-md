@@ -1,0 +1,7 @@
+{
+  "maxUsers": 15,
+  "adminToken": "df6f8e21db00ce524f5b3f3f7acd69f4",
+  "defaultBotName": "BATMAN MD",
+  "defaultPrefix": ".",
+  "version": "2.0-BETA"
+}
