@@ -13,7 +13,7 @@
     "OWNER_NUMBER": {
       "description": "Your WhatsApp number without + or spaces (e.g., 2349049636843)",
       "required": true,
-      "value": "2349049636843"
+      "value": "234XXXXXXXXXX"
     },
     "PREFIX": {
       "description": "Command prefix (default: .)",
@@ -22,7 +22,7 @@
     },
     "BOT_NAME": {
       "description": "Your bot's display name",
-      "required": false,
+      "required": true,
       "value": "BATMAN MD"
     },
     "NEWSLETTER_JID": {
