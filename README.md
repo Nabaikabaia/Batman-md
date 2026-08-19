@@ -1,7 +1,7 @@
 # 🦇 BATMAN MD
 
 <div align="center">
-  <img src="https://cdn.ornzora.eu.cc/e1721f20-0a7d-4d7a-a2e3-7bc9f307f600-upload.jpeg">
+  <img src="https://raw.githubusercontent.com/Nabaikabaia/Batman-md/refs/heads/main/data/IMG-20260819-WA0672.jpg">
   
   **A powerful WhatsApp Multi-Device Bot**
   
